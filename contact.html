@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contact us</title>
+   <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("2ETY6QOsE02yFcXx0"); // Yahan apni Public Key dalein
+   })();
+</script>
+
+<div class="contact-container">
+    <h2>Contact Us:</h2>
+    <h7>1.for any queries contact us now:</h7> <br />
+    <h7>2.if you have any exam suggestions or you not found your target exam folder then contact now immediately:</h7>
+    <form id="contactForm">
+        <input type="text" id="name" name="from_name" placeholder="Enter your name" required>
+        <input type="email" id="email" name="user_email" placeholder="enter your email " required>
+        <textarea id="message" name="message" placeholder="told your suggestion" required></textarea>
+        <button type="submit" id="btn">Send Message</button>
+    </form>
+</div>
+
+<script src="data.js"></script>
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const btn = document.getElementById('btn');
+    btn.innerText = 'Sending...';
+
+    // EmailJS bhej raha hai
+    emailjs.sendForm('service_sr26xsd', 'template_gm8ayrk', this)
+        .then(function() {
+            alert('Message sent Successfully🎉!');
+            btn.innerText = 'Send Message';
+            document.getElementById('contactForm').reset(); // Form clear karne ke liye
+        }, function(error) {
+            alert('sorry, error to send message : ' + JSON.stringify(error));
+            btn.innerText = 'Send Message';
+        });
+});
+
+</script>
+
+</body>
+
+</html>
