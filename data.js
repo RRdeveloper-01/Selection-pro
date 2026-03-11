@@ -37,8 +37,14 @@ let content = document.getElementsByClassName('coming');
 // Loop through each element with the class 'coming' and add event listener
 for (let i = 0; i < content.length; i++) {
   content[i].addEventListener('click', function() {
-    alert("This content is coming soon 🔜");
+    Swal.fire({
+  text: 'This content is coming soon🎯',
+  
+  imageUrl: 'logo.jpeg', 
+  imageWidth: 100,
+  imageHeight: 100,
+  imageAlt: 'Custom icon',
+  confirmButtonText: 'Check it later'
+    })
   });
 }
-
-
