@@ -20,7 +20,29 @@
 
   gtag('config', 'G-EM0R8NFRM0');
 </script>
-  </head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Kya is website par sabhi exams ke PYQs milenge?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Haan, hamari website par NEET, JEE, SSC aur Railway ke pichle saalon ke papers available hain."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Kya Mock Tests free hain?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ji haan, hum jald hi sabhi exams ke liye bilkul free mock test series la rahe hain."
+    }
+  }]
+}
+</script>
+
+ </head>
 <body>
    
     <nav class="navbar">
@@ -95,7 +117,203 @@
             </div>
         </div>
     </div>
+    <!--newsletter-->
+    <div class="newsletter-container">
+    <div class="newsletter-content">
+        <h3>📩 Updates Miss Na Karein!</h3>
+        <p id="status-msg">Get immediately information on the latest PYQs (Previous Year Questions) and Mock Tests immediately. .</p>
+        
+        <form id="newsletterForm" class="news-form">
+            <input type="email" name="email" id="emailInput" placeholder="Enter your email address..." required>
+            <button type="submit" id="submitBtn">Subscribe Now</button>
+        </form>
+    </div>
+</div>
+
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxREKjOlxY9VxrtLrfOHhHBQVGkPTU0gkkCIMwukLGe6-pb481LErM3zRYrBkOSdKFdug/exec';
     
+    const form = document.getElementById('newsletterForm');
+    const msg = document.getElementById('status-msg');
+    const btn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      // Button ko disable kar rahe hain taaki baar-baar click na ho
+      btn.disabled = true;
+      btn.innerHTML = "Sending...";
+      
+      // Data bhej rahe hain Google Sheet mein
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            // Success hone par message badal jayega
+            msg.innerHTML = "✅ Success! Aap subscribe ho chuke hain. Apna email check karein!";
+            msg.style.color = "#2ecc71";
+            form.style.display = "none"; // Form gayab ho jayega
+        })
+        .catch(error => {
+            // Error aane par
+            msg.innerHTML = "❌ Error! Try again .";
+            msg.style.color = "#ff4757";
+            btn.disabled = false;
+            btn.innerHTML = "Subscribe Now";
+            console.error('Error!', error.message);
+        });
+    });
+</script>
+
+
+<style>
+    .newsletter-container {
+        background-color: #1a5f7a; /* Aapki site ke blue se milta julta */
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+        margin: 40px 0;
+        border-radius: 10px; /* Cards ki tarah rounded corners */
+    }
+    .newsletter-content h3 { font-size: 24px; margin-bottom: 10px; }
+    .newsletter-content p { font-size: 16px; margin-bottom: 20px; opacity: 0.9; }
+    .news-form {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .news-form input {
+        padding: 12px 20px;
+        width: 300px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .news-form button {
+        background-color: #ffcc00; /* Yellow button dhyan khinchne ke liye */
+        color: #333;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .news-form button:hover { background-color: #e6b800; transform: translateY(-2px); }
+</style>
+
+    <!-- Faq-->
+    <div class="faq">
+    <h2 style="text-align: center; color: #1a5f7a; margin-bottom: 30px;">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <button class="faq-question">1. Kya is website par sabhi exams ke PYQs milenge?</button>
+        <div class="faq-answer">
+            <p>Haan, humne NEET, JEE, SSC, aur Railway jaise bade exams ke pichle saalon ke official organized papers pdf available karaya hai jesse sabhi students ko exam pattern ka feel ho sake.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">2. Boards Exams ke liye kab tak study material aayega?</button>
+        <div class="faq-answer">
+            <p>Hum bohot jald Class 10th aur 12th (CBSE/State Boards) ke liye sample papers, notes aur previous year papers launch karne wale hain. Stay tuned!</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">3. Kya Mock Tests ke liye koi fees deni hogi?</button>
+        <div class="faq-answer">
+            <p>Nahi! Humara mission sabko quality education dena hai. Isliye hum jald hi sabhi major exams ke liye <strong>Free Mock Test Series</strong> la rahe hain.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">4. Kya main papers ko PDF mein download kar sakta hoon?</button>
+        <div class="faq-answer">
+            <p>Bilkul, sabhi papers PDF format mein honge taaki aap unhe download karke offline bhi padh sakein ya print nikal sakein.</p>
+        </div>
+    </div>
+
+</div>
+
+<style>
+    /* Accordion Styling */
+    .faq-item {
+        border-bottom: 1px solid #d1d8e0;
+        margin-bottom: 10px;
+    }
+
+    .faq-question {
+        background-color: #ffffff;
+        color: #2c3e50;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        font-size: 1.1rem;
+        font-weight: bold;
+        transition: 0.4s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-question:after {
+        content: '\002B'; /* Plus symbol (+) */
+        color: #1a5f7a;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2212"; /* Minus symbol (-) */
+    }
+
+    .faq-question:hover, .active {
+        background-color: #ebf5fb;
+        color: #1a5f7a;
+    }
+
+    .faq-answer {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    .faq-answer p {
+        padding: 15px 0;
+        margin: 0;
+        color: #555;
+    }
+</style>
+
+<script>
+    // JavaScript for Accordion Functionality
+    var acc = document.getElementsByClassName("faq-question");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            
+            this.classList.toggle("active");
+
+
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+    <!-- faq-->
     <div class="privacy">
       <a href="contact.html"> contact us </a>  <span>
           /
