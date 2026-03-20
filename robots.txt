@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.selectionpro.in/sitemap.xml
+Sitemap: https://selectionpro.in/sitemap.xml
