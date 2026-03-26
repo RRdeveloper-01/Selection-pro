@@ -1,0 +1,167 @@
+[
+  {
+    "question_no": 1,
+    "question": "The point (-2, 4, -5) lies in which octant?",
+    "options": {
+      "A": "II",
+      "B": "III",
+      "C": "VI",
+      "D": "VIII"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The distance of the point P(3, 4, 5) from the yz-plane is:",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "√50"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "If the distance between the points (x, -8, 4) and (3, -5, 4) is 5, then the value of x is:",
+    "options": {
+      "A": "7 or -1",
+      "B": "3 or -7",
+      "C": "-3 or 7",
+      "D": "1 or -7"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The coordinates of the foot of the perpendicular from the point (a, b, c) on the x-axis are:",
+    "options": {
+      "A": "(a, 0, 0)",
+      "B": "(0, b, 0)",
+      "C": "(0, 0, c)",
+      "D": "(a, b, 0)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Locus of a point for which y = 0 and z = 0 is:",
+    "options": {
+      "A": "x-axis",
+      "B": "y-axis",
+      "C": "z-axis",
+      "D": "xy-plane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A line is parallel to the xy-plane. Which of the following is true for all points on this line?",
+    "options": {
+      "A": "x coordinate is constant",
+      "B": "y coordinate is constant",
+      "C": "z coordinate is constant",
+      "D": "None of these"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "The ratio in which the yz-plane divides the line segment joining (-2, 4, 7) and (3, -5, 8) is:",
+    "options": {
+      "A": "2:3 externally",
+      "B": "2:3 internally",
+      "C": "3:2 internally",
+      "D": "3:2 externally"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "If the origin is the centroid of a triangle with vertices (2a, 2, 6), (-4, 3b, -10) and (8, 14, 2c), then (a, b, c) is:",
+    "options": {
+      "A": "(-2, -16/3, 2)",
+      "B": "(2, 16/3, -2)",
+      "C": "(-2, 16/3, 2)",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The coordinates of the point which divides the join of (1, 2, 3) and (3, 4, 5) in the ratio 2:3 externally are:",
+    "options": {
+      "A": "(-3, -2, -1)",
+      "B": "(5, 6, 7)",
+      "C": "(7, 8, 9)",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Distance of the point (1, 2, 3) from the origin is:",
+    "options": {
+      "A": "√14",
+      "B": "14",
+      "C": "6",
+      "D": "√6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The perpendicular distance of the point P(x, y, z) from the x-axis is:",
+    "options": {
+      "A": "√(y² + z²)",
+      "B": "√(x² + y²)",
+      "C": "√(x² + z²)",
+      "D": "x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "If the points (1, 0, -3), (2, 4, 5) and (3, 8, k) are collinear, then k is:",
+    "options": {
+      "A": "13",
+      "B": "11",
+      "C": "7",
+      "D": "15"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The coordinates of the fourth vertex of a parallelogram ABCD whose three vertices are A(3, -1, 2), B(1, 2, -4) and C(-1, 1, 2) are:",
+    "options": {
+      "A": "(1, -2, 8)",
+      "B": "(-1, 2, 8)",
+      "C": "(1, 2, -8)",
+      "D": "(1, 2, 8)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The points (0, 7, 10), (-1, 6, 6) and (-4, 9, 6) form which type of triangle?",
+    "options": {
+      "A": "Equilateral",
+      "B": "Isosceles Right-angled",
+      "C": "Scalene",
+      "D": "Right-angled but not isosceles"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Length of the median through vertex A of a triangle with vertices A(0, 0, 6), B(0, 4, 0) and C(6, 0, 0) is:",
+    "options": {
+      "A": "7",
+      "B": "√34",
+      "C": "√43",
+      "D": "5"
+    },
+    "answer": "A"
+  }
+]

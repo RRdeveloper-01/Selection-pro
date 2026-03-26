@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "In an adiabatic process, the state of a gas is changed from (P₁, V₁, T₁) to (P₂, V₂, T₂). Which of the following is correct?",
+    "options": {
+      "A": "P₁V₁^γ = P₂V₂^γ",
+      "B": "T₁V₁^γ = T₂V₂^γ",
+      "C": "P₁V₁ = P₂V₂",
+      "D": "T₁V₁^(γ-1) = T₂V₂^(γ-1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The efficiency of a Carnot engine operating between temperatures 600K and 300K is:",
+    "options": {
+      "A": "50%",
+      "B": "30%",
+      "C": "75%",
+      "D": "100%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "For a monoatomic gas, the value of adiabatic exponent (γ) is:",
+    "options": {
+      "A": "5/3",
+      "B": "7/5",
+      "C": "4/3",
+      "D": "1.6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Internal energy of an ideal gas depends only on its:",
+    "options": {
+      "A": "Temperature",
+      "B": "Pressure",
+      "C": "Volume",
+      "D": "Molecular size"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "In which of the following processes is the work done zero?",
+    "options": {
+      "A": "Isochoric",
+      "B": "Isobaric",
+      "C": "Isothermal",
+      "D": "Adiabatic"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A cyclic process is shown in the P-V diagram. The net work done by the system in one cycle is:",
+    "options": {
+      "A": "Area enclosed by the loop",
+      "B": "Zero",
+      "C": "Infinite",
+      "D": "Negative of the area"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "If Q, W, and ΔU are heat added, work done, and change in internal energy, then for an isothermal process:",
+    "options": {
+      "A": "Q = W",
+      "B": "Q = ΔU",
+      "C": "ΔU = W",
+      "D": "Q = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The molar specific heat at constant pressure (C_p) for a diatomic gas is:",
+    "options": {
+      "A": "7R/2",
+      "B": "5R/2",
+      "C": "3R/2",
+      "D": "R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "An ideal gas expands from volume V₁ to V₂ in three ways: isothermal, adiabatic, and isobaric. Work done is maximum in:",
+    "options": {
+      "A": "Isobaric",
+      "B": "Isothermal",
+      "C": "Adiabatic",
+      "D": "Equal in all"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The second law of thermodynamics implies that:",
+    "options": {
+      "A": "Heat cannot flow from a colder body to a hotter body without work",
+      "B": "Energy is conserved",
+      "C": "ΔU = Q - W",
+      "D": "Absolute zero is reachable"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "During an adiabatic compression, the temperature of the gas:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains constant",
+      "D": "Becomes zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The slope of an adiabatic P-V curve is how many times the slope of an isothermal curve?",
+    "options": {
+      "A": "γ times",
+      "B": "1/γ times",
+      "C": "Equal",
+      "D": "γ² times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "A heat engine rejects 600 J of heat to the sink for every 1000 J of heat absorbed from the source. Its efficiency is:",
+    "options": {
+      "A": "40%",
+      "B": "60%",
+      "C": "33%",
+      "D": "50%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The value of C_p - C_v for an ideal gas is:",
+    "options": {
+      "A": "R",
+      "B": "2R",
+      "C": "R/2",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Entropy of the universe tends to:",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain constant",
+      "D": "Become zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "In a refrigerator, heat is transferred from:",
+    "options": {
+      "A": "Lower temperature to higher temperature",
+      "B": "Higher temperature to lower temperature",
+      "C": "Same temperature",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A gas is compressed at a constant pressure of 50 N/m² from a volume of 10 m³ to 4 m³. Energy of 100 J is then added to the gas by heating. Its internal energy:",
+    "options": {
+      "A": "Increases by 400 J",
+      "B": "Decreases by 200 J",
+      "C": "Increases by 100 J",
+      "D": "Remains same"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "For a cyclic process, the change in internal energy (ΔU) is:",
+    "options": {
+      "A": "Zero",
+      "B": "Positive",
+      "C": "Negative",
+      "D": "Infinity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Work done in an isothermal expansion of n moles of an ideal gas from V₁ to V₂ is:",
+    "options": {
+      "A": "nRT ln(V₂/V₁)",
+      "B": "nRT (V₂ - V₁)",
+      "C": "P(V₂ - V₁)",
+      "D": "nRT (V₁/V₂)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Free expansion of a gas is an:",
+    "options": {
+      "A": "Irreversible process",
+      "B": "Reversible process",
+      "C": "Isothermal process",
+      "D": "Isobaric process"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The temperature of the sink of a Carnot engine is 27°C. If the efficiency is 25%, the temperature of the source is:",
+    "options": {
+      "A": "127°C",
+      "B": "327°C",
+      "C": "100°C",
+      "D": "27°C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The ratio of work done in an adiabatic process to the change in internal energy is:",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "γ",
+      "D": "1/γ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The first law of thermodynamics is a restatement of the law of conservation of:",
+    "options": {
+      "A": "Energy",
+      "B": "Mass",
+      "C": "Momentum",
+      "D": "Charge"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Mayer's relation is:",
+    "options": {
+      "A": "C_p - C_v = R",
+      "B": "C_v - C_p = R",
+      "C": "C_p / C_v = γ",
+      "D": "C_p + C_v = R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "When a gas expands adiabatically:",
+    "options": {
+      "A": "No heat is exchanged",
+      "B": "Temperature remains constant",
+      "C": "Internal energy increases",
+      "D": "Work done is zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Which of the following variables is a state function?",
+    "options": {
+      "A": "Internal Energy",
+      "B": "Work",
+      "C": "Heat",
+      "D": "All of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If a door of a working refrigerator is kept open in a closed room, the room will:",
+    "options": {
+      "A": "Get heated",
+      "B": "Get cooled",
+      "C": "Remain at same temperature",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The work done by the system in a closed path clockwise on a P-V diagram is:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Zero",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Degrees of freedom for a rigid diatomic molecule is:",
+    "options": {
+      "A": "5",
+      "B": "3",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A gas mixture contains 2 moles of He and 1 mole of O₂. The effective value of γ for the mixture is approx:",
+    "options": {
+      "A": "1.5",
+      "B": "1.6",
+      "C": "1.4",
+      "D": "1.3"
+    },
+    "answer": "A"
+  }
+]

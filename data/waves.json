@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A string of linear mass density 0.5 g/m is under a tension of 80 N. The speed of a transverse wave on the string is:",
+    "options": {
+      "A": "400 m/s",
+      "B": "200 m/s",
+      "C": "160 m/s",
+      "D": "80 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The equation of a wave is y = 2 sin(π(0.5x - 200t)). The velocity of the wave is:",
+    "options": {
+      "A": "400 units",
+      "B": "200 units",
+      "C": "100 units",
+      "D": "0.5 units"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "A tuning fork of frequency 480 Hz produces 10 beats per second when sounded with a vibrating sonometer string. What is the frequency of the string?",
+    "options": {
+      "A": "470 or 490 Hz",
+      "B": "480 Hz",
+      "C": "490 Hz",
+      "D": "470 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The fundamental frequency of a closed organ pipe is 250 Hz. The frequency of its second overtone is:",
+    "options": {
+      "A": "1250 Hz",
+      "B": "750 Hz",
+      "C": "500 Hz",
+      "D": "1000 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "An observer moves towards a stationary source of sound with a speed 1/5th of the speed of sound. The percentage increase in apparent frequency is:",
+    "options": {
+      "A": "20%",
+      "B": "5%",
+      "C": "10%",
+      "D": "25%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The speed of sound in a gas is proportional to:",
+    "options": {
+      "A": "Square root of absolute temperature",
+      "B": "Absolute temperature",
+      "C": "Square of temperature",
+      "D": "Independent of temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "When a wave undergoes reflection from a rigid boundary, the phase change is:",
+    "options": {
+      "A": "π",
+      "B": "π/2",
+      "C": "Zero",
+      "D": "2π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "In a stationary wave, the distance between a node and the adjacent antinode is:",
+    "options": {
+      "A": "λ/4",
+      "B": "λ/2",
+      "C": "λ",
+      "D": "2λ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Newton's formula for the speed of sound was corrected by Laplace by assuming the process is:",
+    "options": {
+      "A": "Adiabatic",
+      "B": "Isothermal",
+      "C": "Isobaric",
+      "D": "Isochoric"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Two waves y₁ = A sin(ωt - kx) and y₂ = A sin(ωt - kx + φ) interfere. The resultant intensity is maximum when φ is:",
+    "options": {
+      "A": "2nπ",
+      "B": "(2n+1)π",
+      "C": "π/2",
+      "D": "π/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The intensity of sound becomes 100 times its original value. The increase in intensity level in decibels (dB) is:",
+    "options": {
+      "A": "20 dB",
+      "B": "10 dB",
+      "C": "100 dB",
+      "D": "40 dB"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "A wire of length L is fixed at both ends. It vibrates in its third harmonic. The number of nodes (including ends) is:",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Sound waves do not show:",
+    "options": {
+      "A": "Polarization",
+      "B": "Interference",
+      "C": "Diffraction",
+      "D": "Reflection"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The end correction of an open organ pipe of radius 'r' is approximately:",
+    "options": {
+      "A": "1.2r",
+      "B": "0.6r",
+      "C": "0.3r",
+      "D": "r"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Two sound sources produce 12 beats in 4 seconds. The difference in their frequencies is:",
+    "options": {
+      "A": "3 Hz",
+      "B": "12 Hz",
+      "C": "48 Hz",
+      "D": "4 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The speed of sound in humid air is ______ than in dry air.",
+    "options": {
+      "A": "More",
+      "B": "Less",
+      "C": "Same",
+      "D": "Half"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The harmonics present in an open organ pipe are:",
+    "options": {
+      "A": "All harmonics (1, 2, 3...)",
+      "B": "Only odd harmonics (1, 3, 5...)",
+      "C": "Only even harmonics",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "In a transverse wave, particles of the medium vibrate:",
+    "options": {
+      "A": "Perpendicular to wave propagation",
+      "B": "Parallel to wave propagation",
+      "C": "In a circular path",
+      "D": "They don't vibrate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The ratio of speed of sound in Hydrogen to that in Oxygen (at same T) is:",
+    "options": {
+      "A": "4 : 1",
+      "B": "1 : 4",
+      "C": "16 : 1",
+      "D": "1 : 16"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A standing wave is represented by y = 5 sin(2x) cos(10t). The distance between two nearest nodes is:",
+    "options": {
+      "A": "π/2",
+      "B": "π",
+      "C": "2π",
+      "D": "π/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "If the tension in a guitar string is increased by 21%, its frequency increases by:",
+    "options": {
+      "A": "10%",
+      "B": "21%",
+      "C": "11%",
+      "D": "4.5%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Doppler effect in sound is asymmetric because:",
+    "options": {
+      "A": "Sound requires a medium",
+      "B": "Light is an EM wave",
+      "C": "Sound is a transverse wave",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Shock waves are produced by objects moving with speed:",
+    "options": {
+      "A": "Greater than speed of sound",
+      "B": "Less than speed of sound",
+      "C": "Equal to speed of sound",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The displacement of a string fixed at both ends is y = 0.06 sin(2πx/3) cos(120πt). The wavelength is:",
+    "options": {
+      "A": "3 m",
+      "B": "2 m",
+      "C": "1 m",
+      "D": "6 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The fundamental frequency of a string is f. If it is divided into two parts of lengths l₁ and l₂ such that their fundamental frequencies are f₁ and f₂, then:",
+    "options": {
+      "A": "1/f = 1/f₁ + 1/f₂",
+      "B": "f = f₁ + f₂",
+      "C": "f = √(f₁f₂)",
+      "D": "f² = f₁² + f₂²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Beats are a result of:",
+    "options": {
+      "A": "Interference in time",
+      "B": "Interference in space",
+      "C": "Diffraction",
+      "D": "Refraction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The frequency of a whistle of an engine is 600 Hz. It is moving towards a station with speed 30 m/s. The apparent frequency heard by an observer on the station is (v_sound = 330 m/s):",
+    "options": {
+      "A": "660 Hz",
+      "B": "540 Hz",
+      "C": "600 Hz",
+      "D": "630 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "In a longitudinal wave, the regions of high pressure are called:",
+    "options": {
+      "A": "Compressions",
+      "B": "Rarefactions",
+      "C": "Nodes",
+      "D": "Antinodes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which property of a wave remains constant when it moves from one medium to another?",
+    "options": {
+      "A": "Frequency",
+      "B": "Wavelength",
+      "C": "Velocity",
+      "D": "Amplitude"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The path difference between two points for a phase difference of π is:",
+    "options": {
+      "A": "λ/2",
+      "B": "λ",
+      "C": "λ/4",
+      "D": "2λ"
+    },
+    "answer": "A"
+  }
+]

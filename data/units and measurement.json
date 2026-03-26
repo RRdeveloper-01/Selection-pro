@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If the error in the measurement of radius of a sphere is 2%, then the error in the determination of its volume will be:",
+    "options": {
+      "A": "2%",
+      "B": "4%",
+      "C": "6%",
+      "D": "8%"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The dimensions of (1/μ₀ε₀) are same as that of:",
+    "options": {
+      "A": "Velocity",
+      "B": "Velocity squared",
+      "C": "Acceleration",
+      "D": "Force"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "A screw gauge has a least count of 0.01 mm and there are 50 divisions in its circular scale. The pitch of the screw gauge is:",
+    "options": {
+      "A": "0.25 mm",
+      "B": "0.5 mm",
+      "C": "1.0 mm",
+      "0": "0.01 mm"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "If Force (F), Velocity (V) and Time (T) are taken as fundamental units, then the dimensions of Mass are:",
+    "options": {
+      "A": "[F V⁻¹ T]",
+      "B": "[F V T⁻¹]",
+      "C": "[F V⁻² T]",
+      "D": "[F V⁻¹ T⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The density of a cube is measured by measuring its mass and length of its sides. If the maximum errors in mass and length are 3% and 2% respectively, the maximum error in density is:",
+    "options": {
+      "A": "1%",
+      "B": "5%",
+      "C": "7%",
+      "D": "9%"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following pairs has the same dimensions?",
+    "options": {
+      "A": "Specific heat and Latent heat",
+      "B": "Impulse and Surface Tension",
+      "C": "Moment of Inertia and Moment of Force",
+      "D": "Light year and Wavelength"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "The time period of oscillation of a simple pendulum is T = 2π√(L/g). Measured value of L is 20.0 cm known to 1 mm accuracy and time for 100 oscillations is 90 s using a wrist watch of 1 s resolution. The accuracy in the determination of g is approx:",
+    "options": {
+      "A": "2%",
+      "B": "3%",
+      "C": "1%",
+      "D": "5%"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The dimensions of Planck's constant (h) are the same as that of:",
+    "options": {
+      "A": "Energy",
+      "B": "Linear Momentum",
+      "C": "Angular Momentum",
+      "D": "Power"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "In a Vernier Caliper, 10 divisions of Vernier scale coincide with 9 divisions of Main scale. If 1MSD = 1mm, the least count is:",
+    "options": {
+      "A": "0.1 mm",
+      "B": "0.01 mm",
+      "C": "0.9 mm",
+      "D": "0.09 mm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The unit of Stefan-Boltzmann constant (σ) is:",
+    "options": {
+      "A": "W m⁻² K⁻⁴",
+      "B": "W m² K⁴",
+      "C": "J m⁻² K⁻¹",
+      "D": "W m⁻² K⁻²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "If P represents Radiation Pressure, c represents Speed of Light and Q represents Radiation energy striking unit area per second, then non-zero integers x, y, z such that P^x Q^y c^z is dimensionless are:",
+    "options": {
+      "A": "x=1, y=1, z=1",
+      "B": "x=1, y=-1, z=1",
+      "C": "x=-1, y=1, z=1",
+      "D": "x=1, y=1, z=-1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Dimensions of Solar Constant (energy falling on earth per unit area per unit time) are:",
+    "options": {
+      "A": "[M L⁰ T⁻³]",
+      "B": "[M L T⁻²]",
+      "C": "[M L² T⁻²]",
+      "D": "[M T⁻³]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The percentage error in the measurement of g is (Given g = 4π²L/T²). If error in L is ΔL and in T is ΔT, then:",
+    "options": {
+      "A": "ΔL/L + ΔT/T",
+      "B": "ΔL/L + 2ΔT/T",
+      "C": "ΔL/L - 2ΔT/T",
+      "D": "2ΔL/L + ΔT/T"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "What is the dimension of Magnetic Flux?",
+    "options": {
+      "A": "[M L² T⁻² A⁻¹]",
+      "B": "[M L T⁻² A⁻¹]",
+      "C": "[M L² T⁻¹ A⁻¹]",
+      "D": "[M L⁰ T⁻² A⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A physical quantity is given by X = (a²b³)/(c√d). If percentage errors in a, b, c, d are 1%, 2%, 3%, 4% respectively, then error in X is:",
+    "options": {
+      "A": "7%",
+      "B": "13%",
+      "C": "12%",
+      "D": "10%"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is not a unit of time?",
+    "options": {
+      "A": "Leap year",
+      "B": "Micro second",
+      "C": "Light year",
+      "D": "Lunar month"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Dimensions of Coefficient of Viscosity (η) are:",
+    "options": {
+      "A": "[M L⁻¹ T⁻¹]",
+      "B": "[M L T⁻¹]",
+      "C": "[M L⁻¹ T⁻²]",
+      "D": "[M L⁻² T⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The number of significant figures in 0.007 m² is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "If the units of Length and Force are increased four times, then the unit of Energy will:",
+    "options": {
+      "A": "Increase 8 times",
+      "B": "Increase 16 times",
+      "C": "Decrease 16 times",
+      "D": "Remain same"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Dimension of 'Resistance' in terms of [M, L, T, A] is:",
+    "options": {
+      "A": "[M L² T⁻³ A⁻²]",
+      "B": "[M L² T⁻² A⁻²]",
+      "C": "[M L T⁻³ A⁻¹]",
+      "D": "[M L² T⁻³ A⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The pressure on a square plate is measured by measuring the force on the plate and the length of the sides of the plate. If the maximum error in the measurement of force and length are respectively 4% and 2%, the maximum error in the measurement of pressure is:",
+    "options": {
+      "A": "1%",
+      "B": "2%",
+      "C": "6%",
+      "D": "8%"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 22,
+    "question": "Dimensions of 'Strain' are:",
+    "options": {
+      "A": "[M L⁻¹ T⁻²]",
+      "B": "[M L⁰ T⁰]",
+      "C": "[M⁰ L⁰ T⁰]",
+      "D": "[M L T⁻¹]"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "If x = at + bt², where x is in meters and t in seconds, the unit of b is:",
+    "options": {
+      "A": "m/s",
+      "B": "m/s²",
+      "C": "m·s",
+      "D": "m"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "The dimensional formula of Torque is same as that of:",
+    "options": {
+      "A": "Pressure",
+      "B": "Work",
+      "C": "Momentum",
+      "D": "Impulse"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following is the most accurate instrument?",
+    "options": {
+      "A": "A screw gauge of pitch 1mm and 100 divisions",
+      "B": "A vernier caliper with 20 divisions on sliding scale",
+      "C": "An optical instrument that can measure length with wavelength of light",
+      "D": "A scale with 1mm markings"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "The dimension of permittivity of free space (ε₀) is:",
+    "options": {
+      "A": "[M⁻¹ L⁻³ T⁴ A²]",
+      "B": "[M L³ T⁻⁴ A⁻²]",
+      "C": "[M⁻¹ L⁻³ T² A¹]",
+      "D": "[M L T⁻² A⁻²]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Value of 1 Joule in CGS system is:",
+    "options": {
+      "A": "10⁵ ergs",
+      "B": "10⁷ ergs",
+      "C": "10⁻⁷ ergs",
+      "D": "10⁶ ergs"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Which of the following is a dimensionless quantity?",
+    "options": {
+      "A": "Relative density",
+      "B": "Angle",
+      "C": "Poisson's ratio",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "Dimensional formula of Gravitational Constant (G) is:",
+    "options": {
+      "A": "[M⁻¹ L³ T⁻²]",
+      "B": "[M L³ T⁻²]",
+      "C": "[M⁻² L³ T⁻²]",
+      "D": "[M L T⁻²]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A student measures the diameter of a wire using a screw gauge with least count 0.001 cm. The correct measurement value is:",
+    "options": {
+      "A": "5.3 cm",
+      "B": "5.32 cm",
+      "C": "5.320 cm",
+      "D": "5.3200 cm"
+    },
+    "answer": "C"
+  }
+]

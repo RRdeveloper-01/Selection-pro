@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A hydraulic lift has two pistons with areas 1 cm² and 10 cm². If a force of 5N is applied to the smaller piston, the force exerted by the larger piston is:",
+    "options": {
+      "A": "50 N",
+      "B": "5 N",
+      "C": "0.5 N",
+      "D": "500 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A wooden block is floating in water with 2/5th of its volume above the water surface. The density of the wood is:",
+    "options": {
+      "A": "600 kg/m³",
+      "B": "400 kg/m³",
+      "C": "250 kg/m³",
+      "D": "800 kg/m³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "According to Bernoulli's theorem, for the streamline flow of an ideal liquid, the sum of pressure energy, kinetic energy, and potential energy per unit mass is:",
+    "options": {
+      "A": "Constant",
+      "B": "Variable",
+      "C": "Infinite",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Two soap bubbles of radii r₁ and r₂ (r₁ > r₂) are in contact. The radius of the common interface is:",
+    "options": {
+      "A": "r₁r₂ / (r₁ - r₂)",
+      "B": "r₁r₂ / (r₁ + r₂)",
+      "C": "√(r₁r₂)",
+      "D": "r₁ + r₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Water is flowing through a horizontal pipe of non-uniform cross-section. At a point where the velocity is 0.4 m/s, the pressure is 2000 Pa. At another point where the velocity is 0.5 m/s, the pressure will be:",
+    "options": {
+      "A": "1955 Pa",
+      "B": "2045 Pa",
+      "C": "1900 Pa",
+      "D": "2100 Pa"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A small spherical ball of radius r falls with terminal velocity v through a viscous liquid. The terminal velocity is proportional to:",
+    "options": {
+      "A": "r²",
+      "B": "r",
+      "C": "1/r",
+      "D": "r³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The excess pressure inside a soap bubble of radius R is:",
+    "options": {
+      "A": "4T / R",
+      "B": "2T / R",
+      "C": "T / R",
+      "D": "8T / R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A liquid rises to a height h in a capillary tube of radius r. If the radius is halved, the liquid will rise to a height:",
+    "options": {
+      "A": "2h",
+      "B": "h/2",
+      "C": "4h",
+      "D": "h"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Terminal velocity is reached when:",
+    "options": {
+      "A": "Viscous force + Buoyant force = Weight",
+      "B": "Viscous force = Weight",
+      "C": "Buoyant force = Weight",
+      "D": "Acceleration is maximum"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The work done in blowing a soap bubble of radius R is W. The work done in blowing it to a radius 2R is:",
+    "options": {
+      "A": "4W",
+      "B": "2W",
+      "C": "8W",
+      "D": "W"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A tank is filled with water to a height H. A small hole is made at the side wall at a depth h below the water surface. The range of the water jet on the ground is maximum when h equals:",
+    "options": {
+      "A": "H/2",
+      "B": "H/4",
+      "C": "H",
+      "D": "H/√2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "When two drops of liquid of radius r merge to form a single drop of radius R, then:",
+    "options": {
+      "A": "Energy is released",
+      "B": "Energy is absorbed",
+      "C": "Temperature decreases",
+      "D": "No change in energy"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Venturimeter works on the principle of:",
+    "options": {
+      "A": "Bernoulli's Theorem",
+      "B": "Pascal's Law",
+      "C": "Archimedes' Principle",
+      "D": "Stokes' Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "If the Reynolds number is less than 1000, the flow of liquid is:",
+    "options": {
+      "A": "Streamline",
+      "B": "Turbulent",
+      "C": "Unsteady",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The angle of contact for water and glass is:",
+    "options": {
+      "A": "Acute",
+      "B": "Obtuse",
+      "C": "90°",
+      "D": "0°"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A capillary tube is dipped in water vertically. It is then tilted at an angle 60° with the vertical. The length of the water column in the tube will:",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain same",
+      "D": "Become zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The velocity of efflux of a liquid from an orifice is given by (h is depth of orifice):",
+    "options": {
+      "A": "√(2gh)",
+      "B": "2gh",
+      "C": "gh",
+      "D": "√(gh)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "With the increase in temperature, the viscosity of liquids:",
+    "options": {
+      "A": "Decreases",
+      "B": "Increases",
+      "C": "Remains same",
+      "D": "First increases then decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "For a floating body to be in stable equilibrium, its metacentre should be:",
+    "options": {
+      "A": "Above the centre of gravity",
+      "B": "Below the centre of gravity",
+      "C": "At the centre of gravity",
+      "D": "At the centre of buoyancy"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A piece of ice is floating in a beaker containing water. When the ice melts, the level of water in the beaker will:",
+    "options": {
+      "A": "Remain same",
+      "B": "Fall",
+      "C": "Rise",
+      "D": "Depends on the size of ice"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The force of buoyancy depends on:",
+    "options": {
+      "A": "Density of liquid",
+      "B": "Mass of the body",
+      "C": "Density of the body",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Water is flowing through a tube of radius r with speed v. If this tube is joined to another tube of radius r/2, the speed in the second tube is:",
+    "options": {
+      "A": "4v",
+      "B": "2v",
+      "C": "v/2",
+      "D": "v/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The surface tension of a liquid is 70 dyne/cm. In MKS system, its value is:",
+    "options": {
+      "A": "0.07 N/m",
+      "B": "7 N/m",
+      "C": "70 N/m",
+      "D": "0.007 N/m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Magnus effect is related to:",
+    "options": {
+      "A": "Bernoulli's Theorem",
+      "B": "Archimedes' Principle",
+      "C": "Stokes' Law",
+      "D": "Pascal's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A big drop of radius R is formed by 1000 small droplets of radius r. The ratio of surface energy of big drop to the total surface energy of 1000 droplets is:",
+    "options": {
+      "A": "1:10",
+      "B": "1:100",
+      "C": "10:1",
+      "D": "1:1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Viscous force is analogous to:",
+    "options": {
+      "A": "Friction",
+      "B": "Inertia",
+      "C": "Reaction",
+      "D": "Cohesion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Torricelli's barometer uses mercury because:",
+    "options": {
+      "A": "It has high density",
+      "B": "It is a liquid",
+      "C": "It is shiny",
+      "D": "It is a metal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The pressure at the bottom of a lake is three times that at half the depth. If the atmospheric pressure is 10m of water, the depth of the lake is:",
+    "options": {
+      "A": "20 m",
+      "B": "10 m",
+      "C": "30 m",
+      "D": "15 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A liquid does not wet the solid surface if the angle of contact is:",
+    "options": {
+      "A": "Obtuse",
+      "B": "Acute",
+      "C": "0°",
+      "D": "90°"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A vessel contains oil (density 0.8 g/cm³) floating over mercury (density 13.6 g/cm³). A homogeneous sphere floats with half its volume in oil and half in mercury. The density of the sphere is:",
+    "options": {
+      "A": "7.2 g/cm³",
+      "B": "6.4 g/cm³",
+      "C": "12.8 g/cm³",
+      "D": "3.3 g/cm³"
+    },
+    "answer": "A"
+  }
+]

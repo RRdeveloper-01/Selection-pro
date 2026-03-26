@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "For an isothermal irreversible expansion of an ideal gas, the correct condition is:",
+    "options": {
+      "A": "ΔU = 0, ΔS_total > 0",
+      "B": "ΔU ≠ 0, ΔS_total = 0",
+      "C": "ΔU = 0, ΔS_total = 0",
+      "D": "ΔU ≠ 0, ΔS_total > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The enthalpy of neutralization of a strong acid and a strong base is -57.1 kJ/mol. The enthalpy of neutralization of CH₃COOH and NaOH is -55.2 kJ/mol. The enthalpy of dissociation of CH₃COOH is:",
+    "options": {
+      "A": "1.9 kJ/mol",
+      "B": "-1.9 kJ/mol",
+      "C": "112.3 kJ/mol",
+      "D": "-112.3 kJ/mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "For a reaction to be spontaneous at all temperatures:",
+    "options": {
+      "A": "ΔH < 0 and ΔS > 0",
+      "B": "ΔH > 0 and ΔS < 0",
+      "C": "ΔH < 0 and ΔS < 0",
+      "D": "ΔH > 0 and ΔS > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The work done during the expansion of a gas from 4 dm³ to 6 dm³ against a constant external pressure of 3 atm is: (1 L-atm = 101.32 J)",
+    "options": {
+      "A": "-608 J",
+      "B": "+608 J",
+      "C": "-304 J",
+      "D": "-6 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is an intensive property?",
+    "options": {
+      "A": "Molar heat capacity",
+      "B": "Enthalpy",
+      "C": "Entropy",
+      "D": "Volume"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "In an adiabatic process, no exchange of heat takes place between the system and surroundings. The correct relation is:",
+    "options": {
+      "A": "q = 0",
+      "B": "ΔU = 0",
+      "C": "w = 0",
+      "D": "ΔH = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The standard enthalpy of formation (ΔH_f°) of which of the following is zero at 298 K?",
+    "options": {
+      "A": "Br₂(l)",
+      "B": "Br₂(g)",
+      "C": "C(diamond)",
+      "D": "H(g)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The bond energy of H-H, Br-Br and H-Br are 433, 192 and 364 kJ/mol respectively. The ΔH° for the reaction H₂(g) + Br₂(g) → 2HBr(g) is:",
+    "options": {
+      "A": "-103 kJ",
+      "B": "103 kJ",
+      "C": "-261 kJ",
+      "D": "261 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following always has a negative value for a spontaneous process in an isolated system?",
+    "options": {
+      "A": "ΔG",
+      "B": "ΔS_sys",
+      "C": "ΔS_total",
+      "D": "ΔH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The heat of combustion of Carbon to CO₂ is -393.5 kJ/mol. The heat released upon formation of 35.2 g of CO₂ from Carbon and Oxygen gas is:",
+    "options": {
+      "A": "314.8 kJ",
+      "B": "393.5 kJ",
+      "C": "630 kJ",
+      "D": "100 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "ΔG = ΔH - TΔS was given by:",
+    "options": {
+      "A": "Gibbs-Helmholtz",
+      "B": "Hess",
+      "C": "Clausius",
+      "D": "Kirchhoff"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The entropy of a perfectly crystalline substance is zero at absolute zero. This is:",
+    "options": {
+      "A": "Third Law of Thermodynamics",
+      "B": "Second Law",
+      "C": "First Law",
+      "D": "Zeroth Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g), which of the following is true?",
+    "options": {
+      "A": "ΔH = ΔU - 2RT",
+      "B": "ΔH = ΔU + 2RT",
+      "C": "ΔH = ΔU + RT",
+      "D": "ΔH = ΔU"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A system absorbs 500 J of heat and does 200 J of work. The change in internal energy (ΔU) is:",
+    "options": {
+      "A": "+300 J",
+      "B": "+700 J",
+      "C": "-300 J",
+      "D": "-700 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Entropy change for the phase transition H₂O(l) → H₂O(g) at 100°C (ΔH_vap = 40.66 kJ/mol) is:",
+    "options": {
+      "A": "108.9 J/K-mol",
+      "B": "10.89 J/K-mol",
+      "C": "406.6 J/K-mol",
+      "D": "291 J/K-mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is a state function as well as an extensive property?",
+    "options": {
+      "A": "Internal energy",
+      "B": "Pressure",
+      "C": "Temperature",
+      "D": "Molar enthalpy"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The resonance energy of benzene is calculated using:",
+    "options": {
+      "A": "Hess’s Law",
+      "B": "Beer-Lambert’s Law",
+      "C": "Henry’s Law",
+      "D": "Raoult’s Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "For the process: H₂O(s) → H₂O(l) at 1 atm and 273 K, the value of ΔG is:",
+    "options": {
+      "A": "Zero",
+      "B": "Positive",
+      "C": "Negative",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Bomb calorimeter is used to measure:",
+    "options": {
+      "A": "ΔU",
+      "B": "ΔH",
+      "C": "ΔG",
+      "D": "ΔS"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "During the adsorption of a gas on a solid surface:",
+    "options": {
+      "A": "ΔH < 0, ΔS < 0",
+      "B": "ΔH > 0, ΔS > 0",
+      "C": "ΔH < 0, ΔS > 0",
+      "D": "ΔH > 0, ΔS < 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Unit of Entropy is:",
+    "options": {
+      "A": "J K⁻¹ mol⁻¹",
+      "B": "J mol⁻¹",
+      "C": "J K",
+      "D": "kJ mol⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "If ΔH for a reaction is 35.5 kJ/mol and ΔS is 83.6 J/K-mol, the reaction is spontaneous at:",
+    "options": {
+      "A": "T > 425 K",
+      "B": "T < 425 K",
+      "C": "All temperatures",
+      "D": "No temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following is correct for a cyclic process?",
+    "options": {
+      "A": "ΔU = 0, ΔH = 0",
+      "B": "q = 0",
+      "C": "w = 0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Heat of formation of CO is -110 kJ and CO₂ is -394 kJ. The heat of combustion of CO is:",
+    "options": {
+      "A": "-284 kJ",
+      "B": "-504 kJ",
+      "C": "284 kJ",
+      "D": "110 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Entropy change for an adiabatic reversible process is:",
+    "options": {
+      "A": "Zero",
+      "B": "Positive",
+      "C": "Negative",
+      "D": "Unity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The relationship between ΔH and ΔU for a reaction involving only solids and liquids is:",
+    "options": {
+      "A": "ΔH ≈ ΔU",
+      "B": "ΔH > ΔU",
+      "C": "ΔH < ΔU",
+      "D": "ΔH = ΔU + RT"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Criteria for chemical equilibrium in terms of Gibbs energy is:",
+    "options": {
+      "A": "(dG)_T,P = 0",
+      "B": "(dG)_T,V = 0",
+      "C": "(dA)_T,P = 0",
+      "D": "ΔG > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Molar heat capacity of water at constant pressure is 75 J/K-mol. When 1.0 kJ of heat is supplied to 100 g of water, the rise in temperature is:",
+    "options": {
+      "A": "2.4 K",
+      "B": "1.2 K",
+      "C": "4.8 K",
+      "D": "10 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Total entropy change (ΔS_total) for a spontaneous process is:",
+    "options": {
+      "A": "> 0",
+      "B": "< 0",
+      "C": "= 0",
+      "D": "Constant"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The work done in an open vessel at 300 K when 92 g of Sodium reacts with water is: (Na = 23)",
+    "options": {
+      "A": "-4.98 kJ",
+      "B": "-2.49 kJ",
+      "C": "+4.98 kJ",
+      "D": "Zero"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "At what temperature is the root mean square speed of an atom in an argon gas cylinder equal to the rms speed of a helium gas atom at -20°C? (At. wt. of Ar = 39.9, He = 4.0)",
+    "options": {
+      "A": "2523.7 K",
+      "B": "252.3 K",
+      "C": "25.2 K",
+      "D": "25237 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The average kinetic energy of a gas molecule is:",
+    "options": {
+      "A": "Directly proportional to square root of T",
+      "B": "Directly proportional to T",
+      "C": "Independent of T",
+      "D": "Inversely proportional to T"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "A vessel contains 1 mole of O₂ gas at temperature T. The pressure of the gas is P. An identical vessel containing 1 mole of He gas at temperature 2T has a pressure of:",
+    "options": {
+      "A": "2P",
+      "B": "P",
+      "C": "P/2",
+      "D": "4P"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The ratio of the speed of sound in nitrogen gas to that in helium gas at 300 K is:",
+    "options": {
+      "A": "√(2/7)",
+      "B": "√(1/7)",
+      "C": "√(3/5)",
+      "D": "√3/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following speeds is the highest for a gas at a given temperature?",
+    "options": {
+      "A": "Most probable speed",
+      "B": "Average speed",
+      "C": "Root mean square speed",
+      "D": "All are equal"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The mean free path of gas molecules is inversely proportional to:",
+    "options": {
+      "A": "Square of the molecular diameter",
+      "B": "Molecular diameter",
+      "C": "Square root of the molecular diameter",
+      "D": "Number of molecules"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "If the pressure of an ideal gas is decreased by 10% isothermally, then its volume will increase by approx:",
+    "options": {
+      "A": "11.1%",
+      "B": "10%",
+      "C": "9%",
+      "D": "20%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Degrees of freedom for a non-linear triatomic molecule (like H₂O) is:",
+    "options": {
+      "A": "6",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "According to the Law of Equipartition of Energy, energy associated with each degree of freedom per molecule is:",
+    "options": {
+      "A": "1/2 kT",
+      "B": "kT",
+      "C": "3/2 kT",
+      "D": "RT"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "A balloon contains 500 m³ of helium at 27°C and 1 atm pressure. The volume of the helium at -3°C and 0.5 atm pressure will be:",
+    "options": {
+      "A": "900 m³",
+      "B": "1000 m³",
+      "C": "750 m³",
+      "D": "500 m³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Pressure exerted by a gas on the walls of the container is due to:",
+    "options": {
+      "A": "Change in momentum of molecules during collision",
+      "B": "Repulsion between molecules",
+      "C": "Gravitational pull",
+      "D": "Expansion of molecules"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The total internal energy of 1 mole of a rigid diatomic gas at temperature T is:",
+    "options": {
+      "A": "5/2 RT",
+      "B": "3/2 RT",
+      "C": "RT",
+      "D": "7/2 RT"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The number of translational degrees of freedom is same for all types of molecules. It is:",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "If the temperature of a gas is increased from 200 K to 800 K, its rms speed becomes:",
+    "options": {
+      "A": "Double",
+      "B": "Four times",
+      "C": "Half",
+      "D": "Remains same"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The Dalton’s law of partial pressures is applicable only to:",
+    "options": {
+      "A": "Non-reacting gases",
+      "B": "Reacting gases",
+      "C": "Ideal gases only",
+      "D": "Liquids"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The rms speed of hydrogen molecules at STP is v. The rms speed of oxygen molecules at STP is:",
+    "options": {
+      "A": "v/4",
+      "B": "v/16",
+      "C": "4v",
+      "D": "v/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Mean free path (λ) is related to pressure (P) as:",
+    "options": {
+      "A": "λ ∝ 1/P",
+      "B": "λ ∝ P",
+      "C": "λ ∝ √P",
+      "D": "λ ∝ P²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "At absolute zero temperature, the kinetic energy of molecules becomes:",
+    "options": {
+      "A": "Zero",
+      "B": "Maximum",
+      "C": "Minimum but not zero",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The value of Universal Gas Constant (R) is approximately:",
+    "options": {
+      "A": "8.314 J/mol-K",
+      "B": "1.98 cal/mol-K",
+      "C": "0.0821 L-atm/mol-K",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "For an ideal gas, the compressibility factor (Z) is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "Greater than 1",
+      "D": "Less than 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The ratio of C_p/C_v for a mixture of 1 mole of He and 1 mole of H₂ is:",
+    "options": {
+      "A": "1.5",
+      "B": "1.4",
+      "C": "1.6",
+      "D": "1.33"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Brownian motion provides evidence for:",
+    "options": {
+      "A": "Kinetic theory of matter",
+      "B": "Wave theory of light",
+      "C": "Theory of relativity",
+      "D": "Quantum mechanics"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The volume occupied by 1 mole of an ideal gas at STP is:",
+    "options": {
+      "A": "22.4 liters",
+      "B": "11.2 liters",
+      "C": "44.8 liters",
+      "D": "1 liter"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Average speed of gas molecules is given by:",
+    "options": {
+      "A": "√(8RT / πM)",
+      "B": "√(3RT / M)",
+      "C": "√(2RT / M)",
+      "D": "√(RT / M)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The number of molecules in 1 cm³ of an ideal gas at STP is called:",
+    "options": {
+      "A": "Loschmidt number",
+      "B": "Avogadro number",
+      "C": "Boltzmann constant",
+      "D": "Gas constant"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "If the temperature of a gas is held constant, the pressure of the gas is inversely proportional to its volume. This is:",
+    "options": {
+      "A": "Boyle's Law",
+      "B": "Charles' Law",
+      "C": "Gay-Lussac's Law",
+      "D": "Avogadro's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The kinetic energy per unit volume of an ideal gas is:",
+    "options": {
+      "A": "3/2 P",
+      "B": "2/3 P",
+      "C": "1/2 P",
+      "D": "P"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Mean free path increases with:",
+    "options": {
+      "A": "Decrease in density",
+      "B": "Increase in density",
+      "C": "Increase in pressure",
+      "D": "Decrease in temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A gas at 27°C is heated so that its rms speed is doubled. The final temperature is:",
+    "options": {
+      "A": "927°C",
+      "B": "108°C",
+      "C": "600°C",
+      "D": "1200°C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Specific heat of a gas at constant volume (C_v) for a monoatomic gas is:",
+    "options": {
+      "A": "3/2 R",
+      "B": "5/2 R",
+      "C": "R",
+      "D": "3R"
+    },
+    "answer": "A"
+  }
+]

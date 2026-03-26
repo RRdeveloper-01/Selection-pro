@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Two wires of the same material and same length but diameters in the ratio 1:2 are stretched by the same force. The ratio of potential energy stored in them is:",
+    "options": {
+      "A": "4:1",
+      "B": "1:4",
+      "C": "2:1",
+      "D": "16:1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A steel wire of length 2m and cross-sectional area 0.8 mm² is stretched by 2mm. The energy stored in the wire is (Y = 2 × 10¹¹ N/m²):",
+    "options": {
+      "A": "0.16 J",
+      "B": "1.6 J",
+      "C": "16 J",
+      "D": "0.08 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The bulk modulus of a perfectly rigid body is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "1",
+      "D": "Some finite non-zero value"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "A wire is stretched by 0.01 m by a certain force F. Another wire of same material but double the length and double the diameter is stretched by the same force. The elongation is:",
+    "options": {
+      "A": "0.005 m",
+      "B": "0.01 m",
+      "C": "0.02 m",
+      "D": "0.0025 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The breaking stress of a wire depends upon:",
+    "options": {
+      "A": "Length of the wire",
+      "B": "Radius of the wire",
+      "C": "Material of the wire",
+      "D": "Shape of the cross-section"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The Poisson's ratio of a material is 0.5. If a force is applied to a wire of this material, there is a decrease in the cross-sectional area. The percentage change in its volume is:",
+    "options": {
+      "A": "0%",
+      "B": "1%",
+      "C": "0.5%",
+      "D": "2%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A copper wire and a steel wire of the same length and cross-section are joined end to end. The composite wire is stretched by a force. The ratio of elongation in copper to steel is (Y_s = 2Y_c):",
+    "options": {
+      "A": "2:1",
+      "B": "1:2",
+      "C": "1:1",
+      "D": "4:1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "When a block of mass M is suspended by a long wire of length L, the length of the wire becomes (L + l). The elastic potential energy stored in the extended wire is:",
+    "options": {
+      "A": "1/2 Mgl",
+      "B": "Mgl",
+      "C": "1/2 MgL",
+      "D": "Mg(L+l)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "If the temperature of a wire is increased, its Young's modulus will:",
+    "options": {
+      "A": "Decrease",
+      "B": "Increase",
+      "C": "Remain same",
+      "D": "First increase then decrease"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "A uniform heavy rod of weight W, cross-sectional area A and length L is hung from a fixed support. Young’s modulus of the material is Y. The increase in length of the rod due to its own weight is:",
+    "options": {
+      "A": "WL / 2AY",
+      "B": "WL / AY",
+      "C": "WL / 4AY",
+      "D": "2WL / AY"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The ratio of the lengths of two wires A and B of same material is 1:2 and the ratio of their radii is 2:1. The ratio of their modulus of elasticity will be:",
+    "options": {
+      "A": "1:1",
+      "B": "1:2",
+      "C": "2:1",
+      "D": "4:1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Thermal stress is independent of:",
+    "options": {
+      "A": "Cross-sectional area",
+      "B": "Length of the rod",
+      "C": "Young's modulus",
+      "D": "Temperature change"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "A wire can support a maximum load of W. If the wire is cut to half its length, the maximum load it can support now is:",
+    "options": {
+      "A": "W",
+      "B": "W/2",
+      "C": "2W",
+      "D": "W/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The pressure on a lead shot is increased by 100 atmospheres. If the bulk modulus of lead is 8 × 10⁹ N/m², the percentage compression in volume is (1 atm = 10⁵ N/m²):",
+    "options": {
+      "A": "0.125%",
+      "B": "1.25%",
+      "C": "0.0125%",
+      "D": "12.5%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A spring is stretched by 2cm, it stores E energy. If it is stretched by 10cm, the energy stored will be:",
+    "options": {
+      "A": "25 E",
+      "B": "5 E",
+      "C": "10 E",
+      "D": "100 E"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "In the stress-strain curve, the area under the curve in the elastic region represents:",
+    "options": {
+      "A": "Energy density",
+      "B": "Total Energy",
+      "C": "Young's Modulus",
+      "D": "Poisson's ratio"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "If a wire is stretched to double its original length, the strain is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0.5",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Two wires of same material have lengths L and 2L and radii r and 2r respectively. If their extensions are same, the ratio of forces applied is:",
+    "options": {
+      "A": "1:2",
+      "B": "1:4",
+      "C": "1:1",
+      "D": "2:1"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 19,
+    "question": "The compressibility of water is 4 × 10⁻⁵ per unit atmospheric pressure. The decrease in volume of 100 cm³ of water under a pressure of 100 atm is:",
+    "options": {
+      "A": "0.4 cm³",
+      "B": "4 × 10⁻⁵ cm³",
+      "C": "0.04 cm³",
+      "D": "4 cm³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Modulus of rigidity of a liquid is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "1",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The work done in stretching a wire of cross-section 1 mm² and length 1m through 1mm is (Y = 2 × 10¹¹ N/m²):",
+    "options": {
+      "A": "0.1 J",
+      "B": "1 J",
+      "C": "10 J",
+      "D": "100 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "For a given material, Young's modulus is 2.4 times that of its rigidity modulus. Its Poisson's ratio is:",
+    "options": {
+      "A": "0.2",
+      "B": "0.4",
+      "C": "0.5",
+      "D": "0.3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A rubber cord 10m long is suspended vertically. How much does it stretch under its own weight? (Density = 1500 kg/m³, Y = 5 × 10⁸ N/m²):",
+    "options": {
+      "A": "1.5 × 10⁻⁴ m",
+      "B": "1.5 × 10⁻³ m",
+      "C": "3 × 10⁻⁴ m",
+      "D": "7.5 × 10⁻⁴ m"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "The ratio of stress to strain is constant for a material within:",
+    "options": {
+      "A": "Elastic limit",
+      "B": "Plastic limit",
+      "C": "Fracture point",
+      "D": "Yield point"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A wire of length L and radius r is fixed at one end and a force F applied to the other end produces an extension l. The extension produced in another wire of same material but length 2L and radius 2r by force 2F is:",
+    "options": {
+      "A": "l",
+      "B": "2l",
+      "C": "l/2",
+      "D": "4l"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Shear modulus is also known as:",
+    "options": {
+      "A": "Modulus of rigidity",
+      "B": "Bulk modulus",
+      "C": "Young's modulus",
+      "D": "Poisson's ratio"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The Young's modulus of a wire of length L and radius r is Y. If length is reduced to L/2 and radius r/2, its Young's modulus will be:",
+    "options": {
+      "A": "Y",
+      "B": "2Y",
+      "C": "Y/2",
+      "D": "4Y"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Which of the following substances has the highest elasticity?",
+    "options": {
+      "A": "Steel",
+      "B": "Rubber",
+      "C": "Copper",
+      "D": "Aluminium"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "If a material has a Poisson's ratio of -1, then it is:",
+    "options": {
+      "A": "Physically impossible for most materials",
+      "B": "Perfectly rigid",
+      "C": "A liquid",
+      "D": "A gas"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The potential energy per unit volume is:",
+    "options": {
+      "A": "1/2 × stress × strain",
+      "B": "1/2 × Young's modulus × (strain)²",
+      "C": "Both A and B",
+      "D": "None of these"
+    },
+    "answer": "C"
+  }
+]

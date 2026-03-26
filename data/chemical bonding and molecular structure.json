@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following molecules has the maximum dipole moment?",
+    "options": {
+      "A": "NH₃",
+      "B": "NF₃",
+      "C": "CO₂",
+      "D": "CH₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The hybridisation of atomic orbitals of Nitrogen in NO₂⁺, NO₃⁻ and NH₄⁺ respectively are:",
+    "options": {
+      "A": "sp, sp², sp³",
+      "B": "sp, sp³, sp²",
+      "C": "sp², sp, sp³",
+      "D": "sp², sp³, sp"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "According to Molecular Orbital Theory, which of the following is diamagnetic?",
+    "options": {
+      "A": "N₂",
+      "B": "O₂",
+      "C": "B₂",
+      "D": "C₂⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The shape of XeF₄ molecule according to VSEPR theory is:",
+    "options": {
+      "A": "Square planar",
+      "B": "Tetrahedral",
+      "C": "Octahedral",
+      "D": "Pyramidal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following contains both ionic and covalent bonds?",
+    "options": {
+      "A": "KCN",
+      "B": "KCl",
+      "C": "CH₄",
+      "D": "H₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The bond order of O₂⁺ is:",
+    "options": {
+      "A": "2.5",
+      "B": "2",
+      "C": "1.5",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following has a pπ-dπ back bonding?",
+    "options": {
+      "A": "PO₄³⁻",
+      "B": "NO₃⁻",
+      "C": "CO₃²⁻",
+      "D": "BO₃³⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The H-N-H bond angle in NH₃ is less than 109.5° because of:",
+    "options": {
+      "A": "Lone pair-bond pair repulsion",
+      "B": "Lone pair-lone pair repulsion",
+      "C": "Bond pair-bond pair repulsion",
+      "D": "High electronegativity of N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Which molecule/ion out of the following does not exist?",
+    "options": {
+      "A": "He₂",
+      "B": "Li₂",
+      "C": "Be₂⁺",
+      "D": "H₂⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The strength of hydrogen bonding is maximum in:",
+    "options": {
+      "A": "H-F ... H-F",
+      "B": "H-O ... H-O",
+      "C": "H-N ... H-N",
+      "D": "H-S ... H-S"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "In which of the following pairs, both species have the same geometry?",
+    "options": {
+      "A": "SiF₄, SF₄",
+      "B": "XeF₂, CO₂",
+      "C": "BF₃, NH₃",
+      "D": "PCl₅, IF₅"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Fajans' rule predicts that a cation with small size and high charge will favor:",
+    "options": {
+      "A": "Covalent character",
+      "B": "Ionic character",
+      "C": "Metallic character",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The formal charge on the central oxygen atom in O₃ is:",
+    "options": {
+      "A": "+1",
+      "B": "0",
+      "C": "-1",
+      "D": "+2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The number of σ and π bonds in benzene (C₆H₆) are:",
+    "options": {
+      "A": "12σ, 3π",
+      "B": "6σ, 3π",
+      "C": "9σ, 3π",
+      "D": "12σ, 6π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Isoelectronic pair among the following is:",
+    "options": {
+      "A": "ClO₂⁻, ClF₂⁺",
+      "B": "CO₂, NO₂",
+      "C": "CO, N₂⁺",
+      "D": "O₂, F₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The lattice energy of an ionic compound depends on:",
+    "options": {
+      "A": "Charge and size of ions",
+      "B": "Size only",
+      "C": "Charge only",
+      "D": "Polarizability"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following has the shortest bond length?",
+    "options": {
+      "A": "O₂²⁺",
+      "B": "O₂",
+      "C": "O₂⁻",
+      "D": "O₂²⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Intramolecular hydrogen bonding is found in:",
+    "options": {
+      "A": "o-Nitrophenol",
+      "B": "p-Nitrophenol",
+      "C": "Water",
+      "D": "Ethanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The bond angle of H₂O (104.5°) is less than H₂S (92°) because:",
+    "options": {
+      "A": "Oxygen is more electronegative than Sulfur",
+      "B": "Sulfur has vacant d-orbitals",
+      "C": "Lone pair repulsion is higher in H₂S",
+      "D": "Atomic size of O is larger"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "In PCl₅, the three equatorial bonds are ______ than the two axial bonds.",
+    "options": {
+      "A": "Shorter",
+      "B": "Longer",
+      "C": "Same length",
+      "D": "Weaker"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Metallic bond strength depends on:",
+    "options": {
+      "A": "Number of valence electrons",
+      "B": "Electronegativity",
+      "C": "Lattice energy",
+      "D": "Dipole moment"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The total number of lone pairs in I₃⁻ is:",
+    "options": {
+      "A": "9",
+      "B": "3",
+      "C": "6",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Hybridization of Iodine in IF₇ is:",
+    "options": {
+      "A": "sp³d³",
+      "B": "sp³d²",
+      "C": "sp³d",
+      "D": "d²sp³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Which of the following is an electron-deficient molecule?",
+    "options": {
+      "A": "B₂H₆",
+      "B": "C₂H₆",
+      "C": "PH₃",
+      "D": "SiH₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The boiling point of HF is higher than HCl due to:",
+    "options": {
+      "A": "Hydrogen bonding",
+      "B": "Van der Waals forces",
+      "C": "Ionic character",
+      "D": "Polarization"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Resonance occurs because of the delocalization of:",
+    "options": {
+      "A": "π electrons",
+      "B": "σ electrons",
+      "C": "Protons",
+      "D": "Lone pairs only"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following has a linear shape?",
+    "options": {
+      "A": "BeCl₂",
+      "B": "SnCl₂",
+      "C": "SO₂",
+      "D": "H₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Paramagnetism of O₂ is explained by:",
+    "options": {
+      "A": "Molecular Orbital Theory",
+      "B": "Valence Bond Theory",
+      "C": "VSEPR Theory",
+      "D": "Lewis Structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A coordinate bond is formed by:",
+    "options": {
+      "A": "Sharing a pair of electrons from one atom",
+      "B": "Equal sharing of electrons",
+      "C": "Transfer of electrons",
+      "D": "Overlap of s-orbitals"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Which molecule has the highest bond energy?",
+    "options": {
+      "A": "N₂",
+      "B": "O₂",
+      "C": "F₂",
+      "D": "C₂"
+    },
+    "answer": "A"
+  }
+]

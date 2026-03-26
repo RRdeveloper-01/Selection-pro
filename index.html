@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Selection pro| Download PYQs</title>
     <meta name="description" content="Access a complete collection of Previous Year Questions (PYQs) for all competitive exams. Download free PDF papers for SSC, UPSC, Banking, and more to excel in your exams."/>
+    <meta name="keywords" content="Selection Pro, All Exams PYQs, Previous Year Questions, Mock Test Series, Free Study Strategy, Sarkari Exam Preparation, Competitive Exam PYQs, Online Mock Test, Selection Pro Strategy, Exam Syllabus, Practice Papers">
+
     <link rel="icon" type="image/png" href="favicon.png">
 
     <link rel="stylesheet" href="style.css">
@@ -44,13 +46,71 @@
 
  </head>
 <body>
+        <input type="checkbox" id="menu-toggle">
+
+    <header class="header">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="logo">
+                    <h1 class="logo">Selection<span>Pro</span></h1>
+        </div>
+  <div class="search-icon" onclick="openSearch()">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+         
+</div>
+  <div id="search-overlay">
+        <span class="close-btn" onclick="closeSearch()">&times;</span>
+        
+        <div class="search-input-container">
+            <input type="text" id="main-search" placeholder="Search here(Ex: pyqs, Mock test,books etc.)..." onkeyup="filterSuggestions()">
+         <ul id="suggestions-list">
+             <li ><a href="jeemains-strategy-plan-and-pyqs.html">Jee mains strategy and pyqs</a></li>
+             <li ><a href="jeeadvanced-strategy-plan-and-pyqs.html">Jee advanced strategy and pyqs</a></li>
+             <li ><a href="cuetug-strategy-plan-and-pyqs.html">Cuet ug strategy and pyqs</a></li>
+            <li ><a href="Gate-strategy-plan-and-pyqs.html">Gate strategy and pyqs</a></li>
+             <li ><a href="neet-strategy-plan-and-pyqs.html">neet strategy and pyqs</a></li>
+             <li ><a href="aiims-strategy-plan-and-pyqs.html">aiims strategy and pyqs</a></li>
+             <li ><a href="jipmer-strategy-plan-and-pyqs.html">jipmer strategy and pyqs</a></li>
+             <li ><a href="ssccgl-strategy-plan-and-pyqs.html">ssc cgl strategy and pyqs</a></li>
+             <li ><a href="sscchsl-strategy-plan-and-pyqs.html">ssc chsl strategy and pyqs</a></li>             
+             <li ><a href="rbi-strategy-plan-and-pyqs.html">RBI strategy and pyqs</a></li>
+             <li ><a href="rrb-strategy-plan-and-pyqs.html">RRB NTPC strategy and pyqs</a></li>
+             <li ><a href="ibpspo-strategy-plan-and-pyqs.html">IBPS PO strategy and pyqs</a></li>  
+             <li ><a href="sbiclerk-strategy-plan-and-pyqs.html">SBI CLERK strategy and pyqs</a></li>    
+             <li ><a href="english_mock_test.html">English medium mock test series</a></li>
+             <li ><a href="hindi_mock_test.html">Hindi medium mock test series</a></li>
+             <li ><a href="/mock/jee_mains_mock_test.html">Jee mains free Mock test series</a></li>
+             <li ><a href="/mock/cuet_mock_test.html">Cuet(ug) free Mock test series</a></li>             
+             </ul>
+            </div>
+  </div>
+            
+    </header>
+
+    <nav class="side-menu">
+        <a href="index.html">Home</a>
+        <a href="exam.html">Official papers </a>
+        <a href="/resources /resources.html">Study resources </a>
+        <a href="english_mock_test.html">Mock test</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contactus</a>
+        <a href="disclaimer">Disclaimer</a>
+        <a href="privacy.html">privacy policy</a>
+    </nav>
+
+    <label for="menu-toggle" class="overlay"></label>
    
     <nav class="navbar">
-        <h1 class="logo">Selection<span>Pro</span></h1>
+
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="exam.html">Exams</a></li>
-            <li><a href="contact.html">contact us</a></li>
+            <li ><a class="active" href="index.html">Home</a></li>
+            <li><a href="exam.html">Official papers</a></li>
+            <li><a href="/resources /resources.html">Study resources</a></li>
+           <li><a href="english_mock_test.html">Mock test</a></li>
 
         </ul>
     </nav>
@@ -60,30 +120,10 @@
         <h2>Start your exam preparation and achieve your goals. </h2>
         <p>Previous year questions of all competitive and entrance exams at one place.</p>
 
-        <div class="search-container">
-  <input type="text" id="searchInput" placeholder="🔎search exam(e.g. JEE,NEET,SSC)..." onkeyup="searchFunction()">
-<ul id="itemList" style="display: none;">
-    <li><a href="jeemains-strategy-plan-and-pyqs.html">JEE MAINS</a></li>
-    <li><a href="jeeadvanced-strategy-plan-and-pyq.html">JEE ADVANCED</a></li>
-    <li><a href="cuetug-strategy-plan-and-pyqs.html">CUET (UG)</a></li>
-    <li><a href="Gate-strategy-plan-and-pyqs.html">GATE</a></li>
-    <li><a href="neet-strategy-plan-and-pyqs.html">NEET</a></li>
-    <li><a href="aiims-strategy-plan-and-pyqs.html">AIIMS</a></li>
-    <li><a href="aiims-strategy-plan-and-pyqs.html">JIPMER</a></li>
-    <li><a href="ssccgl-strategy-plan-and-pyqs.html">SSC CGL</a></li>
-    <li><a href="sscchsl-strategy-plan-and-pyqs.html">SSC CHSL</a></li>
-    <li><a href="rrb-strategy-plan-and-pyqs.html">RRB</a></li>
-    <li><a href="ibpspo-strategy-plan-and-pyqs.html">IBPS PO</a></li>
-    <li><a href="sbiclerk-strategy-plan-and-pyqs.html">SBI CLERK</a></li>
-    <li><a href="rbi-strategy-plan-and-pyqs.html">RBI</a></li>
-</ul>
-
 </div>
-</div>
-
-    <div style="background: #ff4757; color: white; padding: 10px; text-align: center; font-weight: bold;">
-   📢Notice:This is to inform all students that we are soon launching Mock Tests for all upcoming competitive exams.So We recommend that you regularly check our platform for the latest updates and the official launch date. <a href="#" style="color: yellow;"></a>
-</div>
+<a class="notice" href="#subscribe "><img src="note.webp" alt="Subscribe now" width="100%"/></a>
+<a class="notice"href="english_mock_test.html"><img src="notice.png" alt="All Exams Mock test" width="95%" /></a>
+   
 
     <div class="container">
         <h2 class="section-title">Popular Exams</h2>
@@ -115,7 +155,7 @@
         </div>
     </div>
     <!--newsletter-->
-    <div class="newsletter-container">
+    <div id="subscribe" class="newsletter-container">
     <div class="newsletter-content">
         <h3>📩 Updates Miss Na Karein!</h3>
         <p id="status-msg">Get immediately information on the latest PYQs (Previous Year Questions) and Mock Tests immediately. .</p>
@@ -127,77 +167,10 @@
     </div>
 </div>
 
-<script>
-
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxREKjOlxY9VxrtLrfOHhHBQVGkPTU0gkkCIMwukLGe6-pb481LErM3zRYrBkOSdKFdug/exec';
-    
-    const form = document.getElementById('newsletterForm');
-    const msg = document.getElementById('status-msg');
-    const btn = document.getElementById('submitBtn');
-
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      
-      // Button ko disable kar rahe hain taaki baar-baar click na ho
-      btn.disabled = true;
-      btn.innerHTML = "Sending...";
-      
-      // Data bhej rahe hain Google Sheet mein
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            // Success hone par message badal jayega
-            msg.innerHTML = "✅ Success! Aap subscribe ho chuke hain. Apna email check karein!";
-            msg.style.color = "#2ecc71";
-            form.style.display = "none"; // Form gayab ho jayega
-        })
-        .catch(error => {
-            // Error aane par
-            msg.innerHTML = "❌ Error! Try again .";
-            msg.style.color = "#ff4757";
-            btn.disabled = false;
-            btn.innerHTML = "Subscribe Now";
-            console.error('Error!', error.message);
-        });
-    });
-</script>
 
 
-<style>
-    .newsletter-container {
-        background-color: #1a5f7a; /* Aapki site ke blue se milta julta */
-        color: white;
-        padding: 40px 20px;
-        text-align: center;
-        margin: 40px 0;
-        border-radius: 10px; /* Cards ki tarah rounded corners */
-    }
-    .newsletter-content h3 { font-size: 24px; margin-bottom: 10px; }
-    .newsletter-content p { font-size: 16px; margin-bottom: 20px; opacity: 0.9; }
-    .news-form {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-    .news-form input {
-        padding: 12px 20px;
-        width: 300px;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-    }
-    .news-form button {
-        background-color: #ffcc00; /* Yellow button dhyan khinchne ke liye */
-        color: #333;
-        padding: 12px 25px;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-    .news-form button:hover { background-color: #e6b800; transform: translateY(-2px); }
-</style>
+
+   
 
     <!-- Faq-->
     <div class="faq">
@@ -232,85 +205,6 @@
     </div>
 
 </div>
-
-<style>
-    /* Accordion Styling */
-    .faq-item {
-        border-bottom: 1px solid #d1d8e0;
-        margin-bottom: 10px;
-    }
-
-    .faq-question {
-        background-color: #ffffff;
-        color: #2c3e50;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        outline: none;
-        font-size: 1.1rem;
-        font-weight: bold;
-        transition: 0.4s;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .faq-question:after {
-        content: '\002B'; /* Plus symbol (+) */
-        color: #1a5f7a;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-    }
-
-    .active:after {
-        content: "\2212"; /* Minus symbol (-) */
-    }
-
-    .faq-question:hover, .active {
-        background-color: #ebf5fb;
-        color: #1a5f7a;
-    }
-
-    .faq-answer {
-        padding: 0 18px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease-out;
-    }
-
-    .faq-answer p {
-        padding: 15px 0;
-        margin: 0;
-        color: #555;
-    }
-</style>
-
-<script>
-    // JavaScript for Accordion Functionality
-    var acc = document.getElementsByClassName("faq-question");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            
-            this.classList.toggle("active");
-
-
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
-    }
-</script>
-
-    <!-- faq-->
     <div class="privacy">
       <a href="contact.html"> contact us </a>  <span>
           /
@@ -331,6 +225,65 @@
    </center> 
    
   
+
+<script>
+    // JavaScript for Accordion Functionality
+    var acc = document.getElementsByClassName("faq-question");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            
+            this.classList.toggle("active");
+
+
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxREKjOlxY9VxrtLrfOHhHBQVGkPTU0gkkCIMwukLGe6-pb481LErM3zRYrBkOSdKFdug/exec';
+    
+    const form = document.getElementById('newsletterForm');
+    const msg = document.getElementById('status-msg');
+    const btn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      // Button ko disable kar rahe hain taaki baar-baar click na ho
+      btn.disabled = true;
+      btn.innerHTML = "Sending...";
+      
+      // Data bhej rahe hain Google Sheet mein
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            // Success hone par message badal jayega
+            msg.innerHTML = "✅ Success! Aap subscribe ho chuke hain. Apna email check karein!";
+            msg.style.color = "#2ecc71";
+            form.style.display = "none"; // Form gayab ho jayega
+        })
+        .catch(error => {
+            // Error aane par
+            msg.innerHTML = "❌ Error! Try again .";
+            msg.style.color = "#ff4757";
+            btn.disabled = false;
+            btn.innerHTML = "Subscribe Now";
+            console.error('Error!', error.message);
+        });
+    });
+    
+        
+    
+
+</script>
+
+    
+
 <script src="data.js"></script>
 
 </body>

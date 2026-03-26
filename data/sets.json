@@ -1,0 +1,334 @@
+[
+  {
+    "question_no": 1,
+    "question": "If A = {x : x is a letter in the word 'APPLE'}, then the cardinal number n(A) is:",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The number of subsets of a set containing 3 elements is:",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "9",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "If A and B are two sets such that A ⊂ B, then A ∪ B is equal to:",
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "Φ",
+      "D": "A ∩ B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The shaded region in a Venn diagram representing (A ∪ B)' is:",
+    "options": {
+      "A": "Region outside both A and B",
+      "B": "Common region of A and B",
+      "C": "Region only in A",
+      "D": "Entire region of A and B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "For any two sets A and B, A - B is equal to:",
+    "options": {
+      "A": "A ∩ B'",
+      "B": "A' ∩ B",
+      "C": "A ∪ B'",
+      "D": "A' ∪ B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "In a town of 800 people, 500 speak Hindi and 400 speak English. How many speak both?",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "50",
+      "D": "150"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following is a singleton set?",
+    "options": {
+      "A": "{x : x² = 9 and x is even}",
+      "B": "{x : x is a prime number between 8 and 10}",
+      "C": "{x : x + 5 = 5}",
+      "D": "Both B and C"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 8,
+    "question": "According to De Morgan's Law, (A ∩ B)' is equal to:",
+    "options": {
+      "A": "A' ∪ B'",
+      "B": "A' ∩ B'",
+      "C": "A ∪ B",
+      "D": "A ∩ B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The power set of an empty set Φ has how many elements?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "If n(A) = 15, n(B) = 20 and n(A ∪ B) = 30, then n(A ∩ B) is:",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "15",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "If A = {1, 2, 3} and B = {3, 4, 5}, then the symmetric difference A Δ B is:",
+    "options": {
+      "A": "{1, 2, 4, 5}",
+      "B": "{1, 2, 3, 4, 5}",
+      "C": "{3}",
+      "D": "{1, 2}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The number of non-empty subsets of a set with n elements is:",
+    "options": {
+      "A": "2ⁿ - 1",
+      "B": "2ⁿ",
+      "C": "2ⁿ⁻¹",
+      "D": "n² - 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If A and B are disjoint sets, then n(A ∪ B) is equal to:",
+    "options": {
+      "A": "n(A) + n(B)",
+      "B": "n(A) + n(B) - n(A ∩ B)",
+      "C": "n(A) - n(B)",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following is true for any set A?",
+    "options": {
+      "A": "A ∩ A' = Φ",
+      "B": "A ∪ A' = U (Universal Set)",
+      "C": "A - A = Φ",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "If n(U) = 700, n(A) = 200, n(B) = 300 and n(A ∩ B) = 100, then n(A' ∩ B') is:",
+    "options": {
+      "A": "300",
+      "B": "400",
+      "C": "600",
+      "D": "500"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The set {x : x is a real number and x² + 1 = 0} is a:",
+    "options": {
+      "A": "Null set",
+      "B": "Singleton set",
+      "C": "Infinite set",
+      "D": "{1, -1}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "If A = {Φ, {Φ}}, then the power set P(A) has how many elements?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "In a group of 50 students, 30 like tea, 25 like coffee and 16 like both. How many like neither tea nor coffee?",
+    "options": {
+      "A": "11",
+      "B": "39",
+      "C": "9",
+      "D": "21"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "word": "The set (A - B) ∪ (B - A) is equivalent to:",
+    "options": {
+      "A": "(A ∪ B) - (A ∩ B)",
+      "B": "A ∪ B",
+      "C": "A ∩ B",
+      "D": "A - B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "If A, B and C are three sets, then A ∩ (B ∪ C) is equal to:",
+    "options": {
+      "A": "(A ∩ B) ∪ (A ∩ C)",
+      "B": "(A ∪ B) ∩ (A ∪ C)",
+      "C": "A ∪ (B ∩ C)",
+      "0": "Φ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The interval [a, b) represents the set:",
+    "options": {
+      "A": "{x : a ≤ x < b}",
+      "B": "{x : a < x ≤ b}",
+      "C": "{x : a ≤ x ≤ b}",
+      "D": "{x : a < x < b}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "If n(A) = m, the number of relations from A to A is:",
+    "options": {
+      "A": "2^(m²)",
+      "B": "2^m",
+      "C": "m²",
+      "D": "2m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The complement of the universal set is:",
+    "options": {
+      "A": "Empty set",
+      "B": "Universal set",
+      "C": "The set itself",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "A set is called 'Finite' if its elements can be:",
+    "options": {
+      "A": "Counted and ending at a natural number",
+      "B": "Represented on a number line",
+      "C": "Listed in alphabetical order",
+      "D": "Divided by 2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "If A = {x : x is a multiple of 3} and B = {x : x is a multiple of 5}, then A ∩ B is:",
+    "options": {
+      "A": "{x : x is a multiple of 15}",
+      "B": "{x : x is a multiple of 8}",
+      "C": "{x : x is a multiple of 3 or 5}",
+      "D": "Φ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The number of elements in the power set P(P(Φ)) is:",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "4",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is an example of an infinite set?",
+    "options": {
+      "A": "The set of points on a line segment",
+      "B": "The set of days in a week",
+      "C": "The set of months in a year",
+      "D": "The set of prime numbers less than 100"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "If A ⊆ B and B ⊆ C, then:",
+    "options": {
+      "A": "A ⊆ C",
+      "B": "C ⊆ A",
+      "C": "A = C",
+      "D": "B = Φ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The intersection of any set A with the empty set Φ is:",
+    "options": {
+      "A": "Φ",
+      "B": "A",
+      "C": "U",
+      "D": "A'"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The set of all even prime numbers is:",
+    "options": {
+      "A": "{2}",
+      "B": "{2, 4, 6...}",
+      "C": "Φ",
+      "D": "{2, 3, 5}"
+    },
+    "answer": "A"
+  }
+]
+
+

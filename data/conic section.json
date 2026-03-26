@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The number of common tangents to the circles x^2 + y^2 - 4x - 6y - 12 = 0 and x^2 + y^2 + 6x + 18y + 26 = 0 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "If the line lx + my + n = 0 is a tangent to the parabola y^2 = 4ax, then the condition is:",
+    "options": {
+      "A": "ln = am^2",
+      "B": "lm = an^2",
+      "C": "ln = am",
+      "D": "n = am/l"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The eccentricity of the ellipse 9x^2 + 25y^2 = 225 is:",
+    "options": {
+      "A": "4/5",
+      "B": "3/5",
+      "C": "2/5",
+      "D": "1/5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The locus of the point of intersection of perpendicular tangents to the parabola y^2 = 4ax is:",
+    "options": {
+      "A": "x = a",
+      "B": "x = -a",
+      "C": "y = a",
+      "D": "y = -a"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "The length of the latus rectum of the hyperbola 16x^2 - 9y^2 = 144 is:",
+    "options": {
+      "A": "32/3",
+      "B": "9/2",
+      "C": "8/3",
+      "D": "18/5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "If a circle passes through the point (0, 0), (a, 0) and (0, b), then its center is:",
+    "options": {
+      "A": "(a, b)",
+      "B": "(a/2, b/2)",
+      "C": "(-a/2, -b/2)",
+      "D": "(b/2, a/2)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "The angle between the tangents drawn from the point (1, 4) to the parabola y^2 = 4x is:",
+    "options": {
+      "A": "π/6",
+      "B": "π/4",
+      "C": "π/3",
+      "D": "π/2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "The sum of the focal distances of any point on the ellipse x^2/a^2 + y^2/b^2 = 1 is:",
+    "options": {
+      "A": "2a",
+      "B": "2b",
+      "C": "a + b",
+      "D": "2e"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The equation of the director circle of the hyperbola x^2/a^2 - y^2/b^2 = 1 (a > b) is:",
+    "options": {
+      "A": "x^2 + y^2 = a^2 + b^2",
+      "B": "x^2 + y^2 = a^2 - b^2",
+      "C": "x^2 + y^2 = b^2 - a^2",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "The area of the triangle formed by the tangents from the point (h, k) to the circle x^2 + y^2 = a^2 and their chord of contact is:",
+    "options": {
+      "A": "a(h^2 + k^2 - a^2)^(3/2) / (h^2 + k^2)",
+      "B": "a(h^2 + k^2 - a^2) / (h^2 + k^2)",
+      "C": "(h^2 + k^2 - a^2)^(3/2) / a",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "If the vertex of a parabola is (0, 0) and the focal chord is y = 2x - 4, then the latus rectum is:",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "2",
+      "D": "16"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "The product of the perpendiculars from the foci of an ellipse upon any tangent is:",
+    "options": {
+      "A": "a^2",
+      "B": "b^2",
+      "C": "ab",
+      "D": "a/b"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The asymptotes of the hyperbola xy = hx + ky are:",
+    "options": {
+      "A": "x=k, y=h",
+      "B": "x=h, y=k",
+      "C": "x=0, y=0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The length of the common chord of the circles x^2 + y^2 = 4 and x^2 + y^2 - 4x = 0 is:",
+    "options": {
+      "A": "√3",
+      "B": "2√3",
+      "C": "4",
+      "D": "2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Minimum distance between the curves y^2 = 4x and x^2 + y^2 - 12x + 31 = 0 is:",
+    "options": {
+      "A": "√5",
+      "B": "√5 - 1",
+      "C": "√5 + 1",
+      "D": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "If e1 and e2 are eccentricities of a hyperbola and its conjugate hyperbola, then 1/e1^2 + 1/e2^2 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The intercept made by the circle x^2 + y^2 - 4x - 6y - 12 = 0 on the x-axis is:",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "6",
+      "D": "10"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Equation of tangent to y^2 = 16x which is perpendicular to the line x + 2y + 3 = 0 is:",
+    "options": {
+      "A": "y = 2x + 2",
+      "B": "y = 2x + 4",
+      "C": "2x - y + 2 = 0",
+      "D": "y = 2x + 8"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The locus of the mid-point of the chord of the circle x^2 + y^2 = 4 which subtends a right angle at the origin is:",
+    "options": {
+      "A": "x^2 + y^2 = 1",
+      "B": "x^2 + y^2 = 2",
+      "C": "x^2 + y^2 = 4",
+      "D": "x + y = 2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "If the eccentricities of the ellipse x^2/a^2 + y^2/b^2 = 1 and x^2/16 + y^2/25 = 1 are equal, then a/b is:",
+    "options": {
+      "A": "4/5",
+      "B": "5/4",
+      "C": "3/4",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The number of normals that can be drawn from a point to a parabola is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Equation of the chord of the circle x^2 + y^2 = 25 whose mid-point is (3, -1) is:",
+    "options": {
+      "A": "3x - y = 10",
+      "B": "3x + y = 10",
+      "C": "x - 3y = 10",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The distance between the directrices of the ellipse x^2/36 + y^2/20 = 1 is:",
+    "options": {
+      "A": "18",
+      "B": "12",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The point of intersection of the tangents at 't1' and 't2' on the parabola y^2 = 4ax is:",
+    "options": {
+      "A": "(at1t2, a(t1+t2))",
+      "B": "(a(t1+t2), at1t2)",
+      "C": "(at1^2, at2^2)",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The focal chord of y^2 = 16x is a tangent to (x-6)^2 + y^2 = 2. Then its slope is:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "Both A and B",
+      "D": "2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "Maximum number of points of intersection of an ellipse and a hyperbola is:",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Locus of the point from which tangents to the circles x^2 + y^2 = a^2 and x^2 + y^2 = b^2 are perpendicular is:",
+    "options": {
+      "A": "x^2 + y^2 = a^2 + b^2",
+      "B": "x^2 + y^2 = a^2 - b^2",
+      "C": "x^2 + y^2 = (a+b)^2",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The area of the triangle formed by the asymptotes and any tangent to the hyperbola xy = c^2 is:",
+    "options": {
+      "A": "c^2",
+      "B": "2c^2",
+      "C": "4c^2",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "Condition for the line y = mx + c to be a tangent to the ellipse x^2/a^2 + y^2/b^2 = 1 is:",
+    "options": {
+      "A": "c^2 = a^2m^2 + b^2",
+      "B": "c^2 = a^2m^2 - b^2",
+      "C": "c = am + b",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The length of the tangent from the point (5, 1) to the circle x^2 + y^2 + 6x - 4y - 3 = 0 is:",
+    "options": {
+      "A": "7",
+      "B": "49",
+      "C": "√49",
+      "D": "None"
+    },
+    "answer": "A"
+  }
+]

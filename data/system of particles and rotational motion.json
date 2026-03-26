@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A solid sphere and a hollow sphere of the same mass and same radius are rolled down on an inclined plane. Which one reaches the bottom first?",
+    "options": {
+      "A": "Solid sphere",
+      "B": "Hollow sphere",
+      "C": "Both together",
+      "D": "Depends on the angle of inclination"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A thin rod of length L and mass M is bent at its midpoint into an L-shape. The moment of inertia of this bent rod about an axis passing through the corner and perpendicular to its plane is:",
+    "options": {
+      "A": "ML²/12",
+      "B": "ML²/6",
+      "C": "ML²/3",
+      "D": "ML²/24"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "A particle of mass m moves along the line y = b, z = 0 with constant velocity v. The magnitude of its angular momentum about the origin is:",
+    "options": {
+      "A": "mvb",
+      "B": "mv/b",
+      "C": "Zero",
+      "D": "mvb²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "A circular disc of radius R and mass M is rotating with angular velocity ω. Another disc of same radius but mass M/4 is placed gently on the first disc coaxially. The new angular velocity is:",
+    "options": {
+      "A": "4ω/5",
+      "B": "ω/2",
+      "C": "5ω/4",
+      "D": "2ω/3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "A hoop and a solid cylinder of same mass and radius roll down an inclined plane without slipping. The ratio of their accelerations is:",
+    "options": {
+      "A": "3/4",
+      "B": "2/3",
+      "C": "1/2",
+      "D": "4/5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The coordinates of the center of mass of a system of three particles of masses 1g, 2g, and 3g at (1,2), (0,-1), and (2,0) respectively are:",
+    "options": {
+      "A": "(7/6, 0)",
+      "B": "(1, 1)",
+      "C": "(0, 7/6)",
+      "D": "(2, 1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A solid sphere is rotating about an axis through its center. If it expands to twice its radius without any external torque, its new angular velocity will be:",
+    "options": {
+      "A": "ω/4",
+      "B": "ω/2",
+      "C": "2ω",
+      "D": "4ω"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A force F = (2i - 3k)N acts on a particle at point (0, 1, 2)m. The torque about the origin is:",
+    "options": {
+      "A": "(-3i + 4j - 2k) Nm",
+      "B": "(3i - 4j + 2k) Nm",
+      "C": "(-3i + 4j + 2k) Nm",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "If a body is rolling without slipping on a horizontal surface, the ratio of its rotational kinetic energy to its total kinetic energy for a solid cylinder is:",
+    "options": {
+      "A": "1/3",
+      "B": "1/2",
+      "C": "2/5",
+      "D": "2/3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Two masses 2kg and 4kg are at ends of a 6m long rod of negligible mass. The distance of center of mass from the 2kg mass is:",
+    "options": {
+      "A": "4 m",
+      "B": "2 m",
+      "C": "3 m",
+      "D": "5 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A couple produces:",
+    "options": {
+      "A": "Purely rotational motion",
+      "B": "Purely translational motion",
+      "C": "Both rotational and translational",
+      "D": "No motion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The moment of inertia of a uniform circular disc of mass M and radius R about any of its diameter is:",
+    "options": {
+      "A": "MR²/4",
+      "B": "MR²/2",
+      "C": "MR²",
+      "D": "2MR²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "A constant torque of 1000 Nm turns a wheel of moment of inertia 200 kg m² about an axis through its center. Its angular acceleration is:",
+    "options": {
+      "A": "5 rad/s²",
+      "B": "10 rad/s²",
+      "C": "2 rad/s²",
+      "D": "1 rad/s²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The radius of gyration of a uniform rod of length L about an axis perpendicular to the rod and passing through its center is:",
+    "options": {
+      "A": "L/√12",
+      "B": "L/2",
+      "C": "L/√3",
+      "D": "L/3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A dancer on ice spins with her arms out. When she pulls her arms in, her angular velocity increases because:",
+    "options": {
+      "A": "Moment of inertia decreases",
+      "B": "Moment of inertia increases",
+      "C": "Angular momentum increases",
+      "D": "Torque increases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A sphere rolls down an inclined plane of inclination θ. What is the minimum coefficient of friction required for pure rolling?",
+    "options": {
+      "A": "2/7 tanθ",
+      "B": "2/5 tanθ",
+      "C": "1/3 tanθ",
+      "D": "5/7 tanθ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "If the earth were to suddenly contract to half its present radius, without change in its mass, the duration of the day will be:",
+    "options": {
+      "A": "6 hours",
+      "B": "12 hours",
+      "C": "48 hours",
+      "D": "24 hours"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "A solid cylinder of mass 2kg and radius 4cm is rotating about its axis at 3 rpm. The torque required to stop after 2π revolutions is:",
+    "options": {
+      "A": "2 × 10⁻⁶ Nm",
+      "B": "2 × 10⁻³ Nm",
+      "C": "12 × 10⁻⁴ Nm",
+      "D": "2 × 10⁶ Nm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The moment of inertia of a solid cylinder of mass M, length L and radius R about its own axis is:",
+    "options": {
+      "A": "MR²/2",
+      "B": "ML²/12",
+      "C": "MR²/4 + ML²/12",
+      "D": "MR²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Angular momentum is a:",
+    "options": {
+      "A": "Axial vector",
+      "B": "Polar vector",
+      "C": "Scalar",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "In a pure rolling motion, the velocity of the point of contact of the rolling body with the ground is:",
+    "options": {
+      "A": "Zero",
+      "B": "v",
+      "C": "2v",
+      "D": "v/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "A thin circular ring of mass M and radius R is rotating about its axis with an angular speed ω. Two particles each of mass m are attached gently to opposite ends of a diameter. The new angular speed is:",
+    "options": {
+      "A": "Mω / (M + 2m)",
+      "B": "(M + 2m)ω / M",
+      "C": "Mω / (M + m)",
+      "D": "ω/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following has the largest moment of inertia about its geometric axis (all having same mass and radius)?",
+    "options": {
+      "A": "Thin hollow cylinder",
+      "B": "Solid cylinder",
+      "C": "Solid sphere",
+      "D": "Hollow sphere"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "A particle performs uniform circular motion with angular momentum L. If its angular frequency is doubled and its kinetic energy halved, then the new angular momentum is:",
+    "options": {
+      "A": "L/4",
+      "B": "L/2",
+      "C": "2L",
+      "D": "4L"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The center of mass of a half-ring of radius R is located at a distance from the center equal to:",
+    "options": {
+      "A": "2R/π",
+      "B": "R/π",
+      "C": "4R/3π",
+      "D": "3R/4π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Work done by torque is given by:",
+    "options": {
+      "A": "∫ τ dθ",
+      "B": "τ × ω",
+      "C": "1/2 Iω²",
+      "D": "dL/dt"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "A wheel starting from rest is uniformly accelerated at 2 rad/s² for 20 seconds. It then rotates with constant angular velocity for next 20 seconds. Total angle rotated is:",
+    "options": {
+      "A": "1200 rad",
+      "B": "400 rad",
+      "C": "800 rad",
+      "D": "1600 rad"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The time rate of change of angular momentum of a particle is equal to:",
+    "options": {
+      "A": "Torque",
+      "B": "Force",
+      "C": "Angular acceleration",
+      "D": "Power"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A small object of mass m is attached to a light string which passes through a hollow tube. The object is set into rotation in a circle. If the string is pulled down, reducing the radius of the circle:",
+    "options": {
+      "A": "Angular speed increases",
+      "B": "Angular speed decreases",
+      "C": "Linear speed decreases",
+      "D": "Kinetic energy remains constant"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The moment of inertia of a square plate of side 'a' and mass 'm' about an axis passing through its center and perpendicular to its plane is:",
+    "options": {
+      "A": "ma²/6",
+      "B": "ma²/12",
+      "C": "ma²/3",
+      "D": "ma²/4"
+    },
+    "answer": "A"
+  }
+]

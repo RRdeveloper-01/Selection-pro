@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The number of integers greater than 6000 that can be formed using the digits 3, 5, 6, 7 and 8 without repetition is:",
+    "options": {
+      "A": "120",
+      "B": "192",
+      "C": "216",
+      "D": "72"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The number of ways in which 5 boys and 5 girls can be seated in a row so that no two girls are together is:",
+    "options": {
+      "A": "5! * 6!",
+      "B": "10!",
+      "C": "5! * 5!",
+      "D": "2 * 5! * 5!"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "If the letters of the word 'CHANDIGARH' are arranged in all possible ways, the number of arrangements in which the two A's are together is:",
+    "options": {
+      "A": "10! / 2!",
+      "B": "9! / 2!",
+      "C": "9!",
+      "D": "8! * 2!"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The number of divisors of 21600 is:",
+    "options": {
+      "A": "72",
+      "B": "84",
+      "C": "60",
+      "D": "120"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "In how many ways can 10 identical balls be distributed into 3 distinct boxes such that no box remains empty?",
+    "options": {
+      "A": "36",
+      "B": "45",
+      "C": "66",
+      "D": "120"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The number of ways of choosing 10 objects out of 31 objects (10 identical and 21 distinct) is:",
+    "options": {
+      "A": "2^20",
+      "B": "2^21",
+      "C": "2^10",
+      "D": "2^31"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The rank of the word 'MOTHER' in the dictionary is:",
+    "options": {
+      "A": "308",
+      "B": "309",
+      "C": "307",
+      "D": "310"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The number of four-digit numbers strictly greater than 4321 that can be formed using digits {0, 1, 2, 3, 4, 5} with repetition allowed is:",
+    "options": {
+      "A": "310",
+      "B": "360",
+      "C": "311",
+      "D": "312"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Number of ways in which 6 persons can be seated around a circular table if two particular persons refuse to sit next to each other:",
+    "options": {
+      "A": "120",
+      "B": "72",
+      "C": "48",
+      "D": "24"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "The number of ways in which a committee of 11 can be chosen from 12 men and 10 women, such that the committee contains at least 5 women and the men are in majority, is:",
+    "options": {
+      "A": "12650",
+      "B": "11340",
+      "C": "22680",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The number of non-negative integral solutions of x + y + z + w = 20 is:",
+    "options": {
+      "A": "1771",
+      "B": "1540",
+      "C": "2300",
+      "D": "2100"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The number of polygons that can be formed by joining the vertices of a convex polygon of n sides such that no two vertices are adjacent is:",
+    "options": {
+      "A": "nC3 - n",
+      "B": "nC3 - n(n-4)/2",
+      "C": "n(n-4)(n-5)/6",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "How many words can be formed by taking 4 letters at a time from the word 'MATHEMATICS'?",
+    "options": {
+      "A": "2454",
+      "B": "1680",
+      "C": "756",
+      "D": "2625"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A student is to answer 10 out of 13 questions in an exam such that he must choose at least 4 from the first five questions. The number of choices available is:",
+    "options": {
+      "A": "140",
+      "B": "196",
+      "C": "280",
+      "D": "346"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Total number of 6-digit numbers in which only and all the digits 1, 2, 3 appear at least once is:",
+    "options": {
+      "A": "540",
+      "B": "3^6 - 2^6",
+      "C": "540",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If nC12 = nC8, then nC17 is equal to:",
+    "options": {
+      "A": "1140",
+      "B": "1145",
+      "C": "1150",
+      "D": "1200"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Number of natural numbers less than 1000 and divisible by 5 (repetition of digits allowed) is:",
+    "options": {
+      "A": "199",
+      "B": "200",
+      "C": "198",
+      "D": "201"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Number of ways of arranging 8 identical books into 4 identical shelves is:",
+    "options": {
+      "A": "15",
+      "B": "70",
+      "C": "165",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The number of ways in which we can select three numbers from {1, 2, ..., n} such that they are in A.P. is:",
+    "options": {
+      "A": "n(n-2)/4 if n is even",
+      "B": "(n-1)^2/4 if n is odd",
+      "C": "Both A and B",
+      "D": "n(n-1)/2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "The number of ways to distribute 12 different prizes among 3 students such that each gets 4 prizes is:",
+    "options": {
+      "A": "12! / (4!)^3",
+      "B": "12! / (3! * (4!)^3)",
+      "C": "3^12",
+      "D": "12C4 * 8C4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "A person has 12 friends and he wants to invite 8 of them to a party. If two of them are a couple and won't attend without each other, then number of ways is:",
+    "options": {
+      "A": "210",
+      "B": "252",
+      "C": "462",
+      "D": "315"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 22,
+    "question": "The sum of all 4-digit numbers that can be formed using digits 1, 2, 3, 4 without repetition is:",
+    "options": {
+      "A": "66660",
+      "B": "66666",
+      "C": "66600",
+      "D": "60000"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The number of signals that can be sent using 5 flags of different colors by hoisting any number of them is:",
+    "options": {
+      "A": "325",
+      "B": "120",
+      "C": "240",
+      "D": "520"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The number of ways in which 15 identical blankets can be distributed among 4 persons so that each gets at least two is:",
+    "options": {
+      "A": "120",
+      "B": "165",
+      "C": "84",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A box contains 2 white, 3 black and 4 red balls. Number of ways of selecting 3 balls so that at least one is black is:",
+    "options": {
+      "A": "64",
+      "B": "84",
+      "C": "20",
+      "D": "74"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The number of parallelograms that can be formed from a set of four parallel lines intersecting another set of three parallel lines is:",
+    "options": {
+      "A": "6",
+      "B": "18",
+      "C": "12",
+      "D": "9"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Number of ways of dividing 52 cards into 4 groups of 13 each is:",
+    "options": {
+      "A": "52! / (13!)^4",
+      "B": "52! / (4! * (13!)^4)",
+      "C": "52! / (4! * 13!)",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The number of ways in which 10 balls can be selected from an unlimited supply of red, blue and green balls is:",
+    "options": {
+      "A": "66",
+      "B": "55",
+      "C": "45",
+      "D": "72"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The number of ways to arrange 7 people in a row such that two particular people are never together is:",
+    "options": {
+      "A": "5040",
+      "B": "3600",
+      "C": "1440",
+      "D": "720"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "In how many ways can the word 'EXAMINATION' be permuted so that all the vowels come together?",
+    "options": {
+      "A": "6! * 6! / (2! * 2!)",
+      "B": "6! * 6! / 2!",
+      "C": "11! / (2! * 2! * 2!)",
+      "D": "None"
+    },
+    "answer": "A"
+  }
+]

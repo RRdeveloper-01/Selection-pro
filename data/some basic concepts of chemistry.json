@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The number of atoms in 0.1 mole of a triatomic gas is: (N_A = 6.02 x 10²³)",
+    "options": {
+      "A": "1.806 x 10²³",
+      "B": "6.02 x 10²²",
+      "C": "1.806 x 10²²",
+      "D": "3.6 x 10²³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "6.02 x 10²⁰ molecules of urea are present in 100 mL of its solution. The concentration of the solution is:",
+    "options": {
+      "A": "0.01 M",
+      "B": "0.001 M",
+      "C": "0.1 M",
+      "D": "0.02 M"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which has the maximum number of molecules among the following?",
+    "options": {
+      "A": "44g CO₂",
+      "B": "48g O₃",
+      "C": "8g H₂",
+      "D": "64g SO₂"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "10g of Hydrogen and 64g of Oxygen were filled in a steel vessel and exploded. Amount of water produced in this reaction will be:",
+    "options": {
+      "A": "4 mol",
+      "B": "3 mol",
+      "C": "2 mol",
+      "D": "1 mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The molality of a 15% (by mass) solution of H₂SO₄ (density = 1.1 g/cm³) is approx:",
+    "options": {
+      "A": "1.8 m",
+      "B": "1.2 m",
+      "C": "4.4 m",
+      "D": "9 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "What is the mass of precipitate formed when 50 mL of 16.9% solution of AgNO₃ is mixed with 50 mL of 5.8% NaCl solution? (Ag=107.8, N=14, O=16, Na=23, Cl=35.5)",
+    "options": {
+      "A": "7 g",
+      "B": "14 g",
+      "C": "28 g",
+      "D": "3.5 g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The empirical formula of a compound is CH₂O. Its molecular mass is 180. The molecular formula of the compound is:",
+    "options": {
+      "A": "C₆H₁₂O₆",
+      "B": "C₃H₆O₃",
+      "C": "C₄H₈O₄",
+      "D": "CH₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Density of a 2.05 M solution of acetic acid in water is 1.02 g/mL. The molality of the solution is:",
+    "options": {
+      "A": "2.28 mol/kg",
+      "B": "1.14 mol/kg",
+      "C": "3.28 mol/kg",
+      "D": "0.44 mol/kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "One mole of any gas at STP occupies a volume of:",
+    "options": {
+      "A": "22.4 L",
+      "B": "22.7 L",
+      "C": "11.2 L",
+      "D": "44.8 L"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Ratio of C_p and C_v for a gas is 1.40. The number of atoms in 11.2 litres of this gas at STP is:",
+    "options": {
+      "A": "6.02 x 10²³",
+      "B": "1.2 x 10²³",
+      "C": "3.01 x 10²³",
+      "D": "2.01 x 10²³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "If we consider that 1/6th in place of 1/12th mass of carbon atom is taken to be the relative atomic mass unit, the mass of one mole of a substance will:",
+    "options": {
+      "A": "Decrease twice",
+      "B": "Increase twice",
+      "C": "Remain unchanged",
+      "D": "Be zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The mass of carbon anode consumed (giving only CO₂) in the production of 270 kg of aluminium metal from bauxite by the Hall-Heroult process is:",
+    "options": {
+      "A": "90 kg",
+      "B": "180 kg",
+      "C": "270 kg",
+      "D": "540 kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "How many moles of magnesium phosphate, Mg₃(PO₄)₂, will contain 0.25 mole of oxygen atoms?",
+    "options": {
+      "A": "3.125 x 10⁻²",
+      "B": "1.25 x 10⁻²",
+      "C": "2.5 x 10⁻²",
+      "D": "0.02"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The volume of 0.1 M NaOH required to neutralize 10 mL of 0.1 M H₂SO₄ is:",
+    "options": {
+      "A": "20 mL",
+      "B": "10 mL",
+      "C": "5 mL",
+      "D": "40 mL"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Average atomic mass of Magnesium is 24.31 a.m.u. This magnesium is composed of 79 mole % of ²⁴Mg and remaining 21 mole % of ²⁵Mg and ²⁶Mg. Mole % of ²⁶Mg is:",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "15",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Concentrated aqueous sulphuric acid is 98% H₂SO₄ by mass and has a density of 1.80 g/mL. Volume of acid required to make 1 litre of 0.1 M H₂SO₄ solution is:",
+    "options": {
+      "A": "5.55 mL",
+      "B": "11.10 mL",
+      "C": "16.65 mL",
+      "D": "22.20 mL"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A organic compound contains 49.3% carbon, 6.84% hydrogen and the rest is oxygen. Its empirical formula is:",
+    "options": {
+      "A": "C₃H₅O₂",
+      "B": "C₂H₄O₂",
+      "C": "C₄H₈O",
+      "D": "C₃H₈O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If 0.5 mole of BaCl₂ is mixed with 0.2 mole of Na₃PO₄, the maximum number of moles of Ba₃(PO₄)₂ that can be formed is:",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.5",
+      "D": "0.33"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The number of significant figures in 0.0006032 is:",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following contains the same number of atoms as 12g of Magnesium?",
+    "options": {
+      "A": "20g Calcium",
+      "B": "12g Carbon",
+      "C": "16g Oxygen",
+      "D": "7g Nitrogen"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "1.0 g of magnesium is burnt with 0.56 g O₂ in a closed vessel. Which reactant is left in excess and how much?",
+    "options": {
+      "A": "Mg, 0.16 g",
+      "B": "O₂, 0.16 g",
+      "C": "Mg, 0.44 g",
+      "D": "O₂, 0.28 g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Molecular weight of a volatile liquid is determined by:",
+    "options": {
+      "A": "Victor Meyer's method",
+      "B": "Dumas method",
+      "C": "Kjeldahl's method",
+      "D": "Liebig's method"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Law of multiple proportions is illustrated by:",
+    "options": {
+      "A": "CO and CO₂",
+      "B": "NaCl and NaBr",
+      "C": "H₂O and D₂O",
+      "D": "MgO and Mg(OH)₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "In the reaction 4A + 2B + 3C → A₄B₂C₃, what will be the number of moles of product formed starting from 1 mole of A, 0.6 mole of B and 0.72 mole of C?",
+    "options": {
+      "A": "0.24",
+      "B": "0.25",
+      "C": "0.30",
+      "D": "2.32"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Molarity of liquid HCl if density of solution is 1.17 g/cc is:",
+    "options": {
+      "A": "32.05 M",
+      "B": "36.5 M",
+      "C": "18.25 M",
+      "D": "42.10 M"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Total number of electrons in 1.6 g of CH₄ is:",
+    "options": {
+      "A": "6.02 x 10²³",
+      "B": "6.02 x 10²²",
+      "C": "1.6 x 10²³",
+      "D": "10 x 10²³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "0.5 mole of H₂SO₄ is mixed with 2 moles of NaOH. The number of moles of Na₂SO₄ formed is:",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "2",
+      "D": "0.25"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The percentage of nitrogen in urea is about:",
+    "options": {
+      "A": "46%",
+      "B": "38%",
+      "C": "20%",
+      "D": "18%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "How many moles of Al₂(SO₄)₃ contain 0.6 mole of SO₄²⁻ ions?",
+    "options": {
+      "A": "0.2 mole",
+      "B": "0.6 mole",
+      "C": "0.4 mole",
+      "D": "0.1 mole"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following laws explains the formation of CO and CO₂ from Carbon and Oxygen?",
+    "options": {
+      "A": "Law of Multiple Proportions",
+      "B": "Law of Definite Proportions",
+      "C": "Law of Conservation of Mass",
+      "D": "Avogadro's Law"
+    },
+    "answer": "A"
+  }
+]

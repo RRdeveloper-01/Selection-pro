@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The coefficient of x^7 in the expansion of (1 - x - x^2 + x^3)^6 is:",
+    "options": {
+      "A": "144",
+      "B": "-132",
+      "C": "-144",
+      "D": "132"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The remainder when 5^99 is divided by 13 is:",
+    "options": {
+      "A": "8",
+      "B": "5",
+      "C": "12",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "If the coefficients of x^7 and x^8 in (2 + x/3)^n are equal, then n is:",
+    "options": {
+      "A": "55",
+      "B": "54",
+      "C": "45",
+      "D": "15"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The sum of the series 2.C0 + 5.C1 + 8.C2 + ... + (3n+2).Cn is:",
+    "options": {
+      "A": "(3n+4)2^(n-1)",
+      "B": "(3n+2)2^n",
+      "C": "(3n+4)2^n",
+      "D": "3n.2^(n-1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The number of rational terms in the expansion of (2^(1/3) + 3^(1/5))^600 is:",
+    "options": {
+      "A": "40",
+      "B": "41",
+      "C": "39",
+      "D": "42"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "If n is even, then the middle term in the expansion of (x^2 + 1/x)^n is the 4th term. The value of n is:",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The value of sum (r=0 to n) of ((-1)^r * nCr) / (r+1) is:",
+    "options": {
+      "A": "1/(n+1)",
+      "B": "n/(n+1)",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The greatest term in the expansion of (1 + 2x/3)^15 when x = 3/2 is:",
+    "options": {
+      "A": "15C7",
+      "B": "15C8",
+      "C": "Both 15C7 and 15C8",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "The fractional part of (2^4n) / 15 is (where n is a natural number):",
+    "options": {
+      "A": "1/15",
+      "B": "2/15",
+      "C": "4/15",
+      "D": "8/15"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The coefficient of x^4 in the expansion of (1 + x + x^2 + x^3)^n is:",
+    "options": {
+      "A": "nC4 + nC2 + nC1.nC2",
+      "B": "nC4 + nC2 + nC1",
+      "C": "nC4 + nC3 + nC2",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The term independent of x in (x + 1/x^2)^n is the 7th term. Then n is:",
+    "options": {
+      "A": "18",
+      "B": "12",
+      "C": "15",
+      "D": "9"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The value of C1 + 2.C2 + 3.C3 + ... + n.Cn is:",
+    "options": {
+      "A": "n.2^(n-1)",
+      "B": "n.2^n",
+      "C": "(n+1).2^(n-1)",
+      "D": "2^n - 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If nC0, nC1, ..., nCn are binomial coefficients, then (C0+C1)(C1+C2)...(Cn-1+Cn) / (C1.C2...Cn) is:",
+    "options": {
+      "A": "(n+1)^n / n!",
+      "B": "(n+1)^n / n",
+      "C": "n!",
+      "D": "(n+1)!"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The coefficient of x^5 in the expansion of (1 + x^2)^5 . (1 + x)^4 is:",
+    "options": {
+      "A": "60",
+      "B": "120",
+      "C": "40",
+      "D": "30"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "If (1 + x)^n = C0 + C1x + ... + Cnx^n, then C0^2 + C1^2 + ... + Cn^2 is:",
+    "options": {
+      "A": "2nCn",
+      "B": "2nCn-1",
+      "C": "nCn",
+      "D": "2^2n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Find the last two digits of 3^100:",
+    "options": {
+      "A": "01",
+      "B": "03",
+      "C": "09",
+      "D": "81"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The number of terms in the expansion of (x + y + z)^10 is:",
+    "options": {
+      "A": "66",
+      "B": "55",
+      "C": "11",
+      "D": "110"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If n is even, then nC1 + nC3 + nC5 + ... + nC(n-1) is:",
+    "options": {
+      "A": "2^(n-1)",
+      "B": "2^n",
+      "C": "2^(n-1) - 1",
+      "D": "2^(n-2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The sum of coefficients of all even powers of x in (x + sqrt(x^2 - 1))^6 + (x - sqrt(x^2 - 1))^6 is:",
+    "options": {
+      "A": "64",
+      "B": "32",
+      "C": "128",
+      "D": "24"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "If the third term in the expansion of (1/x + x^(log_10 x))^5 is 1000, then x is:",
+    "options": {
+      "A": "10",
+      "B": "100",
+      "C": "1",
+      "D": "0.1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The coefficient of x^r in the expansion of (1 - 4x)^(-1/2) is:",
+    "options": {
+      "A": "2rCr",
+      "B": "rCr",
+      "C": "2^r",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The sum 10C0 + 10C1 + ... + 10C4 is equal to:",
+    "options": {
+      "A": "2^9 - (1/2) * 10C5",
+      "B": "2^10",
+      "C": "2^9",
+      "D": "2^8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The value of 15C0^2 - 15C1^2 + 15C2^2 - ... - 15C15^2 is:",
+    "options": {
+      "A": "0",
+      "B": "15C7",
+      "C": "1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The number of non-zero terms in the expansion of (1 + 3sqrt(2)x)^9 + (1 - 3sqrt(2)x)^9 is:",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "9",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "If n is a positive integer, then 2^(3n) - 7n - 1 is divisible by:",
+    "options": {
+      "A": "49",
+      "B": "36",
+      "C": "64",
+      "D": "25"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The coefficient of x^n in the expansion of (1 + x)(1 - x)^n is:",
+    "options": {
+      "A": "(-1)^n * (1 - n)",
+      "B": "(-1)^n * (1 + n)",
+      "C": "n - 1",
+      "D": "n + 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The maximum value of the term in the expansion of (1 + x)^n is when x = 1. This term is:",
+    "options": {
+      "A": "nC(n/2) if n is even",
+      "B": "nC((n-1)/2) if n is odd",
+      "C": "Both A and B",
+      "D": "2^n"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "If nC(r-1) = 36, nCr = 84 and nC(r+1) = 126, then r is:",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The sum of coefficients in (1 + x - 3x^2)^2163 is:",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "0",
+      "D": "2^2163"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The coefficient of x^50 in (1+x)^1000 + 2x(1+x)^999 + 3x^2(1+x)^998 + ... + 1001x^1000 is:",
+    "options": {
+      "A": "1002C50",
+      "B": "1001C50",
+      "C": "1000C50",
+      "D": "None"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following alkanes cannot be made in good yield by Wurtz reaction?",
+    "options": {
+      "A": "n-Butane",
+      "B": "n-Hexane",
+      "C": "2,3-Dimethylbutane",
+      "D": "n-Heptane"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "The addition of HBr to propene in the presence of peroxide follows:",
+    "options": {
+      "A": "Anti-Markownikoff's rule",
+      "B": "Markownikoff's rule",
+      "0": "Saytzeff's rule",
+      "D": "Hofmann's rule"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "An alkene on ozonolysis gives methanal and ethanal. The alkene is:",
+    "options": {
+      "A": "Propene",
+      "B": "But-1-ene",
+      "C": "But-2-ene",
+      "D": "Ethene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following is most reactive towards nitration?",
+    "options": {
+      "A": "Toluene",
+      "B": "Benzene",
+      "C": "Chlorobenzene",
+      "D": "Nitrobenzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Lindlar's catalyst is used for the reduction of alkynes to:",
+    "options": {
+      "A": "cis-Alkene",
+      "B": "trans-Alkene",
+      "C": "Alkane",
+      "D": "Alcohol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "In Friedel-Crafts acylation, the electrophile is:",
+    "options": {
+      "A": "Acylium ion (R-C⁺=O)",
+      "B": "Alkyl carbocation",
+      "C": "Cl⁺",
+      "D": "NO₂⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The acidic hydrogen is present in:",
+    "options": {
+      "A": "Ethyne",
+      "B": "Ethene",
+      "C": "Ethane",
+      "D": "Benzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Birch reduction (Na/liquid NH₃) of but-2-yne gives:",
+    "options": {
+      "A": "trans-But-2-ene",
+      "B": "cis-But-2-ene",
+      "C": "n-Butane",
+      "D": "But-1-ene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Kolbe's electrolytic decarboxylation of sodium propionate gives:",
+    "options": {
+      "A": "n-Butane",
+      "B": "Ethane",
+      "C": "Methane",
+      "D": "Propane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following will show geometrical isomerism?",
+    "options": {
+      "A": "But-2-ene",
+      "B": "Propene",
+      "C": "But-1-ene",
+      "D": "2-Methylpropene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Ozonolysis of 2,3-Dimethylbut-2-ene gives:",
+    "options": {
+      "A": "Two moles of Acetone",
+      "B": "Acetone and Acetaldehyde",
+      "C": "Two moles of Acetaldehyde",
+      "D": "Propanal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The major product of hydration of propene (H⁺/H₂O) is:",
+    "options": {
+      "A": "Propan-2-ol",
+      "B": "Propan-1-ol",
+      "C": "Propane",
+      "D": "Ethanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Sodium metal in liquid ammonia reduces ethyne to:",
+    "options": {
+      "A": "Ethene",
+      "B": "Ethane",
+      "C": "Sodium acetylide",
+      "D": "Benzene"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Propyne on reaction with Hg²⁺/H₂SO₄ (Kucheroff reaction) gives:",
+    "options": {
+      "A": "Acetone",
+      "B": "Propanal",
+      "C": "Propanoic acid",
+      "D": "Ethyl alcohol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Electrophilic substitution in benzene is easier than in nitrobenzene because:",
+    "options": {
+      "A": "Nitro group is deactivating",
+      "B": "Nitro group is activating",
+      "C": "Benzene is non-polar",
+      "D": "Nitrobenzene is liquid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "What is the product of the reaction between Benzene and Cl₂ in the presence of UV light?",
+    "options": {
+      "A": "BHC (Benzene hexachloride)",
+      "B": "Chlorobenzene",
+      "C": "Hexachlorobenzene",
+      "D": "No reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following is not an ortho-para directing group?",
+    "options": {
+      "A": "-CHO",
+      "B": "-NH₂",
+      "C": "-OCH₃",
+      "D": "-CH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Reaction of Ethyl bromide with Alcohols KOH gives:",
+    "options": {
+      "A": "Ethene",
+      "B": "Ethanol",
+      "C": "Ethane",
+      "D": "Ethyl ethanoate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The catalyst used in the polymerization of ethene to high density polythene (HDP) is:",
+    "options": {
+      "A": "Ziegler-Natta catalyst",
+      "B": "Pd/BaSO₄",
+      "C": "Ni/H₂",
+      "D": "V₂O₅"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Baeyer's reagent is used for the detection of:",
+    "options": {
+      "A": "Unsaturation",
+      "B": "Glucose",
+      "C": "Aromaticity",
+      "D": "Alcoholic group"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "When Ethyne is passed through a red hot iron tube at 873K, it forms:",
+    "options": {
+      "A": "Benzene",
+      "B": "Toluene",
+      "C": "Methane",
+      "D": "Cyclohexane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following alkanes has the highest boiling point?",
+    "options": {
+      "A": "n-Pentane",
+      "B": "Isopentane",
+      "C": "Neopentane",
+      "D": "n-Butane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Aromatization of n-hexane in the presence of Cr₂O₃/Al₂O₃ at 773K gives:",
+    "options": {
+      "A": "Benzene",
+      "B": "Cyclohexane",
+      "C": "Toluene",
+      "D": "Hexene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Hydroboration-Oxidation of propene gives:",
+    "options": {
+      "A": "Propan-1-ol",
+      "B": "Propan-2-ol",
+      "C": "Propane",
+      "D": "Propanone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The most stable alkene among the following is:",
+    "options": {
+      "A": "R₂C=CR₂",
+      "B": "RCH=CHR",
+      "C": "CH₂=CH₂",
+      "D": "RCH=CH₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Chlorination of methane is an example of:",
+    "options": {
+      "A": "Free radical substitution",
+      "B": "Electrophilic addition",
+      "C": "Nucleophilic substitution",
+      "D": "Elimination"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which alkyne on reaction with ammoniacal silver nitrate gives a white precipitate?",
+    "options": {
+      "A": "Terminal alkynes (R-C≡CH)",
+      "B": "Internal alkynes (R-C≡C-R)",
+      "C": "All alkynes",
+      "D": "Alkenes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The reaction of benzene with methyl chloride in the presence of anhydrous AlCl₃ is called:",
+    "options": {
+      "A": "Friedel-Crafts alkylation",
+      "B": "Wurtz reaction",
+      "C": "Fittig reaction",
+      "D": "Reimer-Tiemann reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is an anti-aromatic compound?",
+    "options": {
+      "A": "Cyclobutadiene",
+      "B": "Benzene",
+      "C": "Naphthalene",
+      "D": "Cyclooctatetraene (Tub shape)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Presence of -NO₂ group on benzene ring:",
+    "options": {
+      "A": "Deactivates the ring towards EAS",
+      "B": "Activates the ring towards EAS",
+      "C": "Makes it ortho-para directing",
+      "D": "No effect"
+    },
+    "answer": "A"
+  }
+]

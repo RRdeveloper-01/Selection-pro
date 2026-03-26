@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If f(n) = sum of (tan(theta/2^r) * sec(theta/2^(r-1))) from r=1 to n, then find the value of f(n) in terms of theta and n.",
+    "options": {
+      "A": "tan(theta) - tan(theta/2^n)",
+      "B": "tan(theta/2^n) - tan(theta)",
+      "C": "cot(theta/2^n) - cot(theta)",
+      "D": "tan(theta) + tan(theta/2^n)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "If cos(alpha + beta) = 4/5 and sin(alpha - beta) = 5/13, where alpha, beta lie between 0 and pi/4, then find the value of tan(2*alpha).",
+    "options": {
+      "A": "56/33",
+      "B": "63/16",
+      "C": "33/56",
+      "D": "16/63"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "The number of real solutions of the equation sin(exp(x)) = 5^x + 5^(-x) is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "Infinitely many"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "If sum of cos(r*theta) from r=1 to n is zero for all theta, then the value of n is such that:",
+    "options": {
+      "A": "n must be even",
+      "B": "n must be odd",
+      "C": "No such n exists",
+      "D": "n is a multiple of 3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "Find the value of sqrt(3) * csc(20°) - sec(20°).",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "If tan(pi/4 + theta/2) = tan^3(pi/4 + phi/2), then express sin(theta) in terms of sin(phi).",
+    "options": {
+      "A": "sin(theta) = sin(phi) * (3 + sin^2(phi)) / (1 + 3*sin^2(phi))",
+      "B": "sin(theta) = sin(phi) * (1 + 3*sin^2(phi)) / (3 + sin^2(phi))",
+      "C": "sin(theta) = 3*sin(phi)",
+      "D": "sin(theta) = sin^3(phi)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The sum of the series sin(pi/n) + sin(2pi/n) + sin(3pi/n) + ... + sin((n-1)pi/n) is equal to:",
+    "options": {
+      "A": "cot(pi/2n)",
+      "B": "tan(pi/2n)",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "If sin(x) + sin(y) + sin(z) = 3, then the value of cos(x) + cos(y) + cos(z) is:",
+    "options": {
+      "A": "0",
+      "B": "3",
+      "C": "-3",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "In a triangle ABC, if tan(A/2), tan(B/2), tan(C/2) are in A.P., then cos A, cos B, cos C are in:",
+    "options": {
+      "A": "A.P.",
+      "B": "G.P.",
+      "C": "H.P.",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The minimum value of f(x) = (3*sin(x) - 4*cos(x) - 10)(3*sin(x) + 4*cos(x) + 10) is:",
+    "options": {
+      "A": "75",
+      "B": "100",
+      "C": "125",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The number of solutions of sin x = x/10 is:",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "7",
+      "D": "10"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "The value of sin² 5° + sin² 10° + ... + sin² 90° is:",
+    "options": {
+      "A": "8.5",
+      "Integer": "9",
+      "C": "9.5",
+      "D": "10"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "If sin θ + cos θ = m and sin³ θ + cos³ θ = n, then:",
+    "options": {
+      "A": "m³ - 3m + 2n = 0",
+      "B": "n³ - 3n + 2m = 0",
+      "C": "m³ - 3m + n = 0",
+      "D": "m³ + 3m + 2n = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The period of the function f(x) = |sin x| + |cos x| is:",
+    "options": {
+      "A": "2π",
+      "B": "π",
+      "C": "π/2",
+      "D": "π/4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "The value of tan 75° - cot 75° is:",
+    "options": {
+      "A": "2√3",
+      "B": "4",
+      "C": "2",
+      "D": "√3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If α + β = π/2 and β + γ = α, then tan α equals:",
+    "options": {
+      "A": "2 tan β + tan γ",
+      "B": "tan β + 2 tan γ",
+      "C": "tan β + tan γ",
+      "D": "2(tan β + tan γ)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The minimum value of 2^sin x + 2^cos x is:",
+    "options": {
+      "A": "2^(1-1/√2)",
+      "B": "2^(1+1/√2)",
+      "C": "2^√2",
+      "D": "2^(1/√2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The value of cos 12° + cos 84° + cos 132° + cos 156° is:",
+    "options": {
+      "A": "1/2",
+      "B": "-1/2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "If tan x + sec x = 2 cos x, then number of solutions in [0, 2π] is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "The value of tan 9° - tan 27° - tan 63° + tan 81° is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 21,
+    "question": "If A + B + C = π, then Σ tan A is equal to:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "tan A tan B tan C",
+      "D": "Σ cot A"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "The general solution of tan 3x = tan x is:",
+    "options": {
+      "A": "x = nπ",
+      "B": "x = nπ/2",
+      "C": "x = (2n+1)π/2",
+      "D": "nπ/3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "The value of sin 18° is:",
+    "options": {
+      "A": "(√5 - 1)/4",
+      "B": "(√5 + 1)/4",
+      "C": "√(10 - 2√5)/4",
+      "D": "√(10 + 2√5)/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "If x = r sin θ cos φ, y = r sin θ sin φ, z = r cos θ, then x² + y² + z² is:",
+    "options": {
+      "A": "r²",
+      "B": "r",
+      "C": "r³",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The value of cos² 10° - cos 10° cos 50° + cos² 50° is:",
+    "options": {
+      "A": "1/2",
+      "B": "3/4",
+      "C": "4/3",
+      "D": "1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The maximum value of sin^6 x + cos^6 x is:",
+    "options": {
+      "A": "1",
+      "B": "1/2",
+      "C": "1/4",
+      "D": "1/8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "In a triangle ABC, if sin A sin B sin C = (3√3)/8, then the triangle is:",
+    "options": {
+      "A": "Isosceles",
+      "B": "Right angled",
+      "C": "Equilateral",
+      "D": "Scalene"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "The value of cot(π/24) is:",
+    "options": {
+      "A": "√2 + √3 + √4 + √6",
+      "B": "√2 + √3 + √2 + √3",
+      "C": "√2 + √3 + √6 + √2",
+      "D": "√2 + √3 + √4 + √5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Number of solutions of the equation tan x + sec x = √3 in [0, 2π] is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The value of 1 - sin 10° sin 50° sin 70° is:",
+    "options": {
+      "A": "1/8",
+      "B": "7/8",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The equations of the sides of a triangle are x+y=0, x-y=0 and 4x+3y=10. The coordinates of its circumcentre are:",
+    "options": {
+      "A": "(0, 0)",
+      "B": "(1, 1)",
+      "C": "(1, -1)",
+      "D": "(2, 2)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "If the lines ax + 12y + 1 = 0, bx + 13y + 1 = 0 and cx + 14y + 1 = 0 are concurrent, then a, b, c are in:",
+    "options": {
+      "A": "A.P.",
+      "B": "G.P.",
+      "C": "H.P.",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The distance of the point (1, 2) from the line x + y + 5 = 0 measured along the line 3x - y = 7 is:",
+    "options": {
+      "A": "4√10",
+      "B": "2√10",
+      "C": "√10",
+      "D": "5"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The image of the point (4, -13) with respect to the line 5x + y + 6 = 0 is:",
+    "options": {
+      "A": "(1, -14)",
+      "B": "(6, -15)",
+      "C": "(-1, -14)",
+      "D": "(-6, -11)"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "A line passes through (2, 2) and is perpendicular to the line 3x + y = 3. Its y-intercept is:",
+    "options": {
+      "A": "1/3",
+      "B": "2/3",
+      "C": "1",
+      "D": "4/3"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "If the orthocentre and centroid of a triangle are (0, 0) and (2, 3), then its circumcentre is:",
+    "options": {
+      "A": "(3, 4.5)",
+      "B": "(1, 1.5)",
+      "C": "(-3, -4.5)",
+      "D": "(6, 9)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The angle between the lines x cos α + y sin α = p1 and x cos β + y sin β = p2 is:",
+    "options": {
+      "A": "α + β",
+      "B": "α - β",
+      "C": "αβ",
+      "D": "2α"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "Area of the triangle formed by the lines y - x = 0, x + y = 0 and x - k = 0 is:",
+    "options": {
+      "A": "k^2 / 2",
+      "B": "k^2",
+      "C": "2k^2",
+      "D": "k^2 / 4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "The coordinates of the foot of the perpendicular from (0, 0) upon the line x + y = 2 are:",
+    "options": {
+      "A": "(1, 1)",
+      "B": "(0, 2)",
+      "C": "(2, 0)",
+      "D": "(1, 2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "If the line y = mx + c passes through the points (2, 4) and (-1, 2), then (m, c) is:",
+    "options": {
+      "A": "(2/3, 8/3)",
+      "B": "(2/3, 10/3)",
+      "C": "(3/2, 1)",
+      "D": "(1, 2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The locus of a point which moves such that its distance from x-axis is twice its distance from y-axis is:",
+    "options": {
+      "A": "y = 2x",
+      "B": "x = 2y",
+      "C": "y^2 = 4x^2",
+      "D": "x^2 = 4y^2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "The number of lines that can be drawn through (4, -5) at a distance of 10 units from the origin is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If p and q are the perpendicular distances from the origin to the lines x sec θ + y cosec θ = a and x cos θ - y sin θ = a cos 2θ, then 4p^2 + q^2 is:",
+    "options": {
+      "A": "a^2",
+      "B": "2a^2",
+      "C": "a^2 / 2",
+      "D": "4a^2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The equation of a line passing through the point of intersection of 2x + 3y = 1 and 3x + 4y = 6 and perpendicular to 5x - 2y = 7 is:",
+    "options": {
+      "A": "2x + 5y + 61 = 0",
+      "B": "2x + 5y - 61 = 0",
+      "C": "5x + 2y + 61 = 0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The area of the parallelogram formed by the lines y = mx, y = mx + 1, y = nx and y = nx + 1 is:",
+    "options": {
+      "A": "1 / |m-n|",
+      "B": "|m-n|",
+      "C": "1 / (m+n)",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The points (1, 3) and (5, 1) are two opposite vertices of a rectangle. The other two vertices lie on the line y = 2x + c. The value of c is:",
+    "options": {
+      "A": "-4",
+      "B": "4",
+      "C": "2",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A line cutting off intercepts -3 and 4 on the x and y axes respectively has the equation:",
+    "options": {
+      "A": "4x - 3y + 12 = 0",
+      "B": "3x - 4y + 12 = 0",
+      "C": "4x + 3y - 12 = 0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If the slope of a line is double the slope of another line and the tangent of the angle between them is 1/3, then the slopes are:",
+    "options": {
+      "A": "1, 2",
+      "B": "1/2, 1",
+      "C": "Both A and B",
+      "D": "2, 4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The distance between the parallel lines 3x - 4y + 7 = 0 and 3x - 4y + 5 = 0 is:",
+    "options": {
+      "A": "2/5",
+      "B": "2/25",
+      "C": "3/5",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The point on the line x + y = 4 which is at unit distance from the line 4x + 3y = 10 is:",
+    "options": {
+      "A": "(3, 1)",
+      "B": "(1, 3)",
+      "C": "(-7, 11)",
+      "D": "Both A and C"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 21,
+    "question": "The ratio in which the line 3x + 4y = 7 divides the distance between (1, 2) and (-2, 1) is:",
+    "options": {
+      "A": "4:9",
+      "B": "9:4",
+      "C": "3:4",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The equations of lines passing through (2, 3) and having an intercept of length 2 units between the lines 2x + y = 3 and 2x + y = 5 are:",
+    "options": {
+      "A": "x = 2, 3x + 4y = 18",
+      "B": "y = 3, 4x + 3y = 17",
+      "C": "x = 2, y = 3",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "If a triangle has vertices (0, 0), (3, 0) and (0, 4), then its incenter is:",
+    "options": {
+      "A": "(1, 1)",
+      "B": "(0.5, 0.5)",
+      "C": "(1.5, 1.5)",
+      "D": "(1, 2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The line L has intercepts a and b on the coordinate axes. If the axes are rotated through an angle, the same line has intercepts p and q. Then:",
+    "options": {
+      "A": "1/a^2 + 1/b^2 = 1/p^2 + 1/q^2",
+      "B": "a^2 + b^2 = p^2 + q^2",
+      "C": "1/a + 1/b = 1/p + 1/q",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The family of lines (x + y - 1) + λ(2x - y - 5) = 0 passes through a fixed point:",
+    "options": {
+      "A": "(2, -1)",
+      "B": "(-2, 1)",
+      "C": "(1, 2)",
+      "D": "(3, -2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The equation of the bisector of the acute angle between the lines 3x - 4y + 7 = 0 and 12x + 5y - 2 = 0 is:",
+    "options": {
+      "A": "21x + 77y - 101 = 0",
+      "B": "11x - 3y + 9 = 0",
+      "C": "31x + 13y - 45 = 0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If the sum of distances of a point from two perpendicular lines is 1, then its locus is a:",
+    "options": {
+      "A": "Square",
+      "B": "Circle",
+      "C": "Straight line",
+      "D": "Two lines"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The distance of the line 2x + 3y - 5 = 0 from the point (3, 3) measured parallel to the line y = x is:",
+    "options": {
+      "A": "2√2 / 5",
+      "B": "2√2",
+      "C": "10 / √13",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "The slope of a line which makes an angle of 45° with the line 3x - y + 5 = 0 is:",
+    "options": {
+      "A": "1/2 or -2",
+      "B": "1/2 or 2",
+      "C": "-1/2 or 2",
+      "D": "-1/2 or -2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "The condition that the points (a, 0), (0, b) and (1, 1) are collinear is:",
+    "options": {
+      "A": "1/a + 1/b = 1",
+      "B": "a + b = 1",
+      "C": "1/a - 1/b = 1",
+      "D": "ab = 1"
+    },
+    "answer": "A"
+  }
+]

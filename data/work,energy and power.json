@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A particle moves under a force F = cx from x=0 to x=x₁. The work done is:",
+    "options": {
+      "A": "cx₁² / 2",
+      "B": "cx₁²",
+      "C": "cx₁",
+      "D": "cx₁ / 2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A pump is required to lift 1000 kg of water per minute from a well 12m deep and eject it with a speed of 20 m/s. The power of the engine is:",
+    "options": {
+      "A": "5.33 kW",
+      "B": "6.2 kW",
+      "C": "3.3 kW",
+      "D": "1.2 kW"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "A block of mass m is pushed against a spring of spring constant k, compressing it by x. When released, the block moves a distance d on a rough horizontal surface (coefficient μ) before stopping. Then:",
+    "options": {
+      "A": "1/2 kx² = μmgd",
+      "B": "1/2 kx² = mgd",
+      "C": "kx = μmgd",
+      "D": "1/2 kx² = 1/2 mv²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "A body of mass 2kg is driven by an engine delivering a constant power of 1W. The distance moved by the body in 2s starting from rest is:",
+    "options": {
+      "A": "√8/3 m",
+      "B": "4/3 m",
+      "C": "2/3 m",
+      "D": "1.2 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The potential energy of a system is given by U(x) = a/x¹² - b/x⁶. The relation between a and b for the system to be in equilibrium is:",
+    "options": {
+      "A": "x⁶ = 2a/b",
+      "B": "x⁶ = a/2b",
+      "C": "x⁶ = a/b",
+      "D": "x⁶ = 4a/b"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A bullet of mass m moving with velocity v strikes a suspended wooden block of mass M. If the bullet gets embedded, the height to which the block rises is:",
+    "options": {
+      "A": "m²v² / [2g(M+m)²]",
+      "B": "v² / 2g",
+      "C": "Mv² / 2mg",
+      "D": "(m+M)v² / 2mg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A particle of mass m is moving in a horizontal circle of radius r under a centripetal force F = -k/r². The total energy of the particle is:",
+    "options": {
+      "A": "-k/2r",
+      "B": "-k/r",
+      "C": "k/2r",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A block of mass m slides down a rough inclined plane of height h and angle θ. If the work done against friction is Wf, the velocity at the bottom is:",
+    "options": {
+      "A": "√[2(mgh - Wf)/m]",
+      "B": "√(2gh)",
+      "C": "√[2(mgh + Wf)/m]",
+      "D": "√(2gh sinθ)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Two bodies of masses m₁ and m₂ have equal kinetic energies. The ratio of their linear momenta is:",
+    "options": {
+      "A": "√(m₁/m₂)",
+      "B": "m₁/m₂",
+      "C": "m₂/m₁",
+      "D": "√(m₂/m₁)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "A force F = (5i + 3j + 2k)N moves a particle from r₁ = (2i + j)m to r₂ = (4i + 3j - k)m. The work done is:",
+    "options": {
+      "A": "14 J",
+      "B": "10 J",
+      "C": "12 J",
+      "D": "16 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A uniform chain of length L and mass M is lying on a smooth table and 1/n of its length is hanging vertically. The work done to pull the hanging part on the table is:",
+    "options": {
+      "A": "MgL / 2n²",
+      "B": "MgL / n",
+      "C": "MgL / 2n",
+      "D": "MgL / n²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "An object of mass m is tied to a string of length L and whirled in a vertical circle. The minimum velocity at the lowest point to complete the circle is:",
+    "options": {
+      "A": "√(5gL)",
+      "B": "√(3gL)",
+      "C": "√(gL)",
+      "D": "√(2gL)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If momentum of a body is increased by 50%, then its kinetic energy will increase by:",
+    "options": {
+      "A": "125%",
+      "B": "50%",
+      "C": "100%",
+      "D": "225%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A wind-powered generator converts wind energy into electrical energy. If the wind speed doubles, the maximum power generated becomes:",
+    "options": {
+      "A": "8 times",
+      "B": "2 times",
+      "C": "4 times",
+      "D": "16 times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A 1kg block collides with a horizontal weightless spring of force constant 100 N/m. The block compresses the spring 0.2m from the rest position. If μ=0.25, the speed of the block at the moment of collision was:",
+    "options": {
+      "A": "2.23 m/s",
+      "B": "1.5 m/s",
+      "C": "2.0 m/s",
+      "D": "1.0 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A vertical spring with spring constant k is compressed by a distance d. A ball of mass m is placed on it. When released, the height to which the ball rises from the release point is:",
+    "options": {
+      "A": "kd² / 2mg",
+      "B": "kd / mg",
+      "C": "d",
+      "D": "kd² / mg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A force F = -kx³ acts on a particle. The work done in moving it from x=a to x=b is:",
+    "options": {
+      "A": "k/4 (a⁴ - b⁴)",
+      "B": "k/4 (b⁴ - a⁴)",
+      "C": "k/3 (a³ - b³)",
+      "D": "3k (a⁴ - b⁴)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "A 10kg body moves with a velocity of 5i m/s. A force of (10i + 20j)N acts on it for 2s. The final kinetic energy is:",
+    "options": {
+      "A": "490 J",
+      "B": "250 J",
+      "C": "125 J",
+      "D": "600 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "In a conservative field, the work done in a closed path is:",
+    "options": {
+      "A": "Zero",
+      "B": "Positive",
+      "C": "Negative",
+      "D": "Depends on the path"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The power of a water pump is 2 kW. If g=10, the amount of water it can raise to height 10m in 1 minute is:",
+    "options": {
+      "A": "1200 kg",
+      "B": "1000 kg",
+      "C": "120 kg",
+      "D": "2000 kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "A particle of mass m moves from rest under a variable force F = kt. The work done by the force in time T is:",
+    "options": {
+      "A": "k²T⁴ / 8m",
+      "B": "k²T³ / 6m",
+      "C": "kT² / 2m",
+      "D": "k²T⁴ / 4m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Two springs of constants k₁ and k₂ (k₁ > k₂) are stretched by the same force. Which one has more potential energy?",
+    "options": {
+      "A": "Spring with k₂",
+      "B": "Spring with k₁",
+      "C": "Both same",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A ball is dropped from a height h on a floor. If the coefficient of restitution is 'e', the total distance covered before coming to rest is:",
+    "options": {
+      "A": "h(1+e²) / (1-e²)",
+      "B": "h(1-e²) / (1+e²)",
+      "C": "h e²",
+      "D": "h / (1-e²)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "A mass m moving with velocity v collides head-on with another identical mass at rest. If the collision is perfectly elastic, the velocity of the second mass after collision is:",
+    "options": {
+      "A": "v",
+      "B": "v/2",
+      "C": "Zero",
+      "D": "2v"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The work done by a variable force F = (2 + x) in moving a particle from x=1 to x=2 is:",
+    "options": {
+      "A": "3.5 J",
+      "B": "4.5 J",
+      "C": "2.5 J",
+      "D": "5 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "A body is falling freely from a height h. After falling through a distance x, the ratio of its kinetic energy to potential energy is:",
+    "options": {
+      "A": "x / (h-x)",
+      "B": "(h-x) / x",
+      "C": "x / h",
+      "D": "h / x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "A machine gun fires n bullets per second, each of mass m and speed v. The power of the gun is:",
+    "options": {
+      "A": "1/2 nmv²",
+      "B": "nmv²",
+      "C": "nmv",
+      "D": "1/2 mv²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Potential energy of a spring increases by 15J when stretched by 2cm. If it is stretched by 4cm, the potential energy increase will be:",
+    "options": {
+      "A": "60 J",
+      "B": "30 J",
+      "C": "45 J",
+      "D": "120 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A particle of mass m is moving in a circle of radius r with constant speed v. The work done by the centripetal force in half revolution is:",
+    "options": {
+      "A": "Zero",
+      "B": "mv²",
+      "C": "πr × mv²/r",
+      "D": "2mv²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A block of mass 5kg is moved up a 30° incline by a force of 100N parallel to the incline. If it moves 10m, the work done by gravity is (g=10):",
+    "options": {
+      "A": "-250 J",
+      "B": "250 J",
+      "C": "-500 J",
+      "D": "500 J"
+    },
+    "answer": "A"
+  }
+]

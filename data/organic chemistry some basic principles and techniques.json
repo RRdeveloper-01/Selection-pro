@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following is the most stable carbocation?",
+    "options": {
+      "A": "(CH₃)₃C⁺",
+      "B": "(CH₃)₂CH⁺",
+      "C": "CH₃CH₂⁺",
+      "D": "CH₃⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The IUPAC name of CH₃-CH(OH)-CH₂-C≡CH is:",
+    "options": {
+      "A": "Pent-4-yn-2-ol",
+      "B": "Pent-1-yn-4-ol",
+      "C": "2-Hydroxypent-4-yne",
+      "D": "4-Hydroxypent-1-yne"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which effect involves the complete transfer of a shared pair of π-electrons to one of the atoms in the presence of an attacking reagent?",
+    "options": {
+      "A": "Electromeric effect",
+      "B": "Inductive effect",
+      "C": "Resonance effect",
+      "D": "Hyperconjugation"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The number of hyperconjugative structures possible for 2-methylbut-2-ene is:",
+    "options": {
+      "A": "9",
+      "B": "6",
+      "C": "3",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Lassaigne's test is used for the detection of:",
+    "options": {
+      "A": "Nitrogen, Sulphur, Halogens",
+      "B": "Carbon and Hydrogen only",
+      "C": "Oxygen only",
+      "D": "Noble gases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "In Kjeldahl's method, the nitrogen present in the organic compound is converted into:",
+    "options": {
+      "A": "Ammonium sulphate",
+      "B": "Ammonia gas",
+      "C": "Nitric acid",
+      "D": "Nitrogen gas"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following is the strongest acid?",
+    "options": {
+      "A": "Trichloroacetic acid",
+      "B": "Dichloroacetic acid",
+      "C": "Monochloroacetic acid",
+      "D": "Acetic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The most stable conformation of n-butane is:",
+    "options": {
+      "A": "Anti-staggered",
+      "B": "Gauche",
+      "C": "Eclipsed",
+      "D": "Fully eclipsed"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Chromatography is based on the principle of:",
+    "options": {
+      "A": "Differential adsorption",
+      "B": "Fractional distillation",
+      "C": "Solubility",
+      "D": "Volatility"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The hybridization of Carbon in CH₂=C=CH₂ (allene) is:",
+    "options": {
+      "A": "sp² and sp",
+      "B": "sp² only",
+      "C": "sp³ and sp²",
+      "D": "sp only"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is a nucleophile?",
+    "options": {
+      "A": "NH₃",
+      "B": "BF₃",
+      "C": "AlCl₃",
+      "D": "NO₂⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The separation of a mixture of ortho and para-nitrophenols is best done by:",
+    "options": {
+      "A": "Steam distillation",
+      "B": "Crystallization",
+      "C": "Sublimation",
+      "D": "Filtration"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Homolytic fission of a C-C bond leads to the formation of:",
+    "options": {
+      "A": "Free radicals",
+      "B": "Carbocations",
+      "C": "Carbanions",
+      "D": "Carbenes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following shows +M effect?",
+    "options": {
+      "A": "-OH",
+      "B": "-NO₂",
+      "C": "-CN",
+      "D": "-CHO"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The number of structural isomers possible for C₄H₁₀ is:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "In Duma's method for estimation of nitrogen, the gas collected is:",
+    "options": {
+      "A": "N₂",
+      "B": "NH₃",
+      "C": "NO",
+      "D": "N₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following is an electrophile?",
+    "options": {
+      "A": "SO₃",
+      "B": "H₂O",
+      "C": "ROR",
+      "D": "NH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "A racemic mixture is a mixture of:",
+    "options": {
+      "A": "Equal amounts of enantiomers",
+      "B": "Diastereomers",
+      "C": "Meso compounds",
+      "D": "Isomers"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The priority order of groups in IUPAC nomenclature is:",
+    "options": {
+      "A": "-COOH > -SO₃H > -COOR > -COCl",
+      "B": "-OH > -NH₂ > -C=C > -C≡C",
+      "C": "-CHO > -CO- > -OH > -SH",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "Glycerol can be purified by:",
+    "options": {
+      "A": "Distillation under reduced pressure",
+      "B": "Steam distillation",
+      "C": "Simple distillation",
+      "D": "Fractional distillation"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Metamerism is shown by:",
+    "options": {
+      "A": "Ethers",
+      "B": "Alcohols",
+      "C": "Aldehydes",
+      "D": "Alkanes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following intermediate is neutral?",
+    "options": {
+      "A": "Carbene",
+      "B": "Carbocation",
+      "C": "Carbanion",
+      "D": "Nitrenium ion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Paper chromatography is an example of:",
+    "options": {
+      "A": "Partition chromatography",
+      "B": "Adsorption chromatography",
+      "C": "Column chromatography",
+      "D": "Thin layer chromatography"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Decreasing order of -I effect is:",
+    "options": {
+      "A": "-NO₂ > -CN > -F > -Cl",
+      "B": "-F > -Cl > -Br > -I",
+      "C": "-NH₂ > -OR > -F",
+      "D": "Both A and B"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 25,
+    "question": "Geometrical isomerism is possible in:",
+    "options": {
+      "A": "But-2-ene",
+      "B": "But-1-ene",
+      "C": "Propene",
+      "D": "Ethene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The correct order of stability of free radicals is:",
+    "options": {
+      "A": "3° > 2° > 1° > CH₃·",
+      "B": "CH₃· > 1° > 2° > 3°",
+      "C": "2° > 3° > 1° > CH₃·",
+      "D": "3° > 1° > 2° > CH₃·"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "In the Carius method, phosphorus is estimated as:",
+    "options": {
+      "A": "Mg₂P₂O₇",
+      "B": "P₂O₅",
+      "C": "H₃PO₄",
+      "D": "Ag₃PO₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Which molecule is non-planar?",
+    "options": {
+      "A": "CH₄",
+      "B": "BF₃",
+      "C": "C₂H₄",
+      "D": "Benzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The R/S configuration is used for:",
+    "options": {
+      "A": "Optical isomers",
+      "B": "Geometrical isomers",
+      "C": "Conformational isomers",
+      "D": "Structural isomers"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Tautomerism is also known as:",
+    "options": {
+      "A": "Desmotropism",
+      "B": "Metamerism",
+      "C": "Allotropy",
+      "D": "Isomerism"
+    },
+    "answer": "A"
+  }
+]

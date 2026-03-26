@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If f(x) = lim (n->∞) [n^n(x+n)(x+n/2)...(x+n/n)]^(1/n) / n, then find the value of f(1/e).",
+    "options": {
+      "A": "1",
+      "B": "1/e",
+      "C": "e",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "Evaluate lim (x->0) (sin(π cos²x) / x²).",
+    "options": {
+      "A": "π",
+      "B": "-π",
+      "C": "π/2",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "If f(x) = |x-1| + |x-2|, then the derivative of f(x) at x = 1.5 is:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "Does not exist"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "The value of lim (x->0) (1 - cos(1 - cos x)) / x⁴ is:",
+    "options": {
+      "A": "1/8",
+      "B": "1/4",
+      "C": "1/2",
+      "D": "1/16"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Let f(x) be a polynomial such that f(0) = 2, f'(0) = 3 and f''(0) = 4. Find lim (x->0) [2f(x) - 3f(2x) + f(4x)] / x².",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "8",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "If f(x) = (x-1)(x-2)(x-3)...(x-100), then f'(100) is:",
+    "options": {
+      "A": "100!",
+      "B": "99!",
+      "C": "0",
+      "D": "100"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "Find lim (x->∞) (x + 5) / (x + 1)^x.",
+    "options": {
+      "A": "e⁴",
+      "B": "e⁵",
+      "C": "e",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Find the derivative of cos⁻¹(sin x) at x = π/4.",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "1/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "Evaluate lim (x->0) [tan(π/4 + x)]^(1/x).",
+    "options": {
+      "A": "e",
+      "B": "e²",
+      "C": "1",
+      "D": "e⁻¹"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "If y = x + x²/2 + x³/3 + ..., then dy/dx is:",
+    "options": {
+      "A": "1/(1-x)",
+      "B": "1/(1+x)",
+      "C": "e^x",
+      "D": "log x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Evaluate lim (x->0) (e^{x^2} - cos x) / x².",
+    "options": {
+      "A": "3/2",
+      "B": "1/2",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "If f(x) = sin x / (1 + cos x), then f'(π/2) is:",
+    "options": {
+      "A": "1",
+      "B": "1/2",
+      "C": "2",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Find lim (n->∞) (1/n) [sin(π/n) + sin(2π/n) + ... + sin(nπ/n)].",
+    "options": {
+      "A": "2/π",
+      "B": "π/2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The derivative of f(x) = x|x| at x = 0 is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "Does not exist"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Evaluate lim (x->1) (x + x² + ... + xⁿ - n) / (x - 1).",
+    "options": {
+      "A": "n(n+1)/2",
+      "B": "n(n-1)/2",
+      "C": "n²",
+      "D": "n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If f(x+y) = f(x)f(y) for all x,y and f(5)=2, f'(0)=3, then f'(5) is:",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "2",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Evaluate lim (x->0) (sin x - x + x³/6) / x⁵.",
+    "options": {
+      "A": "1/120",
+      "B": "1/60",
+      "C": "1/24",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The value of f'(1) for f(x) = (x-1) tan(πx/2) is:",
+    "options": {
+      "A": "-2/π",
+      "B": "2/π",
+      "C": "π/2",
+      "D": "-π/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Evaluate lim (x->∞) (√{x²+x} - x).",
+    "options": {
+      "A": "1/2",
+      "B": "1",
+      "C": "0",
+      "D": "∞"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "If f(x) = (log_x e), then f'(e) is:",
+    "options": {
+      "A": "-1/e",
+      "B": "1/e",
+      "C": "e",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Find lim (x->0) (ln(1+x) - x) / x².",
+    "options": {
+      "A": "-1/2",
+      "B": "1/2",
+      "C": "0",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Derivative of sin(x²) with respect to x² is:",
+    "options": {
+      "A": "cos(x²)",
+      "B": "2x cos(x²)",
+      "C": "cos x",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Evaluate lim (x->0) x [1/x] where [.] is G.I.F.",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "Does not exist",
+      "D": "∞"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Find the derivative of f(x) = log(log x) at x = e.",
+    "options": {
+      "A": "1/e",
+      "B": "e",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Evaluate lim (x->0) (1 - cos x √cos 2x) / x².",
+    "options": {
+      "A": "3/2",
+      "B": "1/2",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "If f(x) = (x+1)^100, then the 100th derivative of f(x) is:",
+    "options": {
+      "A": "100!",
+      "B": "100",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Evaluate lim (x->0) (3^x - 2^x) / x.",
+    "options": {
+      "A": "log(3/2)",
+      "B": "log(6)",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The value of lim (x->0) (sin x / x)^{1/x²} is:",
+    "options": {
+      "A": "e^{-1/6}",
+      "B": "e^{1/6}",
+      "C": "e^{-1/3}",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Derivative of e^{x^x} at x = 1 is:",
+    "options": {
+      "A": "e",
+      "B": "1",
+      "C": "0",
+      "D": "2e"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Evaluate lim (x->π/2) (1 - sin x) / (π - 2x)².",
+    "options": {
+      "A": "1/8",
+      "B": "1/4",
+      "C": "1/2",
+      "D": "0"
+    },
+    "answer": "A"
+  }
+]

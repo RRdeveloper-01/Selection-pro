@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If z is a complex number such that |z - 3 + 2i| + |z + 3 - 2i| = 11, then the locus of z represents:",
+    "options": {
+      "A": "A circle with radius 11",
+      "B": "An ellipse with foci at (3, -2) and (-3, 2)",
+      "C": "A hyperbola with eccentricity 11/sqrt(13)",
+      "D": "A straight line segment"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "Let alpha and beta be the roots of x^2 - 6x - 2 = 0. If a_n = alpha^n - beta^n, then the value of (a_10 - 2*a_8) / (2*a_9) is:",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "6",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The number of real roots of the equation exp(sin x) - exp(-sin x) - 4 = 0 is:",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "4",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "If |z1| = 1, |z2| = 2, |z3| = 3 and |9*z1*z2 + 4*z1*z3 + z2*z3| = 12, then the value of |z1 + z2 + z3| is:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "If both roots of the equation x^2 - 2mx + m^2 - 1 = 0 lie in the interval (-2, 4), then the range of m is:",
+    "options": {
+      "A": "(-1, 3)",
+      "B": "(-3, 1)",
+      "C": "(1, 5)",
+      "D": "(-2, 4)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "If z^2 + z + 1 = 0, where z is a complex number, then the value of (z + 1/z)^2 + (z^2 + 1/z^2)^2 + ... + (z^6 + 1/z^6)^2 is:",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "18",
+      "D": "54"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The least positive integer n for which ((1 + i) / (1 - i))^n = 1 is:",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "8",
+      "D": "16"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "If the roots of the equation x^2 + px + q = 0 are tan 30° and tan 15°, then the value of 2 + q - p is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "If |z - 4/z| = 2, then the maximum value of |z| is:",
+    "options": {
+      "A": "sqrt(5) + 1",
+      "B": "sqrt(5) - 1",
+      "C": "sqrt(3) + 1",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The number of real solutions of the equation |x^2 + 4x + 3| + 2x + 5 = 0 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "If omega is an imaginary cube root of unity, then (1 + omega - omega^2)^7 is equal to:",
+    "options": {
+      "A": "128*omega",
+      "B": "-128*omega^2",
+      "C": "128*omega^2",
+      "D": "-128*omega"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "If alpha, beta are the roots of ax^2 + bx + c = 0, then the equation whose roots are 1/alpha and 1/beta is:",
+    "options": {
+      "A": "cx^2 + bx + a = 0",
+      "B": "cx^2 - bx + a = 0",
+      "C": "ax^2 - bx + c = 0",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Let z = x + iy. If |z - 1| = |z + 1| = |z - i|, then z is:",
+    "options": {
+      "A": "1 + i",
+      "B": "0",
+      "C": "i",
+      "D": "-i"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "The minimum value of |z| + |z - 1| + |z - i| is attained at z equals:",
+    "options": {
+      "A": "0",
+      "B": "1/3 + i/3",
+      "C": "1/2 + i/2",
+      "D": "Complex calculation required"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "If the ratio of the roots of x^2 + px + q = 0 is same as the ratio of roots of x^2 + lx + m = 0, then:",
+    "options": {
+      "A": "p^2*m = l^2*q",
+      "B": "pm^2 = lq^2",
+      "C": "p^2*q = l^2*m",
+      "D": "p*m = l*q"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The sum of all real roots of the equation x^2 - 3|x| + 2 = 0 is:",
+    "options": {
+      "A": "3",
+      "B": "-3",
+      "C": "0",
+      "6": "6"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "If arg(z) < 0, then arg(-z) - arg(z) is equal to:",
+    "options": {
+      "A": "pi",
+      "B": "-pi",
+      "C": "pi/2",
+      "D": "-pi/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The value of 'a' for which the sum of the squares of the roots of x^2 - (a-2)x - a - 1 = 0 is least is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "If z1, z2, z3 are vertices of an equilateral triangle circumscribed by |z| = 1, then z1 + z2 + z3 is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "3",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The number of values of k for which the equation x^2 - kx + 4 = 0 has identical roots is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "Infinite"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "If Re((z - 1) / (2z + i)) = 0, then the locus of z is a:",
+    "options": {
+      "A": "Straight line",
+      "B": "Circle",
+      "C": "Ellipse",
+      "D": "Point"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "If alpha is a root of x^2 + x + 1 = 0, then the value of alpha^31 is:",
+    "options": {
+      "A": "alpha",
+      "B": "alpha^2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The condition that one root of ax^2 + bx + c = 0 is double the other is:",
+    "options": {
+      "A": "2b^2 = 9ac",
+      "B": "b^2 = 9ac",
+      "C": "2b^2 = ac",
+      "D": "b^2 = ac"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "If z = (sqrt(3) + i) / 2, then z^69 is equal to:",
+    "options": {
+      "A": "-i",
+      "B": "i",
+      "C": "1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "For what values of p, the roots of (p-3)x^2 - 2px + 5p = 0 are real?",
+    "options": {
+      "A": "p in [0, 15/4]",
+      "B": "p in (3, 15/4]",
+      "C": "p in [0, 3) U (3, 15/4]",
+      "D": "p > 3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "If |z1 + z2| = |z1 - z2|, then the difference in amplitudes (arguments) of z1 and z2 is:",
+    "options": {
+      "A": "pi/4",
+      "B": "pi/2",
+      "C": "pi",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "If alpha, beta are roots of x^2 - x + 1 = 0, then alpha^2024 + beta^2024 is:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "2",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The number of integral values of m for which the quadratic expression (1+2m)x^2 - 2(1+3m)x + 4(1+m) is always positive for all x is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "If z = (1+i)/(1-i), then z^4 + z^3 + z^2 + z + 1 is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "i",
+      "D": "-i"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "If alpha and beta are roots of x^2 + px + q = 0 and alpha^4, beta^4 are roots of x^2 - rx + s = 0, then x^2 - 4qx + 2q^2 - r = 0 has:",
+    "options": {
+      "A": "Two real roots",
+      "B": "No real roots",
+      "C": "One real root",
+      "D": "Two imaginary roots"
+    },
+    "answer": "A"
+  }
+]

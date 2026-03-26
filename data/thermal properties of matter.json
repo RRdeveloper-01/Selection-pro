@@ -1,0 +1,333 @@
+[
+  {
+    "question_no": 1,
+    "question": "A bimetallic strip is made of aluminum and steel. On heating, the strip will bend with:",
+    "options": {
+      "A": "Aluminum on the convex side",
+      "B": "Steel on the convex side",
+      "0": "No bending occurs",
+      "D": "Aluminum on the concave side"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The temperature of an ideal gas is increased from 27°C to 927°C. The root mean square speed of its molecules becomes:",
+    "options": {
+      "A": "Twice",
+      "B": "Four times",
+      "C": "Half",
+      "D": "Three times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "10g of ice at 0°C is mixed with 10g of water at 80°C. The final temperature of the mixture is:",
+    "options": {
+      "A": "0°C",
+      "B": "40°C",
+      "C": "20°C",
+      "D": "10°C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "A pendulum clock shows correct time at 20°C. If it is used at 40°C, then it will (α = 1.2 × 10⁻⁵/°C):",
+    "options": {
+      "A": "Lose 10.37 seconds per day",
+      "B": "Gain 10.37 seconds per day",
+      "C": "Lose 5 seconds per day",
+      "D": "Gain 20 seconds per day"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Two rods of same length and area but different thermal conductivities K₁ and K₂ are connected in series. The equivalent thermal conductivity is:",
+    "options": {
+      "A": "2K₁K₂ / (K₁ + K₂)",
+      "B": "(K₁ + K₂) / 2",
+      "C": "K₁K₂ / (K₁ + K₂)",
+      "D": "√(K₁K₂)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "According to Wien's displacement law, the product of wavelength (λm) and absolute temperature (T) is:",
+    "options": {
+      "A": "Constant",
+      "B": "Zero",
+      "C": "Variable",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A black body radiates heat at the rate of P W/m² at temperature T. If the temperature is doubled, the radiated power becomes:",
+    "options": {
+      "A": "16P",
+      "B": "4P",
+      "C": "2P",
+      "D": "8P"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The specific heat of a gas in an isothermal process is:",
+    "options": {
+      "A": "Infinite",
+      "B": "Zero",
+      "C": "Negative",
+      "D": "Finite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "A glass vessel is filled with water up to the brim at 4°C. If it is heated or cooled, the water will:",
+    "options": {
+      "A": "Overflow in both cases",
+      "B": "Overflow only on heating",
+      "C": "Overflow only on cooling",
+      "D": "Not overflow"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Newton's law of cooling is a special case of:",
+    "options": {
+      "A": "Stefan's Law",
+      "B": "Wien's Law",
+      "C": "Kirchhoff's Law",
+      "D": "Planck's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A sphere, a cube and a thin circular plate, all of same material and same mass are initially heated to 200°C. Which one will cool fastest?",
+    "options": {
+      "A": "Circular plate",
+      "B": "Sphere",
+      "C": "Cube",
+      "D": "All at same rate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "If the sun's temperature is doubled, the solar constant (energy received on earth) will increase by a factor of:",
+    "options": {
+      "A": "16",
+      "B": "2",
+      "C": "4",
+      "D": "8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Cooking pots are often black at the bottom because:",
+    "options": {
+      "A": "Black surfaces are good absorbers of heat",
+      "B": "Black surfaces are easy to clean",
+      "C": "Black surfaces are good reflectors",
+      "D": "Black absorbs only infrared rays"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The coefficient of linear expansion of a solid is α. Its coefficient of volume expansion is approximately:",
+    "options": {
+      "A": "3α",
+      "B": "α/3",
+      "C": "2α",
+      "D": "α²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following is the best conductor of heat?",
+    "options": {
+      "A": "Silver",
+      "B": "Copper",
+      "C": "Aluminum",
+      "D": "Iron"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "When a hole is drilled in a metal sheet and the sheet is heated, the size of the hole:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "Depends on the metal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Triple point of water is:",
+    "options": {
+      "A": "273.16 K",
+      "B": "273.15 K",
+      "C": "0 K",
+      "D": "100 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The amount of heat required to convert 1g of ice at -10°C into steam at 100°C is approx:",
+    "options": {
+      "A": "725 cal",
+      "B": "640 cal",
+      "C": "540 cal",
+      "D": "80 cal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Two stars A and B radiate maximum energy at 360 nm and 480 nm. The ratio of their absolute temperatures is:",
+    "options": {
+      "A": "4 : 3",
+      "B": "3 : 4",
+      "C": "16 : 9",
+      "D": "9 : 16"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Heat is transferred through vacuum by:",
+    "options": {
+      "A": "Radiation",
+      "B": "Conduction",
+      "C": "Convection",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "A body cools from 60°C to 50°C in 10 minutes. If the room temperature is 25°C, how long will it take to cool from 50°C to 40°C?",
+    "options": {
+      "A": "15 minutes",
+      "B": "10 minutes",
+      "C": "12 minutes",
+      "D": "20 minutes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The emissivity of a perfectly black body is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "0.5",
+      "D": "Infinite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A piece of iron is heated in a flame. It first becomes dull red then reddish yellow and finally white hot. The correct explanation is:",
+    "options": {
+      "A": "Wien's Displacement Law",
+      "B": "Newton's Law of Cooling",
+      "C": "Stefan's Law",
+      "D": "Kirchhoff's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Latent heat of fusion of ice is:",
+    "options": {
+      "A": "80 cal/g",
+      "B": "540 cal/g",
+      "C": "1 cal/g",
+      "D": "2260 J/g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Water is used as a coolant in automobile radiators because of its:",
+    "options": {
+      "A": "High specific heat capacity",
+      "B": "Low density",
+      "C": "High thermal conductivity",
+      "D": "Low boiling point"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "A hole is made in a copper plate. When the plate is heated, the diameter of the hole:",
+    "options": {
+      "A": "Always increases",
+      "B": "Always decreases",
+      "C": "Always remains same",
+      "D": "Increases first then decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Solar radiation spectrum is:",
+    "options": {
+      "A": "Line spectrum",
+      "B": "Band spectrum",
+      "C": "Continuous spectrum",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "Thermal resistance is given by:",
+    "options": {
+      "A": "L / KA",
+      "B": "KA / L",
+      "C": "KLA",
+      "D": "1 / KLA"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "If the temperature of a body increases by 1°C, its temperature in Kelvin scale increases by:",
+    "options": {
+      "A": "1 K",
+      "B": "274 K",
+      "C": "273 K",
+      "D": "0.5 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The ratio of thermal conductivity of silver to that of a perfect insulator is:",
+    "options": {
+      "A": "Infinite",
+      "B": "Zero",
+      "C": "1",
+      "D": "100"
+    },
+    "answer": "A"
+  }
+]
+Oscillations

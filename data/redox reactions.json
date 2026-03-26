@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The oxidation state of Chromium in K₂Cr₂O₇ is:",
+    "options": {
+      "A": "+6",
+      "B": "+3",
+      "C": "+7",
+      "D": "+12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "In the reaction: 3ClO⁻ → ClO₃⁻ + 2Cl⁻, Chlorine is undergoing:",
+    "options": {
+      "A": "Disproportionation",
+      "B": "Only Oxidation",
+      "C": "Only Reduction",
+      "D": "No change in oxidation state"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The oxidation number of Oxygen in OF₂ is:",
+    "options": {
+      "A": "+2",
+      "B": "-2",
+      "C": "-1",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The n-factor for KMnO₄ in acidic medium is:",
+    "options": {
+      "A": "5",
+      "B": "1",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following is the strongest oxidizing agent?",
+    "options": {
+      "A": "F₂",
+      "B": "Cl₂",
+      "C": "Br₂",
+      "D": "I₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Oxidation state of Sulfur in Caro's acid (H₂SO₅) is:",
+    "options": {
+      "A": "+6",
+      "B": "+8",
+      "C": "+10",
+      "D": "+4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "In a redox reaction, the reducing agent:",
+    "options": {
+      "A": "Loses electrons and gets oxidized",
+      "B": "Gains electrons and gets reduced",
+      "C": "Loses electrons and gets reduced",
+      "D": "Gains electrons and gets oxidized"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Equivalent weight of K₂Cr₂O₇ in acidic medium is (M = Molecular weight):",
+    "options": {
+      "A": "M / 6",
+      "B": "M / 3",
+      "C": "M / 5",
+      "D": "M / 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The oxidation state of Nitrogen in NH₄NO₃ is:",
+    "options": {
+      "A": "-3 and +5",
+      "B": "+3 and -5",
+      "C": "0",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is not a redox reaction?",
+    "options": {
+      "A": "BaCl₂ + H₂SO₄ → BaSO₄ + 2HCl",
+      "B": "2KClO₃ → 2KCl + 3O₂",
+      "C": "2H₂ + O₂ → 2H₂O",
+      "D": "Zn + CuSO₄ → ZnSO₄ + Cu"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Oxidation number of Phosphorus in Ba(H₂PO₂)₂ is:",
+    "options": {
+      "A": "+1",
+      "B": "+3",
+      "C": "+5",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Standard Electrode Potential (E°) is a measure of:",
+    "options": {
+      "A": "Oxidizing/Reducing power",
+      "B": "Enthalpy of reaction",
+      "C": "Speed of reaction",
+      "D": "Molecular weight"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "In the reaction: MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O, the stoichiometric coefficient of H⁺ is:",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "10",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The oxidation number of Iron in Brown Ring Complex [Fe(H₂O)₅NO]SO₄ is:",
+    "options": {
+      "A": "+1",
+      "B": "+2",
+      "C": "+3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Reducing power of alkali metals follows the order:",
+    "options": {
+      "A": "Li > K > Na",
+      "B": "Li < Na < K",
+      "C": "Na > K > Li",
+      "D": "K > Li > Na"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The oxidation state of Carbon in Glucose (C₆H₁₂O₆) is:",
+    "options": {
+      "A": "0",
+      "B": "+4",
+      "C": "+2",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following can act as both oxidizing and reducing agent?",
+    "options": {
+      "A": "H₂O₂",
+      "B": "KMnO₄",
+      "C": "K₂Cr₂O₇",
+      "D": "HNO₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The sum of oxidation states of all atoms in a neutral molecule is:",
+    "options": {
+      "A": "Zero",
+      "B": "Varies",
+      "C": "Positive",
+      "D": "Negative"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Equivalent weight of Mohr's salt is equal to its:",
+    "options": {
+      "A": "Molecular weight",
+      "B": "Molecular weight / 2",
+      "C": "Molecular weight / 6",
+      "D": "Molecular weight / 5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "In a Daniel Cell, oxidation occurs at:",
+    "options": {
+      "A": "Zinc electrode (Anode)",
+      "B": "Copper electrode (Cathode)",
+      "C": "Salt bridge",
+      "D": "Solution"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Oxidation state of Cl in Bleaching powder (CaOCl₂) is:",
+    "options": {
+      "A": "+1 and -1",
+      "B": "0",
+      "C": "+1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following is a 'Comproportionation' reaction?",
+    "options": {
+      "A": "Ag²⁺ + Ag → 2Ag⁺",
+      "B": "2H₂O₂ → 2H₂O + O₂",
+      "C": "Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Thiosulfate (S₂O₃²⁻) on reaction with Iodine gives:",
+    "options": {
+      "A": "S₄O₆²⁻ (Tetrathionate)",
+      "B": "SO₄²⁻",
+      "C": "S",
+      "D": "SO₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The oxidation number of Nickel in Ni(CO)₄ is:",
+    "options": {
+      "A": "0",
+      "B": "+2",
+      "C": "+4",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Auto-reduction process is used for the extraction of:",
+    "options": {
+      "A": "Cu",
+      "B": "Al",
+      "C": "Fe",
+      "D": "Na"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The oxidation state of Iodine in HIO₄ is:",
+    "options": {
+      "A": "+7",
+      "B": "+5",
+      "C": "+1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If an element is in its highest oxidation state, it can act as:",
+    "options": {
+      "A": "Oxidizing agent only",
+      "B": "Reducing agent only",
+      "C": "Both",
+      "D": "Neither"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "In the electrochemical series, elements with lower reduction potential are:",
+    "options": {
+      "A": "Stronger reducing agents",
+      "B": "Stronger oxidizing agents",
+      "C": "Inert",
+      "D": "Non-metals"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Oxidation number of Pt in [Pt(C₂H₄)Cl₃]⁻ is:",
+    "options": {
+      "A": "+2",
+      "B": "+4",
+      "C": "0",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Balancing of redox equations is based on the principle of:",
+    "options": {
+      "A": "Conservation of charge and mass",
+      "B": "Conservation of volume",
+      "C": "Le-Chatelier",
+      "D": "Hess's Law"
+    },
+    "answer": "A"
+  }
+]

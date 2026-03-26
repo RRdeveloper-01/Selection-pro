@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A projectile is fired at an angle θ with the horizontal. At the highest point of its trajectory, its speed is half of its initial speed. The angle θ is:",
+    "options": {
+      "A": "30°",
+      "B": "60°",
+      "C": "45°",
+      "D": "0°"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The equation of a projectile is y = √3x - gx²/2. The angle of projection is:",
+    "options": {
+      "A": "30°",
+      "B": "60°",
+      "C": "45°",
+      "D": "90°"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "A boat can travel with a speed of 5 km/h in still water. If the speed of the river is 3 km/h, the shortest time to cross a 1 km wide river is:",
+    "options": {
+      "A": "12 min",
+      "B": "15 min",
+      "C": "20 min",
+      "D": "10 min"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "For a projectile, the ratio of maximum height to the square of time of flight is:",
+    "options": {
+      "A": "g/8",
+      "B": "g/4",
+      "C": "g/2",
+      "D": "g/16"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "A particle is moving in a circle of radius R with constant speed v. The magnitude of change in velocity when it covers an angle of 60° is:",
+    "options": {
+      "A": "v",
+      "B": "v√3",
+      "C": "v/2",
+      "D": "2v"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A man can swim in still water at 4 km/h. He wants to cross a river flowing at 2 km/h. At what angle with the river flow should he swim to reach the point exactly opposite?",
+    "options": {
+      "A": "120°",
+      "B": "150°",
+      "C": "90°",
+      "D": "60°"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The horizontal range and maximum height of a projectile are equal. The angle of projection is:",
+    "options": {
+      "A": "tan⁻¹(4)",
+      "B": "tan⁻¹(1/4)",
+      "C": "45°",
+      "D": "60°"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A stone is thrown at an angle of 45° to the horizontal with kinetic energy K. The kinetic energy at the highest point is:",
+    "options": {
+      "A": "K/2",
+      "B": "K/√2",
+      "C": "K",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "If R is the range of a projectile on a horizontal plane and H is the maximum height, then the maximum range for the same speed of projection is:",
+    "options": {
+      "A": "2H + R²/8H",
+      "B": "H + R²/8H",
+      "C": "2H + R²/4H",
+      "D": "H + R²/4H"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Rain is falling vertically with a speed of 30 m/s. A man rides a bicycle with a speed of 10 m/s in the north to south direction. What is the direction in which he should hold his umbrella?",
+    "options": {
+      "A": "tan⁻¹(1/3) with vertical",
+      "B": "tan⁻¹(3) with vertical",
+      "C": "30° with vertical",
+      "D": "45° with vertical"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A particle starts from origin at t=0 with velocity 5i m/s and moves in x-y plane under a force such that it has acceleration (3i + 2j) m/s². The y-coordinate when x-coordinate is 84m is:",
+    "options": {
+      "A": "36 m",
+      "B": "24 m",
+      "C": "12 m",
+      "D": "48 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Two projectiles are thrown with the same speed at angles (45-θ) and (45+θ). The ratio of their horizontal ranges is:",
+    "options": {
+      "A": "1 : 1",
+      "B": "1 : 2",
+      "C": "sinθ : cosθ",
+      "D": "cos2θ : 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "A stone tied to the end of a string 1m long is whirled in a horizontal circle with a constant speed. If the stone makes 22 revolutions in 44 seconds, the magnitude of acceleration is:",
+    "options": {
+      "A": "π² m/s²",
+      "B": "π m/s²",
+      "C": "4π² m/s²",
+      "D": "2π² m/s²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A projectile is thrown with speed u at an angle θ. The radius of curvature of its path at the highest point is:",
+    "options": {
+      "A": "u²cos²θ / g",
+      "B": "u²sin²θ / g",
+      "C": "u²/g",
+      "D": "u²cosθ / g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The position vector of a particle is r = (acosωt)i + (asinωt)j. The velocity of the particle is:",
+    "options": {
+      "A": "Perpendicular to r",
+      "B": "Parallel to r",
+      "C": "Directed towards origin",
+      "D": "Directed away from origin"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A body is projected with a velocity of 30 m/s at an angle of 30° with the vertical. Its horizontal range is (g=10):",
+    "options": {
+      "A": "45√3 m",
+      "B": "90 m",
+      "C": "45 m",
+      "D": "22.5 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A particle moves in x-y plane with velocity v = ai + bxj. If it passes through origin, the equation of its path is:",
+    "options": {
+      "A": "y = (b/2a)x²",
+      "B": "y = (a/2b)x²",
+      "C": "y = bx/a",
+      "D": "y = ax/b"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The maximum range of a gun on horizontal terrain is 16 km. If g = 10 m/s², the muzzle velocity of a shell must be:",
+    "options": {
+      "A": "400 m/s",
+      "B": "200 m/s",
+      "C": "160 m/s",
+      "D": "800 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "In a uniform circular motion, the acceleration vector is:",
+    "options": {
+      "A": "Constant in magnitude but variable in direction",
+      "B": "Constant in direction but variable in magnitude",
+      "C": "Constant in both",
+      "D": "Variable in both"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A bullet is dropped from the same height at the same time as another bullet is fired horizontally. They will hit the ground:",
+    "options": {
+      "A": "Simultaneously",
+      "B": "Dropped bullet first",
+      "C": "Fired bullet first",
+      "D": "Depends on the mass"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "A particle is projected from the ground with velocity u at angle θ. The time after which its velocity becomes perpendicular to initial velocity is:",
+    "options": {
+      "A": "u / (g sinθ)",
+      "B": "u / (g cosθ)",
+      "C": "u sinθ / g",
+      "D": "u tanθ / g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The angular speed of a fly wheel making 120 revolutions per minute is:",
+    "options": {
+      "A": "4π rad/s",
+      "B": "2π rad/s",
+      "C": "π rad/s",
+      "D": "8π rad/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A bomber flying horizontally at a height of 490m with a velocity 360 km/h releases a bomb. The distance of the target from the point directly below the bomber is:",
+    "options": {
+      "A": "1000 m",
+      "B": "500 m",
+      "C": "2000 m",
+      "D": "750 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Two particles are projected with same speed but different angles θ₁ and θ₂. If their horizontal ranges are same, then:",
+    "options": {
+      "A": "θ₁ + θ₂ = 90°",
+      "B": "θ₁ - θ₂ = 90°",
+      "C": "θ₁ + θ₂ = 180°",
+      "D": "θ₁ = θ₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A particle moves in a plane with constant acceleration 'a' in a direction different from the initial velocity 'v'. The path of the particle is a:",
+    "options": {
+      "A": "Parabola",
+      "B": "Straight line",
+      "C": "Circle",
+      "D": "Ellipse"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "A person can throw a ball to a maximum horizontal distance of 100m. How high can he throw the same ball vertically?",
+    "options": {
+      "A": "50 m",
+      "B": "100 m",
+      "C": "25 m",
+      "D": "200 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If the instantaneous velocity of a particle is v = (3i + 4j) m/s and its constant acceleration is a = (4i + 3j) m/s², its speed after 1 second is:",
+    "options": {
+      "A": "7√2 m/s",
+      "B": "10 m/s",
+      "C": "7 m/s",
+      "D": "5 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The time of flight of a projectile is 10s and its range is 500m. The maximum height reached by it is (g=10):",
+    "options": {
+      "A": "125 m",
+      "B": "250 m",
+      "C": "100 m",
+      "D": "50 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A cyclist turns around a curve at 15 miles/hour. If he turns at double the speed, the tendency to overturn is:",
+    "options": {
+      "A": "Quadrupled",
+      "B": "Doubled",
+      "C": "Halved",
+      "D": "Unchanged"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A ball is projected from a tower of height H with velocity u horizontally. The velocity with which it hits the ground is:",
+    "options": {
+      "A": "√(u² + 2gH)",
+      "B": "√(u² - 2gH)",
+      "C": "√(2gH)",
+      "D": "u + √(2gH)"
+    },
+    "answer": "A"
+  }
+]

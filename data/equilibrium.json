@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), the forward reaction is favored by:",
+    "options": {
+      "A": "Increasing the volume of the container",
+      "B": "Increasing the pressure",
+      "C": "Adding Cl₂ gas at constant volume",
+      "D": "Decreasing the temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The pH of a 10⁻⁸ M HCl solution is:",
+    "options": {
+      "A": "Between 6 and 7",
+      "B": "8",
+      "C": "7",
+      "D": "Between 7 and 8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The solubility of AgCl in 0.1 M NaCl solution will be ______ than in pure water.",
+    "options": {
+      "A": "Less",
+      "B": "More",
+      "C": "Same",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following is a Lewis acid?",
+    "options": {
+      "A": "BF₃",
+      ")": "NH₃",
+      "C": "H₂O",
+      "D": "OH⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "For the equilibrium BaSO₄(s) ⇌ Ba²⁺(aq) + SO₄²⁻(aq), the solubility product K_sp is given by (s = solubility):",
+    "options": {
+      "A": "s²",
+      "B": "4s³",
+      "C": "27s⁴",
+      "D": "s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "In the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + Heat, the yield of ammonia is maximum at:",
+    "options": {
+      "A": "High pressure and Low temperature",
+      "B": "Low pressure and High temperature",
+      "C": "High pressure and High temperature",
+      "D": "Low pressure and Low temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The conjugate base of H₂PO₄⁻ is:",
+    "options": {
+      "A": "HPO₄²⁻",
+      "B": "H₃PO₄",
+      "C": "PO₄³⁻",
+      "D": "P₂O₅"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "If the equilibrium constant for A ⇌ B is K, then the equilibrium constant for 2B ⇌ 2A is:",
+    "options": {
+      "A": "1 / K²",
+      "B": "K²",
+      "C": "2K",
+      "D": "1 / 2K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "A buffer solution can be prepared by mixing:",
+    "options": {
+      "A": "CH₃COOH and CH₃COONa",
+      "B": "HCl and NaCl",
+      "C": "NH₄OH and NH₄Cl",
+      "D": "Both A and C"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 10,
+    "question": "The relation between K_p and K_c for the reaction H₂(g) + I₂(g) ⇌ 2HI(g) is:",
+    "options": {
+      "A": "K_p = K_c",
+      "B": "K_p = K_c (RT)",
+      "C": "K_p = K_c (RT)²",
+      "D": "K_p = K_c (RT)⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The pKa of a weak acid is 4.8. The pH of a solution containing equal concentrations of the acid and its salt is:",
+    "options": {
+      "A": "4.8",
+      "B": "9.2",
+      "C": "7.0",
+      "D": "5.0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Which salt will give an alkaline solution on hydrolysis?",
+    "options": {
+      "A": "Na₂CO₃",
+      "B": "NH₄Cl",
+      "C": "NaCl",
+      "D": "KNO₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If Reaction Quotient Q_c < K_c, the reaction will proceed in:",
+    "options": {
+      "A": "Forward direction",
+      "B": "Backward direction",
+      "C": "Equilibrium",
+      "D": "Stops"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The solubility of A₂B₃ type salt is 's' mol/L. Its K_sp is:",
+    "options": {
+      "A": "108 s⁵",
+      "B": "6 s⁵",
+      "C": "27 s⁴",
+      "D": "12 s³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Adding an inert gas at constant pressure to the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g) will:",
+    "options": {
+      "A": "Shift equilibrium to the left",
+      "B": "Shift equilibrium to the right",
+      "C": "No effect",
+      "D": "Increase the value of K_p"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The ionic product of water (K_w) at 25°C is:",
+    "options": {
+      "A": "10⁻¹⁴",
+      "B": "10⁻⁷",
+      "C": "10⁷",
+      "D": "10¹⁴"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following is not a buffer?",
+    "options": {
+      "A": "HCl + NH₄Cl",
+      "B": "CH₃COOH + CH₃COONa",
+      "C": "H₂CO₃ + NaHCO₃",
+      "D": "NH₄OH + NH₄Cl"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "In the titration of a strong acid vs strong base, the indicator used is:",
+    "options": {
+      "A": "Phenolphthalein",
+      "B": "Methyl Orange",
+      "C": "Any of these",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The Ostwald's dilution law is applicable to:",
+    "options": {
+      "A": "Weak electrolytes",
+      "B": "Strong electrolytes",
+      "C": "Non-electrolytes",
+      "D": "Gases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Degree of dissociation (α) of a weak electrolyte increases with:",
+    "options": {
+      "A": "Dilution",
+      "B": "Increase in concentration",
+      "C": "Decrease in temperature",
+      "D": "Presence of common ion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The pH of 0.1 M NaOH solution is:",
+    "options": {
+      "A": "13",
+      "B": "1",
+      "C": "7",
+      "D": "11"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The Henderson-Hasselbalch equation for an acidic buffer is:",
+    "options": {
+      "A": "pH = pKa + log([Salt]/[Acid])",
+      "B": "pOH = pKb + log([Salt]/[Base])",
+      "C": "pH = pKa - log([Salt]/[Acid])",
+      "D": "pH = 14 - pOH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Le-Chatelier's principle is not applicable to:",
+    "options": {
+      "A": "Pure solids and liquids",
+      "B": "Gases",
+      "C": "Aqueous solutions",
+      "D": "Reversible reactions"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Common ion effect suppresses the dissociation of:",
+    "options": {
+      "A": "Weak electrolytes",
+      "B": "Strong electrolytes",
+      "C": "Insoluble salts",
+      "D": "Catalysts"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "K_p for a reaction is 0.1 at 25°C. The value of ΔG° is:",
+    "options": {
+      "A": "+5.7 kJ",
+      "B": "-5.7 kJ",
+      "C": "Zero",
+      "D": "+2.3 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The solubility of CaF₂ is 2 x 10⁻⁴ mol/L. Its K_sp is:",
+    "options": {
+      "A": "3.2 x 10⁻¹¹",
+      "B": "4 x 10⁻⁸",
+      "C": "8 x 10⁻¹²",
+      "D": "1.6 x 10⁻¹⁰"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "For the equilibrium H₂O(l) ⇌ H₂O(g) at 100°C, the K_p is:",
+    "options": {
+      "A": "1 atm",
+      "B": "0.5 atm",
+      "C": "76 atm",
+      "D": "0.1 atm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "A salt of strong acid and weak base (like NH₄Cl) has a pH:",
+    "options": {
+      "A": "< 7",
+      "B": "> 7",
+      "C": "= 7",
+      "D": "14"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is a neutral amino acid?",
+    "options": {
+      "A": "Glycine (at Isoelectric point)",
+      "B": "Lysine",
+      "C": "Aspartic acid",
+      "D": "Arginine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "If concentration of reactants is doubled, the equilibrium constant K_c will:",
+    "options": {
+      "A": "Remain same",
+      "B": "Become double",
+      "C": "Become half",
+      "D": "Become four times"
+    },
+    "answer": "A"
+  }
+]

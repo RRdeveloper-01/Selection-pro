@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following has the largest ionic radius?",
+    "options": {
+      "A": "N³⁻",
+      "B": "O²⁻",
+      "C": "F⁻",
+      "D": "Na⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The first ionization enthalpy of Na, Mg, Al and Si are in the order:",
+    "options": {
+      "A": "Na < Al < Mg < Si",
+      "2": "Na < Mg < Al < Si",
+      "C": "Na > Mg > Al > Si",
+      "D": "Na < Al < Si < Mg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The correct order of electron gain enthalpy (with negative sign) for F, Cl, Br and I is:",
+    "options": {
+      "A": "Cl > F > Br > I",
+      "B": "F > Cl > Br > I",
+      "C": "I > Br > Cl > F",
+      "D": "Cl > Br > I > F"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which element has the highest electronegativity on the Pauling scale?",
+    "options": {
+      "A": "Fluorine",
+      "B": "Cesium",
+      "C": "Oxygen",
+      "D": "Chlorine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The element with atomic number 117 has not been fully studied. It would belong to which family?",
+    "options": {
+      "A": "Halogens",
+      "B": "Noble gases",
+      "C": "Alkali metals",
+      "D": "Chalcogens"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The diagonal relationship is shown by:",
+    "options": {
+      "A": "Li and Mg",
+      "B": "Li and Be",
+      "C": "Be and Mg",
+      "D": "B and S"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following is an amphoteric oxide?",
+    "options": {
+      "A": "Al₂O₃",
+      "B": "Na₂O",
+      "C": "SO₃",
+      "D": "B₂O₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "In the modern periodic table, the period indicates the value of:",
+    "options": {
+      "A": "Principal quantum number (n)",
+      "B": "Azimuthal quantum number (l)",
+      "C": "Magnetic quantum number (m)",
+      "D": "Atomic number"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The size of isoelectronic species F⁻, Ne and Na⁺ is affected by:",
+    "options": {
+      "A": "Nuclear charge (Z)",
+      "B": "Principal quantum number",
+      "C": "Electron-electron interaction",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which group of elements are called Chalcogens?",
+    "options": {
+      "A": "Group 16",
+      "B": "Group 15",
+      "C": "Group 17",
+      "D": "Group 14"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The second ionization enthalpy is always ______ than the first ionization enthalpy.",
+    "options": {
+      "A": "Higher",
+      "B": "Lower",
+      "C": "Equal",
+      "D": "Depends on the atom"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Identify the element with the highest metallic character:",
+    "options": {
+      "A": "Cs",
+      "B": "Li",
+      "C": "Be",
+      "D": "Ba"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Electronegativity ______ across a period and ______ down a group.",
+    "options": {
+      "A": "Increases, Decreases",
+      "B": "Decreases, Increases",
+      "C": "Increases, Increases",
+      "D": "Decreases, Decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The IUPAC name of an element with atomic number 105 is:",
+    "options": {
+      "A": "Unnilpentium",
+      "B": "Unnilquadium",
+      "C": "Unnilhexium",
+      "D": "Unnilseptium"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following is the correct order of acidic strength?",
+    "options": {
+      "A": "Cl₂O₇ > SO₃ > P₄O₁₀",
+      "B": "P₄O₁₀ > SO₃ > Cl₂O₇",
+      "C": "SO₃ > Cl₂O₇ > P₄O₁₀",
+      "D": "Cl₂O₇ > P₄O₁₀ > SO₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Shielding effect is maximum in which subshell?",
+    "options": {
+      "A": "s",
+      "B": "p",
+      "C": "d",
+      "D": "f"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The general electronic configuration of d-block elements is:",
+    "options": {
+      "A": "(n-1)d¹⁻¹⁰ ns⁰⁻²",
+      "B": "(n-1)d¹⁻¹⁰ ns²",
+      "C": "nd¹⁻¹⁰ ns¹⁻²",
+      "D": "(n-1)d¹⁻¹⁰ np⁶"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which is not a representative element?",
+    "options": {
+      "A": "Fe",
+      "B": "K",
+      "C": "Al",
+      "D": "N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Atomic radius of Ga is slightly less than Al due to:",
+    "options": {
+      "A": "Poor shielding of d-electrons",
+      "B": "Lanthanoid contraction",
+      "C": "Greater nuclear charge",
+      "D": "Increase in s-electrons"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Electron gain enthalpy of Noble gases is:",
+    "options": {
+      "A": "Large positive",
+      "B": "Large negative",
+      "C": "Zero",
+      "D": "Small negative"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The most basic oxide among the following is:",
+    "options": {
+      "A": "Na₂O",
+      "B": "MgO",
+      "C": "Al₂O₃",
+      "D": "SiO₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Valency of an element depends on:",
+    "options": {
+      "A": "Number of valence electrons",
+      "B": "Atomic mass",
+      "C": "Atomic radius",
+      "D": "Neutron number"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Which set of elements has nearly the same atomic radius?",
+    "options": {
+      "A": "Fe, Co, Ni",
+      "B": "Li, Na, K",
+      "C": "F, Cl, Br",
+      "D": "O, S, Se"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The van der Waals radius is always ______ than the covalent radius.",
+    "options": {
+      "A": "Larger",
+      "B": "Smaller",
+      "C": "Equal",
+      "D": "Half"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Eka-aluminium predicted by Mendeleev is now known as:",
+    "options": {
+      "A": "Gallium",
+      "B": "Germanium",
+      "C": "Scandium",
+      "D": "Technetium"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The group of elements with the highest Ionization Enthalpy is:",
+    "options": {
+      "A": "Noble gases",
+      "B": "Alkali metals",
+      "C": "Halogens",
+      "D": "Alkaline earth metals"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Effective nuclear charge (Z_eff) across a period:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "First increases then decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Which property shows a clear periodic trend?",
+    "options": {
+      "A": "All of these",
+      "B": "Atomic Radius",
+      "C": "Ionization Enthalpy",
+      "D": "Electronegativity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Element with Z=114 is in which group?",
+    "options": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Non-metals are usually found on the ______ of the periodic table.",
+    "options": {
+      "A": "Right side",
+      "B": "Left side",
+      "C": "Middle",
+      "D": "Bottom"
+    },
+    "answer": "A"
+  }
+]

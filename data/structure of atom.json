@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The radius of the second Bohr orbit for Hydrogen atom is: (Plancks constant h = 6.6262 x 10⁻³⁴ Js; mass of electron = 9.1091 x 10⁻³¹ kg; charge of electron e = 1.60210 x 10⁻¹⁹ C; permittivity of vacuum ε₀ = 8.854185 x 10⁻¹² kg⁻¹ m⁻³ A²)",
+    "options": {
+      "A": "2.12 Å",
+      "B": "0.529 Å",
+      "C": "1.06 Å",
+      "D": "4.24 Å"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The energy of an electron in the n-th Bohr orbit of Hydrogen atom is given by:",
+    "options": {
+      "A": "-13.6 / n² eV",
+      "B": "-13.6 / n eV",
+      "C": "-13.6 x n² eV",
+      "D": "-13.6 x n eV"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following quantum numbers determines the shape of an orbital?",
+    "options": {
+      "A": "Azimuthal quantum number (l)",
+      "B": "Principal quantum number (n)",
+      "C": "Magnetic quantum number (m)",
+      "D": "Spin quantum number (s)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The maximum number of electrons in a subshell with l = 3 is:",
+    "options": {
+      "A": "14",
+      "B": "10",
+      "C": "6",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The uncertainty in position of an electron (m = 9.1 x 10⁻³¹ kg) moving with a velocity of 300 m/s with an accuracy of 0.001% is: (h = 6.63 x 10⁻³⁴ Js)",
+    "options": {
+      "A": "1.92 x 10⁻² m",
+      "B": "3.84 x 10⁻² m",
+      "C": "1.92 x 10⁻³ m",
+      "D": "5.76 x 10⁻² m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following transitions in Hydrogen atom will emit a photon of highest frequency?",
+    "options": {
+      "A": "n=2 to n=1",
+      "B": "n=6 to n=2",
+      "C": "n=1 to n=2",
+      "D": "n=2 to n=6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The de Broglie wavelength of a tennis ball of mass 60g moving with a velocity of 10 m/s is approximately: (h = 6.63 x 10⁻³⁴ Js)",
+    "options": {
+      "A": "10⁻³³ m",
+      "B": "10⁻³¹ m",
+      "C": "10⁻¹⁶ m",
+      "D": "10⁻²⁵ m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The number of radial nodes for a 3p orbital is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Which rule states that no two electrons in an atom can have the same set of four quantum numbers?",
+    "options": {
+      "A": "Pauli Exclusion Principle",
+      "B": "Hund's Rule",
+      "C": "Aufbau Principle",
+      "D": "Heisenberg's Uncertainty Principle"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The electronic configuration of Chromium (Z=24) is:",
+    "options": {
+      "A": "[Ar] 3d⁵ 4s¹",
+      "B": "[Ar] 3d⁴ 4s²",
+      "C": "[Ar] 3d⁶",
+      "D": "[Ar] 4s² 4p⁴"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The wavelength of the first line of Lyman series in Hydrogen spectrum is: (R_H = 1.097 x 10⁷ m⁻¹)",
+    "options": {
+      "A": "121.6 nm",
+      "B": "102.6 nm",
+      "C": "656.3 nm",
+      "D": "486.1 nm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "An orbital with n=4, l=2, m=0 corresponds to:",
+    "options": {
+      "A": "4d",
+      "B": "4p",
+      "C": "4f",
+      "D": "4s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The total number of orbitals associated with the principal quantum number n=3 is:",
+    "options": {
+      "A": "9",
+      "B": "4",
+      "C": "16",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The ratio of energy of a photon of 2000 Å wavelength to that of 4000 Å radiation is:",
+    "options": {
+      "A": "2",
+      "B": "1/2",
+      "C": "4",
+      "D": "1/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The magnetic moment of Ni²⁺ ion (Z=28) is:",
+    "options": {
+      "A": "2.84 BM",
+      "B": "1.73 BM",
+      "C": "3.87 BM",
+      "D": "4.90 BM"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "According to Bohr's theory, the angular momentum of an electron in the 4th orbit is:",
+    "options": {
+      "A": "2h / π",
+      "B": "h / π",
+      "C": "4h / π",
+      "D": "3h / 2π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The frequency of radiation emitted when the electron falls from n=4 to n=1 in a Hydrogen atom is: (Ionization energy of H = 2.18 x 10⁻¹⁸ J, h = 6.63 x 10⁻³⁴ Js)",
+    "options": {
+      "A": "3.08 x 10¹⁵ s⁻¹",
+      "B": "2.00 x 10¹⁵ s⁻¹",
+      "C": "1.54 x 10¹⁵ s⁻¹",
+      "D": "1.03 x 10¹⁵ s⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following ions is isoelectronic with CO?",
+    "options": {
+      "A": "CN⁻",
+      "B": "O₂⁺",
+      "C": "N₂⁺",
+      "D": "O₂⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The value of 'm' for a d-orbital can be:",
+    "options": {
+      "A": "-2, -1, 0, +1, +2",
+      "B": "0, 1, 2",
+      "C": "-1, 0, +1",
+      "D": "-3, -2, -1, 0, +1, +2, +3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "If the kinetic energy of an electron is increased four times, the de Broglie wavelength becomes:",
+    "options": {
+      "A": "Half",
+      "B": "Twice",
+      "C": "Four times",
+      "D": "One-fourth"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The wavelength of a spectral line for an electronic transition is inversely proportional to:",
+    "options": {
+      "A": "Energy difference between levels",
+      "B": "Velocity of electron",
+      "C": "Number of electrons",
+      "D": "Nuclear charge"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The number of unpaired electrons in Fe³⁺ ion (Z=26) is:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Photoelectric effect was explained by:",
+    "options": {
+      "A": "Einstein",
+      "B": "Bohr",
+      "C": "Rutherford",
+      "D": "Thomson"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The energy required to excite an electron of H-atom from first orbit to second orbit is:",
+    "options": {
+      "A": "10.2 eV",
+      "B": "13.6 eV",
+      "C": "3.4 eV",
+      "D": "1.89 eV"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The orbital angular momentum for an s-electron is:",
+    "options": {
+      "A": "0",
+      "B": "h / 2π",
+      "C": "√2 h / 2π",
+      "D": "√6 h / 2π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The specific charge (e/m) of cathode rays is:",
+    "options": {
+      "A": "Constant for all gases",
+      "B": "Dependent on the gas used",
+      "C": "Dependent on the electrode material",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The number of spectral lines obtained when an electron jumps from n=5 to n=1 in H-atom is:",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Rutherford's alpha-particle scattering experiment led to the discovery of:",
+    "options": {
+      "A": "Nucleus",
+      "B": "Electron",
+      "C": "Proton",
+      "D": "Neutron"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "In which orbital is the electron find probability along the axes?",
+    "options": {
+      "A": "d_{x²-y²}",
+      "B": "d_{xy}",
+      "C": "d_{yz}",
+      "D": "d_{zx}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The wavelength of the third line of Balmer series for H-atom transition is:",
+    "options": {
+      "A": "n=5 to n=2",
+      "B": "n=4 to n=2",
+      "C": "n=3 to n=2",
+      "D": "n=6 to n=2"
+    },
+    "answer": "A"
+  }
+]

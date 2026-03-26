@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A particle executing SHM has a maximum velocity v₀ and maximum acceleration a₀. The amplitude of oscillation is:",
+    "options": {
+      "A": "v₀² / a₀",
+      "B": "a₀ / v₀",
+      "C": "v₀ / a₀",
+      "D": "a₀² / v₀"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The displacement of a particle is given by y = A sin(ωt) + B cos(ωt). The amplitude of its SHM is:",
+    "options": {
+      "A": "√(A² + B²)",
+      "B": "A + B",
+      "C": "A - B",
+      "D": "AB"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "A simple pendulum has a time period T₁ on earth and T₂ on a planet where g is 1/4th of earth's g. The relation between T₁ and T₂ is:",
+    "options": {
+      "A": "T₂ = 2T₁",
+      "B": "T₂ = T₁/2",
+      "0": "T₂ = 4T₁",
+      "D": "T₂ = T₁"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "At what displacement from the mean position is the kinetic energy of a particle executing SHM equal to its potential energy?",
+    "options": {
+      "A": "A / √2",
+      "B": "A / 2",
+      "C": "A / √3",
+      "D": "A"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Two springs of constants k₁ and k₂ are connected in series. The effective spring constant is:",
+    "options": {
+      "A": "k₁k₂ / (k₁ + k₂)",
+      "B": "k₁ + k₂",
+      "C": "√(k₁k₂)",
+      "D": "(k₁ + k₂) / 2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "If the length of a simple pendulum is increased by 44%, its time period increases by:",
+    "options": {
+      "A": "20%",
+      "B": "44%",
+      "C": "12%",
+      "D": "22%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The phase difference between velocity and acceleration of a particle in SHM is:",
+    "options": {
+      "A": "π / 2",
+      "B": "π",
+      "C": "Zero",
+      "D": "2π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A mass m is suspended from a spring of constant k. If the spring is cut into two equal halves and the same mass is suspended from one half, the new time period is:",
+    "options": {
+      "A": "T / √2",
+      "B": "T / 2",
+      "C": "√2 T",
+      "D": "T"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Total energy of a particle executing SHM is proportional to:",
+    "options": {
+      "A": "Square of the amplitude",
+      "B": "Amplitude",
+      "C": "Frequency",
+      "D": "Velocity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "A particle moves such that its acceleration a = -4x. The period of oscillation is:",
+    "options": {
+      "A": "π",
+      "B": "2π",
+      "C": "π / 2",
+      "D": "4π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The time period of a simple pendulum inside a lift falling freely under gravity is:",
+    "options": {
+      "A": "Infinite",
+      "B": "Zero",
+      "C": "T",
+      "D": "2T"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "In forced oscillations, the amplitude is maximum when the forced frequency is close to natural frequency. This is called:",
+    "options": {
+      "A": "Resonance",
+      "B": "Damping",
+      "C": "Beats",
+      "D": "Doppler effect"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The potential energy of a harmonic oscillator at the mean position is:",
+    "options": {
+      "A": "Minimum",
+      "B": "Maximum",
+      "C": "Zero (usually)",
+      "D": "Infinite"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "A second's pendulum has a time period of:",
+    "options": {
+      "A": "2 seconds",
+      "B": "1 second",
+      "C": "0.5 second",
+      "D": "4 seconds"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The velocity of a particle in SHM at the mean position is:",
+    "options": {
+      "A": "Aω",
+      "B": "Zero",
+      "C": "Aω²",
+      "D": "A/ω"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If the amplitude of SHM is doubled, which of the following also doubles?",
+    "options": {
+      "A": "Maximum velocity",
+      "B": "Time period",
+      "C": "Total energy",
+      "D": "Frequency"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A tunnel is bored along the diameter of the earth and a stone is dropped into it. The stone will:",
+    "options": {
+      "A": "Execute SHM with T ≈ 84.6 min",
+      "B": "Reach the center and stop",
+      "C": "Go to the other side and never return",
+      "D": "Stop at the surface"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following is a necessary condition for SHM?",
+    "options": {
+      "A": "Force ∝ -displacement",
+      "B": "Constant velocity",
+      "C": "Constant acceleration",
+      "D": "Circular path"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Two SHMs are represented by x₁ = 5 sin(2πt + π/4) and x₂ = 5√(2) (sin 2πt + cos 2πt). The ratio of their amplitudes is:",
+    "options": {
+      "A": "1 : 2",
+      "B": "1 : 1",
+      "C": "2 : 1",
+      "D": "1 : √2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The restoration force in a simple pendulum is provided by:",
+    "options": {
+      "A": "mg sinθ",
+      "B": "mg cosθ",
+      "C": "Tension",
+      "D": "mg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Average kinetic energy in one complete cycle of SHM is:",
+    "options": {
+      "A": "1/4 mω²A²",
+      "B": "1/2 mω²A²",
+      "C": "mω²A²",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The frequency of oscillation of total energy in SHM is:",
+    "options": {
+      "A": "Zero",
+      "B": "f",
+      "C": "2f",
+      "D": "f/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A particle starts from the mean position. The time taken to reach A/2 is:",
+    "options": {
+      "A": "T / 12",
+      "B": "T / 8",
+      "C": "T / 6",
+      "D": "T / 4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "What happens to the time period of a simple pendulum if the mass of the bob is doubled?",
+    "options": {
+      "A": "Remains same",
+      "B": "Doubles",
+      "C": "Halves",
+      "D": "Becomes √2 times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Differential equation of SHM is:",
+    "options": {
+      "A": "d²x/dt² + ω²x = 0",
+      "B": "dx/dt + ωx = 0",
+      "C": "d²x/dt² - ω²x = 0",
+      "D": "d²x/dt² + ωx = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Energy of a damped oscillator:",
+    "options": {
+      "A": "Decreases exponentially with time",
+      "B": "Remains constant",
+      "C": "Increases with time",
+      "D": "Decreases linearly"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The graph of velocity versus displacement in SHM is a/an:",
+    "options": {
+      "A": "Ellipse",
+      "B": "Circle",
+      "C": "Straight line",
+      "D": "Parabola"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The time period of a mass m connected to two springs k₁ and k₂ in parallel is:",
+    "options": {
+      "A": "2π√(m / (k₁ + k₂))",
+      "B": "2π√(m / (k₁k₂))",
+      "C": "2π√(m(k₁ + k₂) / (k₁k₂))",
+      "D": "2π√(m / k₁)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "A hollow sphere is filled with water and used as a pendulum bob. As the water leaks out slowly, the time period:",
+    "options": {
+      "A": "First increases, then decreases to original",
+      "B": "Increases continuously",
+      "C": "Decreases continuously",
+      "D": "Remains same"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The ratio of frequencies of two pendulums of lengths 1m and 4m is:",
+    "options": {
+      "A": "2 : 1",
+      "B": "1 : 2",
+      "C": "4 : 1",
+      "D": "1 : 4"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If the distance between the sun and the earth is increased by three times, then the gravitational force between them will become:",
+    "options": {
+      "A": "1/9 times",
+      "B": "9 times",
+      "C": "1/3 times",
+      "D": "3 times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A particle of mass M is divided into two parts m and (M-m). For the gravitational force between them to be maximum, the ratio m/M should be:",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "1/3",
+      "D": "1/5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The acceleration due to gravity g at a height h above the earth's surface is 9% of its value at the surface. If R is the radius of the earth, then h is:",
+    "options": {
+      "A": "7R/3",
+      "B": "3R/7",
+      "C": "R/3",
+      "D": "R/9"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Two spheres of masses m and M are situated in air and the gravitational force between them is F. If the space around them is filled with a liquid of specific gravity 3, the new gravitational force will be:",
+    "options": {
+      "A": "F",
+      "B": "F/3",
+      "C": "3F",
+      "D": "F/9"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "A body weighs 72N on the surface of the earth. What is the gravitational force on it at a height equal to half the radius of the earth?",
+    "options": {
+      "A": "32 N",
+      "B": "28 N",
+      "C": "16 N",
+      "D": "48 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "If the density of a small planet is the same as that of the earth, while its radius is 1/4th of the earth's radius, the value of g on the planet's surface is:",
+    "options": {
+      "A": "g/4",
+      "B": "g/2",
+      "C": "g/16",
+      "D": "4g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The escape velocity of a body from the earth's surface is 11.2 km/s. If a body is projected with a velocity twice the escape velocity, then the velocity of the body at infinity is:",
+    "options": {
+      "A": "11.2√3 km/s",
+      "B": "11.2√2 km/s",
+      "C": "22.4 km/s",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The kinetic energy needed to project a body of mass m from the earth's surface to infinity is:",
+    "options": {
+      "A": "mgR",
+      "B": "1/2 mgR",
+      "C": "2 mgR",
+      "D": "1/4 mgR"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "A geostationary satellite is orbiting the earth at a height of 6R from the surface of the earth. The time period of another satellite at a height of 2.5R from the surface is:",
+    "options": {
+      "A": "6√2 hours",
+      "B": "12 hours",
+      "C": "6 hours",
+      "D": "10 hours"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "If the earth stops rotating about its axis, the value of g at the equator will:",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain same",
+      "D": "Become zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The gravitational potential at a point P is V. If the mass of the earth were to double and its radius were to halve, the potential at the same point (far away) would become approx:",
+    "options": {
+      "A": "2V",
+      "B": "4V",
+      "C": "V/2",
+      "D": "8V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Calculate the work done to increase the height of a satellite from R to 2R above the earth's surface (Mass of satellite = m):",
+    "options": {
+      "A": "mgR/6",
+      "B": "mgR/2",
+      "C": "mgR/3",
+      "D": "mgR/12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Two planets have radii r₁ and r₂ and densities d₁ and d₂. The ratio of the acceleration due to gravity on them is:",
+    "options": {
+      "A": "r₁d₁ : r₂d₂",
+      "B": "r₁d₂ : r₂d₁",
+      "C": "r₁²d₁ : r₂²d₂",
+      "D": "d₁ : d₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The time period of a satellite in a circular orbit of radius R is T. The time period in an orbit of radius 4R is:",
+    "options": {
+      "A": "8T",
+      "B": "4T",
+      "C": "2T",
+      "D": "16T"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A planet moves around the sun in an elliptical orbit. Its speed is maximum when:",
+    "options": {
+      "A": "It is nearest to the sun",
+      "B": "It is farthest from the sun",
+      "C": "It is at the end of the minor axis",
+      "D": "Speed is constant"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Weight of a body of mass m at the center of the earth is:",
+    "options": {
+      "A": "Zero",
+      "B": "mg",
+      "C": "Infinite",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The value of g at depth d below the earth's surface is g'. Then g' = g(1 - d/R) is valid for:",
+    "options": {
+      "A": "All values of d < R",
+      "B": "Only for d << R",
+      "C": "Only for d = R/2",
+      "D": "Only for d = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "What is the fractional decrease in the value of g at a height h from the surface of the earth (h << R)?",
+    "options": {
+      "A": "2h/R",
+      "B": "h/R",
+      "C": "h²/R²",
+      "D": "R/h"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The orbital velocity of an artificial satellite in a circular orbit just above the earth's surface is v. For a satellite orbiting at an altitude of half the earth's radius, the orbital velocity is:",
+    "options": {
+      "A": "v√(2/3)",
+      "B": "v√(3/2)",
+      "C": "3v/2",
+      "D": "2v/3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The gravitational intensity at the center of a hemispherical shell of uniform mass density is:",
+    "options": {
+      "A": "Non-zero along the axis of symmetry",
+      "B": "Zero",
+      "C": "Infinite",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "If the gravitational force varied as 1/r instead of 1/r², then the orbital speed of a satellite in a circular orbit would be proportional to:",
+    "options": {
+      "A": "r⁰ (independent of r)",
+      "B": "r",
+      "C": "1/r",
+      "D": "√r"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Ratio of the binding energy of a satellite at rest on earth's surface to its binding energy when orbiting at height h=R is:",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "8",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following Kepler's laws is a direct consequence of the conservation of angular momentum?",
+    "options": {
+      "A": "Second Law (Law of Areas)",
+      "B": "First Law (Law of Orbits)",
+      "C": "Third Law (Law of Periods)",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Infinite number of bodies, each of mass 2kg, are situated on x-axis at distances 1m, 2m, 4m, 8m... from the origin. The resulting gravitational potential at the origin is:",
+    "options": {
+      "A": "-4G",
+      "B": "-G",
+      "C": "-2G",
+      "D": "-8G"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The change in potential energy when a body of mass m is raised to a height nR from the earth's surface is:",
+    "options": {
+      "A": "mgR [n/(n+1)]",
+      "B": "mgR [n/(n-1)]",
+      "C": "nmgR",
+      "D": "mgR / n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The ratio of the energy required to raise a satellite to a height h above the earth to that required to put it into the orbit at that height is (h=R):",
+    "options": {
+      "A": "2 : 3",
+      "B": "1 : 1",
+      "C": "3 : 2",
+      "D": "1 : 2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "A mass m is placed inside a hollow sphere of mass M. The force on mass m is:",
+    "options": {
+      "A": "Zero",
+      "B": "GMm/r²",
+      "C": "GMm/R²",
+      "D": "Depends on position"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "If the mass of a planet is 10% that of the earth and its radius is 20% that of the earth, the acceleration due to gravity on the planet is:",
+    "options": {
+      "A": "2.5 g",
+      "B": "0.5 g",
+      "C": "5.0 g",
+      "D": "g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The gravitational field in a region is given by E = (5i + 12j) N/kg. The change in potential V_B - V_A if A is (0,0) and B is (3,4) is:",
+    "options": {
+      "A": "-63 J/kg",
+      "B": "63 J/kg",
+      "C": "-17 J/kg",
+      "D": "17 J/kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A satellite is moving with a constant speed v in circular orbit around earth. An object of mass m is ejected from the satellite such that it escapes from the gravitational pull of earth. At the time of ejection, the kinetic energy of the object is:",
+    "options": {
+      "A": "mv²",
+      "B": "1/2 mv²",
+      "C": "2mv²",
+      "D": "3/2 mv²"
+    },
+    "answer": "A"
+  }
+]

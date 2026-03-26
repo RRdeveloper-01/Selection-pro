@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A particle moves along a straight line such that its velocity v = √s where s is displacement. The acceleration of the particle is:",
+    "options": {
+      "A": "1 m/s²",
+      "B": "0.5 m/s²",
+      "C": "variable",
+      "D": "zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "A ball is dropped from a height h. At the same time another ball is thrown upwards from the ground with a velocity v. They meet at h/2. The value of v is:",
+    "options": {
+      "A": "√(gh)",
+      "B": "√(2gh)",
+      "C": "√(gh/2)",
+      "D": "2√(gh)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The velocity of a particle is v = v₀ + gt + ft². Its position at t=0 is x=0. The displacement after time t=1 is:",
+    "options": {
+      "A": "v₀ + g/2 + f/3",
+      "B": "v₀ + g + f",
+      "C": "v₀ + g/2 + f",
+      "D": "v₀ + 2g + 3f"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "A particle moving with constant acceleration covers 10m in the 3rd second and 15m in the 5th second. The acceleration is:",
+    "options": {
+      "A": "2.5 m/s²",
+      "B": "5 m/s²",
+      "C": "1.5 m/s²",
+      "D": "3 m/s²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "A car accelerates from rest at a constant rate α for some time, after which it decelerates at a constant rate β and comes to rest. If the total time elapsed is T, the maximum velocity acquired by the car is:",
+    "options": {
+      "A": "(αβT) / (α+β)",
+      "B": "(α+β)T / (αβ)",
+      "C": "α²T / (α+β)",
+      "D": "β²T / (α+β)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The relation between time t and distance x is t = ax² + bx, where a and b are constants. The retardation is (v is velocity):",
+    "options": {
+      "A": "2av³",
+      "B": "2bv³",
+      "C": "2av²",
+      "D": "2bv²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A bullet fired into a fixed target loses half of its velocity after penetrating 3 cm. How much further will it penetrate before coming to rest?",
+    "options": {
+      "A": "1 cm",
+      "B": "2 cm",
+      "C": "3 cm",
+      "D": "1.5 cm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A body starts from rest and moves with uniform acceleration. The ratio of distance covered in nth second to the distance covered in n seconds is:",
+    "options": {
+      "A": "(2n-1)/n²",
+      "B": "(2n-1)/n",
+      "C": "1/n",
+      "D": "n²/(2n-1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The displacement of a particle is given by x = (t-2)² where x is in meters and t in seconds. The distance covered by the particle in first 4 seconds is:",
+    "options": {
+      "A": "4 m",
+      "B": "8 m",
+      "C": "12 m",
+      "D": "16 m"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "A lift is moving up with acceleration a. A person inside the lift throws a ball upwards with velocity u relative to lift. The time of flight is:",
+    "options": {
+      "A": "2u / (g+a)",
+      "B": "2u / (g-a)",
+      "C": "2u / g",
+      "D": "u / (g+a)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A particle moves in a straight line with deceleration proportional to the square of its velocity. If the initial velocity is v₀, the velocity after time t is:",
+    "options": {
+      "A": "v₀ / (1 + kv₀t)",
+      "B": "v₀ e^{-kt}",
+      "C": "v₀ / (1 - kv₀t)",
+      "D": "v₀ (1-kt)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "A ball is thrown vertically upwards. Which of the following graphs represent the velocity-time graph of the ball during its flight (ignoring air resistance)?",
+    "options": {
+      "A": "A straight line with negative slope",
+      "B": "A parabola opening downwards",
+      "C": "A straight line with positive slope",
+      "D": "A horizontal line"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The ratio of the distances travelled by a freely falling body in the 1st, 2nd, 3rd and 4th second is:",
+    "options": {
+      "A": "1 : 3 : 5 : 7",
+      "B": "1 : 2 : 3 : 4",
+      "C": "1 : 4 : 9 : 16",
+      "D": "1 : 1 : 1 : 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A body is thrown vertically upwards with velocity u. The distance travelled by it in the fifth and the sixth seconds are equal. The velocity u is (g = 9.8 m/s²):",
+    "options": {
+      "A": "49 m/s",
+      "B": "98 m/s",
+      "C": "44.1 m/s",
+      "D": "24.5 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "If velocity of a particle is v = At + Bt², where A and B are constants, then the distance travelled by it between 1s and 2s is:",
+    "options": {
+      "A": "3/2 A + 7/3 B",
+      "B": "A/2 + B/3",
+      "C": "3A + 7B",
+      "D": "A + B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A stone is dropped from a rising balloon at a height of 76m from the ground. If the balloon is rising with a speed of 9.8 m/s, for how long will the stone take to touch the ground?",
+    "options": {
+      "A": "5.3 s",
+      "B": "4.0 s",
+      "C": "6.2 s",
+      "D": "2.8 s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Two cars A and B are moving in the same direction with velocities 30 m/s and 20 m/s. When car A is 100m behind B, the driver of A applies brakes and produces a uniform retardation of 2 m/s². The minimum distance between them is:",
+    "options": {
+      "A": "75 m",
+      "B": "25 m",
+      "C": "50 m",
+      "D": "0 m (Collision)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "A particle starts from rest and its acceleration at t=0 is 5 m/s². If its acceleration a = 5 - 2t, the maximum velocity of the particle is:",
+    "options": {
+      "A": "6.25 m/s",
+      "B": "5 m/s",
+      "C": "10 m/s",
+      "D": "12.5 m/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The displacement-time graph of two particles A and B are straight lines making angles of 30° and 60° with the time axis. The ratio of their velocities vA:vB is:",
+    "options": {
+      "A": "1:3",
+      "B": "1:√3",
+      "C": "√3:1",
+      "D": "1:2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A man is standing on top of a tower 40m high. He throws a ball vertically upwards with 10 m/s. After how much time will it strike the ground? (g=10)",
+    "options": {
+      "A": "4 s",
+      "B": "2 s",
+      "C": "5 s",
+      "D": "3 s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The velocity-displacement graph of a particle is a circle with center at origin and radius R. The maximum acceleration is:",
+    "options": {
+      "A": "R²/2",
+      "B": "R",
+      "C": "R²",
+      "D": "Insufficient data"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "A particle moves such that its position x = 3t² - 6t. The time when the particle changes its direction of motion is:",
+    "options": {
+      "A": "1 s",
+      "B": "2 s",
+      "C": "0 s",
+      "D": "Never"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The velocity of a particle at any time t is given by v = 2t(3-t) m/s. At what time is the velocity maximum?",
+    "options": {
+      "A": "1.5 s",
+      "B": "3 s",
+      "C": "2 s",
+      "D": "1 s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "A body is moving with variable acceleration a = kt. If the body starts from rest at x=0, its displacement after time t is:",
+    "options": {
+      "A": "kt³/6",
+      "B": "kt²/2",
+      "C": "kt³/3",
+      "D": "kt²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A police jeep is chasing a culprit going on a motorbike. The motorbike crosses a turning at 72 km/h. The jeep follows it at 90 km/h, crossing the turning 10s later. How far from the turning will the jeep catch the culprit?",
+    "options": {
+      "A": "1000 m",
+      "B": "500 m",
+      "C": "250 m",
+      "D": "1200 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "For a particle moving in a straight line, the v-t graph is shown. The total distance covered is the:",
+    "options": {
+      "A": "Area under the v-t curve",
+      "B": "Slope of the v-t curve",
+      "C": "Intercept on the v-axis",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "A body travels 200 cm in the first 2s and 220 cm in the next 4s. What will be the velocity at the end of the 7th second?",
+    "options": {
+      "A": "10 cm/s",
+      "B": "20 cm/s",
+      "C": "15 cm/s",
+      "D": "5 cm/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "A tap drips at a rate of 1 drop/sec. The distance between 1st and 2nd drop when the 3rd drop is about to fall is (g=10):",
+    "options": {
+      "A": "15 m",
+      "B": "5 m",
+      "C": "20 m",
+      "D": "10 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following speed-time graphs is physically impossible?",
+    "options": {
+      "A": "A graph with two values of speed at one time",
+      "B": "A graph with negative speed",
+      "C": "Both A and B",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "A particle moves with a velocity v(t) = v₀(1 - t/T) for 0 ≤ t ≤ T. The average velocity for this interval is:",
+    "options": {
+      "A": "v₀/2",
+      "B": "v₀",
+      "C": "v₀/T",
+      "D": "0"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,43 @@
+.coming-soon-logo-simple {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  text-align: center;
+  color: #f0f0f0; /* Light grey text */
+  padding: 30px;
+  margin-top: 200px;
+  background-color: #282c34; /* Dark background for contrast */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  
+
+  
+}
+
+.coming-soon-logo-simple span:first-child {
+  font-size: 3em; /* Larger for "Study Resources" */
+  font-weight: 700; /* Bold */
+  letter-spacing: 2px;
+  margin-bottom: 5px; /* Space between lines */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Subtle glow */
+}
+
+.coming-soon-logo-simple span:last-child {
+  font-size: 1.5em; /* Smaller for "Coming Soon" */
+  font-weight: 300; /* Lighter font weight */
+  letter-spacing: 1px;
+  opacity: 0.8; /* Slightly less prominent */
+}
+
+/* Optional: Small pulse animation for "Coming Soon" */
+.coming-soon-logo-simple span:last-child {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}

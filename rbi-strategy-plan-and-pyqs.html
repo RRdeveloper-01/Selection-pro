@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RBI Grade B 2026: Ultimate Strategy, Syllabus & Study Plan | Selection-pro</title>
   <meta name="description" content="RBI Grade B Previous Year Papers: Download Phase 1 (Objective) aur Phase 2 (ESI, FM, English) ke solved PYQs. Detailed solutions aur current affairs focus ke saath RBI Manager exam crack karein." />
+    <meta name="keywords" content="RBI Grade B PYQs, RBI Assistant Mock Test 2026, RBI Phase 1 and Phase 2 Solved Papers, Selection Pro RBI Strategy, Economic and Social Issues (ESI) Notes, Finance and Management Study Material, RBI Grade B Descriptive English Tips, RBI Office Attendant Practice Sets, Banking and Financial Awareness PDF, RBI Assistant Prelims Cutoff, RBI Grade B Phase 2 Mock">
+
       <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -14,12 +16,14 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">Selection<span>Pro</span></div>
+   <nav class="navbar">
+
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exam.html">Exams</a></li>
-            <li><a href="contact.html">contact us</a></li>
+            <li ><a href="index.html">Home</a></li>
+            <li><a class="active" href="exam.html">Official papers</a></li>
+            <li><a href="/resources /resources.html">Study resources</a></li>
+           <li><a  href="english_mock_test.html">Mock test</a></li>
+
         </ul>
     </nav>
    
@@ -83,7 +87,25 @@
   <a class="jee coming" href="#">RBI 2018 exams papers</a><br>
   <a class="jee coming" href="#">RBI 2017 exams papers</a><br>
   <a class="jee coming" href="#">RBI 2016 exams papers</a> </div> 
-   <script src="data.js"></script>
+<script>
+    let content = document.getElementsByClassName('coming');
+
+// Loop through each element with the class 'coming' and add event listener
+for (let i = 0; i < content.length; i++) {
+  content[i].addEventListener('click', function() {
+    Swal.fire({
+  text: 'This content is coming soon🎯',
+  
+  imageUrl: 'logo.jpeg', 
+  imageWidth: 100,
+  imageHeight: 100,
+  imageAlt: 'Custom icon',
+  confirmButtonText: 'Check it later'
+    })
+  });
+}
+
+</script>
 </body>
 
 </html>

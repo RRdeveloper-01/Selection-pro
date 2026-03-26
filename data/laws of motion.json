@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A mass M is suspended by a rope from a rigid support. Another mass m is hanging from M by a second rope. The tension in the top rope at its midpoint is (mass of ropes is zero):",
+    "options": {
+      "A": "(M+m)g",
+      "B": "Mg + mg/2",
+      "C": "Mg",
+      "D": "(M-m)g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A block of mass m is placed on a smooth wedge of inclination θ. The whole system is accelerated horizontally so that the block does not slip on the wedge. The horizontal acceleration is:",
+    "options": {
+      "A": "g tanθ",
+      "B": "g sinθ",
+      "C": "g cosθ",
+      "D": "g/tanθ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Three blocks A, B, and C of masses 4kg, 2kg, and 1kg respectively are in contact on a frictionless surface. If a force of 14N is applied on 4kg block, then the contact force between A and B is:",
+    "options": {
+      "A": "6 N",
+      "B": "8 N",
+      "C": "18 N",
+      "D": "2 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "A rocket of mass 1000 kg is set for vertical firing. The exhaust speed is 500 m/s. To give an initial upward acceleration of 20 m/s², the amount of gas ejected per second to supply the needed thrust is (g=10):",
+    "options": {
+      "A": "60 kg/s",
+      "B": "20 kg/s",
+      "C": "40 kg/s",
+      "D": "50 kg/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "A bullet of mass 0.04 kg moving with a speed of 90 m/s enters a heavy wooden block and is stopped after a distance of 60 cm. The average resistive force exerted by the block on the bullet is:",
+    "options": {
+      "A": "270 N",
+      "B": "180 N",
+      "C": "360 N",
+      "D": "540 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A block of mass m is resting on a rough horizontal surface with coefficient of friction μ. The minimum force required to move the block is:",
+    "options": {
+      "A": "μmg / √(1+μ²)",
+      "B": "μmg",
+      "C": "mg / √(1+μ²)",
+      "D": "μmg / (1+μ)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A person of mass 60 kg is inside a lift of mass 940 kg and presses the button on control panel. The lift starts moving upwards with an acceleration 1.0 m/s². If g = 10 m/s², the tension in the supporting cable is:",
+    "options": {
+      "A": "11000 N",
+      "B": "1200 N",
+      "C": "9600 N",
+      "D": "1000 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A monkey of mass 20 kg is holding a vertical rope. The rope will not break when a mass of 25 kg is suspended from it but will break if the mass exceeds 25 kg. What is the maximum acceleration with which the monkey can climb up?",
+    "options": {
+      "A": "2.5 m/s²",
+      "B": "5 m/s²",
+      "C": "10 m/s²",
+      "D": "1.5 m/s²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Two masses m₁=5kg and m₂=4.8kg tied to a string are hanging over a light frictionless pulley. What is the acceleration of the masses when left free to move? (g=9.8)",
+    "options": {
+      "A": "0.2 m/s²",
+      "B": "9.8 m/s²",
+      "C": "5 m/s²",
+      "D": "4.8 m/s²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "A body of mass 2kg is placed on a horizontal surface having kinetic friction 0.4 and static friction 0.5. If a horizontal force of 2.5 N is applied, the friction force is:",
+    "options": {
+      "A": "2.5 N",
+      "B": "10 N",
+      "C": "8 N",
+      "D": "0 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The force F acting on a particle of mass m is indicated by the force-time graph. The change in momentum of the particle over the time interval from 0 to 8s is:",
+    "options": {
+      "A": "Area under the F-t curve",
+      "B": "Slope of the F-t curve",
+      "C": "Zero",
+      "D": "F_max × t"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "A block of mass m is pulled along a horizontal frictionless surface by a rope of mass m/2. If force P is applied at one end of the rope, the force which the rope exerts on the block is:",
+    "options": {
+      "A": "2P/3",
+      "B": "P/2",
+      "C": "3P/2",
+      "D": "P"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "A particle of mass m is moving with velocity v. It is acted upon by three forces represented by the sides of a triangle ABC in order. The velocity of the particle will:",
+    "options": {
+      "A": "Remain constant",
+      "B": "Increase",
+      "C": "Decrease",
+      "D": "Change direction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "A weight W is supported by two strings inclined at 60° and 30° to the vertical. The tensions in the strings are T₁ and T₂. Then:",
+    "options": {
+      "A": "T₁ = W/2, T₂ = W√3/2",
+      "B": "T₁ = W√3/2, T₂ = W/2",
+      "C": "T₁ = T₂ = W",
+      "D": "T₁ = W, T₂ = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A block of mass m is on an inclined plane of angle θ. The coefficient of friction is μ > tanθ. The net force exerted by the surface on the block is:",
+    "options": {
+      "A": "mg",
+      "B": "mg cosθ",
+      "C": "mg sinθ",
+      "D": "μmg cosθ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A string of length L and mass M are lying on a horizontal table. A force F is applied at one of its ends. Tension in the string at a distance x from the end at which force is applied is:",
+    "options": {
+      "A": "F(1 - x/L)",
+      "B": "F(x/L)",
+      "C": "F(L/(L-x))",
+      "D": "F"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "An object of mass 10kg is sliding on a horizontal surface with initial velocity 4 m/s. If it comes to rest after 2s, the coefficient of friction is (g=10):",
+    "options": {
+      "A": "0.2",
+      "B": "0.4",
+      "C": "0.5",
+      "D": "0.1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If a force F = 2ti + 3t²j acts on a particle of mass 1kg (initially at rest), the velocity at t=2s is:",
+    "options": {
+      "A": "4i + 8j",
+      "B": "2i + 3j",
+      "C": "4i + 4j",
+      "D": "8i + 8j"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "A smooth block is released at rest from 45° incline and then at a rough 45° incline. If the time taken to slide is n times as much, the coefficient of friction is:",
+    "options": {
+      "A": "1 - 1/n²",
+      "B": "√(1 - 1/n²)",
+      "C": "1 - 1/n",
+      "D": "1 + 1/n²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Two blocks of masses 2kg and 4kg are hanging with the help of massless strings over an ideal pulley. The mass 2kg is on a table. The maximum value of mass of another block to be placed on 2kg so that 4kg doesn't move:",
+    "options": {
+      "A": "2 kg",
+      "B": "4 kg",
+      "C": "6 kg",
+      "D": "8 kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Pseudo force is a concept used in:",
+    "options": {
+      "A": "Non-inertial frames",
+      "B": "Inertial frames",
+      "C": "Only in circular motion",
+      "D": "Only in gravity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The maximum speed that can be achieved without skidding by a car on a circular track of radius R and banking angle θ (frictionless) is:",
+    "options": {
+      "A": "√(Rg tanθ)",
+      "B": "√(Rg sinθ)",
+      "C": "Rg tanθ",
+      "D": "√(Rg cosθ)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "A machine gun fires 240 bullets per minute with a velocity of 600 m/s. If each bullet has a mass of 10g, the average force needed to hold the gun is:",
+    "options": {
+      "A": "24 N",
+      "B": "240 N",
+      "C": "144 N",
+      "D": "12 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "A mass m is placed on a body of mass M. There is no friction anywhere. If force F is applied on M, the acceleration of m relative to ground is:",
+    "options": {
+      "A": "0",
+      "B": "F/(M+m)",
+      "C": "F/M",
+      "D": "F/m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A block is kept on a truck moving with acceleration a. The minimum coefficient of static friction between block and truck surface so that block doesn't fall is:",
+    "options": {
+      "A": "a/g",
+      "B": "g/a",
+      "C": "μ > a/g",
+      "D": "μ = 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Two bodies of mass 3kg and 4kg are suspended at the ends of a massless string passing over a frictionless pulley. The tension in the string is (g=9.8):",
+    "options": {
+      "A": "33.6 N",
+      "B": "3.36 N",
+      "C": "43.6 N",
+      "D": "23.6 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "A man of 50kg stands on a weighing machine in a lift moving down with acceleration g. The reading of the machine is:",
+    "options": {
+      "A": "0 kg",
+      "B": "50 kg",
+      "C": "100 kg",
+      "D": "25 kg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Impulse is equal to:",
+    "options": {
+      "A": "Change in momentum",
+      "B": "Rate of change of momentum",
+      "C": "Force × Velocity",
+      "D": "Momentum/Time"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The coefficient of static friction between a block and a horizontal surface is 0.5. The maximum force that can be applied to the block of mass 10kg horizontally without moving it is:",
+    "options": {
+      "A": "49 N",
+      "B": "98 N",
+      "C": "20 N",
+      "D": "5 N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "A chain of mass m and length L is held on a frictionless table with 1/3rd of its length hanging. The work done to pull the hanging part back to the table is:",
+    "options": {
+      "A": "mgL/18",
+      "B": "mgL/6",
+      "C": "mgL/9",
+      "D": "mgL/3"
+    },
+    "answer": "A"
+  }
+]

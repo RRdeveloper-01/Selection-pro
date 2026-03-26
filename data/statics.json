@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The mean and variance of 7 observations are 8 and 16 respectively. If five of the observations are 2, 4, 10, 12, 14, then the absolute difference of the remaining two observations is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "If the mean of first n natural numbers is 5n/9, then n is equal to:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "9",
+      "D": "10"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "The mean of 5 observations is 5 and their variance is 9.2. If three of the observations are 1, 3 and 8, then the other two are:",
+    "options": {
+      "A": "4, 9",
+      "B": "6, 7",
+      "C": "5, 8",
+      "D": "2, 11"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "If the variance of the first n natural numbers is 10 and the variance of the first m even natural numbers is 16, then m + n is equal to:",
+    "options": {
+      "A": "18",
+      "B": "16",
+      "C": "20",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The mean and standard deviation of 20 observations are 10 and 2 respectively. It was found that one observation 8 was incorrect. If it is replaced by 12, then the new variance is:",
+    "options": {
+      "A": "3.8",
+      "B": "4.0",
+      "C": "3.96",
+      "D": "4.2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "If for some x_i in R, the mean and variance of {x1, x2, ..., x10} are 2 and 1 respectively, then the mean of {(x1+1)^2, (x2+1)^2, ..., (x10+1)^2} is:",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "9",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The variance of 10 observations is 4. If each observation is multiplied by 3, then the new variance of the resulting observations is:",
+    "options": {
+      "A": "12",
+      "B": "36",
+      "C": "4",
+      "D": "24"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "Mean of 100 observations is 45. It was later found that two observations 19 and 31 were incorrectly recorded as 91 and 13. The correct mean is:",
+    "options": {
+      "A": "44",
+      "B": "45",
+      "C": "44.46",
+      "D": "45.54"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "If the variance of 1, 2, 3, ..., n is 14, then n is equal to:",
+    "options": {
+      "A": "15",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "In a series of 2n observations, half of them equal 'a' and remaining half equal '-a'. If the standard deviation of the observations is 2, then |a| equals:",
+    "options": {
+      "A": "2",
+      "B": "sqrt(2)",
+      "C": "4",
+      "D": "1/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "If mean and variance of x1, x2, ..., xn are X_bar and sigma^2, then the variance of ax1, ax2, ..., axn is:",
+    "options": {
+      "A": "a * sigma^2",
+      "B": "a^2 * sigma^2",
+      "C": "sigma^2 / a^2",
+      "D": "sigma^2 + a"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "The mean of five observations is 4 and their variance is 5.2. If three observations are 1, 2, 6, then the other two are:",
+    "options": {
+      "A": "2, 9",
+      "B": "4, 7",
+      "C": "5, 6",
+      "D": "3, 8"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "If the sum of squares of deviations of 10 observations taken from mean 50 is 250, then the coefficient of variation is:",
+    "options": {
+      "A": "10%",
+      "B": "5%",
+      "C": "20%",
+      "D": "15%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The standard deviation of n observations x1, x2, ..., xn is 5. The standard deviation of x1+k, x2+k, ..., xn+k is:",
+    "options": {
+      "A": "5",
+      "B": "5 + k",
+      "C": "5k",
+      "D": "sqrt(5^2 + k^2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Mean of 10 observations is 0 and sum of their squares is 1000. The standard deviation is:",
+    "options": {
+      "A": "10",
+      "B": "100",
+      "C": "5",
+      "D": "20"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The mean of 5 observations is 4.4 and their variance is 8.24. If three of the observations are 1, 2 and 6, then the product of the other two observations is:",
+    "options": {
+      "A": "24",
+      "B": "28",
+      "C": "32",
+      "D": "35"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "For two data sets, each of size 5, the variances are given to be 4 and 5 and the corresponding means are given to be 2 and 4 respectively. The variance of the combined data set is:",
+    "options": {
+      "A": "5.5",
+      "B": "6.5",
+      "C": "4.5",
+      "D": "5.2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If the mean deviation about the median of the numbers a, 2a, ..., 50a is 50, then |a| equals:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "If the mean of the series x1, x2, ..., xn is X_bar, then the mean of the series sum (i=1 to n) of (xi + 2i) is:",
+    "options": {
+      "A": "X_bar + n + 1",
+      "B": "X_bar + n",
+      "C": "X_bar + 2n",
+      "ed": "X_bar + (n+1)/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The variance of first 50 even natural numbers is:",
+    "options": {
+      "A": "833",
+      "B": "437",
+      "C": "2500",
+      "D": "833.25"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "If a variable takes values 0, 1, 2, ..., n with frequencies proportional to nC0, nC1, ..., nCn, then the variance is:",
+    "options": {
+      "A": "n/2",
+      "B": "n/4",
+      "C": "n",
+      "D": "sqrt(n)/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "Mean deviation from the mean for the observations 3, 4, 5, 6, 7 is:",
+    "options": {
+      "A": "1.2",
+      "B": "1.5",
+      "C": "2",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The outcome of each of 30 items was observed; 10 items gave an outcome of (1/2 - d) each, 10 items gave outcome 1/2 each and 10 items gave outcome (1/2 + d) each. If the variance is 4/3, then |d| equals:",
+    "options": {
+      "A": "2",
+      "B": "sqrt(2)",
+      "C": "3",
+      "D": "1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "If the mean of n observations is X_bar and each observation xi is replaced by (xi + i), then the new mean is:",
+    "options": {
+      "A": "X_bar + (n+1)/2",
+      "B": "X_bar + n/2",
+      "C": "X_bar + n + 1",
+      "D": "X_bar + n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Standard deviation of first 10 multiples of 3 is:",
+    "options": {
+      "A": "sqrt(74.25)",
+      "B": "9",
+      "C": "8.25",
+      "D": "sqrt(8.25)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "If the variance of 10 observations is 16 and their mean is 8, then the sum of squares of all observations is:",
+    "options": {
+      "A": "800",
+      "B": "640",
+      "C": "160",
+      "D": "480"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The mean deviation about the mean of the data 1, 1+d, 1+2d, ..., 1+100d is 255. Then d is:",
+    "options": {
+      "A": "10.1",
+      "B": "5.05",
+      "C": "10",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "If the standard deviation of 0, 1, 2, ..., 9 is K, then the standard deviation of 10, 11, 12, ..., 19 is:",
+    "options": {
+      "A": "K",
+      "B": "K + 10",
+      "C": "10K",
+      "D": "K + sqrt(10)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "In a data set of 10 observations, the sum of squares of observations is 2000 and the mean is 10. The standard deviation is:",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "sqrt(10)",
+      "D": "100"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The mean of a set of 20 observations is 15.5. If one observation 20 is deleted, the new mean is:",
+    "options": {
+      "A": "15.26",
+      "B": "14.75",
+      "C": "15.0",
+      "D": "15.5"
+    },
+    "answer": "A"
+  }
+]

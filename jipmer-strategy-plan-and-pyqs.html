@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> JIPMER Puducherry mein Admission Kaise Paayein? NEET Strategy aur Tips | Selection-pro </title>
   <meta name="description" content="JIPMER MBBS PYQs: Download solved previous year papers (Physics, Chemistry, Biology). NEET scores ke basis par JIPMER Puducherry mein admission ki behtareen taiyari karein." />
+  <meta name="keywords" content="JIPMER MBBS Admission 2026, JIPMER Nursing PYQs, JIPMER Paramedical Mock Test, JIPMER BSc Nursing Entrance Exam, Selection Pro JIPMER Strategy, JIPMER Karaikal vs Puducherry Cutoff, INI-CET JIPMER PG Papers, JIPMER English and Logical Reasoning, NEET UG for JIPMER, JIPMER Previous Year Question Bank, Medical Physics Interns JIPMER">
+
       <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -14,13 +16,14 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="logo">Selection<span>Pro</span></div>
+   <nav class="navbar">
+
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exam.html">Exams</a></li>
-            <li><a href="contact.html">contact us</a></li>
-     
+            <li ><a href="index.html">Home</a></li>
+            <li><a class="active" href="exam.html">Official papers</a></li>
+            <li><a href="/resources /resources.html">Study resources</a></li>
+           <li><a  href="english_mock_test.html">Mock test</a></li>
+
         </ul>
     </nav>
    
@@ -84,7 +87,25 @@
   <a class="jee coming "  href="#">JIPMER 2018 exams papers</a><br>
   <a class="jee coming"  href="#">JIPMER 2017 exams papers</a><br>
   <a class="jee coming " href="#">JIPMER 2016 exams papers</a> </div> 
-  <script src="data.js"></script>  
+<script>
+    let content = document.getElementsByClassName('coming');
+
+// Loop through each element with the class 'coming' and add event listener
+for (let i = 0; i < content.length; i++) {
+  content[i].addEventListener('click', function() {
+    Swal.fire({
+  text: 'This content is coming soon🎯',
+  
+  imageUrl: 'logo.jpeg', 
+  imageWidth: 100,
+  imageHeight: 100,
+  imageAlt: 'Custom icon',
+  confirmButtonText: 'Check it later'
+    })
+  });
+}
+
+</script>
 </body>
 
 </html>
