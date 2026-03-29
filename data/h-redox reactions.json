@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "K₂Cr₂O₇ में Chromium की oxidation state क्या है?",
+    "options": {
+      "A": "+6",
+      "B": "+3",
+      "C": "+7",
+      "D": "+12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "इस अभिक्रिया में: 3ClO⁻ → ClO₃⁻ + 2Cl⁻, क्लोरीन में क्या हो रहा है?",
+    "options": {
+      "A": "Disproportionation",
+      "B": "केवल Oxidation",
+      "C": "केवल Reduction",
+      "D": "Oxidation state में कोई परिवर्तन नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "OF₂ में ऑक्सीजन की oxidation state क्या है?",
+    "options": {
+      "A": "+2",
+      "B": "-2",
+      "C": "-1",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Acidic medium में KMnO₄ का n-factor क्या है?",
+    "options": {
+      "A": "5",
+      "B": "1",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "निम्न में से सबसे strong oxidizing agent कौन सा है?",
+    "options": {
+      "A": "F₂",
+      "B": "Cl₂",
+      "C": "Br₂",
+      "D": "I₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Caro's acid (H₂SO₅) में Sulfur की oxidation state क्या है?",
+    "options": {
+      "A": "+6",
+      "B": "+8",
+      "C": "+10",
+      "D": "+4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Redox reaction में reducing agent क्या करता है?",
+    "options": {
+      "A": "Electron खोता है और oxidized हो जाता है",
+      "B": "Electron प्राप्त करता है और reduced हो जाता है",
+      "C": "Electron खोता है और reduced हो जाता है",
+      "D": "Electron प्राप्त करता है और oxidized हो जाता है"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Acidic medium में K₂Cr₂O₇ का equivalent weight (M = molecular weight) क्या होगा?",
+    "options": {
+      "A": "M / 6",
+      "B": "M / 3",
+      "C": "M / 5",
+      "D": "M / 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "NH₄NO₃ में Nitrogen की oxidation state क्या है?",
+    "options": {
+      "A": "-3 और +5",
+      "B": "+3 और -5",
+      "C": "0",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "निम्न में से कौन सी redox reaction नहीं है?",
+    "options": {
+      "A": "BaCl₂ + H₂SO₄ → BaSO₄ + 2HCl",
+      "B": "2KClO₃ → 2KCl + 3O₂",
+      "C": "2H₂ + O₂ → 2H₂O",
+      "D": "Zn + CuSO₄ → ZnSO₄ + Cu"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Ba(H₂PO₂)₂ में Phosphorus की oxidation state क्या है?",
+    "options": {
+      "A": "+1",
+      "B": "+3",
+      "C": "+5",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Standard Electrode Potential (E°) किसका माप है?",
+    "options": {
+      "A": "Oxidizing/Reducing power",
+      "B": "Reaction की enthalpy",
+      "C": "Reaction की speed",
+      "D": "Molecular weight"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "इस reaction में: MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O, H⁺ का coefficient क्या है?",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "10",
+      "D": "5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Brown Ring Complex [Fe(H₂O)₅NO]SO₄ में Iron की oxidation state क्या है?",
+    "options": {
+      "A": "+1",
+      "B": "+2",
+      "C": "+3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Alkali metals की reducing power का सही क्रम क्या है?",
+    "options": {
+      "A": "Li > K > Na",
+      "B": "Li < Na < K",
+      "C": "Na > K > Li",
+      "D": "K > Li > Na"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Glucose (C₆H₁₂O₆) में Carbon की oxidation state क्या है?",
+    "options": {
+      "A": "0",
+      "B": "+4",
+      "C": "+2",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "निम्न में से कौन सा दोनों oxidizing और reducing agent की तरह कार्य कर सकता है?",
+    "options": {
+      "A": "H₂O₂",
+      "B": "KMnO₄",
+      "C": "K₂Cr₂O₇",
+      "D": "HNO₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "किसी neutral molecule में सभी atoms की oxidation states का योग क्या होता है?",
+    "options": {
+      "A": "शून्य",
+      "B": "परिवर्तित होता है",
+      "C": "Positive",
+      "D": "Negative"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Mohr's salt का equivalent weight किसके बराबर होता है?",
+    "options": {
+      "A": "Molecular weight",
+      "B": "Molecular weight / 2",
+      "C": "Molecular weight / 6",
+      "D": "Molecular weight / 5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Daniel Cell में oxidation कहाँ होती है?",
+    "options": {
+      "A": "Zinc electrode (Anode)",
+      "B": "Copper electrode (Cathode)",
+      "C": "Salt bridge",
+      "D": "Solution"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Bleaching powder (CaOCl₂) में Chlorine की oxidation state क्या है?",
+    "options": {
+      "A": "+1 और -1",
+      "B": "0",
+      "C": "+1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "निम्न में से कौन सी 'Comproportionation' reaction है?",
+    "options": {
+      "A": "Ag²⁺ + Ag → 2Ag⁺",
+      "B": "2H₂O₂ → 2H₂O + O₂",
+      "C": "Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Thiosulfate (S₂O₃²⁻) की Iodine के साथ reaction में क्या बनता है?",
+    "options": {
+      "A": "S₄O₆²⁻ (Tetrathionate)",
+      "B": "SO₄²⁻",
+      "C": "S",
+      "D": "SO₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Ni(CO)₄ में Nickel की oxidation state क्या है?",
+    "options": {
+      "A": "0",
+      "B": "+2",
+      "C": "+4",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Auto-reduction process किस धातु के extraction में उपयोग होती है?",
+    "options": {
+      "A": "Cu",
+      "B": "Al",
+      "C": "Fe",
+      "D": "Na"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "HIO₄ में Iodine की oxidation state क्या है?",
+    "options": {
+      "A": "+7",
+      "B": "+5",
+      "C": "+1",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "यदि कोई तत्व अपनी highest oxidation state में है, तो वह क्या कार्य करेगा?",
+    "options": {
+      "A": "केवल Oxidizing agent",
+      "B": "केवल Reducing agent",
+      "C": "दोनों",
+      "D": "कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Electrochemical series में जिन elements का reduction potential कम होता है, वे क्या होते हैं?",
+    "options": {
+      "A": "Strong reducing agents",
+      "B": "Strong oxidizing agents",
+      "C": "Inert",
+      "D": "Non-metals"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "[Pt(C₂H₄)Cl₃]⁻ में Platinum की oxidation state क्या है?",
+    "options": {
+      "A": "+2",
+      "B": "+4",
+      "C": "0",
+      "D": "+1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Redox equations को balance करने का आधार क्या है?",
+    "options": {
+      "A": "Charge और mass का conservation",
+      "B": "Volume का conservation",
+      "C": "Le-Chatelier principle",
+      "D": "Hess's Law"
+    },
+    "answer": "A"
+  }
+]

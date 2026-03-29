@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "निम्न में से कौन-सा अल्केन वुर्ट्ज अभिक्रिया द्वारा अच्छे उपज में नहीं बनाया जा सकता है?",
+    "options": {
+      "A": "n-Butane",
+      "B": "n-Hexane",
+      "C": "2,3-Dimethylbutane",
+      "D": "n-Heptane"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 2,
+    "question": "परऑक्साइड की उपस्थिति में प्रोपीन में HBr का योग किस नियम का पालन करता है?",
+    "options": {
+      "A": "Anti-Markownikoff का नियम",
+      "B": "Markownikoff का नियम",
+      "0": "Saytzeff का नियम",
+      "D": "Hofmann का नियम"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "एक अल्कीन की ओज़ोनोलिसिस से मेथेनल और एथेनल प्राप्त होते हैं। वह अल्कीन है:",
+    "options": {
+      "A": "Propene",
+      "B": "But-1-ene",
+      "C": "But-2-ene",
+      "D": "Ethene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "निम्न में से कौन-सा नाइट्रेशन के प्रति सबसे अधिक अभिक्रियाशील है?",
+    "options": {
+      "A": "Toluene",
+      "B": "Benzene",
+      "C": "Chlorobenzene",
+      "D": "Nitrobenzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "लिंडलर उत्प्रेरक का उपयोग एल्काइन को किसमें अपचयित करने के लिए किया जाता है?",
+    "options": {
+      "A": "cis-Alkene",
+      "B": "trans-Alkene",
+      "C": "Alkane",
+      "D": "Alcohol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "फ्राइडेल-क्राफ्ट्स एसीलेशन में इलेक्ट्रोफाइल क्या होता है?",
+    "options": {
+      "A": "Acylium आयन (R-C⁺=O)",
+      "B": "Alkyl carbocation",
+      "C": "Cl⁺",
+      "D": "NO₂⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "अम्लीय हाइड्रोजन किसमें पाया जाता है?",
+    "options": {
+      "A": "Ethyne",
+      "B": "Ethene",
+      "C": "Ethane",
+      "D": "Benzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Birch अपचयन (Na/द्रव NH₃) द्वारा But-2-yne से क्या प्राप्त होता है?",
+    "options": {
+      "A": "trans-But-2-ene",
+      "B": "cis-But-2-ene",
+      "C": "n-Butane",
+      "D": "But-1-ene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "सोडियम प्रोपियोनेट की कोल्बे विद्युत अपघटन से क्या प्राप्त होता है?",
+    "options": {
+      "A": "n-Butane",
+      "B": "Ethane",
+      "C": "Methane",
+      "D": "Propane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "निम्न में से कौन-सा ज्यामितीय समावयवता (Geometrical isomerism) दिखाएगा?",
+    "options": {
+      "A": "But-2-ene",
+      "B": "Propene",
+      "C": "But-1-ene",
+      "D": "2-Methylpropene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "2,3-Dimethylbut-2-ene की ओज़ोनोलिसिस से क्या प्राप्त होता है?",
+    "options": {
+      "A": "Acetone के दो मोल",
+      "B": "Acetone और Acetaldehyde",
+      "C": "Acetaldehyde के दो मोल",
+      "D": "Propanal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "प्रोपीन के हाइड्रेशन (H⁺/H₂O) का प्रमुख उत्पाद क्या है?",
+    "options": {
+      "A": "Propan-2-ol",
+      "B": "Propan-1-ol",
+      "C": "Propane",
+      "D": "Ethanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "सोडियम धातु को द्रव अमोनिया में एथाइन के साथ अभिक्रिया कराने पर क्या प्राप्त होता है?",
+    "options": {
+      "A": "Ethene",
+      "B": "Ethane",
+      "C": "Sodium acetylide",
+      "D": "Benzene"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Propyne की Hg²⁺/H₂SO₄ (Kucheroff अभिक्रिया) से क्या प्राप्त होता है?",
+    "options": {
+      "A": "Acetone",
+      "B": "Propanal",
+      "C": "Propanoic acid",
+      "D": "Ethyl alcohol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "नाइट्रोबेंजीन की तुलना में बेंजीन में इलेक्ट्रोफिलिक प्रतिस्थापन आसान क्यों होता है?",
+    "options": {
+      "A": "नाइट्रो समूह deactivating होता है",
+      "B": "नाइट्रो समूह activating होता है",
+      "C": "बेंजीन non-polar है",
+      "D": "नाइट्रोबेंजीन द्रव है"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "बेंजीन और Cl₂ की UV प्रकाश की उपस्थिति में अभिक्रिया करने पर क्या बनता है?",
+    "options": {
+      "A": "BHC (Benzene hexachloride)",
+      "B": "Chlorobenzene",
+      "C": "Hexachlorobenzene",
+      "D": "कोई अभिक्रिया नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "निम्न में से कौन-सा ortho-para directing समूह नहीं है?",
+    "options": {
+      "A": "-CHO",
+      "B": "-NH₂",
+      "C": "-OCH₃",
+      "D": "-CH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "एथाइल ब्रोमाइड की Alcoholic KOH के साथ अभिक्रिया करने पर क्या प्राप्त होता है?",
+    "options": {
+      "A": "Ethene",
+      "B": "Ethanol",
+      "C": "Ethane",
+      "D": "Ethyl ethanoate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "एथीन के polymerization से high density polythene (HDP) बनाने में कौन-सा उत्प्रेरक प्रयोग होता है?",
+    "options": {
+      "A": "Ziegler-Natta catalyst",
+      "B": "Pd/BaSO₄",
+      "C": "Ni/H₂",
+      "D": "V₂O₅"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Baeyer's reagent का उपयोग किसकी पहचान के लिए किया जाता है?",
+    "options": {
+      "A": "Unsaturation",
+      "B": "Glucose",
+      "C": "Aromaticity",
+      "D": "Alcoholic group"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "जब Ethyne को 873K पर लाल गरम लोहे की नली से गुजारा जाता है, तब क्या बनता है?",
+    "options": {
+      "A": "Benzene",
+      "B": "Toluene",
+      "C": "Methane",
+      "D": "Cyclohexane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "निम्न में से किस अल्केन का उबलांक (boiling point) सबसे अधिक है?",
+    "options": {
+      "A": "n-Pentane",
+      "B": "Isopentane",
+      "C": "Neopentane",
+      "D": "n-Butane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "n-hexane का 773K पर Cr₂O₃/Al₂O₃ की उपस्थिति में aromatization करने पर क्या बनता है?",
+    "options": {
+      "A": "Benzene",
+      "B": "Cyclohexane",
+      "C": "Toluene",
+      "D": "Hexene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Hydroboration-Oxidation द्वारा propene से क्या प्राप्त होता है?",
+    "options": {
+      "A": "Propan-1-ol",
+      "B": "Propan-2-ol",
+      "C": "Propane",
+      "D": "Propanone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "निम्न में से सबसे अधिक स्थिर अल्कीन कौन-सा है?",
+    "options": {
+      "A": "R₂C=CR₂",
+      "B": "RCH=CHR",
+      "C": "CH₂=CH₂",
+      "D": "RCH=CH₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "मीथेन का क्लोरीनीकरण किस प्रकार की अभिक्रिया का उदाहरण है?",
+    "options": {
+      "A": "Free radical substitution",
+      "B": "Electrophilic addition",
+      "C": "Nucleophilic substitution",
+      "D": "Elimination"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "निम्न में से कौन-सा अल्काइन ammoniacal silver nitrate के साथ सफेद अवक्षेप देता है?",
+    "options": {
+      "A": "Terminal alkynes (R-C≡CH)",
+      "B": "Internal alkynes (R-C≡C-R)",
+      "C": "सभी alkynes",
+      "D": "Alkenes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "बेंजीन की methyl chloride के साथ anhydrous AlCl₃ की उपस्थिति में अभिक्रिया को क्या कहते हैं?",
+    "options": {
+      "A": "Friedel-Crafts alkylation",
+      "B": "Wurtz reaction",
+      "C": "Fittig reaction",
+      "D": "Reimer-Tiemann reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "निम्न में से कौन-सा anti-aromatic यौगिक है?",
+    "options": {
+      "A": "Cyclobutadiene",
+      "B": "Benzene",
+      "C": "Naphthalene",
+      "D": "Cyclooctatetraene (Tub shape)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "बेंजीन रिंग पर -NO₂ समूह की उपस्थिति:",
+    "options": {
+      "A": "रिंग को EAS के प्रति deactivates करता है",
+      "B": "रिंग को EAS के प्रति activates करता है",
+      "C": "इसे ortho-para directing बनाता है",
+      "D": "कोई प्रभाव नहीं"
+    },
+    "answer": "A"
+  }
+]

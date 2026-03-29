@@ -1,0 +1,336 @@
+[
+  {
+    "question_no": 1,
+    "question": "निम्नलिखित में से किसका आयनिक त्रिज्या (ionic radius) सबसे बड़ा है?",
+    "options": {
+      "A": "N³⁻",
+      "B": "O²⁻",
+      "C": "F⁻",
+      "D": "Na⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "Na, Mg, Al और Si की प्रथम आयनीकरण एन्थैल्पी का सही क्रम है:",
+    "options": {
+      "A": "Na < Al < Mg < Si",
+      "2": "Na < Mg < Al < Si",
+      "C": "Na > Mg > Al > Si",
+      "D": "Na < Al < Si < Mg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "F, Cl, Br और I के लिए electron gain enthalpy (negative sign के साथ) का सही क्रम है:",
+    "options": {
+      "A": "Cl > F > Br > I",
+      "B": "F > Cl > Br > I",
+      "C": "I > Br > Cl > F",
+      "D": "Cl > Br > I > F"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Pauling scale के अनुसार किस तत्व की विद्युतऋणात्मकता सबसे अधिक है?",
+    "options": {
+      "A": "Fluorine",
+      "B": "Cesium",
+      "C": "Oxygen",
+      "D": "Chlorine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "परमाणु संख्या 117 वाला तत्व किस परिवार से संबंधित होगा?",
+    "options": {
+      "A": "Halogens",
+      "B": "Noble gases",
+      "C": "Alkali metals",
+      "D": "Chalcogens"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Diagonal relationship किसके बीच पाया जाता है?",
+    "options": {
+      "A": "Li और Mg",
+      "B": "Li और Be",
+      "C": "Be और Mg",
+      "D": "B और S"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "निम्नलिखित में से कौन सा amphoteric oxide है?",
+    "options": {
+      "A": "Al₂O₃",
+      "B": "Na₂O",
+      "C": "SO₃",
+      "D": "B₂O₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "आधुनिक आवर्त सारणी में period किसका मान बताता है?",
+    "options": {
+      "A": "Principal quantum number (n)",
+      "B": "Azimuthal quantum number (l)",
+      "C": "Magnetic quantum number (m)",
+      "D": "Atomic number"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "F⁻, Ne और Na⁺ जैसे isoelectronic species का आकार किस पर निर्भर करता है?",
+    "options": {
+      "A": "Nuclear charge (Z)",
+      "B": "Principal quantum number",
+      "C": "Electron–electron interaction",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Chalcogens किस group के तत्व होते हैं?",
+    "options": {
+      "A": "Group 16",
+      "B": "Group 15",
+      "C": "Group 17",
+      "D": "Group 14"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 11,
+    "question": "दूसरी ionization enthalpy हमेशा पहली ionization enthalpy से ______ होती है।",
+    "options": {
+      "A": "अधिक (Higher)",
+      "B": "कम (Lower)",
+      "C": "समान",
+      "D": "परमाणु पर निर्भर"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "निम्नलिखित में से किस तत्व का metallic character सबसे अधिक है?",
+    "options": {
+      "A": "Cs",
+      "B": "Li",
+      "C": "Be",
+      "D": "Ba"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "विद्युतऋणात्मकता period में ______ और group में ______ होती है।",
+    "options": {
+      "A": "बढ़ती है, घटती है",
+      "B": "घटती है, बढ़ती है",
+      "C": "बढ़ती है, बढ़ती है",
+      "D": "घटती है, घटती है"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "परमाणु संख्या 105 वाले तत्व का IUPAC नाम क्या है?",
+    "options": {
+      "A": "Unnilpentium",
+      "B": "Unnilquadium",
+      "C": "Unnilhexium",
+      "D": "Unnilseptium"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "निम्नलिखित में से अम्लीयता (acidic strength) का सही क्रम कौन सा है?",
+    "options": {
+      "A": "Cl₂O₇ > SO₃ > P₄O₁₀",
+      "B": "P₄O₁₀ > SO₃ > Cl₂O₇",
+      "C": "SO₃ > Cl₂O₇ > P₄O₁₀",
+      "D": "Cl₂O₇ > P₄O₁₀ > SO₃"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 16,
+    "question": "Shielding effect किस subshell में सबसे अधिक होता है?",
+    "options": {
+      "A": "s",
+      "B": "p",
+      "C": "d",
+      "D": "f"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "d-block तत्वों की सामान्य electronic configuration क्या होती है?",
+    "options": {
+      "A": "(n-1)d¹⁻¹⁰ ns⁰⁻²",
+      "B": "(n-1)d¹⁻¹⁰ ns²",
+      "C": "nd¹⁻¹⁰ ns¹⁻²",
+      "D": "(n-1)d¹⁻¹⁰ np⁶"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "निम्नलिखित में से कौन सा representative element नहीं है?",
+    "options": {
+      "A": "Fe",
+      "B": "K",
+      "C": "Al",
+      "D": "N"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Ga का atomic radius, Al से थोड़ा कम क्यों होता है?",
+    "options": {
+      "A": "d-electrons की poor shielding के कारण",
+      "B": "Lanthanoid contraction के कारण",
+      "C": "अधिक nuclear charge के कारण",
+      "D": "s-electrons की वृद्धि के कारण"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Noble gases की electron gain enthalpy कैसी होती है?",
+    "options": {
+      "A": "बड़ी positive",
+      "B": "बड़ी negative",
+      "C": "Zero",
+      "D": "छोटी negative"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 21,
+    "question": "निम्नलिखित में से सबसे अधिक basic oxide कौन सा है?",
+    "options": {
+      "A": "Na₂O",
+      "B": "MgO",
+      "C": "Al₂O₃",
+      "D": "SiO₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "किसी तत्व की valency किस पर निर्भर करती है?",
+    "options": {
+      "A": "Valence electrons की संख्या",
+      "B": "Atomic mass",
+      "C": "Atomic radius",
+      "D": "Neutron number"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "निम्नलिखित में से किस समूह के तत्वों की atomic radius लगभग समान होती है?",
+    "options": {
+      "A": "Fe, Co, Ni",
+      "B": "Li, Na, K",
+      "C": "F, Cl, Br",
+      "D": "O, S, Se"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Van der Waals radius हमेशा covalent radius से ______ होती है।",
+    "options": {
+      "A": "बड़ी (Larger)",
+      "B": "छोटी (Smaller)",
+      "C": "समान",
+      "D": "आधी"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Mendeleev द्वारा predicted eka-aluminium को आज किस नाम से जाना जाता है?",
+    "options": {
+      "A": "Gallium",
+      "B": "Germanium",
+      "C": "Scandium",
+      "D": "Technetium"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 26,
+    "question": "सबसे अधिक ionization enthalpy किस group के तत्वों की होती है?",
+    "options": {
+      "A": "Noble gases",
+      "B": "Alkali metals",
+      "C": "Halogens",
+      "D": "Alkaline earth metals"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Effective nuclear charge (Z_eff) period में ______ होता है।",
+    "options": {
+      "A": "बढ़ता है",
+      "B": "घटता है",
+      "C": "समान रहता है",
+      "D": "पहले बढ़ता है फिर घटता है"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "निम्नलिखित में से कौन सा गुण स्पष्ट periodic trend दिखाता है?",
+    "options": {
+      "A": "सभी",
+      "B": "Atomic Radius",
+      "C": "Ionization Enthalpy",
+      "D": "Electronegativity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "परमाणु संख्या 114 वाला तत्व किस group में आता है?",
+    "options": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Non-metals सामान्यतः आवर्त सारणी के ______ पाए जाते हैं।",
+    "options": {
+      "A": "दाएँ भाग में",
+      "B": "बाएँ भाग में",
+      "C": "बीच में",
+      "D": "नीचे"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "question_no": 1,
+    "question": "निम्नलिखित में से किस अणु का द्विध्रुव आघूर्ण (dipole moment) अधिकतम है?",
+    "options": {
+      "A": "NH₃",
+      "B": "NF₃",
+      "C": "CO₂",
+      "D": "CH₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "NO₂⁺, NO₃⁻ तथा NH₄⁺ में क्रमशः नाइट्रोजन की hybridisation क्या है?",
+    "options": {
+      "A": "sp, sp², sp³",
+      "B": "sp, sp³, sp²",
+      "C": "sp², sp, sp³",
+      "D": "sp², sp³, sp"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "मॉलिक्यूलर ऑर्बिटल सिद्धांत के अनुसार निम्नलिखित में से कौन diamagnetic है?",
+    "options": {
+      "A": "N₂",
+      "B": "O₂",
+      "C": "B₂",
+      "D": "C₂⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "VSEPR सिद्धांत के अनुसार XeF₄ अणु का आकार क्या है?",
+    "options": {
+      "A": "Square planar",
+      "B": "Tetrahedral",
+      "C": "Octahedral",
+      "D": "Pyramidal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "निम्नलिखित में से किस यौगिक में आयनिक तथा सहसंयोजक (covalent) दोनों प्रकार के बंध होते हैं?",
+    "options": {
+      "A": "KCN",
+      "B": "KCl",
+      "C": "CH₄",
+      "D": "H₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "O₂⁺ का bond order क्या है?",
+    "options": {
+      "A": "2.5",
+      "B": "2",
+      "C": "1.5",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "निम्नलिखित में से किसमें pπ–dπ back bonding पाया जाता है?",
+    "options": {
+      "A": "PO₄³⁻",
+      "B": "NO₃⁻",
+      "C": "CO₃²⁻",
+      "D": "BO₃³⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "NH₃ में H–N–H बंध कोण 109.5° से कम होता है क्योंकि:",
+    "options": {
+      "A": "Lone pair–bond pair repulsion",
+      "B": "Lone pair–lone pair repulsion",
+      "C": "Bond pair–bond pair repulsion",
+      "D": "N की अधिक विद्युतऋणात्मकता"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "निम्नलिखित में से कौन सा अणु/आयन अस्तित्व में नहीं होता?",
+    "options": {
+      "A": "He₂",
+      "B": "Li₂",
+      "C": "Be₂⁺",
+      "D": "H₂⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "निम्नलिखित में से किसमें हाइड्रोजन बंधन सबसे अधिक मजबूत होता है?",
+    "options": {
+      "A": "H–F ... H–F",
+      "B": "H–O ... H–O",
+      "C": "H–N ... H–N",
+      "D": "H–S ... H–S"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 11,
+    "question": "निम्नलिखित में से किस जोड़ी में दोनों का geometry समान है?",
+    "options": {
+      "A": "SiF₄, SF₄",
+      "B": "XeF₂, CO₂",
+      "C": "BF₃, NH₃",
+      "D": "PCl₅, IF₅"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Fajans' rule के अनुसार छोटा आकार और अधिक आवेश वाला cation किसे बढ़ावा देता है?",
+    "options": {
+      "A": "Covalent character",
+      "B": "Ionic character",
+      "C": "Metallic character",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "O₃ में केंद्रीय ऑक्सीजन परमाणु पर formal charge क्या है?",
+    "options": {
+      "A": "+1",
+      "B": "0",
+      "C": "-1",
+      "D": "+2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Benzene (C₆H₆) में σ और π बंधों की संख्या क्रमशः है:",
+    "options": {
+      "A": "12σ, 3π",
+      "B": "6σ, 3π",
+      "C": "9σ, 3π",
+      "D": "12σ, 6π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "निम्नलिखित में से कौन सा isoelectronic pair है?",
+    "options": {
+      "A": "ClO₂⁻, ClF₂⁺",
+      "B": "CO₂, NO₂",
+      "C": "CO, N₂⁺",
+      "D": "O₂, F₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "किसी आयनिक यौगिक की lattice energy किस पर निर्भर करती है?",
+    "options": {
+      "A": "आयनों के आवेश और आकार पर",
+      "B": "केवल आकार पर",
+      "C": "केवल आवेश पर",
+      "D": "Polarizability पर"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "निम्नलिखित में से किसकी bond length सबसे कम है?",
+    "options": {
+      "A": "O₂²⁺",
+      "B": "O₂",
+      "C": "O₂⁻",
+      "D": "O₂²⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "निम्नलिखित में से किसमें intramolecular hydrogen bonding पाया जाता है?",
+    "options": {
+      "A": "o-Nitrophenol",
+      "B": "p-Nitrophenol",
+      "C": "Water",
+      "D": "Ethanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "H₂O (104.5°) का बंध कोण H₂S (92°) से अधिक क्यों होता है?",
+    "options": {
+      "A": "ऑक्सीजन सल्फर से अधिक विद्युतऋणात्मक है",
+      "B": "सल्फर में vacant d-orbitals होते हैं",
+      "C": "H₂S में lone pair repulsion अधिक होता है",
+      "D": "ऑक्सीजन का परमाणु आकार बड़ा है"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "PCl₅ में तीन equatorial बंध, दो axial बंधों की तुलना में ______ होते हैं।",
+    "options": {
+      "A": "छोटे (Shorter)",
+      "B": "लंबे (Longer)",
+      "C": "समान लंबाई के",
+      "D": "कमज़ोर"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Metallic bond की strength किस पर निर्भर करती है?",
+    "options": {
+      "A": "Valence electrons की संख्या पर",
+      "B": "Electronegativity पर",
+      "C": "Lattice energy पर",
+      "D": "Dipole moment पर"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "I₃⁻ में कुल lone pairs की संख्या कितनी है?",
+    "options": {
+      "A": "9",
+      "B": "3",
+      "C": "6",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "IF₇ में Iodine की hybridization क्या है?",
+    "options": {
+      "A": "sp³d³",
+      "B": "sp³d²",
+      "C": "sp³d",
+      "D": "d²sp³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "निम्नलिखित में से कौन सा electron-deficient molecule है?",
+    "options": {
+      "A": "B₂H₆",
+      "B": "C₂H₆",
+      "C": "PH₃",
+      "D": "SiH₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "HF का boiling point, HCl से अधिक क्यों होता है?",
+    "options": {
+      "A": "Hydrogen bonding के कारण",
+      "B": "Van der Waals forces के कारण",
+      "C": "Ionic character के कारण",
+      "D": "Polarization के कारण"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Resonance किसके delocalization के कारण होता है?",
+    "options": {
+      "A": "π electrons",
+      "B": "σ electrons",
+      "C": "Protons",
+      "D": "केवल lone pairs"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "निम्नलिखित में से किसका आकार linear है?",
+    "options": {
+      "A": "BeCl₂",
+      "B": "SnCl₂",
+      "C": "SO₂",
+      "D": "H₂O"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "O₂ का paramagnetism किससे समझाया जाता है?",
+    "options": {
+      "A": "Molecular Orbital Theory",
+      "B": "Valence Bond Theory",
+      "C": "VSEPR Theory",
+      "D": "Lewis Structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Coordinate bond किस प्रकार बनता है?",
+    "options": {
+      "A": "एक ही परमाणु द्वारा इलेक्ट्रॉनों की जोड़ी देने से",
+      "B": "इलेक्ट्रॉनों का समान साझाकरण",
+      "C": "इलेक्ट्रॉनों के स्थानांतरण से",
+      "D": "s-orbital के overlap से"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "निम्नलिखित में से किस अणु की bond energy सबसे अधिक है?",
+    "options": {
+      "A": "N₂",
+      "B": "O₂",
+      "C": "F₂",
+      "D": "C₂"
+    },
+    "answer": "A"
+  }
+]

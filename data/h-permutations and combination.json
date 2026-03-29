@@ -1,0 +1,334 @@
+[
+  {
+    "question_no": 1,
+    "question": "फलन f(x) = sqrt(log_10((5x - x^2) / 4)) का परिभाषित क्षेत्र (domain) क्या है?",
+    "options": {
+      "A": "[1, 4]",
+      "B": "[1, 5]",
+      "C": "(0, 5)",
+      "D": "[0, 4]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "समुच्चय A = {1, 2, 3, 4} पर संबंध R = {(1,1), (2,2), (3,3), (4,4), (1,2), (2,1), (3,1), (1,3)} दिया है। R क्या है?",
+    "options": {
+      "A": "समतुल्यता संबंध",
+      "B": "प्रतिवर्ती और सममित लेकिन संक्रामक नहीं",
+      "C": "केवल प्रतिवर्ती",
+      "D": "संक्रामक और सममित"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "फलन f(x) = x^2 / (1 + x^2) का मान क्षेत्र (range) क्या है?",
+    "options": {
+      "A": "[0, 1]",
+      "B": "(0, 1)",
+      "C": "[0, 1)",
+      "D": "R"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "यदि f(x) = [x] तथा g(x) = |x| हो, तो (g o f)(-5/3) का मान क्या होगा?",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "1.66",
+      "D": "-2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "n अवयवों वाले समुच्चय A पर कुल कितने प्रतिवर्ती संबंध (reflexive relations) बनाए जा सकते हैं?",
+    "options": {
+      "A": "2^(n^2 - n)",
+      "B": "2^(n^2)",
+      "C": "2^n",
+      "D": "n^2 - n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "फलन f(x) = sin^-1(3x - 1) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "[0, 2/3]",
+      "B": "[-1, 1]",
+      "C": "[1/3, 1]",
+      "D": "[0, 1]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "यदि f(x) = x + 3 तथा g(x) = x^2 हो, तो (f o g)(x) = (g o f)(x) के कितने हल होंगे?",
+    "options": {
+      "A": "एक हल",
+      "B": "दो हल",
+      "C": "कोई हल नहीं",
+      "D": "अनंत हल"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "फलन f(x) = log(x - [x]) (जहाँ [.] ग्रेटेस्ट इंटीजर फलन है) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "R - Z",
+      "B": "(0, infinity)",
+      "C": "R",
+      "D": "Z"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "फलन f(x) = 1 / sqrt(|x| - x) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "(-infinity, 0)",
+      "B": "(0, infinity)",
+      "C": "R - {0}",
+      "D": "R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "समुच्चय A = {a, b, c} पर कुल कितने सममित संबंध (symmetric relations) बनाए जा सकते हैं?",
+    "options": {
+      "A": "2^6",
+      "B": "2^9",
+      "C": "2^3",
+      "D": "2^4"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 11,
+    "question": "यदि f(x) + 2f(1-x) = x^2 + 2 सभी वास्तविक x के लिए हो, तो f(x) क्या होगा?",
+    "options": {
+      "A": "(x-2)^2 / 3",
+      "B": "(x^2 - 4x + 6) / 3",
+      "C": "(x^2 + 4x - 6) / 3",
+      "D": "(x-2)^2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "फलन f(x) = 1 / (2 - cos(3x)) का मान क्षेत्र क्या है?",
+    "options": {
+      "A": "[1/3, 1]",
+      "B": "[-1, 1]",
+      "C": "[1/2, 1]",
+      "D": "[1/3, 1/2]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "यदि f(x) = sqrt(x^2 - 3x + 2) + 1/sqrt(x^2 - 3x - 4), तो f(x) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "(-infinity, -1) U (4, infinity)",
+      "B": "(-infinity, 1] U [2, infinity)",
+      "C": "(-1, 4)",
+      "D": "(-infinity, -1) U [4, infinity)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "फलनों की संख्या ज्ञात कीजिए: f: {1, 2, 3} -> {1, 2, 3, 4, 5} जो सख्ती से बढ़ने वाले (strictly increasing) हों।",
+    "options": {
+      "A": "10",
+      "B": "60",
+      "C": "125",
+      "D": "120"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "यदि f(x) = log((1+x)/(1-x)) हो, तो f(2x/(1+x^2)) किसके बराबर होगा?",
+    "options": {
+      "A": "[f(x)]^2",
+      "B": "f(x^2)",
+      "C": "2f(x)",
+      "D": "3f(x)"
+    },
+    "answer": "C"
+  },
+
+  {
+    "question_no": 16,
+    "question": "फलन f(x) = sqrt(x - [x]) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "[0, infinity)",
+      "B": "R",
+      "C": "Z",
+      "D": "R - Z"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "फलन f(x) = x / (1 + |x|) का मान क्षेत्र क्या है?",
+    "options": {
+      "A": "R",
+      "B": "(-1, 1)",
+      "C": "[-1, 1]",
+      "D": "(0, 1)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "फलन f(x) = sin(pi*x / 3) + cos(pi*x / 2) का आवर्तकाल (period) क्या है?",
+    "options": {
+      "A": "6",
+      "B": "4",
+      "C": "12",
+      "D": "24"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "यदि A = {1, 2, 3} तथा B = {a, b} हो, तो A से B में onto फलनों की संख्या क्या होगी?",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "2",
+      "D": "9"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "फलन f(x) = sqrt(cos(sin x)) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "[0, pi]",
+      "B": "R",
+      "C": "[-pi/2, pi/2]",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "यदि f: R → R ऐसा फलन हो कि f(x+y) = f(x) + f(y) सभी x, y के लिए तथा f(1) = 7 हो, तो r = 1 से n तक f(r) का योग क्या होगा?",
+    "options": {
+      "A": "7n",
+      "B": "7n(n+1)",
+      "C": "7n(n+1)/2",
+      "D": "7(n+1)/2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "फलन f(x) = sin^-1(x) + cos^-1(x) + tan^-1(x) का मान क्षेत्र (range) क्या है?",
+    "options": {
+      "A": "[0, pi]",
+      "B": "[pi/4, 3pi/4]",
+      "C": "(0, pi)",
+      "D": "[-pi/2, pi/2]"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "फलन f(x) = log(x + sqrt(x^2 + 1)) किस प्रकार का फलन है?",
+    "options": {
+      "A": "सम फलन (Even function)",
+      "B": "विषम फलन (Odd function)",
+      "C": "आवर्त फलन (Periodic function)",
+      "D": "न तो सम और न ही विषम"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "फलन f(x) = 1 / sqrt([x]^2 - [x] - 6) का परिभाषित क्षेत्र (domain) क्या है?",
+    "options": {
+      "A": "(-infinity, -2) U [4, infinity)",
+      "B": "(-infinity, -2) U [3, infinity)",
+      "C": "(-infinity, -1) U [4, infinity)",
+      "D": "इनमें से कोई नहीं"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "यदि f(x) = (a^x + a^-x)/2 हो तथा f(x+y) + f(x-y) = k f(x)f(y), तो k का मान क्या होगा?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "1/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "यदि n(A) = 5 हो, तो समुच्चय A से A में बनने वाले bijection फलनों की संख्या क्या होगी?",
+    "options": {
+      "A": "120",
+      "B": "5",
+      "C": "25",
+      "D": "625"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "फलन f(x) = sqrt(x - 1) + sqrt(1 - x) का परिभाषित क्षेत्र क्या है?",
+    "options": {
+      "A": "R",
+      "B": "[1, 1]",
+      "C": "{1}",
+      "D": "Empty Set"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "यदि f(x) = x^2 तथा g(x) = sin x हो, तो (g o f)(sqrt(pi/2)) का मान क्या होगा?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "pi/2",
+      "D": "-1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "फलन f(x) = sgn(x^2 + 1) का मान क्षेत्र क्या है?",
+    "options": {
+      "A": "{-1, 0, 1}",
+      "B": "{1}",
+      "C": "{0, 1}",
+      "D": "R"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "यदि f(x) एक आवर्त फलन है जिसका आवर्तकाल T है, तो f(ax + b) का आवर्तकाल क्या होगा?",
+    "options": {
+      "A": "T",
+      "B": "aT",
+      "C": "T / |a|",
+      "D": "T + b"
+    },
+    "answer": "C"
+  }
+]

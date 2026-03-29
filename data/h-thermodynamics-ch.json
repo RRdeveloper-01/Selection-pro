@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "आदर्श गैस के isothermal अप्रतिवर्ती विस्तार (irreversible expansion) के लिए सही स्थिति क्या है?",
+    "options": {
+      "A": "ΔU = 0, ΔS_total > 0",
+      "B": "ΔU ≠ 0, ΔS_total = 0",
+      "C": "ΔU = 0, ΔS_total = 0",
+      "D": "ΔU ≠ 0, ΔS_total > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "एक मजबूत अम्ल और मजबूत क्षार के न्यूट्रलाइजेशन का एंथैल्पी -57.1 kJ/mol है। CH₃COOH और NaOH के न्यूट्रलाइजेशन का एंथैल्पी -55.2 kJ/mol है। CH₃COOH का dissociation एंथैल्पी कितना है?",
+    "options": {
+      "A": "1.9 kJ/mol",
+      "B": "-1.9 kJ/mol",
+      "C": "112.3 kJ/mol",
+      "D": "-112.3 kJ/mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "किसी प्रतिक्रिया के सभी तापमानों पर स्वतःस्फूर्त (spontaneous) होने के लिए:",
+    "options": {
+      "A": "ΔH < 0 और ΔS > 0",
+      "B": "ΔH > 0 और ΔS < 0",
+      "C": "ΔH < 0 और ΔS < 0",
+      "D": "ΔH > 0 और ΔS > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "एक गैस का विस्तार 4 dm³ से 6 dm³ तक स्थिर बाहरी दबाव 3 atm के खिलाफ किया जाता है। किया गया कार्य कितना है? (1 L-atm = 101.32 J)",
+    "options": {
+      "A": "-608 J",
+      "B": "+608 J",
+      "C": "-304 J",
+      "D": "-6 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "निम्नलिखित में से कौन-सा intensive property है?",
+    "options": {
+      "A": "मोलर हीट क्षमता (Molar heat capacity)",
+      "B": "एंथैल्पी (Enthalpy)",
+      "C": "एंट्रॉपी (Entropy)",
+      "D": "आयतन (Volume)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "एक adiabatic प्रक्रिया में, सिस्टम और परिवेश के बीच कोई ऊष्मा का आदान-प्रदान नहीं होता। सही संबंध क्या है?",
+    "options": {
+      "A": "q = 0",
+      "B": "ΔU = 0",
+      "C": "w = 0",
+      "D": "ΔH = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "किसके लिए 298 K पर standard enthalpy of formation (ΔH_f°) शून्य है?",
+    "options": {
+      "A": "Br₂(l)",
+      "B": "Br₂(g)",
+      "C": "C(diamond)",
+      "D": "H(g)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "H-H, Br-Br और H-Br के बांड ऊर्जा क्रमशः 433, 192 और 364 kJ/mol है। H₂(g) + Br₂(g) → 2HBr(g) प्रतिक्रिया का ΔH° क्या होगा?",
+    "options": {
+      "A": "-103 kJ",
+      "B": "103 kJ",
+      "C": "-261 kJ",
+      "D": "261 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "निम्न में से किसके लिए isolated system में spontaneous प्रक्रिया के लिए हमेशा मान ऋणात्मक होता है?",
+    "options": {
+      "A": "ΔG",
+      "B": "ΔS_sys",
+      "C": "ΔS_total",
+      "D": "ΔH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "कार्बन का CO₂ में दहन ऊष्मा -393.5 kJ/mol है। 35.2 g CO₂ के निर्माण में कितनी ऊष्मा निकलती है?",
+    "options": {
+      "A": "314.8 kJ",
+      "B": "393.5 kJ",
+      "C": "630 kJ",
+      "D": "100 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "ΔG = ΔH - TΔS समीकरण किसने दिया?",
+    "options": {
+      "A": "Gibbs-Helmholtz",
+      "B": "Hess",
+      "C": "Clausius",
+      "D": "Kirchhoff"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "पूर्ण क्रिस्टलीय पदार्थ का एंट्रॉपी absolute zero पर शून्य होता है। इसे किस नियम के रूप में जाना जाता है?",
+    "options": {
+      "A": "थर्मोडायनामिक्स का तीसरा नियम",
+      "B": "दूसरा नियम",
+      "C": "पहला नियम",
+      "D": "शून्यवाँ नियम"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "N₂(g) + 3H₂(g) → 2NH₃(g) के लिए कौन सा सही है?",
+    "options": {
+      "A": "ΔH = ΔU - 2RT",
+      "B": "ΔH = ΔU + 2RT",
+      "C": "ΔH = ΔU + RT",
+      "D": "ΔH = ΔU"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "सिस्टम 500 J ऊष्मा ग्रहण करता है और 200 J कार्य करता है। आंतरिक ऊर्जा में परिवर्तन (ΔU) क्या होगा?",
+    "options": {
+      "A": "+300 J",
+      "B": "+700 J",
+      "C": "-300 J",
+      "D": "-700 J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "H₂O(l) → H₂O(g) के phase transition पर 100°C (ΔH_vap = 40.66 kJ/mol) एंट्रॉपी परिवर्तन कितना होगा?",
+    "options": {
+      "A": "108.9 J/K-mol",
+      "B": "10.89 J/K-mol",
+      "C": "406.6 J/K-mol",
+      "D": "291 J/K-mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "निम्न में से कौन state function होने के साथ-साथ extensive property भी है?",
+    "options": {
+      "A": "आंतरिक ऊर्जा (Internal energy)",
+      "B": "दबाव (Pressure)",
+      "C": "तापमान (Temperature)",
+      "D": "मोलर एंथैल्पी (Molar enthalpy)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "बेंजीन के resonance energy की गणना किस नियम का उपयोग करके की जाती है?",
+    "options": {
+      "A": "Hess का नियम",
+      "B": "Beer-Lambert का नियम",
+      "C": "Henry का नियम",
+      "D": "Raoult का नियम"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "H₂O(s) → H₂O(l) प्रक्रिया में 1 atm और 273 K पर ΔG का मान क्या होगा?",
+    "options": {
+      "A": "शून्य",
+      "B": "सकारात्मक",
+      "C": "ऋणात्मक",
+      "D": "असीमित"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Bomb calorimeter का उपयोग किसे मापने के लिए किया जाता है?",
+    "options": {
+      "A": "ΔU",
+      "B": "ΔH",
+      "C": "ΔG",
+      "D": "ΔS"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "एक गैस के ठोस सतह पर adsorption के दौरान:",
+    "options": {
+      "A": "ΔH < 0, ΔS < 0",
+      "B": "ΔH > 0, ΔS > 0",
+      "C": "ΔH < 0, ΔS > 0",
+      "D": "ΔH > 0, ΔS < 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "एंट्रॉपी की इकाई क्या है?",
+    "options": {
+      "A": "J K⁻¹ mol⁻¹",
+      "B": "J mol⁻¹",
+      "C": "J K",
+      "D": "kJ mol⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "यदि किसी प्रतिक्रिया के लिए ΔH = 35.5 kJ/mol और ΔS = 83.6 J/K-mol है, तो प्रतिक्रिया स्वतःस्फूर्त कब होगी?",
+    "options": {
+      "A": "T > 425 K",
+      "B": "T < 425 K",
+      "C": "सभी तापमान पर",
+      "D": "किसी भी तापमान पर नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "एक cyclic प्रक्रिया के लिए कौन सा सही है?",
+    "options": {
+      "A": "ΔU = 0, ΔH = 0",
+      "B": "q = 0",
+      "C": "w = 0",
+      "D": "कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "CO का formation एंथैल्पी -110 kJ और CO₂ का -394 kJ है। CO का combustion एंथैल्पी क्या होगा?",
+    "options": {
+      "A": "-284 kJ",
+      "B": "-504 kJ",
+      "C": "284 kJ",
+      "D": "110 kJ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "एंट्रोपी परिवर्तन (ΔS) adiabatic reversible प्रक्रिया में:",
+    "options": {
+      "A": "शून्य",
+      "B": "सकारात्मक",
+      "C": "ऋणात्मक",
+      "D": "एकता"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "केवल ठोस और तरल के लिए होने वाली प्रतिक्रिया में ΔH और ΔU के बीच संबंध है:",
+    "options": {
+      "A": "ΔH ≈ ΔU",
+      "B": "ΔH > ΔU",
+      "C": "ΔH < ΔU",
+      "D": "ΔH = ΔU + RT"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Gibbs ऊर्जा के अनुसार रासायनिक संतुलन का मानदंड क्या है?",
+    "options": {
+      "A": "(dG)_T,P = 0",
+      "B": "(dG)_T,V = 0",
+      "C": "(dA)_T,P = 0",
+      "D": "ΔG > 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "100 g पानी को 1.0 kJ ऊष्मा देने पर, यदि पानी की मोलर हीट क्षमता 75 J/K-mol है, तो तापमान वृद्धि कितनी होगी?",
+    "options": {
+      "A": "2.4 K",
+      "B": "1.2 K",
+      "C": "4.8 K",
+      "D": "10 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "एक spontaneous प्रक्रिया के लिए कुल एंट्रॉपी परिवर्तन (ΔS_total) क्या होता है?",
+    "options": {
+      "A": "> 0",
+      "B": "< 0",
+      "C": "= 0",
+      "D": "स्थिर"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "300 K पर खुले बर्तन में 92 g Na के पानी के साथ प्रतिक्रिया में किया गया कार्य क्या होगा? (Na = 23)",
+    "options": {
+      "A": "-4.98 kJ",
+      "B": "-2.49 kJ",
+      "C": "+4.98 kJ",
+      "D": "शून्य"
+    },
+    "answer": "A"
+  }
+]
