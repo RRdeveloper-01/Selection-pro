@@ -661,14 +661,55 @@ cursor:pointer;
 }
 
 #options button{
-    background: lightcyan;
-    color: #000;
-    border: 2px solid black;
-display:block;
-width:100%;
-margin:8px 0;
+    display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  background: #ffffff;
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+#options button:hover{
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: #ffffff;
+  border-color: #4f46e5;
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
+    
+}
+#options button:active {
+  transform: scale(0.98);
+}
+.next-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, gray, #467D50);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
+/* Hover */
+.next-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
+}
+
+/* Click */
+.next-btn:active {
+  transform: scale(0.98);
+  background:#467D50E3;
+}
 .chapters{
     display: flex;
   display: grid;

@@ -44,7 +44,7 @@ score++;
 wrongQuestions.push(qIndex+1);
 }
 
-nextQuestion();
+//nextQuestion();
 }
 
 
