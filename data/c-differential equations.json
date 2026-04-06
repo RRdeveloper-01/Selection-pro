@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The order of the differential equation d^2y/dx^2 + (dy/dx)^3 + y^4 = 0 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The degree of the differential equation [1 + (dy/dx)^2]^(3/2) = d^2y/dx^2 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "Not defined"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "The number of arbitrary constants in the general solution of a differential equation of fourth order is:",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "The number of arbitrary constants in the particular solution of a differential equation of third order is:",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "The integrating factor (I.F.) of the differential equation dy/dx + y sec x = tan x is:",
+    "options": {
+      "A": "sec x + tan x",
+      "B": "sec x - tan x",
+      "C": "sec x",
+      "D": "tan x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The solution of dy/dx = e^(x-y) is:",
+    "options": {
+      "A": "e^y = e^x + C",
+      "B": "e^x = e^y + C",
+      "C": "e^x + e^y = C",
+      "D": "e^(x-y) = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The differential equation of the family of lines passing through the origin is:",
+    "options": {
+      "A": "dy/dx = y/x",
+      "B": "dy/dx = x/y",
+      "C": "x dy + y dx = 0",
+      "D": "dy/dx = k"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The degree of the differential equation d^2y/dx^2 + sin(dy/dx) = 0 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "Not defined"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is a homogeneous differential equation?",
+    "options": {
+      "A": "(4x + 6y + 5) dy - (3y + 2x + 4) dx = 0",
+      "B": "(xy) dx - (x^3 + y^3) dy = 0",
+      "C": "(x^3 + 2y^2) dx + 2xy dy = 0",
+      "D": "y^2 dx + (x^2 - xy - y^2) dy = 0"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 10,
+    "question": "The general solution of dy/dx = y/x is:",
+    "options": {
+      "A": "y = cx",
+      "B": "x = cy",
+      "C": "xy = c",
+      "D": "y = x + c"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The integrating factor of x dy/dx - y = 2x^2 is:",
+    "options": {
+      "A": "e^-x",
+      "B": "e^-y",
+      "C": "1/x",
+      "D": "x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "The solution of dy/dx + y/x = x^2 is:",
+    "options": {
+      "A": "yx = x^4/4 + C",
+      "B": "y/x = x^4/4 + C",
+      "C": "yx = x^3/3 + C",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "To solve a homogeneous differential equation of the form dy/dx = g(y/x), we substitute:",
+    "options": {
+      "A": "y = vx",
+      "B": "x = vy",
+      "C": "y = v",
+      "D": "x = v"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The order of the differential equation of all circles of radius r is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "The I.F. of dy/dx + P(x)y = Q(x) is given by:",
+    "options": {
+      "A": "e^(integral P dx)",
+      "B": "e^(integral Q dx)",
+      "C": "integral P dx",
+      "D": "e^(P)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The solution of log(dy/dx) = ax + by is:",
+    "options": {
+      "A": "e^(ax)/a + e^(-by)/b = C",
+      "B": "e^(ax)/a + e^(by)/b = C",
+      "C": "-e^(-by)/b = e^(ax)/a + C",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "General solution of dy/dx = (1+y^2)/(1+x^2) is:",
+    "options": {
+      "A": "tan^-1 y - tan^-1 x = C",
+      "B": "tan^-1 y + tan^-1 x = C",
+      "C": "y - x = C",
+      "D": "xy = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "A differential equation is said to be linear if the dependent variable and its derivative occur in:",
+    "options": {
+      "A": "Second degree",
+      "B": "First degree only",
+      "C": "Any degree",
+      "D": "Products with each other"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "The I.F. of (1+x^2) dy/dx + 2xy = cos x is:",
+    "options": {
+      "A": "1+x^2",
+      "B": "log(1+x^2)",
+      "C": "x",
+      "D": "e^x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Differential equation for y = A cos x + B sin x is:",
+    "options": {
+      "A": "d^2y/dx^2 + y = 0",
+      "B": "d^2y/dx^2 - y = 0",
+      "C": "dy/dx + y = 0",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The order of differential equation whose general solution is y = c1e^x + c2e^(2x) + c3e^(3x) is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Solution of dy/dx + y cot x = 2 cos x is:",
+    "options": {
+      "A": "y sin x = -cos 2x / 2 + C",
+      "B": "y sin x = sin 2x + C",
+      "C": "y cos x = sin x + C",
+      "D": "y sin x = -cos^2 x + C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Degree of (dy/dx)^2 + 3 d^2y/dx^2 = 0 is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "General solution of dy/dx = 1 + x + y + xy is:",
+    "options": {
+      "A": "log(1+y) = x + x^2/2 + C",
+      "B": "log(1+x) = y + y^2/2 + C",
+      "C": "1+y = 1+x + C",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The differential equation of all non-vertical lines in a plane is:",
+    "options": {
+      "A": "d^2y/dx^2 = 0",
+      "B": "d^2x/dy^2 = 0",
+      "C": "dy/dx = 0",
+      "D": "dx/dy = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "I.F. of dy/dx + y/ (x log x) = 1/x is:",
+    "options": {
+      "A": "log x",
+      "B": "x",
+      "C": "log(log x)",
+      "D": "e^x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of these is a variable separable type equation?",
+    "options": {
+      "A": "dy/dx = (x+y)/(x-y)",
+      "B": "dy/dx = x/y",
+      "C": "dy/dx + y = x",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Degree of a differential equation is always a:",
+    "options": {
+      "A": "Positive integer",
+      "B": "Any real number",
+      "C": "Rational number",
+      "D": "Negative integer"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The solution of x dx + y dy = 0 is:",
+    "options": {
+      "A": "x^2 + y^2 = C",
+      "B": "x^2 - y^2 = C",
+      "C": "x + y = C",
+      "D": "xy = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Number of arbitrary constants in the equation of circles touching x-axis at origin is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  }
+]

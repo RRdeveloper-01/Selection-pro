@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If A = {1, 2, 3}, then the number of equivalence relations containing (1, 2) is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "Let f: R -> R be defined as f(x) = x^4. Choose the correct answer:",
+    "options": {
+      "A": "f is one-one onto",
+      "B": "f is many-one onto",
+      "C": "f is one-one but not onto",
+      "D": "f is neither one-one nor onto"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "The number of all one-one functions from set {1, 2, 3} to itself is:",
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "6",
+      "D": "9"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "If f(x) = 8x^3 and g(x) = x^(1/3), then fog(x) is:",
+    "options": {
+      "A": "8x",
+      "B": "x",
+      "C": "8x^3",
+      "D": "2x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Let R be a relation on the set L of all lines in a plane defined by R = {(L1, L2) : L1 is perpendicular to L2}. Then R is:",
+    "options": {
+      "A": "Reflexive",
+      "B": "Symmetric",
+      "C": "Transitive",
+      "D": "Equivalence"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "The function f: N -> N given by f(n) = 2n is:",
+    "options": {
+      "A": "One-one and onto",
+      "B": "One-one but not onto",
+      "C": "Onto but not one-one",
+      "D": "Neither one-one nor onto"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "If f: R -> R is given by f(x) = (3 - x^3)^(1/3), then f(f(x)) is:",
+    "options": {
+      "A": "x^(1/3)",
+      "B": "x^3",
+      "C": "x",
+      "D": "3 - x^3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "The range of the function f(x) = x / |x| is:",
+    "options": {
+      "A": "R",
+      "B": "R - {0}",
+      "C": "{-1, 1}",
+      "D": "{-1, 0, 1}"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "A relation R in set A = {1, 2, 3} is defined as R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 3)}. This relation is:",
+    "options": {
+      "A": "Reflexive only",
+      "B": "Symmetric",
+      "C": "Transitive",
+      "D": "Equivalence"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Let A = {1, 2, 3}. The number of binary operations on A is:",
+    "options": {
+      "A": "3^3",
+      "B": "3^6",
+      "C": "3^9",
+      "D": "2^3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "If f(x) = log((1+x)/(1-x)), then f(2x/(1+x^2)) is equal to:",
+    "options": {
+      "A": "2f(x)",
+      "B": "3f(x)",
+      "C": "(f(x))^2",
+      "D": "f(x)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The total number of injective functions from a set containing 3 elements to a set containing 2 elements is:",
+    "options": {
+      "A": "6",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Let f: R -> R be defined by f(x) = 3x. Then f is:",
+    "options": {
+      "A": "One-one onto",
+      "B": "Many-one onto",
+      "C": "One-one but not onto",
+      "D": "Neither one-one nor onto"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "If R = {(x, y) : x + 2y = 8} is a relation on N, then range of R is:",
+    "options": {
+      "A": "{1, 2, 3}",
+      "B": "{2, 4, 6}",
+      "C": "{1, 2, 3, 4}",
+      "D": "{4, 5, 6}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "A relation R on set A is called empty relation if R is equal to:",
+    "options": {
+      "A": "A x A",
+      "B": "A",
+      "C": "Phi (Empty Set)",
+      "D": "Identity Set"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "The composition of two bijections is a:",
+    "options": {
+      "A": "Bijection",
+      "B": "Injection only",
+      "C": "Surjection only",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Let f(x) = [x] denote the greatest integer function. Is f(x) onto if f: R -> R?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Only for integers",
+      "D": "Cannot say"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Let f: A -> B and g: B -> C be two functions such that gof is injective. Then:",
+    "options": {
+      "A": "f must be injective",
+      "B": "g must be injective",
+      "C": "Both f and g must be injective",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Maximum number of equivalence relations on set {1, 2, 3} is:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "5",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "Function f(x) = |x| is:",
+    "options": {
+      "A": "One-one in R",
+      "B": "Onto in R",
+      "C": "Neither one-one nor onto in R",
+      "D": "One-one in [0, infinity)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "If n(A) = p and n(B) = q, then number of relations from A to B is:",
+    "options": {
+      "A": "p * q",
+      "B": "2^(pq)",
+      "C": "p^q",
+      "D": "q^p"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "A function f: X -> Y is surjective if range of f is:",
+    "options": {
+      "A": "X",
+      "B": "Sub-set of Y",
+      "C": "Y (Co-domain)",
+      "D": "Empty"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "The identity relation on any set A is:",
+    "options": {
+      "A": "Reflexive only",
+      "B": "Symmetric only",
+      "C": "Transitive only",
+      "D": "Equivalence Relation"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 24,
+    "question": "Let f(x) = x + 7 and g(x) = x - 7. Find fog(x):",
+    "options": {
+      "A": "x",
+      "B": "x + 14",
+      "C": "x - 14",
+      "D": "7"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The domain of f(x) = sqrt(x^2 - 1) is:",
+    "options": {
+      "A": "[-1, 1]",
+      "B": "R - (-1, 1)",
+      "C": "[1, infinity)",
+      "D": "R"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "Signum function f: R -> R is:",
+    "options": {
+      "A": "One-one",
+      "B": "Onto",
+      "C": "Many-one",
+      "D": "Bijection"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "If f: R -> R is defined by f(x) = 2x + 3, then f inverse is:",
+    "options": {
+      "A": "(x-3)/2",
+      "B": "2x-3",
+      "C": "(x+3)/2",
+      "D": "3x+2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Total number of onto functions from {1, 2, ..., n} to {1, 2} is:",
+    "options": {
+      "A": "2^n",
+      "B": "2^n - 1",
+      "C": "2^n - 2",
+      "D": "n^2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "In set A = {a, b}, the relation R = {(a, b)} is:",
+    "options": {
+      "A": "Reflexive",
+      "B": "Symmetric",
+      "C": "Transitive",
+      "D": "None of these"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Every identity relation is a reflexive relation?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Sometimes",
+      "D": "None"
+    },
+    "answer": "A"
+  }
+]

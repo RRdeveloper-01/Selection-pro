@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "अवकल समीकरण d^2y/dx^2 + (dy/dx)^3 + y^4 = 0 का क्रम (order) क्या है?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "अवकल समीकरण [1 + (dy/dx)^2]^(3/2) = d^2y/dx^2 की घात (degree) क्या है?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "परिभाषित नहीं"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "चौथे क्रम के अवकल समीकरण के सामान्य हल में मनमाने नियतांक की संख्या होती है:",
+    "options": {
+      "A": "0",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "तीसरे क्रम के अवकल समीकरण के विशेष हल में मनमाने नियतांक की संख्या होती है:",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "अवकल समीकरण dy/dx + y sec x = tan x का समाकलन गुणक (I.F.) है:",
+    "options": {
+      "A": "sec x + tan x",
+      "B": "sec x - tan x",
+      "C": "sec x",
+      "D": "tan x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "dy/dx = e^(x-y) का हल है:",
+    "options": {
+      "A": "e^y = e^x + C",
+      "B": "e^x = e^y + C",
+      "C": "e^x + e^y = C",
+      "D": "e^(x-y) = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "मूल बिंदु से गुजरने वाली रेखाओं के परिवार का अवकल समीकरण है:",
+    "options": {
+      "A": "dy/dx = y/x",
+      "B": "dy/dx = x/y",
+      "C": "x dy + y dx = 0",
+      "D": "dy/dx = k"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "अवकल समीकरण d^2y/dx^2 + sin(dy/dx) = 0 की घात (degree) क्या है?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "परिभाषित नहीं"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "निम्न में से कौन-सा समजात (homogeneous) अवकल समीकरण है?",
+    "options": {
+      "A": "(4x + 6y + 5) dy - (3y + 2x + 4) dx = 0",
+      "B": "(xy) dx - (x^3 + y^3) dy = 0",
+      "C": "(x^3 + 2y^2) dx + 2xy dy = 0",
+      "D": "y^2 dx + (x^2 - xy - y^2) dy = 0"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 10,
+    "question": "dy/dx = y/x का सामान्य हल है:",
+    "options": {
+      "A": "y = cx",
+      "B": "x = cy",
+      "C": "xy = c",
+      "D": "y = x + c"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "x dy/dx - y = 2x^2 का समाकलन गुणक है:",
+    "options": {
+      "A": "e^-x",
+      "B": "e^-y",
+      "C": "1/x",
+      "D": "x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "dy/dx + y/x = x^2 का हल है:",
+    "options": {
+      "A": "yx = x^4/4 + C",
+      "B": "y/x = x^4/4 + C",
+      "C": "yx = x^3/3 + C",
+      "D": "कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "समजात अवकल समीकरण dy/dx = g(y/x) को हल करने के लिए हम क्या मानते हैं?",
+    "options": {
+      "A": "y = vx",
+      "B": "x = vy",
+      "C": "y = v",
+      "D": "x = v"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "त्रिज्या r वाले सभी वृत्तों के अवकल समीकरण का क्रम है:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "dy/dx + P(x)y = Q(x) का समाकलन गुणक (I.F.) होता है:",
+    "options": {
+      "A": "e^(∫P dx)",
+      "B": "e^(∫Q dx)",
+      "C": "∫P dx",
+      "D": "e^(P)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "log(dy/dx) = ax + by का हल है:",
+    "options": {
+      "A": "e^(ax)/a + e^(-by)/b = C",
+      "B": "e^(ax)/a + e^(by)/b = C",
+      "C": "-e^(-by)/b = e^(ax)/a + C",
+      "D": "कोई नहीं"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "dy/dx = (1+y^2)/(1+x^2) का सामान्य हल है:",
+    "options": {
+      "A": "tan^-1 y - tan^-1 x = C",
+      "B": "tan^-1 y + tan^-1 x = C",
+      "C": "y - x = C",
+      "D": "xy = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "एक अवकल समीकरण को रैखिक (linear) कहा जाता है जब आश्रित चर और उसका अवकलज होते हैं:",
+    "options": {
+      "A": "द्वितीय घात में",
+      "B": "केवल प्रथम घात में",
+      "C": "किसी भी घात में",
+      "D": "आपस में गुणा रूप में"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "(1+x^2) dy/dx + 2xy = cos x का समाकलन गुणक है:",
+    "options": {
+      "A": "1+x^2",
+      "B": "log(1+x^2)",
+      "C": "x",
+      "D": "e^x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "y = A cos x + B sin x के लिए अवकल समीकरण है:",
+    "options": {
+      "A": "d^2y/dx^2 + y = 0",
+      "B": "d^2y/dx^2 - y = 0",
+      "C": "dy/dx + y = 0",
+      "D": "कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "यदि सामान्य हल y = c1e^x + c2e^(2x) + c3e^(3x) है, तो अवकल समीकरण का क्रम है:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "dy/dx + y cot x = 2 cos x का हल है:",
+    "options": {
+      "A": "y sin x = -cos 2x / 2 + C",
+      "B": "y sin x = sin 2x + C",
+      "C": "y cos x = sin x + C",
+      "D": "y sin x = -cos^2 x + C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "(dy/dx)^2 + 3 d^2y/dx^2 = 0 की घात है:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "dy/dx = 1 + x + y + xy का सामान्य हल है:",
+    "options": {
+      "A": "log(1+y) = x + x^2/2 + C",
+      "B": "log(1+x) = y + y^2/2 + C",
+      "C": "1+y = 1+x + C",
+      "D": "कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "समतल में सभी गैर-ऊर्ध्वाधर रेखाओं का अवकल समीकरण है:",
+    "options": {
+      "A": "d^2y/dx^2 = 0",
+      "B": "d^2x/dy^2 = 0",
+      "C": "dy/dx = 0",
+      "D": "dx/dy = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "dy/dx + y/(x log x) = 1/x का समाकलन गुणक है:",
+    "options": {
+      "A": "log x",
+      "B": "x",
+      "C": "log(log x)",
+      "D": "e^x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "निम्न में से कौन-सा चर-विभाज्य (variable separable) समीकरण है?",
+    "options": {
+      "A": "dy/dx = (x+y)/(x-y)",
+      "B": "dy/dx = x/y",
+      "C": "dy/dx + y = x",
+      "D": "कोई नहीं"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "अवकल समीकरण की घात हमेशा होती है:",
+    "options": {
+      "A": "धनात्मक पूर्णांक",
+      "B": "कोई भी वास्तविक संख्या",
+      "C": "परिमेय संख्या",
+      "D": "ऋणात्मक पूर्णांक"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "x dx + y dy = 0 का हल है:",
+    "options": {
+      "A": "x^2 + y^2 = C",
+      "B": "x^2 - y^2 = C",
+      "C": "x + y = C",
+      "D": "xy = C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "मूल बिंदु पर x-अक्ष को स्पर्श करने वाले वृत्तों के समीकरण में मनमाने नियतांक की संख्या है:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  }
+]

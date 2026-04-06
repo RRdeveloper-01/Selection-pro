@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A function f(x) is continuous at x = c if:",
+    "options": {
+      "A": "f(c) exists",
+      "B": "Limit x->c f(x) exists",
+      "C": "Limit x->c f(x) = f(c)",
+      "D": "f'(c) exists"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The derivative of sin(x^2) with respect to x is:",
+    "options": {
+      "A": "cos(x^2)",
+      "B": "2x cos(x^2)",
+      "C": "2x sin(x^2)",
+      "D": "-2x cos(x^2)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "If y = log(sin x), then dy/dx is:",
+    "options": {
+      "A": "tan x",
+      "B": "cot x",
+      "C": "1/sin x",
+      "D": "cos x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The function f(x) = |x| is:",
+    "options": {
+      "A": "Continuous and differentiable at x = 0",
+      "B": "Neither continuous nor differentiable at x = 0",
+      "C": "Continuous but not differentiable at x = 0",
+      "D": "Differentiable but not continuous at x = 0"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "If x = at^2 and y = 2at, then dy/dx is:",
+    "options": {
+      "A": "t",
+      "B": "1/t",
+      "C": "2/t",
+      "D": "a/t"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "The derivative of e^(cos x) is:",
+    "options": {
+      "A": "e^(cos x)",
+      "B": "sin x * e^(cos x)",
+      "C": "-sin x * e^(cos x)",
+      "D": "cos x * e^(sin x)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "If y = tan^-1 x, then d^2y/dx^2 is:",
+    "options": {
+      "A": "1/(1+x^2)",
+      "B": "-2x/(1+x^2)^2",
+      "C": "2x/(1+x^2)^2",
+      "D": "-1/(1+x^2)^2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "Derivative of log(log x) with respect to x is:",
+    "options": {
+      "A": "1/x",
+      "B": "1/log x",
+      "C": "1/(x log x)",
+      "D": "x/log x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "If f(x) = kx + 1 for x <= 5 and 3x - 5 for x > 5 is continuous at x = 5, then k is:",
+    "options": {
+      "A": "9/5",
+      "B": "2",
+      "C": "5/9",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The derivative of sin^-1(x) + cos^-1(x) with respect to x is:",
+    "options": {
+      "A": "1",
+      "B": "pi/2",
+      "C": "0",
+      "D": "2/sqrt(1-x^2)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "If y = x^x, then dy/dx is:",
+    "options": {
+      "A": "x^x log x",
+      "B": "x^x (1 + log x)",
+      "C": "x * x^(x-1)",
+      "D": "1 + log x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Rolle's Theorem is applicable for f(x) in [a, b] if:",
+    "options": {
+      "A": "f(a) = f(b)",
+      "B": "f(x) is continuous in [a, b]",
+      "C": "f(x) is differentiable in (a, b)",
+      "D": "All of the above"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 13,
+    "question": "The derivative of 2^x is:",
+    "options": {
+      "A": "x * 2^(x-1)",
+      "B": "2^x",
+      "C": "2^x log 2",
+      "D": "2^x / log 2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "If f(x) = |x - 1|, then f'(1) is:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "Does not exist"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "If y = sqrt(sin x + y), then dy/dx is:",
+    "options": {
+      "A": "cos x / (2y - 1)",
+      "B": "sin x / (2y - 1)",
+      "C": "cos x / (2y + 1)",
+      "D": "1 / (2y - 1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The value of 'c' in Mean Value Theorem for f(x) = x^2 in [2, 4] is:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "3.5",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Derivative of tan x with respect to sec x is:",
+    "options": {
+      "A": "sec x",
+      "B": "cosec x",
+      "C": "cot x",
+      "D": "tan x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "If y = cos^-1((1-x^2)/(1+x^2)), then dy/dx is:",
+    "options": {
+      "A": "2/(1+x^2)",
+      "B": "1/(1+x^2)",
+      "C": "-2/(1+x^2)",
+      "D": "2x/(1+x^2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The function f(x) = [x] (Greatest Integer Function) is discontinuous at:",
+    "options": {
+      "A": "All real numbers",
+      "B": "All integers",
+      "C": "Only at x = 0",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "If y = sin(ax + b), then d^2y/dx^2 is:",
+    "options": {
+      "A": "a^2 cos(ax + b)",
+      "B": "-a^2 sin(ax + b)",
+      "C": "a cos(ax + b)",
+      "D": "-a sin(ax + b)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Differential coefficient of log_10 x is:",
+    "options": {
+      "A": "1/x",
+      "B": "(1/x) log_10 e",
+      "C": "(1/x) log_e 10",
+      "D": "1/(x log_10 e)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "If f(x) is differentiable at x = c, then it is:",
+    "options": {
+      "A": "Always continuous at x = c",
+      "B": "Never continuous at x = c",
+      "C": "May or may not be continuous",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Derivative of |x|^3 at x = 0 is:",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "Does not exist",
+      "D": "-3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "If y = log sqrt(x), then dy/dx is:",
+    "options": {
+      "A": "1/x",
+      "B": "1/(2x)",
+      "C": "2/x",
+      "D": "1/sqrt(x)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "The derivative of sec(tan(sqrt(x))) is solved using:",
+    "options": {
+      "A": "Product Rule",
+      "B": "Quotient Rule",
+      "C": "Chain Rule",
+      "D": "Logarithmic Rule"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "If x - y = pi, then dy/dx is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "pi"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Derivative of tan^-1( (3x-x^3)/(1-3x^2) ) is:",
+    "options": {
+      "A": "1/(1+x^2)",
+      "B": "2/(1+x^2)",
+      "C": "3/(1+x^2)",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "If y = e^(3 log x), then dy/dx is:",
+    "options": {
+      "A": "3x^2",
+      "B": "3e^(3 log x)",
+      "C": "3/x",
+      "D": "x^3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which function is continuous everywhere but not differentiable at x = 0?",
+    "options": {
+      "A": "x^2",
+      "B": "sin x",
+      "C": "|x|",
+      "D": "e^x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "If y = sin^-1 x, then (1-x^2)y'' - xy' is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "y"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The rate of change of the area of a circle with respect to its radius r at r = 6 cm is:",
+    "options": {
+      "A": "10 pi",
+      "B": "12 pi",
+      "C": "8 pi",
+      "D": "11 pi"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The total revenue in Rupees received from the sale of x units of a product is given by R(x) = 3x^2 + 36x + 5. The marginal revenue when x = 15 is:",
+    "options": {
+      "A": "116",
+      "B": "96",
+      "C": "90",
+      "D": "126"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "The function f(x) = x^2 - 4x + 6 is strictly increasing in the interval:",
+    "options": {
+      "A": "(-infinity, 2)",
+      "B": "(2, infinity)",
+      "C": "(-infinity, infinity)",
+      "D": "(-2, 2)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The interval in which y = x^2 e^(-x) is increasing is:",
+    "options": {
+      "A": "(-infinity, infinity)",
+      "B": "(-2, 0)",
+      "C": "(2, infinity)",
+      "D": "(0, 2)"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "The slope of the tangent to the curve y = x^3 - x at x = 2 is:",
+    "options": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The slope of the normal to the curve y = 2x^2 + 3 sin x at x = 0 is:",
+    "options": {
+      "A": "3",
+      "B": "1/3",
+      "C": "-3",
+      "D": "-1/3"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "The line y = x + 1 is a tangent to the curve y^2 = 4x if the point of contact is:",
+    "options": {
+      "A": "(1, 2)",
+      "B": "(2, 1)",
+      "C": "(1, -2)",
+      "D": "(-1, 2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The maximum value of sin x + cos x is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "sqrt(2)",
+      "D": "sqrt(3)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "At what point on the curve y = x^2 does the tangent make an angle of 45 degrees with the x-axis?",
+    "options": {
+      "A": "(1/2, 1/4)",
+      "B": "(1, 1)",
+      "C": "(2, 4)",
+      "D": "(1/4, 1/16)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The function f(x) = 2x^3 - 6x^2 + 6x + 5 has:",
+    "options": {
+      "A": "A local maxima",
+      "B": "A local minima",
+      "C": "Neither maxima nor minima",
+      "D": "Both maxima and minima"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "The normal to the curve x^2 = 4y passing through (1, 2) is:",
+    "options": {
+      "A": "x + y = 3",
+      "B": "x - y = 3",
+      "C": "x + y = 1",
+      "D": "x - y = 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "A balloon, which always remains spherical on inflation, is being inflated by pumping in 900 cubic cm of gas per second. The rate at which the radius increases when radius is 15 cm is:",
+    "options": {
+      "A": "1/pi",
+      "B": "2/pi",
+      "C": "pi",
+      "D": "9/pi"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The function f(x) = tan x - x:",
+    "options": {
+      "A": "Always increases",
+      "B": "Always decreases",
+      "C": "Never increases",
+      "D": "Sometimes increases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The minimum value of f(x) = 3x^4 - 8x^3 + 12x^2 - 48x + 25 on the interval [0, 3] is:",
+    "options": {
+      "A": "25",
+      "B": "-39",
+      "C": "16",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "The point on the curve x^2 = 2y which is nearest to the point (0, 5) is:",
+    "options": {
+      "A": "(2, 2)",
+      "B": "(2sqrt(2), 4)",
+      "C": "(0, 0)",
+      "D": "(2, 4)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "The equation of the tangent to the curve y = e^(2x) at the point (0, 1) is:",
+    "options": {
+      "A": "y = 2x + 1",
+      "B": "y = x + 1",
+      "C": "y = 2x",
+      "D": "y = x"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "If the radius of a sphere is measured as 9 cm with an error of 0.03 cm, then the approximate error in calculating its volume is:",
+    "options": {
+      "A": "9.72 pi",
+      "B": "0.972 pi",
+      "C": "97.2 pi",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The function f(x) = x + 1/x (x != 0) has a local maximum at:",
+    "options": {
+      "A": "x = 1",
+      "B": "x = -1",
+      "C": "x = 0",
+      "D": "x = 2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following functions is decreasing on (0, pi/2)?",
+    "options": {
+      "A": "sin 2x",
+      "B": "tan x",
+      "C": "cos x",
+      "D": "cos 3x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "The maximum value of [x(x-1)+1]^(1/3), 0 <= x <= 1 is:",
+    "options": {
+      "A": "(1/3)^(1/3)",
+      "B": "1/2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "The slope of the tangent to the curve x = t^2 + 3t - 8, y = 2t^2 - 2t - 5 at t = 2 is:",
+    "options": {
+      "A": "7/6",
+      "B": "6/7",
+      "C": "2/3",
+      "D": "3/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "A cylindrical tank of radius 10 m is being filled with wheat at the rate of 314 cubic m/h. Then the depth of the wheat is increasing at the rate of:",
+    "options": {
+      "A": "1 m/h",
+      "B": "0.1 m/h",
+      "C": "1.1 m/h",
+      "D": "0.5 m/h"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "If f(x) = x^3 - 3x^2 + 3x - 100, then f(x) is:",
+    "options": {
+      "A": "Increasing in R",
+      "B": "Decreasing in R",
+      "C": "Increasing in (0, infinity)",
+      "D": "Decreasing in (-infinity, 0)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The absolute maximum value of y = x^3 - 3x + 2 in [0, 2] is:",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "0",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The sum of two non-negative numbers is 16. The sum of their squares is minimum when the numbers are:",
+    "options": {
+      "A": "10, 6",
+      "B": "8, 8",
+      "C": "12, 4",
+      "D": "15, 1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The curve y = x^(1/5) at (0, 0) has:",
+    "options": {
+      "A": "A vertical tangent",
+      "B": "A horizontal tangent",
+      "C": "No tangent",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If the side of an equilateral triangle is increasing at the rate of 2 cm/s, then the rate of increase of its area when the side is 10 cm is:",
+    "options": {
+      "A": "10 sqrt(3)",
+      "B": "20",
+      "C": "10",
+      "D": "5 sqrt(3)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The point on the curve y = x^3 where the slope of the tangent is equal to the y-coordinate of the point is:",
+    "options": {
+      "A": "(3, 27)",
+      "B": "(2, 8)",
+      "C": "(3, 9)",
+      "D": "(1, 1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "If f(x) = ax + b is a strictly decreasing function, then:",
+    "options": {
+      "A": "a > 0",
+      "B": "a < 0",
+      "C": "a = 0",
+      "D": "b < 0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "For the curve y = 5x - 2x^3, if x increases at the rate of 2 units/sec, then at x = 3 the slope of the curve is changing at:",
+    "options": {
+      "A": "-72 units/sec",
+      "B": "72 units/sec",
+      "C": "-18 units/sec",
+      "D": "None"
+    },
+    "answer": "A"
+  }
+]

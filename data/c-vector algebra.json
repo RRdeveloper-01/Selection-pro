@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The magnitude of the vector a = i + j + k is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "sqrt(3)",
+      "D": "3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The unit vector in the direction of vector a = 2i + 3j + k is:",
+    "options": {
+      "A": "(2i + 3j + k) / 14",
+      "B": "(2i + 3j + k) / sqrt(14)",
+      "C": "(i + j + k) / sqrt(3)",
+      "D": "2i + 3j + k"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "If a and b are perpendicular vectors, then a . b is:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "|a||b|"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The projection of vector a = i + 3j + 7k on vector b = 7i - j + 8k is:",
+    "options": {
+      "A": "60 / sqrt(114)",
+      "B": "60 / 114",
+      "C": "sqrt(114) / 60",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The value of i . (j x k) + j . (i x k) + k . (i x j) is:",
+    "options": {
+      "A": "0",
+      "B": "-1",
+      "C": "1",
+      "D": "3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "If |a| = 10, |b| = 2 and a . b = 12, then |a x b| is:",
+    "options": {
+      "A": "16",
+      "B": "10",
+      "C": "14",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The angle between two vectors a and b with magnitudes sqrt(3) and 2 respectively, having a . b = sqrt(6) is:",
+    "options": {
+      "A": "pi/6",
+      "B": "pi/4",
+      "C": "pi/3",
+      "D": "pi/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The area of a parallelogram whose adjacent sides are given by vectors a = 3i + j + 4k and b = i - j + k is:",
+    "options": {
+      "A": "sqrt(42)",
+      "B": "sqrt(32)",
+      "C": "sqrt(24)",
+      "D": "42"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "If a is a unit vector and (x - a) . (x + a) = 12, then |x| is:",
+    "options": {
+      "A": "sqrt(13)",
+      "B": "13",
+      "C": "sqrt(11)",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The direction cosines of the vector i + 2j + 3k are:",
+    "options": {
+      "A": "1/14, 2/14, 3/14",
+      "B": "1/sqrt(14), 2/sqrt(14), 3/sqrt(14)",
+      "C": "1, 2, 3",
+      "D": "1/6, 2/6, 3/6"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Two vectors are said to be collinear if they are:",
+    "options": {
+      "A": "Perpendicular",
+      "B": "Parallel to the same line",
+      "C": "Equal in magnitude",
+      "D": "Unit vectors"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "The scalar product of a = 5i - j - 3k and b = i + 3j - 5k is:",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "13",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The vector product (a x b) is always ______ to both a and b.",
+    "options": {
+      "A": "Parallel",
+      "B": "Perpendicular",
+      "C": "Equal",
+      "D": "Opposite"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "If a = 2i + j + 3k and b = 3i + 5j - 2k, then |a x b| is:",
+    "options": {
+      "A": "sqrt(300)",
+      "B": "sqrt(507)",
+      "C": "sqrt(450)",
+      "D": "507"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "The position vector of a point (x, y, z) is:",
+    "options": {
+      "A": "xi + yj + zk",
+      "B": "x + y + z",
+      "C": "(x, y, z)",
+      "D": "xyz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If |a + b| = |a - b|, then the angle between a and b is:",
+    "options": {
+      "A": "0",
+      "B": "pi/4",
+      "C": "pi/2",
+      "D": "pi"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "A vector whose initial and terminal points coincide is called a:",
+    "options": {
+      "A": "Unit vector",
+      "B": "Zero vector",
+      "C": "Equal vector",
+      "D": "Free vector"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The area of a triangle with adjacent sides a and b is:",
+    "options": {
+      "A": "a . b",
+      "B": "|a x b|",
+      "C": "1/2 |a x b|",
+      "D": "1/2 (a . b)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The value of lambda for which the vectors 2i - j + k, i + 2j - 3k and 3i + lambda j + 5k are coplanar is:",
+    "options": {
+      "A": "4",
+      "B": "-4",
+      "C": "0",
+      "D": "2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "The unit vector perpendicular to both vectors a and b is:",
+    "options": {
+      "A": "(a x b) / |a x b|",
+      "B": "(a . b) / |a . b|",
+      "C": "a + b",
+      "D": "a - b"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The value of (i x j) . k is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "i"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "If a = i + j + k and b = i - j + k, then the component of a along b is:",
+    "options": {
+      "A": "1/sqrt(3)",
+      "B": "sqrt(3)",
+      "C": "1/3",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The sine of the angle between vectors i - 2j + 3k and 3i - 2j + k is:",
+    "options": {
+      "A": "5/7",
+      "B": "2sqrt(6)/7",
+      "C": "sqrt(6)/7",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "If the direction ratios of a line are 1, 1, 2, then its direction cosines are:",
+    "options": {
+      "A": "1/sqrt(6), 1/sqrt(6), 2/sqrt(6)",
+      "B": "1/4, 1/4, 2/4",
+      "C": "1, 1, 2",
+      "D": "0, 0, 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The vector a + b is called the ______ of vectors a and b.",
+    "options": {
+      "A": "Difference",
+      "B": "Resultant",
+      "C": "Product",
+      "D": "Cross"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "If |a| = 3, |b| = 4 and the angle between them is 60 degrees, then a . b is:",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "6sqrt(3)",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following is true for any vector a?",
+    "options": {
+      "A": "a x a = 0",
+      "B": "a . a = 0",
+      "C": "a x a = 1",
+      "D": "a x a = a^2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The dot product of two unit vectors is 1 only if they are:",
+    "options": {
+      "A": "Perpendicular",
+      "B": "Parallel and in same direction",
+      "C": "Parallel and in opposite direction",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "The scalar triple product [a b c] represents the volume of a:",
+    "options": {
+      "A": "Sphere",
+      "B": "Parallelopiped",
+      "C": "Cylinder",
+      "D": "Cone"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "If vectors a and b represent sides of a triangle, the third side is given by:",
+    "options": {
+      "A": "a + b",
+      "B": "a - b",
+      "C": "Both A or B depending on direction",
+      "D": "a x b"
+    },
+    "answer": "C"
+  }
+]

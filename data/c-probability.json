@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If P(A) = 0.6, P(B) = 0.3 and P(A ∩ B) = 0.2, then P(A|B) is:",
+    "options": {
+      "A": "1/3",
+      "B": "2/3",
+      "C": "1/2",
+      "D": "2/5"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "Two events A and B are said to be independent if:",
+    "options": {
+      "A": "P(A ∩ B) = P(A) + P(B)",
+      "B": "P(A ∩ B) = P(A) * P(B)",
+      "C": "P(A | B) = P(B | A)",
+      "D": "P(A) = P(B)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "If A and B are two events such that P(A) != 0 and P(B|A) = 1, then:",
+    "options": {
+      "A": "B ⊂ A",
+      "B": "A ⊂ B",
+      "C": "B = Φ",
+      "D": "A = Φ"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "A die is thrown twice. The probability of getting a sum of 10 is:",
+    "options": {
+      "A": "1/12",
+      "B": "1/36",
+      "C": "3/36",
+      "D": "1/6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "If P(A) = 1/2, P(B) = 0, then P(A|B) is:",
+    "options": {
+      "A": "0",
+      "B": "1/2",
+      "C": "Not defined",
+      "D": "1"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The probability of obtaining an even prime number on each die when a pair of dice is rolled is:",
+    "options": {
+      "A": "0",
+      "B": "1/3",
+      "C": "1/12",
+      "D": "1/36"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "If A and B are independent events, then P(not A and not B) is:",
+    "options": {
+      "A": "1 - P(A)P(B)",
+      "B": "[1 - P(A)][1 - P(B)]",
+      "C": "1 - P(A ∪ B)",
+      "D": "Both B and C"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 8,
+    "question": "Bayes' Theorem is used to find:",
+    "options": {
+      "A": "Joint probability",
+      "B": "Posterior probability",
+      "C": "Simple probability",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "A fair coin is tossed 10 times. The probability of getting exactly 5 heads is:",
+    "options": {
+      "A": "1/2",
+      "B": "10C5 / 2^10",
+      "C": "5/10",
+      "D": "1/2^10"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "The sum of probabilities of all elementary events of an experiment is:",
+    "options": {
+      "A": "0",
+      "B": "0.5",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "If E and F are events such that P(E) = 0.4, P(F) = 0.8 and P(F|E) = 0.6, then P(E ∪ F) is:",
+    "options": {
+      "A": "0.96",
+      "B": "0.24",
+      "C": "0.84",
+      "D": "0.5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "If a card is drawn from a well-shuffled pack of 52 cards, the probability that it is a red king is:",
+    "options": {
+      "A": "1/13",
+      "B": "1/26",
+      "C": "2/13",
+      "D": "4/52"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "A random variable X has a probability distribution P(X). The sum Σ P(X) is always:",
+    "options": {
+      "A": "< 1",
+      "B": "> 1",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "If P(A) = 3/8, P(B) = 1/2 and P(A ∩ B) = 1/4, then P(A|B) is:",
+    "options": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "3/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "An event that is very unlikely to happen has a probability closest to:",
+    "options": {
+      "A": "0.0001",
+      "B": "0.1",
+      "C": "0.5",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If A and B are mutually exclusive events, then P(A ∩ B) is:",
+    "options": {
+      "A": "1",
+      "B": "P(A) + P(B)",
+      "C": "0",
+      "D": "P(A) * P(B)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "The mean of a Binomial Distribution with parameters n and p is:",
+    "options": {
+      "A": "np",
+      "B": "npq",
+      "C": "n/p",
+      "D": "sqrt(npq)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The variance of a Binomial Distribution is:",
+    "options": {
+      "A": "np",
+      "B": "npq",
+      "C": "p/n",
+      "D": "1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "A box contains 3 orange and 2 green balls. If two balls are drawn at random one by one without replacement, the probability that both are orange is:",
+    "options": {
+      "A": "3/10",
+      "B": "6/25",
+      "C": "9/25",
+      "D": "1/5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "If P(A) = 0.8 and P(B|A) = 0.4, then P(A ∩ B) is:",
+    "options": {
+      "A": "0.32",
+      "B": "0.5",
+      "C": "0.12",
+      "D": "0.4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following cannot be the probability of an event?",
+    "options": {
+      "A": "2/3",
+      "B": "-1.5",
+      "C": "15%",
+      "D": "0.7"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "If A and B are any two events, then P(A ∪ B) is equal to:",
+    "options": {
+      "A": "P(A) + P(B)",
+      "B": "P(A) + P(B) - P(A ∩ B)",
+      "C": "P(A) + P(B) + P(A ∩ B)",
+      "D": "P(A) * P(B)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "The probability of drawing a queen of club or a king of heart is:",
+    "options": {
+      "A": "1/52",
+      "B": "2/52",
+      "C": "4/52",
+      "D": "8/52"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "If the probability of success is 0.4, then the probability of failure is:",
+    "options": {
+      "A": "0.4",
+      "B": "0.6",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "In a series of n independent trials, the probability of exactly k successes is given by:",
+    "options": {
+      "A": "nCk p^k q^(n-k)",
+      "B": "nCk p^(n-k) q^k",
+      "C": "p^k q^(n-k)",
+      "D": "n p q"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The probability of getting a number greater than 4 in a single throw of a die is:",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "2/3",
+      "D": "1/6"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "If P(A) = 0.4 and P(B) = p, and A and B are independent, P(A ∪ B) = 0.6, then p is:",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "1/4",
+      "D": "1/5"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Two events are independent if the occurrence of one ______ the probability of the other.",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Does not affect",
+      "D": "Eliminates"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Total probability of an event happening through multiple mutually exclusive paths is given by:",
+    "options": {
+      "A": "Bayes' Theorem",
+      "B": "Theorem of Total Probability",
+      "C": "Binomial Theorem",
+      "D": "Multiplication Rule"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "A coin is tossed three times. The probability of getting at least two heads is:",
+    "options": {
+      "A": "1/2",
+      "B": "3/8",
+      "C": "1/4",
+      "D": "1/8"
+    },
+    "answer": "A"
+  }
+]

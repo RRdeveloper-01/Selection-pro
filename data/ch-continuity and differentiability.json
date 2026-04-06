@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "कोई फलन f(x), x = c पर सतत होगा यदि:",
+    "options": {
+      "A": "f(c) अस्तित्व में हो",
+      "B": "lim x→c f(x) अस्तित्व में हो",
+      "C": "lim x→c f(x) = f(c)",
+      "D": "f'(c) अस्तित्व में हो"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "sin(x²) का x के सापेक्ष अवकलज है:",
+    "options": {
+      "A": "cos(x²)",
+      "B": "2x cos(x²)",
+      "C": "2x sin(x²)",
+      "D": "-2x cos(x²)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "यदि y = log(sin x), तो dy/dx है:",
+    "options": {
+      "A": "tan x",
+      "B": "cot x",
+      "C": "1/sin x",
+      "D": "cos x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "फलन f(x) = |x| है:",
+    "options": {
+      "A": "x = 0 पर सतत और अवकलनीय",
+      "B": "x = 0 पर न सतत न अवकलनीय",
+      "C": "x = 0 पर सतत लेकिन अवकलनीय नहीं",
+      "D": "x = 0 पर अवकलनीय लेकिन सतत नहीं"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "यदि x = at² और y = 2at, तो dy/dx है:",
+    "options": {
+      "A": "t",
+      "B": "1/t",
+      "C": "2/t",
+      "D": "a/t"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "e^(cos x) का अवकलज है:",
+    "options": {
+      "A": "e^(cos x)",
+      "B": "sin x · e^(cos x)",
+      "C": "-sin x · e^(cos x)",
+      "D": "cos x · e^(sin x)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "यदि y = tan⁻¹x, तो d²y/dx² है:",
+    "options": {
+      "A": "1/(1+x²)",
+      "B": "-2x/(1+x²)²",
+      "C": "2x/(1+x²)²",
+      "D": "-1/(1+x²)²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "log(log x) का x के सापेक्ष अवकलज है:",
+    "options": {
+      "A": "1/x",
+      "B": "1/log x",
+      "C": "1/(x log x)",
+      "D": "x/log x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "यदि f(x) = kx + 1 (x ≤ 5) तथा 3x - 5 (x > 5) x = 5 पर सतत है, तो k का मान है:",
+    "options": {
+      "A": "9/5",
+      "B": "2",
+      "C": "5/9",
+      "D": "1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "sin⁻¹x + cos⁻¹x का x के सापेक्ष अवकलज है:",
+    "options": {
+      "A": "1",
+      "B": "π/2",
+      "C": "0",
+      "D": "2/√(1-x²)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "यदि y = x^x, तो dy/dx है:",
+    "options": {
+      "A": "x^x log x",
+      "B": "x^x (1 + log x)",
+      "C": "x · x^(x-1)",
+      "D": "1 + log x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "रोल का प्रमेय f(x) पर [a, b] में लागू होगा यदि:",
+    "options": {
+      "A": "f(a) = f(b)",
+      "B": "f(x) [a, b] में सतत हो",
+      "C": "f(x) (a, b) में अवकलनीय हो",
+      "D": "उपरोक्त सभी"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 13,
+    "question": "2^x का अवकलज है:",
+    "options": {
+      "A": "x · 2^(x-1)",
+      "B": "2^x",
+      "C": "2^x log 2",
+      "D": "2^x / log 2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "यदि f(x) = |x - 1|, तो f'(1) है:",
+    "options": {
+      "A": "1",
+      "B": "-1",
+      "C": "0",
+      "D": "अस्तित्व में नहीं"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "यदि y = √(sin x + y), तो dy/dx है:",
+    "options": {
+      "A": "cos x / (2y - 1)",
+      "B": "sin x / (2y - 1)",
+      "C": "cos x / (2y + 1)",
+      "D": "1 / (2y - 1)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "f(x) = x² के लिए [2, 4] में माध्य मान प्रमेय में 'c' का मान है:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "3.5",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "tan x का sec x के सापेक्ष अवकलज है:",
+    "options": {
+      "A": "sec x",
+      "B": "cosec x",
+      "C": "cot x",
+      "D": "tan x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "यदि y = cos⁻¹((1-x²)/(1+x²)), तो dy/dx है:",
+    "options": {
+      "A": "2/(1+x²)",
+      "B": "1/(1+x²)",
+      "C": "-2/(1+x²)",
+      "D": "2x/(1+x²)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "फलन f(x) = [x] (महत्तम पूर्णांक फलन) असतत है:",
+    "options": {
+      "A": "सभी वास्तविक संख्याओं पर",
+      "B": "सभी पूर्णांकों पर",
+      "C": "केवल x = 0 पर",
+      "D": "कहीं नहीं"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "यदि y = sin(ax + b), तो d²y/dx² है:",
+    "options": {
+      "A": "a² cos(ax + b)",
+      "B": "-a² sin(ax + b)",
+      "C": "a cos(ax + b)",
+      "D": "-a sin(ax + b)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "log₁₀ x का अवकल गुणांक है:",
+    "options": {
+      "A": "1/x",
+      "B": "(1/x) log₁₀ e",
+      "C": "(1/x) logₑ 10",
+      "D": "1/(x log₁₀ e)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "यदि f(x), x = c पर अवकलनीय है, तो वह:",
+    "options": {
+      "A": "हमेशा x = c पर सतत होगा",
+      "B": "कभी भी सतत नहीं होगा",
+      "C": "सतत हो भी सकता है या नहीं भी",
+      "D": "इनमें से कोई नहीं"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "|x|³ का x = 0 पर अवकलज है:",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "अस्तित्व में नहीं",
+      "D": "-3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "यदि y = log √x, तो dy/dx है:",
+    "options": {
+      "A": "1/x",
+      "B": "1/(2x)",
+      "C": "2/x",
+      "D": "1/√x"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "sec(tan(√x)) का अवकलज निकालने में किस नियम का उपयोग होता है?",
+    "options": {
+      "A": "गुणन नियम",
+      "B": "भागफल नियम",
+      "C": "श्रृंखला नियम",
+      "D": "लघुगणकीय नियम"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "यदि x - y = π, तो dy/dx है:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "π"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "tan⁻¹((3x - x³)/(1 - 3x²)) का अवकलज है:",
+    "options": {
+      "A": "1/(1+x²)",
+      "B": "2/(1+x²)",
+      "C": "3/(1+x²)",
+      "D": "इनमें से कोई नहीं"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "यदि y = e^(3 log x), तो dy/dx है:",
+    "options": {
+      "A": "3x²",
+      "B": "3e^(3 log x)",
+      "C": "3/x",
+      "D": "x³"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "कौन सा फलन हर जगह सतत है लेकिन x = 0 पर अवकलनीय नहीं है?",
+    "options": {
+      "A": "x²",
+      "B": "sin x",
+      "C": "|x|",
+      "D": "e^x"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "यदि y = sin⁻¹x, तो (1-x²)y'' - xy' का मान है:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "y"
+    },
+    "answer": "B"
+  }
+]

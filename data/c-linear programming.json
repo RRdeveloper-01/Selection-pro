@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "In a Linear Programming Problem (LPP), the function to be maximized or minimized is called:",
+    "options": {
+      "A": "Constraint function",
+      "B": "Objective function",
+      "C": "Quadratic function",
+      "D": "Feasible function"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The inequalities or restrictions on the variables in an LPP are called:",
+    "options": {
+      "A": "Objectives",
+      "B": "Constraints",
+      "C": "Variables",
+      "D": "Solutions"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "The region which satisfies all the given constraints in an LPP is called:",
+    "options": {
+      "A": "Infeasible region",
+      "B": "Feasible region",
+      "C": "Unbounded region",
+      "D": "Optimal region"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The optimal value of the objective function is attained at the ______ of the feasible region.",
+    "options": {
+      "A": "Interior points",
+      "B": "Corner points",
+      "C": "Origin",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "If the feasible region is ______, then a maximum or a minimum value of the objective function may not exist.",
+    "options": {
+      "A": "Bounded",
+      "B": "Unbounded",
+      "C": "Circular",
+      "D": "Closed"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "In LPP, the variables x and y are always assumed to be:",
+    "options": {
+      "A": "Negative",
+      "B": "Non-negative (x >= 0, y >= 0)",
+      "C": "Zero",
+      "D": "Complex numbers"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "The maximum value of Z = 3x + 4y subject to x + y <= 4, x >= 0, y >= 0 is:",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "14",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The corner points of the feasible region are (0,0), (5,0), (3,4) and (0,5). The maximum value of Z = 4x + 3y is:",
+    "options": {
+      "A": "20",
+      "B": "24",
+      "C": "25",
+      "D": "15"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is not a linear constraint?",
+    "options": {
+      "A": "x + y <= 5",
+      "B": "2x - 3y >= 1",
+      "C": "x^2 + y <= 4",
+      "D": "x >= 0"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "If the objective function Z = ax + by has the same maximum value at two corner points, then it has the same maximum at:",
+    "options": {
+      "A": "No other point",
+      "B": "Only the origin",
+      "C": "Every point on the line segment joining these two points",
+      "D": "All points in the feasible region"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "A feasible region is always a ______ set.",
+    "options": {
+      "A": "Concave",
+      "B": "Convex",
+      "C": "Open",
+      "D": "Empty"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "The point which does not lie in the half plane 2x + 3y - 12 <= 0 is:",
+    "options": {
+      "A": "(1, 2)",
+      "B": "(2, 1)",
+      "C": "(2, 3)",
+      "D": "(4, 4)"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 13,
+    "question": "In LPP, if the constraints are inconsistent, then there is:",
+    "options": {
+      "A": "A unique solution",
+      "B": "Infinite solutions",
+      "C": "No feasible solution",
+      "D": "Zero solution"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "The objective function of an LPP is Z = 2x + 3y. If the corner points are (0,0), (2,0), (0,2), then Z_max is:",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "5",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "The linear inequalities or equations or restrictions on the variables of an LPP are called ______.",
+    "options": {
+      "A": "Linear constraints",
+      "B": "Quadratic constraints",
+      "C": "Feasible solutions",
+      "D": "Non-linear constraints"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The common region determined by all the constraints including non-negative constraints is the ______.",
+    "options": {
+      "A": "Solution region",
+      "B": "Feasible region",
+      "C": "Non-feasible region",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Feasible region for an LPP is shown shaded in the first quadrant. If Z = 5x + 10y, then Z_min occurs at:",
+    "options": {
+      "A": "Origin",
+      "B": "A point on x-axis",
+      "C": "A point on y-axis",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Objective function of an LPP is:",
+    "options": {
+      "A": "A constant",
+      "B": "A function to be optimized",
+      "C": "A relation between variables",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "Maximum value of Z = x + y subject to x - y <= -1, -x + y <= 0, x, y >= 0 is:",
+    "options": {
+      "A": "-1",
+      "B": "1",
+      "C": "2",
+      "D": "No feasible solution"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "Optimal value means:",
+    "options": {
+      "A": "Maximum value",
+      "B": "Minimum value",
+      "C": "Both A and B",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "If a constraint is an equation (ax + by = c), then the feasible region lies ______.",
+    "options": {
+      "A": "Above the line",
+      "B": "Below the line",
+      "C": "On the line",
+      "D": "At origin"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Is the origin always a corner point in LPP?",
+    "options": {
+      "A": "Always",
+      "B": "Never",
+      "C": "Only if constraints allow",
+      "D": "Depends on x, y"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "The corner points of the feasible region determined by the system of linear constraints are (0, 3), (1, 1) and (3, 0). Let Z = px + qy, where p, q > 0. Condition on p and q so that the minimum of Z occurs at (3, 0) and (1, 1) is:",
+    "options": {
+      "A": "p = 2q",
+      "B": "p = q/2",
+      "C": "p = 3q",
+      "D": "q = 3p"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "LPP is a method for finding the ______ value of a linear function.",
+    "options": {
+      "A": "Maximum",
+      "B": "Minimum",
+      "C": "Optimal",
+      "D": "Positive"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "Which quadrant is mostly used in LPP due to non-negative constraints?",
+    "options": {
+      "A": "I Quadrant",
+      "B": "II Quadrant",
+      "C": "III Quadrant",
+      "D": "IV Quadrant"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Corner points are also called ______ of the feasible region.",
+    "options": {
+      "A": "Centroids",
+      "B": "Extreme points",
+      "C": "Foci",
+      "D": "Midpoints"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "If x + 2y <= 10, then the point (3, 4) is:",
+    "options": {
+      "A": "Feasible",
+      "B": "Infeasible",
+      "C": "Optimal",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The region represented by x >= 0, y >= 0 is:",
+    "options": {
+      "A": "Left half plane",
+      "B": "Lower half plane",
+      "C": "First quadrant",
+      "D": "Whole plane"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Z = 3x + 2y. Corner points (0,0), (4,0), (2,3), (0,5). Max Z is:",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "10",
+      "D": "15"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "If the feasible region is bounded, then the objective function has ______.",
+    "options": {
+      "A": "Only maximum",
+      "B": "Only minimum",
+      "C": "Both maximum and minimum",
+      "D": "None"
+    },
+    "answer": "C"
+  }
+]

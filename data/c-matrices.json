@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "If a matrix has 24 elements, what are the possible orders it can have?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "12"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "A matrix A = [aij] m x n is a square matrix if:",
+    "options": {
+      "A": "m < n",
+      "B": "m > n",
+      "C": "m = n",
+      "D": "None of these"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "The number of all possible matrices of order 3 x 3 with each entry 0 or 1 is:",
+    "options": {
+      "A": "27",
+      "B": "18",
+      "C": "81",
+      "D": "512"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "If A and B are square matrices of the same order, then (A + B)' is equal to:",
+    "options": {
+      "A": "A' B'",
+      "B": "B' + A'",
+      "C": "A' + B'",
+      "D": "A - B"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "If A is a matrix of order m x n and B is a matrix such that AB and BA are both defined, then order of B is:",
+    "options": {
+      "A": "m x n",
+      "B": "n x m",
+      "C": "n x n",
+      "D": "m x m"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "If A is a symmetric matrix, then A' is:",
+    "options": {
+      "A": "A",
+      "B": "|A|",
+      "C": "-A",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "If A is a skew-symmetric matrix, then the diagonal elements of A are all:",
+    "options": {
+      "A": "1",
+      "B": "Same",
+      "C": "0",
+      "D": "Any real number"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "For any square matrix A, A + A' is a:",
+    "options": {
+      "A": "Unit matrix",
+      "B": "Symmetric matrix",
+      "C": "Skew-symmetric matrix",
+      "D": "Diagonal matrix"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "If A = [cos x, -sin x; sin x, cos x], then A + A' = I if the value of x is:",
+    "options": {
+      "A": "pi/6",
+      "B": "pi/3",
+      "C": "pi",
+      "D": "3pi/2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Matrices A and B will be inverse of each other only if:",
+    "options": {
+      "A": "AB = BA",
+      "B": "AB = BA = 0",
+      "C": "AB = 0, BA = I",
+      "D": "AB = BA = I"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "If A is a square matrix such that A^2 = A, then (I + A)^3 - 7A is equal to:",
+    "options": {
+      "A": "A",
+      "B": "I - A",
+      "C": "I",
+      "D": "3A"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "If A = [0, 1; 1, 0], then A^2 is equal to:",
+    "options": {
+      "A": "[0, 1; 1, 0]",
+      "B": "[1, 0; 0, 1]",
+      "C": "[1, 1; 1, 1]",
+      "D": "[0, 0; 0, 0]"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The total number of elements in a matrix of order 3 x 4 is:",
+    "options": {
+      "A": "7",
+      "B": "1",
+      "C": "12",
+      "D": "43"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "If A is any matrix, then kA' is equal to:",
+    "options": {
+      "A": "(kA)'",
+      "B": "k' A",
+      "C": "-kA",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "If A and B are symmetric matrices of the same order, then AB - BA is a:",
+    "options": {
+      "A": "Skew-symmetric matrix",
+      "B": "Symmetric matrix",
+      "C": "Zero matrix",
+      "D": "Identity matrix"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "A diagonal matrix in which all diagonal elements are equal is called:",
+    "options": {
+      "A": "Unit matrix",
+      "B": "Scalar matrix",
+      "C": "Null matrix",
+      "D": "Square matrix"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "If A is a matrix of order 2 x 3 and B is of order 3 x 2, then AB is of order:",
+    "options": {
+      "A": "3 x 3",
+      "B": "2 x 2",
+      "C": "2 x 3",
+      "D": "3 x 2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The transpose of a column matrix is:",
+    "options": {
+      "A": "Zero matrix",
+      "B": "Diagonal matrix",
+      "C": "Row matrix",
+      "D": "Column matrix"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "If A = [1, 2, 3], then order of A is:",
+    "options": {
+      "A": "1 x 1",
+      "B": "1 x 3",
+      "C": "3 x 1",
+      "D": "3 x 3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "If A and B are two matrices such that AB = A and BA = B, then B^2 is:",
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "I",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "If A is a square matrix, then A - A' is a:",
+    "options": {
+      "A": "Symmetric matrix",
+      "B": "Skew-symmetric matrix",
+      "C": "Diagonal matrix",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "A square matrix A = [aij] is called an upper triangular matrix if aij = 0 for:",
+    "options": {
+      "A": "i > j",
+      "B": "i < j",
+      "C": "i = j",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "If A = [2, -1; 3, 4], then 3A is:",
+    "options": {
+      "A": "[6, -1; 3, 4]",
+      "B": "[6, -3; 9, 12]",
+      "C": "[5, 2; 6, 7]",
+      "D": "[2, -3; 3, 12]"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "If A is a skew-symmetric matrix of order n, and C is a column matrix of n x 1, then C'AC is:",
+    "options": {
+      "A": "Identity matrix",
+      "B": "A",
+      "C": "Zero matrix (0)",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "If A = [i, 0; 0, i], then A^2 is:",
+    "options": {
+      "A": "[1, 0; 0, 1]",
+      "B": "[-1, 0; 0, -1]",
+      "C": "[0, i; i, 0]",
+      "D": "[i, i; i, i]"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The trace of a matrix is the sum of its:",
+    "options": {
+      "A": "All elements",
+      "B": "First row elements",
+      "C": "Diagonal elements",
+      "D": "Last column elements"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Is matrix multiplication commutative in general?",
+    "options": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Only for 2x2",
+      "D": "Only for 1x1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "If (A + B)^2 = A^2 + B^2 + 2AB, then it implies:",
+    "options": {
+      "A": "A = B",
+      "B": "AB = BA",
+      "C": "A = -B",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "If A' is the transpose of A, then (A')' is:",
+    "options": {
+      "A": "A'",
+      "B": "-A",
+      "C": "A",
+      "D": "I"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "An identity matrix is always a:",
+    "options": {
+      "A": "Scalar matrix",
+      "B": "Diagonal matrix",
+      "C": "Square matrix",
+      "D": "All of these"
+    },
+    "answer": "D"
+  }
+]
