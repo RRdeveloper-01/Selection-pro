@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The phenomenon of generating induced emf in a conductor due to change in magnetic flux is called:",
+    "options": {
+      "A": "Self induction",
+      "B": "Mutual induction",
+      "C": "Electromagnetic induction",
+      "D": "Magnetization"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "Lenz's law is a consequence of the law of conservation of:",
+    "options": {
+      "A": "Charge",
+      "B": "Mass",
+      "C": "Momentum",
+      ")": "Energy"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "The SI unit of magnetic flux is:",
+    "options": {
+      "A": "Tesla",
+      "B": "Weber",
+      "C": "Henry",
+      "D": "Maxwell"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The direction of induced current is such that it opposes the cause which produces it. This is:",
+    "options": {
+      "A": "Faraday's law",
+      "B": "Lenz's law",
+      "C": "Ampere's law",
+      "D": "Fleming's rule"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "The SI unit of self-inductance is:",
+    "options": {
+      "A": "Weber",
+      "B": "Henry",
+      "C": "Tesla",
+      "D": "Ohm"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "If a coil of N turns is associated with magnetic flux Φ, then total flux linkage is:",
+    "options": {
+      "A": "Φ/N",
+      "B": "NΦ",
+      "C": "N/Φ",
+      "D": "N²Φ"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "Eddy currents are produced when:",
+    "options": {
+      "A": "A metal is kept in a steady magnetic field",
+      "B": "A metal is kept in a varying magnetic field",
+      "C": "A metal is kept in a vacuum",
+      "D": "A current is passed through a metal"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The formula for induced emf (e) according to Faraday's law is:",
+    "options": {
+      "A": "e = -dΦ/dt",
+      "B": "e = dΦ/dt",
+      "C": "e = BvL",
+      "D": "Both A and C"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is used to minimize eddy currents in the core of a transformer?",
+    "options": {
+      "A": "Using a solid core",
+      "B": "Using a laminated core",
+      "C": "Using a copper core",
+      "D": "Using a hollow core"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Self-inductance of a solenoid is proportional to:",
+    "options": {
+      "A": "Number of turns (N)",
+      "B": "Square of number of turns (N²)",
+      "C": "1/N",
+      "D": "1/N²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Motional emf is produced when a conductor of length L moves with velocity v in a magnetic field B. It is given by:",
+    "options": {
+      "A": "BvL",
+      "B": "Bv/L",
+      "C": "B/vL",
+      "D": "vL/B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "A cylindrical bar magnet is kept along the axis of a circular coil. If the magnet is rotated about its axis, the induced emf in the coil is:",
+    "options": {
+      "A": "Infinite",
+      "B": "Zero",
+      "C": "Constant",
+      "D": "Variable"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The energy stored in an inductor of inductance L carrying current I is:",
+    "options": {
+      "A": "LI",
+      "B": "1/2 LI",
+      "C": "1/2 LI²",
+      "D": "LI²"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "Mutual inductance between two coils depends on:",
+    "options": {
+      "A": "Distance between coils",
+      "B": "Orientation of coils",
+      "C": "Number of turns in both coils",
+      "D": "All of the above"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "If the current in a coil changes from 5A to 0A in 0.1s and induced emf is 100V, the self-inductance is:",
+    "options": {
+      "A": "2 H",
+      "B": "0.5 H",
+      "C": "20 H",
+      "D": "1 H"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Dimensional formula of magnetic flux (Φ) is:",
+    "options": {
+      "A": "[ML²T⁻²A⁻¹]",
+      "B": "[MLT⁻²A⁻¹]",
+      "C": "[ML²T⁻¹A⁻¹]",
+      "D": "[ML²T⁻²A]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The working of an AC generator is based on:",
+    "options": {
+      "A": "Chemical effect of current",
+      "B": "Heating effect of current",
+      "C": "Electromagnetic induction",
+      "D": "Magnetic effect of current"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "When a metal plate is pulled out of a magnetic field, it becomes hot due to:",
+    "options": {
+      "A": "Friction",
+      "B": "Eddy currents",
+      "C": "Radiation",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "A train is moving from north to south with constant speed. Induced emf between the ends of the axle will be maximum at:",
+    "options": {
+      "A": "Equator",
+      "B": "Poles",
+      "C": "45° Latitude",
+      "D": "Same everywhere"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "If two coils are wound on each other, the coefficient of coupling (k) is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "0.5",
+      "D": "Infinite"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "The polarity of induced emf is found using:",
+    "options": {
+      "A": "Fleming's Left Hand Rule",
+      "B": "Fleming's Right Hand Rule",
+      "C": "Right Hand Thumb Rule",
+      "D": "Maxwell's Screw Rule"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "A square loop of side L is rotated in a magnetic field B with angular frequency ω. The maximum induced emf is:",
+    "options": {
+      "A": "BL²ω",
+      "B": "BLω",
+      "C": "B²L²ω",
+      "D": "L²ω/B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The coefficient of mutual induction (M) between two coils is 2H. If current in primary changes by 5A/s, emf in secondary is:",
+    "options": {
+      "A": "10 V",
+      "B": "2.5 V",
+      "C": "0.4 V",
+      "D": "20 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Induced emf does not depend on:",
+    "options": {
+      "A": "Rate of change of flux",
+      "B": "Number of turns",
+      "C": "Resistance of the coil",
+      "D": "Magnetic field strength"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "When the speed of rotation of an AC generator is doubled, the peak emf becomes:",
+    "options": {
+      "A": "Double",
+      "B": "Half",
+      "C": "Four times",
+      "D": "Remains same"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The self-inductance of a coil is a measure of its:",
+    "options": {
+      "A": "Electrical inertia",
+      "B": "Magnetic strength",
+      "C": "Resistance",
+      "D": "Capacitance"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "If a copper ring is held horizontally and a bar magnet is dropped through it, its acceleration will be:",
+    "options": {
+      "A": "Equal to g",
+      "B": "Less than g",
+      "C": "Greater than g",
+      "D": "Zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Two inductors of 2H and 3H are connected in series. The equivalent inductance is:",
+    "options": {
+      "A": "6 H",
+      "B": "5 H",
+      "C": "1.2 H",
+      "D": "1 H"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "Magnetic flux (Φ) is a:",
+    "options": {
+      "A": "Scalar quantity",
+      "B": "Vector quantity",
+      "C": "Tensor quantity",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The phenomenon of electromagnetic induction was discovered by:",
+    "options": {
+      "A": "Oersted",
+      "B": "Ampere",
+      "C": "Michael Faraday",
+      "D": "Lenz"
+    },
+    "answer": "C"
+  }
+]

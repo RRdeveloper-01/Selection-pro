@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Light propagates as a wave. This was first proposed by:",
+    "options": {
+      "A": "Newton",
+      "B": "Huygens",
+      "C": "Einstein",
+      "D": "Maxwell"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The locus of all points vibrating in the same phase is called:",
+    "options": {
+      "A": "Ray",
+      "B": "Wavefront",
+      "C": "Wavelength",
+      "D": "Amplitude"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "Wavefront originating from a point source is:",
+    "options": {
+      "A": "Cylindrical",
+      "B": "Spherical",
+      "C": "Plane",
+      "D": "Elliptical"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "In Young's Double Slit Experiment (YDSE), if the distance between slits is doubled, fringe width becomes:",
+    "options": {
+      "A": "Double",
+      "B": "Half",
+      "C": "Four times",
+      "D": "Unchanged"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "For sustained interference, the two sources of light must be:",
+    "options": {
+      "A": "Coherent",
+      "B": "Incoherent",
+      "C": "Very bright",
+      "D": "Of different colors"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The phenomenon of bending of light around the corners of an obstacle is called:",
+    "options": {
+      "A": "Interference",
+      "B": "Diffraction",
+      "C": "Polarization",
+      "D": "Dispersion"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "In YDSE, the central fringe is always:",
+    "options": {
+      "A": "Bright",
+      "B": "Dark",
+      "C": "Colored",
+      "D": "Depends on wavelength"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following is used to produce polarized light?",
+    "options": {
+      "A": "Prism",
+      "B": "Polaroid",
+      "C": "Convex lens",
+      "D": "Diffraction grating"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "The ratio of intensities of two waves is 9:1. The ratio of their amplitudes is:",
+    "options": {
+      "A": "3:1",
+      "B": "81:1",
+      "C": "9:1",
+      "D": "1:3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "When light travels from air to water, which property of light does not change?",
+    "options": {
+      "A": "Velocity",
+      "B": "Wavelength",
+      "C": "Frequency",
+      "D": "Amplitude"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 11,
+    "question": "Brewster's Law is given by:",
+    "options": {
+      "A": "n = tan(ip)",
+      "B": "n = sin(ip)",
+      "C": "n = cos(ip)",
+      "D": "n = cot(ip)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The fringe width (β) in YDSE is given by:",
+    "options": {
+      "A": "λd/D",
+      "B": "λD/d",
+      "C": "Dd/λ",
+      "D": "λDd"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Colors in thin soap films are due to:",
+    "options": {
+      "A": "Scattering",
+      "B": "Interference",
+      "C": "Diffraction",
+      "D": "Dispersion"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Wave theory of light fails to explain:",
+    "options": {
+      "A": "Interference",
+      "B": "Diffraction",
+      "C": "Polarization",
+      "D": "Photoelectric effect"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 15,
+    "question": "Phase difference (φ) and path difference (Δx) are related as:",
+    "options": {
+      "A": "φ = (2π/λ) Δx",
+      "B": "φ = (λ/2π) Δx",
+      "C": "φ = 2π λ Δx",
+      "D": "φ = Δx / λ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If the source of light is at a very large distance, the wavefront is:",
+    "options": {
+      "A": "Spherical",
+      "B": "Cylindrical",
+      "C": "Plane",
+      "D": "None"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Malus' Law is given by:",
+    "options": {
+      "A": "I = I₀ cos²θ",
+      "B": "I = I₀ sin²θ",
+      "C": "I = I₀ tanθ",
+      "D": "I = I₀ cosθ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The intensity of light depends on:",
+    "options": {
+      "A": "Amplitude",
+      "B": "Square of amplitude",
+      "C": "Frequency",
+      "D": "Wavelength"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "Diffraction is more pronounced when the size of the obstacle is:",
+    "options": {
+      "A": "Much larger than wavelength",
+      "B": "Comparable to wavelength",
+      "C": "Much smaller than wavelength",
+      "D": "Independent of wavelength"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "In a single slit diffraction experiment, if the slit width is decreased, the central maximum becomes:",
+    "options": {
+      "A": "Narrower",
+      "B": "Wider",
+      "C": "Fainter",
+      "D": "Unchanged"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following cannot be polarized?",
+    "options": {
+      "A": "Radio waves",
+      "B": "Transverse waves",
+      "C": "Sound waves in air",
+      "D": "X-rays"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Two coherent sources have intensity ratio 100:1. The ratio of max to min intensity in interference pattern is:",
+    "options": {
+      "A": "100:1",
+      "B": "121:81",
+      "C": "10:1",
+      "D": "1.2:1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Resolving power of a telescope increases when:",
+    "options": {
+      "A": "Aperture of objective is increased",
+      "B": "Wavelength is increased",
+      "C": "Focal length is decreased",
+      "D": "Aperture is decreased"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The secondary wavelets theory was given by:",
+    "options": {
+      "A": "Maxwell",
+      "B": "Huygens",
+      "C": "Fresnel",
+      "D": "Fraunhofer"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 25,
+    "question": "In YDSE, if the whole apparatus is immersed in water, the fringe width:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "Becomes zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "Constructive interference occurs when path difference is:",
+    "options": {
+      "A": "nλ",
+      "B": "(n + 1/2)λ",
+      "C": "λ/2",
+      "D": "3λ/2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The shape of the fringes in YDSE is:",
+    "options": {
+      "A": "Straight lines",
+      "B": "Circular",
+      "C": "Hyperbolic",
+      "D": "Parabolic"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 28,
+    "question": "Polarization proves that light is a:",
+    "options": {
+      "A": "Longitudinal wave",
+      "B": "Transverse wave",
+      "C": "Mechanical wave",
+      "D": "Scalar wave"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "The speed of light is maximum in:",
+    "options": {
+      "A": "Water",
+      "B": "Glass",
+      "C": "Vacuum",
+      "D": "Diamond"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "Fresnel distance is given by:",
+    "options": {
+      "A": "a²/λ",
+      "B": "λ/a²",
+      "C": "a/λ",
+      "D": "aλ"
+    },
+    "answer": "A"
+  }
+]

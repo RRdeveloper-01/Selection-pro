@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "In an n-type semiconductor, the majority charge carriers are:",
+    "options": {
+      "A": "Holes",
+      "B": "Electrons",
+      "C": "Protons",
+      "D": "Neutrons"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "At absolute zero temperature, a pure semiconductor behaves like a/an:",
+    "options": {
+      "A": "Superconductor",
+      "B": "Conductor",
+      "C": "Insulator",
+      "D": "Semimetal"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "The energy gap (Eg) is maximum in:",
+    "options": {
+      "A": "Metals",
+      "B": "Semiconductors",
+      "C": "Insulators",
+      "D": "Alloys"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "A p-type semiconductor is formed by doping pure Silicon with:",
+    "options": {
+      "A": "Phosphorus (Pentavalent)",
+      "B": "Aluminium (Trivalent)",
+      "C": "Arsenic (Pentavalent)",
+      "D": "Antimony (Pentavalent)"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "In a p-n junction diode, the depletion layer is caused by:",
+    "options": {
+      "A": "Drift of electrons",
+      "B": "Diffusion of charge carriers",
+      "C": "Application of forward bias",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "When a p-n junction is forward biased, the width of the depletion layer:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains constant",
+      "D": "First increases then decreases"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "The diode used for voltage regulation is:",
+    "options": {
+      "A": "Photodiode",
+      "B": "LED",
+      "C": "Zener Diode",
+      "D": "Solar Cell"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "An LED (Light Emitting Diode) is always used in:",
+    "options": {
+      "A": "Forward bias",
+      "B": "Reverse bias",
+      "C": "Zero bias",
+      "D": "Both A and B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The output of a half-wave rectifier has a frequency of 50 Hz if the input frequency is 50 Hz. For a full-wave rectifier, the output frequency will be:",
+    "options": {
+      "A": "25 Hz",
+      "B": "50 Hz",
+      "C": "100 Hz",
+      "D": "200 Hz"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "A logic gate which gives high output (1) only when all inputs are high (1) is:",
+    "options": {
+      "A": "OR gate",
+      "B": "AND gate",
+      "C": "NOT gate",
+      "D": "NAND gate"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is called a 'Universal Gate'?",
+    "options": {
+      "A": "AND gate",
+      "B": "OR gate",
+      "C": "NAND gate",
+      "D": "NOT gate"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 12,
+    "question": "The Boolean expression for the NOR gate is:",
+    "options": {
+      "A": "Y = A + B",
+      "B": "Y = A . B",
+      "C": "Y = NOT(A + B)",
+      "D": "Y = NOT(A . B)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "In an intrinsic semiconductor, the number of free electrons (ne) and holes (nh) are related as:",
+    "options": {
+      "A": "ne > nh",
+      "B": "ne < nh",
+      "C": "ne = nh",
+      "D": "ne = 0"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "The forbidden energy gap for Germanium (Ge) is approximately:",
+    "options": {
+      "A": "1.1 eV",
+      "B": "0.7 eV",
+      "C": "5.0 eV",
+      "D": "0.01 eV"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "A solar cell works on the principle of:",
+    "options": {
+      "A": "Thermionic emission",
+      "B": "Photovoltaic effect",
+      "C": "Seebeck effect",
+      "D": "Joule heating"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "Reverse bias applied to a p-n junction:",
+    "options": {
+      "A": "Lowers the potential barrier",
+      "B": "Raises the potential barrier",
+      "C": "Increases the majority carrier current",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The current in a reverse biased p-n junction is due to:",
+    "options": {
+      "A": "Majority carriers",
+      "B": "Minority carriers",
+      "C": "Both A and B",
+      "D": "Electrons only"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "Which material is used to make infrared LEDs?",
+    "options": {
+      "A": "Silicon",
+      "B": "Germanium",
+      "C": "Gallium Arsenide (GaAs)",
+      "D": "Carbon"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The process of adding impurities to a pure semiconductor is called:",
+    "options": {
+      "A": "Doping",
+      "B": "Ionization",
+      "C": "Rectification",
+      "D": "Diffraction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A NOT gate is also known as a/an:",
+    "options": {
+      "A": "Adder",
+      "B": "Multiplier",
+      "C": "Inverter",
+      "D": "Buffer"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "In a half-wave rectifier, the number of diodes used is:",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Four",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The most commonly used semiconductor material is:",
+    "options": {
+      "A": "Germanium",
+      "B": "Silicon",
+      "C": "Carbon",
+      "D": "Selenium"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Zener breakdown occurs in junctions which are:",
+    "options": {
+      "A": "Lightly doped",
+      "B": "Heavily doped",
+      "C": "Intrinsic",
+      "D": "Not doped at all"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "The output of an OR gate is low (0) only when:",
+    "options": {
+      "A": "Both inputs are 1",
+      "B": "One input is 1 and other is 0",
+      "C": "Both inputs are 0",
+      "D": "Any input is 1"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "A photodiode is operated in:",
+    "options": {
+      "A": "Forward bias",
+      "B": "Reverse bias",
+      "C": "No bias",
+      "D": "Saturation region"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The energy band occupied by valence electrons is called:",
+    "options": {
+      "A": "Conduction band",
+      "B": "Valence band",
+      "C": "Forbidden band",
+      "D": "Fermi level"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Carbon, Silicon and Germanium have four valence electrons. They are separated by energy gaps $E_{g(C)}$, $E_{g(Si)}$, and $E_{g(Ge)}$. Which is true?",
+    "options": {
+      "A": "$E_{g(C)} < E_{g(Si)}$",
+      "B": "$E_{g(C)} > E_{g(Si)}$",
+      "C": "$E_{g(C)} = E_{g(Si)}$",
+      "D": "$E_{g(Si)} < E_{g(Ge)}$"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "In a full-wave bridge rectifier, the minimum number of diodes required is:",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "1",
+      "D": "6"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following atoms is a donor impurity?",
+    "options": {
+      "A": "Boron",
+      "B": "Aluminium",
+      "C": "Indium",
+      "D": "Phosphorus"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 30,
+    "question": "The conductivity of a semiconductor increases with rise in temperature because:",
+    "options": {
+      "A": "Number density of carriers increases",
+      "B": "Relaxation time increases",
+      "C": "Mass of carriers decreases",
+      "D": "None of these"
+    },
+    "answer": "A"
+  }
+]

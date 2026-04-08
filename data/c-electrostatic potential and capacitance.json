@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The work done in bringing a unit positive charge from infinity to a point in an electric field is called:",
+    "options": {
+      "A": "Electric Intensity",
+      "B": "Electric Potential",
+      "C": "Electric Flux",
+      "D": "Capacitance"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "One Volt is equivalent to:",
+    "options": {
+      "A": "1 Joule/Coulomb",
+      "B": "1 Newton/Coulomb",
+      "C": "1 Joule/Newton",
+      "D": "1 Coulomb/Joule"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The electric potential at a point on the equatorial line of an electric dipole is:",
+    "options": {
+      "A": "Directly proportional to r",
+      "B": "Inversely proportional to r",
+      "C": "Zero",
+      "D": "Maximum"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "The capacitance of a parallel plate capacitor does not depend on:",
+    "options": {
+      "A": "Area of plates",
+      "B": "Distance between plates",
+      "C": "Medium between plates",
+      "D": "Metal of the plates"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "If a dielectric slab is introduced between the plates of a charged isolated capacitor, its capacitance:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "Becomes zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The energy stored in a capacitor of capacitance C and potential V is given by:",
+    "options": {
+      "A": "CV",
+      "B": "1/2 CV²",
+      "C": "C²V",
+      "D": "1/2 C²V"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "Equipotential surfaces associated with a point charge are:",
+    "options": {
+      "A": "Planes",
+      "B": "Spheres centered at the charge",
+      "C": "Cylinders",
+      "D": "Parabolas"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The work done in moving a charge over an equipotential surface is:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Zero",
+      "D": "Infinite"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is a unit of capacitance?",
+    "options": {
+      "A": "Farad",
+      "B": "Henry",
+      "C": "Tesla",
+      "D": "Ohm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The electric potential of the earth is taken to be:",
+    "options": {
+      "A": "Infinite",
+      "B": "Zero",
+      "C": "Positive",
+      "D": "Negative"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Three capacitors of 3μF each are connected in series. The equivalent capacitance is:",
+    "options": {
+      "A": "9μF",
+      "B": "1μF",
+      "C": "6μF",
+      "D": "3μF"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "When capacitors are connected in parallel, which quantity remains the same for each?",
+    "options": {
+      "A": "Charge",
+      "B": "Potential difference",
+      "C": "Energy",
+      "D": "Capacitance"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The SI unit of electric potential energy is:",
+    "options": {
+      "A": "Watt",
+      "B": "Joule",
+      "C": "Ampere",
+      "D": "Volt"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "A capacitor acts as an infinite resistance for:",
+    "options": {
+      "A": "AC",
+      "B": "DC",
+      "C": "Both AC and DC",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Dielectric strength for air is approximately:",
+    "options": {
+      "A": "3 x 10^6 V/m",
+      "B": "10^6 V/m",
+      "C": "3 x 10^4 V/m",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Potential due to a point charge Q at a distance r is:",
+    "options": {
+      "A": "kQ/r²",
+      "B": "kQ/r",
+      "C": "kQ²/r",
+      "D": "kQ/r³"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The relation between Electric field (E) and Potential (V) is:",
+    "options": {
+      "A": "E = dV/dr",
+      "B": "E = -dV/dr",
+      "C": "V = dE/dr",
+      "D": "V = -dE/dr"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The potential energy of a system of two charges is negative when:",
+    "options": {
+      "A": "Both are positive",
+      "B": "Both are negative",
+      "C": "One is positive and other is negative",
+      "D": "Charges are at infinity"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "Dimensional formula for potential is:",
+    "options": {
+      "A": "[ML²T⁻³A⁻¹]",
+      "B": "[MLT⁻³A⁻¹]",
+      "C": "[ML²T⁻²A⁻¹]",
+      "D": "[ML²T⁻³A]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The capacity of a spherical conductor of radius R is:",
+    "options": {
+      "A": "R",
+      "B": "4πε₀R",
+      "C": "4πε₀R²",
+      "D": "R/4πε₀"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "On moving a charge from low potential to high potential, the electric potential energy:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains same",
+      "D": "May increase or decrease"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The polarization of a dielectric material depends on:",
+    "options": {
+      "A": "Applied electric field",
+      "B": "Temperature",
+      "C": "Nature of material",
+      "D": "All of the above"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 23,
+    "question": "If n identical capacitors each of capacitance C are connected in parallel, the net capacitance is:",
+    "options": {
+      "A": "nC",
+      "B": "C/n",
+      "C": "n²C",
+      "D": "C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Electron-volt (eV) is a unit of:",
+    "options": {
+      "A": "Potential",
+      "B": "Charge",
+      "C": "Energy",
+      "D": "Power"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "The surface of a charged conductor is always:",
+    "options": {
+      "A": "A point",
+      "B": "An equipotential surface",
+      "C": "Non-conducting",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "If the distance between plates of a capacitor is halved, its capacitance becomes:",
+    "options": {
+      "A": "Half",
+      "B": "Double",
+      "C": "Four times",
+      "D": "Remains same"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Van de Graaff generator is used to produce:",
+    "options": {
+      "A": "High current",
+      "B": "High voltage",
+      "C": "Low voltage",
+      "D": "Magnetic field"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "In a region of constant potential:",
+    "options": {
+      "A": "Electric field is uniform",
+      "B": "Electric field is zero",
+      "C": "Electric field is infinite",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "Which material is used as a dielectric in a capacitor?",
+    "options": {
+      "A": "Copper",
+      "B": "Mica",
+      "C": "Aluminum",
+      "D": "Silver"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "If a capacitor is charged to 10V and has energy 1J, its capacitance is:",
+    "options": {
+      "A": "0.1 F",
+      "B": "0.02 F",
+      "C": "0.5 F",
+      "D": "1.0 F"
+    },
+    "answer": "B"
+  }
+]

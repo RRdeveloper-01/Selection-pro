@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The radius of a nucleus of mass number A is proportional to:",
+    "options": {
+      "A": "A",
+      "B": "A^{1/2}",
+      "C": "A^{1/3}",
+      "D": "A^2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The density of nuclear matter is:",
+    "options": {
+      "A": "Dependent on mass number A",
+      "B": "Independent of mass number A",
+      "C": "Proportional to A",
+      "D": "Proportional to A^3"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "One atomic mass unit (1 amu) is equivalent to how much energy?",
+    "options": {
+      "A": "931 MeV",
+      "B": "931 eV",
+      "C": "1.6 x 10^{-19} J",
+      "D": "9.1 x 10^{-31} J"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The force that keeps nucleons (protons and neutrons) together inside a nucleus is:",
+    "options": {
+      "A": "Gravitational force",
+      "B": "Electrostatic force",
+      "C": "Strong nuclear force",
+      "D": "Magnetic force"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "Isotopes are atoms having:",
+    "options": {
+      "A": "Same Z, different A",
+      "B": "Same A, different Z",
+      "C": "Same number of neutrons",
+      "D": "Same mass number"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The stability of a nucleus is decided by its:",
+    "options": {
+      "A": "Binding energy",
+      "B": "Binding energy per nucleon",
+      "C": "Total mass",
+      "D": "Number of protons"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "In a nuclear reaction, which of the following is conserved?",
+    "options": {
+      "A": "Mass only",
+      "B": "Energy only",
+      "C": "Charge and mass number",
+      "D": "Momentum only"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following has the maximum penetrating power?",
+    "options": {
+      "A": "Alpha rays",
+      "B": "Beta rays",
+      "C": "Gamma rays",
+      "D": "Cathode rays"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "During a beta-minus (β-) decay:",
+    "options": {
+      "A": "Atomic number increases by 1",
+      "B": "Atomic number decreases by 1",
+      "C": "Mass number increases by 1",
+      "D": "Mass number decreases by 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The time required for half of the radioactive nuclei to decay is called:",
+    "options": {
+      "A": "Mean life",
+      "B": "Half-life",
+      "C": "Decay constant",
+      "D": "Full life"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "The relation between decay constant (λ) and half-life (T_{1/2}) is:",
+    "options": {
+      "A": "T_{1/2} = 0.693 / λ",
+      "B": "T_{1/2} = λ / 0.693",
+      "C": "T_{1/2} = 1 / λ",
+      "D": "T_{1/2} = 0.693 λ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Heavy water is used in nuclear reactors as a:",
+    "options": {
+      "A": "Fuel",
+      "B": "Coolant",
+      "C": "Moderator",
+      "D": "Control rod"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "The process in which a heavy nucleus splits into two lighter nuclei is:",
+    "options": {
+      "A": "Nuclear Fusion",
+      "B": "Nuclear Fission",
+      "C": "Alpha decay",
+      "D": "Chemical reaction"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "The energy source of the sun and stars is:",
+    "options": {
+      "A": "Nuclear Fission",
+      "B": "Nuclear Fusion",
+      "2": "Chemical burning",
+      "D": "Gravitational contraction"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Nuclear forces are:",
+    "options": {
+      "A": "Short range and charge independent",
+      "B": "Long range and charge dependent",
+      "C": "Short range and charge dependent",
+      "D": "Long range and charge independent"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following are 'Isobars'?",
+    "options": {
+      "A": "Nuclei with same Z",
+      "B": "Nuclei with same A",
+      "C": "Nuclei with same (A-Z)",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Mass defect is equal to:",
+    "options": {
+      "A": "Mass of nucleons - Mass of nucleus",
+      "B": "Mass of nucleus - Mass of nucleons",
+      "C": "Mass of protons - Mass of neutrons",
+      "D": "Total mass of atom"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The SI unit of radioactivity is:",
+    "options": {
+      "A": "Curie",
+      "B": "Becquerel",
+      "C": "Rutherford",
+      "D": "Fermi"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "An alpha particle is essentially a:",
+    "options": {
+      "A": "Hydrogen nucleus",
+      "B": "Helium nucleus",
+      "C": "Electron",
+      "D": "Neutron"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "The control rods in a nuclear reactor are made of:",
+    "options": {
+      "A": "Uranium",
+      "B": "Cadmium or Boron",
+      "C": "Graphite",
+      "D": "Plutonium"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "If a radioactive sample has a half-life of 5 days, what fraction remains after 15 days?",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "1/8",
+      "D": "1/16"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Gamma emission from a nucleus causes:",
+    "options": {
+      "A": "Change in Z only",
+      "B": "Change in A only",
+      "C": "No change in Z or A",
+      "D": "Change in both Z and A"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "The packing fraction of a nucleus is related to its:",
+    "options": {
+      "A": "Size",
+      "B": "Stability",
+      "C": "Charge",
+      "D": "Radioactivity"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 24,
+    "question": "One Curie is equal to:",
+    "options": {
+      "A": "3.7 x 10^{10} disintegrations/sec",
+      "B": "10^6 disintegrations/sec",
+      "C": "1 disintegration/sec",
+      "D": "3.7 x 10^7 disintegrations/sec"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Which particle is emitted in the decay: _{Z}X^{A} → _{Z-1}Y^{A} + ?",
+    "options": {
+      "A": "Alpha particle",
+      "B": "Electron (β-)",
+      "C": "Positron (β+)",
+      "D": "Neutron"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "Nuclear fusion requires extremely high:",
+    "options": {
+      "A": "Pressure only",
+      "B": "Temperature only",
+      "C": "Both Temperature and Pressure",
+      "D": "Volume"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "The average life (τ) of a radioactive substance is:",
+    "options": {
+      "A": "1.44 T_{1/2}",
+      "B": "0.693 T_{1/2}",
+      "C": "T_{1/2}",
+      "D": "2 T_{1/2}"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "A moderator in a nuclear reactor slows down:",
+    "options": {
+      "A": "Protons",
+      "B": "Electrons",
+      "C": "Neutrons",
+      "D": "Alpha particles"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is a fissile material?",
+    "options": {
+      "A": "U-238",
+      "B": "U-235",
+      "C": "Th-232",
+      "D": "He-4"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "The binding energy curve shows that the most stable nucleus is:",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Helium",
+      "C": "Iron (Fe)",
+      "D": "Uranium"
+    },
+    "answer": "C"
+  }
+]

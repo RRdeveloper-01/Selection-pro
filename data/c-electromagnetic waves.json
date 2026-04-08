@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The concept of displacement current was introduced by:",
+    "options": {
+      "A": "Faraday",
+      "B": "Hertz",
+      "C": "Maxwell",
+      "D": "Ampere"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "Electromagnetic waves are produced by:",
+    "options": {
+      "A": "A static charge",
+      "B": "A charge moving with constant velocity",
+      "C": "An accelerated charge",
+      "D": "A neutral particle"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "The speed of electromagnetic waves in vacuum is given by:",
+    "options": {
+      "A": "1 / √(μ₀ε₀)",
+      "B": "√(μ₀ε₀)",
+      "C": "μ₀ / ε₀",
+      "D": "1 / (μ₀ε₀)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following has the shortest wavelength?",
+    "options": {
+      "A": "Radio waves",
+      "B": "X-rays",
+      "C": "Gamma rays",
+      "D": "Ultraviolet rays"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "The ratio of amplitude of electric field (E₀) to magnetic field (B₀) in an EM wave is:",
+    "options": {
+      "A": "Speed of light (c)",
+      "B": "1 / c",
+      "C": "c²",
+      "D": "√c"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Which waves are used in 'Greenhouse Effect'?",
+    "options": {
+      "A": "Ultraviolet rays",
+      "B": "Infrared rays",
+      "C": "X-rays",
+      "D": "Radio waves"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "Electromagnetic waves are:",
+    "options": {
+      "A": "Longitudinal waves",
+      "B": "Transverse waves",
+      "C": "Mechanical waves",
+      "D": "Stationary waves"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The ozone layer absorbs:",
+    "options": {
+      "A": "Infrared radiation",
+      "B": "Ultraviolet radiation",
+      "C": "X-rays",
+      "D": "Microwaves"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is used in RADAR?",
+    "options": {
+      "A": "Microwaves",
+      "B": "Infrared rays",
+      "C": "Ultraviolet rays",
+      "D": "Gamma rays"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "In an EM wave, the phase difference between electric and magnetic field vectors is:",
+    "options": {
+      "A": "0",
+      "B": "π/2",
+      "C": "π",
+      "D": "π/4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The frequency of visible light is of the order of:",
+    "options": {
+      "A": "10¹⁵ Hz",
+      "B": "10¹⁰ Hz",
+      "C": "10⁸ Hz",
+      "D": "10⁴ Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Displacement current arises due to:",
+    "options": {
+      "A": "Flow of electrons",
+      "B": "Varying electric field",
+      "C": "Varying magnetic field",
+      "D": "Steady electric field"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "Which electromagnetic radiation is used for checking the freshness of food?",
+    "options": {
+      "A": "Ultraviolet rays",
+      "B": "Infrared rays",
+      "C": "X-rays",
+      "D": "Microwaves"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The direction of propagation of electromagnetic waves is given by:",
+    "options": {
+      "A": "Vector E",
+      "B": "Vector B",
+      "C": "Vector (E x B)",
+      "D": "Vector (B x E)"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "The wavelength range of visible spectrum is approximately:",
+    "options": {
+      "A": "400 nm to 700 nm",
+      "B": "1 nm to 100 nm",
+      "C": "1 mm to 1 m",
+      "D": "10 nm to 400 nm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following has the highest frequency?",
+    "options": {
+      "A": "Micro waves",
+      "B": "Radio waves",
+      "C": "Gamma rays",
+      "D": "Visible light"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 17,
+    "question": "Waves used in telecommunication are:",
+    "options": {
+      "A": "Infrared",
+      "B": "Visible light",
+      "C": "Microwaves",
+      "D": "Ultraviolet"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "Maxwell’s equations describe the fundamental laws of:",
+    "options": {
+      "A": "Mechanics",
+      "B": "Thermodynamics",
+      "C": "Electricity and Magnetism",
+      "D": "Optics only"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "X-rays are used in medicine for:",
+    "options": {
+      "A": "Killing bacteria",
+      "B": "Detecting bone fractures",
+      "C": "Greenhouse effect",
+      "D": "TV remote controls"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "The energy of EM waves is divided equally between:",
+    "options": {
+      "A": "Electric and Magnetic fields",
+      "B": "Kinetic and Potential energy",
+      "C": "Protons and Electrons",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Infrared radiation was discovered by:",
+    "options": {
+      "A": "William Herschel",
+      "B": "Ritter",
+      "C": "Newton",
+      "D": "Marconi"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The dimension of 1/√(μ₀ε₀) is same as that of:",
+    "options": {
+      "A": "Acceleration",
+      "B": "Velocity",
+      "C": "Force",
+      "D": "Energy"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "If an EM wave is traveling in x-direction and E is in y-direction, then B is in:",
+    "options": {
+      "A": "x-direction",
+      "B": "y-direction",
+      "C": "z-direction",
+      "D": "Negative y-direction"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "Water purification systems often use:",
+    "options": {
+      "A": "UV rays",
+      "B": "Infrared rays",
+      "C": "Gamma rays",
+      "D": "Radio waves"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following is NOT an electromagnetic wave?",
+    "options": {
+      "A": "Sound waves",
+      "B": "Light waves",
+      "C": "Radio waves",
+      "D": "Microwaves"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The radiation used in night vision goggles is:",
+    "options": {
+      "A": "Microwaves",
+      "B": "Infrared",
+      "C": "Ultraviolet",
+      "D": "Visible"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Frequency of a wave is 6 x 10¹⁴ Hz. Its wavelength in vacuum is:",
+    "options": {
+      "A": "500 nm",
+      "B": "600 nm",
+      "C": "400 nm",
+      "D": "300 nm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The pressure exerted by an EM wave on a surface is called:",
+    "options": {
+      "A": "Radiation pressure",
+      "B": "Atmospheric pressure",
+      "C": "Electric pressure",
+      "D": "Magnetic pressure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Fingerprints on a piece of paper can be detected by:",
+    "options": {
+      "A": "Mercury lamp (UV)",
+      "B": "Infrared lamp",
+      "C": "Radio waves",
+      "D": "Visible light"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Who first experimentally demonstrated the existence of EM waves?",
+    "options": {
+      "A": "Maxwell",
+      "B": "Hertz",
+      "C": "Marconi",
+      "D": "Jagadish Chandra Bose"
+    },
+    "answer": "B"
+  }
+]

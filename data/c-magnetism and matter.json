@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A magnetic needle suspended freely in a uniform magnetic field experiences:",
+    "options": {
+      "A": "A force but no torque",
+      "B": "A torque but no force",
+      "C": "Both a force and a torque",
+      "D": "Neither a force nor a torque"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The vertical component of Earth's magnetic field is zero at the:",
+    "options": {
+      "A": "Magnetic poles",
+      "B": "Magnetic equator",
+      "C": "Geographic poles",
+      "D": "Latitude of 45°"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "The angle between the magnetic meridian and the geographic meridian at a place is called:",
+    "options": {
+      "A": "Magnetic Dip",
+      "B": "Magnetic Declination",
+      "C": "Magnetic Inclination",
+      "D": "Horizontal component"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following materials has negative magnetic susceptibility (χ)?",
+    "options": {
+      "A": "Ferromagnetic",
+      "B": "Paramagnetic",
+      "C": "Diamagnetic",
+      "D": "None of these"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 5,
+    "question": "The SI unit of magnetic dipole moment is:",
+    "options": {
+      "A": "A m",
+      "B": "A m²",
+      "C": "T m / A",
+      "D": "Wb / m²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "According to Curie's Law, the magnetic susceptibility of a paramagnetic material is proportional to:",
+    "options": {
+      "A": "T",
+      "B": "T²",
+      "C": "1/T",
+      "D": "1/T²"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "At the magnetic poles of the Earth, the angle of dip is:",
+    "options": {
+      "A": "0°",
+      "B": "45°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "The relative permeability (μᵣ) of a diamagnetic substance is:",
+    "options": {
+      "A": "μᵣ > 1",
+      "B": "μᵣ < 1",
+      "C": "μᵣ = 1",
+      "D": "μᵣ >> 1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "The property of a magnetic material to retain magnetism even after the removal of the magnetizing field is called:",
+    "options": {
+      "A": "Coercivity",
+      "B": "Retentivity",
+      "C": "Hysteresis",
+      "D": "Susceptibility"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "Permanent magnets are made of materials having:",
+    "options": {
+      "A": "High retentivity and high coercivity",
+      "B": "Low retentivity and low coercivity",
+      "C": "High retentivity and low coercivity",
+      "D": "Low retentivity and high coercivity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The magnetic field lines inside a bar magnet run from:",
+    "options": {
+      "A": "North pole to South pole",
+      "B": "South pole to North pole",
+      "C": "Center to the poles",
+      "D": "They do not exist inside"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Gauss's law for magnetism states that the net magnetic flux through any closed surface is:",
+    "options": {
+      "A": "μ₀ x Current",
+      "B": "Zero",
+      "C": "Infinite",
+      "D": "Negative"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "A solenoid behaves like a:",
+    "options": {
+      "A": "Circular loop",
+      "B": "Bar magnet",
+      "C": "Straight wire",
+      "D": "Electric dipole"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "The work done in rotating a magnetic dipole of moment M through an angle θ in a magnetic field B from its stable equilibrium is:",
+    "options": {
+      "A": "MB sinθ",
+      "B": "MB cosθ",
+      "C": "MB (1 - cosθ)",
+      "D": "Zero"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following is not a magnetic element of Earth?",
+    "options": {
+      "A": "Magnetic declination",
+      "B": "Magnetic dip",
+      "C": "Horizontal component of Earth's field",
+      "D": "Vertical component of Earth's field"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 16,
+    "question": "Liquid oxygen is an example of:",
+    "options": {
+      "A": "Diamagnetic material",
+      "B": "Paramagnetic material",
+      "C": "Ferromagnetic material",
+      "D": "Non-magnetic material"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The temperature above which a ferromagnetic material becomes paramagnetic is called:",
+    "options": {
+      "A": "Critical temperature",
+      "B": "Curie temperature",
+      "C": "Inversion temperature",
+      "D": "Dew point"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The SI unit of magnetic intensity (H) is:",
+    "options": {
+      "A": "Tesla",
+      "B": "Ampere/meter",
+      "C": "Ampere-meter",
+      "D": "Weber"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "The core of an electromagnet is made of soft iron because it has:",
+    "options": {
+      "A": "High retentivity and high coercivity",
+      "B": "Low retentivity and high coercivity",
+      "C": "High retentivity and low coercivity",
+      "D": "Low retentivity and low coercivity"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 20,
+    "question": "The sensitivity of a magnetic material to be magnetized is given by its:",
+    "options": {
+      "A": "Permeability",
+      "B": "Susceptibility",
+      "C": "Retentivity",
+      "D": "Coercivity"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "The horizontal component of Earth's magnetic field at a place where dip is 60° is 0.2 G. The total magnetic field is:",
+    "options": {
+      "A": "0.1 G",
+      "B": "0.4 G",
+      "C": "0.2 G",
+      "D": "0.34 G"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "For a paramagnetic material, the relationship between χ and μᵣ is:",
+    "options": {
+      "A": "μᵣ = 1 + χ",
+      "B": "μᵣ = 1 - χ",
+      "C": "χ = 1 + μᵣ",
+      "D": "μᵣ = χ"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "When a diamagnetic substance is placed in a magnetic field, it is:",
+    "options": {
+      "A": "Strongly attracted",
+      "B": "Weakly attracted",
+      "C": "Weakly repelled",
+      "D": "Not affected"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "The time period of a vibration magnetometer is T. If the magnetic moment of the magnet is quadrupled, the new time period will be:",
+    "options": {
+      "A": "T/2",
+      "B": "2T",
+      "C": "T/4",
+      "D": "4T"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A magnetic dipole in a uniform magnetic field has maximum potential energy when the angle is:",
+    "options": {
+      "A": "0°",
+      "B": "90°",
+      "C": "180°",
+      "D": "270°"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "The magnetic field lines of Earth resemble that of a:",
+    "options": {
+      "A": "Point charge",
+      "B": "U-shaped magnet",
+      "C": "Giant bar magnet at its center",
+      "D": "Straight wire"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Magnetic monopole:",
+    "options": {
+      "A": "Exists in nature",
+      "B": "Does not exist",
+      "C": "Can be created in lab",
+      "D": "Exists only in superconductors"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The area of the hysteresis loop represents:",
+    "options": {
+      "A": "Magnetic field strength",
+      "B": "Energy loss per unit volume per cycle",
+      "C": "Retentivity",
+      "D": "Coercivity"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "If B_H and B_V are the horizontal and vertical components of Earth's magnetic field, then the total field B is:",
+    "options": {
+      "A": "B_H + B_V",
+      "B": "√(B_H² + B_V²)",
+      "C": "B_H / B_V",
+      "D": "B_H x B_V"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "Which property of soft iron makes it suitable for transformer cores?",
+    "options": {
+      "A": "High hysteresis loss",
+      "B": "Low hysteresis loss",
+      "C": "Low permeability",
+      "D": "High coercivity"
+    },
+    "answer": "B"
+  }
+]

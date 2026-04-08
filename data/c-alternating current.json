@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The peak value of 220V AC mains is:",
+    "options": {
+      "A": "220V",
+      "B": "311V",
+      "C": "440V",
+      "D": "110V"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "In a purely inductive circuit, the current:",
+    "options": {
+      "A": "Lags behind voltage by 90°",
+      "B": "Leads voltage by 90°",
+      "C": "Is in phase with voltage",
+      "D": "Lags behind voltage by 180°"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The power factor of a purely resistive circuit is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "0.5",
+      "D": "Infinite"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "At resonance in a series LCR circuit, the impedance is:",
+    "options": {
+      "A": "Maximum",
+      "B": "Minimum",
+      "C": "Zero",
+      "D": "Infinite"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "The unit of capacitive reactance (Xc) is:",
+    "options": {
+      "A": "Farad",
+      "B": "Ohm",
+      "C": "Henry",
+      "D": "Tesla"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "A transformer works on the principle of:",
+    "options": {
+      "A": "Self Induction",
+      "B": "Mutual Induction",
+      "C": "Eddy Currents",
+      "D": "Seebeck Effect"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "The root mean square (rms) value of AC is related to peak value (Io) as:",
+    "options": {
+      "A": "Irms = Io / 2",
+      "B": "Irms = Io / √2",
+      "C": "Irms = √2 Io",
+      "D": "Irms = 2 Io"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "In a step-up transformer, the number of turns in the secondary coil (Ns) compared to primary (Np) is:",
+    "options": {
+      "A": "Ns < Np",
+      "B": "Ns > Np",
+      "C": "Ns = Np",
+      "D": "Ns = 0"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "The average power dissipation in a pure capacitor is:",
+    "options": {
+      "A": "CV²",
+      "B": "1/2 CV²",
+      "C": "Zero",
+      "D": "Infinite"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "The frequency of AC in India is:",
+    "options": {
+      "A": "50 Hz",
+      "B": "60 Hz",
+      "C": "100 Hz",
+      "D": "220 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The Q-factor of an LCR circuit is given by:",
+    "options": {
+      "A": "1/R √(L/C)",
+      "B": "R √(L/C)",
+      "C": "1/L √(R/C)",
+      "D": "1/C √(L/R)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Inductive reactance (XL) is given by:",
+    "options": {
+      "A": "ωL",
+      "B": "1/ωL",
+      "C": "ω/L",
+      "D": "L/ω"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "If the frequency of AC is doubled, the capacitive reactance becomes:",
+    "options": {
+      "A": "Double",
+      "B": "Half",
+      "C": "Four times",
+      "D": "Remains same"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Laminated cores in transformers are used to reduce:",
+    "options": {
+      "A": "Copper loss",
+      "B": "Hysteresis loss",
+      "C": "Eddy current loss",
+      "D": "Magnetic flux leakage"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "In an LCR series circuit at resonance, the phase difference between voltage and current is:",
+    "options": {
+      "A": "π",
+      "B": "π/2",
+      "C": "Zero",
+      "D": "π/4"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "A choke coil is used to control current in:",
+    "options": {
+      "A": "DC circuits only",
+      "B": "AC circuits only",
+      "C": "Both AC and DC",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "Wattless current flows through a circuit containing:",
+    "options": {
+      "A": "Only resistance",
+      "B": "Only inductance or capacitance",
+      "C": "Resistance and inductance",
+      "D": "Resistance and capacitance"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The ratio of peak value to rms value of AC is:",
+    "options": {
+      "A": "1:√2",
+      "B": "√2:1",
+      "C": "2:1",
+      "D": "1:2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "Sharpness of resonance depends on:",
+    "options": {
+      "A": "Resistance (R)",
+      "B": "Inductance (L)",
+      "C": "Capacitance (C)",
+      "D": "All of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The resonant frequency (fr) of an LCR circuit is:",
+    "options": {
+      "A": "1 / (2π√LC)",
+      "B": "2π / √LC",
+      "C": "√(LC) / 2π",
+      "D": "1 / √LC"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Power factor of an LCR circuit is:",
+    "options": {
+      "A": "R/Z",
+      "B": "Z/R",
+      "C": "XL/Z",
+      "D": "XC/Z"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The core of a transformer is made of:",
+    "options": {
+      "A": "Steel",
+      "B": "Soft Iron",
+      "C": "Copper",
+      "D": "Aluminum"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "Which of the following does not change in a transformer?",
+    "options": {
+      "A": "Voltage",
+      "B": "Current",
+      "C": "Frequency",
+      "D": "Power"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "The impedance (Z) of an LCR series circuit is:",
+    "options": {
+      "A": "√(R² + (XL-XC)²)",
+      "B": "R + XL + XC",
+      "C": "√(R² + XL² + XC²)",
+      "D": "R + √(XL² - XC²)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "A capacitor blocks:",
+    "options": {
+      "A": "AC",
+      "B": "DC",
+      "C": "Both AC and DC",
+      "D": "Neither AC nor DC"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The instantaneous current in a circuit is I = 2 sin(100πt + π/3). The frequency is:",
+    "options": {
+      "A": "100 Hz",
+      "B": "50 Hz",
+      "C": "60 Hz",
+      "D": "100π Hz"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Phase difference between current and voltage in a purely capacitive circuit is:",
+    "options": {
+      "A": "0",
+      "B": "90°",
+      "C": "180°",
+      "D": "45°"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Hot wire ammeters measure:",
+    "options": {
+      "A": "Peak value",
+      "B": "Average value",
+      "C": "Rms value",
+      "D": "Instantaneous value"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "If XL = XC, the circuit is said to be:",
+    "options": {
+      "A": "Resistive",
+      "B": "Inductive",
+      "C": "Capacitive",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "In a transformer, the energy is transferred from primary to secondary through:",
+    "options": {
+      "A": "Electric field",
+      "B": "Magnetic field",
+      "C": "Direct connection",
+      "D": "None of these"
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The drift velocity of free electrons in a conductor is very small, yet the current is established almost instantly because:",
+    "options": {
+      "A": "Electrons move with speed of light",
+      "B": "Electric field is established with speed of light",
+      "C": "Electrons are already present everywhere in the conductor",
+      "D": "Thermal speed of electrons is very high"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The resistance of a conductor increases with the increase in temperature due to:",
+    "options": {
+      "A": "Increase in relaxation time",
+      "B": "Decrease in relaxation time",
+      "C": "Increase in electron density",
+      "D": "Decrease in electron density"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "Ohm's law is valid only when the temperature of the conductor is:",
+    "options": {
+      "A": "Very high",
+      "B": "Very low",
+      "C": "Constant",
+      "D": "Changing linearly"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "The SI unit of mobility of charge carriers is:",
+    "options": {
+      "A": "m²/V s",
+      "B": "m/V s",
+      "C": "V s/m²",
+      "D": "m²/s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Kirchhoff's First Law (Junction Rule) is based on the conservation of:",
+    "options": {
+      "A": "Energy",
+      "B": "Momentum",
+      "C": "Mass",
+      "D": "Charge"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 6,
+    "question": "Kirchhoff's Second Law (Loop Rule) is based on the conservation of:",
+    "options": {
+      "A": "Charge",
+      "B": "Energy",
+      "C": "Momentum",
+      "D": "Angular momentum"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "In a Wheatstone bridge, the bridge is said to be balanced when the current through the galvanometer is:",
+    "options": {
+      "A": "Maximum",
+      "B": "Half of total current",
+      "C": "Zero",
+      "D": "Infinite"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "A cell of emf E and internal resistance r is connected across an external resistance R. The maximum power is delivered to R when:",
+    "options": {
+      "A": "R = r",
+      "B": "R = 2r",
+      "C": "R = r/2",
+      "D": "R >> r"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The resistivity of a wire depends on its:",
+    "options": {
+      "A": "Length",
+      "B": "Area of cross-section",
+      "C": "Material",
+      "D": "Shape"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "When 'n' identical resistors each of resistance R are connected in parallel, the effective resistance is:",
+    "options": {
+      "A": "nR",
+      "B": "R/n",
+      "C": "R/n²",
+      "D": "n²R"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "The terminal potential difference (V) of a cell of emf (E) and internal resistance (r) during discharging is:",
+    "options": {
+      "A": "V = E + Ir",
+      "B": "V = E - Ir",
+      "C": "V = E/Ir",
+      "D": "V = Ir"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following materials has a negative temperature coefficient of resistance?",
+    "options": {
+      "A": "Copper",
+      "B": "Silver",
+      "C": "Silicon",
+      "D": "Aluminum"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 13,
+    "question": "Internal resistance of a cell increases with:",
+    "options": {
+      "A": "Increase in concentration of electrolyte",
+      "B": "Increase in temperature",
+      "C": "Decrease in distance between electrodes",
+      "D": "Increase in area of electrodes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Potentiometer is a better device for measuring emf because:",
+    "options": {
+      "A": "It has high sensitivity",
+      "B": "It measures emf in open circuit (no current flows)",
+      "C": "It is cheaper",
+      "D": "It uses a long wire"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "Two bulbs of 60W and 100W are connected in series. Which one will glow brighter?",
+    "options": {
+      "A": "60W bulb",
+      "B": "100W bulb",
+      "C": "Both will glow equally",
+      "D": "Neither will glow"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The color code for a resistor of 47 kΩ ± 5% is:",
+    "options": {
+      "A": "Yellow, Violet, Orange, Gold",
+      "B": "Yellow, Violet, Red, Silver",
+      "C": "Orange, Blue, Yellow, Gold",
+      "D": "Yellow, Blue, Orange, Gold"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Current density is a:",
+    "options": {
+      "A": "Scalar quantity",
+      "B": "Vector quantity",
+      "C": "Dimensionless quantity",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "If a wire is stretched to double its length, its resistance becomes:",
+    "options": {
+      "A": "Two times",
+      "B": "Four times",
+      "C": "Eight times",
+      "D": "Half"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "The temperature at which the resistance of a conductor becomes zero is called:",
+    "options": {
+      "A": "Critical temperature",
+      "B": "Curie temperature",
+      "C": "Absolute zero",
+      "D": "Boiling point"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Meter Bridge works on the principle of:",
+    "options": {
+      "A": "Ohm's Law",
+      "B": "Wheatstone Bridge",
+      "C": "Faraday's Law",
+      "D": "Lenz's Law"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "The power dissipated in a resistor R with current I is:",
+    "options": {
+      "A": "IR",
+      "B": "I²R",
+      "C": "V²R",
+      "D": "I/R"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 22,
+    "question": "Commercial unit of electrical energy is:",
+    "options": {
+      "A": "Joule",
+      "B": "Watt-second",
+      "C": "Kilowatt-hour",
+      "D": "Volt-Ampere"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "Superconductors have resistivity equal to:",
+    "options": {
+      "A": "Infinite",
+      "B": "Very high",
+      "C": "Zero",
+      "D": "Negative"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "With increase in temperature, the conductivity of a semiconductor:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains constant",
+      "D": "First increases then decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "In a potentiometer, the balance point is found at 40 cm. If the current in the main circuit is increased, the new balance point will be at:",
+    "options": {
+      "A": "40 cm",
+      "B": "Greater than 40 cm",
+      "C": "Less than 40 cm",
+      "D": "At 100 cm"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "The resistance of an ideal ammeter is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "100 Ohm",
+      "D": "Small but finite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The resistance of an ideal voltmeter is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "1 Ohm",
+      "D": "Negative"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "When 'n' cells of emf 'E' and internal resistance 'r' are connected in series, the total emf is:",
+    "options": {
+      "A": "E",
+      "B": "E/n",
+      "C": "nE",
+      "D": "n²E"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 29,
+    "question": "The relaxaton time in a conductor is of the order of:",
+    "options": {
+      "A": "10⁻¹⁴ s",
+      "B": "10⁻⁶ s",
+      "C": "10² s",
+      "D": "1 s"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The potential gradient along the potentiometer wire depends on:",
+    "options": {
+      "A": "Current through the wire",
+      "B": "Resistance per unit length",
+      "C": "Both A and B",
+      "D": "None of these"
+    },
+    "answer": "C"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "question_no": 1,
+    "question": "The phenomenon of emission of electrons from a metal surface when light of suitable frequency falls on it is called:",
+    "options": {
+      "A": "Thermionic emission",
+      "B": "Photoelectric emission",
+      "C": "Field emission",
+      "D": "Secondary emission"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The minimum energy required to eject an electron from a metal surface is called:",
+    "options": {
+      "A": "Kinetic energy",
+      "B": "Potential energy",
+      "C": "Work function",
+      "D": "Binding energy"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "According to Einstein's photoelectric equation, Kmax is equal to:",
+    "options": {
+      "A": "hf + phi",
+      "B": "hf - phi",
+      "C": "phi - hf",
+      "D": "hf / phi"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "The stopping potential depends on:",
+    "options": {
+      "A": "Intensity of incident light",
+      "B": "Frequency of incident light",
+      "C": "Number of incident photons",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 5,
+    "question": "The maximum kinetic energy of photoelectrons is independent of:",
+    "options": {
+      "A": "Frequency",
+      "B": "Wavelength",
+      "C": "Intensity of light",
+      "D": "Nature of material"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The De Broglie wavelength (lambda) of a particle of mass m moving with velocity v is:",
+    "options": {
+      "A": "h / (mv)",
+      "B": "(mv) / h",
+      "C": "hmv",
+      "D": "h / (m v squared)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Photons are particles of light with zero:",
+    "options": {
+      "A": "Energy",
+      "B": "Momentum",
+      "C": "Rest mass",
+      "D": "Velocity"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "The slope of the graph between stopping potential (V0) and frequency (v) is:",
+    "options": {
+      "A": "h",
+      "B": "h/e",
+      "C": "e/h",
+      "D": "h/e^2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "If the intensity of light is doubled, the photoelectric current becomes:",
+    "options": {
+      "A": "Double",
+      "B": "Half",
+      "C": "Four times",
+      "D": "Unchanged"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Threshold frequency is the frequency below which:",
+    "options": {
+      "A": "Photoelectric effect does not occur",
+      "B": "Current is maximum",
+      "C": "Stopping potential is zero",
+      "D": "Electrons are accelerated"
+    },
+    "answer": "A"
+  }
+]
+

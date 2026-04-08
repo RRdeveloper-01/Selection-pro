@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "In the Geiger-Marsden experiment, most of the alpha particles passed through the gold foil undeflected. This proves that:",
+    "options": {
+      "A": "The nucleus is positive",
+      "B": "Most of the space in an atom is empty",
+      "C": "Electrons revolve in orbits",
+      "D": "Alpha particles are heavy"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The impact parameter for an alpha particle scattered by 180° is:",
+    "options": {
+      "A": "Maximum",
+      "B": "Zero",
+      "C": "Infinite",
+      "D": "Equal to radius of nucleus"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 3,
+    "question": "The total energy of an electron in the nth stationary orbit of a hydrogen atom is proportional to:",
+    "options": {
+      "A": "n",
+      "B": "1/n",
+      "C": "n²",
+      "D": "1/n²"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 4,
+    "question": "The radius of the inner-most electron orbit of a hydrogen atom (Bohr radius) is approximately:",
+    "options": {
+      "A": "0.53 Å",
+      "B": "1.0 Å",
+      "C": "0.1 Å",
+      "D": "5.3 Å"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Bohr's model is applicable to:",
+    "options": {
+      "A": "All atoms",
+      "B": "Only hydrogen atom",
+      "C": "Hydrogen-like species (H, He+, Li++)",
+      "D": "Only noble gases"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The angular momentum of an electron in the nth orbit is an integral multiple of:",
+    "options": {
+      "A": "h/π",
+      "B": "h/2π",
+      "C": "2π/h",
+      "D": "h"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 7,
+    "question": "Which spectral series of hydrogen atom lies in the visible region?",
+    "options": {
+      "A": "Lyman series",
+      "B": "Balmer series",
+      "C": "Paschen series",
+      "D": "Brackett series"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 8,
+    "question": "The ratio of kinetic energy to total energy of an electron in a Bohr orbit is:",
+    "options": {
+      "A": "1:1",
+      "B": "1:-1",
+      "C": "2:1",
+      "D": "1:2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "When an electron jumps from a higher orbit to the first orbit ($n=1$), the series obtained is:",
+    "options": {
+      "A": "Lyman",
+      "B": "Balmer",
+      "C": "Paschen",
+      "D": "Pfund"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The ionization potential of hydrogen atom is:",
+    "options": {
+      "A": "13.6 V",
+      "B": "-13.6 V",
+      "C": "10.2 V",
+      "D": "3.4 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The value of Rydberg constant (R) is approximately:",
+    "options": {
+      "A": "1.097 x 10⁷ m⁻¹",
+      "B": "1.097 x 10⁻⁷ m⁻¹",
+      "C": "6.63 x 10⁻³⁴ m⁻¹",
+      "D": "9.1 x 10⁻³¹ m⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The ratio of radii of the first three Bohr orbits is:",
+    "options": {
+      "A": "1:2:3",
+      "B": "1:4:9",
+      "C": "1:8:27",
+      "D": "1:1:1"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "In the ground state, the energy of a hydrogen atom is -13.6 eV. Its energy in the second excited state ($n=3$) is:",
+    "options": {
+      "A": "-3.4 eV",
+      "B": "-1.51 eV",
+      "C": "-6.8 eV",
+      "D": "-4.53 eV"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "The transition that gives radiation of maximum frequency in hydrogen spectrum is:",
+    "options": {
+      "A": "n=2 to n=1",
+      "B": "n=3 to n=2",
+      "C": "n=∞ to n=1",
+      "D": "n=∞ to n=2"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "According to de Broglie, the stationary orbits are those in which the circumference is equal to:",
+    "options": {
+      "A": "λ/2",
+      "B": "nλ",
+      "C": "λ/n",
+      "D": "2πr"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "The size of the nucleus is of the order of:",
+    "options": {
+      "A": "10⁻¹⁰ m",
+      "B": "10⁻¹⁵ m",
+      "C": "10⁻⁸ m",
+      "D": "10⁻¹² m"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "As we move to higher orbits, the energy difference between adjacent orbits:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains constant",
+      "D": "First increases then decreases"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 18,
+    "question": "The potential energy of an electron in H-atom is (where r is radius):",
+    "options": {
+      "A": "-ke²/r",
+      "B": "ke²/r²",
+      "C": "-ke²/r²",
+      "D": "1/2 ke²/r"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The ratio of minimum to maximum wavelength in Lyman series is:",
+    "options": {
+      "A": "3:4",
+      "B": "1:2",
+      "C": "4:3",
+      "D": "1:4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The force responsible for the scattering of alpha particles in Rutherford's experiment is:",
+    "options": {
+      "A": "Gravitational force",
+      "B": "Magnetic force",
+      "C": "Coulomb's electrostatic force",
+      "D": "Nuclear force"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 21,
+    "question": "The velocity of an electron in the first orbit of H-atom is approximately:",
+    "options": {
+      "A": "c/137",
+      "B": "c/2",
+      "C": "c",
+      "D": "c/10"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "In Balmer series, the longest wavelength corresponds to the transition:",
+    "options": {
+      "A": "n=∞ to n=2",
+      "B": "n=3 to n=2",
+      "C": "n=2 to n=1",
+      "D": "n=4 to n=2"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "The wavelength of the first line of Lyman series is:",
+    "options": {
+      "A": "1216 Å",
+      "B": "6563 Å",
+      "C": "912 Å",
+      "D": "1026 Å"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Which of the following transitions in He+ ion will give the same wavelength as n=2 to n=1 in H-atom?",
+    "options": {
+      "A": "n=4 to n=2",
+      "B": "n=3 to n=2",
+      "C": "n=2 to n=1",
+      "D": "n=6 to n=4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The distance of closest approach depends on:",
+    "options": {
+      "A": "Kinetic energy of alpha particle",
+      "B": "Charge of the nucleus",
+      "C": "Both A and B",
+      "D": "Mass of the nucleus only"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "Paschen, Brackett and Pfund series lie in which region?",
+    "options": {
+      "A": "Ultraviolet",
+      "B": "Visible",
+      "C": "Infrared",
+      "D": "X-ray"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "The orbital frequency of an electron in the nth orbit is proportional to:",
+    "options": {
+      "A": "n³",
+      "B": "1/n³",
+      "C": "n²",
+      "D": "1/n²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The Rydberg constant has the same unit as:",
+    "options": {
+      "A": "Frequency",
+      "B": "Wave number",
+      "C": "Energy",
+      "D": "Velocity"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "If an electron moves to an orbit of smaller radius, its kinetic energy:",
+    "options": {
+      "A": "Increases",
+      "B": "Decreases",
+      "C": "Remains constant",
+      "D": "Becomes zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Rutherford's atomic model could not explain:",
+    "options": {
+      "A": "Stability of atom",
+      "B": "Discrete spectrum of atoms",
+      "C": "Both A and B",
+      "D": "Presence of nucleus"
+    },
+    "answer": "C"
+  }
+]

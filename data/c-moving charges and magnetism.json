@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A charged particle moves through a magnetic field. The effect of the magnetic field is to change the particle's:",
+    "options": {
+      "A": "Speed",
+      "B": "Kinetic Energy",
+      "C": "Velocity",
+      "D": "Mass"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The magnetic field at the center of a circular current-carrying loop of radius R is:",
+    "options": {
+      "A": "μ₀I / 2R",
+      "B": "μ₀I / 4R",
+      "C": "μ₀I / 2πR",
+      "D": "μ₀I / R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The SI unit of magnetic flux density (B) is:",
+    "options": {
+      "A": "Weber",
+      "B": "Tesla",
+      "C": "Henry",
+      "D": "Gauss"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 4,
+    "question": "Lorentz force is given by the formula:",
+    "options": {
+      "A": "F = q(E + v x B)",
+      "B": "F = q(E - v x B)",
+      "C": "F = q(v x B)",
+      "D": "F = qE"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "When a charged particle enters a uniform magnetic field perpendicularly, its path is:",
+    "options": {
+      "A": "Linear",
+      "B": "Parabolic",
+      "C": "Circular",
+      "D": "Helical"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 6,
+    "question": "The force between two parallel wires carrying currents in the same direction is:",
+    "options": {
+      "A": "Attractive",
+      "B": "Repulsive",
+      "C": "Zero",
+      "D": "Perpendicular"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A cyclotron cannot accelerate:",
+    "options": {
+      "A": "Protons",
+      "B": "Deuterons",
+      "C": "Alpha particles",
+      "D": "Electrons"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 8,
+    "question": "The sensitivity of a moving coil galvanometer can be increased by:",
+    "options": {
+      "A": "Decreasing the number of turns",
+      "B": "Increasing the magnetic field",
+      "C": "Increasing the torsional constant",
+      "D": "Decreasing the area of the coil"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 9,
+    "question": "To convert a galvanometer into an ammeter, we connect a:",
+    "options": {
+      "A": "High resistance in series",
+      "B": "Low resistance in parallel",
+      "C": "Low resistance in series",
+      "D": "High resistance in parallel"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "To convert a galvanometer into a voltmeter, we connect a:",
+    "options": {
+      "A": "Low resistance in parallel",
+      "B": "High resistance in series",
+      "C": "Low resistance in series",
+      "D": "High resistance in parallel"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Biot-Savart law is the magnetic analog of:",
+    "options": {
+      "A": "Ohm's Law",
+      "B": "Coulomb's Law",
+      "C": "Gauss's Law",
+      "D": "Faraday's Law"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 12,
+    "question": "The magnetic field inside a long straight solenoid carrying current I is:",
+    "options": {
+      "A": "μ₀nI",
+      "B": "μ₀nI / 2",
+      "C": "Zero",
+      "D": "μ₀I / 2πr"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The work done by a magnetic field on a moving charge is always:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Zero",
+      "D": "Dependent on the angle"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 14,
+    "question": "A toroid is essentially:",
+    "options": {
+      "A": "A straight solenoid",
+      "B": "A circular solenoid",
+      "C": "A flat coil",
+      "D": "A permanent magnet"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 15,
+    "question": "The magnetic moment of a current loop is:",
+    "options": {
+      "A": "I / A",
+      "B": "I x A",
+      "C": "A / I",
+      "D": "I²A"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "The radius of the path of a charged particle in a magnetic field is proportional to its:",
+    "options": {
+      "A": "Charge",
+      "B": "Momentum",
+      "C": "Kinetic Energy",
+      "D": "Magnetic Field"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "In a Velocity Selector, the condition for a particle to pass undeflected is:",
+    "options": {
+      "A": "v = E / B",
+      "B": "v = B / E",
+      "C": "v = EB",
+      "D": "v = E² / B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The force on a current-carrying conductor of length L in a magnetic field B is:",
+    "options": {
+      "A": "ILB sinθ",
+      "B": "ILB cosθ",
+      "C": "I²LB",
+      "D": "IL / B"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "An electron is moving north in a magnetic field pointing vertically upwards. The force on it will be towards:",
+    "options": {
+      "A": "East",
+      "B": "West",
+      "C": "South",
+      "D": "Downwards"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 20,
+    "question": "Ampere's Circuital Law is given by:",
+    "options": {
+      "A": "∮B.dl = μ₀I",
+      "B": "∮B.ds = μ₀I",
+      "C": "∮E.dl = μ₀I",
+      "D": "B = μ₀nI"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The dimensional formula for magnetic induction (B) is:",
+    "options": {
+      "A": "[MT⁻²A⁻¹]",
+      "B": "[MLT⁻²A⁻¹]",
+      "C": "[MT⁻¹A⁻¹]",
+      "D": "[ML²T⁻²A⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "If the current in a circular coil is doubled and its radius is halved, the magnetic field at the center becomes:",
+    "options": {
+      "A": "Same",
+      "B": "Double",
+      "C": "Four times",
+      "D": "Eight times"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "A galvanometer has a resistance of 100Ω. To pass 10% of the main current through it, the shunt resistance required is:",
+    "options": {
+      "A": "11.1Ω",
+      "B": "9.9Ω",
+      "C": "1.1Ω",
+      "D": "90Ω"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The torque on a current loop of area A and N turns in a magnetic field B is maximum when the angle between A and B is:",
+    "options": {
+      "A": "0°",
+      "B": "45°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 25,
+    "question": "Which rule is used to find the direction of force on a current-carrying conductor in a magnetic field?",
+    "options": {
+      "A": "Right-hand thumb rule",
+      "B": "Fleming's Left-hand rule",
+      "C": "Fleming's Right-hand rule",
+      "D": "Ampere's Swimming rule"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 26,
+    "question": "The gyro-magnetic ratio of an electron is:",
+    "options": {
+      "A": "e / m",
+      "B": "e / 2m",
+      "C": "2e / m",
+      "D": "e / m²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 27,
+    "question": "Magnetic field due to a straight very long current-carrying wire at a distance r is proportional to:",
+    "options": {
+      "A": "r",
+      "B": "1 / r",
+      "C": "r²",
+      "D": "1 / r²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "The resistance of a shunt is usually:",
+    "options": {
+      "A": "Very large",
+      "B": "Very small",
+      "C": "Equal to galvanometer resistance",
+      "D": "Zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 29,
+    "question": "A solenoid of length 0.5m has 500 turns. If it carries 2A current, the magnetic field inside is:",
+    "options": {
+      "A": "4π x 10⁻³ T",
+      "B": "8π x 10⁻³ T",
+      "C": "2π x 10⁻³ T",
+      "D": "4π x 10⁻⁴ T"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 30,
+    "question": "The path of a charged particle is helical if its velocity makes an angle with the magnetic field equal to:",
+    "options": {
+      "A": "0°",
+      "B": "90°",
+      "C": "180°",
+      "D": "30°"
+    },
+    "answer": "D"
+  }
+]

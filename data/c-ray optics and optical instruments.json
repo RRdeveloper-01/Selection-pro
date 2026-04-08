@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A convex mirror always forms an image which is:",
+    "options": {
+      "A": "Real and erect",
+      "B": "Virtual and inverted",
+      "C": "Virtual and erect",
+      "D": "Real and inverted"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "The refractive index of a medium depends on:",
+    "options": {
+      "A": "Nature of the medium",
+      "B": "Wavelength of light",
+      "C": "Temperature",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 3,
+    "question": "Critical angle for a medium is 45°. Its refractive index will be:",
+    "options": {
+      "A": "√2",
+      "B": "1/√2",
+      "C": "2",
+      "D": "1.5"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The power of a lens is -2.0 D. Its focal length is:",
+    "options": {
+      "A": "-50 cm",
+      "B": "50 cm",
+      "C": "-20 cm",
+      "D": "20 cm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Total Internal Reflection (TIR) occurs when light travels from:",
+    "options": {
+      "A": "Rarer to denser medium",
+      "B": "Denser to rarer medium",
+      "C": "One medium to another of same RI",
+      "D": "Air to glass"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "Optical fibers work on the principle of:",
+    "options": {
+      "A": "Refraction",
+      "B": "Dispersion",
+      "C": "Total Internal Reflection",
+      "D": "Scattering"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 7,
+    "question": "For a thin prism, the angle of minimum deviation (δ) is:",
+    "options": {
+      "A": "(n-1)A",
+      "B": "(n+1)A",
+      "C": "nA",
+      "D": "A/n"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The sky appears blue due to:",
+    "options": {
+      "A": "Refraction",
+      "B": "Reflection",
+      "C": "Scattering of light",
+      "D": "Dispersion"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 9,
+    "question": "A person cannot see distant objects clearly. He is suffering from:",
+    "options": {
+      "A": "Hypermetropia",
+      "B": "Myopia",
+      "C": "Presbyopia",
+      "D": "Astigmatism"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 10,
+    "question": "The lens used to rectify hypermetropia is:",
+    "options": {
+      "A": "Concave lens",
+      "B": "Convex lens",
+      "C": "Cylindrical lens",
+      "D": "Bifocal lens"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "The magnifying power of a simple microscope is:",
+    "options": {
+      "A": "1 + D/f",
+      "B": "D/f",
+      "C": "1 - D/f",
+      "D": "f/D"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "In a compound microscope, the intermediate image is:",
+    "options": {
+      "A": "Virtual, erect and magnified",
+      "B": "Real, inverted and magnified",
+      "C": "Real, erect and magnified",
+      "D": "Virtual, inverted and diminished"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 13,
+    "question": "The unit of power of a lens is:",
+    "options": {
+      "A": "Meter",
+      "B": "Dioptre",
+      "C": "Watt",
+      "D": "Newton"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "Which color of light travels fastest in glass?",
+    "options": {
+      "A": "Red",
+      "B": "Violet",
+      "C": "Yellow",
+      "D": "Green"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "When light travels from one medium to another, which property remains unchanged?",
+    "options": {
+      "A": "Velocity",
+      "B": "Wavelength",
+      "C": "Frequency",
+      "D": "Amplitude"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 16,
+    "question": "The focal length of a plane mirror is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "25 cm",
+      "D": "Negative"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 17,
+    "question": "The phenomenon of splitting white light into its constituent colors is:",
+    "options": {
+      "A": "Reflection",
+      "B": "Refraction",
+      "C": "Dispersion",
+      "D": "Diffraction"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 18,
+    "question": "An object is placed at the focus of a convex lens. The image will be formed at:",
+    "options": {
+      "A": "Focus",
+      "B": "Optical center",
+      "C": "Infinity",
+      "D": "Between F and 2F"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 19,
+    "question": "The astronomical telescope uses:",
+    "options": {
+      "A": "Two convex lenses",
+      "B": "Two concave lenses",
+      "C": "One convex and one concave",
+      "D": "One mirror and one lens"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Mirage is an example of:",
+    "options": {
+      "A": "Reflection only",
+      "B": "Refraction and TIR",
+      "C": "Dispersion only",
+      "D": "Scattering"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "The relation between focal length (f) and radius of curvature (R) is:",
+    "options": {
+      "A": "f = R/2",
+      "B": "f = 2R",
+      "C": "f = R",
+      "D": "f = 1/R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "If two thin lenses of power P1 and P2 are in contact, the total power is:",
+    "options": {
+      "A": "P1 + P2",
+      "B": "P1 - P2",
+      "C": "P1 * P2",
+      "D": "P1 / P2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The refractive index of diamond is approximately:",
+    "options": {
+      "A": "1.33",
+      "B": "1.50",
+      "C": "2.42",
+      "D": "1.00"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "Rainbow is formed due to:",
+    "options": {
+      "A": "Refraction",
+      "B": "Dispersion",
+      "C": "TIR",
+      "D": "All of the above"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 25,
+    "question": "Astigmatism is corrected by using:",
+    "options": {
+      "A": "Convex lens",
+      "B": "Concave lens",
+      "C": "Cylindrical lens",
+      "D": "Bifocal lens"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 26,
+    "question": "In normal adjustment of an astronomical telescope, the length of the tube is:",
+    "options": {
+      "A": "fo + fe",
+      "B": "fo - fe",
+      "C": "fo * fe",
+      "D": "fo / fe"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The speed of light in vacuum is:",
+    "options": {
+      "A": "3 x 10^8 m/s",
+      "B": "3 x 10^10 m/s",
+      "C": "2.25 x 10^8 m/s",
+      "D": "None"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Lens Maker's formula is:",
+    "options": {
+      "A": "1/f = (n-1)(1/R1 - 1/R2)",
+      "B": "1/f = (n+1)(1/R1 + 1/R2)",
+      "C": "1/f = n(1/R1 - 1/R2)",
+      "D": "1/f = (n-1)(1/R1 + 1/R2)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Brilliancy of diamond is due to:",
+    "options": {
+      "A": "Reflection",
+      "B": "Refraction",
+      "C": "Total Internal Reflection",
+      "D": "Interference"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "A convex lens of focal length 25 cm is in contact with a concave lens of 25 cm. The power of combination is:",
+    "options": {
+      "A": "Zero",
+      "B": "Infinite",
+      "C": "4 D",
+      "D": "-4 D"
+    },
+    "answer": "A"
+  }
+]

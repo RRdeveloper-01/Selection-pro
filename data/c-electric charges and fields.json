@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Two point charges q1 and q2 are placed at a distance r. If a dielectric slab is introduced between them, the force between them will:",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain unchanged",
+      "D": "Become zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The SI unit of electric flux is:",
+    "options": {
+      "A": "V m",
+      "B": "V/m",
+      "C": "N/C",
+      "D": "Wb"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "A total charge Q is broken into two parts q1 and q2 and they are placed at a distance R from each other. The maximum force of repulsion between them will occur when:",
+    "options": {
+      "A": "q1 = Q/r, q2 = Q/r",
+      "B": "q1 = Q/4, q2 = 3Q/4",
+      "C": "q1 = Q/2, q2 = Q/2",
+      "D": "q1 = Q/3, q2 = 2Q/3"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 4,
+    "question": "The electric field intensity inside a hollow spherical charged conductor is:",
+    "options": {
+      "A": "Infinite",
+      "B": "Constant",
+      "C": "Directly proportional to r",
+      "D": "Zero"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 5,
+    "question": "The torque acting on an electric dipole of moment p placed in a uniform electric field E is:",
+    "options": {
+      "A": "p . E",
+      "B": "p x E",
+      "C": "pE",
+      "D": "p/E"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following is not a property of electric field lines?",
+    "options": {
+      "A": "Field lines are continuous curves without any breaks",
+      "B": "Two field lines cannot cross each other",
+      "C": "Field lines start at positive charge and end at negative charge",
+      "D": "They form closed loops"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 7,
+    "question": "The dielectric constant of a metal is:",
+    "options": {
+      "A": "Zero",
+      "B": "1",
+      "C": "Infinite",
+      "D": "-1"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 8,
+    "question": "If an electric dipole is kept in a non-uniform electric field, it experiences:",
+    "options": {
+      "A": "A force and a torque",
+      "B": "A force but no torque",
+      "C": "A torque but no force",
+      "D": "Neither a force nor a torque"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Surface charge density is defined as:",
+    "options": {
+      "A": "Charge/Length",
+      "B": "Charge/Volume",
+      "C": "Charge/Area",
+      "D": "None of these"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 10,
+    "question": "The force per unit charge is known as:",
+    "options": {
+      "A": "Electric Flux",
+      "B": "Electric Potential",
+      "C": "Electric Current",
+      "D": "Electric Field"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 11,
+    "question": "What is the value of 1/4πε₀?",
+    "options": {
+      "A": "9 x 10^9 N m²/C²",
+      "B": "8.85 x 10⁻¹² N m²/C²",
+      "C": "9 x 10⁻⁹ N m²/C²",
+      "D": "1.6 x 10⁻¹⁹ N m²/C²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Gauss's law is valid for:",
+    "options": {
+      "A": "Only closed surfaces",
+      "B": "Only open surfaces",
+      "C": "Both closed and open surfaces",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Electric field due to an infinite line of charge at distance r is proportional to:",
+    "options": {
+      "A": "r",
+      "B": "1/r",
+      "C": "1/r²",
+      "D": "r²"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 14,
+    "question": "The quantization of charge implies:",
+    "options": {
+      "A": "Charge cannot be destroyed",
+      "B": "Charge exists on particles",
+      "C": "There is a minimum permissible charge (e)",
+      "D": "Charge is a scalar quantity"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 15,
+    "question": "A soap bubble is given a negative charge, then its radius:",
+    "options": {
+      "A": "Decreases",
+      "B": "Increases",
+      "C": "Remains unchanged",
+      "D": "Nothing can be predicted"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 16,
+    "question": "The unit of electric permittivity of free space (ε₀) is:",
+    "options": {
+      "A": "C²/N m²",
+      "B": "N m²/C²",
+      "C": "C/N m",
+      "D": "N/C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "When a glass rod is rubbed with silk, it acquires:",
+    "options": {
+      "A": "Positive charge",
+      "B": "Negative charge",
+      "C": "Neutral charge",
+      "D": "None of these"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The electric field at a point on the equatorial line of a dipole and the direction of the dipole moment are:",
+    "options": {
+      "A": "In the same direction",
+      "B": "In opposite directions",
+      "C": "Perpendicular",
+      "D": "None of these"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 19,
+    "question": "The number of electrons in one coulomb of charge is:",
+    "options": {
+      "A": "6.25 x 10¹⁸",
+      "B": "1.6 x 10⁻¹⁹",
+      "C": "6.25 x 10¹⁹",
+      "D": "9 x 10¹¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "A point charge q is placed at the center of a cube. The flux through one face is:",
+    "options": {
+      "A": "q/ε₀",
+      "B": "q/6ε₀",
+      "C": "q/4ε₀",
+      "D": "Zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 21,
+    "question": "Electric field intensity due to a short dipole at a distance r on its axis is proportional to:",
+    "options": {
+      "A": "1/r",
+      "B": "1/r²",
+      "C": "1/r³",
+      "D": "1/r⁴"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 22,
+    "question": "Charge is a:",
+    "options": {
+      "A": "Vector quantity",
+      "B": "Scalar quantity",
+      "C": "Both",
+      "D": "None"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 23,
+    "question": "If the distance between two charges is doubled, the Coulomb force between them becomes:",
+    "options": {
+      "A": "Half",
+      "B": "Double",
+      "C": "One-fourth",
+      "D": "Four times"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 24,
+    "question": "The work done in rotating an electric dipole in a uniform electric field E through an angle θ from its equilibrium position is:",
+    "options": {
+      "A": "pE(1 - cosθ)",
+      "B": "pE sinθ",
+      "C": "pE cosθ",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Dimensional formula of electric field is:",
+    "options": {
+      "A": "[MLT⁻³A⁻¹]",
+      "B": "[ML²T⁻³A⁻¹]",
+      "C": "[MLT⁻³A]",
+      "D": "[MLT⁻²A⁻¹]"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The angle between electric dipole moment and electric field for stable equilibrium is:",
+    "options": {
+      "A": "90°",
+      "B": "180°",
+      "C": "0°",
+      "D": "45°"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 27,
+    "question": "Electric field at a point on the perpendicular bisector of a dipole is:",
+    "options": {
+      "A": "Along the dipole moment",
+      "B": "Opposite to the dipole moment",
+      "C": "Perpendicular to the dipole moment",
+      "D": "Zero"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 28,
+    "question": "Electric field lines provide information about:",
+    "options": {
+      "A": "Field strength",
+      "B": "Direction",
+      "C": "Nature of charge",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 29,
+    "question": "A cylinder of radius R and length L is placed in a uniform electric field E parallel to the cylinder axis. The total flux through the cylinder is:",
+    "options": {
+      "A": "2πR²E",
+      "B": "πR²E",
+      "C": "Zero",
+      "D": "2πRL E"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 30,
+    "question": "An electron and a proton are placed in the same uniform electric field. The ratio of their accelerations will be:",
+    "options": {
+      "A": "Zero",
+      "B": "One",
+      "C": "Ratio of their masses",
+      "D": "Inverse ratio of their masses"
+    },
+    "answer": "D"
+  }
+]
