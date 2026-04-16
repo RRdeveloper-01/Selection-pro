@@ -130,7 +130,7 @@ body {
     height: 10%;
 }
 
-.year{
+#year{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -733,5 +733,17 @@ cursor:pointer;
     filter: hue-rotate(360deg);
   }
 }
-
-
+.short{
+backdrop-filter: 70vw;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: black;
+  border-color: #4f46e5;
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
+  text-decoration: none;
+}
+.short:hover{
+    transform: scale(1.02);
+    background: #4f46e5;
+    
+}
