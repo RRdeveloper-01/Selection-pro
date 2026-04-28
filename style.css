@@ -1,16 +1,11 @@
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
+    font-family: 'Poppins', sans-serif;}
 body {
     background-color: #f8f9fa;
     color: #333;
 }
-
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,33 +16,22 @@ body {
     position: sticky;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     width:100%;
-    position: fixed;
-}
-
-.logo {
+    position: fixed;}
+    .logo {
     font-size: 24px;
     font-weight: 600;
     margin: 0px;
-    padding: 0px;
-}
-
+    padding: 0px;}
 .logo span { color: #007bff; }
-
 .nav-links {
     list-style: none;
     display: flex;
     gap: 15px;
     color: solid black;
-    justify-content: center;
-    
-    
-}
-
+    justify-content: center;}
 .nav-links a {
     text-decoration: none;
-    color: white;
-    
-}
+    color: white;}
 .nav-links a:hover{
     color: deepskyblue;
     background:#333;
@@ -57,79 +41,49 @@ body {
     background: #333;
     color: white;
     font-weight: bold;
-    border-bottom: 2px solid deepskyblue;
-    
-}
-
-
-/* Hero Section */
+    border-bottom: 2px solid deepskyblue; }
 .hero {
     background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.8)), url('https://via.placeholder.com/1500x500');
-    
-    background-size: cover;
+     background-size: cover;
     color: white;
     text-align: center;
-    padding: 100px 20px 20px 20px;
-}
-
+    padding: 100px 20px 20px 20px;}
 .hero h1 { font-size: 40px; margin-bottom: 10px; }
-
-
-/* Exam Cards Section */
 .container {
-    padding: 50px 10%;
-}
-
+    padding: 50px 10%;}
 .section-title {
     text-align: center;
-    margin-bottom: 40px;
-}
-
+    margin-bottom: 40px;}
 .exam-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
+    gap: 20px;}
 .exam-card {
     background: white;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);}
 .exam-card:hover {
-    transform: translateY(-10px);
-}
-
+    transform: translateY(-10px);}
 .icon {
     font-size: 40px;
-    margin-bottom: 15px;
-}
-
+    margin-bottom: 15px;}
 .view-btn {
     display: inline-block;
     margin-top: 15px;
     color: #007bff;
     text-decoration: none;
-    font-weight: 600;
-}
+    font-weight: 600;}
 .confirm:active{
-    background: blue;
-    
-}
+    background: blue;}
 .confirm{
     margin: 5px 10px;
-    
-    width: 25%;
-}
+    width: 25%;}
 #exams{
     width:75%;
-    height: 10%;
-}
-
+    height: 10%;}
 #year{
     display: grid;
     align-items: center;
@@ -145,18 +99,10 @@ body {
    flex-direction: column;
    flex-wrap: wrap;
    background-image: url(pageback.webp);
-  
   background-attachment: fixed;
-  background-size:60%;
-  
-  width: 75% ;
-    
-}
+  background-size:60%; width: 75% ;}
 .exam{
-    padding: 100px 30px;
-}
-
-
+    padding: 100px 30px;}
 .jee{
     display: flex;
     align-items: center;
@@ -178,25 +124,17 @@ body {
     box-sizing: border-box;
     transition: 0.3s;
 }
-
-
 .jee:hover {
     background-color: #CC5500;
-    transform: scale(1.32); 
-}
+    transform: scale(1.32); }
 #exam{
     background: #FFE5B4;
-    color: #CC5500;
-}
-
-
+    color: #CC5500;}
 .select{
     color: solid #000;
     font-size: 24px;
     font-weight: 600;
-    background: #fff;
-}
-/*contact us*/
+    background: #fff;}
 .contact-container {
     max-width: 400px;
     margin: 20px auto;
@@ -205,29 +143,23 @@ body {
     border-radius: 8px;
     font-family: Arial, sans-serif;
 }
-
 input, textarea {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Padding handling */
-}
-
+    box-sizing: border-box; }
 button {
-    background-color: #1E2AD7; /* Gmail Red */
+    background-color: #1E2AD7; 
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     width: 100%;
-    border-radius: 4px;
-}
-
+    border-radius: 4px;}
 button:hover {
-    background-color: #b53d32;
-}
+    background-color: #b53d32;}
 .iit{
     display: grid;
     align-items: center;
@@ -241,8 +173,7 @@ button:hover {
     max-width: 300px; 
    display: flex;
    flex-direction: column;
-   flex-wrap: wrap;
-}
+   flex-wrap: wrap;}
 .engineer{
     display: flex;
     display: grid;
@@ -250,14 +181,10 @@ button:hover {
     justify-content: center;
     justify-items: center;
     border: 2px solid black;
-    transition: 0.3s;
-}
-.engineer:hover {
-
-    transform: scale(1.3); 
-    
-}
-.privacy{
+    transition: 0.3s;}
+.engineer:hover { transform: scale(1.3);
+  
+}.privacy{
     display:grid;
     display:flex;
     margin: 70px 10px ;
@@ -274,9 +201,6 @@ button:hover {
     box-sizing: border-box;
     
 }
-/*article */
-
-    /* 1. Basic Page Styling */
     .article{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.8;
@@ -284,12 +208,8 @@ button:hover {
         background-color: #f4f7f6; 
         margin: 0;
         padding: 100px 20px ;
-        width: 100%;
-    }
-
-
-
-    p {
+        width: 100%;}
+  p {
         margin-bottom: 20px;
         font-size: 1.1rem;
         text-align: justify;
@@ -300,10 +220,7 @@ body {
     margin: 0;
     background-color: #f9f9f9;
 }
-
-/* Header Styling */
 .lang-header {
-
     background-color: #333;
     color: white;
     padding: 15px 50px;
@@ -312,8 +229,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
-    text-decoration: none;
-}
+    text-decoration: none;}
 .spac{
     border: 3px solid black;
     padding: 10px ;
@@ -324,11 +240,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     top: 0;
-    text-decoration: none;
-    
-}
+    text-decoration: none;}
 .space{
     border: 3px solid black;
     padding: 10px ;
@@ -341,34 +254,22 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
-    text-decoration: none;
-
-}
+    text-decoration: none;}
 .switches a {
     color: #bbb;
     text-decoration: none;
     margin: 0 10px;
     font-weight: 500;
-    justify-items: center;
-}
-
+    justify-items: center;}
 .switches a:hover {
-    background-color: lightblue;
-}
-
-/* Jo language active hai uska color bright dikhane ke liye */
+    background-color: lightblue;}
 .switches a.active {
     color: blue;
-    font-weight: bold;
-}
-
+    font-weight: bold;}
 .content {
     padding: 50px;
     text-align: center;
 }
-/*top nav bar with logo*/
-
-        /* --- Header Styling --- */
         .header {
             display: flex;
             align-items: center;
@@ -380,78 +281,56 @@ body {
             top: 0;
             z-index: 100;
         }
-
-      
-
         #menu-toggle {
             display: none; 
         }
-
-
-        .hamburger {
+       .hamburger {
             cursor: pointer;
             z-index: 101;
             display: flex;
             flex-direction: column;
             gap: 5px;
         }
-
-        .hamburger span {
+  .hamburger span {
             display: block;
             width: 25px;
             height: 3px;
             background: #333;
             border-radius: 2px;
-            transition: 0.3s ease;
-        }
-
-        /* --- Side Menu Styling --- */
+            transition: 0.3s ease;   }
         .side-menu {
             position: fixed;
             top: 0;
-            left: -100%; /* Shuru mein screen se bahar */
+            left: -100%; 
             width: 280px;
             height: 100%;
             background: #fff;
             box-shadow: 5px 0 15px rgba(0,0,0,0.1);
-            transition: 0.4s ease-in-out;
+           transition: 0.4s ease-in-out;
             padding-top: 80px;
-            z-index: 99;
-        }
-
-        .side-menu a {
+            z-index: 99; }
+.side-menu a {
             display: block;
             padding: 15px 25px;
             text-decoration: none;
             color: #333;
             font-weight: bold;
-            border-bottom: 1px solid #eee;
-        }
-
-        .side-menu a:hover {
+            border-bottom: 1px solid #eee; }
+       .side-menu a:hover {
             background: #f9f9f9;
-            color: #ed1c24; /* ET Red color */
+            color: #ed1c24;
         }
-
-        /* --- Animations (Jab Click ho) --- */
-        
-        /* 1. Menu ko andar lana */
         #menu-toggle:checked ~ .side-menu {
             left: 0;
         }
-
-        /* 2. Hamburger ko 'X' banana */
         #menu-toggle:checked ~ .header .hamburger span:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
-        }
+            transform: translateY(8px) rotate(45deg); }
         #menu-toggle:checked ~ .header .hamburger span:nth-child(2) {
             opacity: 0;
         }
         #menu-toggle:checked ~ .header .hamburger span:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
         }
-
-        /* Overlay background jab menu khule */
         .overlay {
             display: none;
             position: fixed;
@@ -466,14 +345,10 @@ body {
             display: block;
         }
 
-/*faq style */
-
-    /* Accordion Styling */
     .faq-item {
         border-bottom: 1px solid #d1d8e0;
         margin-bottom: 10px;
     }
-
     .faq-question {
         background-color: #ffffff;
         color: #2c3e50;
@@ -490,24 +365,20 @@ body {
         justify-content: space-between;
         align-items: center;
     }
-
-    .faq-question:after {
+  .faq-question:after {
         content: '\002B'; /* Plus symbol (+) */
         color: #1a5f7a;
         font-weight: bold;
         float: right;
         margin-left: 5px;
     }
-
-    .active:after {
-        content: "\2212"; /* Minus symbol (-) */
+ .active:after {
+        content: "\2212";
     }
-
-    .faq-question:hover, .active {
+  .faq-question:hover, .active {
         background-color: #ebf5fb;
         color: #1a5f7a;
     }
-
     .faq-answer {
         padding: 0 18px;
         background-color: white;
@@ -515,21 +386,18 @@ body {
         overflow: hidden;
         transition: max-height 0.3s ease-out;
     }
-
-    .faq-answer p {
+ .faq-answer p {
         padding: 15px 0;
         margin: 0;
         color: #555;
     }
-
-/*newsletter */
  .newsletter-container {
-        background-color: #1a5f7a; /* Aapki site ke blue se milta julta */
+        background-color: #1a5f7a; 
         color: white;
         padding: 40px 20px;
         text-align: center;
         margin: 40px 0;
-        border-radius: 10px; /* Cards ki tarah rounded corners */
+        border-radius: 10px;
     }
     .newsletter-content h3 { font-size: 24px; margin-bottom: 10px; }
     .newsletter-content p { font-size: 16px; margin-bottom: 20px; opacity: 0.9; }
@@ -547,7 +415,7 @@ body {
         font-size: 16px;
     }
     .news-form button {
-        background-color: #ffcc00; /* Yellow button dhyan khinchne ke liye */
+        background-color: #ffcc00; 
         color: #333;
         padding: 12px 25px;
         border: none;
@@ -570,8 +438,6 @@ body {
             padding: 10px;
             border-radius: 50%;
         }
-
-        /* --- Full Screen Overlay --- */
         #search-overlay {
             position: fixed;
             top: 0;
@@ -585,7 +451,6 @@ body {
             align-items: center;
             padding-top: 80px;
         }
-
         .close-btn {
             position: absolute;
             top: 20px;
@@ -593,16 +458,13 @@ body {
             font-size: 40px;
             cursor: pointer;
             color: #333;
-        }
-
-        /* --- Search Input --- */
+        }   
         .search-input-container {
             width: 80%;
             max-width: 600px;
             position: relative;
         }
-
-        #main-search {
+       #main-search {
             width: 100%;
             padding: 15px;
             font-size: 22px;
@@ -610,8 +472,6 @@ body {
             border-bottom: 3px solid #ed1c24;
             outline: none;
         }
-
-        /* --- Suggestions List --- */
         #suggestions-list {
             width: 100%;
             max-width: 600px;
@@ -621,7 +481,6 @@ body {
             border: 1px solid #eee;
             display: block; /* Khali hone par hidden */
         }
-
         #suggestions-list li a {
             display: inline-block;
             padding: 15px;
@@ -629,7 +488,6 @@ body {
             color: #333;
             border-bottom: 1px solid #f9f9f9;
         }
-
         #suggestions-list li a:hover {
             background: #f1f1f1;
             color: #ed1c24;
@@ -641,7 +499,6 @@ font-family: Arial;
 text-align:center;
 background:#f4f4f4;
 }
-
 #quizBox{
 width:90%;
 max-width:600px;
@@ -652,15 +509,12 @@ margin-top:30px;
 border-radius:10px;
 box-shadow:0 0 10px gray;
 }
-
 button{
 padding:10px 20px;
 font-size:16px;
 margin-top:15px;
 cursor:pointer;
-}
-
-#options button{
+}#options button{
     display: block;
   width: 100%;
   margin: 10px 0;
@@ -681,11 +535,9 @@ cursor:pointer;
   border-color: #4f46e5;
   transform: scale(1.02);
   box-shadow: 0 6px 18px rgba(59, 130, 246, 0.3);
-    
-}
+    }
 #options button:active {
-  transform: scale(0.98);
-}
+  transform: scale(0.98);}
 .next-btn {
   width: 100%;
   padding: 14px;
@@ -698,14 +550,10 @@ cursor:pointer;
   cursor: pointer;
   transition: all 0.25s ease;
 }
-
-/* Hover */
 .next-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
 }
-
-/* Click */
 .next-btn:active {
   transform: scale(0.98);
   background:#467D50E3;
@@ -717,9 +565,7 @@ cursor:pointer;
   gap: 10px;
   padding: 20px;
   width: 90%;
-  justify-content: center;
-  
-}
+  justify-content: center;}
 .notice{
      border: 5px solid ;
      border-image: linear-gradient(45deg, gold, deepskyblue, pink, red) 1;
