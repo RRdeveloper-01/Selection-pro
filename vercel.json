@@ -1,20 +1,4 @@
 {
-  "cleanUrls": true,
-  "redirects": [
-    { "source": "/jeeyear(.html)?", "destination": "/jeemains-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/advancedyear(.html)?", "destination": "/jeeadvanced-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/cuetyear(.html)?", "destination": "/cuetug-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/gatyear(.html)?", "destination": "/Gate-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/neet(.html)?", "destination": "/neet-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/aiims(.html)?", "destination": "/aiims-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/jipmer(.html)?", "destination": "/jipmer-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/ssccgl(.html)?", "destination": "/ssccgl-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/sscchsl(.html)?", "destination": "/sscchsl-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/rbi(.html)?", "destination": "/rbi-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/sbiclerk(.html)?", "destination": "/sbiclerk-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/rrb(.html)?", "destination": "/rrb-strategy-plan-and-pyqs", "permanent": true },
-    { "source": "/ibpspo(.html)?", "destination": "/ibpspo-strategy-plan-and-pyqs", "permanent": true }
-  ],
   "headers": [
     {
       "source": "/(.*).(js|css)",
