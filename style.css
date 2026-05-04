@@ -108,12 +108,10 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 30vw;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 2px lightblue;
     height: 10vh;
-    
-
-  /*  aspect-ratio: 1/1; */
-    
     background-color: #FFFFFF;
     color: #333333;
     text-decoration: none;
@@ -123,10 +121,11 @@ body {
     padding: 10px;
     box-sizing: border-box;
     transition: 0.3s;
+
 }
 .jee:hover {
-    background-color: #CC5500;
-    transform: scale(1.32); }
+    background-color: rgba(89, 228, 70, 1);
+    transform: scale(1.1); }
 #exam{
     background: #FFE5B4;
     color: #CC5500;}
