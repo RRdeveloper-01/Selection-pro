@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The standard reduction potentials of Cu²⁺/Cu and Cu²⁺/Cu⁺ are 0.337 V and 0.153 V respectively. The standard electrode potential of Cu⁺/Cu half-cell is:",
+    "options": {
+      "A": "0.184 V",
+      "B": "0.490 V",
+      "C": "0.521 V",
+      "D": "0.306 V"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 2,
+    "question": "For the cell reaction: 2Fe³⁺(aq) + 2I⁻(aq) → 2Fe²⁺(aq) + I₂(s), the standard cell potential E°_cell is found to be 0.24 V at 298 K. The standard Gibbs energy change (ΔG°) for the cell reaction is: (F = 96500 C mol⁻¹)",
+    "options": {
+      "A": "-46.32 kJ/mol",
+      "B": "-23.16 kJ/mol",
+      "C": "+46.32 kJ/mol",
+      "D": "-92.64 kJ/mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The molar conductivity of a 0.05 M BaCl₂ solution at 25°C is 220 S cm² mol⁻¹. Its conductivity (κ) is:",
+    "options": {
+      "A": "0.011 S cm⁻¹",
+      "B": "0.110 S cm⁻¹",
+      "C": "0.0011 S cm⁻¹",
+      "D": "1.100 S cm⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "An aqueous solution of CuSO₄ is electrolyzed for 10 minutes with a current of 1.5 amperes. The mass of copper deposited at the cathode is: (Atomic mass of Cu = 63.5 g/mol)",
+    "options": {
+      "A": "0.296 g",
+      "B": "0.592 g",
+      "C": "0.148 g",
+      "D": "1.184 g"
+    },
+    "answer": "A"
+  },
+{ "question_no": 5,
+    "question": "The equilibrium constant K_c for the cell reaction: Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s) is related to E°_cell at 298 K by the expression:",
+    "options": {
+      "A": "log K_c = 2E°_cell / 0.0591",
+      "B": "log K_c = E°_cell / 0.0591",
+      "C": "log K_c = -2E°_cell / 0.0591",
+      "D": "log K_c = 0.0591 / 2E°_cell"
+    },
+    "answer": "A"
+  },
+
+  {
+    "question_no": 6,
+    "question": "The variation of molar conductivity (Λ_m) with concentration (c) for a strong electrolyte like KCl is correctly represented by the equation:",
+    "options": {
+      "A": "Λ_m = Λ°_m - A√c",
+      "B": "Λ_m = Λ°_m + A√c",
+      "C": "Λ_m = Λ°_m - Ac",
+      "D": "Λ_m = Λ°_m / (1 + Ac)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "A hydrogen gas electrode is made by dipping platinum wire in a solution of HCl of pH = 3 and passing hydrogen gas at 1 atm. The oxidation potential of the electrode at 298 K will be:",
+    "options": {
+      "A": "0.177 V",
+      "B": "-0.177 V",
+      "C": "0.059 V",
+      "D": "-0.059 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "In the electrolysis of dilute H₂SO₄ using platinum electrodes, the product obtained at the anode is:",
+    "options": {
+      "A": "O₂ gas",
+      "B": "H₂ gas",
+      "C": "SO₂ gas",
+      "D": "H₂S gas"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The equilibrium constant K_c for the cell reaction: Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s) is related to E°_cell at 298 K by the expression:",
+    "options": {
+      "A": "log K_c = 2E°_cell / 0.0591",
+      "B": "log K_c = E°_cell / 0.0591",
+      "C": "log K_c = -2E°_cell / 0.0591",
+      "D": "log K_c = 0.0591 / 2E°_cell"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "During the charging of a lead storage battery:",
+    "options": {
+      "A": "PbSO₄ on anode is converted into PbO₂ and PbSO₄ on cathode is converted into Pb",
+      "B": "PbSO₄ on cathode is converted into PbO₂ and PbSO₄ on anode is converted into Pb",
+      "C": "H₂SO₄ is consumed",
+      "D": "PbO₂ is dissolved"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 11,
+    "question": "Given that E°(Fe²⁺/Fe) = -0.44 V and E°(Fe³⁺/Fe²⁺) = 0.77 V. The E°(Fe³⁺/Fe) will be:",
+    "options": {
+      "A": "-0.036 V",
+      "B": "0.33 V",
+      "C": "0.11 V",
+      "D": "-0.11 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The cell constant of a conductivity cell is 0.5 cm⁻¹. A 0.1 M solution of an electrolyte offered a resistance of 50 ohms in this cell. The molar conductivity of the solution is:",
+    "options": {
+      "A": "100 S cm² mol⁻¹",
+      "B": "10 S cm² mol⁻¹",
+      "C": "1000 S cm² mol⁻¹",
+      "D": "50 S cm² mol⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following expressions correctly represents the Nernst equation for the half-cell reaction: M^n+(aq) + ne⁻ → M(s)?",
+    "options": {
+      "A": "E = E° - (RT/nF) ln(1/[M^n+])",
+      "B": "E = E° + (RT/nF) ln(1/[M^n+])",
+      "C": "E = E° - (RT/nF) ln([M^n+])",
+      "D": "E = E° + (nF/RT) ln([M^n+])"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "How many Faradays of electricity are required to reduce 1 mole of MnO₄⁻ ions to Mn²⁺ in acidic medium?",
+    "options": {
+      "A": "5 F",
+      "B": "1 F",
+      "C": "3 F",
+      "D": "2 F"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The efficiency of a fuel cell is given by the relation:",
+    "options": {
+      "A": "ΔG / ΔH",
+      "B": "ΔH / ΔG",
+      "C": "ΔG / ΔS",
+      "D": "ΔS / ΔH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If the specific conductivity of a saturated solution of AgCl is κ and its limiting molar conductivity is Λ°_m, then its solubility product K_sp can be calculated as:",
+    "options": {
+      "A": "(1000 κ / Λ°_m)²",
+      "B": "1000 κ / Λ°_m",
+      "C": "(κ / 1000 Λ°_m)²",
+      "D": "κ × Λ°_m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "A concentration cell is constructed by dipping two silver electrodes in two solutions of AgNO₃ with concentrations 0.1 M and 0.01 M. The cell potential at 298 K will be:",
+    "options": {
+      "A": "0.0591 V",
+      "B": "0.1182 V",
+      "C": "0.0295 V",
+      "D": "0 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following factors does not affect the electrolytic conduction of a solution?",
+    "options": {
+      "A": "Length of the wire connecting the electrodes",
+      "B": "Nature of the electrolyte",
+      "C": "Size of the ions produced and their solvation",
+      "D": "Temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The rust on iron is a hydrated oxide chemically represented as:",
+    "options": {
+      "A": "Fe₂O₃ · xH₂O",
+      "B": "FeO · xH₂O",
+      "C": "Fe₃O₄ · xH₂O",
+      "D": "Fe(OH)₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "When the same quantity of electricity is passed through solutions of different electrolytes, the masses of substances liberated are proportional to their chemical equivalent weights. This is statement of:",
+    "options": {
+      "A": "Faraday's Second Law of Electrolysis",
+      "B": "Faraday's First Law of Electrolysis",
+      "C": "Ohm's Law",
+      "D": "Kohlrausch's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The standard reduction potentials of elements P, Q, and R are +0.5 V, -3.0 V, and -1.2 V respectively. The reducing power of these elements follows the order:",
+    "options": {
+      "A": "Q > R > P",
+      "B": "P > R > Q",
+      "C": "R > Q > P",
+      "D": "Q > P > R"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "On dilution, the specific conductivity (κ) of an electrolytic solution:",
+    "options": {
+      "A": "Decreases because the number of ions per unit volume decreases",
+      "B": "Increases because total number of ions increases",
+      "C": "Remains constant",
+      "D": "First increases then decreases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The degree of dissociation (α) of a weak electrolyte can be calculated using molar conductivities as:",
+    "options": {
+      "A": "Λ_m / Λ°_m",
+      "B": "Λ°_m / Λ_m",
+      "C": "Λ_m × Λ°_m",
+      "D": "1 - (Λ_m / Λ°_m)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The device used to convert the chemical energy of spontaneous redox reactions directly into electrical energy is called:",
+    "options": {
+      "A": "Galvanic cell",
+      "B": "Electrolytic cell",
+      "C": "Voltmeter",
+      "D": "Ammeter"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The standard potential E° for the cell reaction involves 2 electrons. If the equilibrium constant for the reaction is 10⁴, the value of E°_cell at 298 K is closest to:",
+    "options": {
+      "A": "0.118 V",
+      "B": "0.059 V",
+      "C": "0.236 V",
+      "D": "0.590 V"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "An electrochemistry experiment uses a salt bridge to connect two half-cells. The primary function of the salt bridge is to:",
+    "options": {
+      "A": "Maintain electrical neutrality in both compartments",
+      "B": "Increase the voltage of the cell",
+      "C": "Prevent electrons from moving directly through the solution",
+      "D": "Mix the two electrolytic solutions"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "What is the n-factor for the oxidation of primary alcohol (R-CH₂OH) to carboxylic acid (R-COOH) in an electrochemical synthesis?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The limiting molar conductivities for NaCl, HCl, and CH₃COONa are 126.4, 425.9, and 91.0 S cm² mol⁻¹ respectively. The Λ°_m for CH₃COOH is:",
+    "options": {
+      "A": "390.5 S cm² mol⁻¹",
+      "B": "461.3 S cm² mol⁻¹",
+      "C": "208.5 S cm² mol⁻¹",
+      "D": "516.9 S cm² mol⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "For a cell reaction to be spontaneous at standard conditions, which criteria must be satisfied?",
+    "options": {
+      "A": "E°_cell > 0, ΔG° < 0",
+      "B": "E°_cell < 0, ΔG° > 0",
+      "C": "E°_cell > 0, ΔG° > 0",
+      "D": "E°_cell = 0, ΔG° = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The amount of chlorine gas liberated by passing 2 A current for 1 hour through molten NaCl is: (Atomic mass of Cl = 35.5 g/mol)",
+    "options": {
+      "A": "2.65 g",
+      "B": "5.30 g",
+      "C": "1.32 g",
+      "D": "10.60 g"
+    },
+    "answer": "A"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "A 0.002 M aqueous solution of an ionic compound [Co(NH₃)₅(NO₂)]Cl freezes at -0.00732°C. Number of moles of ions which 1 mol of ionic compound produces on being dissolved in water will be: (K_f of water = 1.86 K kg mol⁻¹)",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "An ideal solution is formed by mixing two volatile liquids A and B. If the total vapor pressure of the solution is given by P_total = 120 + 80X_A (in mm Hg), then the vapor pressures of pure liquids A and B respectively are:",
+    "options": {
+      "A": "200 mm Hg, 120 mm Hg",
+      "B": "120 mm Hg, 200 mm Hg",
+      "C": "80 mm Hg, 120 mm Hg",
+      "D": "120 mm Hg, 80 mm Hg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following liquid pairs will show a maximum boiling azeotrope (negative deviation from Raoult's Law)?",
+    "options": {
+      "A": "HNO₃ + H₂O",
+      "B": "Ethanol + Water",
+      "C": "Benzene + Toluene",
+      "D": "Carbon tetrachloride + Chloroform"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The osmotic pressure of a solution containing 4.0 g of a protein in 300 mL of solution is 1.2 × 10⁻³ atm at 300 K. The molecular mass of the protein is: (R = 0.0821 L atm K⁻¹ mol⁻¹)",
+    "options": {
+      "A": "2.73 × 10⁵ g/mol",
+      "B": "1.36 × 10⁵ g/mol",
+      "C": "5.46 × 10⁴ g/mol",
+      "D": "3.12 × 10⁵ g/mol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The Van't Hoff factor (i) for a dilute aqueous solution of K₄[Fe(CN)₆] with 75% dissociation is:",
+    "options": {
+      "A": "4.0",
+      "B": "3.25",
+      "C": "4.75",
+      "D": "5.0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "A mixture of ethyl alcohol and propyl alcohol has a vapor pressure of 290 mm Hg at 300 K. The vapor pressure of pure propyl alcohol is 200 mm Hg. If the mole fraction of ethyl alcohol is 0.6, its vapor pressure in pure state will be:",
+    "options": {
+      "A": "350 mm Hg",
+      "B": "300 mm Hg",
+      "C": "400 mm Hg",
+      "D": "250 mm Hg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "If the elevation in boiling point of a 1 M aqueous solution of a non-volatile solute is ΔT_b, then the depression in freezing point (ΔT_f) of the same solution (assuming density of solution ≈ 1 g/mL) will be:",
+    "options": {
+      "A": "ΔT_b × (K_f / K_b)",
+      "B": "ΔT_b × (K_b / K_f)",
+      "C": "ΔT_b",
+      "D": "Cannot be determined"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "According to Henry's law, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas. The unit of Henry's law constant K_H when expressed in terms of mole fraction is:",
+    "options": {
+      "A": "atm",
+      "B": "atm⁻¹",
+      "C": "mol L⁻¹",
+      "D": "Dimensionless"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Benzoic acid undergoes dimerization in benzene. If the degree of association is 80%, the Van't Hoff factor (i) will be:",
+    "options": {
+      "A": "0.6",
+      "B": "0.4",
+      "C": "1.4",
+      "D": "0.8"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Two liquids X and Y form an ideal solution. At 300 K, vapor pressure of the solution containing 1 mol of X and 3 mol of Y is 550 mm Hg. When 1 mol of Y is further added to this solution, the vapor pressure increases by 10 mm Hg. The vapor pressure of pure X is:",
+    "options": {
+      "A": "400 mm Hg",
+      "B": "600 mm Hg",
+      "C": "500 mm Hg",
+      "D": "300 mm Hg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The vapor pressure of water at 20°C is 17.5 mm Hg. When 18 g of glucose is dissolved in 178.2 g of water at 20°C, the vapor pressure of the resulting solution will be:",
+    "options": {
+      "A": "17.325 mm Hg",
+      "B": "15.750 mm Hg",
+      "C": "16.500 mm Hg",
+      "D": "17.475 mm Hg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "For a non-ideal solution showing positive deviation from Raoult's law, which condition is correct?",
+    "options": {
+      "A": "ΔH_mixing > 0, ΔV_mixing > 0",
+      "B": "ΔH_mixing < 0, ΔV_mixing < 0",
+      "C": "ΔH_mixing > 0, ΔV_mixing < 0",
+      "D": "ΔH_mixing = 0, ΔV_mixing = 0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Among 0.1 M aqueous solutions of the following species, which one will exhibit the largest freezing point depression?",
+    "options": {
+      "A": "Al₂(SO₄)₃",
+      "B": "K₂SO₄",
+      "C": "NaCl",
+      "D": "Glucose"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The molal elevation constant (K_b) of a solvent depends upon:",
+    "options": {
+      "A": "Nature of the solvent",
+      "B": "Nature of the solute",
+      "C": "Enthalpy of solution",
+      "D": "Concentration of solute"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Equal volumes of 0.1 M Urea and 0.1 M Sucrose solutions are mixed. The osmotic pressure of the mixture will be:",
+    "options": {
+      "A": "Same as that of individual solutions",
+      "B": "Double of individual solutions",
+      "C": "Half of individual solutions",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "An aqueous solution of a non-volatile solute boils at 100.15°C. What is its freezing point? (K_b = 0.512 K kg mol⁻¹, K_f = 1.86 K kg mol⁻¹)",
+    "options": {
+      "A": "-0.545°C",
+      "B": "-0.150°C",
+      "C": "-0.322°C",
+      "D": "-1.860°C"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Consider separate solutions of 0.500 M C₂H₅OH(aq), 0.100 M Mg₃(PO₄)₂(aq), 0.250 M KBr(aq) and 0.125 M Na₃PO₄(aq) at 25°C. Which statement is true?",
+    "options": {
+      "A": "All solutions have the same osmotic pressure",
+      "B": "0.100 M Mg₃(PO₄)₂ has the highest osmotic pressure",
+      "C": "0.500 M C₂H₅OH has the highest osmotic pressure",
+      "D": "0.250 M KBr has the highest osmotic pressure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "If pressure is applied greater than the osmotic pressure on the solution side, the solvent starts flowing from solution to pure solvent. This process is called:",
+    "options": {
+      "A": "Reverse osmosis",
+      "B": "Dialysis",
+      "C": "Forward osmosis",
+      "D": "Electro-osmosis"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The vapor pressure of a pure liquid A is 40 mm Hg at 310 K. It forms an ideal solution with another liquid B. The mole fraction of B is 0.5 and total vapor pressure of the solution is 60 mm Hg. The vapor pressure of pure B at this temperature is:",
+    "options": {
+      "A": "80 mm Hg",
+      "B": "100 mm Hg",
+      "C": "60 mm Hg",
+      "D": "120 mm Hg"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "The boiling point of an azeotropic mixture of water and ethanol is less than that of both water and ethanol. This mixture shows:",
+    "options": {
+      "A": "Positive deviation from Raoult's Law",
+      "B": "Negative deviation from Raoult's Law",
+      "C": "Ideal behavior",
+      "D": "No relation with Raoult's Law"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The molality of a 10% (w/w) aqueous solution of NaOH is:",
+    "options": {
+      "A": "2.77 m",
+      "B": "2.5 m",
+      "C": "5.0 m",
+      "D": "1.0 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "At higher altitudes, the boiling point of water decreases because:",
+    "options": {
+      "A": "Atmospheric pressure is low",
+      "B": "Atmospheric pressure is high",
+      "C": "Temperature is low",
+      "D": "Water molecule associates"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Which concentration term is independent of temperature?",
+    "options": {
+      "A": "Molality and Mole fraction",
+      "B": "Molarity",
+      "C": "Normality",
+      "D": "Formality"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The relative lowering of vapor pressure of an aqueous solution containing a non-volatile solute is 0.0125. The molality of the solution is:",
+    "options": {
+      "A": "0.70 m",
+      "B": "0.50 m",
+      "C": "0.90 m",
+      "D": "1.25 m"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The relationship between Van't Hoff factor (i) and degree of association (α) for a solute that forms a trimer is:",
+    "options": {
+      "A": "i = 1 - (2/3)α",
+      "B": "i = 1 + 2α",
+      "C": "i = 1 - 2α",
+      "D": "i = 1 - (1/3)α"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "When a non-volatile solute is added to a solvent, which of the following is observed?",
+    "options": {
+      "A": "Vapor pressure decreases, Boiling point increases",
+      "B": "Vapor pressure increases, Freeing point decreases",
+      "C": "Vapor pressure decreases, Freezing point increases",
+      "D": "Vapor pressure increases, Boiling point increases"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "An unripe mango placed in a concentrated salt solution shrivels because:",
+    "options": {
+      "A": "It loses water due to osmosis",
+      "B": "It gains salt due to osmosis",
+      "C": "It absorbs water from the solution",
+      "D": "The salt dissolves its skin"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "A solution of CaCl₂ has a Van't Hoff factor of 2.45. The degree of dissociation of CaCl₂ is:",
+    "options": {
+      "A": "72.5%",
+      "B": "45%",
+      "C": "90%",
+      "D": "50%"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The Henry's law constant (K_H) for three gases X, Y, and Z in water are 25 kbar, 0.5 kbar, and 40 kbar respectively at 298 K. The correct order of their solubility is:",
+    "options": {
+      "A": "Y > X > Z",
+      "B": "Z > X > Y",
+      "C": "X > Y > Z",
+      "D": "Y > Z > X"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Vapor pressure of pure benzene is 100 mm Hg. A solution containing 10 g of a non-volatile solute in 180 g of benzene has a vapor pressure of 90 mm Hg. The molar mass of the solute is: (Molar mass of benzene = 78 g/mol)",
+    "options": {
+      "A": "39 g/mol",
+      "B": "78 g/mol",
+      "C": "10 g/mol",
+      "D": "115 g/mol"
+    },
+    "answer": "A"
+  }
+]

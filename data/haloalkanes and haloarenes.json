@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following alkyl halides will undergo S_N1 reaction most rapidly?",
+    "options": {
+      "A": "(CH₃)₃C-Cl",
+      "B": "(CH₃)₂CH-Cl",
+      "C": "CH₃CH₂CH₂-Cl",
+      "D": "CH₃-Cl"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The correct order of reactivity of various alkyl halides towards S_N2 reaction is:",
+    "options": {
+      "A": "Primary > Secondary > Tertiary",
+      "B": "Tertiary > Secondary > Primary",
+      "C": "Secondary > Primary > Tertiary",
+      "D": "Primary > Tertiary > Secondary"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "An S_N2 reaction at an asymmetric carbon atom of a dextrorotatory alkyl halide always gives a product which is:",
+    "options": {
+      "A": "Inverted in configuration (Walden Inversion)",
+      "B": "Retained in configuration",
+      "C": "A racemic mixture",
+      "D": "Optically inactive"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following compounds will not undergo nucleophilic aromatic substitution (ArS_N) easily under normal conditions?",
+    "options": {
+      "A": "Chlorobenzene",
+      "B": "p-Nitrochlorobenzene",
+      "C": "2,4-Dinitrochlorobenzene",
+      "D": "2,4,6-Trinitrochlorobenzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "When 2-bromobutane is treated with hot alcoholic KOH, the major product formed is trans-2-butene. This reaction follows:",
+    "options": {
+      "A": "Saytzeff's rule via E2 mechanism",
+      "B": "Hofmann's rule via E1 mechanism",
+      "C": "Saytzeff's rule via E1 mechanism",
+      "D": "Hofmann's rule via E2 mechanism"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The synthesis of alkyl fluorides is best accomplished by heating an alkyl chloride/bromide in the presence of metallic fluorides like AgF or SbF₃. This reaction is known as:",
+    "options": {
+      "A": "Swarts reaction",
+      "B": "Finkelstein reaction",
+      "C": "Wurtz reaction",
+      "D": "Sandmeyer reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following statements is true regarding a racemic mixture?",
+    "options": {
+      "A": "It shows zero optical rotation due to external compensation",
+      "B": "It shows zero optical rotation due to internal compensation",
+      "C": "It consists of unequal amounts of enantiomers",
+      "D": "It can never be resolved into pure enantiomers"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "When a solution of alkyl halide in dry ether is treated with Magnesium metal, it forms a highly reactive organometallic compound known as:",
+    "options": {
+      "A": "Grignard Reagent (RMgX)",
+      "B": "Frankland Reagent (R₂Zn)",
+      "C": "Gilman Reagent (R₂CuLi)",
+      "D": "Wurtz complex"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Chlorobenzene on reaction with sodium metal in dry ether gives diphenyl. This reaction is called:",
+    "options": {
+      "A": "Fittig reaction",
+      "B": "Wurtz-Fittig reaction",
+      "C": "Wurtz reaction",
+      "D": "Ullmann reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which among the following compounds possesses a chiral center and can exist as a pair of enantiomers?",
+    "options": {
+      "A": "2-Chlorobutane",
+      "B": "1-Chlorobutane",
+      "C": "2-Chloropropane",
+      "D": "2-Methyl-2-chloropropane"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "What happens when chloroform (CHCl₃) is exposed to light and air for a long time?",
+    "options": {
+      "A": "It oxidizes to form a highly poisonous gas, Phosgene (COCl₂)",
+      "B": "It reduces to Methylene chloride",
+      "C": "It polymerizes to Carbon tetrachloride",
+      "D": "It decomposes into Chlorine gas and Carbon monoxide"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "The relative rate of solvolysis (S_N1) of allyl chloride compared to n-propyl chloride is:",
+    "options": {
+      "A": "Much higher because the allylic carbocation is resonance stabilized",
+      "B": "Lower due to steric hindrance",
+      "C": "Exactly equal",
+      "D": "Lower because allyl group is electron withdrawing"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "In an S_N2 reaction, polar aprotic solvents (like DMSO, Acetone, DMF) are preferred because they:",
+    "options": {
+      "A": "Solvate the cations but leave the nucleophile naked and highly reactive",
+      "B": "Solvate the nucleophile heavily",
+      "C": "Lower the activation energy by stabilizing the transition state via hydrogen bonding",
+      "D": "Inhibit elimination reactions completely"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following compounds will give a positive test with AgNO₃ solution immediately at room temperature?",
+    "options": {
+      "A": "Benzyl chloride",
+      "B": "Chlorobenzene",
+      "C": "Vinyl chloride",
+      "D": "Bromobenzene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "When enantiomers are separated from a racemic mixture, the process is called:",
+    "options": {
+      "A": "Resolution",
+      "B": "Racemization",
+      "C": "Inversion",
+      "D": "Retention"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The major product of the reaction between neopentyl bromide and ethanol under S_N1 solvolysis conditions involves a skeletal rearrangement. The intermediate carbocation rearranges via:",
+    "options": {
+      "A": "1,2-Methyl shift",
+      "B": "1,2-Hydride shift",
+      "C": "1,3-Methyl shift",
+      "D": "Ring expansion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following compounds has the highest dipole moment?",
+    "options": {
+      "A": "CH₂Cl₂",
+      "B": "CHCl₃",
+      "C": "CCl₄",
+      "D": "CH₃Cl"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 18,
+    "question": "The treatment of alkyl iodides with sodium iodide in dry acetone to prepare alkyl iodides from chlorides/bromides is called:",
+    "options": {
+      "A": "Finkelstein reaction",
+      "B": "Swarts reaction",
+      "C": "Wurtz reaction",
+      "D": "Kolbe's reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Haloarenes are less reactive towards nucleophilic substitution reactions than haloalkanes due to:",
+    "options": {
+      "A": "Resonance stabilization creating a partial double bond character in C-X bond",
+      "B": "sp² hybridization of the carbon attached to halogen",
+      "C": "Instability of the phenyl cation if formed",
+      "D": "All of the above"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 20,
+    "question": "When 2-chloro-2-methylbutane is treated with a very bulky base like potassium tert-butoxide, the major elimination product formed is 2-methyl-1-butene. This exception to Saytzeff's rule is known as:",
+    "options": {
+      "A": "Hofmann Elimination Product",
+      "B": "Saytzeff Overriding Product",
+      "C": "Markovnikov Elimination Product",
+      "D": "Anti-Saytzeff equilibrium"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The substitution of chlorine from chlorobenzene by -OH group requires drastic conditions (300 atm, 623 K). However, if an electron-withdrawing group (-NO₂) is present at para position, the reaction occurs easily because:",
+    "options": {
+      "A": "-NO₂ stabilizes the intermediate carbanion by resonance",
+      "B": "-NO₂ destabilizes the transition state",
+      "C": "-NO₂ group acts as a good leaving group",
+      "D": "-NO₂ group increases electron density on benzene ring"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "What is the correct order of leaving group ability for the halide ions?",
+    "options": {
+      "A": "I⁻ > Br⁻ > Cl⁻ > F⁻",
+      "B": "F⁻ > Cl⁻ > Br⁻ > I⁻",
+      "C": "I⁻ > Cl⁻ > Br⁻ > F⁻",
+      "D": "Br⁻ > I⁻ > Cl⁻ > F⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Ambident nucleophiles are those which possess:",
+    "options": {
+      "A": "Two distinct nucleophilic centers through which they can attack",
+      "B": "Only one lone pair of electrons",
+      "C": "A positive charge along with a negative charge",
+      "D": "Chiral centers within the structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Alkyl halides are immiscible in water though they are polar molecules because:",
+    "options": {
+      "A": "They cannot form hydrogen bonds with water molecules",
+      "B": "The C-X bond is too stable to break",
+      "C": "They react instantly with water to form alcohols",
+      "D": "Their density is always lower than water"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Which statement is incorrect regarding the S_N1 mechanism?",
+    "options": {
+      "A": "The rate of reaction depends on the concentration of the nucleophile.",
+      "B": "It involves a two-step process with a carbocation intermediate.",
+      "C": "It is favored by polar protic solvents.",
+      "D": "It usually leads to partial or complete racemization."
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "When ethyl bromide reacts with aqueous KOH, it forms ethanol, but when it reacts with alcoholic KOH, it forms ethene. The role of alcoholic KOH is primarily as a:",
+    "options": {
+      "A": "Strong Base promoting elimination",
+      "B": "Strong Nucleophile promoting substitution",
+      "C": "Reducing agent",
+      "D": "Oxidizing agent"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "An organic compound X reacts with KCN to give a nitrile, but with AgCN it gives an isocyanide as the major product. This is because:",
+    "options": {
+      "A": "KCN is ionic, so C attacks; AgCN is predominantly covalent, so N attacks with its lone pair",
+      "B": "AgCN is ionic and KCN is covalent",
+      "C": "Nitrogen is a better leaving group than carbon",
+      "D": "Silver coordinates with alkyl group directly"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The reaction of an alkyl halide with sodium alkoxide (R-ONa) to form an ether is a classic synthetic method known as:",
+    "options": {
+      "A": "Williamson Synthesis",
+      "B": "Kolbe's Electrolysis",
+      "C": "Friedel-Crafts Alkylation",
+      "D": "Reimer-Tiemann Reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following compounds will exhibit the highest boiling point?",
+    "options": {
+      "A": "CH₃CH₂CH₂CH₂Br",
+      "B": "(CH₃)₂CHCH₂Br",
+      "C": "(CH₃)₃CBr",
+      "D": "CH₃CH₂CH(Br)CH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The structural feature 'Meso compound' refers to a molecule that contains chiral centers but is:",
+    "options": {
+      "A": "Achiral/Optically inactive due to an internal plane of symmetry",
+      "B": "Optically active due to absence of symmetry",
+      "C": "Always a liquid at room temperature",
+      "D": "Capable of turning plane-polarized light clockwise only"
+    },
+    "answer": "A"
+  }
+]

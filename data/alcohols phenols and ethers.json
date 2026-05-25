@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following alcohols will react fastest with Lucas reagent (conc. HCl + anhyd. ZnCl₂) at room temperature?",
+    "options": {
+      "A": "2-Methylpropan-2-ol",
+      "B": "Propan-2-ol",
+      "C": "Butan-1-ol",
+      "D": "2-Methylpropan-1-ol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The correct increasing order of acidic strength among the following compounds is:",
+    "options": {
+      "A": "Ethanol < Phenol < p-Nitrophenol < 2,4,6-Trinitrophenol",
+      "B": "Ethanol < p-Nitrophenol < Phenol < 2,4,6-Trinitrophenol",
+      "C": "2,4,6-Trinitrophenol < p-Nitrophenol < Phenol < Ethanol",
+      "D": "Phenol < Ethanol < p-Nitrophenol < 2,4,6-Trinitrophenol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "When Phenol is treated with Chloroform in the presence of aqueous NaOH followed by acidification, salicylaldehyde is formed. The active electrophile involved in this Reimer-Tiemann reaction is:",
+    "options": {
+      "A": "Dichlorocarbene (:CCl₂)",
+      "B": "Trichloromethyl radical (·CCl₃)",
+      "C": "Formyl cation (CHO⁺)",
+      "D": "Dichloromethyl cation (CHCl₂⁺)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The acid-catalyzed dehydration of primary alcohols to give alkenes involves the formation of which intermediate?",
+    "options": {
+      "A": "Carbocation",
+      "B": "Carbanion",
+      "C": "Free Radical",
+      "D": "Oxonium ion directly to alkene without intermediate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "An ether, Anisole (C₆H₅OCH₃), on cleavage with hot concentrated HI gives:",
+    "options": {
+      "A": "Phenol and Iodomethane",
+      "B": "Iodobenzene and Methanol",
+      "C": "Iodobenzene and Iodomethane",
+      "D": "Phenol and Methanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The industrial preparation of Phenol from Cumene (isopropylbenzene) involves oxidation with air followed by dilute acid hydrolysis. The valuable by-product obtained in this reaction is:",
+    "options": {
+      "A": "Acetone",
+      "B": "Acetaldehyde",
+      "C": "Formaldehyde",
+      "D": "Benzaldehyde"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following compounds will not give a positive Iodoform test when treated with I₂ and NaOH?",
+    "options": {
+      "A": "Methanol",
+      "B": "Ethanol",
+      "C": "Propan-2-ol",
+      "D": "Acetone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "Phenol is more acidic than aliphatic alcohols primarily because:",
+    "options": {
+      "A": "The phenoxide ion is resonance stabilized, spreading the negative charge over the benzene ring",
+      "B": "Phenol has a higher molecular weight",
+      "C": "Phenol undergoes intermolecular hydrogen bonding more strongly",
+      "D": "The oxygen atom in phenol is sp³ hybridized"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The major product formed when tert-butyl methyl ether is heated with one equivalent of HI is:",
+    "options": {
+      "A": "tert-Butyl iodide and Methanol",
+      "B": "tert-Butanol and Iodomethane",
+      "C": "tert-Butyl iodide and Iodomethane",
+      "D": "No reaction occurs due to steric hindrance"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Kolbe's reaction involves the treatment of Phenol with NaOH followed by reaction with Carbon dioxide under pressure to yield salicylic acid. The role of NaOH is to:",
+    "options": {
+      "A": "Convert phenol into a more reactive phenoxide ion for electrophilic substitution",
+      "B": "Act as a catalyst for ring opening",
+      "C": "Oxurize the carbon dioxide",
+      "D": "Prevent the oxidation of phenol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Hydroboration-Oxidation of propene (CH₃CH=CH₂) with BH₃·THF followed by H₂O₂/OH⁻ yields:",
+    "options": {
+      "A": "Propan-1-ol",
+      "B": "Propan-2-ol",
+      "C": "Propane-1,2-diol",
+      "D": "Propanone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Acid-catalyzed hydration of propene yields propan-2-ol. The addition of water follows:",
+    "options": {
+      "A": "Markovnikov's rule involving a stable carbocation intermediate",
+      "B": "Anti-Markovnikov's rule via a free radical mechanism",
+      "C": "Markovnikov's rule via a cyclic halonium ion",
+      "D": "Anti-Markovnikov's rule via a concerted pathway"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Which reagent is best suited to convert a primary alcohol directly into an aldehyde without further oxidation to a carboxylic acid?",
+    "options": {
+      "A": "Pyridinium Chlorochromate (PCC)",
+      "B": "Acidified Potassium Dichromate (K₂Cr₂O₇/H₂SO₄)",
+      "C": "Alkaline KMnO₄",
+      "D": "Chromic anhydride in water (CrO₃/H₂O)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "When phenol is treated with excess bromine water, it forms a white precipitate of:",
+    "options": {
+      "A": "2,4,6-Tribromophenol",
+      "B": "p-Bromophenol",
+      "C": "o-Bromophenol",
+      "D": "2,4-Dibromophenol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "What is the product formed when phenol is heated with Zinc dust?",
+    "options": {
+      "A": "Benzene",
+      "B": "Cyclohexane",
+      "C": "Phenoxide salt",
+      "D": "Toluene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "The boiling points of alcohols are much higher than those of ethers or hydrocarbons of comparable molecular masses. This is due to:",
+    "options": {
+      "A": "Intermolecular hydrogen bonding in alcohols",
+      "B": "Intramolecular hydrogen bonding in alcohols",
+      "C": "Higher dipole moment of hydrocarbons",
+      "D": "Van der Waals forces being exceptionally strong in alcohols"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "In the Williamson synthesis of ethers, an alkyl halide is reacted with a sodium alkoxide. To get the best yield of tert-butyl methyl ether, the reactants should be:",
+    "options": {
+      "A": "Sodium tert-butoxide and Iodomethane",
+      "B": "Sodium methoxide and tert-Butyl bromide",
+      "C": "Sodium methoxide and tert-Butyl alcohol",
+      "D": "None of these, Williamson synthesis cannot make asymmetric ethers"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Orthofluorophenol and Paranitophenol can be separated easily by steam distillation because:",
+    "options": {
+      "A": "o-Nitrophenol has intramolecular H-bonding (volatile) while p-nitrophenol has intermolecular H-bonding (less volatile)",
+      "B": "p-Nitrophenol is more volatile due to ring size",
+      "C": "o-Nitrophenol has a higher molecular weight",
+      "D": "p-Nitrophenol has intramolecular H-bonding"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The reaction of Phenol with neutral FeCl₃ solution produces a characteristic:",
+    "options": {
+      "A": "Violet/Purple colored complex",
+      "B": "White precipitate",
+      "C": "Effervescence of gas",
+      "D": "Yellow oily layer"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "When an alcohol vapor is passed over heated copper at 573 K, a tertiary alcohol undergoes:",
+    "options": {
+      "A": "Dehydration to form an alkene",
+      "B": "Oxidation to form a ketone",
+      "C": "Oxidation to form an aldehyde",
+      "D": "Dehydrogenation to form an ester"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The dehydration of an alcohol to an ether using concentrated H₂SO₄ is carried out at which specific temperature?",
+    "options": {
+      "A": "413 K",
+      "B": "443 K",
+      "C": "273 K",
+      "D": "573 K"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Which of the following compounds will react with Sodium metal but will not dissolve in aqueous NaOH?",
+    "options": {
+      "A": "Cyclohexanol",
+      "B": "Phenol",
+      "C": "Benzoic acid",
+      "D": "Anisole"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The reaction of an ester with excess Grignard reagent followed by hydrolysis gives a:",
+    "options": {
+      "A": "Tertiary alcohol",
+      "B": "Secondary alcohol",
+      "C": "Primary alcohol",
+      "D": "Ketone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Which of the following substituents will decrease the acidic strength of phenol when attached to the ortho or para positions?",
+    "options": {
+      "A": "-OCH₃ (Methoxy group)",
+      "B": "-NO₂ (Nitro group)",
+      "C": "-Cl (Chlorine)",
+      "D": "-CN (Cyano group)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The oxidation of an alcohol with Jones reagent (CrO₃ in aqueous H₂SO₄/Acetone) converts a primary alcohol into a:",
+    "options": {
+      "A": "Carboxylic acid",
+      "B": "Aldehyde",
+      "C": "Ketone",
+      "D": "Alkene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "When Diethyl ether is exposed to air and sunlight for a long time, it forms highly explosive compounds called:",
+    "options": {
+      "A": "Ether peroxides",
+      "B": "Ozonides",
+      "C": "Epoxides",
+      "D": "Esters"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The major product obtained when Phenol is reacted with concentrated HNO₃ is:",
+    "options": {
+      "A": "2,4,6-Trinitrophenol (Picric acid)",
+      "B": "o-Nitrophenol only",
+      "C": "p-Nitrophenol only",
+      "D": "m-Nitrophenol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Among the following, the most soluble alcohol in water is:",
+    "options": {
+      "A": "Methanol",
+      "B": "Butan-1-ol",
+      "C": "Hexan-1-ol",
+      "D": "Pentan-1-ol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Friedel-Crafts alkylation of Anisole with CH₃Cl in the presence of anhydrous AlCl₃ gives majorly:",
+    "options": {
+      "A": "4-Methoxytoluene (p-product)",
+      "B": "2-Methoxytoluene (o-product)",
+      "C": "3-Methoxytoluene (m-product)",
+      "D": "Benzyl methyl ether"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The conversion of an alkene to an alcohol with Markovnikov orientation without any carbocation rearrangement is best done by:",
+    "options": {
+      "A": "Oxymercuration-Demercuration",
+      "B": "Hydroboration-Oxidation",
+      "C": "Acid-catalyzed Hydration",
+      "D": "Treatment with dilute KMnO₄"
+    },
+    "answer": "A"
+  }
+]

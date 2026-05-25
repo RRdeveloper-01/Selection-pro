@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "The correct decreasing order of basic strength of methyl-substituted amines in aqueous solution is:",
+    "options": {
+      "A": "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃",
+      "B": "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃",
+      "C": "(CH₃)₂NH > (CH₃)₃N > CH₃NH₂ > NH₃",
+      "D": "CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N > NH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The correct decreasing order of basic strength of ethyl-substituted amines in aqueous solution is:",
+    "options": {
+      "A": "(C₂H₅)₂NH > (C₂H₅)₃N > C₂H₅NH₂ > NH₃",
+      "B": "(C₂H₅)₂NH > C₂H₅NH₂ > (C₂H₅)₃N > NH₃",
+      "C": "(C₂H₅)₃N > (C₂H₅)₂NH > C₂H₅NH₂ > NH₃",
+      "D": "C₂H₅NH₂ > (C₂H₅)₂NH > (C₂H₅)₃N > NH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following amines cannot be prepared by Gabriel Phthalimide Synthesis?",
+    "options": {
+      "A": "Aniline",
+      "B": "Methylamine",
+      "C": "Ethylamine",
+      "D": "Benzylamine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "When primary amine is heated with chloroform and alcoholic KOH, an intolerable offensive smell is produced due to the formation of:",
+    "options": {
+      "A": "Alkyl isocyanide",
+      "B": "Alkyl cyanide",
+      "C": "Alkyl isocyanate",
+      "D": "Alkyl nitro compound"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The reaction of an amide with Br₂ and aqueous KOH to give a primary amine containing one carbon atom less than the parent amide is known as:",
+    "options": {
+      "A": "Hoffmann Bromamide Degradation",
+      "B": "Gabriel synthesis",
+      "C": "Carbylamine reaction",
+      "D": "Mendius reduction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "What is the intermediate species that undergoes rearrangement during the Hoffmann Bromamide Degradation reaction?",
+    "options": {
+      "A": "Alkyl isocyanate (R-N=C=O)",
+      "B": "Nitrene",
+      "C": "Bromamide ion",
+      "D": "Carbene"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Hinsberg's reagent, used to distinguish and separate primary, secondary, and tertiary amines, is chemically known as:",
+    "options": {
+      "A": "Benzenesulfonyl chloride",
+      "B": "Benzoyl chloride",
+      "C": "p-Toluenesulfonyl chloride",
+      "D": "Acetyl chloride"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "A secondary amine reacts with Hinsberg's reagent to form a product that is:",
+    "options": {
+      "A": "Insoluble in aqueous KOH",
+      "B": "Soluble in aqueous KOH",
+      "C": "Completely unreactive",
+      "D": "Liquid at room temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Aniline on direct nitration with concentrated HNO₃/H₂SO₄ mixture gives a significant amount (approx 47%) of m-nitroaniline. This is because:",
+    "options": {
+      "A": "In strongly acidic medium, aniline is protonated to form anilinium ion which is meta-directing",
+      "B": "The -NH₂ group is meta-directing",
+      "C": "The reaction takes place via a free radical mechanism",
+      "D": "The temperature of the reaction is very high"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "To convert aniline into p-nitroaniline without getting the meta isomer, the amino group (-NH₂) is first protected by:",
+    "options": {
+      "A": "Acetylation using acetic anhydride",
+      "B": "Methylation using CH₃I",
+      "C": "Treatment with nitrous acid",
+      "D": "Reaction with benzoyl chloride"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Benzene diazonium chloride reacts with phenol in a faintly alkaline medium to form an orange-colored azo dye. This reaction is called:",
+    "options": {
+      "A": "Coupling reaction",
+      "B": "Sandmeyer reaction",
+      "C": "Gatterman reaction",
+      "D": "Balz-Schiemann reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following reagents can be used to replace the diazonium group (-N₂⁺Cl⁻) of benzene diazonium chloride with a hydrogen atom to form benzene?",
+    "options": {
+      "A": "H₃PO₂ (Hypophosphorous acid) or Ethanol",
+      "B": "CuCl / HCl",
+      "C": "H₂O",
+      "D": "KI"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The conversion of benzene diazonium fluoroborate to fluorobenzene by heating is known as:",
+    "options": {
+      "A": "Balz-Schiemann reaction",
+      "B": "Sandmeyer reaction",
+      "C": "Gatterman reaction",
+      "D": "Finkelstein reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following compounds will react with nitrous acid (NaNO₂ + HCl) at 0-5°C to form a stable diazonium salt?",
+    "options": {
+      "A": "Aniline",
+      "B": "Methylamine",
+      "C": "Diethylamine",
+      "D": "Benzylamine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The reduction of nitrobenzene with Iron scrap and hydrochloric acid (Fe + HCl) is preferred industrially over Sn + HCl because:",
+    "options": {
+      "A": "FeCl₂ formed gets hydrolyzed to release HCl, so only a small amount of HCl is required initiated the reaction",
+      "B": "Iron is cheaper than tin",
+      "C": "The yield of aniline is 100%",
+      "D": "It avoids the formation of toxic fumes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "In the gas phase, the correct decreasing order of basic strength of alkyl-substituted amines is:",
+    "options": {
+      "A": "Tertiary > Secondary > Primary > NH₃",
+      "B": "Secondary > Primary > Tertiary > NH₃",
+      "C": "Secondary > Tertiary > Primary > NH₃",
+      "D": "NH₃ > Primary > Secondary > Tertiary"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Aniline is less basic than ammonia because the lone pair of electrons on the nitrogen atom in aniline is:",
+    "options": {
+      "A": "Delocalized into the benzene ring via resonance",
+      "B": "Heavily sterically hindered",
+      "C": "Withdrawn by the strong -I effect of the amino group",
+      "D": "Involved in intramolecular hydrogen bonding"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "When aniline is treated with bromine water at room temperature, it gives a white precipitate of:",
+    "options": {
+      "A": "2,4,6-Tribromoaniline",
+      "B": "p-Bromoaniline",
+      "C": "o-Bromoaniline",
+      "D": "m-Bromoaniline"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Tertiary amines do not react with Hinsberg's reagent because they:",
+    "options": {
+      "A": "Do not possess any replaceable hydrogen atom on the nitrogen atom",
+      "B": "Are too basic to react",
+      "C": "Are highly sterically hindered",
+      "D": "Form unstable salts that decompose instantly"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Alkyl cyanides (R-CN) on reduction with sodium and alcohol (C₂H₅OH) yield primary amines. This reduction is specifically called:",
+    "options": {
+      "A": "Mendius reaction",
+      "B": "Stephen reduction",
+      "C": "Hoffmann degradation",
+      "D": "Sabatier reduction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Which of the following represents the correct formula for the conjugate acid of aniline?",
+    "options": {
+      "A": "C₆H₅NH₃⁺",
+      "B": "C₆H₅NH⁻",
+      "C": "C₆H₅NH₂⁺",
+      "D": "C₆H₅N²⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The separation of a mixture of primary, secondary, and tertiary amines can be achieved by fractional distillation or chemically by using:",
+    "options": {
+      "A": "Hinsberg's Method",
+      "B": "Hoffmann's Mustard Oil Method",
+      "C": "Both A and B",
+      "D": "Victor Meyer's Method"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 23,
+    "question": "The product formed when a primary aliphatic amine reacts with nitrous acid (HNO₂) at room temperature is an:",
+    "options": {
+      "A": "Alcohol with evolution of N₂ gas",
+      "B": "Stable diazonium salt",
+      "C": "Nitroalkane",
+      "D": "Alkyl nitrite"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "When benzene diazonium chloride is treated with CuCN/KCN, benzonitrile is formed. This is an example of a:",
+    "options": {
+      "A": "Sandmeyer reaction",
+      "B": "Gatterman reaction",
+      "C": "Fittig reaction",
+      "D": "Wurtz-Fittig reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Coupling of benzene diazonium chloride with aniline is carried out in a:",
+    "options": {
+      "A": "Faintly acidic medium (pH 4-5)",
+      "B": "Strongly alkaline medium",
+      "C": "Faintly alkaline medium (pH 9-10)",
+      "D": "Highly concentrated acid solution"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Amongst the following, the most basic compound is:",
+    "options": {
+      "A": "Benzylamine",
+      "B": "Aniline",
+      "C": "p-Nitroaniline",
+      "D": "Acetanilide"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Hoffmann's exhaustive methylation of a primary amine followed by heating with moist AgOH leads to elimination. This process yields an alkene and is known as:",
+    "options": {
+      "A": "Hoffmann Elimination",
+      "B": "Saytzeff Elimination",
+      "C": "Cope Rearrangement",
+      "D": "Chugaev Reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "What is the total number of moles of NaOH consumed per mole of amide in the Hoffmann Bromamide Degradation reaction?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Electrophilic aromatic substitution of aniline (like bromination) is highly rapid because the -NH₂ group is a:",
+    "options": {
+      "A": "Strongly activating, ortho- and para-directing group",
+      "B": "Moderately activating group",
+      "C": "Deactivating but ortho-para directing group",
+      "D": "Meta-directing group"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The compound which on reduction with LiAlH₄ gives a secondary amine is:",
+    "options": {
+      "A": "Methyl isocyanide (CH₃NC)",
+      "B": "Methyl cyanide (CH₃CN)",
+      "C": "Nitroethane",
+      "D": "Acetamide"
+    },
+    "answer": "A"
+  }
+]

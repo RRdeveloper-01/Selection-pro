@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following carbonyl compounds will be most reactive towards nucleophilic addition reaction?",
+    "options": {
+      "A": "HCHO",
+      "B": "CH₃CHO",
+      "C": "CH₃COCH₃",
+      "D": "C₆H₅COCH₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "The structural formula of the main organic product formed when Benzaldehyde reacts with concentrated NaOH solution (Cannizzaro reaction) is a mixture of:",
+    "options": {
+      "A": "Benzyl alcohol and Sodium benzoate",
+      "B": "Sodium benzoate and Benzene",
+      "C": "Benzyl alcohol and Benzol",
+      "D": "Benzoic acid and Benzyl alcohol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "Which of the following compounds will not undergo Aldol condensation when treated with dilute NaOH?",
+    "options": {
+      "A": "2,2-Dimethylpropanal",
+      "B": "Ethanal",
+      "C": "Propanal",
+      "D": "Phenylacetaldehyde"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The oxidation of toluene to benzaldehyde using chromyl chloride (CrO₂Cl₂) in the presence of CS₂ followed by hydrolysis is known as:",
+    "options": {
+      "A": "Etard's reaction",
+      "B": "Gatterman-Koch reaction",
+      "C": "Rosenmund reduction",
+      "D": "Stephen's reduction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "Which of the following reagents can distinguish between Acetophenone (C₆H₅COCH₃) and Benzophenone (C₆H₅COC₆H₅)?",
+    "options": {
+      "A": "I₂ and NaOH (Iodoform test)",
+      "B": "Tollens' reagent",
+      "C": "Fehling's solution",
+      "D": "2,4-DNP reagent"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The reduction of a carbonyl group (>C=O) to a methylene group (-CH₂-) using Zinc amalgam (Zn-Hg) and concentrated HCl is called:",
+    "options": {
+      "A": "Clemmensen reduction",
+      "B": "Wolff-Kishner reduction",
+      "C": "Rosenmund reduction",
+      "D": "Stephen reduction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "The correct decreasing order of acidic strength among the following carboxylic acids is:",
+    "options": {
+      "A": "CF₃COOH > CCl₃COOH > CHCl₂COOH > CH₃COOH",
+      "B": "CH₃COOH > CHCl₂COOH > CCl₃COOH > CF₃COOH",
+      "C": "CCl₃COOH > CF₃COOH > CHCl₂COOH > CH₃COOH",
+      "D": "CF₃COOH > CHCl₂COOH > CCl₃COOH > CH₃COOH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "When carboxylic acids are treated with aliphatic or aromatic primary amines in the presence of DCC (Dicyclohexylcarbodiimide) or on strong heating, they form:",
+    "options": {
+      "A": "Amides",
+      "B": "Esters",
+      "C": "Amines",
+      "D": "Cyanides"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "Carboxylic acids do not give the characteristic qualitative tests of carbonyl groups (like 2,4-DNP or oxime formation) because:",
+    "options": {
+      "A": "The carbonyl carbon is part of a resonance-stabilized carboxyl group, reducing its electrophilic character",
+      "B": "The -OH group sterically hinders the approach of nucleophiles",
+      "C": "Carboxylic acids exist as stable dimers",
+      "D": "The oxygen atom of the >C=O group is highly basic"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The reaction of an aliphatic carboxylic acid containing an α-hydrogen with Red Phosphorus and Cl₂/Br₂ to substitute the α-hydrogen with a halogen atom is called:",
+    "options": {
+      "A": "Hell-Volhard-Zelinsky (HVZ) reaction",
+      "B": "Hunsdiecker reaction",
+      "C": "Hoffmann bromamide reaction",
+      "D": "Kolbe's electrolysis"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following compounds will give a positive Fehling's test?",
+    "options": {
+      "A": "Acetaldehyde",
+      "B": "Benzaldehyde",
+      "C": "Acetone",
+      "D": "Acetophenone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "What is the major organic product obtained when Benzoic acid is treated with a mixture of concentrated HNO₃ and H₂SO₄?",
+    "options": {
+      "A": "m-Nitrobenzoic acid",
+      "B": "o-Nitrobenzoic acid",
+      "C": "p-Nitrobenzoic acid",
+      "D": "3,5-Dinitrobenzoic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The rate-determining step in the mechanism of Nucleophilic Addition to a carbonyl compound is:",
+    "options": {
+      "A": "Attack of the nucleophile on the electrophilic carbonyl carbon to form a tetrahedral intermediate",
+      "B": "Protonation of the tetrahedral intermediate",
+      "C": "Loss of a water molecule",
+      "D": "Deprotonation of the original nucleophile"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "The addition of HCN to aldehydes or ketones followed by acid hydrolysis yields:",
+    "options": {
+      "A": "α-Hydroxy carboxylic acids",
+      "B": "α-Amino acids",
+      "C": "Cyanohydrins directly",
+      "D": "β-Hydroxy acids"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Dry distillation of the calcium salt of acetic acid (Calcium acetate) yields:",
+    "options": {
+      "A": "Acetone",
+      "B": "Acetaldehyde",
+      "C": "Formaldehyde",
+      "D": "Acetic anhydride"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "When Acetaldehyde is treated with excess Ethanol in the presence of dry HCl gas, the final product formed is called an:",
+    "options": {
+      "A": "Acetal",
+      "B": "Hemiacetal",
+      "C": "Ether",
+      "D": "Ester"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following compounds undergoes self-oxidation and reduction (disproportionation) in the presence of concentrated alkali?",
+    "options": {
+      "A": "Formaldehyde",
+      "B": "Acetone",
+      "C": "Acetaldehyde",
+      "D": "Propionaldehyde"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "The reaction: R-COCl + H₂ → R-CHO + HCl in the presence of Pd-BaSO₄ partially poisoned by sulfur or quinoline is known as:",
+    "options": {
+      "A": "Rosenmund Reduction",
+      "B": "Stephen Reduction",
+      "C": "Clemmensen Reduction",
+      "D": "Gatterman Synthesis"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The mechanism of Aldol condensation involves the formation of a highly reactive intermediate stabilized by resonance. This intermediate is a:",
+    "options": {
+      "A": "Enolate carbanion",
+      "B": "Carbocation",
+      "C": "Free radical",
+      "D": "Acylium ion"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Carboxylic acids have higher boiling points than aldehydes, ketones, and even alcohols of comparable molecular masses because they:",
+    "options": {
+      "A": "Form extensive intermolecular hydrogen bonding leading to stable cyclic dimers",
+      "B": "Have higher molecular polarity due to two oxygen atoms",
+      "C": "Undergo polymerisation in gas phase",
+      "D": "Possess strong Van der Waals dispersion forces"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "An organic compound with molecular formula C₃H₆O does not reduce Tollens' reagent but forms a yellow precipitate with I₂/NaOH. The compound is:",
+    "options": {
+      "A": "Propanone",
+      "B": "Propanal",
+      "C": "Prop-2-en-1-ol",
+      "D": "Cyclopropanol"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The preparation of aldehydes from nitriles using SnCl₂ and HCl followed by hydrolysis is called:",
+    "options": {
+      "A": "Stephen reduction",
+      "B": "Rosenmund reduction",
+      "C": "Etard reaction",
+      "D": "Gatterman-Koch reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The hydride ion (H⁻) transfer is the key step in which of the following reactions?",
+    "options": {
+      "A": "Cannizzaro reaction",
+      "B": "Aldol condensation",
+      "C": "Clemmensen reduction",
+      "D": "Perkin reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "The product formed when Benzaldehyde reacts with primary aromatic amine (like aniline) is known as:",
+    "options": {
+      "A": "Schiff's base",
+      "B": "Oxime",
+      "C": "Hydrazone",
+      "D": "Semicarbazone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Which of the following dicarboxylic acids on heating gives a cyclic anhydride most easily due to ring stability?",
+    "options": {
+      "A": "Succinic acid",
+      "B": "Oxalic acid",
+      "C": "Malonic acid",
+      "D": "Adipic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "Sodium bicarbonate (NaHCO₃) solution produces brisk effervescence of CO₂ gas with:",
+    "options": {
+      "A": "Acetic acid",
+      "B": "Phenol",
+      "C": "Ethanol",
+      "D": "Acetone"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Crossed Cannizzaro reaction between Benzaldehyde and Formaldehyde in the presence of concentrated NaOH yields:",
+    "options": {
+      "A": "Benzyl alcohol and Sodium formate",
+      "B": "Sodium benzoate and Methanol",
+      "C": "Benzyl alcohol and Methanol",
+      "D": "Sodium benzoate and Sodium formate"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "An esterification reaction between a carboxylic acid and an alcohol is a reversible reaction. To shift the equilibrium in the forward direction, which strategy is used?",
+    "options": {
+      "A": "Continuous removal of water as soon as it is formed",
+      "B": "Using excess of water",
+      "C": "Carrying out the reaction at extremely low temperature",
+      "D": "Adding sodium hydroxide to neutralize the acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The reduction of carboxylic acids to primary alcohols without reducing any double bonds or carbon-carbon multiple bonds present in the molecule is best achieved by using:",
+    "options": {
+      "A": "B₂H₆ (Diborane)",
+      "B": "LiAlH₄",
+      "C": "H₂ / Pd",
+      "D": "NaBH₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "The IUPAC name for the compound CH₃-CH(OH)-CH₂-CHO is:",
+    "options": {
+      "A": "3-Hydroxybutanal",
+      "B": "2-Hydroxybutanal",
+      "C": "3-Oxobutane-1-ol",
+      "D": "β-Hydroxybutyraldehyde"
+    },
+    "answer": "A"
+  }
+]

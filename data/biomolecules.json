@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following carbohydrates is a non-reducing sugar?",
+    "options": {
+      "A": "Sucrose",
+      "B": "Maltose",
+      "C": "Lactose",
+      "D": "Glucose"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "On oxidation with nitric acid (HNO₃), both Glucose and Gluconic acid yield a dicarboxylic acid known as:",
+    "options": {
+      "A": "Saccharic acid",
+      "B": "Glucaric acid",
+      "C": "Both A and B are same",
+      "D": "Tartaric acid"
+    },
+    "answer": "C"
+  },
+  {
+    "question_no": 3,
+    "question": "Pairs of optical isomers that differ in configuration only around the C-1 atom in aldoses (or C-2 in ketoses) during cyclic structure formation are called:",
+    "options": {
+      "A": "Anomers",
+      "B": "Epimers",
+      "C": "Enantiomers",
+      "D": "Diastereomers"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Glucose does not react with which of the following reagents, proving that its open-chain structure exists only in a small equilibrium amount?",
+    "options": {
+      "A": "Schiff's reagent and NaHSO₃",
+      "B": "Hydroxylamine (NH₂OH)",
+      "C": "HCN",
+      "D": "Phenylhydrazine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The structural difference between Amylose and Amylopectin (components of Starch) is:",
+    "options": {
+      "A": "Amylose is linear with α-(1,4) glycosidic linkages, while Amylopectin is branched with both α-(1,4) and α-(1,6) linkages",
+      "B": "Amylose is branched and Amylopectin is linear",
+      "C": "Amylose has β-linkages while Amylopectin has α-linkages",
+      "D": "Amylose is insoluble in water while Amylopectin is soluble"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following amino acids is optically inactive?",
+    "options": {
+      "A": "Glycine",
+      "B": "Alanine",
+      "C": "Valine",
+      "D": "Leucine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "In an aqueous solution, amino acids exist as a dipolar ion carrying both positive and negative charges. This structure is termed as a:",
+    "options": {
+      "A": "Zwitterion",
+      "B": "Anion",
+      "C": "Cation",
+      "D": "Neutral radical"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The α-helix and β-pleated sheet structures of proteins belong to which structural level?",
+    "options": {
+      "A": "Secondary structure",
+      "B": "Primary structure",
+      "C": "Tertiary structure",
+      "D": "Quaternary structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "During the denaturation of proteins by heat or chemical treatment, which of the following structures remains intact/unaffected?",
+    "options": {
+      "A": "Primary structure",
+      "B": "Secondary structure",
+      "C": "Tertiary structure",
+      "D": "Quaternary structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following nitrogenous bases is present in RNA but absent in DNA?",
+    "options": {
+      "A": "Uracil",
+      "B": "Thymine",
+      "C": "Adenine",
+      "D": "Cytosine"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "The complementary base pairing in the double-helix structure of DNA is held together by:",
+    "options": {
+      "A": "Hydrogen bonds",
+      "B": "Phosphodiester linkages",
+      "C": "Peptide bonds",
+      "D": "Ionic bonds"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "Adenine pairs with Thymine via how many hydrogen bonds, and Cytosine pairs with Guanine via how many hydrogen bonds respectively?",
+    "options": {
+      "A": "2 and 3",
+      "B": "3 and 2",
+      "C": "2 and 2",
+      "D": "3 and 3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The linkage that connects individual nucleotides together to form the backbone of a nucleic acid chain is a:",
+    "options": {
+      "A": "Phosphodiester linkage",
+      "B": "Glycosidic linkage",
+      "C": "Peptide linkage",
+      "D": "Disulfide linkage"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following statements about vitamins is incorrect?",
+    "options": {
+      "A": "Vitamins A, D, E, and K are water-soluble.",
+      "B": "Vitamins cannot be synthesized by our body (with exceptions like Vitamin D).",
+      "C": "Vitamin C is water-soluble and must be supplied regularly in diet.",
+      "D": "Deficiency of Vitamin K causes prolonged blood clotting time."
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Deficiency of Vitamin B₁₂ causes a severe disease known as:",
+    "options": {
+      "A": "Pernicious anemia",
+      "B": "Scurvy",
+      "C": "Rickets",
+      "D": "Beri-beri"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "Glucose on prolonged heating with HI (Hydriodic acid) forms:",
+    "options": {
+      "A": "n-Hexane",
+      "B": "Hexanoic acid",
+      "C": "Sorbitol",
+      "D": "Gluconic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The precise sequence of amino acids linked together via peptide bonds represents which structure of a protein?",
+    "options": {
+      "A": "Primary structure",
+      "B": "Secondary structure",
+      "C": "Tertiary structure",
+      "D": "Quaternary structure"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "In a Zwitterionic form of an amino acid, if the pH of the medium is made highly acidic (low pH), the molecule will migrate towards which electrode during electrophoresis?",
+    "options": {
+      "A": "Cathode (Negative electrode)",
+      "B": "Anode (Positive electrode)",
+      "C": "It will not migrate anywhere",
+      "D": "It decomposes instantly"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Which of the following is a basic amino acid containing an extra amino group in its side chain?",
+    "options": {
+      "A": "Lysine",
+      "B": "Aspartic acid",
+      "C": "Valine",
+      "D": "Glutamic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Cellulose is a straight-chain polysaccharide composed only of:",
+    "options": {
+      "A": "β-D-Glucose units joined by β-(1,4) glycosidic linkages",
+      "B": "α-D-Glucose units joined by α-(1,4) glycosidic linkages",
+      "C": "β-D-Fructose units",
+      "D": "α-D-Galactose units"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "When glucose reacts with acetic anhydride, it forms a pentaacetate. This reaction confirms the presence of:",
+    "options": {
+      "A": "Five hydroxyl (-OH) groups",
+      "B": "One aldehyde group",
+      "C": "A straight chain of six carbons",
+      "D": "One primary alcoholic group"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "The specific pH at which a particular amino acid exists as a neutral Zwitterion and does not migrate to either electrode during electrophoresis is called its:",
+    "options": {
+      "A": "Isoelectric point (pI)",
+      "B": "Neutralization point",
+      "C": "Buffer threshold",
+      "D": "Inversion pH"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "Insulin, a hormone that regulates blood sugar levels, is chemically classified as a:",
+    "options": {
+      "A": "Protein / Peptide hormone",
+      "B": "Steroid",
+      "C": "Carbohydrate",
+      "D": "Nucleic acid derivative"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Sucrose is dextrorotatory, but after hydrolysis with dilute acid, the resulting mixture of glucose and fructose becomes levorotatory. This phenomenon is known as:",
+    "options": {
+      "A": "Inversion of sugar",
+      "B": "Mutarotation",
+      "C": "Racemization",
+      "D": "Epimerization"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The spontaneous change in specific optical rotation of an asymmetric freshly prepared solution of a sugar over time until it reaches a constant equilibrium value is called:",
+    "options": {
+      "A": "Mutarotation",
+      "B": "Inversion",
+      "C": "Asymmetric transformation",
+      "D": "Enantiomeric excess"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "A nucleoside differs from a nucleotide in that a nucleoside lacks the:",
+    "options": {
+      "A": "Phosphate group",
+      "B": "Nitrogenous base",
+      "C": "Pentose sugar",
+      "D": "Hydroxyl groups"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following structures represents a globular protein that is generally soluble in water?",
+    "options": {
+      "A": "Albumin",
+      "B": "Keratin",
+      "C": "Myosin",
+      "D": "Collagen"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "Biuret test is a qualitative chemical test used to detect the presence of:",
+    "options": {
+      "A": "Peptide linkages / Proteins",
+      "B": "Carbohydrates",
+      "C": "Fats and Lipids",
+      "D": "Vitamins"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following is an essential amino acid that cannot be synthesized by the body and must be taken through diet?",
+    "options": {
+      "A": "Valine",
+      "B": "Glycine",
+      "C": "Alanine",
+      "D": "Aspartic acid"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Fructose is a functional isomer of glucose. Structurally, it is a:",
+    "options": {
+      "A": "Ketohexose",
+      "B": "Aldohexose",
+      "C": "Ketopentose",
+      "D": "Aldopentose"
+    },
+    "answer": "A"
+  }
+]

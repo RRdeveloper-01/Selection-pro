@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "Which of the following transition metal ions has the highest spin-only magnetic moment?",
+    "options": {
+      "A": "Fe³⁺",
+      "B": "Mn²⁺",
+      "C": "Cr³⁺",
+      "D": "Co²⁺"
+    },
+    "answer": "B"
+  },
+  {
+    "question_no": 2,
+    "question": "The incorrect statement among the following regarding Lanthanoid Contraction is:",
+    "options": {
+      "A": "It results in a significant increase in the chemical reactivity of post-lanthanoid elements.",
+      "B": "The atomic radii of 4d and 5d transition series elements become almost identical (e.g., Zr and Hf).",
+      "C": "It is caused by the poor shielding effect of 4f electrons.",
+      "D": "Separation of lanthanoids becomes difficult due to similar chemical properties."
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "When KMnO₄ reacts with KI in an alkaline/faintly alkaline medium, iodide (I⁻) is oxidized to:",
+    "options": {
+      "A": "IO₃⁻",
+      "B": "I₂",
+      "C": "IO₄⁻",
+      "D": "IO⁻"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following pairs of transition elements exhibits the highest and most stable +8 oxidation state respectively?",
+    "options": {
+      "A": "Os and Ru",
+      "B": "Mn and Fe",
+      "C": "Cr and Mo",
+      "D": "V and Nb"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "The orange color of Cr₂O₇²⁻ ion changes to yellow when its aqueous solution is treated with an alkali. This is due to the formation of:",
+    "options": {
+      "A": "CrO₄²⁻",
+      "B": "Cr³⁺",
+      "C": "CrO₅",
+      "D": "Cr(OH)₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following lanthanoid ions is diamagnetic in nature? (Atomic numbers: Ce=58, Sm=62, Eu=63, Yb=70)",
+    "options": {
+      "A": "Yb²⁺",
+      "B": "Ce³⁺",
+      "C": "Sm³⁺",
+      "D": "Eu³⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "Interstitial compounds are formed when small atoms like C, H, N, or B are trapped inside the crystal lattices of transition metals. Which property is incorrect for them?",
+    "options": {
+      "A": "They are chemically highly reactive.",
+      "B": "They have high melting points, higher than pure metals.",
+      "C": "They retain metallic conductivity.",
+      "D": "They are very hard."
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "The number of moles of KMnO₄ required to oxidize one mole of ferrous oxalate (FeC₂O₄) completely in an acidic medium is:",
+    "options": {
+      "A": "0.6 moles",
+      "B": "0.4 moles",
+      "C": "1.0 mole",
+      "D": "1.2 moles"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "The reason why transition metals exhibit catalytic properties is due to their ability to:",
+    "options": {
+      "A": "Adopt variable oxidation states and form complexes",
+      "B": "Show high enthalpies of atomization",
+      "C": "Form large number of interstitial sites",
+      "D": "Exist in magnetic forms"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "In the standard preparation of Potassium Dichromate, chromite ore (FeCr₂O₄) is fused with sodium carbonate in the presence of air to give:",
+    "options": {
+      "A": "Na₂CrO₄",
+      "B": "Na₂Cr₂O₇",
+      "C": "Cr₂O₃",
+      "D": "Fe₂O₃"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following ions has the electronic configuration [Ar]3d⁴?",
+    "options": {
+      "A": "Cr²⁺",
+      "B": "Mn³⁺",
+      "C": "Fe⁴⁺",
+      "D": "All of these"
+    },
+    "answer": "D"
+  },
+  {
+    "question_no": 12,
+    "question": "The deep intense purple color of KMnO₄ is not due to d-d transitions but because of:",
+    "options": {
+      "A": "Ligand to Metal Charge Transfer (LMCT)",
+      "B": "Metal to Ligand Charge Transfer (MLCT)",
+      "C": "f-d transitions",
+      "D": "Presence of unpaired d electrons"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "Among the actinoids, the chemistry of actinoids is more complex than lanthanoids because:",
+    "options": {
+      "A": "They exhibit a larger number of oxidation states due to comparable energies of 5f, 6d and 7s levels",
+      "B": "They are all synthetic elements",
+      "C": "They have smaller ionic sizes",
+      "D": "They do not show actinoid contraction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "What is the structure/geometry of Chromate ion (CrO₄²⁻) and Dichromate ion (Cr₂O₇²⁻) respectively?",
+    "options": {
+      "A": "Tetrahedral, and two Tetrahedra sharing one corner",
+      "B": "Square planar, and Octahedral",
+      "C": "Tetrahedral, and Linear",
+      "D": "Both are Trigonal Bipyramidal"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "Which transition metal atom has the highest enthalpy of atomization in the 3d series?",
+    "options": {
+      "A": "V",
+      "B": "Cr",
+      "C": "Mn",
+      "D": "Fe"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "When disproportionation of MnO₄²⁻ occurs in an acidic medium, the products formed are:",
+    "options": {
+      "A": "MnO₄⁻ and MnO₂",
+      "B": "Mn²⁺ and MnO₂",
+      "C": "MnO₄⁻ and Mn²⁺",
+      "D": "Mn₂O₇ and MnO"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "The spin-only magnetic moment of a divalent ion in aqueous solution with atomic number 25 is:",
+    "options": {
+      "A": "5.92 BM",
+      "B": "4.90 BM",
+      "C": "3.87 BM",
+      "D": "2.84 BM"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following ions is most stable in an aqueous solution?",
+    "options": {
+      "A": "Cr³⁺",
+      "B": "V³⁺",
+      "C": "Ti³⁺",
+      "D": "Mn³⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "Identify the element that does not belong to the f-block actinoid series:",
+    "options": {
+      "A": "Tm",
+      "B": "Th",
+      "C": "U",
+      "D": "Fm"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "Which of the following compounds is explosive in nature and is formed when concentrated H₂SO₄ is added to KMnO₄?",
+    "options": {
+      "A": "Mn₂O₇",
+      "B": "MnO₂",
+      "C": "MnSO₄",
+      "D": "HMnO₄"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "Why does Zinc (Zn), Cadmium (Cd), and Mercury (Hg) generally not considered as true 'transition metals'?",
+    "options": {
+      "A": "They have completely filled d-orbitals in their ground state as well as in common oxidation states",
+      "B": "They are soft metals",
+      "C": "They do not form complexes",
+      "D": "They have low melting points"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "Lanthanoid that shows a stable +4 oxidation state due to a noble gas configuration is:",
+    "options": {
+      "A": "Ce",
+      "B": "Eu",
+      "C": "Gd",
+      "D": "Lu"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The number of bridging oxygen atoms present in the dichromate ion (Cr₂O₇²⁻) is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "When H₂S gas is passed through an acidic solution of K₂Cr₂O₇, the solution turns green. This green color is due to:",
+    "options": {
+      "A": "Reduction of Cr₂O₇²⁻ to Cr³⁺",
+      "B": "Oxidation of H₂S to S",
+      "C": "Formation of Cr₂(SO₄)₃",
+      "D": "Formation of a sulfur complex"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "Mischmetall, a well-known alloy used in cigarette lighters, consists primarily of:",
+    "options": {
+      "A": "Lanthanoid metals (~95%) and Iron (~5%)",
+      "B": "Actinoid metals and Copper",
+      "C": "Transition elements only",
+      "D": "Magnesium and Aluminum"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "The correct order of ionic radii of Y³⁺, La³⁺, Eu³⁺, and Lu³⁺ is:",
+    "options": {
+      "A": "La³⁺ > Eu³⁺ > Lu³⁺ > Y³⁺",
+      "B": "Y³⁺ > Lu³⁺ > Eu³⁺ > La³⁺",
+      "C": "La³⁺ > Lu³⁺ > Eu³⁺ > Y³⁺",
+      "D": "La³⁺ > Eu³⁺ > Y³⁺ > Lu³⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following d-block elements shows the maximum number of variable oxidation states in the 3d series?",
+    "options": {
+      "A": "Mn",
+      "B": "Fe",
+      "C": "Cr",
+      "D": "Co"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The change in oxidation state of Mn when KMnO₄ acts as an oxidizing agent in a strongly basic medium is from:",
+    "options": {
+      "A": "+7 to +6",
+      "B": "+7 to +4",
+      "C": "+7 to +2",
+      "D": "+7 to +3"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The E° (M²⁺/M) value for Copper is positive (+0.34V), unlike other 3d series elements. The reason for this anomaly is:",
+    "options": {
+      "A": "High sublimation energy and high ionization energy are not balanced by its hydration energy",
+      "B": "Low heat of atomization",
+      "C": "High hydration energy of Cu²⁺",
+      "D": "Stable d¹⁰ configuration of Cu⁺"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Acidified K₂Cr₂O₇ on reaction with H₂O₂ in the presence of ether forms a deep blue colored solution due to the formation of a peroxide compound known as:",
+    "options": {
+      "A": "CrO₅ (Chromium pentoxide)",
+      "B": "CrO₃",
+      "C": "H₂CrO₄",
+      "D": "Cr₂O₃"
+    },
+    "answer": "A"
+  }
+]

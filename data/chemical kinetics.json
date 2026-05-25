@@ -1,0 +1,332 @@
+[
+  {
+    "question_no": 1,
+    "question": "For a reaction A + 2B → C, the rate law is given by Rate = k[A][B]. If the volume of the reaction vessel is suddenly reduced to one-fourth of its initial volume, the rate of the reaction compared to the original rate will be:",
+    "options": {
+      "A": "16 times",
+      "B": "8 times",
+      "C": "4 times",
+      "D": "64 times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 2,
+    "question": "A first-order reaction is 75% complete in 60 minutes. The time required for 93.75% completion of the same reaction will be:",
+    "options": {
+      "A": "120 minutes",
+      "B": "90 minutes",
+      "C": "150 minutes",
+      "D": "180 minutes"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 3,
+    "question": "The rate constant k for a zero-order reaction has the unit:",
+    "options": {
+      "A": "mol L⁻¹ s⁻¹",
+      "B": "s⁻¹",
+      "C": "L mol⁻¹ s⁻¹",
+      "D": "L² mol⁻² s⁻¹"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 4,
+    "question": "The activation energy (E_a) of a reaction can be determined from the slope of which of the following graphs?",
+    "options": {
+      "A": "log k vs 1/T",
+      "B": "ln k vs T",
+      "C": "k vs T",
+      "D": "log k vs T"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 5,
+    "question": "For a reaction: X → Products, a plot of 1/[X] versus time (t) gives a straight line with a positive slope. The order of this reaction is:",
+    "options": {
+      "A": "Second order",
+      "B": "First order",
+      "C": "Zero order",
+      "D": "Fractional order"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 6,
+    "question": "The rate of a certain reaction doubles for every 10°C rise in temperature. If the temperature is increased from 20°C to 80°C, the reaction rate will increase by a factor of:",
+    "options": {
+      "A": "64",
+      "B": "6",
+      "C": "32",
+      "D": "128"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 7,
+    "question": "During a pseudo-first-order acid hydrolysis of an ester, the concentration of water is:",
+    "options": {
+      "A": "Maintained nearly constant because it is present in large excess",
+      "B": "Decreasing exponentially",
+      "C": "Directly proportional to the rate",
+      "D": "Zero"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 8,
+    "question": "For a gaseous reaction, 2A(g) → B(g) + C(g), the rate law is found to be Rate = k[A]². If the initial pressure of A is P_0 and total pressure at time t is P_t, the integrated rate equation will involve:",
+    "options": {
+      "A": "kt = (1 / (2P_0 - P_t)) - (1 / P_0)",
+      "B": "kt = ln(P_0 / (2P_0 - P_t))",
+      "C": "kt = ln(P_0 / P_t)",
+      "D": "kt = (1 / P_t) - (1 / P_0)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 9,
+    "question": "According to collision theory, the rate of a reaction depends on:",
+    "options": {
+      "A": "Collision frequency, Effective orientation, and Activation energy barrier",
+      "B": "Collision frequency only",
+      "C": "Temperature only",
+      "D": "Molecular weight of reactants"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 10,
+    "question": "The half-life of a chemical reaction is found to be inversely proportional to the square of the initial concentration of the reactant. The order of the reaction is:",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 11,
+    "question": "A catalyst increases the rate of a chemical reaction by:",
+    "options": {
+      "A": "Providing an alternative pathway with lower activation energy",
+      "B": "Increasing the average kinetic energy of molecules",
+      "C": "Decreasing the enthalpy change (ΔH) of the reaction",
+      "D": "Increasing the total number of collisions"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 12,
+    "question": "For the reaction 2NO(g) + Cl₂(g) → 2NOCl(g), the mechanism is:\nStep 1: NO + Cl₂ ⇌ NOCl₂ (Fast equilibrium)\nStep 2: NOCl₂ + NO → 2NOCl (Slow)\nThe rate law for the reaction is:",
+    "options": {
+      "A": "Rate = k[NO]²[Cl₂]",
+      "B": "Rate = k[NO][Cl₂]",
+      "C": "Rate = k[NOCl₂][NO]",
+      "D": "Rate = k[NO]²"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 13,
+    "question": "The inversion of cane sugar in an aqueous medium is an example of a:",
+    "options": {
+      "A": "Pseudo-first-order reaction",
+      "B": "True first-order reaction",
+      "C": "Second-order reaction",
+      "D": "Zero-order reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 14,
+    "question": "In a zero-order reaction, if the initial concentration of the reactant is doubled, the time required for the completion of the reaction will:",
+    "options": {
+      "A": "Become double",
+      "B": "Remain unchanged",
+      "C": "Become half",
+      "D": "Become four times"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 15,
+    "question": "The decomposition of phosphine (PH₃) on a hot tungsten surface at very high pressure is a:",
+    "options": {
+      "A": "Zero-order reaction",
+      "B": "First-order reaction",
+      "C": "Second-order reaction",
+      "D": "Third-order reaction"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 16,
+    "question": "If a reaction has an activation energy of zero, the rate constant (k) of the reaction will be:",
+    "options": {
+      "A": "Equal to the Arrhenius pre-exponential factor (A)",
+      "B": "Zero",
+      "C": "Infinite",
+      "D": "Dependent on temperature"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 17,
+    "question": "For a first-order reaction, the time required for 99% completion is roughly how many times the half-life?",
+    "options": {
+      "A": "6.6",
+      "B": "3.3",
+      "C": "10",
+      "D": "2"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 18,
+    "question": "Which of the following statements about molecularity is incorrect?",
+    "options": {
+      "A": "It can be a fraction or zero",
+      "B": "It is a theoretical property",
+      "C": "It is applicable only to elementary reactions",
+      "D": "It cannot exceed three in normal conditions"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 19,
+    "question": "The rate constant of a reaction is 2.5 × 10⁻⁴ min⁻¹. The time taken for the reactant concentration to fall from 0.1 M to 0.01 M is:",
+    "options": {
+      "A": "9212 min",
+      "B": "4606 min",
+      "C": "2303 min",
+      "D": "6909 min"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 20,
+    "question": "For a parallel decomposition reaction where A decays to B (rate constant k₁) and A decays to C (rate constant k₂), the overall rate constant for the disappearance of A is given by:",
+    "options": {
+      "A": "k₁ + k₂",
+      "B": "k₁ × k₂",
+      "C": "(k₁ + k₂) / 2",
+      "D": "k₁ / k₂"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 21,
+    "question": "The threshold energy of a reaction is equal to:",
+    "options": {
+      "A": "Activation energy + Average kinetic energy of reactant molecules",
+      "B": "Activation energy - Average kinetic energy of reactant molecules",
+      "C": "Activation energy only",
+      "D": "Activation energy + Enthalpy change"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 22,
+    "question": "For a first-order gaseous reaction A(g) → 2B(g) + C(g), the initial pressure is P_i and the total pressure at time t is P_t. The rate constant k is expressed as:",
+    "options": {
+      "A": "k = (2.303 / t) log(2P_i / (3P_i - P_t))",
+      "B": "k = (2.303 / t) log(P_i / (2P_i - P_t))",
+      "C": "k = (2.303 / t) log(P_i / (P_i - P_t))",
+      "D": "k = (2.303 / t) log(2P_i / (P_i - P_t))"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 23,
+    "question": "The half-life of a radioactive isotope (which always follows first-order kinetics) is 140 days. After 560 days, 1 g of the isotope will be reduced to:",
+    "options": {
+      "A": "0.0625 g",
+      "B": "0.125 g",
+      "C": "0.25 g",
+      "D": "0.50 g"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 24,
+    "question": "Radioactive decay processes are generally:",
+    "options": {
+      "A": "First order, independent of temperature and pressure",
+      "B": "Zero order, dependent on temperature",
+      "C": "Second order, independent of pressure",
+      "D": "First order, dependent on physical conditions"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 25,
+    "question": "The slope of the line in the plot of log(Rate) versus log(Concentration) for a reaction represents the:",
+    "options": {
+      "A": "Order of the reaction",
+      "B": "Rate constant",
+      "C": "Activation energy",
+      "D": "Molecularity"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 26,
+    "question": "In an endothermic reaction, the activation energy for the forward reaction (E_a_f) and backward reaction (E_a_b) are related as:",
+    "options": {
+      "A": "E_a_f > E_a_b",
+      "B": "E_a_f < E_a_b",
+      "C": "E_a_f = E_a_b",
+      "D": "No strict relation exists"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 27,
+    "question": "The temperature coefficient of most chemical reactions lies between:",
+    "options": {
+      "A": "2 and 3",
+      "B": "1 and 2",
+      "C": "3 and 4",
+      "D": "0 and 1"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 28,
+    "question": "The integrated rate expression for a first-order reaction can be written as:",
+    "options": {
+      "A": "ln[A]_t = -kt + ln[A]_0",
+      "B": "[A]_t = -kt + [A]_0",
+      "C": "1/[A]_t = kt + 1/[A]_0",
+      "D": "[A]_t = [A]_0 e^(kt)"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 29,
+    "question": "The half-life period of a first-order reaction is 10 hours. Its log(k) value (with unit in s⁻¹) will be closest to:",
+    "options": {
+      "A": "-4.71",
+      "B": "-1.71",
+      "C": "-3.71",
+      "D": "-5.71"
+    },
+    "answer": "A"
+  },
+  {
+    "question_no": 30,
+    "question": "Which transition state feature is true according to Activated Complex Theory?",
+    "options": {
+      "A": "It has a transient existence with maximum potential energy",
+      "B": "It can be isolated easily at low temperatures",
+      "C": "It is more stable than both reactants and products",
+      "D": "It has minimum potential energy"
+    },
+    "answer": "A"
+  }
+]
