@@ -135,23 +135,27 @@
 <url>
   <loc>https://selectionpro.in/mock/neet_mock_test.html</loc>
   <lastmod>2026-05-25T12:23:49+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://selectionpro.in/mock/jee_mains_mock_test_hindi.html</loc>
   <lastmod>2026-05-25T12:23:50+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://selectionpro.in/mock/cuet_mock_test_hindi.html</loc>
   <lastmod>2026-05-25T12:23:50+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://selectionpro.in/mock/neet_mock_test_hindi.html</loc>
   <lastmod>2026-05-25T12:23:50+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://selectionpro.in/mock/class_12_board_mock_test.html</loc>
+  <lastmod>2026-05-25T12:23:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
