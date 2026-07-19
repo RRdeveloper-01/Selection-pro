@@ -472,7 +472,10 @@ All Previous Year Question Papers belong to their respective official conducting
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
             
-            this.classList.toggle("active");
+            this.setAttribute(
+"aria-expanded",
+this.classList.contains("active")
+);
 
 
             var panel = this.nextElementSibling;
@@ -498,7 +501,9 @@ All Previous Year Question Papers belong to their respective official conducting
       btn.innerHTML = "Sending...";
       
       // Data bhej rahe hain Google Sheet mein
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      fetch(scriptURL, { method: 'POST', body: new FormData(form),
+          mode:'cors'
+      })
         .then(response => {
             // Success hone par message badal jayega
             msg.innerHTML = "✅ Success! Aap subscribe ho chuke hain. Apna email check karein!";
