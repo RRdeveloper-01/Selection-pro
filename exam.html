@@ -1,55 +1,558 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-IN">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>All exams | previous year questions papers | free download  </title>
-  <meta name="keywords" content="Selection Pro, All Government Exams PYQs, Competitive Exam Mock Tests 2026, Entrance Exam Study Strategy, JEE NEET SSC Bank Railway Papers, Previous Year Solved Questions, Free Online Test Series, Exam Syllabus and Pattern, Toppers Study Plan, Sarkari Exam Preparation, Chapter-wise Practice Sets">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="description" content="Download All India Entrance & Govt Exam PYQs. SSC, Banking, Railway, JEE, NEET aur CUET ke official solved free papers PDF mein access karein. India ka sabse bada previous year question paper collection." />
-     <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>All Government & Entrance Exam Previous Year Question Papers (PYQs) | Free PDF Download</title>
+
+  <meta name="description"
+    content="Download free Previous Year Question Papers (PYQs) for JEE, NEET, CUET, SSC, Railway, Banking, GATE, RBI and other government & entrance exams with solved papers and preparation resources.">
+
+  <meta name="keywords"
+    content="PYQ, Previous Year Question Papers, JEE PYQ, NEET PYQ, CUET PYQ, SSC CGL, SSC CHSL, Railway, RBI, Banking, GATE, Government Exam Papers, Free PDF">
+
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Selection Pro">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="canonical" href="https://selectionpro.in/exam.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="All Government & Entrance Exam Previous Year Question Papers">
+  <meta property="og:description"
+    content="Download free official previous year papers for India's top entrance and government exams.">
+  <meta property="og:url" content="https://selectionpro.in/exam.html">
+  <meta property="og:site_name" content="Selection Pro">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="All Government & Entrance Exam Previous Year Papers">
+  <meta name="twitter:description"
+    content="Free PYQs for JEE, NEET, CUET, SSC, Banking, Railway and more.">
+
+  <link rel="icon" href="/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* =========================
+   RESET
+========================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#ffffff;
+  color:#222;
+  line-height:1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#ffffff;
+  border-bottom:1px solid #eaeaea;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:15px 20px;
+}
+
+.logo a{
+  text-decoration:none;
+  color:#111;
+  font-size:22px;
+  font-weight:700;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:24px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#444;
+  font-weight:500;
+  transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active{
+  color:#0d6efd;
+}
+
+.menu-btn{
+  display:none;
+  border:none;
+  background:none;
+  font-size:28px;
+  cursor:pointer;
+  color:black;
+}
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+.mobile-menu{
+  display:none;
+  list-style:none;
+  background:#fff;
+  border-bottom:1px solid #eee;
+}
+
+.mobile-menu li{
+  border-top:1px solid #f2f2f2;
+  color:black;
+}
+
+.mobile-menu a{
+  display:block;
+  padding:14px 20px;
+  text-decoration:none;
+  color:#333;
+}
+
+.mobile-menu a:hover{
+  background:#f8f9fa;
+}
+
+.mobile-menu.show{
+  display:block;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+  text-align:center;
+  padding:50px 20px 30px;
+}
+
+.hero h1{
+  font-size:2rem;
+  font-weight:700;
+  color:#111;
+  margin-bottom:12px;
+}
+
+.hero p{
+  max-width:800px;
+  margin:auto;
+  color:#666;
+  font-size:15px;
+}
+
+/* =========================
+   SEARCH BOX
+========================= */
+
+.search-box{
+  max-width:500px;
+  margin:25px auto 0;
+}
+
+.search-box input{
+  width:100%;
+  padding:14px 18px;
+
+  border:1px solid #ddd;
+  border-radius:12px;
+
+  font-size:15px;
+  outline:none;
+  transition:.3s;
+}
+
+.search-box input:focus{
+  border-color:#0d6efd;
+  box-shadow:0 0 0 4px rgba(13,110,253,.12);
+}
+
+/* =========================
+   EXAM SECTION
+========================= */
+
+.exam-section{
+  width:100%;
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+.exam-section h2{
+  text-align:center;
+  margin-bottom:25px;
+  color:#111;
+  font-size:1.5rem;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.exam-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.exam-card{
+  text-decoration:none;
+  color:#111;
+
+  background:#ffffff;
+  border:1px solid #e6e6e6;
+
+  border-radius:14px;
+
+  min-height:90px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  transition:.3s ease;
+}
+
+.exam-card:hover{
+  transform:translateY(-4px);
+
+  border-color:#0d6efd;
+
+  box-shadow:
+  0 8px 20px rgba(0,0,0,.08);
+}
+
+.exam-name{
+  font-size:15px;
+  font-weight:600;
+}
+
+/* =========================
+   FOOTER SPACE
+========================= */
+
+main{
+  padding-bottom:40px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:900px){
+
+  .exam-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+  .nav-links{
+    display:none;
+  }
+
+  .menu-btn{
+    display:block;
+  }
+
+  .hero h1{
+    font-size:1.6rem;
+  }
+
+  .exam-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+  .hero{
+    padding-top:35px;
+  }
+
+  .hero h1{
+    font-size:1.35rem;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  .exam-grid{
+    gap:12px;
+  }
+
+  .exam-card{
+    min-height:80px;
+  }
+
+  .exam-name{
+    font-size:14px;
+  }
+
+}
+  </style>
 </head>
 
 <body>
-    
-    <nav class="navbar">
 
-        <ul class="nav-links">
-            <li class="home "><a href="index.html">Home</a></li>
-            <li><a class="active" href="exam.html">Official papers</a></li>
-            <li><a href="/resources/resources.html">Study resources</a></li>
-           <li><a href="english_mock_test.html">Mock test</a></li>
+  <!-- Navigation -->
+  <nav class="navbar">
 
-        </ul>
-    </nav>
-    <pre>
-      .
-      
-      
-    </pre>
-  <div id="year" class="exam">
-    
-       <div class="select">
-    Select your exam 📚:
-  </div>
-   <a class="jee" id="exam" href="jeemains-strategy-plan-and-pyqs.html">JEE MAINS</a><br>
-  <a class="jee" id="exam" href="jeeadvanced-strategy-plan-and-pyqs.html">JEE ADVANCED  </a><br>
-  <a class="jee" id="exam" href="cuetug-strategy-plan-and-pyqs.html">CUET(UG)</a><br>
-  <a class="jee" id="exam" href="Gate-strategy-plan-and-pyqs.html">GATE</a><br>
-  <a class="jee" id="exam" href="neet-strategy-plan-and-pyqs.html">NEET</a><br>
-  <a class="jee" id="exam" href="jipmer-strategy-plan-and-pyqs.html">JIPMER</a><br>
-  <a class="jee" id="exam" href="aiims-strategy-plan-and-pyqs.html">AIIMS</a><br>
-  <a class="jee" id="exam" href="ssccgl-strategy-plan-and-pyqs.html">SSC CGL</a><br>
-  <a class="jee" id="exam" href="sscchsl-strategy-plan-and-pyqs.html">SSC CHSL</a><br>
-  <a class="jee" id="exam" href="rrb-strategy-plan-and-pyqs.html">RRB</a><br>
-  <a class="jee" id="exam" href="ibpspo-strategy-plan-and-pyqs.html">IBPS PO</a><br>
-  <a class="jee" id="exam" href="sbiclerk-strategy-plan-and-pyqs.html">SBI CLERK</a><br>
-  <a class="jee" id="exam" href="rbi-strategy-plan-and-pyqs.html">RBI</a> 
-  </div>
- 
+    <div class="logo">
+      <a href="index.html">Selection Pro</a>
+    </div>
+
+    <ul class="nav-links">
+
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li>
+        <a class="active" href="exam.html">Official Papers</a>
+      </li>
+
+      <li>
+        <a href="/resources/resources.html">Study Resources</a>
+      </li>
+
+      <li>
+        <a href="english_mock_test.html">Mock Test</a>
+      </li>
+
+    </ul>
+
+    <button class="menu-btn" id="menuBtn"
+      aria-label="Open Navigation Menu">
+      ☰
+    </button>
+
+  </nav>
+
+  <!-- Mobile Menu -->
+
+  <ul class="mobile-menu" id="mobileMenu">
+
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+
+    <li>
+      <a class="active" href="exam.html">Official Papers</a>
+    </li>
+
+    <li>
+      <a href="/resources/resources.html">Study Resources</a>
+    </li>
+
+    <li>
+      <a href="english_mock_test.html">Mock Test</a>
+    </li>
+
+  </ul>
+
+  <header class="hero">
+
+    <h1>
+      All Government & Entrance Exam Previous Year Question Papers
+    </h1>
+
+    <p>
+      Download official previous year question papers (PYQs) for India's top government and entrance exams.
+    </p>
+
+    <div class="search-box">
+
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search your exam..."
+        aria-label="Search Exams">
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="exam-section">
+
+      <h2>Select Your Exam 📚</h2>
+
+      <div class="exam-grid" id="examGrid">
+                <a class="exam-card" href="jeemains-strategy-plan-and-pyqs.html">
+          <span class="exam-name">JEE MAINS</span>
+        </a>
+
+        <a class="exam-card" href="jeeadvanced-strategy-plan-and-pyqs.html">
+          <span class="exam-name">JEE ADVANCED</span>
+        </a>
+
+        <a class="exam-card" href="cuetug-strategy-plan-and-pyqs.html">
+          <span class="exam-name">CUET (UG)</span>
+        </a>
+
+        <a class="exam-card" href="Gate-strategy-plan-and-pyqs.html">
+          <span class="exam-name">GATE</span>
+        </a>
+
+        <a class="exam-card" href="neet-strategy-plan-and-pyqs.html">
+          <span class="exam-name">NEET</span>
+        </a>
+
+        <a class="exam-card" href="jipmer-strategy-plan-and-pyqs.html">
+          <span class="exam-name">JIPMER</span>
+        </a>
+
+        <a class="exam-card" href="aiims-strategy-plan-and-pyqs.html">
+          <span class="exam-name">AIIMS</span>
+        </a>
+
+        <a class="exam-card" href="ssccgl-strategy-plan-and-pyqs.html">
+          <span class="exam-name">SSC CGL</span>
+        </a>
+
+        <a class="exam-card" href="sscchsl-strategy-plan-and-pyqs.html">
+          <span class="exam-name">SSC CHSL</span>
+        </a>
+
+        <a class="exam-card" href="rrb-strategy-plan-and-pyqs.html">
+          <span class="exam-name">RRB</span>
+        </a>
+
+        <a class="exam-card" href="ibpspo-strategy-plan-and-pyqs.html">
+          <span class="exam-name">IBPS PO</span>
+        </a>
+
+        <a class="exam-card" href="sbiclerk-strategy-plan-and-pyqs.html">
+          <span class="exam-name">SBI CLERK</span>
+        </a>
+
+        <a class="exam-card" href="rbi-strategy-plan-and-pyqs.html">
+          <span class="exam-name">RBI</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  /* ==========================
+     Mobile Menu Toggle
+  ========================== */
+
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  if (menuBtn && mobileMenu) {
+
+    menuBtn.addEventListener("click", function () {
+      mobileMenu.classList.toggle("show");
+    });
+
+  }
+
+  /* ==========================
+     Live Search
+  ========================== */
+
+  const searchInput = document.getElementById("searchInput");
+  const examCards = document.querySelectorAll(".exam-card");
+
+  if (searchInput) {
+
+    searchInput.addEventListener("input", function () {
+
+      const value = this.value.toLowerCase().trim();
+
+      examCards.forEach(function (card) {
+
+        const text = card.textContent.toLowerCase();
+
+        if (text.includes(value)) {
+          card.style.display = "flex";
+        } else {
+          card.style.display = "none";
+        }
+
+      });
+
+    });
+
+  }
+
+});
+</script>
+  <!-- Structured Data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"All Government & Entrance Exam Previous Year Question Papers",
+    "url":"https://selectionpro.in/exam.html",
+    "description":"Download free previous year question papers (PYQs) for JEE, NEET, CUET, SSC, Railway, Banking, GATE, RBI and other entrance & government exams.",
+    "publisher":{
+      "@type":"Organization",
+      "name":"Selection Pro",
+      "url":"https://selectionpro.in"
+    },
+    "inLanguage":"en-IN"
+  }
+  </script>
+
 </body>
-
 </html>
