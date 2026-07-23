@@ -45,7 +45,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="exam.css">
   <style>
     /* =========================
    RESET
@@ -72,84 +72,6 @@ body{
    NAVBAR
 ========================= */
 
-.navbar{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  background:#ffffff;
-  border-bottom:1px solid #eaeaea;
-
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-
-  padding:15px 20px;
-}
-
-.logo a{
-  text-decoration:none;
-  color:#111;
-  font-size:22px;
-  font-weight:700;
-}
-
-.nav-links{
-  list-style:none;
-  display:flex;
-  gap:24px;
-}
-
-.nav-links a{
-  text-decoration:none;
-  color:#444;
-  font-weight:500;
-  transition:.3s;
-}
-
-.nav-links a:hover,
-.nav-links a.active{
-  color:#0d6efd;
-}
-
-.menu-btn{
-  display:none;
-  border:none;
-  background:none;
-  font-size:28px;
-  cursor:pointer;
-  color:black;
-}
-
-/* =========================
-   MOBILE MENU
-========================= */
-
-.mobile-menu{
-  display:none;
-  list-style:none;
-  background:#fff;
-  border-bottom:1px solid #eee;
-}
-
-.mobile-menu li{
-  border-top:1px solid #f2f2f2;
-  color:black;
-}
-
-.mobile-menu a{
-  display:block;
-  padding:14px 20px;
-  text-decoration:none;
-  color:#333;
-}
-
-.mobile-menu a:hover{
-  background:#f8f9fa;
-}
-
-.mobile-menu.show{
-  display:block;
-}
 
 /* =========================
    HERO
@@ -292,14 +214,6 @@ main{
 
 @media(max-width:768px){
 
-  .nav-links{
-    display:none;
-  }
-
-  .menu-btn{
-    display:block;
-  }
-
   .hero h1{
     font-size:1.6rem;
   }
@@ -347,62 +261,35 @@ main{
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar">
+<header>
 
-    <div class="logo">
-      <a href="index.html">Selection Pro</a>
-    </div>
+<nav class="navbar">
 
-    <ul class="nav-links">
+<div class="logo">
 
-      <li>
-        <a href="index.html">Home</a>
-      </li>
+<a href="index.html">
+Selection <span>Pro</span>
+</a>
 
-      <li>
-        <a class="active" href="exam.html">Official Papers</a>
-      </li>
+</div>
 
-      <li>
-        <a href="/resources/resources.html">Study Resources</a>
-      </li>
+<ul class="nav-links">
 
-      <li>
-        <a href="english_mock_test.html">Mock Test</a>
-      </li>
+<li><a href="index.html">Home</a></li>
 
-    </ul>
+<li><a class="active" href="#">Official Papers</a></li>
 
-    <button class="menu-btn" id="menuBtn"
-      aria-label="Open Navigation Menu">
-      ☰
-    </button>
+<li><a href="/resources/resources.html">Study Resources</a></li>
 
-  </nav>
+<li><a href="english_mock_test.html">Mock Test</a></li>
 
-  <!-- Mobile Menu -->
+</ul>
 
-  <ul class="mobile-menu" id="mobileMenu">
+</nav>
 
-    <li>
-      <a href="index.html">Home</a>
-    </li>
+</header>
 
-    <li>
-      <a class="active" href="exam.html">Official Papers</a>
-    </li>
-
-    <li>
-      <a href="/resources/resources.html">Study Resources</a>
-    </li>
-
-    <li>
-      <a href="english_mock_test.html">Mock Test</a>
-    </li>
-
-  </ul>
-
-  <header class="hero">
+  <article class="hero">
 
     <h1>
       All Government & Entrance Exam Previous Year Question Papers
@@ -422,7 +309,7 @@ main{
 
     </div>
 
-  </header>
+  </article>
 
   <main>
 
@@ -431,55 +318,51 @@ main{
       <h2>Select Your Exam 📚</h2>
 
       <div class="exam-grid" id="examGrid">
-                <a class="exam-card" href="jeemains-strategy-plan-and-pyqs.html">
+                <a class="exam-card" href="jeemains.html">
           <span class="exam-name">JEE MAINS</span>
         </a>
 
-        <a class="exam-card" href="jeeadvanced-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="jeeadvanced.html">
           <span class="exam-name">JEE ADVANCED</span>
         </a>
 
-        <a class="exam-card" href="cuetug-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="cuet.html">
           <span class="exam-name">CUET (UG)</span>
         </a>
 
-        <a class="exam-card" href="Gate-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="gate.html">
           <span class="exam-name">GATE</span>
         </a>
 
-        <a class="exam-card" href="neet-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="neet.html">
           <span class="exam-name">NEET</span>
         </a>
 
-        <a class="exam-card" href="jipmer-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="jipmer.html">
           <span class="exam-name">JIPMER</span>
         </a>
 
-        <a class="exam-card" href="aiims-strategy-plan-and-pyqs.html">
-          <span class="exam-name">AIIMS</span>
-        </a>
-
-        <a class="exam-card" href="ssccgl-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="ssccgl.html">
           <span class="exam-name">SSC CGL</span>
         </a>
 
-        <a class="exam-card" href="sscchsl-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="sscchsl.html">
           <span class="exam-name">SSC CHSL</span>
         </a>
 
-        <a class="exam-card" href="rrb-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="rrb.html">
           <span class="exam-name">RRB</span>
         </a>
 
-        <a class="exam-card" href="ibpspo-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="ibpspo.html">
           <span class="exam-name">IBPS PO</span>
         </a>
 
-        <a class="exam-card" href="sbiclerk-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="sbiclerk.html">
           <span class="exam-name">SBI CLERK</span>
         </a>
 
-        <a class="exam-card" href="rbi-strategy-plan-and-pyqs.html">
+        <a class="exam-card" href="rbi.html">
           <span class="exam-name">RBI</span>
         </a>
 
@@ -553,6 +436,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "inLanguage":"en-IN"
   }
   </script>
-
+<script src="exam.js" defer></script>
 </body>
 </html>
