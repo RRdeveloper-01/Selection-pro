@@ -70,24 +70,40 @@
             max-width: 1200px;
             margin: 2rem auto;
             padding: 0 1rem;
-            display: grid;
+            display: block;
             grid-template-columns: 2.5fr 1fr;
             gap: 2rem;
+            
+
         }
 
         /* Blog Section */
-        .blog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-        }
+.blog-grid{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    padding-bottom:15px;
+}
 
+.blog-grid::-webkit-scrollbar{
+    display:none;
+}
+.sidebar{
+    margin-top:30px;
+}
         .card {
             background: #fff;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             transition: transform 0.2s;
+            min-width:320px;
+            max-width:320px;
+            flex:0 0 auto;
+            scroll-snap-align:start;
         }
 
         .card:hover {
@@ -294,7 +310,17 @@
             .container {
                 grid-template-columns: 1fr;
             }
+              .card{
+        min-width:88%;
+        max-width:88%;
+    }
+
+    .blog-grid{
+        padding-left:5px;
+        padding-right:5px;
+    }
         }
+
     </style>
 </head>
 <body>
@@ -305,9 +331,9 @@
 
 <div class="logo">
 
-<a href="index.html">
+<!--<a href="index.html">
 Selection <span>Pro</span>
-</a>
+</a>-->
 
 </div>
 
@@ -344,7 +370,7 @@ Selection <span>Pro</span>
             </div>
         </a>
 
-        <a href="#mock-tests" class="quick-card">
+        <a href="english_mock_test.html" class="quick-card">
             <div class="card-icon">📝</div>
             <div class="card-text">
                 <h3>Mock Tests</h3>
@@ -352,7 +378,7 @@ Selection <span>Pro</span>
             </div>
         </a>
 
-        <a href="#pyq-papers" class="quick-card">
+        <a href="exam.html" class="quick-card">
             <div class="card-icon">📂</div>
             <div class="card-text">
                 <h3>PYQ Papers</h3>
@@ -379,10 +405,10 @@ Selection <span>Pro</span>
             <article class="card">
                 <img src="https://via.placeholder.com/400x200" alt="Study Strategy">
                 <div class="card-content">
-                    <span class="tag">Strategy</span>
+                    <span class="tag">Exam Wise Strategy</span>
                     <h3>Exam Me Top Karne Ke 5 Best Study Tips</h3>
                     <p>Apne daily routine ko structured bana kar kam samay me zyada syllabus kaise cover karein...</p>
-                    <a href="#" class="read-more">Pura Padhein &rarr;</a>
+                    <a href="exam.html" class="read-more">Pura Padhein &rarr;</a>
                 </div>
             </article>
 
