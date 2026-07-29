@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Support Us - Help Us Keep Content Free</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            max-width: 450px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .card h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .qr-container {
+            background: #fafafa;
+            padding: 15px;
+            border: 2px dashed #e0e0e0;
+            border-radius: 12px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .qr-container img {
+            width: 200px;
+            height: 200px;
+            display: block;
+        }
+        .upi-box {
+            background: #eef2f5;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .upi-id {
+            font-weight: bold;
+            color: #333;
+            font-size: 15px;
+        }
+        .copy-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: 0.3s;
+        }
+        .copy-btn:hover {
+            background: #0056b3;
+        }
+        .amounts {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .badge {
+            background: #e3f2fd;
+            color: #0d47a1;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .footer-note {
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Support Our Mission ❤️</h1>
+    <p>Aapka chota sa contribution humein study material ko free rakhne aur website hosting ke kharche chalane me help karta hai.</p>
+
+    <div class="qr-container">
+        <img src="supportimg.jpg" alt="UPI QR Code" id="qr-img">
+    </div>
+
+    <div class="amounts">
+        <span class="badge">₹10</span>
+        <span class="badge">₹50</span>
+        <span class="badge">₹100</span>
+        <span class="badge">₹500</span>
+    </div>
+
+    <div class="upi-box">
+        <span class="upi-id" id="upi-text">8957940617@fam</span>
+        <button class="copy-btn" onclick="copyUPI()">Copy ID</button>
+    </div>
+
+    <div class="footer-note">
+        PhonePe, Google Pay, Paytm ya kisi bhi UPI App se scan karein.
+    </div>
+</div>
+
+<script>
+    function copyUPI() {
+        var upiText = document.getElementById("upi-text").innerText;
+        navigator.clipboard.writeText(upiText);
+        alert("UPI ID Copy ho gayi hai: " + upiText);
+    }
+</script>
+
+</body>
+</html>
