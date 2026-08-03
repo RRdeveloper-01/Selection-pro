@@ -1,0 +1,165 @@
+<input type="checkbox" id="menu-toggle">
+
+<header class="header">
+
+<label for="menu-toggle" class="hamburger" aria-label="Open Navigation">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</label>
+
+<div class="logo">
+
+<h1>Selection<span>Pro</span></h1>
+
+</div>
+
+<div class="search-icon"
+
+onclick="openSearch()"
+
+aria-label="Search">
+
+<svg width="24"
+
+height="24"
+
+viewBox="0 0 24 24"
+
+fill="none"
+
+stroke="currentColor"
+
+stroke-width="2">
+
+<circle cx="11"
+
+cy="11"
+
+r="8"/>
+
+<line x1="21"
+
+y1="21"
+
+x2="16.65"
+
+y2="16.65"/>
+
+</svg>
+
+</div>
+<div id="search-overlay">
+  <span class="close-btn" onclick="closeSearch()">&times;</span>
+  <div class="search-input-container">
+    <input type="text" id="main-search" placeholder="Start exploring(exam,mock test,scholarship etc.)..." 
+  onkeyup="filterSuggestions()">
+  <ul id="suggestions-list">
+
+    <li><a href="/">Home</a></li>
+
+    <li><a href="/daily_update.html">Daily Updates</a></li>
+
+    <li><a href="/blog.html">Blog</a></li>
+
+    <li><a href="/exam.html">All Exams</a></li>
+
+    <li><a href="/resources/resources.html">Study Resources</a></li>
+
+    <li><a href="/english_mock_test.html">English Mock Test</a></li>
+
+    <li><a href="/hindi_mock_test.html">Hindi Mock Test</a></li>
+
+    <li><a href="/about.html">About Us</a></li>
+
+    <li><a href="/engineering.html">Engineering Exams</a></li>
+
+    <li><a href="/medical.html">Medical Exams</a></li>
+
+    <li><a href="/sscrailway.html">SSC & Railway Exams</a></li>
+
+    <li><a href="/banking.html">Banking Exams</a></li>
+
+    <li><a href="/jeeadvanced.html">JEE Advanced</a></li>
+
+    <li><a href="/gate.html">GATE</a></li>
+
+    <li><a href="/neet.html">NEET</a></li>
+
+    <li><a href="/jipmer.html">JIPMER</a></li>
+
+    <li><a href="/ssccgl.html">SSC CGL</a></li>
+
+    <li><a href="/sscchsl.html">SSC CHSL</a></li>
+
+    <li><a href="/rrb.html">RRB Exams</a></li>
+
+    <li><a href="/sbiclerk.html">SBI Clerk</a></li>
+
+    <li><a href="/rbi.html">RBI Exams</a></li>
+
+    <li><a href="/examinfo/examhub.html">Exam Hub</a></li>
+
+    <li><a href="/examinfo/ssc-cgl.html">SSC CGL 2026</a></li>
+
+    <li><a href="/blog/management.html">Time Management Tips</a></li>
+
+    <li><a href="/blog/mock-mistake.html">Common Mock Test Mistakes</a></li>
+
+    <li><a href="/scholarship/nsp.html">National Scholarship Portal (NSP)</a></li>
+
+    <li><a href="/mock/class_12_board_mock_test.html">Class 12 Board Mock Test</a></li>
+
+    <li><a href="/mock/jee_mains_mock_test.html">JEE Main Mock Test</a></li>
+
+    <li><a href="/mock/cuet_mock_test.html">CUET Mock Test</a></li>
+
+    <li><a href="/mock/neet_mock_test.html">NEET Mock Test</a></li>
+
+    <li><a href="/mock/jee_mains_mock_test_hindi.html">JEE Main Mock Test (Hindi)</a></li>
+
+    <li><a href="/mock/cuet_mock_test_hindi.html">CUET Mock Test (Hindi)</a></li>
+
+    <li><a href="/mock/neet_mock_test_hindi.html">NEET Mock Test (Hindi)</a></li>
+
+    <li><a href="/update/student-protest_23_july.html">Student Protest - 23 July</a></li>
+
+    <li><a href="/update/student_protest_24_july.html">Student Protest - 24 July</a></li>
+
+    <li><a href="/update/2026-07-25.html">25 July 2026 Updates</a></li>
+
+    <li><a href="/update/student_protest_end.html">Student Protest Ends</a></li>
+
+    <li><a href="/update/ssc-calendar-2026-27.html">SSC Calendar 2026-27</a></li>
+
+    <li><a href="/update/ibps-csa-new-update.html">IBPS CSA New Update</a></li>
+
+    <li><a href="/update/july-30.html">30 July 2026 Updates</a></li>
+
+    <li><a href="/update/august-01-updates.html">1 August 2026 Updates</a></li>
+
+</ul>
+    
+  </div>
+</div>
+
+</header>
+<!-- Side Navigation -->
+
+<nav class="side-menu" aria-label="Mobile Navigation">
+    <a href="/index.html">Home</a>
+     <a href="/blog.html">Blogs & updates</a>
+    <a href="/exam.html">Study material</a>
+    <a href="/resources/resources.html">Study Resources</a>
+    <a href="/english_mock_test.html">Mock Test</a>
+    <a href="/about.html">About Us</a>
+    <a href="/contact.html">Contact Us</a>
+    <a href="/disclaimer.html">Disclaimer</a>
+    <a href="/privacy.html">Privacy Policy</a>
+</nav>
+
+<label for="menu-toggle" class="overlay"></label>
