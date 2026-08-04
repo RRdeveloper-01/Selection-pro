@@ -88,55 +88,55 @@
   </url>
   <url>
        <loc>https://selectionpro.in/jeeadvanced.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/gate.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/neet.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/jipmer.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/ssccgl.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+        <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/sscchsl.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+        <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/rrb.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/sbiclerk.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://selectionpro.in/rbi.html</loc>
-       <lastmod>2026-07-23T13:42:24+00:00</lastmod>
+       <lastmod>2026-08-04T06:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -251,6 +251,12 @@
       <url>
        <loc>https://selectionpro.in/update /august-3-updates.html</loc>
        <lastmod>2026-08-03T10:42:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+      <url>
+       <loc>https://selectionpro.in/scholarship/up-scholarship</loc>
+       <lastmod>2026-08-04T05:42:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>

@@ -39,7 +39,7 @@
 /*support button style*/
 .floating-support-btn {
     position: fixed;
-    bottom: 20px;            /* Niche se distance */
+    bottom: 30px;            /* Niche se distance */
     right: 20px;             /* Right side me fix rakhne ke liye */
     background-color: #28a745; /* Green Color (Aap badal sakte hain) */
     color: #ffffff;

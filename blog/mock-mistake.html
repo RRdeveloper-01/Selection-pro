@@ -10,6 +10,7 @@
 
 <meta name="keywords" content="Mock Test Tips, Mock Test Mistakes, Improve Exam Score, Exam Preparation, Time Management, Selection Pro">
 
+
 <meta name="author" content="Selection Pro">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -19,22 +20,24 @@
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-<link rel="stylesheet" href="/css/blog-reuseable.css">
-<link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/blog-reuseable.css">
+    <link rel="stylesheet" href="/includes/css/header.css">
+    <link rel="stylesheet" href="/includes/css/footer.css">
+    <script src="/includes/js/analytics.js"></script>
+    <script src="/includes/js/onesignal.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
 
 <body>
 
 <!-- ===== Header ===== -->
-<div id="header"></div>
+    <div id="header"> </div>
+    <div id="translate">  </div>
 
 <!-- ===== Back Button ===== -->
 
-<div class="back-container">
-<a href="../blog.html" class="back-btn">
-← Back
-</a>
-</div>
+
 <div class="lang-switcher" style="text-align: right; margin: 10px 20px;">
      <button onclick="changeLanguage('en')" class="btn" style="padding: 6px 15px; font-size: 14px; background:#6c757d;">English</button>
     <button onclick="changeLanguage('hi')" class="btn" style="padding: 6px 15px; font-size: 14px;">Hindi</button>
@@ -497,68 +500,36 @@ Review your mistakes, strengthen weak topics, revise regularly, and practice eff
 </section>
 
 <!-- Share Section -->
+            <section class="share-section">
+                <h2>इस खबर को शेयर करें</h2>
+                <div class="share-buttons">
+                    <a class="share-btn" href="#" style="background:#25D366;">
+                        <i class="fab fa-whatsapp"></i>&nbsp; WhatsApp
+                    </a>
+                    <a class="share-btn" href="#" style="background:#900000;">
+                        <i class="fab fa-facebook-f"></i>&nbsp; Facebook
+                    </a>
+                    <a class="share-btn" href="#" style="background:#000000;">
+                        <i class="fab fa-x-twitter"></i>&nbsp; Twitter
+                    </a>
+                    <a class="share-btn" href="#" style="background:#6c756d;">
+                        <i class="fas fa-link"></i>&nbsp; Copy Link
+                    </a>
+                </div>
+            </section>
 
-  <section class="share-section">
-
-        <h2>इस खबर को शेयर करें</h2>
-
-        <div class="share-buttons">
-
-            <a class="" href="#">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-x-twitter"></i>
-            </a>
-
-            <a href="#">
-                <i class="fas fa-link"></i>
-            </a>
-
-        </div>
-
-    </section>
 
 </article>
 
 </main>
 
-<!-- Footer -->
-<a href="/support.html" class="floating-support-btn">
-    <span class="btn-icon">❤️</span>
-    <span class="btn-text">Support Us</span>
-</a>
-<!-- Floating Telegram Button -->
-<a href="https://t.me/selectionpro1"
-   class="telegram-float"
-   target="_blank"
-   aria-label="Join Telegram">
-  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
-    <path d="M9.99 15.48 9.8 19.2c.29 0 .42-.13.57-.28l2.74-2.62 5.68 4.16c1.04.58 1.77.27 2.05-.96l3.72-17.43h.01c.33-1.53-.55-2.13-1.56-1.76L1.32 8.6C-.15 9.18-.13 10 .99 10.34l5.5 1.72L19.2 4.22c.6-.4 1.15-.18.7.22"/>
-  </svg>
-  <span>Join Telegram</span>
-</a>
 <div id="footer"></div>
-<script src="/blog.js"></script>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-
-function changeLanguage(lang) {
-  var selectField = document.querySelector("select.goog-te-combo");
-  if (selectField) {
-    selectField.value = lang;
-    selectField.dispatchEvent(new Event('change'));
-  }
-}
-</script>
+<script src="/includes/js/header.js" ></script>
+<script src="/includes/js/footer.js" ></script>
+<script src="/includes/js/translate.js" ></script>
+<script src="/includes/js/lang.js" ></script>
+<script src="/includes/js/search.js"></script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+<script src="/blog.js"></script>
 </body>
 </html>

@@ -1,13 +1,20 @@
     /* --- Search Icon --- */
-        .search-trigger-btn {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            cursor: pointer;
-            background: #eee;
-            padding: 10px;
-            border-radius: 50%;
-        }
+       .search-icon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+}
         #search-overlay {
             position: fixed;
             top: 0;
