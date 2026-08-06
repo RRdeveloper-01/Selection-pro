@@ -1,0 +1,1211 @@
+   {"subject": "JEE Main Full Mock Test",
+    "chapter": "Practice Test 01",
+    "chapterslug": "jee_main_pt_01",
+    "totalQuestions": 75,
+    "questions":[
+        {
+            "id": "jee_phy_001",
+            "question": "A particle is projected from the ground with an initial velocity $v_0 = 20\\text{ m/s}$ at an angle of $30^\\circ$ with the horizontal. Taking $g = 10\\text{ m/s}^2$, the total time of flight of the projectile is:",
+            "imageUrl": "",
+            "options": [
+                "$2\\text{ s}$",
+                "$4\\text{ s}$",
+                "$1\\text{ s}$",
+                "$2\\sqrt{3}\\text{ s}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The time of flight is given by $T = \\frac{2 v_0 \\sin\\theta}{g}$. Substituting $v_0 = 20\\text{ m/s}$, $\\theta = 30^\\circ$, and $g = 10\\text{ m/s}^2$: $T = \\frac{2 \\times 20 \\times \\sin(30^\\circ)}{10} = \\frac{40 \\times 0.5}{10} = 2\\text{ s}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2023",
+            "topicTag": "Kinematics"
+        },
+        {
+            "id": "jee_phy_002",
+            "question": "A block of mass $m = 2\\text{ kg}$ rests on a rough horizontal surface with coefficient of static friction $\\mu_s = 0.4$. The minimum horizontal force required to just move the block is (take $g = 10\\text{ m/s}^2$):",
+            "imageUrl": "",
+            "options": [
+                "$8\\text{ N}$",
+                "$4\\text{ N}$",
+                "$20\\text{ N}$",
+                "$0.8\\text{ N}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The maximum static friction force is $f_{\\text{max}} = \\mu_s N = \\mu_s m g$. Substituting the values: $f_{\\text{max}} = 0.4 \\times 2\\text{ kg} \\times 10\\text{ m/s}^2 = 8\\text{ N}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2022",
+            "topicTag": "Laws of Motion"
+        },
+        {
+            "id": "jee_phy_003",
+            "question": "A force $\\vec{F} = (3\\hat{i} + 4\\hat{j})\\text{ N}$ displaces a body from $(0, 0)$ to $(2\\text{ m}, 3\\text{ m})$. The work done by the force is:",
+            "imageUrl": "",
+            "options": [
+                "$18\\text{ J}$",
+                "$12\\text{ J}$",
+                "$6\\text{ J}$",
+                "$24\\text{ J}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Displacement vector $\\vec{r} = (2 - 0)\\hat{i} + (3 - 0)\\hat{j} = (2\\hat{i} + 3\\hat{j})\\text{ m}$. Work done $W = \\vec{F} \\cdot \\vec{r} = (3 \\times 2) + (4 \\times 3) = 6 + 12 = 18\\text{ J}$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Work, Power & Energy"
+        },
+        {
+            "id": "jee_phy_004",
+            "question": "A sphere of mass $m$ moving with speed $v$ collides head-on elastically with another stationary sphere of mass $2m$. The fractional loss of kinetic energy of the first sphere is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{8}{9}$",
+                "$\\frac{1}{9}$",
+                "$\\frac{4}{9}$",
+                "$\\frac{2}{3}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Final velocity of mass $m$ after elastic collision is $v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) v = \\left(\\frac{m - 2m}{m + 2m}\\right) v = -\\frac{v}{3}$. Remaining $\\text{KE}_1 = \\frac{1}{2} m v_1^2 = \\frac{1}{9} \\left(\\frac{1}{2} m v^2\\right)$. Fractional loss $= 1 - \\frac{1}{9} = \\frac{8}{9}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Center of Mass & Collisions"
+        },
+        {
+            "id": "jee_phy_005",
+            "question": "A solid sphere of mass $M$ and radius $R$ rolls without slipping down an inclined plane of inclination $\\theta$. The acceleration of the sphere is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{5}{7} g \\sin\\theta$",
+                "$\\frac{2}{5} g \\sin\\theta$",
+                "$\\frac{3}{5} g \\sin\\theta$",
+                "$\\frac{1}{2} g \\sin\\theta$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Acceleration of a rolling body on an incline is $a = \\frac{g \\sin\\theta}{1 + \\frac{I}{M R^2}}$. For a solid sphere, $I = \\frac{2}{5} M R^2$, so $a = \\frac{g \\sin\\theta}{1 + 2/5} = \\frac{5}{7} g \\sin\\theta$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Rotational Motion"
+        },
+        {
+            "id": "jee_phy_006",
+            "question": "The escape velocity from the surface of the Earth is $v_e$. If the radius of the Earth contracts to $\\frac{1}{4}\\text{th}$ of its present value without any change in mass, the new escape velocity becomes:",
+            "imageUrl": "",
+            "options": [
+                "$2 v_e$",
+                "$4 v_e$",
+                "$\\frac{v_e}{2}$",
+                "$v_e$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Escape velocity is $v_e = \\sqrt{\\frac{2 G M}{R}}$. If $R' = \\frac{R}{4}$, then $v_e' = \\sqrt{\\frac{2 G M}{R/4}} = 2 \\sqrt{\\frac{2 G M}{R}} = 2 v_e$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2019",
+            "topicTag": "Gravitation"
+        },
+        {
+            "id": "jee_phy_007",
+            "question": "Two wires $A$ and $B$ are made of the same material. Wire $A$ has length $L$ and radius $r$, while wire $B$ has length $2L$ and radius $2r$. The ratio of Young's modulus $Y_A / Y_B$ is:",
+            "imageUrl": "",
+            "options": [
+                "$1$",
+                "$2$",
+                "$\\frac{1}{2}$",
+                "$4$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Young's modulus depends solely on the material of the wire. Since both wires $A$ and $B$ are made of the same material, $Y_A = Y_B \\implies \\frac{Y_A}{Y_B} = 1$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Properties of Matter"
+        },
+        {
+            "id": "jee_phy_008",
+            "question": "According to Stefan-Boltzmann law, the total radiant energy emitted per second per unit area by a black body at temperature $T$ is proportional to $\\sigma T^n$, where $\\sigma$ is Stefan's constant. The value of $n$ is:",
+            "imageUrl": "",
+            "options": [
+                "$4$",
+                "$2$",
+                "$1$",
+                "$3$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Stefan-Boltzmann law states that total emissive power $E = \\sigma T^4$. Therefore, $n = 4$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2021",
+            "topicTag": "Thermodynamics"
+        },
+        {
+            "id": "jee_phy_009",
+            "question": "A particle executes simple harmonic motion with amplitude $A$. At what displacement from the mean position is its kinetic energy equal to its potential energy?",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{A}{\\sqrt{2}}$",
+                "$\\frac{A}{2}$",
+                "$\\frac{A}{\\sqrt{3}}$",
+                "$\\frac{\\sqrt{3} A}{2}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\text{KE} = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$ and $\\text{PE} = \\frac{1}{2} m \\omega^2 x^2$. Setting $\\text{KE} = \\text{PE} \\implies A^2 - x^2 = x^2 \\implies 2 x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2022",
+            "topicTag": "Simple Harmonic Motion"
+        },
+        {
+            "id": "jee_phy_010",
+            "question": "An organ pipe closed at one end has fundamental frequency $f_1 = 200\\text{ Hz}$. The frequency of the third harmonic is:",
+            "imageUrl": "",
+            "options": [
+                "$600\\text{ Hz}$",
+                "$400\\text{ Hz}$",
+                "$800\\text{ Hz}$",
+                "$1000\\text{ Hz}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "A closed organ pipe produces only odd harmonics. The frequencies are $f_1, 3 f_1, 5 f_1, \\dots$. The frequency of the 3rd harmonic is $3 \\times f_1 = 3 \\times 200\\text{ Hz} = 600\\text{ Hz}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Waves"
+        },
+        {
+            "id": "jee_phy_011",
+            "question": "Two point charges $+q$ and $+4q$ are separated by distance $L$. The electric field intensity is zero at a point located at distance $x$ from $+q$. The value of $x$ is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{L}{3}$",
+                "$\\frac{L}{2}$",
+                "$\\frac{L}{4}$",
+                "$\\frac{2L}{3}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Electric field balance: $\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{x^2} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{4q}{(L-x)^2} \\implies \\frac{1}{x} = \\frac{2}{L-x} \\implies L - x = 2x \\implies 3x = L \\implies x = \\frac{L}{3}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Electrostatics"
+        },
+        {
+            "id": "jee_phy_012",
+            "question": "Three resistors of resistances $2\\;\\Omega$, $3\\;\\Omega$, and $6\\;\\Omega$ are connected in parallel. The equivalent resistance of the combination is:",
+            "imageUrl": "",
+            "options": [
+                "$1\\;\\Omega$",
+                "$11\\;\\Omega$",
+                "$0.5\\;\\Omega$",
+                "$2\\;\\Omega$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\frac{1}{R_{\\text{eq}}} = \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{6} = \\frac{3 + 2 + 1}{6} = \\frac{6}{6} = 1\\;\\Omega^{-1} \\implies R_{\\text{eq}} = 1\\;\\Omega$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Current Electricity"
+        },
+        {
+            "id": "jee_phy_013",
+            "question": "A long straight wire carries a steady current $I$. The magnetic field $B$ at a perpendicular distance $r$ from the wire varies as:",
+            "imageUrl": "",
+            "options": [
+                "$B \\propto \\frac{1}{r}$",
+                "$B \\propto \\frac{1}{r^2}$",
+                "$B \\propto r$",
+                "$B \\propto r^2$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The magnetic field due to a long straight current-carrying conductor is given by $B = \\frac{\\mu_0 I}{2\\pi r}$. Hence, $B \\propto \\frac{1}{r}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2021",
+            "topicTag": "Magnetic Effects of Current"
+        },
+        {
+            "id": "jee_phy_014",
+            "question": "A magnetic dipole of dipole moment $M$ is placed in a uniform magnetic field $B$. The work done in rotating the dipole from $\\theta_1 = 0^\\circ$ to $\\theta_2 = 180^\\circ$ is:",
+            "imageUrl": "",
+            "options": [
+                "$2 M B$",
+                "$M B$",
+                "$0$",
+                "$-M B$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Work done $W = -M B (\\cos\\theta_2 - \\cos\\theta_1) = -M B (\\cos 180^\\circ - \\cos 0^\\circ) = -M B (-1 - 1) = 2 M B$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Magnetism & Matter"
+        },
+        {
+            "id": "jee_phy_015",
+            "question": "The magnetic flux linked with a loop changes according to $\\Phi = (3 t^2 + 4 t + 9)\\text{ Wb}$. The magnitude of induced EMF at $t = 2\\text{ s}$ is:",
+            "imageUrl": "",
+            "options": [
+                "$16\\text{ V}$",
+                "$12\\text{ V}$",
+                "$20\\text{ V}$",
+                "$29\\text{ V}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Induced EMF $e = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}(3 t^2 + 4 t + 9) = -(6 t + 4)$. At $t = 2\\text{ s}$: $|e| = 6(2) + 4 = 16\\text{ V}$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Electromagnetic Induction"
+        },
+        {
+            "id": "jee_phy_016",
+            "question": "In a series $RLC$ circuit at resonance, the impedance of the circuit is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$R$",
+                "$\\sqrt{R^2 + (X_L - X_C)^2}$",
+                "$X_L$",
+                "Zero"
+            ],
+            "correctAnswer": 0,
+            "explanation": "At resonance, inductive reactance equals capacitive reactance ($X_L = X_C$). Total impedance $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{R^2 + 0} = R$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Alternating Current"
+        },
+        {
+            "id": "jee_phy_017",
+            "question": "In an electromagnetic wave traveling in vacuum, the ratio of amplitudes of electric field $E_0$ and magnetic field $B_0$ is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$c$",
+                "$\\frac{1}{c}$",
+                "$c^2$",
+                "$\\sqrt{c}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For electromagnetic waves propagating in vacuum, the ratio of electric field amplitude to magnetic field amplitude is given by $\\frac{E_0}{B_0} = c$, where $c$ is the speed of light.",
+            "difficulty": "easy",
+            "year": "JEE Main 2022",
+            "topicTag": "Electromagnetic Waves"
+        },
+        {
+            "id": "jee_phy_018",
+            "question": "A convex lens of focal length $f = 20\\text{ cm}$ produces a real image of the same size as the object. The distance between the object and its image is:",
+            "imageUrl": "",
+            "options": [
+                "$80\\text{ cm}$",
+                "$40\\text{ cm}$",
+                "$20\\text{ cm}$",
+                "$100\\text{ cm}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For a real image of same size ($m = -1$), object distance $u = 2f = 40\\text{ cm}$ and image distance $v = 2f = 40\\text{ cm}$. Total distance between object and image $= u + v = 40 + 40 = 80\\text{ cm}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Ray Optics"
+        },
+        {
+            "id": "jee_phy_019",
+            "question": "In Young's double slit experiment, if the separation between slits is halved and distance from slits to screen is doubled, the fringe width becomes:",
+            "imageUrl": "",
+            "options": [
+                "$4\\text{ times}$",
+                "$2\\text{ times}$",
+                "Unchanged",
+                "$\\frac{1}{4}\\text{ times}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. If $D' = 2D$ and $d' = \\frac{d}{2}$, new fringe width $\\beta' = \\frac{\\lambda (2D)}{d/2} = 4 \\left(\\frac{\\lambda D}{d}\\right) = 4 \\beta$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Wave Optics"
+        },
+        {
+            "id": "jee_phy_020",
+            "question": "The de-Broglie wavelength $\\lambda$ associated with an electron accelerated through a potential difference of $V\\text{ volts}$ is given by:",
+            "imageUrl": "",
+            "options": [
+                "$\\lambda = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$",
+                "$\\lambda = \\frac{122.7}{\\sqrt{V}}\\text{ \\AA}$",
+                "$\\lambda = \\frac{1.227}{\\sqrt{V}}\\text{ \\AA}$",
+                "$\\lambda = \\frac{12.27}{V}\\text{ \\AA}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Formula for de-Broglie wavelength of accelerated electron is $\\lambda = \\frac{h}{\\sqrt{2 m e V}} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Dual Nature of Matter"
+        },
+        {
+            "id": "jee_phy_021",
+            "question": "The radius of the $n^{\\text{th}}$ orbit of Bohr's hydrogen atom is proportional to:",
+            "imageUrl": "",
+            "options": [
+                "$n^2$",
+                "$n$",
+                "$\\frac{1}{n}$",
+                "$\\frac{1}{n^2}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "According to Bohr's model, orbital radius $r_n = \\frac{n^2 h^2 \\varepsilon_0}{\\pi m e^2 Z} \\propto n^2$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Atomic Physics"
+        },
+        {
+            "id": "jee_phy_022",
+            "question": "Half-life of a radioactive sample is $10\\text{ days}$. The time required for $75\\%$ of the sample to decay is:",
+            "imageUrl": "",
+            "options": [
+                "$20\\text{ days}$",
+                "$30\\text{ days}$",
+                "$15\\text{ days}$",
+                "$40\\text{ days}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Decay of $75\\%$ leaves $25\\%$ ($1/4\\text{th}$) remaining. $N = N_0 \\left(\\frac{1}{2}\\right)^n \\implies \\frac{1}{4} = \\left(\\frac{1}{2}\\right)^2 \\implies n = 2\\text{ half-lives}$. Total time $= 2 \\times 10 = 20\\text{ days}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Nuclear Physics"
+        },
+        {
+            "id": "jee_phy_023",
+            "question": "In an $n$-type semiconductor, the majority charge carriers and minority charge carriers are respectively:",
+            "imageUrl": "",
+            "options": [
+                "Electrons and Holes",
+                "Holes and Electrons",
+                "Electrons and Positive Ions",
+                "Holes and Negative Ions"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In $n$-type semiconductors, pentavalent impurities donate free conduction electrons, making electrons the majority carriers and thermally generated holes the minority carriers.",
+            "difficulty": "easy",
+            "year": "JEE Main 2021",
+            "topicTag": "Semiconductor Devices"
+        },
+        {
+            "id": "jee_phy_024",
+            "question": "The dimensional formula of universal gravitational constant $G$ is:",
+            "imageUrl": "",
+            "options": [
+                "$[M^{-1} L^3 T^{-2}]$",
+                "$[M^1 L^3 T^{-2}]$",
+                "$[M^{-1} L^2 T^{-2}]$",
+                "$[M^{-2} L^3 T^{-1}]$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "From Newton's law of gravitation $F = \\frac{G m_1 m_2}{r^2} \\implies G = \\frac{F r^2}{m_1 m_2}$. Dimensions: $[G] = \\frac{[M L T^{-2}][L^2]}{[M^2]} = [M^{-1} L^3 T^{-2}]$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Units & Dimensions"
+        },
+        {
+            "id": "jee_phy_025",
+            "question": "If vector $\\vec{A} = 2\\hat{i} + 3\\hat{j} + 8\\hat{k}$ is perpendicular to vector $\\vec{B} = 4\\hat{j} - 4\\hat{i} + \\alpha\\hat{k}$, the value of $\\alpha$ is:",
+            "imageUrl": "",
+            "options": [
+                "$-\\frac{1}{2}$",
+                "$\\frac{1}{2}$",
+                "$-1$",
+                "$1$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For perpendicular vectors, dot product $\\vec{A} \\cdot \\vec{B} = 0$. $\\vec{A} = 2\\hat{i} + 3\\hat{j} + 8\\hat{k}$ and $\\vec{B} = -4\\hat{i} + 4\\hat{j} + \\alpha\\hat{k}$. $\\vec{A} \\cdot \\vec{B} = 2(-4) + 3(4) + 8(\\alpha) = -8 + 12 + 8\\alpha = 4 + 8\\alpha = 0 \\implies \\alpha = -\\frac{4}{8} = -\\frac{1}{2}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Vectors"
+        },
+        {
+            "id": "jee_chem_026",
+            "question": "Which of the following complex species is expected to exhibit optical isomerism?",
+            "imageUrl": "",
+            "options": [
+                "$\\text{cis-}[\\text{Co(en)}_2\\text{Cl}_2]^+$",
+                "$\\text{trans-}[\\text{Co(en)}_2\\text{Cl}_2]^+$",
+                "$[\\text{Pt(NH}_3)_2\\text{Cl}_2]$",
+                "$[\\text{Co(NH}_3)_4\\text{Cl}_2]^+$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\text{cis-}[\\text{Co(en)}_2\\text{Cl}_2]^+$ lacks a plane of symmetry and center of inversion, making it chiral and optically active. The trans isomer has a plane of symmetry.",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2023",
+            "topicTag": "Coordination Chemistry"
+        },
+        {
+            "id": "jee_chem_027",
+            "question": "Anisole on heating with concentrated $\\text{HBr}$ gives:",
+            "imageUrl": "",
+            "options": [
+                "Phenol and methyl bromide",
+                "Bromobenzene and methanol",
+                "Phenol and methanol",
+                "Methyl bromide and bromobenzene"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Cleavage of aryl-alkyl ethers with $\\text{HBr}$ occurs via $S_{\\text{N}}2$ attack of $\\text{Br}^-$ on the smaller methyl group to yield phenol and $\\text{CH}_3\\text{Br}$, because the $\\text{C}(sp^2)-\\text{O}$ bond in phenol has partial double bond character.",
+            "difficulty": "hard",
+            "year": "JEE Main 2022",
+            "topicTag": "Organic Chemistry - Ethers"
+        },
+        {
+            "id": "jee_chem_028",
+            "question": "The correct decreasing order of $S_{\\text{N}}1$ reactivity for the following alkyl halides is:\n(I) $(\\text{C}_6\\text{H}_5)_3\\text{C-Br}$\n(II) $(\\text{C}_6\\text{H}_5)_2\\text{CH-Br}$\n(III) $(\\text{CH}_3)_3\\text{C-Br}$\n(IV) $\\text{C}_6\\text{H}_5\\text{CH}_2\\text{-Br}$",
+            "imageUrl": "",
+            "options": [
+                "(I) > (II) > (III) > (IV)",
+                "(III) > (I) > (II) > (IV)",
+                "(I) > (III) > (II) > (IV)",
+                "(IV) > (II) > (I) > (III)"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The rate of $S_{\\text{N}}1$ reaction depends on carbocation stability. $(\\text{C}_6\\text{H}_5)_3\\text{C}^+$ is highly resonance stabilized by three phenyl rings > $(\\text{C}_6\\text{H}_5)_2\\text{CH}^+$ > $(\\text{CH}_3)_3\\text{C}^+$ ($3^\\circ$ carbocation with hyperconjugation) > $\\text{C}_6\\text{H}_5\\text{CH}_2^+$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2021",
+            "topicTag": "Reaction Mechanism"
+        },
+        {
+            "id": "jee_chem_029",
+            "question": "For a first-order reaction $A \\rightarrow B$, the rate constant is $k = 6.93 \\times 10^{-3}\\text{ s}^{-1}$. How much time will it take for $75\\%$ of the reactant to react?",
+            "imageUrl": "",
+            "options": [
+                "$200\\text{ s}$",
+                "$100\\text{ s}$",
+                "$300\\text{ s}$",
+                "$400\\text{ s}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$t_{1/2} = \\frac{0.693}{k} = \\frac{0.693}{6.93 \\times 10^{-3}} = 100\\text{ s}$. Time required for $75\\%$ completion is $2 \\times t_{1/2} = 200\\text{ s}$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Chemical Kinetics"
+        },
+        {
+            "id": "jee_chem_030",
+            "question": "The standard reduction potentials $E^\\circ$ for $\\text{Cu}^{2+}/\\text{Cu}$ and $\\text{Cu}^+/\\text{Cu}$ are $+0.34\\text{ V}$ and $+0.52\\text{ V}$ respectively. Calculate $E^\\circ$ for $\\text{Cu}^{2+}/\\text{Cu}^+$.",
+            "imageUrl": "",
+            "options": [
+                "$+0.16\\text{ V}$",
+                "$+0.86\\text{ V}$",
+                "$-0.18\\text{ V}$",
+                "$+0.32\\text{ V}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Using $\\Delta G^\\circ = -nFE^\\circ$:\n1) $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$, $\\Delta G_1^\\circ = -2F(0.34) = -0.68F$\n2) $\\text{Cu}^+ + e^- \\rightarrow \\text{Cu}$, $\\Delta G_2^\\circ = -1F(0.52) = -0.52F$\nSubtracting (2) from (1): $\\text{Cu}^{2+} + e^- \\rightarrow \\text{Cu}^+$, $\\Delta G_3^\\circ = \\Delta G_1^\\circ - \\Delta G_2^\\circ = -0.16F$.\n$-1FE_3^\\circ = -0.16F \\implies E_3^\\circ = +0.16\\text{ V}$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2023",
+            "topicTag": "Electrochemistry"
+        },
+        {
+            "id": "jee_chem_031",
+            "question": "Which of the following species has $d\\pi-p\\pi$ bonding?",
+            "imageUrl": "",
+            "options": [
+                "$\\text{SO}_3^{2-}$",
+                "$\\text{CO}_3^{2-}$",
+                "$\\text{NO}_3^-$",
+                "$\\text{BO}_3^{3-}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In $\\text{SO}_3^{2-}$, Sulfur has vacant $3d$ orbitals that can overlap with filled $2p$ orbitals of oxygen, forming $d\\pi-p\\pi$ bonds. C, N, and B do not have available $d$ orbitals.",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2022",
+            "topicTag": "Chemical Bonding"
+        },
+        {
+            "id": "jee_chem_032",
+            "question": "Major product obtained on mononitration of acetanilide with $\\text{HNO}_3/\\text{H}_2\\text{SO}_4$ followed by hydrolysis is:",
+            "imageUrl": "",
+            "options": [
+                "4-Nitroaniline",
+                "2-Nitroaniline",
+                "3-Nitroaniline",
+                "4-Nitrophenol"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The $-\\text{NHCOCH}_3$ group is strongly ortho/para directing. Due to steric hindrance of the bulky acetyl group, substitution occurs predominantly at the para-position to give 4-nitroacetanilide, which hydrolyzes to 4-nitroaniline.",
+            "difficulty": "hard",
+            "year": "JEE Main 2021",
+            "topicTag": "Amines & Aromatic Compounds"
+        },
+        {
+            "id": "jee_chem_033",
+            "question": "For the reaction $\\text{C}(s) + \\text{O}_2(g) \\rightarrow \\text{CO}_2(g)$, $\\Delta H^\\circ = -393.5\\text{ kJ/mol}$. The entropy change $\\Delta S^\\circ$ is $+3.0\\text{ J/K}\\cdot\\text{mol}$. At what temperature will the reaction become non-spontaneous?",
+            "imageUrl": "",
+            "options": [
+                "The reaction is spontaneous at all temperatures",
+                "$131.17\\text{ K}$",
+                "$1000\\text{ K}$",
+                "$1311.7\\text{ K}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Since $\\Delta H < 0$ (exothermic) and $\\Delta S > 0$ (entropy increases), $\\Delta G = \\Delta H - T\\Delta S$ is always negative at all temperatures. Thus, it remains spontaneous at all temperatures.",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Thermodynamics"
+        },
+        {
+            "id": "jee_chem_034",
+            "question": "Among the noble gas compounds, the geometry and hybridization of $\\text{XeF}_4$ are respectively:",
+            "imageUrl": "",
+            "options": [
+                "Square planar, $sp^3d^2$",
+                "Tetrahedral, $sp^3$",
+                "Octahedral, $sp^3d^2$",
+                "See-saw, $sp^3d$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\text{XeF}_4$ has 4 bond pairs and 2 lone pairs on Xe (Steric number $= 6 \\implies sp^3d^2$). The molecular geometry with two axial lone pairs is square planar.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2019",
+            "topicTag": "p-Block Elements"
+        },
+        {
+            "id": "jee_chem_035",
+            "question": "A $0.004\\text{ M}$ solution of $\\text{Na}_2\\text{SO}_4$ is isotonic with a $0.01\\text{ M}$ solution of glucose at the same temperature. The apparent degree of dissociation of $\\text{Na}_2\\text{SO}_4$ is:",
+            "imageUrl": "",
+            "options": [
+                "$75\\%$",
+                "$50\\%$",
+                "$85\\%$",
+                "$100\\%$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Isotonic $\\implies i_1 C_1 = i_2 C_2$. For glucose $i_2 = 1$. $i_1(0.004) = 1(0.01) \\implies i_1 = 2.5$. For $\\text{Na}_2\\text{SO}_4 \\rightarrow 2\\text{Na}^+ + \\text{SO}_4^{2-}$, $n = 3$. $i = 1 + (n-1)\\alpha \\implies 2.5 = 1 + 2\\alpha \\implies \\alpha = 0.75$ or $75\\%$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2023",
+            "topicTag": "Solutions"
+        },
+        {
+            "id": "jee_chem_036",
+            "question": "Which of the following carbohydrates is a non-reducing sugar?",
+            "imageUrl": "",
+            "options": [
+                "Sucrose",
+                "Maltose",
+                "Lactose",
+                "Glucose"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In sucrose, the glycosidic linkage involves the anomeric carbons of both glucose ($C_1$) and fructose ($C_2$), leaving no free hemiacetal or hemiketal group. Hence it is non-reducing.",
+            "difficulty": "easy",
+            "year": "JEE Main 2021",
+            "topicTag": "Biomolecules"
+        },
+        {
+            "id": "jee_chem_037",
+            "question": "The solubility product ($K_{sp}$) of $\\text{Ag}_2\\text{CrO}_4$ is $3.2 \\times 10^{-11}$. Its molar solubility in water is:",
+            "imageUrl": "",
+            "options": [
+                "$2.0 \\times 10^{-4}\\text{ M}$",
+                "$4.0 \\times 10^{-4}\\text{ M}$",
+                "$1.8 \\times 10^{-4}\\text{ M}$",
+                "$8.0 \\times 10^{-6}\\text{ M}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\text{Ag}_2\\text{CrO}_4 \\rightleftharpoons 2\\text{Ag}^+ + \\text{CrO}_4^{2-}$. $K_{sp} = (2s)^2(s) = 4s^3$. $4s^3 = 3.2 \\times 10^{-11} = 32 \\times 10^{-12} \\implies s^3 = 8 \\times 10^{-12} \\implies s = 2 \\times 10^{-4}\\text{ M}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Ionic Equilibrium"
+        },
+        {
+            "id": "jee_chem_038",
+            "question": "The spin-only magnetic moment of $[\\text{Fe(CN)}_6]^{4-}$ and $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$ are respectively:",
+            "imageUrl": "",
+            "options": [
+                "$0\\text{ BM}$ and $4.9\\text{ BM}$",
+                "$4.9\\text{ BM}$ and $0\\text{ BM}$",
+                "$2.83\\text{ BM}$ and $4.9\\text{ BM}$",
+                "$0\\text{ BM}$ and $2.83\\text{ BM}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For $[\\text{Fe(CN)}_6]^{4-}$, $\\text{Fe}^{2+}$ ($d^6$) with strong field ligand $\\text{CN}^-$ forms low spin $t_{2g}^6 e_g^0$ ($n = 0 \\implies 0\\text{ BM}$). For $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$, weak field ligand forms high spin $t_{2g}^4 e_g^2$ ($n = 4 \\implies \\sqrt{4(6)} = 4.9\\text{ BM}$).",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2022",
+            "topicTag": "Coordination Chemistry"
+        },
+        {
+            "id": "jee_chem_039",
+            "question": "In the reaction: $\\text{CH}_3\\text{C}\\equiv\\text{CH} + \\text{CH}_3\\text{MgBr} \\rightarrow A + B$. The gaseous product $A$ formed is:",
+            "imageUrl": "",
+            "options": [
+                "Methane",
+                "Ethane",
+                "Propyne",
+                "Propane"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Terminal alkynes have acidic hydrogens. $\\text{CH}_3\\text{C}\\equiv\\text{C-H} + \\text{CH}_3\\text{MgBr} \\rightarrow \\text{CH}_3\\text{C}\\equiv\\text{C-MgBr} + \\text{CH}_4\\uparrow$. Methane gas is evolved.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Grignard Reagents"
+        },
+        {
+            "id": "jee_chem_040",
+            "question": "According to Bohr's model, the ratio of time period of revolution of an electron in the $n=1$ and $n=2$ orbits of a hydrogen atom is:",
+            "imageUrl": "",
+            "options": [
+                "$1 : 8$",
+                "$1 : 4$",
+                "$1 : 2$",
+                "$1 : 16$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Time period $T = \\frac{2\\pi r}{v} \\propto \\frac{n^2/Z}{Z/n} \\propto n^3$. Therefore, $T_1 / T_2 = (1/2)^3 = 1/8$ or $1 : 8$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Atomic Structure"
+        },
+        {
+            "id": "jee_chem_041",
+            "question": "Which cation gives a chocolate brown precipitate with potassium ferrocyanide $\\text{K}_4[\\text{Fe(CN)}_6]$ solution?",
+            "imageUrl": "",
+            "options": [
+                "$\\text{Cu}^{2+}$",
+                "$\\text{Fe}^{3+}$",
+                "$\\text{Zn}^{2+}$",
+                "$\\text{Cd}^{2+}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\text{Cu}^{2+}$ ions react with potassium ferrocyanide to form a reddish-brown/chocolate brown precipitate of copper ferrocyanide $\\text{Cu}_2[\\text{Fe(CN)}_6]$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2019",
+            "topicTag": "Qualitative Analysis"
+        },
+        {
+            "id": "jee_chem_042",
+            "question": "The correct IUPAC name of the compound $\\text{CH}_3-\\text{CH}=\\text{CH}-\\text{C}\\equiv\\text{CH}$ is:",
+            "imageUrl": "",
+            "options": [
+                "Pent-3-en-1-yne",
+                "Pent-2-en-4-yne",
+                "Pent-1-yn-3-ene",
+                "Pent-4-yn-2-ene"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Numbering starts from the end that gives lower locants to unsaturation. Double and triple bonds get locants 3 and 1 from right to left. Since double bond and triple bond compete for lower locant, priority is equal, but numbering from right gives locants 1 (yne) and 3 (ene). Name: Pent-3-en-1-yne.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2022",
+            "topicTag": "IUPAC Nomenclature"
+        },
+        {
+            "id": "jee_chem_043",
+            "question": "How many moles of $\\text{KMnO}_4$ are required to oxidize $1\\text{ mole}$ of $\\text{FeSO}_4$ in acidic medium?",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{1}{5}\\text{ mol}$",
+                "$5\\text{ mol}$",
+                "$\\frac{2}{5}\\text{ mol}$",
+                "$1\\text{ mol}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "In acidic medium, $\\text{MnO}_4^- + 5e^- \\rightarrow \\text{Mn}^{2+}$ ($n$-factor $= 5$). $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^-$ ($n$-factor $= 1$). Equivalents of $\\text{KMnO}_4 =$ Equivalents of $\\text{FeSO}_4 \\implies n_{\\text{KMnO}_4} \\times 5 = 1 \\times 1 \\implies n_{\\text{KMnO}_4} = \\frac{1}{5}\\text{ mol}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Redox Reactions"
+        },
+        {
+            "id": "jee_chem_044",
+            "question": "The correct order of electron gain enthalpy (with negative sign) for halide ions/halogens is:",
+            "imageUrl": "",
+            "options": [
+                "$\\text{Cl} > \\text{F} > \\text{Br} > \\text{I}$",
+                "$\\text{F} > \\text{Cl} > \\text{Br} > \\text{I}$",
+                "$\\text{Cl} > \\text{Br} > \\text{F} > \\text{I}$",
+                "$\\text{I} > \\text{Br} > \\text{Cl} > \\text{F}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chlorine has more negative electron gain enthalpy than Fluorine due to small size and high inter-electronic repulsions in the $2p$ subshell of Fluorine. Order: $\\text{Cl} > \\text{F} > \\text{Br} > \\text{I}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Periodic Properties"
+        },
+        {
+            "id": "jee_chem_045",
+            "question": "Hinsberg's reagent reacts with primary amines to give a product which is:",
+            "imageUrl": "",
+            "options": [
+                "Soluble in aqueous $\\text{KOH}$",
+                "Insoluble in aqueous $\\text{KOH}$",
+                "Insoluble in water and acids",
+                "Does not react at all"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Hinsberg's reagent (benzene sulfonyl chloride) reacts with primary amines to form N-alkylbenzene sulfonamide, which contains an acidic hydrogen attached to nitrogen, making it soluble in aqueous $\\text{KOH}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Amines"
+        },
+        {
+            "id": "jee_chem_046",
+            "question": "For the gaseous reaction $\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$, the relationship between $K_p$ and $K_c$ is:",
+            "imageUrl": "",
+            "options": [
+                "$K_p = K_c(RT)^{-2}$",
+                "$K_p = K_c(RT)^2$",
+                "$K_p = K_c(RT)^{-1}$",
+                "$K_p = K_c$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$\\Delta n_g = 2 - (1 + 3) = -2$. $K_p = K_c(RT)^{\\Delta n_g} = K_c(RT)^{-2}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Chemical Equilibrium"
+        },
+        {
+            "id": "jee_chem_047",
+            "question": "Ozonolysis of an alkene $X$ followed by treatment with $\\text{Zn/H}_2\\text{O}$ gives propanone and ethanal in equal molar amounts. The alkene $X$ is:",
+            "imageUrl": "",
+            "options": [
+                "2-Methylbut-2-ene",
+                "2-Methylbut-1-ene",
+                "Pent-2-ene",
+                "3-Methylbut-1-ene"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Combine carbonyl compounds by removing oxygen: $(\\text{CH}_3)_2\\text{C=O} + \\text{O=CH-CH}_3 \\rightarrow (\\text{CH}_3)_2\\text{C=CH-CH}_3$, which is 2-Methylbut-2-ene.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Hydrocarbons"
+        },
+        {
+            "id": "jee_chem_048",
+            "question": "In the extraction of copper from copper pyrites, silica is added to the reverberatory furnace to remove:",
+            "imageUrl": "",
+            "options": [
+                "$\\text{FeO}$ as $\\text{FeSiO}_3$ slag",
+                "$\\text{FeS}$ as matte",
+                "$\\text{Cu}_2\\text{O}$ as $\\text{Cu}_2\\text{SiO}_3$",
+                "$\\text{CuS}$ as slag"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Iron impurity present in copper pyrites oxidizes to $\\text{FeO}$. Silica ($\\text{SiO}_2$) acts as an acidic flux to convert basic $\\text{FeO}$ into slag: $\\text{FeO} + \\text{SiO}_2 \\rightarrow \\text{FeSiO}_3$ (slag).",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Metallurgy"
+        },
+        {
+            "id": "jee_chem_049",
+            "question": "An element crystallizes in a face-centered cubic (fcc) lattice with edge length $a = 400\\text{ pm}$. If the atomic mass of the element is $60\\text{ g/mol}$, its density is approximately:",
+            "imageUrl": "",
+            "options": [
+                "$6.23\\text{ g/cm}^3$",
+                "$3.11\\text{ g/cm}^3$",
+                "$12.46\\text{ g/cm}^3$",
+                "$1.55\\text{ g/cm}^3$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For fcc, $Z = 4$. Density $d = \\frac{Z M}{a^3 N_A} = \\frac{4 \\times 60}{(400 \\times 10^{-10})^3 \\times 6.022 \\times 10^{23}} = \\frac{240}{64 \\times 10^{-24} \\times 6.022 \\times 10^{23}} = \\frac{240}{38.54} \\approx 6.23\\text{ g/cm}^3$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2022",
+            "topicTag": "Solid State"
+        },
+        {
+            "id": "jee_chem_050",
+            "question": "Which of the following compounds has the highest acidic strength?",
+            "imageUrl": "",
+            "options": [
+                "4-Nitrophenol",
+                "Phenol",
+                "4-Methylphenol",
+                "4-Methoxyphenol"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The $-\\text{NO}_2$ group is strong electron-withdrawing via both $-I$ and $-M$ effects, stabilizing the phenoxide ion and drastically increasing acidity. $-\\text{CH}_3$ ($+I, +H$) and $-\\text{OCH}_3$ ($+M$) decrease acidity.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Organic Acidic Strength"
+        },
+        {
+            "id": "jee_math_051",
+            "question": "If $\\alpha, \\beta$ are roots of the equation $x^2 - x - 1 = 0$ and $p_n = \\alpha^n + \\beta^n$ for $n \\ge 1$, then value of $p_5$ is:",
+            "imageUrl": "",
+            "options": [
+                "$11$",
+                "$7$",
+                "$4$",
+                "$18$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Using Newton's sum formula, $p_n - p_{n-1} - p_{n-2} = 0 \\implies p_n = p_{n-1} + p_{n-2}$. Here $p_1 = \\alpha + \\beta = 1$, $p_2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = 1 - 2(-1) = 3$. Then $p_3 = 3+1 = 4$, $p_4 = 4+3 = 7$, and $p_5 = 7+4 = 11$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2021",
+            "topicTag": "Quadratic Equations"
+        },
+        {
+            "id": "jee_math_052",
+            "question": "Evaluate integral: $\\int_0^{\\pi/2} \\frac{\\sin^2 x}{1 + \\sin x \\cos x} dx$",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{\\pi}{3\\sqrt{3}}$",
+                "$\\frac{\\pi}{2\\sqrt{3}}$",
+                "$\\frac{2\\pi}{3\\sqrt{3}}$",
+                "$\\frac{\\pi}{4\\sqrt{3}}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Using King's property $I = \\int_0^{\\pi/2} \\frac{\\cos^2 x}{1 + \\sin x \\cos x} dx$. Adding both: $2I = \\int_0^{\\pi/2} \\frac{1}{1 + \\sin x \\cos x} dx$. Dividing numerator and denominator by $\\cos^2 x$: $2I = \\int_0^{\\infty} \\frac{\\sec^2 x}{\\tan^2 x + \\tan x + 1} dx = \\frac{2\\pi}{3\\sqrt{3}} \\implies I = \\frac{\\pi}{3\\sqrt{3}}$.",
+            "difficulty": "hard",
+            "year": "JEE Main 2023",
+            "topicTag": "Definite Integration"
+        },
+        {
+            "id": "jee_math_053",
+            "question": "Find the area bounded by the curves $y = |x - 1|$ and $y = 3 - |x|$.",
+            "imageUrl": "",
+            "options": [
+                "$4\\text{ sq units}$",
+                "$3\\text{ sq units}$",
+                "$4.5\\text{ sq units}$",
+                "$5\\text{ sq units}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Intersections occur at $x = 2$ ($y=1$) and $x = -1$ ($y=2$). The region forms a quadrilateral with vertices $(-1, 2)$, $(1, 0)$, $(2, 1)$, and $(0, 3)$. Calculating area by integrating top curve minus bottom curve gives $4\\text{ sq units}$.",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2022",
+            "topicTag": "Area Under Curves"
+        },
+        {
+            "id": "jee_math_054",
+            "question": "If matrix $A = \\begin{bmatrix} 1 & 1 \\\\ 0 & 1 \\end{bmatrix}$, then $A^n$ for any positive integer $n$ is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$\\begin{bmatrix} 1 & n \\\\ 0 & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} n & 1 \\\\ 0 & n \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 0 \\\\ n & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} n & n \\\\ 0 & n \\end{bmatrix}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "By mathematical induction or direct multiplication, $A^2 = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$, $A^3 = \\begin{bmatrix} 1 & 3 \\\\ 0 & 1 \\end{bmatrix}$, so $A^n = \\begin{bmatrix} 1 & n \\\\ 0 & 1 \\end{bmatrix}$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Matrices"
+        },
+        {
+            "id": "jee_math_055",
+            "question": "If complex number $z = x + iy$ satisfies $|z - 2| = |z + 2|$, then the locus of $z$ is:",
+            "imageUrl": "",
+            "options": [
+                "y-axis",
+                "x-axis",
+                "Circle of radius $2$",
+                "Ellipse"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$|z - 2| = |z + 2| \\implies (x-2)^2 + y^2 = (x+2)^2 + y^2 \\implies -4x = 4x \\implies 8x = 0 \\implies x = 0$, which represents the y-axis.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Complex Numbers"
+        },
+        {
+            "id": "jee_math_056",
+            "question": "Evaluate limit: $\\lim_{x \\to 0} \\frac{e^{x^2} - \\cos x}{x^2}$",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{3}{2}$",
+                "$\\frac{1}{2}$",
+                "$1$",
+                "$2$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Using standard expansion: $e^{x^2} = 1 + x^2 + O(x^4)$ and $\\cos x = 1 - \\frac{x^2}{2} + O(x^4)$. $\\lim_{x \\to 0} \\frac{(1 + x^2) - (1 - x^2/2)}{x^2} = \\lim_{x \\to 0} \\frac{\\frac{3}{2}x^2}{x^2} = \\frac{3}{2}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Limits"
+        },
+        {
+            "id": "jee_math_057",
+            "question": "Two dice are thrown. What is the conditional probability that the sum of the numbers is $8$ given that at least one die shows a $5$?",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{2}{11}$",
+                "$\\frac{1}{11}$",
+                "$\\frac{3}{11}$",
+                "$\\frac{5}{36}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Event $B$ (at least one 5): $11$ outcomes. Event $A$ (sum is 8): $(2,6), (3,5), (4,4), (5,3), (6,2)$. Intersection $A \\cap B$: $(3,5)$ and $(5,3)$ ($2$ outcomes). $P(A|B) = \\frac{2}{11}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Probability"
+        },
+        {
+            "id": "jee_math_058",
+            "question": "The general solution of differential equation $\\frac{dy}{dx} + y = e^{-x}$ with initial condition $y(0) = 1$ is:",
+            "imageUrl": "",
+            "options": [
+                "$y = (x+1)e^{-x}$",
+                "$y = xe^{-x}$",
+                "$y = e^{-x} + x$",
+                "$y = (1-x)e^{-x}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Integrating factor $\\text{I.F.} = e^{\\int 1 dx} = e^x$. Solution: $y e^x = \\int e^x e^{-x} dx = \\int 1 dx = x + C \\implies y = (x+C)e^{-x}$. Given $y(0)=1 \\implies 1 = (0+C)1 \\implies C=1$. So $y = (x+1)e^{-x}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2020",
+            "topicTag": "Differential Equations"
+        },
+        {
+            "id": "jee_math_059",
+            "question": "Sum of the infinite series $S = 1 + \\frac{2}{3} + \\frac{3}{3^2} + \\frac{4}{3^3} + \\dots$ is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{9}{4}$",
+                "$\\frac{3}{2}$",
+                "$\\frac{4}{3}$",
+                "$\\frac{9}{2}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$S = 1 + \\frac{2}{3} + \\frac{3}{3^2} + \\frac{4}{3^3} + \\dots$ ; $\\frac{1}{3}S = \\frac{1}{3} + \\frac{2}{3^2} + \\frac{3}{3^3} + \\dots$. Subtracting gives $\\frac{2}{3}S = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots = \\frac{1}{1 - 1/3} = \\frac{3}{2}$. Thus $S = \\frac{3}{2} \\times \\frac{3}{2} = \\frac{9}{4}$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2019",
+            "topicTag": "Sequences & Series"
+        },
+        {
+            "id": "jee_math_060",
+            "question": "If $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$ and $\\vec{b} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$, projection of vector $\\vec{a}$ on vector $\\vec{b}$ is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{4}{\\sqrt{14}}$",
+                "$\\frac{4}{3}$",
+                "$\\frac{2}{\\sqrt{14}}$",
+                "$\\frac{4}{\\sqrt{3}}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Projection $= \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = \\frac{(1)(2) + (1)(-1) + (1)(3)}{\\sqrt{2^2 + (-1)^2 + 3^2}} = \\frac{2 - 1 + 3}{\\sqrt{4 + 1 + 9}} = \\frac{4}{\\sqrt{14}}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2021",
+            "topicTag": "Vector Algebra"
+        },
+        {
+            "id": "jee_math_061",
+            "question": "The perpendicular distance of point $(1, 2, 3)$ from the plane $x - 2y + 2z = 9$ is:",
+            "imageUrl": "",
+            "options": [
+                "$2$",
+                "$3$",
+                "$1$",
+                "$4$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Perpendicular distance $d = \\frac{|1(1) - 2(2) + 2(3) - 9|}{\\sqrt{1^2 + (-2)^2 + 2^2}} = \\frac{|1 - 4 + 6 - 9|}{\\sqrt{9}} = \\frac{|-6|}{3} = 2$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "3D Geometry"
+        },
+        {
+            "id": "jee_math_062",
+            "question": "The term independent of $x$ in the expansion of $\\left(2x^2 - \\frac{1}{x}\\right)^9$ is:",
+            "imageUrl": "",
+            "options": [
+                "$672$",
+                "$-672$",
+                "$84$",
+                "$-84$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "General term $T_{r+1} = \\binom{9}{r}(2x^2)^{9-r}\\left(-\\frac{1}{x}\\right)^r = \\binom{9}{r}2^{9-r}(-1)^r x^{18-3r}$. For independent term, $18 - 3r = 0 \\implies r = 6$. Term $= \\binom{9}{6} 2^3 (-1)^6 = 84 \\times 8 = 672$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Binomial Theorem"
+        },
+        {
+            "id": "jee_math_063",
+            "question": "The value of $\\tan\\left(2 \\tan^{-1}\\left(\\frac{1}{5}\\right) - \\frac{\\pi}{4}\\right)$ is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$-\\frac{7}{17}$",
+                "$\\frac{7}{17}$",
+                "$-\\frac{17}{7}$",
+                "$1$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$2\\tan^{-1}(1/5) = \\tan^{-1}\\left(\\frac{2/5}{1 - 1/25}\\right) = \\tan^{-1}(5/12)$. Then $\\tan\\left(\\tan^{-1}(5/12) - \\frac{\\pi}{4}\\right) = \\frac{5/12 - 1}{1 + 5/12} = \\frac{-7/12}{17/12} = -\\frac{7}{17}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2023",
+            "topicTag": "Inverse Trigonometry"
+        },
+        {
+            "id": "jee_math_064",
+            "question": "Total number of 4-digit numbers formed using digits 1, 2, 3, 4, 5 without repetition that are divisible by 4 is:",
+            "imageUrl": "",
+            "options": [
+                "$24$",
+                "$18$",
+                "$12$",
+                "$36$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Divisible by 4 means last two digits must be divisible by 4. Possible last two digits from {1,2,3,4,5}: 12, 24, 32, 52 ($4$ choices). For each choice, remaining 2 places are filled by remaining 3 digits in $^3P_2 = 6$ ways. Total $= 4 \\times 6 = 24$.",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2021",
+            "topicTag": "Permutations & Combinations"
+        },
+        {
+            "id": "jee_math_065",
+            "question": "The function $f(x) = |x| + |x - 1|$ is non-differentiable at:",
+            "imageUrl": "",
+            "options": [
+                "$x = 0$ and $x = 1$",
+                "$x = 0$ only",
+                "$x = 1$ only",
+                "Everywhere differentiable"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Absolute value functions $|x - a|$ have sharp corners at $x = a$. Therefore, $f(x)$ is continuous everywhere but non-differentiable at corner points $x = 0$ and $x = 1$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Continuity & Differentiability"
+        },
+        {
+            "id": "jee_math_066",
+            "question": "The minimum value of $f(x) = x^2 + \\frac{250}{x}$ for $x > 0$ is:",
+            "imageUrl": "",
+            "options": [
+                "$75$",
+                "$50$",
+                "$100$",
+                "$25$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "$f'(x) = 2x - \\frac{250}{x^2} = 0 \\implies 2x^3 = 250 \\implies x^3 = 125 \\implies x = 5$. Minimum value $f(5) = 5^2 + \\frac{250}{5} = 25 + 50 = 75$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Application of Derivatives"
+        },
+        {
+            "id": "jee_math_067",
+            "question": "The equation of tangent to the circle $x^2 + y^2 = 25$ at point $(3, 4)$ is:",
+            "imageUrl": "",
+            "options": [
+                "$3x + 4y = 25$",
+                "$4x + 3y = 25$",
+                "$3x - 4y = 25$",
+                "$4x - 3y = 25$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Equation of tangent at $(x_1, y_1)$ is $x x_1 + y y_1 = r^2$. Substituting $(3, 4)$: $3x + 4y = 25$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Circles"
+        },
+        {
+            "id": "jee_math_068",
+            "question": "Length of the latus rectum of parabola $y^2 - 4y - 8x + 12 = 0$ is:",
+            "imageUrl": "",
+            "options": [
+                "$8$",
+                "$4$",
+                "$2$",
+                "$16$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Rewrite equation as $(y - 2)^2 - 4 - 8x + 12 = 0 \\implies (y - 2)^2 = 8(x - 1)$. Comparing with $(y - k)^2 = 4a(x - h)$, $4a = 8$. Latus rectum length $= 8$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Parabola"
+        },
+        {
+            "id": "jee_math_069",
+            "question": "Eccentricity of the ellipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ is:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{4}{5}$",
+                "$\\frac{3}{5}$",
+                "$\\frac{16}{25}$",
+                "$\\frac{2}{5}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Here $a^2 = 25$, $b^2 = 9$. Eccentricity $e = \\sqrt{1 - \\frac{b^2}{a^2}} = \\sqrt{1 - \\frac{9}{25}} = \\sqrt{\\frac{16}{25}} = \\frac{4}{5}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2019",
+            "topicTag": "Ellipse"
+        },
+        {
+            "id": "jee_math_070",
+            "question": "If $A$ and $B$ are two sets such that $n(A) = 20$, $n(B) = 28$, and $n(A \\cup B) = 36$, then $n(A \\cap B)$ is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$12$",
+                "$8$",
+                "$16$",
+                "$14$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "By Inclusion-Exclusion principle: $n(A \\cap B) = n(A) + n(B) - n(A \\cup B) = 20 + 28 - 36 = 12$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Set Theory"
+        },
+        {
+            "id": "jee_math_071",
+            "question": "The value of $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ is equal to:",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{1}{8}$",
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{2}$",
+                "$\\frac{1}{16}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Using identity $\\cos A \\cos 2A \\cos 4A = \\frac{\\sin(2^3 A)}{2^3 \\sin A}$: $\\frac{\\sin(160^\\circ)}{8 \\sin 20^\\circ} = \\frac{\\sin(180^\\circ - 20^\\circ)}{8 \\sin 20^\\circ} = \\frac{\\sin 20^\\circ}{8 \\sin 20^\\circ} = \\frac{1}{8}$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Trigonometry"
+        },
+        {
+            "id": "jee_math_072",
+            "question": "The domain of function $f(x) = \\sqrt{\\log_{10}\\left(\\frac{5x - x^2}{4}\\right)}$ is:",
+            "imageUrl": "",
+            "options": [
+                "$[1, 4]$",
+                "$(0, 5)$",
+                "$[0, 5]$",
+                "$(1, 4)$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For square root and logarithm to be valid: $\\log_{10}\\left(\\frac{5x - x^2}{4}\\right) \\ge 0 \\implies \\frac{5x - x^2}{4} \\ge 1 \\implies 5x - x^2 \\ge 4 \\implies x^2 - 5x + 4 \\le 0 \\implies (x-1)(x-4) \\le 0 \\implies x \\in [1, 4]$.",
+            "difficulty": "medium-hard",
+            "year": "JEE Main 2023",
+            "topicTag": "Functions"
+        },
+        {
+            "id": "jee_math_073",
+            "question": "Evaluate integral: $\\int \\frac{dx}{x(x^n + 1)}$",
+            "imageUrl": "",
+            "options": [
+                "$\\frac{1}{n}\\ln\\left|\\frac{x^n}{x^n + 1}\\right| + C$",
+                "$\\frac{1}{n}\\ln\\left|\\frac{x^n + 1}{x^n}\\right| + C$",
+                "$\\ln\\left|\\frac{x^n}{x^n + 1}\\right| + C$",
+                "$\\frac{1}{n}\\ln|x^n + 1| + C$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Multiply numerator and denominator by $x^{n-1}$: $\\int \\frac{x^{n-1}}{x^n(x^n + 1)} dx$. Put $x^n = t \\implies n x^{n-1} dx = dt$. Integral $= \\frac{1}{n}\\int \\frac{dt}{t(t+1)} = \\frac{1}{n}\\int \\left(\\frac{1}{t} - \\frac{1}{t+1}\\right) dt = \\frac{1}{n}\\ln\\left|\\frac{t}{t+1}\\right| + C = \\frac{1}{n}\\ln\\left|\\frac{x^n}{x^n + 1}\\right| + C$.",
+            "difficulty": "medium",
+            "year": "JEE Main 2021",
+            "topicTag": "Indefinite Integration"
+        },
+        {
+            "id": "jee_math_074",
+            "question": "The eccentricity of a rectangular hyperbola is always equal to:",
+            "imageUrl": "",
+            "options": [
+                "$\\sqrt{2}$",
+                "$2$",
+                "$\\frac{1}{\\sqrt{2}}$",
+                "$\\sqrt{3}$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "For a rectangular hyperbola $a = b$. Eccentricity $e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + 1} = \\sqrt{2}$.",
+            "difficulty": "easy",
+            "year": "JEE Main 2020",
+            "topicTag": "Hyperbola"
+        },
+        {
+            "id": "jee_math_075",
+            "question": "If the variance of observations $x_1, x_2, \\dots, x_n$ is $\\sigma^2$, then the variance of $2x_1 + 3, 2x_2 + 3, \\dots, 2x_n + 3$ is:",
+            "imageUrl": "",
+            "options": [
+                "$4\\sigma^2$",
+                "$2\\sigma^2$",
+                "$4\\sigma^2 + 3$",
+                "$2\\sigma^2 + 3$"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Properties of variance: $\\text{Var}(aX + b) = a^2 \\text{Var}(X)$. Here $a = 2$, $b = 3$. New variance $= 2^2 \\sigma^2 = 4\\sigma^2$.",
+            "difficulty": "easy-medium",
+            "year": "JEE Main 2022",
+            "topicTag": "Statistics"
+        }
+]
+}
+        
+
+
+

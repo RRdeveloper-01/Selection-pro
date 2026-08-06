@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Test - Selection Pro</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Translate Script Setup -->
+    <!-- MathJax Setup for Math Formulas -->
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'hi,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            --success-color: #10b981;
+            --danger-color: #ef4444;
+            --radius: 12px;
+            --shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.5;
+            padding-bottom: 40px;
+        }
+
+        /* Navbar Style */
+        .navbar {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Translate Widget Bar */
+        .translate-bar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 0;
+            margin-bottom: 10px;
+        }
+
+        /* Main Layout */
+        .container {
+            max-width: 800px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow);
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Header Info */
+        .test-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+        }
+
+        .test-title {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .badge {
+            background: #dbeafe;
+            color: var(--primary-color);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        /* Question Box */
+        .q-card {
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        .q-card:last-child {
+            border-bottom: none;
+        }
+
+        .q-header {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .q-num {
+            font-weight: 700;
+            color: var(--primary-color);
+            min-width: 28px;
+        }
+
+        .q-text {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* Graph / Image Styling */
+        .q-image-container {
+            margin: 14px 0;
+            text-align: center;
+        }
+
+        .q-image-container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow);
+        }
+
+        .q-tags {
+            margin-top: 8px;
+            font-size: 12px;
+            color: var(--text-muted);
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Options Grid */
+        .options-list {
+            display: grid;
+            gap: 10px;
+            margin-left: 36px;
+        }
+
+        .option-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: #fff;
+        }
+
+        .option-item:hover {
+            border-color: var(--primary-color);
+            background: #f0f7ff;
+        }
+
+        .option-item input[type="radio"] {
+            accent-color: var(--primary-color);
+            width: 18px;
+            height: 18px;
+        }
+
+        /* Explanation Box */
+        .explanation {
+            display: none;
+            margin-top: 12px;
+            margin-left: 36px;
+            padding: 12px 16px;
+            background: #f1f5f9;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 4px;
+            font-size: 14px;
+            color: #334155;
+        }
+
+        /* Submit Button */
+        .btn-submit {
+            width: 100%;
+            background: var(--primary-color);
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-submit:hover {
+            background: var(--primary-hover);
+        }
+
+        /* Result Scorecard */
+        #result-card {
+            display: none;
+        }
+
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .score-box {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        .score-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        .text-correct { color: var(--success-color); }
+        .text-wrong { color: var(--danger-color); }
+        .text-score { color: var(--primary-color); }
+
+        .progress-bar-bg {
+            background: #e2e8f0;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--primary-color);
+            width: 0%;
+            transition: width 0.5s ease-in-out;
+        }
+
+        /* Error / Loading Messages */
+        .status-msg {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar">
+        <a href="https://selectionpro.in/" class="logo">
+            <i class="fa-solid fa-graduation-cap"></i> Selection Pro
+        </a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Language Translate Dropdown Bar -->
+        <div class="translate-bar">
+            <div id="google_translate_element"></div>
+        </div>
+        
+        <!-- Score Board Result Card -->
+        <div id="result-card" class="card">
+            <h2 style="text-align: center; font-size: 20px;">🎉 Test Result</h2>
+            
+            <div class="score-grid">
+                <div class="score-box">
+                    <div>Total Questions</div>
+                    <div id="res-total" class="score-value">0</div>
+                </div>
+                <div class="score-box">
+                    <div>Sahi (Correct)</div>
+                    <div id="res-correct" class="score-value text-correct">0</div>
+                </div>
+                <div class="score-box">
+                    <div>Galat (Wrong)</div>
+                    <div id="res-wrong" class="score-value text-wrong">0</div>
+                </div>
+                <div class="score-box">
+                    <div>Accuracy / Score</div>
+                    <div id="res-percent" class="score-value text-score">0%</div>
+                </div>
+            </div>
+
+            <div class="progress-bar-bg">
+                <div id="progress-fill" class="progress-bar-fill"></div>
+            </div>
+        </div>
+
+        <!-- Main Test Paper Card -->
+        <div class="card">
+            <div class="test-header">
+                <div>
+                    <h1 class="test-title" id="test-name">Practice Test</h1>
+                    <span id="subject-tag" style="font-size: 13px; color: var(--text-muted);">Loading details...</span>
+                </div>
+                <span class="badge" id="total-badge">0 Questions</span>
+            </div>
+
+            <form id="quiz-form">
+                <div id="questions-container">
+                    <div class="status-msg"><i class="fa-solid fa-spinner fa-spin"></i> Loading Practice Test Data...</div>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn-submit" style="display: none;">Submit Practice Test</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        let testData = null;
+
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchMockTestData();
+        });
+
+        // Dynamic JSON Fetching Function
+        async function fetchMockTestData() {
+            // URL se 'id' parameter extract karein (e.g. ?id=practice-06 ya ?id=jee-practice-01)
+            const urlParams = new URLSearchParams(window.location.search);
+            const testId = urlParams.get('id') || 'practice-01';
+
+            try {
+                // 'practice-tests' folder se target JSON file load karein
+                const response = await fetch(`practice-tests/${testId}.json`);
+                if (!response.ok) throw new Error("JSON file not found");
+                testData = await response.json();
+            } catch (error) {
+                console.warn("Fetch failed, loading fallback demo data.", error);
+                
+                
+            }
+
+            renderQuiz(testData);
+        }
+
+        // Render Questions UI
+        function renderQuiz(data) {
+            document.getElementById("test-name").innerText = data.chapter || "Practice Test";
+            document.getElementById("subject-tag").innerText = `Subject: ${data.subject || 'General'} | Slug: ${data.chapterslug || ''}`;
+            document.getElementById("total-badge").innerText = `${data.questions.length} Questions`;
+
+            const container = document.getElementById("questions-container");
+            container.innerHTML = "";
+
+            data.questions.forEach((q, index) => {
+                const qCard = document.createElement("div");
+                qCard.className = "q-card";
+
+                // Check for Graph / Image URL
+                let imageHTML = "";
+                if (q.imageUrl && q.imageUrl.trim() !== "") {
+                    imageHTML = `
+                        <div class="q-image-container">
+                            <img src="${q.imageUrl}" alt="Question Diagram" loading="lazy">
+                        </div>
+                    `;
+                }
+
+                let optionsHTML = "";
+                q.options.forEach((opt, optIdx) => {
+                    optionsHTML += `
+                        <label class="option-item">
+                            <input type="radio" name="q_${index}" value="${optIdx}" required>
+                            <span>${opt}</span>
+                        </label>
+                    `;
+                });
+
+                qCard.innerHTML = `
+                    <div class="q-header">
+                        <span class="q-num">Q${index + 1}.</span>
+                        <div style="width: 100%;">
+                            <div class="q-text">${q.question}</div>
+                            ${imageHTML}
+                            <div class="q-tags">
+                                <span><i class="fa-regular fa-bookmark"></i> ${q.topicTag || 'General'}</span>
+                                <span><i class="fa-regular fa-calendar"></i> ${q.year || ''}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="options-list">
+                        ${optionsHTML}
+                    </div>
+                    <div class="explanation" id="exp_${index}">
+                        <strong><i class="fa-regular fa-lightbulb"></i> Explanation:</strong> ${q.explanation}
+                    </div>
+                `;
+
+                container.appendChild(qCard);
+            });
+
+            document.getElementById("submit-btn").style.display = "block";
+            // Render quiz complete hone ke baad MathJax call karein
+if (window.MathJax && window.MathJax.typesetPromise) {
+    MathJax.typesetPromise();
+}
+
+        }
+
+        // Scoreboard & Submit Logic
+        document.getElementById("quiz-form").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            if (!testData || !testData.questions) return;
+
+            let correctCount = 0;
+            let totalCount = testData.questions.length;
+
+            testData.questions.forEach((q, index) => {
+                const selectedOpt = document.querySelector(`input[name="q_${index}"]:checked`);
+                const expBox = document.getElementById(`exp_${index}`);
+                
+                if (expBox) expBox.style.display = "block";
+
+                if (selectedOpt) {
+                    const userAns = parseInt(selectedOpt.value);
+                    if (userAns === q.correctAnswer) {
+                        correctCount++;
+                    }
+                }
+            });
+
+            let wrongCount = totalCount - correctCount;
+            let percentage = Math.round((correctCount / totalCount) * 100);
+
+            // Populate Scoreboard Data
+            document.getElementById("res-total").innerText = totalCount;
+            document.getElementById("res-correct").innerText = correctCount;
+            document.getElementById("res-wrong").innerText = wrongCount;
+            document.getElementById("res-percent").innerText = `${percentage}%`;
+
+            // Progress Bar Fill
+            document.getElementById("progress-fill").style.width = `${percentage}%`;
+
+            // Show Scoreboard & Scroll
+            const resultCard = document.getElementById("result-card");
+            resultCard.style.display = "block";
+            resultCard.scrollIntoView({ behavior: 'smooth' });
+
+            // Disable Submit Button
+            const submitBtn = document.getElementById("submit-btn");
+            submitBtn.disabled = true;
+            submitBtn.innerText = "Test Submitted";
+            submitBtn.style.opacity = "0.6";
+            submitBtn.style.cursor = "not-allowed";
+        });
+    </script>
+</body>
+</html>
