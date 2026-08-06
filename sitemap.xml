@@ -232,7 +232,7 @@
   </url>
       <url>
        <loc>https://selectionpro.in/examinfo/examhub.html</loc>
-       <lastmod>2026-08-02T09:02:24+00:00</lastmod>
+       <lastmod>2026-08-06T08:02:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -274,7 +274,19 @@
   </url>
       <url>
        <loc>https://selectionpro.in/current-affairs/affairs-hub.html</loc>
-       <lastmod>2026-08-05T09:35:24+00:00</lastmod>
+       <lastmod>2026-08-06T08:05:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+      <url>
+       <loc>https://selectionpro.in/examinfo/upsc.html</loc>
+       <lastmod>2026-08-06T08:10:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+      <url>
+       <loc>https://selectionpro.in/current-affairs/august-06-2026.html</loc>
+       <lastmod>2026-08-06T08:15:24+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>

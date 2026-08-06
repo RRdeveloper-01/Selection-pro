@@ -47,7 +47,7 @@ header{
 }
 
 .navbar{
-
+    overflow-x:auto;
     max-width:1300px;
 
     margin:auto;
@@ -571,9 +571,62 @@ pointer-events:none;
 position:relative;
 overflow:hidden;
 }
+/* Practice Test Buttons */
+.btn-group{
+    display:flex;
+    gap:10px;
+    margin-top:12px;
+    flex-wrap:wrap;
+}
 
+.btn-group a{
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 18px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.mock-btn{
+    background:#1565c0;
+    color:#fff;
+    box-shadow:0 4px 10px rgba(21,101,192,.25);
+}
+
+.mock-btn:hover{
+    background:#0d47a1;
+    transform:translateY(-2px);
+}
+
+.pdf-btn{
+    background:#f44336;
+    color:#fff;
+    box-shadow:0 4px 10px rgba(244,67,54,.25);
+}
+
+.pdf-btn:hover{
+    background:#d32f2f;
+    transform:translateY(-2px);
+}
+
+/* Mobile */
+@media(max-width:480px){
+    .btn-group{
+        flex-direction:row;
+    }
+
+    .btn-group a{
+        flex:1;
+        text-align:center;
+        padding:10px;
+        font-size:14px;
+    }
+}
 @keyframes ripple{
-
 to{
 
 transform:scale(4);
