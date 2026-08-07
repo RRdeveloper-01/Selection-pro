@@ -99,6 +99,7 @@
             border-radius: 2px;
             transition: 0.3s ease;   }
         .side-menu {
+            overflow-y:auto;
             position: fixed;
             top: 0;
             left: -100%; 

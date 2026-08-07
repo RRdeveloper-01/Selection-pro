@@ -29,9 +29,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet" href="/css/button.css">
-
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Selection Pro | Free Previous Year Question Papers">
@@ -50,19 +47,12 @@
 
 <!-- Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
-
-<script>
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
-
-gtag('config','G-EM0R8NFRM0');
-
-</script>
+    <link rel="stylesheet" href="/includes/css/header.css">
+    <link rel="stylesheet" href="/includes/css/footer.css">
+    <script src="/includes/js/analytics.js"></script>
+    <script src="/includes/js/onesignal.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 
 <!-- FAQ Schema -->
 
@@ -113,29 +103,13 @@ gtag('config','G-EM0R8NFRM0');
 }
 
 </script>
-<!-- notifications-->
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-<script>
-window.OneSignalDeferred = window.OneSignalDeferred || [];
-OneSignalDeferred.push(async function(OneSignal) {
-  await OneSignal.init({
-    appId: "18fa4ad8-4d7f-46d3-b4d8-6d509aa9c425",
-    notifyButton: {
-      enable: true,
-    },
-    allowLocalhostAsSecureOrigin: true
-  });
-});
-</script>
-<!-- notifications-->
+
     <script src="/includes/js/notification.js"></script>
 </head>
 
 <body>
 
-<div id="header">
-    
-</div>
+<div id="header"></div>
 <!-- Desktop Navigation -->
 
 <nav class="navbar" aria-label="Primary Navigation">
@@ -380,42 +354,9 @@ Subscribe Now
 </section>
 
 </main>
-
-<!-- Footer -->
-
-<footer>
-
-<nav class="privacy" aria-label="Footer Navigation">
-
-<a href="contact.html">Contact Us</a>
-
-<span>/</span>
-
-<a href="privacy.html">Privacy Policy</a>
-
-<span>/</span>
-
-<a href="about.html">About Us</a>
-
-<span>/</span>
-
-<a href="disclaimer.html">Disclaimer</a>
-
-</nav>
-
 <p>
 All Previous Year Question Papers belong to their respective official conducting authorities.
 </p>
-
-<p>
-&copy; 2026 Selection Pro 
-</p>
-
-</footer>
-<a href="support.html" class="floating-support-btn">
-    <span class="btn-icon">❤️</span>
-    <span class="btn-text">Support Us</span>
-</a>
 <script>
     // JavaScript for Accordion Functionality
     var acc = document.getElementsByClassName("faq-question");
@@ -474,17 +415,11 @@ this.classList.contains("active")
     
     </script>
 
-<!-- Floating Telegram Button -->
-<a href="https://t.me/selectionpro1"
-   class="telegram-float"
-   target="_blank"
-   aria-label="Join Telegram">
-  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
-    <path d="M9.99 15.48 9.8 19.2c.29 0 .42-.13.57-.28l2.74-2.62 5.68 4.16c1.04.58 1.77.27 2.05-.96l3.72-17.43h.01c.33-1.53-.55-2.13-1.56-1.76L1.32 8.6C-.15 9.18-.13 10 .99 10.34l5.5 1.72L19.2 4.22c.6-.4 1.15-.18.7.22"/>
-  </svg>
-  <span>Join Telegram</span>
-</a>
-<script src="/includes/js/header.js" defer></script>
+<div id="footer"></div>
+<script src="/includes/js/header.js" ></script>
+<script src="/includes/js/footer.js" ></script>
+<script src="/includes/js/search.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script src="/data.js"></script>
 </body>
 

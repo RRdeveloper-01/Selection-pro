@@ -16,7 +16,7 @@ function initNotification() {
 
         } else if (Notification.permission === "denied") {
 
-            btn.innerHTML = "⚠️ Enable in Browser Settings";
+            btn.innerHTML = "⚠️ Enable in Your Browser Settings";
 
         } else {
 

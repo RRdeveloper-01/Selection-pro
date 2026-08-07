@@ -77,9 +77,11 @@
 .privacy{
     display:grid;
     display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
     margin: 70px 10px ;
     justify-content: center ;
-    gap: 10px;
     background-color: #FFFFFF;
     color: #000;
     
@@ -89,5 +91,8 @@
     font-size: 14px;
     padding: 10px;
     box-sizing: border-box;
+    
+}
+.footer-links{
     
 }

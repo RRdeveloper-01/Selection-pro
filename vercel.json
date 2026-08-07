@@ -1,4 +1,52 @@
 {
+  "redirects": [
+    {
+      "source": "/update%20/august-3-updates.html",
+      "destination": "/update/august-3-updates.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/august-01-updates.html",
+      "destination": "/update/august-01-updates.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/july-30.html",
+      "destination": "/update/july-30.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/ibps-csa-new-update.html",
+      "destination": "/update/ibps-csa-new-update.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/ssc-calendar-2026-27.html",
+      "destination": "/update/ssc-calendar-2026-27.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/student_protest_end.html",
+      "destination": "/update/student_protest_end.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/2026-07-25.html",
+      "destination": "/update/2026-07-25.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/student_protest_24_july.html",
+      "destination": "/update/student_protest_24_july.html",
+      "permanent": true
+    },
+    {
+      "source": "/update%20/student-protest_23_july.html",
+      "destination": "/update/student-protest_23_july.html",
+      "permanent": true
+    }
+  ],
+
   "headers": [
     {
       "source": "/(.*).(js|css)",
