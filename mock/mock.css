@@ -1,63 +1,213 @@
-.coming-soon-logo-simple {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #0f172a;
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #334155;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --success-color: #16a34a;
+  --danger-color: #dc2626;
+  --radius: 12px;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  padding: 20px 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  padding: 32px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  color: var(--secondary-color);
   text-align: center;
-  color: #f0f0f0; /* Light grey text */
-  padding: 30px;
-  margin-top: 20px;
-  background-color: #282c34; /* Dark background for contrast */
-  border-radius: 10px;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  margin: 28px 0 16px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
-  align-content: center;
+  gap: 8px;
+  text-transform: capitalize;
 }
-.coming-soon-logo-simple span:first-child {
-  font-size: 3em; /* Larger for "Study Resources" */
-  font-weight: 700; /* Bold */
-  letter-spacing: 2px;
-  margin-bottom: 5px; /* Space between lines */
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Subtle glow */
-}.coming-soon-logo-simple span:last-child {
-  font-size: 1.5em; /* Smaller for "Coming Soon" */
-  font-weight: 300; /* Lighter font weight */
-  letter-spacing: 1px;
-  opacity: 0.8; /* Slightly less prominent */
+
+p {
+  color: var(--text-main);
+  margin-bottom: 16px;
 }
-.coming-soon-logo-simple span:last-child {
-  animation: pulse 2s infinite ease-in-out;
+
+/* Section Styling */
+.section {
+  margin-bottom: 32px;
 }
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.8; }
-  50% { transform: scale(1.05); opacity: 1; }
-  100% { transform: scale(1); opacity: 0.8; }
-}.subjects{
-  display: flex;
-  justify-content: center;
+
+/* Instructions List */
+.instructions-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 0;
 }
-.sub{
-  border: 3px solid black;
-    padding: 10px ;
-    background-color:rgba(70, 90, 66, 1);
-    color: white;
-    margin: 10px ;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-shadow:  0 0 10px rgba(255, 255, 255, 0.5);
-    top: 0;
-    text-decoration: none;
+
+.instructions-list li {
+  background: #f1f5f9;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  border-left: 4px solid var(--primary-color);
 }
-body{
-  background: lightblue;
- }
- h3{
+
+/* Button */
+.btn {
+  display: inline-block;
   width: 100%;
-  background: aqua;
- }
- h2{
-   width: 100%;
-   background: hsla(206, 86%, 47%, 1);
- }
+  text-align: center;
+  padding: 14px 28px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+/* Sample Questions Card */
+.question-card {
+  background: #f8fafc;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.options-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+  padding: 0;
+}
+
+.options-list li {
+  background: #ffffff;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Quick Navigation Links */
+.subjects {
+  margin: 32px 0 16px;
+}
+
+.subjects ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.subjects .sub {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e0e7ff;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.subjects .sub:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+/* Chapters Grid Layout */
+.chapters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.chapters .space {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.chapters .space:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transform: translateX(3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 16px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .chapters {
+    grid-template-columns: 1fr;
+  }
+}

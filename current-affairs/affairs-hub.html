@@ -36,7 +36,7 @@
       }
     }
     </script>
-
+    <link rel="stylesheet" href="/includes/css/header.css">
     <style>
         :root {
             --primary-color: #1e3c72;
@@ -65,24 +65,26 @@
             margin: 0 auto;
         }
 
-        header {
+       header {
             text-align: center;
             margin-bottom: 40px;
             padding: 30px 20px;
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            color: #ffffff;
+            
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
-        header h1 {
+       .pro {
             font-size: 2.2rem;
             margin-bottom: 10px;
+            color: #ffffff;
         }
 
         header p {
             font-size: 1.05rem;
             opacity: 0.95;
+            color: #ffffff;
         }
 
         .grid {
@@ -160,7 +162,6 @@
         }
     </style>
 
-    <link rel="stylesheet" href="/includes/css/header.css">
     <link rel="stylesheet" href="/includes/css/footer.css">
     <script src="/includes/js/analytics.js"></script>
     <script src="/includes/js/onesignal.js"></script>
@@ -173,14 +174,22 @@
 
     <div class="container">
         <header>
-            <h1>Daily Current Affairs Dashboard</h1>
+            <h1 class="pro">Daily Current Affairs Dashboard</h1>
             <p>Your one-stop destination for daily national and international news updates</p>
         </header>
 
         <main class="grid">
+                        <article class="card">
+                <div>
+                    <time datetime="2026-08-08" class="date-badge">Today</time>
+                    <h2>Current Affairs - 08 August 2026</h2>
+                    <p>Read all key national and international current affairs updates for 08 August 2026.</p>
+                </div>
+                <a href="/current-affairs/august-08-2026.html" title="Read Current Affairs for 06 August 2026" class="btn">Read Article</a>
+            </article>
             <article class="card">
                 <div>
-                    <time datetime="2026-08-07" class="date-badge">Today</time>
+                    <time datetime="2026-08-07" class="date-badge">Yesterday</time>
                     <h2>Current Affairs - 07 August 2026</h2>
                     <p>Read all key national and international current affairs updates for 06 August 2026.</p>
                 </div>
@@ -188,7 +197,7 @@
             </article>
             <article class="card">
                 <div>
-                    <time datetime="2026-08-06" class="date-badge">Yesterday</time>
+                    <time datetime="2026-08-06" class="date-badge">2026-08-06</time>
                     <h2>Current Affairs - 06 August 2026</h2>
                     <p>Read all key national and international current affairs updates for 06 August 2026.</p>
                 </div>
