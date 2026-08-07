@@ -26,8 +26,7 @@
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-<link rel="stylesheet" href="/css/blog-reuseable.css">
-<link rel="stylesheet" href="/css/button.css">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -40,31 +39,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       }
     }
     </script>
+    <link rel="stylesheet" href="/css/blog-reuseable.css">
+    <link rel="stylesheet" href="/includes/css/header.css">
+    <link rel="stylesheet" href="/includes/css/footer.css">
+    <script src="/includes/js/analytics.js"></script>
+    <script src="/includes/js/onesignal.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
-
-<script>
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
-gtag('js', new Date());
-
-gtag('config','G-EM0R8NFRM0');
-
-</script>
-
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script src="/includes/js/notification.js"></script>
 </head>
 <body>
-
+    <div id="header"> </div>
+    <div id="translate">  </div>
     <div class="back-container">
         <a href="#" class="back-btn">&larr; Back to Home</a>
     </div>
-   <div class="lang-switcher" style="text-align: right; margin: 10px 20px;">
-     <button onclick="changeLanguage('en')" class="btn" style="padding: 6px 15px; font-size: 14px; background:#6c757d;">English</button>
-    <button onclick="changeLanguage('hi')" class="btn" style="padding: 6px 15px; font-size: 14px;">Hindi</button>
-   
-</div>
+    <div id="header"> </div>
+    <div id="translate">  </div>
 
     <header class="hero">
         <div class="hero-content">
@@ -308,38 +299,12 @@ gtag('config','G-EM0R8NFRM0');
         </article>
     </main>
 
-    <footer id="footer" class="main-footer">
-        <div class="container" style="text-align: center;">
-            <p>&copy; 2026 Exam Preparation Portal. All Rights Reserved.</p>
-        </div>
-    </footer>
-<a href="/support.html" class="floating-support-btn">
-    <span class="btn-icon">❤️</span>
-    <span class="btn-text">Support Us</span>
-</a>
-<!-- Floating Telegram Button -->
-<a href="https://t.me/selectionpro1"
-   class="telegram-float"
-   target="_blank"
-   aria-label="Join Telegram">
-  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
-    <path d="M9.99 15.48 9.8 19.2c.29 0 .42-.13.57-.28l2.74-2.62 5.68 4.16c1.04.58 1.77.27 2.05-.96l3.72-17.43h.01c.33-1.53-.55-2.13-1.56-1.76L1.32 8.6C-.15 9.18-.13 10 .99 10.34l5.5 1.72L19.2 4.22c.6-.4 1.15-.18.7.22"/>
-  </svg>
-  <span>Join Telegram</span>
-</a>
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-
-function changeLanguage(lang) {
-  var selectField = document.querySelector("select.goog-te-combo");
-  if (selectField) {
-    selectField.value = lang;
-    selectField.dispatchEvent(new Event('change'));
-  }
-}
-</script>
+<div id="footer"></div>
+<script src="/includes/js/header.js" ></script>
+<script src="/includes/js/footer.js" ></script>
+<script src="/includes/js/translate.js" ></script>
+<script src="/includes/js/lang.js" ></script>
+<script src="/includes/js/search.js"></script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script src="/blog.js" defer></script>
 </body>

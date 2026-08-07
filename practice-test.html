@@ -6,9 +6,6 @@
     <title>Practice Test - Selection Pro</title>
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Translate Script Setup -->
-    <!-- MathJax Setup for Math Formulas -->
 <script>
     window.MathJax = {
         tex: {
@@ -18,17 +15,6 @@
     };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'hi,en',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <style>
         :root {
@@ -295,6 +281,8 @@
             color: var(--text-muted);
         }
     </style>
+        <script src="/includes/js/analytics.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
 </head>
 <body>
 
@@ -304,14 +292,8 @@
             <i class="fa-solid fa-graduation-cap"></i> Selection Pro
         </a>
     </nav>
-
-    <div class="container">
-
-        <!-- Language Translate Dropdown Bar -->
-        <div class="translate-bar">
-            <div id="google_translate_element"></div>
-        </div>
-        
+            <div id="translate"></div>
+     
         <!-- Score Board Result Card -->
         <div id="result-card" class="card">
             <h2 style="text-align: center; font-size: 20px;">🎉 Test Result</h2>
@@ -500,5 +482,8 @@ if (window.MathJax && window.MathJax.typesetPromise) {
             submitBtn.style.cursor = "not-allowed";
         });
     </script>
+            <script src="/includes/js/lang.js"></script>
+         <script src="/includes/js/translate.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

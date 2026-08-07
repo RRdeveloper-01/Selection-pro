@@ -111,6 +111,7 @@
             .q-box { border-bottom: 1px solid #94a3b8; }
             .ans-box { background-color: transparent; border: none; padding: 0; }
         }
+        
     </style>
     <!-- MathJax Setup for Math Formulas -->
 <script>
@@ -122,12 +123,13 @@
     };
 </script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
+    <script src="/includes/js/analytics.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
 </head>
 <body>
 
     <button class="print-btn" onclick="window.print()">🖨️ Download / Save as PDF</button>
-
+ <div id="translate"> </div>
     <div class="header">
         <h1 id="paper-title">Practice Test</h1>
         <p id="paper-sub">Selection Pro - Question Paper with Answer Key</p>
@@ -191,5 +193,8 @@ if (window.MathJax && window.MathJax.typesetPromise) {
                 document.getElementById('questions-paper').innerHTML = "<p style='color:red;'>Data loading error...</p>";
             });
     </script>
+        <script src="/includes/js/lang.js"></script>
+         <script src="/includes/js/translate.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
