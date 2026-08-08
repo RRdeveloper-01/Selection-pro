@@ -1,5 +1,20 @@
-    /* --- Search Icon --- */
-       .search-icon{
+/* --- Header Section (Fixed) --- */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed; /* Header ko screen par fix rakhne ke liye */
+    top: 0;
+    left: 0;
+    width: 100%; /* Pura width lene ke liye */
+    z-index: 100;
+}
+
+/* --- Search Icon --- */
+.search-icon {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -9,139 +24,182 @@
     flex-shrink: 0;
 }
 
-.header{
+/* --- Search Overlay --- */
+#search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    display: none; /* Default hidden */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #333;
+}
+
+.search-input-container {
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+#main-search {
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    border: none;
+    border-bottom: 3px solid #ed1c24;
+    outline: none;
+}
+
+#suggestions-list {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #eee;
+    display: block;
+}
+
+#suggestions-list li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+#suggestions-list li a:hover {
+    background: #f1f1f1;
+    color: #ed1c24;
+}
+
+/* --- Sidebar & Hamburger Menu --- */
+#menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.side-menu {
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 280px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: 0.4s ease-in-out;
+    padding-top: 80px;
+    z-index: 99;
+}
+
+.side-menu a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+
+.side-menu a:hover {
+    background: #f9f9f9;
+    color: #ed1c24;
+}
+
+/* Menu Toggle Animations & States */
+#menu-toggle:checked ~ .side-menu {
+    left: 0;
+}
+
+#menu-toggle:checked ~ .header .hamburger span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+#menu-toggle:checked ~ .header .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ .header .hamburger span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+}
+
+#menu-toggle:checked ~ .overlay {
+    display: block;
+}
+    .top-support-banner {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #ffffff;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position:fixed;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 100%;
+    user-select: none;
+
+    /* --- Yeh Naye Rules Add Karein --- */
+    position: fixed;
+    top: 74px; /* Fixed header ke theek neeche dikhane ke liye */
+    left: 0;
+    z-index: 99; /* Header (100) ke niche, baaki content ke upar */
 }
-        #search-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: white;
-            z-index: 1000;
-            display: none; /* Default hidden */
-            flex-direction: column;
-            align-items: center;
-            padding-top: 80px;
-        }
-        .close-btn {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            font-size: 40px;
-            cursor: pointer;
-            color: #333;
-        }   
-        .search-input-container {
-            width: 80%;
-            max-width: 600px;
-            position: relative;
-        }
-       #main-search {
-            width: 100%;
-            padding: 15px;
-            font-size: 22px;
-            border: none;
-            border-bottom: 3px solid #ed1c24;
-            outline: none;
-        }
-        #suggestions-list {
-            width: 100%;
-            max-width: 600px;
-            margin-top: 10px;
-            list-style: none;
-            padding: 0;
-            border: 1px solid #eee;
-            display: block; /* Khali hone par hidden */
-        }
-        #suggestions-list li a {
-            display: inline-block;
-            padding: 15px;
-            text-decoration: none;
-            color: #333;
-            border-bottom: 1px solid #f9f9f9;
-        }
-        #suggestions-list li a:hover {
-            background: #f1f1f1;
-            color: #ed1c24;}
-            /*side bar and logo*/
-                    .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 15px;
-            background: #fff;
-            border-bottom: 1px solid #ddd;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-         
-        }
-        #menu-toggle {
-            display: none; 
-        }
-       .hamburger {
-            cursor: pointer;
-            z-index: 101;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-  .hamburger span {
-            display: block;
-            width: 25px;
-            height: 3px;
-            background: #333;
-            border-radius: 2px;
-            transition: 0.3s ease;   }
-        .side-menu {
-            overflow-y:auto;
-            position: fixed;
-            top: 0;
-            left: -100%; 
-            width: 280px;
-            height: 100%;
-            background: #fff;
-            box-shadow: 5px 0 15px rgba(0,0,0,0.1);
-           transition: 0.4s ease-in-out;
-            padding-top: 80px;
-            z-index: 99; }
-.side-menu a {
-            display: block;
-            padding: 15px 25px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            border-bottom: 1px solid #eee; }
-       .side-menu a:hover {
-            background: #f9f9f9;
-            color: #ed1c24;
-        }
-        #menu-toggle:checked ~ .side-menu {
-            left: 0;
-        }
-        #menu-toggle:checked ~ .header .hamburger span:nth-child(1) {
-            transform: translateY(8px) rotate(45deg); }
-        #menu-toggle:checked ~ .header .hamburger span:nth-child(2) {
-            opacity: 0;
-        }
-        #menu-toggle:checked ~ .header .hamburger span:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
-        }
-        .overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 98;
-        }
-        #menu-toggle:checked ~ .overlay {
-            display: block;
-        }
+
+.top-support-banner:hover {
+    opacity: 0.95;
+}
+
+.top-support-banner .pay-badge {
+    background: #ffffff;
+    color: #d94b2b;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}

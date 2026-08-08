@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,6 +85,7 @@
             justify-content: center;
             gap: 10px;
             margin-bottom: 15px;
+            flex-wrap: wrap; /* Wraps buttons if they exceed screen width */
         }
         .badge {
             background: #e3f2fd;
@@ -93,6 +94,11 @@
             border-radius: 20px;
             font-size: 13px;
             font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .badge:hover {
+            background: #bbdefb;
         }
         .footer-note {
             font-size: 12px;
@@ -104,17 +110,20 @@
 
 <div class="card">
     <h1>Support Our Mission ❤️</h1>
-    <p>Aapka chota sa contribution humein study material ko free rakhne aur website hosting ke kharche chalane me help karta hai.</p>
+    <p>Your small contribution helps us keep study materials free and cover our website hosting expenses.</p>
 
     <div class="qr-container">
         <img src="supportimg.jpg" alt="UPI QR Code" id="qr-img">
     </div>
 
     <div class="amounts">
-        <span class="badge">₹10</span>
-        <span class="badge">₹50</span>
-        <span class="badge">₹100</span>
-        <span class="badge">₹500</span>
+        <span class="badge" onclick="payNow(10)">₹10</span>
+        <span class="badge" onclick="payNow(20)">₹20</span>
+        <span class="badge" onclick="payNow(50)">₹50</span>
+        <span class="badge" onclick="payNow(100)">₹100</span>
+        <span class="badge" onclick="payNow(200)">₹200</span>
+        <span class="badge" onclick="payNow(500)">₹500</span>
+        <span class="badge" onclick="payNow(1000)">₹1000</span>
     </div>
 
     <div class="upi-box">
@@ -123,7 +132,7 @@
     </div>
 
     <div class="footer-note">
-        PhonePe, Google Pay, Paytm ya kisi bhi UPI App se scan karein.
+        Scan using PhonePe, Google Pay, Paytm or any UPI App.
     </div>
 </div>
 
@@ -131,7 +140,14 @@
     function copyUPI() {
         var upiText = document.getElementById("upi-text").innerText;
         navigator.clipboard.writeText(upiText);
-        alert("UPI ID Copy ho gayi hai: " + upiText);
+        alert("UPI ID copied: " + upiText);
+    }
+
+    function payNow(amount) {
+        var upiId = "8957940617@fam";
+        var name = "Support Us";
+        var upiUrl = "upi://pay?pa=" + upiId + "&pn=" + encodeURIComponent(name) + "&am=" + amount + "&cu=INR";
+        window.location.href = upiUrl;
     }
 </script>
 

@@ -24,6 +24,10 @@ background:#f5f7fb;
 color:#333;
 line-height:1.8;
 overflow-x:hidden;
+
+    padding-top: 130px; /* Header (~62px) + Banner (~40px) = 102px+ spacing */
+
+
 }
 
 /*======================================
