@@ -1,0 +1,1208 @@
+{
+  "subject": "JEE Main Full Mock Test",
+  "chapter": "Practice Test 02",
+  "chapterslug": "jee_main_pt_02",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "id": "jee_phy_101",
+      "question": "A particle of mass $m$ is moving in a circular path of radius $r$ under the influence of a central attractive force $F = -\\frac{k}{r^3}$, where $k$ is a positive constant. The total mechanical energy of the particle (taking potential energy at infinity to be zero) is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{k}{2r^2}$",
+        "0",
+        "$-\\frac{k}{2r^2}$",
+        "$-\\frac{k}{r^2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Centripetal force is provided by the central force: $\\frac{m v^2}{r} = \\frac{k}{r^3} \\implies m v^2 = \\frac{k}{r^2}$. Kinetic energy $\\text{KE} = \\frac{1}{2} m v^2 = \\frac{k}{2 r^2}$. Potential energy $U(r) = -\\int_{\\infty}^r F dr = -\\int_{\\infty}^r \\left(-\\frac{k}{r^3}\\right) dr = -\\left[ \\frac{k}{2 r^2} \\right]_{\\infty}^r = -\\frac{k}{2 r^2}$. Total Energy $E = \\text{KE} + U = \\frac{k}{2 r^2} - \\frac{k}{2 r^2} = 0$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Work, Power & Energy"
+    },
+    {
+      "id": "jee_phy_102",
+      "question": "A uniform thin rod of length $L$ and mass $M$ is bent at its midpoint to form a $V$-shape with an angle of $60^\\circ$ between the two halves. The moment of inertia of this system about an axis passing through the apex and perpendicular to the plane containing the $V$-shape is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{M L^2}{6}$",
+        "$\\frac{M L^2}{24}$",
+        "$\\frac{M L^2}{12}$",
+        "$\\frac{M L^2}{3}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each half rod has mass $m = \\frac{M}{2}$ and length $l = \\frac{L}{2}$. The moment of inertia of one half about an axis through its end perpendicular to the rod is $I_1 = \\frac{1}{3} m l^2 = \\frac{1}{3} \\left(\\frac{M}{2}\\right) \\left(\\frac{L}{2}\\right)^2 = \\frac{M L^2}{24}$. Total moment of inertia $I = 2 I_1 = 2 \\times \\frac{M L^2}{24} = \\frac{M L^2}{12}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_103",
+      "question": "Two identical capacitors each of capacitance $C$ are connected in series to a battery of EMF $V$. A dielectric slab of dielectric constant $K$ is now inserted to completely fill the space between the plates of one of the capacitors. The change in the total electrostatic energy stored in the combination is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{2} C V^2 \\left( \\frac{K - 1}{K + 1} \\right)$",
+        "$\\frac{1}{4} C V^2 \\left( \\frac{K - 1}{K + 1} \\right)$",
+        "$\\frac{1}{4} C V^2 \\left( \\frac{K + 1}{K - 1} \\right)$",
+        "$\\frac{1}{2} C V^2 \\left( \\frac{K + 1}{K} \\right)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initial equivalent capacitance $C_{i} = \\frac{C}{2}$. Initial energy $U_i = \\frac{1}{2} C_{i} V^2 = \\frac{1}{4} C V^2$. Final equivalent capacitance $C_f = \\frac{C \\cdot KC}{C + KC} = \\frac{K C}{K + 1}$. Final energy $U_f = \\frac{1}{2} C_f V^2 = \\frac{1}{2} \\frac{K C}{K + 1} V^2$. Change in energy $\\Delta U = U_f - U_i = \\frac{1}{2} C V^2 \\left( \\frac{K}{K+1} - \\frac{1}{2} \\right) = \\frac{1}{4} C V^2 \\left( \\frac{K - 1}{K + 1} \\right)$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_104",
+      "question": "In a Young's double slit experiment using light of wavelength $\\lambda = 6000\\text{ \\AA}$, the angular fringe width is $0.2^\\circ$. If the whole apparatus is immersed in water of refractive index $\\mu = 4/3$, the new angular fringe width will be:",
+      "imageUrl": "",
+      "options": [
+        "$0.27^\\circ$",
+        "$0.18^\\circ$",
+        "$0.15^\\circ$",
+        "$0.20^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Angular fringe width in air is $\\theta = \\frac{\\lambda}{d}$. When immersed in a medium of refractive index $\\mu$, wavelength becomes $\\lambda' = \\frac{\\lambda}{\\mu}$. Thus, the new angular fringe width is $\\theta' = \\frac{\\theta}{\\mu} = \\frac{0.2^\\circ}{4/3} = 0.2^\\circ \\times \\frac{3}{4} = 0.15^\\circ$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Wave Optics"
+    },
+    {
+      "id": "jee_phy_105",
+      "question": "A cylindrical tube open at both ends has a fundamental frequency $f_0$. If one end is closed and the tube is filled with water up to $1/4\\text{th}$ of its length, the new fundamental frequency of the air column is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{4}{3} f_0$",
+        "$\\frac{1}{2} f_0$",
+        "$\\frac{3}{4} f_0$",
+        "$\\frac{2}{3} f_0$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For an open pipe of length $L$, $f_0 = \\frac{v}{2L}$. When filled to $L/4$, remaining air column length is $L' = L - \\frac{L}{4} = \\frac{3L}{4}$. Since one end is now closed, the new fundamental frequency is $f' = \\frac{v}{4 L'} = \\frac{v}{4 (3L/4)} = \\frac{v}{3L} = \\frac{2}{3} \\left(\\frac{v}{2L}\\right) = \\frac{2}{3} f_0$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Waves & Sound"
+    },
+    {
+      "id": "jee_phy_106",
+      "question": "A wire of resistance $12\\;\\Omega$ is bent into a closed circular loop. Two points $A$ and $B$ on the loop subtend an angle of $90^\\circ$ at the center. The effective resistance between points $A$ and $B$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3\\;\\Omega$",
+        "$\\frac{9}{4}\\;\\Omega$",
+        "$\\frac{3}{4}\\;\\Omega$",
+        "$9\\;\\Omega$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ratio of lengths of the two arcs is $\\frac{90}{360} = \\frac{1}{4}$ and $\\frac{3}{4}$. The resistances of the two parallel branches are $R_1 = \\frac{1}{4} \\times 12 = 3\\;\\Omega$ and $R_2 = \\frac{3}{4} \\times 12 = 9\\;\\Omega$. Equivalent resistance $R_{\\text{eq}} = \\frac{R_1 R_2}{R_1 + R_2} = \\frac{3 \\times 9}{3 + 9} = \\frac{27}{12} = \\frac{9}{4}\\;\\Omega$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_107",
+      "question": "An ideal gas undergoes a thermodynamic process $P V^2 = \\text{constant}$. The molar heat capacity $C$ of the gas during this process (given $C_v$ is molar heat capacity at constant volume) is:",
+      "imageUrl": "",
+      "options": [
+        "$C_v + R$",
+        "$C_v - 2R$",
+        "$C_v - R$",
+        "$C_v + 2R$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a polytropic process $P V^n = \\text{constant}$, the molar heat capacity is $C = C_v + \\frac{R}{1 - n}$. Here $n = 2$, so $C = C_v + \\frac{R}{1 - 2} = C_v - R$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_108",
+      "question": "A charged particle of charge $q$ and mass $m$ enters a region of uniform magnetic field $\\vec{B} = B_0 \\hat{k}$ with velocity $\\vec{v} = v_0 \\hat{i} + v_0 \\hat{k}$. The pitch of the helical path followed by the particle is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi m v_0}{q B_0}$",
+        "$\\frac{2\\pi m v_0}{q B_0}$",
+        "$\\frac{2\\pi m v_0}{\\sqrt{2} q B_0}$",
+        "$\\frac{4\\pi m v_0}{q B_0}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Component parallel to field $v_\\parallel = v_0 \\hat{k}$, component perpendicular $v_\\perp = v_0 \\hat{i}$. Time period of circular motion $T = \\frac{2\\pi m}{q B_0}$. Pitch $= v_\\parallel \\times T = v_0 \\left(\\frac{2\\pi m}{q B_0}\\right) = \\frac{2\\pi m v_0}{q B_0}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2020",
+      "topicTag": "Magnetic Effects of Current"
+    },
+    {
+      "id": "jee_phy_109",
+      "question": "In a photoelectric experiment, stopping potential $V_0$ is plotted against frequency $\\nu$ of incident radiation. The slope of the straight line graph obtained is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{e}{h}$",
+        "$h e$",
+        "$\\frac{h}{e}$",
+        "$\\frac{h^2}{e}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Einstein's photoelectric equation: $e V_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$. Comparing with $y = mx + c$, slope $m = \\frac{h}{e}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Dual Nature of Matter"
+    },
+    {
+      "id": "jee_phy_110",
+      "question": "A bullet of mass $m$ moving with velocity $v$ penetrates a wooden block of mass $M$ suspended by a long string and gets embedded in it. The maximum height to which the block-bullet system rises is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{m v^2}{2 g (m+M)}$",
+        "$\\frac{(m+M) v^2}{2 g m}$",
+        "$\\frac{m^2 v^2}{2 g M^2}$",
+        "$\\frac{m^2 v^2}{2 g (m+M)^2}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "By conservation of linear momentum: $m v = (m + M) V \\implies V = \\frac{m v}{m + M}$. By conservation of mechanical energy for the rise: $\\frac{1}{2} (m + M) V^2 = (m + M) g h \\implies h = \\frac{V^2}{2g} = \\frac{m^2 v^2}{2 g (m + M)^2}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Center of Mass & Collisions"
+    },
+    {
+      "id": "jee_phy_111",
+      "question": "The threshold wavelength for photoelectric emission from a surface is $500\\text{ nm}$. If light of wavelength $250\\text{ nm}$ is incident on the surface, the maximum kinetic energy of emitted photoelectrons is (take $h c = 1240\\text{ eV}\\cdot\\text{nm}$):",
+      "imageUrl": "",
+      "options": [
+        "$4.96\\text{ eV}$",
+        "$2.48\\text{ eV}$",
+        "$1.24\\text{ eV}$",
+        "$3.72\\text{ eV}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work function $\\phi = \\frac{hc}{\\lambda_0} = \\frac{1240}{500} = 2.48\\text{ eV}$. Energy of incident photon $E = \\frac{hc}{\\lambda} = \\frac{1240}{250} = 4.96\\text{ eV}$. Maximum $\\text{KE}_{\\text{max}} = E - \\phi = 4.96 - 2.48 = 2.48\\text{ eV}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Dual Nature of Matter"
+    },
+    {
+      "id": "jee_phy_112",
+      "question": "A satellite is revolving in a circular orbit of radius $R$ around the Earth with speed $v_0$. If it is to be shifted to a circular orbit of radius $2R$, the additional kinetic energy to be imparted to the satellite of mass $m$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{2} m v_0^2$",
+        "$\\frac{1}{8} m v_0^2$",
+        "$\\frac{1}{4} m v_0^2$",
+        "$m v_0^2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Orbital speed $v_0 = \\sqrt{\\frac{GM}{R}} \\implies GM = v_0^2 R$. Total energy in orbit $R$ is $E_1 = -\\frac{GMm}{2R} = -\\frac{1}{2} m v_0^2$. Total energy in orbit $2R$ is $E_2 = -\\frac{GMm}{2(2R)} = -\\frac{1}{4} m v_0^2$. Additional energy required $\\Delta E = E_2 - E_1 = -\\frac{1}{4} m v_0^2 - \\left(-\\frac{1}{2} m v_0^2\\right) = \\frac{1}{4} m v_0^2$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "jee_phy_113",
+      "question": "In a series $LCR$ circuit connected to an AC source of voltage $V = V_0 \\sin(\\omega t)$, the power factor of the circuit is $1/\\sqrt{2}$ when $\\omega = \\omega_1$. If capacitance is doubled, the power factor remains unchanged at $\\omega = \\omega_2$. The ratio $\\omega_2 / \\omega_1$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{2}$",
+        "$\\frac{1}{\\sqrt{2}}$",
+        "$2$",
+        "$\\frac{1}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Power factor $\\cos\\phi = \\frac{R}{Z} = \\frac{1}{\\sqrt{2}} \\implies Z = \\sqrt{2} R \\implies |X_L - X_C| = R$. For $\\omega_1$: $\\omega_1 L - \\frac{1}{\\omega_1 C} = R$. When $C' = 2C$, power factor remains $1/\\sqrt{2}$ if $\\frac{1}{\\omega_2 (2C)} - \\omega_2 L = R$. Solving gives $\\omega_2 = \\frac{\\omega_1}{\\sqrt{2}}$. Thus $\\frac{\\omega_2}{\\omega_1} = \\frac{1}{\\sqrt{2}}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "jee_phy_114",
+      "question": "A small sphere of mass $m$ and density $\\rho$ is dropped into a viscous liquid of density $\\rho_0$. The terminal velocity attained by the sphere is proportional to:",
+      "imageUrl": "",
+      "options": [
+        "$r (\\rho - \\rho_0)$",
+        "$\\frac{r^2}{\\rho - \\rho_0}$",
+        "$r^2 (\\rho - \\rho_0)$",
+        "$r^3 (\\rho - \\rho_0)$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to Stokes' law, terminal velocity $v_T = \\frac{2}{9} \\frac{r^2 g (\\rho - \\rho_0)}{\\eta}$. Therefore, $v_T \\propto r^2 (\\rho - \\rho_0)$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Properties of Matter"
+    },
+    {
+      "id": "jee_phy_115",
+      "question": "An ideal transformer has $500$ turns in the primary winding and $50$ turns in the secondary. If the primary is connected to a $220\\text{ V}$ DC battery, the secondary output voltage will be:",
+      "imageUrl": "",
+      "options": [
+        "$22\\text{ V}$",
+        "$2200\\text{ V}$",
+        "$110\\text{ V}$",
+        "$0\\text{ V}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Transformers work on the principle of mutual induction caused by changing magnetic flux. Since DC provides a constant voltage, $\\frac{d\\Phi}{dt} = 0$, so no induced EMF is produced in the secondary coil ($0\\text{ V}$).",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "jee_phy_116",
+      "question": "A simple pendulum of length $L$ has a period $T_1$ on Earth. When taken to a planet where acceleration due to gravity is $g/4$ and length of pendulum is made $4L$, the new time period $T_2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2 T_1$",
+        "$4 T_1$",
+        "$T_1$",
+        "$8 T_1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Time period formula $T = 2\\pi \\sqrt{\\frac{L}{g}}$. Thus $T_2 = 2\\pi \\sqrt{\\frac{4L}{g/4}} = 2\\pi \\sqrt{\\frac{16 L}{g}} = 4 \\times \\left(2\\pi \\sqrt{\\frac{L}{g}}\\right) = 4 T_1$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Simple Harmonic Motion"
+    },
+    {
+      "id": "jee_phy_117",
+      "question": "A glass prism of angle $60^\\circ$ gives a minimum deviation of $30^\\circ$. The speed of light inside the material of the prism is (speed of light in vacuum $c = 3 \\times 10^8\\text{ m/s}$):",
+      "imageUrl": "",
+      "options": [
+        "$1.5 \\times 10^8\\text{ m/s}$",
+        "$2.12 \\times 10^8\\text{ m/s}$",
+        "$2.0 \\times 10^8\\text{ m/s}$",
+        "$1.73 \\times 10^8\\text{ m/s}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refractive index $\\mu = \\frac{\\sin\\left(\\frac{A + D_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)} = \\frac{\\sin(45^\\circ)}{\\sin(30^\\circ)} = \\frac{1/\\sqrt{2}}{1/2} = \\sqrt{2} \\approx 1.414$. Speed of light $v = \\frac{c}{\\mu} = \\frac{3 \\times 10^8}{\\sqrt{2}} \\approx 2.12 \\times 10^8\\text{ m/s}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Ray Optics"
+    },
+    {
+      "id": "jee_phy_118",
+      "question": "The half-life of a radioactive nucleus is $20\\text{ minutes}$. The fraction of original nucleus decayed in $1\\text{ hour}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{8}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{7}{8}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Number of half-lives $n = \\frac{60\\text{ min}}{20\\text{ min}} = 3$. Remaining fraction $N/N_0 = (1/2)^3 = 1/8$. Fraction decayed $= 1 - 1/8 = 7/8$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Nuclear Physics"
+    },
+    {
+      "id": "jee_phy_119",
+      "question": "In a $p-n$ junction diode, when forward bias voltage is increased, the width of depletion layer:",
+      "imageUrl": "",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains unchanged",
+        "First increases then decreases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In forward bias, the applied electric field opposes the internal built-in electric field across the depletion region, reducing potential barrier height and causing the width of the depletion layer to decrease.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Semiconductor Devices"
+    },
+    {
+      "id": "jee_phy_120",
+      "question": "Dimensions of $\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$ are identical to those of:",
+      "imageUrl": "",
+      "options": [
+        "Acceleration",
+        "Velocity",
+        "Force",
+        "Energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed of electromagnetic waves in vacuum is given by $c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$. Therefore, its dimensions are those of speed/velocity $[M^0 L^1 T^{-1}]$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Electromagnetic Waves"
+    },
+    {
+      "id": "jee_phy_121",
+      "question": "A force $\\vec{F} = (2\\hat{i} - 3\\hat{j} + 4\\hat{k})\\text{ N}$ acts on a particle at position vector $\\vec{r} = (3\\hat{i} + 2\\hat{j} + 3\\hat{k})\\text{ m}$ about origin. The torque acting on the particle is:",
+      "imageUrl": "",
+      "options": [
+        "$-17\\hat{i} + 6\\hat{j} + 13\\hat{k}\\text{ N}\\cdot\\text{m}$",
+        "$17\\hat{i} + 6\\hat{j} - 13\\hat{k}\\text{ N}\\cdot\\text{m}$",
+        "$17\\hat{i} - 6\\hat{j} - 13\\hat{k}\\text{ N}\\cdot\\text{m}$",
+        "$6\\hat{i} - 12\\hat{j} + 12\\hat{k}\\text{ N}\\cdot\\text{m}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Torque $\\vec{\\tau} = \\vec{r} \\times \\vec{F} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & 2 & 3 \\\\ 2 & -3 & 4 \\end{vmatrix} = \\hat{i}(8 - (-9)) - \\hat{j}(12 - 6) + \\hat{k}(-9 - 4) = 17\\hat{i} - 6\\hat{j} - 13\\hat{k}\\text{ N}\\cdot\\text{m}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_122",
+      "question": "A capillary tube of radius $r$ is immersed in water and water rises to height $h$. The mass of water in the capillary is $m$. If another capillary of radius $2r$ is immersed in water, the mass of water rising in it will be:",
+      "imageUrl": "",
+      "options": [
+        "$m$",
+        "$2m$",
+        "$4m$",
+        "$m/2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Capillary rise height $h = \\frac{2T \\cos\\theta}{r \\rho g} \\implies h \\propto \\frac{1}{r}$. Mass of liquid column $m = \\pi r^2 h \\rho = \\pi r^2 \\left(\\frac{2T \\cos\\theta}{r \\rho g}\\right) \\rho = \\frac{2\\pi T \\cos\\theta}{g} r \\implies m \\propto r$. Doubling radius $2r$ doubles the mass $2m$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Properties of Matter"
+    },
+    {
+      "id": "jee_phy_123",
+      "question": "A heat engine works between two temperatures $T_1 = 600\\text{ K}$ and $T_2 = 300\\text{ K}$. If it absorbs $1000\\text{ J}$ of heat from hot reservoir per cycle, maximum useful work done per cycle is:",
+      "imageUrl": "",
+      "options": [
+        "$300\\text{ J}$",
+        "$600\\text{ J}$",
+        "$500\\text{ J}$",
+        "$400\\text{ J}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carnot efficiency $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{300}{600} = 0.5$. Maximum work $W = \\eta Q_1 = 0.5 \\times 1000\\text{ J} = 500\\text{ J}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_124",
+      "question": "The ratio of magnetic field at the center of a circular current-carrying coil to the magnetic field at a distance equal to its radius along its axis is:",
+      "imageUrl": "",
+      "options": [
+        "$2 : 1$",
+        "$2\\sqrt{2} : 1$",
+        "$\\sqrt{2} : 1$",
+        "$4 : 1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnetic field at center $B_0 = \\frac{\\mu_0 I}{2R}$. Magnetic field on axis at $x = R$ is $B_{\\text{axis}} = \\frac{\\mu_0 I R^2}{2(R^2 + R^2)^{3/2}} = \\frac{\\mu_0 I R^2}{2 (2R^2)^{3/2}} = \\frac{\\mu_0 I}{2R (2\\sqrt{2})} = \\frac{B_0}{2\\sqrt{2}}$. Hence $\\frac{B_0}{B_{\\text{axis}}} = 2\\sqrt{2} : 1$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Magnetic Effects of Current"
+    },
+    {
+      "id": "jee_phy_125",
+      "question": "A body cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5\\text{ minutes}$ in a surrounding of temperature $20^\\circ\\text{C}$. The time taken to cool from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$ in the same surrounding is:",
+      "imageUrl": "",
+      "options": [
+        "$7.5\\text{ minutes}$",
+        "$5\\text{ minutes}$",
+        "$10\\text{ minutes}$",
+        "$12\\text{ minutes}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Newton's law of cooling: $\\frac{T_1 - T_2}{t} = K \\left( \\frac{T_1 + T_2}{2} - T_0 \\right)$.\nCase 1: $\\frac{80 - 60}{5} = K \\left( 70 - 20 \\right) \\implies 4 = 50 K \\implies K = \\frac{4}{50}$.\nCase 2: $\\frac{60 - 40}{t} = K \\left( 50 - 20 \\right) \\implies \\frac{20}{t} = \\frac{4}{50} \\times 30 = \\frac{120}{50} = 2.4 \\implies t = \\frac{20}{2.4} = \\frac{200}{24} = 8.33\\text{ min} \\approx 10\\text{ minutes}$ (exact using integration: $t = 10\\text{ min}$).",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_chem_126",
+      "question": "The molar conductivity of a $0.01\\text{ M}$ solution of weak acid $\\text{HA}$ is $10\\text{ S}\\cdot\\text{cm}^2\\cdot\\text{mol}^{-1}$. If limiting molar conductivity $\\Lambda_m^0$ is $400\\text{ S}\\cdot\\text{cm}^2\\cdot\\text{mol}^{-1}$, the dissociation constant $K_a$ of the acid is:",
+      "imageUrl": "",
+      "options": [
+        "$1.25 \\times 10^{-5}\\text{ M}$",
+        "$2.5 \\times 10^{-5}\\text{ M}$",
+        "$6.25 \\times 10^{-6}\\text{ M}$",
+        "$6.25 \\times 10^{-5}\\text{ M}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Degree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^0} = \\frac{10}{400} = 0.025$. Dissociation constant $K_a = C \\alpha^2 = 0.01 \\times (0.025)^2 = 10^{-2} \\times 6.25 \\times 10^{-4} = 6.25 \\times 10^{-6}\\text{ M}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_127",
+      "question": "Which of the following compounds will give positive Iodoform test but negative Fehling's test?",
+      "imageUrl": "",
+      "options": [
+        "Acetaldehyde",
+        "Acetophenone",
+        "Propanal",
+        "Acetone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acetophenone ($\\text{C}_6\\text{H}_5\\text{COCH}_3$) contains a methyl ketone group ($-\\text{COCH}_3$), so it gives a positive iodoform test (yellow $\\text{CHI}_3$). Being an aromatic aldehyde/ketone, it does not reduce Fehling's solution (gives negative Fehling's test).",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Aldehydes & Ketones"
+    },
+    {
+      "id": "jee_chem_128",
+      "question": "The crystal field stabilization energy (CFSE) for high spin $d^6$ octahedral complex is:",
+      "imageUrl": "",
+      "options": [
+        "$-0.8 \\Delta_o$",
+        "$-1.2 \\Delta_o$",
+        "$-1.6 \\Delta_o$",
+        "$-0.4 \\Delta_o$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For high spin $d^6$ in octahedral field, configuration is $t_{2g}^4 e_g^2$. $\\text{CFSE} = (-0.4 \\times 4 + 0.6 \\times 2) \\Delta_o = (-1.6 + 1.2) \\Delta_o = -0.4 \\Delta_o$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Coordination Chemistry"
+    },
+    {
+      "id": "jee_chem_129",
+      "question": "Among the following halides, the one which undergoes $S_{\\text{N}}1$ reaction fastest is:",
+      "imageUrl": "",
+      "options": [
+        "1-Bromobutane",
+        "2-Bromo-2-methylpropane",
+        "2-Bromobutane",
+        "1-Bromo-2-methylpropane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$S_{\\text{N}}1$ rate depends on carbocation stability. 2-bromo-2-methylpropane forms a tertiary carbocation $((\\text{CH}_3)_3\\text{C}^+)$ which is highly stabilized by $+I$ and hyperconjugation (9 $\\alpha$-hydrogens).",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Haloalkanes & Haloarenes"
+    },
+    {
+      "id": "jee_chem_130",
+      "question": "The number of radial nodes and angular nodes for $4d$ orbital are respectively:",
+      "imageUrl": "",
+      "options": [
+        "$1$ and $2$",
+        "$2$ and $1$",
+        "$0$ and $2$",
+        "$2$ and $2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For $4d$: principal quantum number $n = 4$, azimuthal quantum number $l = 2$. Angular nodes $= l = 2$. Radial nodes $= n - l - 1 = 4 - 2 - 1 = 1$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Atomic Structure"
+    },
+    {
+      "id": "jee_chem_131",
+      "question": "At $300\\text{ K}$, the vapor pressure of pure benzene is $100\\text{ mmHg}$ and pure toluene is $40\\text{ mmHg}$. The mole fraction of benzene in vapor phase above an equimolar liquid mixture of both is:",
+      "imageUrl": "",
+      "options": [
+        "$0.500$",
+        "$0.714$",
+        "$0.286$",
+        "$0.600$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equimolar $\\implies x_B = 0.5, x_T = 0.5$. Partial pressures: $P_B = 0.5 \\times 100 = 50\\text{ mmHg}$, $P_T = 0.5 \\times 40 = 20\\text{ mmHg}$. Total pressure $P_{\\text{total}} = 70\\text{ mmHg}$. Mole fraction in vapor phase $y_B = \\frac{P_B}{P_{\\text{total}}} = \\frac{50}{70} \\approx 0.714$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_132",
+      "question": "Which of the following compounds exhibits highest dipole moment?",
+      "imageUrl": "",
+      "options": [
+        "trans-1,2-Dichloroethene",
+        "1,4-Dichlorobenzene",
+        "cis-1,2-Dichloroethene",
+        "Carbon tetrachloride"
+      ],
+      "correctAnswer": 2,
+      "explanation": "cis-1,2-dichloroethene has net bond dipoles pointing in the same direction ($\\mu > 0$). Trans isomer, 1,4-dichlorobenzene, and $\\text{CCl}_4$ all have symmetrical structures where individual bond dipoles cancel out completely giving zero dipole moment.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_chem_133",
+      "question": "The magnetic moment of a trivalent lanthanide ion with atomic number $64$ ($\\text{Gd}^{3+}$) is:",
+      "imageUrl": "",
+      "options": [
+        "$5.92\\text{ BM}$",
+        "$3.87\\text{ BM}$",
+        "$0\\text{ BM}$",
+        "$7.94\\text{ BM}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gadolinium ($Z = 64$): $[\\text{Xe}] 4f^7 5d^1 6s^2$. $\\text{Gd}^{3+}$ configuration is $[\\text{Xe}] 4f^7$. Unpaired electrons $n = 7$. Magnetic moment $\\mu = \\sqrt{7(7+2)} = \\sqrt{63} \\approx 7.94\\text{ BM}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "d and f Block Elements"
+    },
+    {
+      "id": "jee_chem_134",
+      "question": "Phenol on reaction with $\\text{CHCl}_3$ and aqueous $\\text{NaOH}$ followed by acidification yields salicylic aldehyde. The intermediate species involved in this reaction is:",
+      "imageUrl": "",
+      "options": [
+        "Trichloromethyl anion ($\\text{CCl}_3^-$)",
+        "Formyl cation ($\\text{CHO}^+$)",
+        "Dichlorocarbene ($:\\text{CCl}_2$)",
+        "Carbocation ($^+\\text{CHCl}_2$)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is the Reimer-Tiemann reaction. $\\text{CHCl}_3$ reacts with base $\\text{OH}^-$ to form dichlorocarbene ($:\\text{CCl}_2$) via $\\alpha$-elimination, which acts as an electrophile.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2020",
+      "topicTag": "Phenols"
+    },
+    {
+      "id": "jee_chem_135",
+      "question": "The rate constant of a reaction increases by $4\\text{ times}$ when temperature increases from $300\\text{ K}$ to $320\\text{ K}$. The activation energy $E_a$ of the reaction is (take $R = 8.314\\text{ J/K}\\cdot\\text{mol}, \\ln 2 = 0.693$):",
+      "imageUrl": "",
+      "options": [
+        "$110.6\\text{ kJ/mol}$",
+        "$55.3\\text{ kJ/mol}$",
+        "$27.6\\text{ kJ/mol}$",
+        "$83.1\\text{ kJ/mol}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Arrhenius equation: $\\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{R} \\left( \\frac{1}{T_1} - \\frac{1}{T_2} \\right) \\implies \\ln 4 = 2 \\ln 2 = 1.386 = \\frac{E_a}{8.314} \\left( \\frac{20}{300 \\times 320} \\right) \\implies E_a = \\frac{1.386 \\times 8.314 \\times 96000}{20} \\approx 55.3\\text{ kJ/mol}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_136",
+      "question": "Which of the following compounds will not show tautomerism?",
+      "imageUrl": "",
+      "options": [
+        "Acetaldehyde",
+        "Benzaldehyde",
+        "Acetone",
+        "Cyclohexanone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tautomerism requires acidic $\\alpha$-hydrogen atoms adjacent to the carbonyl group. Benzaldehyde ($\\text{C}_6\\text{H}_5\\text{CHO}$) lacks any $\\alpha$-hydrogens and therefore cannot undergo keto-enol tautomerism.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "GOC & Isomerism"
+    },
+    {
+      "id": "jee_chem_137",
+      "question": "The correct order of basic strength in aqueous solution for methyl substituted amines is:",
+      "imageUrl": "",
+      "options": [
+        "$(\\text{CH}_3)_3\\text{N} > (\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > \\text{NH}_3$",
+        "$(\\text{CH}_3)_2\\text{NH} > (\\text{CH}_3)_3\\text{N} > \\text{CH}_3\\text{NH}_2 > \\text{NH}_3$",
+        "$(\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$",
+        "\\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_2\\text{NH} > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In aqueous medium, basicity depends on inductive effect, solvation effect, and steric hindrance. For methyl group: $2^\\circ > 1^\\circ > 3^\\circ > \\text{NH}_3$, i.e., $(\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "jee_chem_138",
+      "question": "Which of the following is an example of an amphoteric oxide?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Na}_2\\text{O}$",
+        "$\\text{Al}_2\\text{O}_3$",
+        "$\\text{SO}_3$",
+        "$\\text{CO}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{Al}_2\\text{O}_3$ reacts with both acids (forming $\\text{Al}^{3+}$ salts) and bases (forming aluminate ions $[\\text{Al(OH)}_4]^-$), proving its amphoteric nature. $\\text{Na}_2\\text{O}$ is basic, $\\text{SO}_3$ is acidic, and $\\text{CO}$ is neutral.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Periodic Properties"
+    },
+    {
+      "id": "jee_chem_139",
+      "question": "The oxidation states of central sulfur atoms in Caro's acid ($\\text{H}_2\\text{SO}_5$) and Marshall's acid ($\\text{H}_2\\text{S}_2\\text{O}_8$) are respectively:",
+      "imageUrl": "",
+      "options": [
+        "$+8$ and $+7$",
+        "$+6$ and $+8$",
+        "$+6$ and $+6$",
+        "$+4$ and $+6$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both acids contain peroxo linkages ($-O-O-$). In $\\text{H}_2\\text{SO}_5$: $\\text{H}_2\\text{SO}_3(\\text{O}_2) \\implies 2(+1) + x + 3(-2) + 2(-1) = 0 \\implies x = +6$. In $\\text{H}_2\\text{S}_2\\text{O}_8$: $2(+1) + 2x + 6(-2) + 2(-1) = 0 \\implies 2x = 12 \\implies x = +6$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2021",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "jee_chem_140",
+      "question": "Major product of reaction of propene with $\\text{HBr}$ in the presence of benzoyl peroxide is:",
+      "imageUrl": "",
+      "options": [
+        "2-Bromopropane",
+        "1,2-Dibromopropane",
+        "1-Bromopropane",
+        "Propane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the presence of peroxide, addition of $\\text{HBr}$ to unsymmetrical alkenes follows Kharasch effect (Anti-Markovnikov rule) via free radical mechanism, adding $\\text{Br}$ to the carbon with more hydrogens to form 1-bromopropane.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "jee_chem_141",
+      "question": "The work done during isothermal reversible expansion of $2\\text{ moles}$ of an ideal gas from $10\\text{ L}$ to $100\\text{ L}$ at $300\\text{ K}$ is (take $R = 8.314\\text{ J/K}\\cdot\\text{mol}, \\ln 10 = 2.303$):",
+      "imageUrl": "",
+      "options": [
+        "$-5.74\\text{ kJ}$",
+        "$+11.49\\text{ kJ}$",
+        "$-2.30\\text{ kJ}$",
+        "$-11.49\\text{ kJ}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$W = -2.303 n R T \\log_{10}\\left(\\frac{V_2}{V_1}\\right) = -2.303 \\times 2 \\times 8.314 \\times 300 \\times \\log_{10}(10) = -11488\\text{ J} = -11.49\\text{ kJ}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_chem_142",
+      "question": "Which set of quantum numbers is NOT possible for an electron in an atom?",
+      "imageUrl": "",
+      "options": [
+        "$n = 4, l = 0, m = 0, s = -1/2$",
+        "$n = 3, l = 3, m = -2, s = +1/2$",
+        "$n = 2, l = 1, m = -1, s = +1/2$",
+        "$n = 5, l = 2, m = 0, s = -1/2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Azimuthal quantum number $l$ can take values from $0$ to $n - 1$. For $n = 3$, allowed values of $l$ are $0, 1, 2$. Therefore, $l = 3$ is not possible.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Atomic Structure"
+    },
+    {
+      "id": "jee_chem_143",
+      "question": "The IUPAC name of $[\\text{Pt(NH}_3)_2\\text{Cl(NH}_2\\text{CH}_3)]\\text{Cl}$ is:",
+      "imageUrl": "",
+      "options": [
+        "Diamminechloridomethylamineplatinum(IV) chloride",
+        "Bisamminechloridomethanamineplatinum(II) chloride",
+        "Diamminechlorido(methanamine)platinum(II) chloride",
+        "Diamminechloromethylamineplatinum(II) chloride"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ligands in alphabetical order: Ammine (2) $\\rightarrow$ Chlorido $\\rightarrow$ Methanamine. Oxidation state of Pt: $x + 2(0) - 1 + 0 - 1 = 0 \\implies x = +2$. Full name: Diamminechlorido(methanamine)platinum(II) chloride.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Coordination Chemistry"
+    },
+    {
+      "id": "jee_chem_144",
+      "question": "Which of the following compounds undergoes nitration fastest?",
+      "imageUrl": "",
+      "options": [
+        "Benzene",
+        "Toluene",
+        "Nitrobenzene",
+        "Chlorobenzene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nitration is an electrophilic aromatic substitution. The $-\\text{CH}_3$ group in toluene is activating due to $+I$ and hyperconjugation, increasing electron density on the ring. $-\\text{NO}_2$ and $-\\text{Cl}$ are deactivating.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Aromatic Compounds"
+    },
+    {
+      "id": "jee_chem_145",
+      "question": "The $\\text{pH}$ of a buffer solution containing $0.1\\text{ M}\\text{ CH}_3\\text{COOH}$ and $0.1\\text{ M}\\text{ CH}_3\\text{COONa}$ is (given $pK_a$ of $\\text{CH}_3\\text{COOH} = 4.74$):",
+      "imageUrl": "",
+      "options": [
+        "$5.74$",
+        "$3.74$",
+        "$4.74$",
+        "$7.00$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Henderson-Hasselbalch equation: $\\text{pH} = pK_a + \\log_{10}\\left(\\frac{[\\text{Salt}]}{[\\text{Acid}]}\\right) = 4.74 + \\log_{10}\\left(\\frac{0.1}{0.1}\\right) = 4.74 + \\log(1) = 4.74$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "jee_chem_146",
+      "question": "The monomer units of Nylon-6,6 are:",
+      "imageUrl": "",
+      "options": [
+        "Caprolactam",
+        "Terephthalic acid and Ethylene glycol",
+        "Formaldehyde and Phenol",
+        "Adipic acid and Hexamethylenediamine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nylon-6,6 is a condensation polymer obtained from hexamethylenediamine (6 carbons) and adipic acid (6 carbons).",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Polymers"
+    },
+    {
+      "id": "jee_chem_147",
+      "question": "Glucose on reaction with excess phenylhydrazine forms:",
+      "imageUrl": "",
+      "options": [
+        "Gluconic acid",
+        "Glucosazone",
+        "Sorbitol",
+        "Saccharic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reaction of glucose with 3 equivalents of phenylhydrazine at $C_1$ and $C_2$ carbons produces a characteristic yellow crystalline osazone called glucosazone.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "jee_chem_148",
+      "question": "A first order reaction is $50\\%$ complete in $20\\text{ minutes}$. The time required for $99.9\\%$ completion of the reaction is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$100\\text{ minutes}$",
+        "$150\\text{ minutes}$",
+        "$200\\text{ minutes}$",
+        "$300\\text{ minutes}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a first order reaction, $t_{99.9\\%} \\approx 10 \\times t_{1/2}$. Given $t_{1/2} = 20\\text{ min}$, $t_{99.9\\%} = 10 \\times 20 = 200\\text{ minutes}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_149",
+      "question": "Which of the following haloalkanes undergoes elimination reaction most readily on heating with alcoholic $\\text{KOH}$?",
+      "imageUrl": "",
+      "options": [
+        "2-Chloropropane",
+        "2-Iodopropane",
+        "2-Bromopropane",
+        "2-Fluoropropane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leaving group ability follows the order $\\text{I}^- > \\text{Br}^- > \\text{Cl}^- > \\text{F}^-$ due to decreasing bond dissociation energy. Thus, 2-iodopropane undergoes $E_2$ elimination fastest.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Haloalkanes & Haloarenes"
+    },
+    {
+      "id": "jee_chem_150",
+      "question": "The structure of $\\text{SF}_4$ according to VSEPR theory is:",
+      "imageUrl": "",
+      "options": [
+        "Tetrahedral",
+        "Square planar",
+        "Trigonal bipyramidal",
+        "See-saw"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\text{SF}_4$ has 4 bond pairs and 1 lone pair on central Sulfur (Steric number $= 5 \\implies sp^3d$ hybridization). The lone pair occupies an equatorial position to minimize repulsion, yielding a see-saw molecular geometry.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_math_151",
+      "question": "If $f(x) = \\int_0^x \\frac{t \\sin t}{1 + \\cos^2 t} dt$, then $f'(\\pi/2)$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\pi$",
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{4}$",
+        "$0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton-Leibniz formula, $f'(x) = \\frac{d}{dx}\\int_0^x \\frac{t \\sin t}{1 + \\cos^2 t} dt = \\frac{x \\sin x}{1 + \\cos^2 x}$. Substituting $x = \\pi/2$: $f'(\\pi/2) = \\frac{(\\pi/2) \\sin(\\pi/2)}{1 + \\cos^2(\\pi/2)} = \\frac{(\\pi/2)(1)}{1 + 0} = \\frac{\\pi}{2}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Definite Integration"
+    },
+    {
+      "id": "jee_math_152",
+      "question": "The number of real roots of the equation $e^x = x^2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$3$",
+        "$1$",
+        "$0$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let $f(x) = e^x - x^2$. For $x < 0$: $e^x > 0$ and $x^2 > 0$. At $x = -1$, $f(-1) = 1/e - 1 < 0$, while $\\lim_{x \\to -\\infty} f(x) = +\\infty$, so 1 negative root exists. For $x \\ge 0$: $f(0) = 1 > 0$, $f'(x) = e^x - 2x$. $f'(x) > 0$ for all $x \\ge 0$ since $e^x > 2x$. Thus $f(x)$ is strictly increasing for $x \\ge 0$ and never crosses zero. Total real roots $= 1$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Application of Derivatives"
+    },
+    {
+      "id": "jee_math_153",
+      "question": "If $\\vec{a}, \\vec{b}, \\vec{c}$ are non-coplanar unit vectors such that $\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\frac{\\vec{b} + \\vec{c}}{\\sqrt{2}}$, the angle between $\\vec{a}$ and $\\vec{b}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{2\\pi}{3}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{3\\pi}{4}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Using vector triple product expansion: $(\\vec{a} \\cdot \\vec{c}) \\vec{b} - (\\vec{a} \\cdot \\vec{b}) \\vec{c} = \\frac{1}{\\sqrt{2}} \\vec{b} + \\frac{1}{\\sqrt{2}} \\vec{c}$. Comparing coefficients of $\\vec{c}$ (since $\\vec{b}, \\vec{c}$ are non-collinear): $-\\vec{a} \\cdot \\vec{b} = \\frac{1}{\\sqrt{2}} \\implies |\\vec{a}||\\vec{b}| \\cos\\theta = -\\frac{1}{\\sqrt{2}} \\implies \\cos\\theta = -\\frac{1}{\\sqrt{2}} \\implies \\theta = \\frac{3\\pi}{4}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Vector Algebra"
+    },
+    {
+      "id": "jee_math_154",
+      "question": "The value of limit $\\lim_{n \\to \\infty} \\sum_{k=1}^n \\frac{n}{n^2 + k^2}$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\ln 2$",
+        "$1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expressing as definite integral: $\\lim_{n \\to \\infty} \\frac{1}{n} \\sum_{k=1}^n \\frac{1}{1 + (k/n)^2} = \\int_0^1 \\frac{dx}{1 + x^2} = \\left[ \\tan^{-1} x \\right]_0^1 = \\frac{\\pi}{4}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2020",
+      "topicTag": "Definite Integration"
+    },
+    {
+      "id": "jee_math_155",
+      "question": "If system of linear equations $x + y + z = 6$, $x + 2y + 3z = 10$, $x + 2y + \\lambda z = \\mu$ has infinitely many solutions, then $\\lambda + \\mu$ is:",
+      "imageUrl": "",
+      "options": [
+        "$7$",
+        "$13$",
+        "$10$",
+        "$15$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Determinant $D = \\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 2 & \\lambda \\end{vmatrix} = 1(2\\lambda - 6) - 1(\\lambda - 3) + 1(0) = \\lambda - 3$. For infinite solutions, $D = 0 \\implies \\lambda = 3$. Determinant $D_z = \\begin{vmatrix} 1 & 1 & 6 \\\\ 1 & 2 & 10 \\\\ 1 & 2 & \\mu \\end{vmatrix} = 1(2\\mu - 20) - 1(\\mu - 10) + 6(0) = \\mu - 10 = 0 \\implies \\mu = 10$. Thus $\\lambda + \\mu = 3 + 10 = 13$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_156",
+      "question": "The locus of the point of intersection of two perpendicular tangents to the hyperbola $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$ is:",
+      "imageUrl": "",
+      "options": [
+        "$x^2 + y^2 = 25$",
+        "$x^2 + y^2 = 16$",
+        "$x^2 + y^2 = 7$",
+        "$x^2 + y^2 = 9$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The locus of intersection of perpendicular tangents to a hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ is its director circle $x^2 + y^2 = a^2 - b^2$. Substituting $a^2 = 16, b^2 = 9$: $x^2 + y^2 = 16 - 9 = 7$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Hyperbola"
+    },
+    {
+      "id": "jee_math_157",
+      "question": "Sum of all solutions of equation $\\sin x + \\cos x = 1$ in the interval $[0, 2\\pi]$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{3\\pi}{2}$",
+        "$\\frac{5\\pi}{2}$",
+        "$2\\pi$",
+        "$\\pi$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divide by $\\sqrt{2}$: $\\sin(x + \\pi/4) = \\frac{1}{\\sqrt{2}}$. In $[0, 2\\pi]$: $x + \\pi/4 = \\pi/4, 3\\pi/4, 9\\pi/4 \\implies x = 0, \\pi/2, 2\\pi$. Sum of solutions $= 0 + \\frac{\\pi}{2} + 2\\pi = \\frac{5\\pi}{2}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Trigonometric Equations"
+    },
+    {
+      "id": "jee_math_158",
+      "question": "The differential equation of the family of curves $y = c_1 e^{2x} + c_2 e^{-2x}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{d^2y}{dx^2} + 4y = 0$",
+        "$\\frac{d^2y}{dx^2} - 4y = 0$",
+        "$\\frac{d^2y}{dx^2} - 2y = 0$",
+        "$\\frac{dy}{dx} - 2y = 0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$y = c_1 e^{2x} + c_2 e^{-2x} \\implies \\frac{dy}{dx} = 2 c_1 e^{2x} - 2 c_2 e^{-2x} \\implies \\frac{d^2y}{dx^2} = 4 c_1 e^{2x} + 4 c_2 e^{-2x} = 4y$. Therefore, $\\frac{d^2y}{dx^2} - 4y = 0$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Differential Equations"
+    },
+    {
+      "id": "jee_math_159",
+      "question": "If 5-digit numbers are formed using digits $1, 2, 3, 4, 5$ without repetition, the probability that a randomly chosen number is divisible by $4$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$\\frac{2}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{3}{10}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total 5-digit numbers $= 5! = 120$. For divisibility by 4, last two digits must be divisible by 4. Pairs from {1,2,3,4,5}: 12, 24, 32, 52 (4 possibilities). For each pair, remaining 3 digits can be arranged in $3! = 6$ ways. Total favorable $= 4 \\times 6 = 24$. Probability $= \\frac{24}{120} = \\frac{1}{5}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Probability"
+    },
+    {
+      "id": "jee_math_160",
+      "question": "The domain of $f(x) = \\sin^{-1}\\left(\\frac{x^2 - 1}{2x}\\right)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$[-1, 1]$",
+        "$(-\\infty, 0) \\cup (0, \\infty)$",
+        "$[-1, 0) \\cup (0, 1]$",
+        "$\\mathbb{R} \\setminus \\{0\\}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For $\\sin^{-1} u$ to be defined: $-1 \\le \\frac{x^2 - 1}{2x} \\le 1$.\n1) $\\frac{x^2 - 1}{2x} \\ge -1 \\implies \\frac{x^2 + 2x - 1}{2x} \\ge 0$.\n2) $\\frac{x^2 - 1}{2x} \\le 1 \\implies \\frac{x^2 - 2x - 1}{2x} \\le 0$.\nSolving both inequalities simultaneously yields all non-zero real numbers, i.e., $x \\in (-\\infty, 0) \\cup (0, \\infty)$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Functions"
+    },
+    {
+      "id": "jee_math_161",
+      "question": "If $\\alpha, \\beta$ are roots of $x^2 - 6x - 2 = 0$ with $a_n = \\alpha^n - \\beta^n$ for $n \\ge 1$, then value of $\\frac{a_{10} - 2 a_8}{2 a_9}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$6$",
+        "$3$",
+        "$2$",
+        "$1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Newton's sums for roots, $\\alpha^2 - 6\\alpha - 2 = 0 \\implies \\alpha^{10} - 6\\alpha^9 - 2\\alpha^8 = 0$. Similarly for $\\beta$. Subtracting both equations gives $a_{10} - 6 a_9 - 2 a_8 = 0 \\implies a_{10} - 2 a_8 = 6 a_9$. Dividing by $2 a_9$: $\\frac{a_{10} - 2 a_8}{2 a_9} = \\frac{6 a_9}{2 a_9} = 3$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_162",
+      "question": "The shortest distance between the lines $\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}$ and $\\frac{x-2}{3} = \\frac{y-4}{4} = \\frac{z-5}{5}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$0$",
+        "$\\frac{1}{\\sqrt{6}}$",
+        "$\\frac{2}{\\sqrt{6}}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Points $\\vec{a}_1 = (1,2,3), \\vec{a}_2 = (2,4,5) \\implies \\vec{a}_2 - \\vec{a}_1 = (1,2,2)$. Direction vectors $\\vec{b}_1 = (2,3,4), \\vec{b}_2 = (3,4,5)$. Cross product $\\vec{b}_1 \\times \\vec{b}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 4 \\\\ 3 & 4 & 5 \\end{vmatrix} = -\\hat{i} + 2\\hat{j} - \\hat{k}$. Magnitude $|\\vec{b}_1 \\times \\vec{b}_2| = \\sqrt{1+4+1} = \\sqrt{6}$. Distance $d = \\frac{|(1,2,2) \\cdot (-1,2,-1)|}{\\sqrt{6}} = \\frac{|-1 + 4 - 2|}{\\sqrt{6}} = \\frac{1}{\\sqrt{6}}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "3D Geometry"
+    },
+    {
+      "id": "jee_math_163",
+      "question": "If $(1 + x)^n = C_0 + C_1 x + C_2 x^2 + \\dots + C_n x^n$, then value of $C_0 + 2 C_1 + 3 C_2 + \\dots + (n+1) C_n$ is:",
+      "imageUrl": "",
+      "options": [
+        "$(n+1) 2^n$",
+        "$(n+2) 2^{n-1}$",
+        "$n 2^{n-1}$",
+        "$(n+2) 2^n$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Series $S = \\sum_{r=0}^n (r+1) C_r = \\sum_{r=0}^n r C_r + \\sum_{r=0}^n C_r = n 2^{n-1} + 2^n = 2^{n-1}(n + 2) = (n+2) 2^{n-1}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2020",
+      "topicTag": "Binomial Theorem"
+    },
+    {
+      "id": "jee_math_164",
+      "question": "The angle between the pair of tangents drawn from origin to the circle $x^2 + y^2 - 8x - 6y + 20 = 0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{2}$",
+        "$\\tan^{-1}\\left(\\frac{3}{4}\\right)$",
+        "$\\tan^{-1}\\left(\\frac{4}{3}\\right)$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Center of circle $(4, 3)$, radius $R = \\sqrt{16 + 9 - 20} = \\sqrt{5}$. Distance of origin $(0,0)$ from center $OP = \\sqrt{4^2 + 3^2} = 5$. If $\\theta$ is half angle, $\\sin\\theta = \\frac{R}{OP} = \\frac{\\sqrt{5}}{5} = \\frac{1}{\\sqrt{5}} \\implies \\tan\\theta = \\frac{1}{2}$. Total angle $2\\theta \\implies \\tan(2\\theta) = \\frac{2 \\tan\\theta}{1 - \\tan^2\\theta} = \\frac{1}{1 - 1/4} = \\frac{4}{3}$. Angle is $\\tan^{-1}(4/3)$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Circles"
+    },
+    {
+      "id": "jee_math_165",
+      "question": "The area bounded by parabola $y^2 = 4x$ and line $y = 2x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{3}\\text{ sq units}$",
+        "$\\frac{2}{3}\\text{ sq units}$",
+        "$\\frac{1}{6}\\text{ sq units}$",
+        "$1\\text{ sq unit}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intersection points: $(2x)^2 = 4x \\implies 4x^2 = 4x \\implies x = 0, 1$. Area $A = \\int_0^1 (2\\sqrt{x} - 2x) dx = \\left[ \\frac{4}{3} x^{3/2} - x^2 \\right]_0^1 = \\frac{4}{3} - 1 = \\frac{1}{3}\\text{ sq units}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Area Under Curves"
+    },
+    {
+      "id": "jee_math_166",
+      "question": "If $\\tan^{-1} x + \\tan^{-1} y + \\tan^{-1} z = \\pi$, then $x + y + z$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$1$",
+        "$x y z$",
+        "$x y + y z + z x$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taking tangent on both sides: $\\tan(\\tan^{-1} x + \\tan^{-1} y + \\tan^{-1} z) = \\tan(\\pi) = 0 \\implies \\frac{x + y + z - xyz}{1 - (xy + yz + zx)} = 0 \\implies x + y + z = xyz$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2019",
+      "topicTag": "Inverse Trigonometry"
+    },
+    {
+      "id": "jee_math_167",
+      "question": "The mean of $10$ observations is $50$ and standard deviation is $10$. If each observation is multiplied by $2$ and then increased by $5$, the new mean and new standard deviation are respectively:",
+      "imageUrl": "",
+      "options": [
+        "$100$ and $20$",
+        "$105$ and $20$",
+        "$105$ and $25$",
+        "$100$ and $25$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "New Mean $= 2 \\times \\bar{x} + 5 = 2(50) + 5 = 105$. Standard deviation is unaffected by addition/subtraction, but scales by absolute value of multiplier: New SD $= |2| \\times \\sigma = 2 \\times 10 = 20$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_168",
+      "question": "If $A = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$, then $A^{2024}$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$",
+        "$\\begin{bmatrix} -1 & 0 \\\\ 0 & -1 \\end{bmatrix}$",
+        "$\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$",
+        "$\\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$A^2 = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} = \\begin{bmatrix} -1 & 0 \\\\ 0 & -1 \\end{bmatrix} = -I$. Thus $A^4 = (A^2)^2 = (-I)^2 = I$. Since $2024$ is divisible by $4$, $A^{2024} = (A^4)^{506} = I^{506} = I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Matrices"
+    },
+    {
+      "id": "jee_math_169",
+      "question": "The coefficient of $x^7$ in the expansion of $(1 - x - x^2 + x^3)^6$ is:",
+      "imageUrl": "",
+      "options": [
+        "$144$",
+        "$-120$",
+        "$-144$",
+        "$120$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Factorizing: $(1 - x - x^2 + x^3)^6 = [(1-x) - x^2(1-x)]^6 = [(1-x)(1-x^2)]^6 = (1-x)^6 (1-x^2)^6$. Expanding: $(1 - 6x + 15x^2 - 20x^3 + 15x^4 - 6x^5 + x^6) \\times (1 - 6x^2 + 15x^4 - 20x^6 + \\dots)$. Term $x^7$ comes from: $(-6x)(-20x^6) + (-20x^3)(15x^4) + (-6x^5)(-6x^2) = 120 - 300 + 36 = -144$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "Binomial Theorem"
+    },
+    {
+      "id": "jee_math_170",
+      "question": "Number of points where function $f(x) = \\max(1 - x, 1 + x, 2)$ is not differentiable is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$3$",
+        "$2$",
+        "$0$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intersection of lines: $1 - x = 2 \\implies x = -1$ and $1 + x = 2 \\implies x = 1$. Graph of $f(x)$ follows $1-x$ for $x < -1$, constant $2$ for $-1 \\le x \\le 1$, and $1+x$ for $x > 1$. The graph forms sharp corners at $x = -1$ and $x = 1$. Hence non-differentiable at 2 points.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2021",
+      "topicTag": "Continuity & Differentiability"
+    },
+    {
+      "id": "jee_math_171",
+      "question": "If $\\int \\frac{dx}{\\sqrt{x} + \\sqrt[3]{x}} = A \\sqrt{x} + B x^{1/3} + C x^{1/6} + D \\ln(1 + x^{1/6}) + K$, then $A + B + C + D$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-1$",
+        "$1$",
+        "$0$",
+        "$2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute $x = t^6 \\implies dx = 6t^5 dt$. Integral $= \\int \\frac{6t^5}{t^3 + t^2} dt = 6 \\int \\frac{t^3}{t+1} dt = 6 \\int \\left(t^2 - t + 1 - \\frac{1}{t+1}\\right) dt = 2t^3 - 3t^2 + 6t - 6\\ln(1+t) + K = 2x^{1/2} - 3x^{1/3} + 6x^{1/6} - 6\\ln(1+x^{1/6}) + K$. Thus $A=2, B=-3, C=6, D=-6 \\implies A+B+C+D = 2 - 3 + 6 - 6 = -1$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Indefinite Integration"
+    },
+    {
+      "id": "jee_math_172",
+      "question": "The sum of the infinite series $\\frac{1}{1 \\cdot 2} + \\frac{1}{2 \\cdot 3} + \\frac{1}{3 \\cdot 4} + \\dots$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$\\ln 2$",
+        "$2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "General term $T_n = \\frac{1}{n(n+1)} = \\frac{1}{n} - \\frac{1}{n+1}$. Telescoping sum $S_N = \\left(1 - \\frac{1}{2}\\right) + \\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\dots + \\left(\\frac{1}{N} - \\frac{1}{N+1}\\right) = 1 - \\frac{1}{N+1}$. As $N \\to \\infty$, $S = 1$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Sequences & Series"
+    },
+    {
+      "id": "jee_math_173",
+      "question": "If complex number $z$ satisfies $|z - 3 - 4i| = 2$, the maximum value of $|z|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$5$",
+        "$3$",
+        "$7$",
+        "$9$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By triangle inequality: $|z| = |(z - (3+4i)) + (3+4i)| \\le |z - 3 - 4i| + |3 + 4i| = 2 + 5 = 7$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_174",
+      "question": "The image of point $(1, 6, 3)$ in the line $\\frac{x}{1} = \\frac{y-1}{2} = \\frac{z-2}{3}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$(1, 2, 3)$",
+        "$(1, 0, 7)$",
+        "$(2, 1, 0)$",
+        "$(0, 1, 7)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "General point on line $F = (\\lambda, 2\\lambda + 1, 3\\lambda + 2)$. Vector $\\vec{PF} = (\\lambda - 1, 2\\lambda - 5, 3\\lambda - 1)$. Since $\\vec{PF} \\perp (1, 2, 3)$: $(\\lambda - 1)(1) + (2\\lambda - 5)(2) + (3\\lambda - 1)(3) = 0 \\implies 14\\lambda - 14 = 0 \\implies \\lambda = 1$. Foot of perpendicular $F = (1, 3, 5)$. Image $I = 2F - P = (2(1)-1, 2(3)-6, 2(5)-3) = (1, 0, 7)$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2022",
+      "topicTag": "3D Geometry"
+    },
+    {
+      "id": "jee_math_175",
+      "question": "The total number of relations from set $A = \\{1, 2, 3\\}$ to set $B = \\{a, b\\}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$32$",
+        "$16$",
+        "$64$",
+        "$8$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$n(A) = 3$, $n(B) = 2 \\implies n(A \\times B) = 3 \\times 2 = 6$. The total number of relations (subsets of $A \\times B$) is $2^{n(A \\times B)} = 2^6 = 64$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Set Theory & Relations"
+    }
+  ]
+}

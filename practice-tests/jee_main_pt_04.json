@@ -1,0 +1,1208 @@
+{
+  "subject": "JEE Main Full Mock Test",
+  "chapter": "Practice Test 03",
+  "chapterslug": "jee_main_pt_03",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "id": "jee_phy_201",
+      "question": "A particle of mass $m$ is projected with velocity $v_0$ at an angle of $45^\\circ$ with the horizontal. The magnitude of angular momentum of the particle about the point of projection when it is at the highest point of its trajectory is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{m v_0^3}{2\\sqrt{2} g}$",
+        "$\\frac{m v_0^3}{4\\sqrt{2} g}$",
+        "$\\frac{m v_0^3}{\\sqrt{2} g}$",
+        "$\\frac{m v_0^3}{2 g}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At the highest point, velocity is horizontal: $v_x = v_0 \\cos 45^\\circ = \\frac{v_0}{\\sqrt{2}}$. Maximum height $H = \\frac{v_0^2 \\sin^2 45^\\circ}{2g} = \\frac{v_0^2}{4g}$. Angular momentum about point of projection $L = m v_x H = m \\left(\\frac{v_0}{\\sqrt{2}}\\right) \\left(\\frac{v_0^2}{4g}\\right) = \\frac{m v_0^3}{4\\sqrt{2} g}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_202",
+      "question": "An ideal gas undergoes an isothermal expansion from volume $V$ to $2V$ at temperature $T$. The work done by the gas is $W_1$. If the same gas undergoes an adiabatic expansion from $V$ to $2V$ starting from the same initial state, the work done is $W_2$. Which relation is correct?",
+      "imageUrl": "",
+      "options": [
+        "$W_1 < W_2$",
+        "$W_1 = W_2$",
+        "$W_1 > W_2$",
+        "$W_1 = 2 W_2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a $P-V$ diagram, the isothermal curve lies above the adiabatic curve during expansion. Area under $P-V$ curve represents work done. Thus $W_{\\text{isothermal}} > W_{\\text{adiabatic}}$, i.e., $W_1 > W_2$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_203",
+      "question": "A parallel plate capacitor with plate area $A$ and separation $d$ is charged to a potential difference $V$. The battery is then disconnected and a dielectric slab of thickness $d$ and dielectric constant $K$ is inserted. The work done in inserting the dielectric slab is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d} (K - 1)$",
+        "$\\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d} \\left(1 - \\frac{1}{K}\\right)$",
+        "$\\frac{\\varepsilon_0 A V^2}{d} \\left(1 - \\frac{1}{K}\\right)$",
+        "$\\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d} \\left(1 + \\frac{1}{K}\\right)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initial energy $U_i = \\frac{1}{2} C_0 V^2$. When battery is disconnected, charge $Q$ is constant. Final capacitance $C_f = K C_0$. Final energy $U_f = \\frac{Q^2}{2 C_f} = \\frac{U_i}{K}$. Work done magnitude $= U_i - U_f = \\frac{1}{2} \\frac{\\varepsilon_0 A V^2}{d} \\left(1 - \\frac{1}{K}\\right)$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_204",
+      "question": "A particle performs simple harmonic motion with amplitude $A$ and time period $T$. The time taken by the particle to travel from $x = 0$ to $x = \\frac{A}{\\sqrt{2}}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{T}{4}$",
+        "$\\frac{T}{6}$",
+        "$\\frac{T}{12}$",
+        "$\\frac{T}{8}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Equation of motion: $x = A \\sin(\\omega t)$. For $x = \\frac{A}{\\sqrt{2}}$, $\\sin(\\omega t) = \\frac{1}{\\sqrt{2}} \\implies \\omega t = \\frac{\\pi}{4} \\implies \\frac{2\\pi}{T} t = \\frac{\\pi}{4} \\implies t = \\frac{T}{8}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Simple Harmonic Motion"
+    },
+    {
+      "id": "jee_phy_205",
+      "question": "A circular ring of radius $R$ carries a uniform charge $Q$. A point charge $q$ is placed on the axis of the ring at a distance $x$ from its center. The force on $q$ is maximum when $x$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$R$",
+        "$\\frac{R}{\\sqrt{2}}$",
+        "$\\sqrt{2} R$",
+        "$\\frac{R}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Electric field along axis of ring $E = \\frac{k Q x}{(R^2 + x^2)^{3/2}}$. Differentiating $E$ w.r.t $x$ and equating to $0$ gives $x = \\frac{R}{\\sqrt{2}}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_206",
+      "question": "In an LCR series circuit, $R = 10\\;\\Omega$, $L = 100\\text{ mH}$, and $C = 100\\;\\mu\\text{F}$. The resonance frequency of the circuit in $\\text{rad/s}$ is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$100\\text{ rad/s}$",
+        "$1000\\text{ rad/s}$",
+        "$316\\text{ rad/s}$",
+        "$500\\text{ rad/s}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resonant angular frequency $\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{100 \\times 10^{-3} \\times 100 \\times 10^{-6}}} = \\sqrt{10^5} \\approx 316.2\\text{ rad/s}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "jee_phy_207",
+      "question": "A planet revolves around the Sun in an elliptical orbit. If $v_1$ and $v_2$ are the velocities at perihelion and aphelion respectively, and $r_1$ and $r_2$ are the corresponding distances, then $v_1 / v_2$ equals:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{r_1}{r_2}$",
+        "$\\frac{r_2}{r_1}$",
+        "$\\left(\\frac{r_2}{r_1}\\right)^2$",
+        "$\\sqrt{\\frac{r_2}{r_1}}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By conservation of angular momentum: $m v_1 r_1 = m v_2 r_2 \\implies \\frac{v_1}{v_2} = \\frac{r_2}{r_1}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "jee_phy_208",
+      "question": "The de Broglie wavelength of an electron accelerated from rest through a potential difference of $100\\text{ V}$ is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$0.123\\text{ \\AA}$",
+        "$12.27\\text{ \\AA}$",
+        "$1.227\\text{ \\AA}$",
+        "$2.45\\text{ \\AA}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\lambda = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA} = \\frac{12.27}{\\sqrt{100}}\\text{ \\AA} = 1.227\\text{ \\AA}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Dual Nature of Matter"
+    },
+    {
+      "id": "jee_phy_209",
+      "question": "A convex lens of focal length $20\\text{ cm}$ forms a real image three times the size of the object. The magnitude of distance of the object from the lens is:",
+      "imageUrl": "",
+      "options": [
+        "$20\\text{ cm}$",
+        "$\\frac{40}{3}\\text{ cm}$",
+        "$40\\text{ cm}$",
+        "$\\frac{80}{3}\\text{ cm}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Magnification $m = -3 = \\frac{v}{u} \\implies v = -3u$. Lens formula: $\\frac{1}{20} = \\frac{1}{-3u} - \\frac{1}{u} = -\\frac{4}{3u} \\implies 3u = -80 \\implies |u| = \\frac{80}{3}\\text{ cm}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Ray Optics"
+    },
+    {
+      "id": "jee_phy_210",
+      "question": "A long straight wire carries a current of $10\\text{ A}$. The magnetic field at a distance of $5\\text{ cm}$ from the wire is:",
+      "imageUrl": "",
+      "options": [
+        "$2 \\times 10^{-5}\\text{ T}$",
+        "$4 \\times 10^{-5}\\text{ T}$",
+        "$1 \\times 10^{-5}\\text{ T}$",
+        "$8 \\times 10^{-5}\\text{ T}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$B = \\frac{\\mu_0 I}{2\\pi r} = \\frac{(4\\pi \\times 10^{-7})(10)}{2\\pi (0.05)} = 4 \\times 10^{-5}\\text{ T}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Magnetic Effects of Current"
+    },
+    {
+      "id": "jee_phy_211",
+      "question": "The efficiency of a Carnot engine operating between $27^\\circ\\text{C}$ and $327^\\circ\\text{C}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$25\\%$",
+        "$75\\%$",
+        "$50\\%$",
+        "$90\\%$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$T_1 = 600\\text{ K}, T_2 = 300\\text{ K}$. Efficiency $\\eta = 1 - \\frac{300}{600} = 0.5 = 50\\%$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_212",
+      "question": "A wire of length $L$ and resistance $R$ is stretched uniformly to twice its length. The new resistance of the wire will be:",
+      "imageUrl": "",
+      "options": [
+        "$2 R$",
+        "$4 R$",
+        "$R / 2$",
+        "$R / 4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since volume is constant, stretching to length $2L$ reduces area to $A/2$. New resistance $R' = \\rho \\frac{2L}{A/2} = 4R$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_213",
+      "question": "Two sound waves of wavelengths $1.0\\text{ m}$ and $1.01\\text{ m}$ produce $4\\text{ beats/s}$. The velocity of sound in the medium is:",
+      "imageUrl": "",
+      "options": [
+        "$330\\text{ m/s}$",
+        "$400\\text{ m/s}$",
+        "$404\\text{ m/s}$",
+        "$360\\text{ m/s}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beat frequency $= v \\left(\\frac{1}{\\lambda_1} - \\frac{1}{\\lambda_2}\\right) = v \\left(1 - \\frac{1}{1.01}\\right) = 4 \\implies v = 404\\text{ m/s}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Waves & Sound"
+    },
+    {
+      "id": "jee_phy_214",
+      "question": "A force $\\vec{F} = 3\\hat{i} + 4\\hat{j}\\text{ N}$ acts on a body and displaces it by $\\vec{d} = 3\\hat{i} + 4\\hat{k}\\text{ m}$. The work done by the force is:",
+      "imageUrl": "",
+      "options": [
+        "$25\\text{ J}$",
+        "$12\\text{ J}$",
+        "$16\\text{ J}$",
+        "$9\\text{ J}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$W = \\vec{F} \\cdot \\vec{d} = (3)(3) + (4)(0) + (0)(4) = 9\\text{ J}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Work, Power & Energy"
+    },
+    {
+      "id": "jee_phy_215",
+      "question": "The dimensional formula for magnetic flux is:",
+      "imageUrl": "",
+      "options": [
+        "$[M^1 L^2 T^{-2} A^{-1}]$",
+        "$[M^1 L^1 T^{-2} A^{-1}]$",
+        "$[M^1 L^2 T^{-1} A^{-2}]$",
+        "$[M^1 L^0 T^{-2} A^{-1}]$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$[\\Phi] = [B][A] = [M T^{-2} A^{-1}][L^2] = [M^1 L^2 T^{-2} A^{-1}]$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Units and Dimensions"
+    },
+    {
+      "id": "jee_phy_216",
+      "question": "In a p-n junction diode, the reverse saturation current is mainly due to:",
+      "imageUrl": "",
+      "options": [
+        "Diffusion of majority charge carriers",
+        "Drift of minority charge carriers",
+        "Drift of majority charge carriers",
+        "Diffusion of minority charge carriers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reverse current in p-n junction is caused by the drift of minority charge carriers across the depletion layer under reverse bias.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Semiconductor Devices"
+    },
+    {
+      "id": "jee_phy_217",
+      "question": "A disc of mass $2\\text{ kg}$ and radius $0.5\\text{ m}$ rolls without slipping on a horizontal plane with velocity $4\\text{ m/s}$. Total kinetic energy of the disc is:",
+      "imageUrl": "",
+      "options": [
+        "$16\\text{ J}$",
+        "$12\\text{ J}$",
+        "$24\\text{ J}$",
+        "$8\\text{ J}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total $\\text{KE} = \\frac{1}{2} m v^2 \\left(1 + \\frac{k^2}{R^2}\\right) = \\frac{1}{2}(2)(16)(1 + 0.5) = 24\\text{ J}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_218",
+      "question": "An unpolarized light of intensity $I_0$ falls on a single ideal polarizer. The intensity of transmitted light is:",
+      "imageUrl": "",
+      "options": [
+        "$I_0$",
+        "$I_0 / 2$",
+        "$I_0 / 4$",
+        "$I_0 / \\sqrt{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When unpolarized light passes through a linear polarizer, the transmitted intensity is half of the initial intensity: $I = I_0 / 2$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Wave Optics"
+    },
+    {
+      "id": "jee_phy_219",
+      "question": "A body is thrown vertically upwards with velocity $u$. The ratio of times taken to reach half the maximum height during upward motion and downward motion from top is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{2} + 1$",
+        "$1$",
+        "$\\sqrt{2} - 1$",
+        "$\\frac{1}{\\sqrt{2}}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time to top $t = u/g$. Time from top to $H/2$ is $t_2 = u/(\\sqrt{2}g)$. Upward time to $H/2$ is $t_1 = t - t_2$. Ratio $t_1 / t_2 = \\sqrt{2} - 1$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "Kinematics"
+    },
+    {
+      "id": "jee_phy_220",
+      "question": "The binding energy per nucleon is maximum for the nucleus:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Fe}^{56}$",
+        "$\\text{U}^{235}$",
+        "$\\text{He}^4$",
+        "$\\text{O}^{16}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\text{Fe}^{56}$ has maximum binding energy per nucleon (about $8.8\\text{ MeV}$).",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Nuclear Physics"
+    },
+    {
+      "id": "jee_phy_221",
+      "question": "A block of mass $m$ slides down an inclined plane of inclination $30^\\circ$ with constant velocity. The coefficient of kinetic friction between block and plane is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{3}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{\\sqrt{3}}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Constant velocity $\\implies mg \\sin 30^\\circ = \\mu_k mg \\cos 30^\\circ \\implies \\mu_k = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Laws of Motion"
+    },
+    {
+      "id": "jee_phy_222",
+      "question": "A soap bubble of radius $r$ has surface tension $T$. The excess pressure inside the bubble is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{2T}{r}$",
+        "$\\frac{T}{r}$",
+        "$\\frac{4T}{r}$",
+        "$\\frac{8T}{r}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A soap bubble has two surfaces, so $\\Delta P = \\frac{4T}{r}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Properties of Matter"
+    },
+    {
+      "id": "jee_phy_223",
+      "question": "An electric dipole of dipole moment $\\vec{p}$ is placed in a uniform electric field $\\vec{E}$. The potential energy of dipole is minimum when angle between $\\vec{p}$ and $\\vec{E}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$180^\\circ$",
+        "$90^\\circ$",
+        "$45^\\circ$",
+        "$0^\\circ$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$U = -p E \\cos\\theta$. Minimum value occurs at $\\theta = 0^\\circ$ where $U = -pE$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_224",
+      "question": "In an electromagnetic wave, the amplitude of electric field is $60\\text{ V/m}$. The amplitude of magnetic field is:",
+      "imageUrl": "",
+      "options": [
+        "$2 \\times 10^{-7}\\text{ T}$",
+        "$1.8 \\times 10^{10}\\text{ T}$",
+        "$2 \\times 10^{-6}\\text{ T}$",
+        "$6 \\times 10^{-7}\\text{ T}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$B_0 = \\frac{E_0}{c} = \\frac{60}{3 \\times 10^8} = 2 \\times 10^{-7}\\text{ T}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2022",
+      "topicTag": "Electromagnetic Waves"
+    },
+    {
+      "id": "jee_phy_225",
+      "question": "A copper wire of length $2\\text{ m}$ is stretched by $1\\text{ mm}$. If Young's modulus of copper is $1.1 \\times 10^{11}\\text{ N/m}^2$, energy stored per unit volume in the wire is:",
+      "imageUrl": "",
+      "options": [
+        "$2.75 \\times 10^4\\text{ J/m}^3$",
+        "$1.375 \\times 10^4\\text{ J/m}^3$",
+        "$5.5 \\times 10^4\\text{ J/m}^3$",
+        "$1.1 \\times 10^4\\text{ J/m}^3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Energy density $= \\frac{1}{2} Y (\\text{strain})^2 = \\frac{1}{2} (1.1 \\times 10^{11}) (0.5 \\times 10^{-3})^2 = 1.375 \\times 10^4\\text{ J/m}^3$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Properties of Matter"
+    },
+    {
+      "id": "jee_chem_226",
+      "question": "Which of the following molecules has zero dipole moment?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{NH}_3$",
+        "$\\text{H}_2\\text{O}$",
+        "$\\text{BF}_3$",
+        "$\\text{SO}_2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{BF}_3$ has symmetrical trigonal planar geometry ($sp^2$), cancelling bond dipoles to give zero overall dipole moment.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_chem_227",
+      "question": "The coordination number and oxidation state of cobalt in $[\\text{Co(en)}_2\\text{Cl}_2]^+$ are respectively:",
+      "imageUrl": "",
+      "options": [
+        "$6$ and $+3$",
+        "$4$ and $+2$",
+        "$6$ and $+2$",
+        "$4$ and $+3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'en' is bidentate $\\implies \\text{Coordination Number} = 2(2) + 2 = 6$. Oxidation state: $x + 2(0) - 2 = +1 \\implies x = +3$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Coordination Chemistry"
+    },
+    {
+      "id": "jee_chem_228",
+      "question": "Among the following, the most basic compound in aqueous medium is:",
+      "imageUrl": "",
+      "options": [
+        "Methylamine",
+        "Dimethylamine",
+        "Trimethylamine",
+        "Aniline"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For methyl amines in aqueous medium, order of basicity is $2^\\circ > 1^\\circ > 3^\\circ > \\text{Aniline}$. Dimethylamine is most basic.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "jee_chem_229",
+      "question": "The number of unpaired electrons in $[\\text{Fe(CN)}_6]^{3-}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$5$",
+        "$3$",
+        "$1$",
+        "$0$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{Fe}^{3+} = 3d^5$. $\\text{CN}^-$ is strong field, pairs electrons to $t_{2g}^5 e_g^0$, leaving 1 unpaired electron.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Coordination Chemistry"
+    },
+    {
+      "id": "jee_chem_230",
+      "question": "Which alkali metal carbonate is thermally least stable?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Na}_2\\text{CO}_3$",
+        "$\\text{K}_2\\text{CO}_3$",
+        "$\\text{Cs}_2\\text{CO}_3$",
+        "$\\text{Li}_2\\text{CO}_3$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\text{Li}^+$ has high polarising power due to small size, decomposing $\\text{Li}_2\\text{CO}_3$ easily upon heating.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2019",
+      "topicTag": "s-Block Elements"
+    },
+    {
+      "id": "jee_chem_231",
+      "question": "The spin-only magnetic moment of $\\text{Cr}^{3+}$ ion ($Z = 24$) is:",
+      "imageUrl": "",
+      "options": [
+        "$3.87\\text{ BM}$",
+        "$4.90\\text{ BM}$",
+        "$2.84\\text{ BM}$",
+        "$1.73\\text{ BM}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\text{Cr}^{3+} = [\\text{Ar}] 3d^3 \\implies n = 3$. $\\mu = \\sqrt{3(5)} = \\sqrt{15} \\approx 3.87\\text{ BM}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "d and f Block Elements"
+    },
+    {
+      "id": "jee_chem_232",
+      "question": "Which of the following compounds gives a positive Tollens' test?",
+      "imageUrl": "",
+      "options": [
+        "Acetone",
+        "Glucose",
+        "Acetophenone",
+        "Acetic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Glucose is a reducing sugar containing an aldehyde group in open-chain form, giving positive Tollens' test.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "jee_chem_233",
+      "question": "The correct order of acidic strength of halogen hydracids is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{HF} > \\text{HCl} > \\text{HBr} > \\text{HI}$",
+        "$\\text{HCl} > \\text{HBr} > \\text{HI} > \\text{HF}$",
+        "$\\text{HI} > \\text{HBr} > \\text{HCl} > \\text{HF}$",
+        "$\\text{HBr} > \\text{HI} > \\text{HCl} > \\text{HF}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bond strength decreases down halogen group: $\\text{HI} > \\text{HBr} > \\text{HCl} > \\text{HF}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "jee_chem_234",
+      "question": "The half-life period for a zero order reaction $A \\rightarrow B$ with initial concentration $[A]_0$ and rate constant $k$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{0.693}{k}$",
+        "$\\frac{[A]_0}{k}$",
+        "$\\frac{1}{k [A]_0}$",
+        "$\\frac{[A]_0}{2k}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For zero order reaction $t_{1/2} = \\frac{[A]_0}{2k}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_235",
+      "question": "Ozonolysis of 2-methylbut-2-ene followed by reduction with $\\text{Zn/H}_2\\text{O}$ gives:",
+      "imageUrl": "",
+      "options": [
+        "Propanone and Ethanal",
+        "Propanal and Ethanal",
+        "Methanal and Propanone",
+        "Butanone and Methanal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(\\text{CH}_3)_2\\text{C}=\\text{CH}-\\text{CH}_3 \\xrightarrow{\\text{O}_3, \\text{Zn/H}_2\\text{O}} (\\text{CH}_3)_2\\text{C=O} + \\text{CH}_3\\text{CHO}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "jee_chem_236",
+      "question": "Which of the following is an aromatic compound according to Huckel's rule?",
+      "imageUrl": "",
+      "options": [
+        "Cyclooctatetraene",
+        "Cyclopentadienyl anion",
+        "Cyclopentadienyl cation",
+        "Cyclobutadiene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cyclopentadienyl anion is planar and conjugated with $6\\,\\pi$ electrons ($4n+2$ for $n=1$).",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "GOC & Isomerism"
+    },
+    {
+      "id": "jee_chem_237",
+      "question": "The elevation in boiling point of a $0.1\\text{ m}$ solution of $\\text{BaCl}_2$ assuming complete dissociation is ($K_b = 0.52\\text{ K}\\cdot\\text{kg/mol}$):",
+      "imageUrl": "",
+      "options": [
+        "$0.052\\text{ K}$",
+        "$0.104\\text{ K}$",
+        "$0.156\\text{ K}$",
+        "$0.208\\text{ K}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$i = 3$ for $\\text{BaCl}_2$. $\\Delta T_b = i K_b m = 3 \\times 0.52 \\times 0.1 = 0.156\\text{ K}$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_238",
+      "question": "The oxidation number of phosphorus in orthophosphoric acid ($\\text{H}_3\\text{PO}_4$) is:",
+      "imageUrl": "",
+      "options": [
+        "$+3$",
+        "$+1$",
+        "$+4$",
+        "$+5$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$3(+1) + x + 4(-2) = 0 \\implies x = +5$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "jee_chem_239",
+      "question": "Which of the following carbocations is most stable?",
+      "imageUrl": "",
+      "options": [
+        "Tropylium cation",
+        "Allyl cation",
+        "tert-Butyl cation",
+        "Benzyl cation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tropylium cation is aromatic with $6\\,\\pi$ electrons delocalized over 7 ring carbons, making it exceptionally stable.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main 2022",
+      "topicTag": "GOC & Isomerism"
+    },
+    {
+      "id": "jee_chem_240",
+      "question": "Lucas reagent is a mixture of:",
+      "imageUrl": "",
+      "options": [
+        "Hydrated $\\text{ZnCl}_2$ and dilute $\\text{HCl}$",
+        "Anhydrous $\\text{ZnCl}_2$ and concentrated $\\text{HCl}$",
+        "Anhydrous $\\text{AlCl}_3$ and concentrated $\\text{HCl}$",
+        "Concentrated $\\text{HNO}_3$ and concentrated $\\text{H}_2\\text{SO}_4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lucas reagent is equimolar anhydrous $\\text{ZnCl}_2$ in concentrated $\\text{HCl}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_241",
+      "question": "The IUPAC name of $\\text{CH}_3-\\text{CH}(\\text{OH})-\\text{CH}_2-\\text{COOH}$ is:",
+      "imageUrl": "",
+      "options": [
+        "2-Hydroxybutanoic acid",
+        "3-Hydroxybutyric acid",
+        "3-Hydroxybutanoic acid",
+        "beta-Hydroxybutyric acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chain is 4 carbons long with -COOH at position 1 and -OH at position 3: 3-hydroxybutanoic acid.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "IUPAC Nomenclature"
+    },
+    {
+      "id": "jee_chem_242",
+      "question": "Which pair of orbitals has electronic density along the axes?",
+      "imageUrl": "",
+      "options": [
+        "$d_{xy}$ and $d_{yz}$",
+        "$d_{xz}$ and $d_{z^2}$",
+        "$d_{xy}$ and $d_{x^2-y^2}$",
+        "$d_{z^2}$ and $d_{x^2-y^2}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The $d_{x^2-y^2}$ and $d_{z^2}$ orbitals are axial orbitals with electron lobes lying along coordinate axes.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Atomic Structure"
+    },
+    {
+      "id": "jee_chem_243",
+      "question": "The conjugate base of $\\text{HSO}_4^-$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{SO}_4^{2-}$",
+        "$\\text{H}_2\\text{SO}_4$",
+        "$\\text{SO}_3$",
+        "$\\text{HSO}_3^-$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Loss of $H^+$ from $\\text{HSO}_4^-$ forms its conjugate base $\\text{SO}_4^{2-}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "jee_chem_244",
+      "question": "Bakers' yeast converts glucose into ethyl alcohol by the enzyme:",
+      "imageUrl": "",
+      "options": [
+        "Invertase",
+        "Zymase",
+        "Maltase",
+        "Diastase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zymase enzyme present in yeast ferment glucose into ethyl alcohol.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "jee_chem_245",
+      "question": "Which of the following compounds reacts fastest via $S_{\\text{N}}2$ mechanism?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CH}_3\\text{CH}_2\\text{Br}$",
+        "$(\\text{CH}_3)_2\\text{CHBr}$",
+        "$\\text{CH}_3\\text{Br}$",
+        "$(\\text{CH}_3)_3\\text{CBr}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Least sterically hindered methyl halide reacts fastest in $S_{\\text{N}}2$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Haloalkanes & Haloarenes"
+    },
+    {
+      "id": "jee_chem_246",
+      "question": "Which gas is evolved when sodium metal reacts with ethanol?",
+      "imageUrl": "",
+      "options": [
+        "Oxygen",
+        "Methane",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$2\\text{C}_2\\text{H}_5\\text{OH} + 2\\text{Na} \\rightarrow 2\\text{C}_2\\text{H}_5\\text{ONa} + \\text{H}_2\\uparrow$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_247",
+      "question": "Which polymer is prepared from monomer tetrafluoroethene?",
+      "imageUrl": "",
+      "options": [
+        "Teflon",
+        "Nylon-6",
+        "Buna-S",
+        "Bakelite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tetrafluoroethene polymerizes to form Polytetrafluoroethylene (Teflon).",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Polymers"
+    },
+    {
+      "id": "jee_chem_248",
+      "question": "The shape of $\\text{XeF}_4$ molecule according to VSEPR theory is:",
+      "imageUrl": "",
+      "options": [
+        "Tetrahedral",
+        "Square planar",
+        "See-saw",
+        "Trigonal bipyramidal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{XeF}_4$ has 4 bond pairs and 2 lone pairs $\\implies$ square planar geometry.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_chem_249",
+      "question": "Standard reduction potentials of metals $A, B, C$ are $+0.5\\text{ V}, -3.0\\text{ V}, -1.2\\text{ V}$ respectively. The reducing power order is:",
+      "imageUrl": "",
+      "options": [
+        "$A > C > B$",
+        "$C > B > A$",
+        "$B > C > A$",
+        "$A > B > C$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "More negative $E^\\circ$ value corresponds to stronger reducing power: $B (-3.0) > C (-1.2) > A (+0.5)$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_250",
+      "question": "In metallurgy, calcination is carried out in the:",
+      "imageUrl": "",
+      "options": [
+        "Presence of excess air",
+        "Presence of oxygen and sulfur dioxide",
+        "Presence of carbon monoxide",
+        "Absence or limited supply of air"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Calcination is thermal treatment of ore in absence/limited supply of air.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Metallurgy"
+    },
+    {
+      "id": "jee_math_251",
+      "question": "If $A$ is a square matrix of order $3$ such that $|A| = 5$, then $|\\text{adj}(A)|$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$25$",
+        "$125$",
+        "$5$",
+        "$625$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$|\\text{adj}(A)| = |A|^{n-1} = 5^{3-1} = 25$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_252",
+      "question": "The value of integral $\\int_0^{\\pi/2} \\frac{\\sqrt{\\sin x}}{\\sqrt{\\sin x} + \\sqrt{\\cos x}} dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi}{2}$",
+        "$\\frac{\\pi}{4}$",
+        "$\\pi$",
+        "$0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying King's property $I + I = \\int_0^{\\pi/2} 1 dx = \\frac{\\pi}{2} \\implies I = \\frac{\\pi}{4}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Definite Integration"
+    },
+    {
+      "id": "jee_math_253",
+      "question": "The distance of point $(1, 2, 3)$ from the plane $x - y + z = 5$ measured parallel to line $\\frac{x}{1} = \\frac{y}{2} = \\frac{z}{3}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{14}$",
+        "$2\\sqrt{14}$",
+        "$\\frac{3}{2}\\sqrt{14}$",
+        "$\\frac{\\sqrt{14}}{4}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Point on line: $(1+r, 2+2r, 3+3r)$. Lies on plane $\\implies 1+r - 2-2r + 3+3r = 5 \\implies 2r = 3 \\implies r = 3/2$. Distance $= |r|\\sqrt{1^2+2^2+3^2} = \\frac{3}{2}\\sqrt{14}$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2023",
+      "topicTag": "3D Geometry"
+    },
+    {
+      "id": "jee_math_254",
+      "question": "The sum of the infinite geometric series $1 + \\frac{2}{3} + \\frac{4}{9} + \\frac{8}{27} + \\dots$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$\\frac{3}{2}$",
+        "$4$",
+        "$3$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$S_\\infty = \\frac{a}{1 - r} = \\frac{1}{1 - 2/3} = 3$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Sequences & Series"
+    },
+    {
+      "id": "jee_math_255",
+      "question": "The number of ways to arrange the letters of the word 'MATHEMATICS' is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{11!}{2! 2! 2!}$",
+        "$\\frac{11!}{2! 2!}$",
+        "$11!$",
+        "$\\frac{11!}{4!}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "11 letters with 2 M's, 2 A's, and 2 T's $\\implies \\frac{11!}{2! 2! 2!}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Permutations & Combinations"
+    },
+    {
+      "id": "jee_math_256",
+      "question": "The solution of differential equation $\\frac{dy}{dx} + y = e^{-x}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$y e^{-x} = x + C$",
+        "$y e^x = x + C$",
+        "$y = e^x + C$",
+        "$y = x e^x + C$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{IF} = e^x$. Integrating $y e^x = \\int e^x e^{-x} dx = x + C$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Differential Equations"
+    },
+    {
+      "id": "jee_math_257",
+      "question": "If roots of quadratic equation $x^2 - p x + q = 0$ differ by $1$, then:",
+      "imageUrl": "",
+      "options": [
+        "$p^2 = 4q - 1$",
+        "$p^2 = 4q + 1$",
+        "$q^2 = 4p + 1$",
+        "$p^2 = q + 4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$(\\alpha - \\beta)^2 = (\\alpha + \\beta)^2 - 4\\alpha\\beta = 1 \\implies p^2 - 4q = 1 \\implies p^2 = 4q + 1$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_258",
+      "question": "If $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$ and $\\vec{b} = \\hat{i} - \\hat{j} + \\hat{k}$, then magnitude of projection of $\\vec{a}$ on $\\vec{b}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{3}$",
+        "$\\frac{2}{\\sqrt{3}}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$1$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Projection $= \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} = \\frac{1 - 1 + 1}{\\sqrt{3}} = \\frac{1}{\\sqrt{3}}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Vector Algebra"
+    },
+    {
+      "id": "jee_math_259",
+      "question": "The general solution of $\\sin 2x + \\cos x = 0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$x = 2n\\pi \\pm \\frac{\\pi}{3}$",
+        "$x = n\\pi + \\frac{\\pi}{4}$",
+        "$x = n\\pi \\pm \\frac{\\pi}{6}$",
+        "$x = n\\pi + \\frac{\\pi}{2}$ or $x = n\\pi + (-1)^n \\left(-\\frac{\\pi}{6}\\right)$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\cos x (2\\sin x + 1) = 0 \\implies \\cos x = 0$ or $\\sin x = -1/2$. Solutions are $n\\pi + \\pi/2$ and $n\\pi + (-1)^n(-\\pi/6)$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Trigonometric Equations"
+    },
+    {
+      "id": "jee_math_260",
+      "question": "If two dice are thrown simultaneously, the probability of getting a sum greater than $9$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{5}{36}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sums > 9 are 10, 11, 12 (6 pairs total: (4,6),(5,5),(6,4),(5,6),(6,5),(6,6)). $P = 6/36 = 1/6$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Probability"
+    },
+    {
+      "id": "jee_math_261",
+      "question": "The derivative of $\\tan^{-1}\\left(\\frac{2x}{1 - x^2}\\right)$ with respect to $\\sin^{-1}\\left(\\frac{2x}{1 + x^2}\\right)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$1$",
+        "$1/2$",
+        "$0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both expressions reduce to $2 \\tan^{-1} x$. Thus derivative of $u$ w.r.t $u$ is $1$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Differentiation"
+    },
+    {
+      "id": "jee_math_262",
+      "question": "If $z$ is a complex number such that $|z| = 1$, then $\\frac{1 + z}{1 + \\bar{z}}$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\bar{z}$",
+        "$1$",
+        "$z$",
+        "$-z$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\bar{z} = 1/z \\implies \\frac{1 + z}{1 + 1/z} = z$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2021",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_263",
+      "question": "The eccentricity of the ellipse $9x^2 + 16y^2 = 144$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{7}{16}$",
+        "$\\frac{3}{4}$",
+        "$\\frac{\\sqrt{5}}{4}$",
+        "$\\frac{\\sqrt{7}}{4}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$a^2 = 16, b^2 = 9 \\implies e = \\sqrt{1 - 9/16} = \\frac{\\sqrt{7}}{4}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Ellipse"
+    },
+    {
+      "id": "jee_math_264",
+      "question": "The focus of the parabola $y^2 = -8x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$(-2, 0)$",
+        "$(2, 0)$",
+        "$(0, -2)$",
+        "$(0, 2)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For $y^2 = -4ax$, $4a = 8 \\implies a = 2$. Focus is $(-2, 0)$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Parabola"
+    },
+    {
+      "id": "jee_math_265",
+      "question": "The term independent of $x$ in the expansion of $\\left(x + \\frac{1}{x}\\right)^{10}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$210$",
+        "$252$",
+        "$120$",
+        "$45$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$T_{r+1} = {}^{10}C_r x^{10-2r}$. For constant term $10 - 2r = 0 \\implies r = 5$. Value $={}^{10}C_5 = 252$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Binomial Theorem"
+    },
+    {
+      "id": "jee_math_266",
+      "question": "The limit $\\lim_{x \\to 0} \\frac{\\sin x - x}{x^3}$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$0$",
+        "$-\\frac{1}{6}$",
+        "$-\\frac{1}{3}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using series expansion: $\\lim_{x \\to 0} \\frac{(x - x^3/6 + \\dots) - x}{x^3} = -\\frac{1}{6}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Limits & Continuity"
+    },
+    {
+      "id": "jee_math_267",
+      "question": "The radius of the circle $x^2 + y^2 - 4x + 6y - 12 = 0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$25$",
+        "$\\sqrt{13}$",
+        "$7$",
+        "$5$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$r = \\sqrt{g^2 + f^2 - c} = \\sqrt{4 + 9 - (-12)} = \\sqrt{25} = 5$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Circles"
+    },
+    {
+      "id": "jee_math_268",
+      "question": "The slope of normal to the curve $y = x^3 - x$ at $x = 2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-\\frac{1}{11}$",
+        "$11$",
+        "$-11$",
+        "$\\frac{1}{11}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\frac{dy}{dx} = 3x^2 - 1$. At $x = 2$, slope of tangent $= 11 \\implies$ slope of normal $= -1/11$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Application of Derivatives"
+    },
+    {
+      "id": "jee_math_269",
+      "question": "If matrix $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, then $A^2 - 5A$ is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$-2 I$",
+        "$2 I$",
+        "$I$",
+        "$0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "By Cayley-Hamilton Theorem: $\\lambda^2 - 5\\lambda - 2 = 0 \\implies A^2 - 5A = 2I$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2023",
+      "topicTag": "Matrices"
+    },
+    {
+      "id": "jee_math_270",
+      "question": "The angle between two lines whose direction cosines are proportional to $(1, 1, 0)$ and $(1, 0, 1)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{\\pi}{6}$",
+        "$\\frac{\\pi}{3}$",
+        "$\\frac{\\pi}{2}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\cos\\theta = \\frac{1(1) + 1(0) + 0(1)}{\\sqrt{2}\\sqrt{2}} = \\frac{1}{2} \\implies \\theta = \\frac{\\pi}{3}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "3D Geometry"
+    },
+    {
+      "id": "jee_math_271",
+      "question": "The value of $\\int e^x (\\tan x + \\sec^2 x) dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$e^x \\sec x + C$",
+        "$e^x \\sec^2 x + C$",
+        "$e^x \\ln(\\sec x) + C$",
+        "$e^x \\tan x + C$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Form $\\int e^x [f(x) + f'(x)]dx = e^x f(x) + C \\implies e^x \\tan x + C$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Indefinite Integration"
+    },
+    {
+      "id": "jee_math_272",
+      "question": "The mean deviation about mean for observations $2, 4, 6, 8, 10$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2.4$",
+        "$2.0$",
+        "$1.8$",
+        "$3.0$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mean $= 6$. Deviations: $4, 2, 0, 2, 4$. Mean deviation $= 12/5 = 2.4$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2019",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_273",
+      "question": "If $f(x) = |x - 1| + |x - 2|$, then $f(x)$ is non-differentiable at:",
+      "imageUrl": "",
+      "options": [
+        "$x = 1$ only",
+        "$x = 1$ and $x = 2$",
+        "$x = 2$ only",
+        "Everywhere differentiable"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Modulus functions have corners where expressions inside vanish, i.e., $x = 1$ and $x = 2$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2021",
+      "topicTag": "Continuity & Differentiability"
+    },
+    {
+      "id": "jee_math_274",
+      "question": "If $A$ and $B$ are two events such that $P(A) = 0.4$, $P(B) = 0.8$, and $P(B|A) = 0.6$, then $P(A \\cup B)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0.84$",
+        "$0.76$",
+        "$0.96$",
+        "$0.60$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$P(A \\cap B) = 0.4 \\times 0.6 = 0.24 \\implies P(A \\cup B) = 0.4 + 0.8 - 0.24 = 0.96$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2022",
+      "topicTag": "Probability"
+    },
+    {
+      "id": "jee_math_275",
+      "question": "The principal value of $\\sin^{-1}\\left(\\sin\\frac{2\\pi}{3}\\right)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{2\\pi}{3}$",
+        "$-\\frac{\\pi}{3}$",
+        "$\\frac{4\\pi}{3}$",
+        "$\\frac{\\pi}{3}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\sin(2\\pi/3) = \\sin(\\pi/3)$. Since $\\pi/3 \\in [-\\pi/2, \\pi/2]$, principal value is $\\frac{\\pi}{3}$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2020",
+      "topicTag": "Inverse Trigonometry"
+    }
+  ]
+}
