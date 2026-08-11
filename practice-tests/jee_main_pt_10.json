@@ -1,0 +1,1210 @@
+{
+  "subject": "JEE Main Full Mock Test",
+  "chapter": "Practice Test 10",
+  "chapterslug": "jee_main_pt_10",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "id": "jee_phy_476",
+      "question": "A particle starts from rest and moves with constant acceleration $4\\,\\text{m/s}^2$. Its speed after $5\\,\\text{s}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$10\\,\\text{m/s}$",
+        "$15\\,\\text{m/s}$",
+        "$20\\,\\text{m/s}$",
+        "$25\\,\\text{m/s}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using $v=u+at$, with $u=0$, $a=4\\,\\text{m/s}^2$ and $t=5\\,\\text{s}$, we get $v=20\\,\\text{m/s}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Kinematics"
+    },
+    {
+      "id": "jee_phy_477",
+      "question": "A projectile is thrown with speed $20\\,\\text{m/s}$ at an angle of $45^\\circ$ with the horizontal. Taking $g=10\\,\\text{m/s}^2$, its maximum height is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Projectile_motion.svg",
+      "options": [
+        "$5\\,\\text{m}$",
+        "$10\\,\\text{m}$",
+        "$15\\,\\text{m}$",
+        "$20\\,\\text{m}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$H=\\frac{u^2\\sin^2\\theta}{2g}=\\frac{400(1/2)}{20}=10\\,\\text{m}$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Kinematics - Projectile Motion"
+    },
+    {
+      "id": "jee_phy_478",
+      "question": "A force of $10\\,\\text{N}$ acts on a body of mass $2\\,\\text{kg}$. The acceleration produced is:",
+      "imageUrl": "",
+      "options": [
+        "$2\\,\\text{m/s}^2$",
+        "$5\\,\\text{m/s}^2$",
+        "$10\\,\\text{m/s}^2$",
+        "$20\\,\\text{m/s}^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "From Newton's second law, $F=ma$. Hence $a=F/m=10/2=5\\,\\text{m/s}^2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Laws of Motion"
+    },
+    {
+      "id": "jee_phy_479",
+      "question": "A block of mass $5\\,\\text{kg}$ is pulled horizontally by a force of $20\\,\\text{N}$ on a frictionless surface. Its acceleration is:",
+      "imageUrl": "",
+      "options": [
+        "$2\\,\\text{m/s}^2$",
+        "$4\\,\\text{m/s}^2$",
+        "$5\\,\\text{m/s}^2$",
+        "$10\\,\\text{m/s}^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since the surface is frictionless, net force is $20\\,\\text{N}$. Thus $a=F/m=20/5=4\\,\\text{m/s}^2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Laws of Motion"
+    },
+    {
+      "id": "jee_phy_480",
+      "question": "A body of mass $2\\,\\text{kg}$ is moving with speed $3\\,\\text{m/s}$. Its kinetic energy is:",
+      "imageUrl": "",
+      "options": [
+        "$3\\,\\text{J}$",
+        "$6\\,\\text{J}$",
+        "$9\\,\\text{J}$",
+        "$18\\,\\text{J}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$K=\\frac12mv^2=\\frac12(2)(3^2)=9\\,\\text{J}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Work, Energy & Power"
+    },
+    {
+      "id": "jee_phy_481",
+      "question": "A force of $10\\,\\text{N}$ acts on a body through a displacement of $5\\,\\text{m}$ in the direction of force. Work done is:",
+      "imageUrl": "",
+      "options": [
+        "$2\\,\\text{J}$",
+        "$15\\,\\text{J}$",
+        "$50\\,\\text{J}$",
+        "$100\\,\\text{J}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$W=Fs\\cos0^\\circ=10\\times5=50\\,\\text{J}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Work, Energy & Power"
+    },
+    {
+      "id": "jee_phy_482",
+      "question": "A spring of force constant $100\\,\\text{N/m}$ is compressed by $0.2\\,\\text{m}$. The elastic potential energy stored is:",
+      "imageUrl": "",
+      "options": [
+        "$1\\,\\text{J}$",
+        "$2\\,\\text{J}$",
+        "$4\\,\\text{J}$",
+        "$8\\,\\text{J}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$U=\\frac12kx^2=\\frac12(100)(0.2)^2=2\\,\\text{J}$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main Level",
+      "topicTag": "Work, Energy & Power"
+    },
+    {
+      "id": "jee_phy_483",
+      "question": "A body of mass $2\\,\\text{kg}$ moves in a circle of radius $1\\,\\text{m}$ with speed $4\\,\\text{m/s}$. The centripetal force is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Centripetal_force.svg",
+      "options": [
+        "$8\\,\\text{N}$",
+        "$16\\,\\text{N}$",
+        "$32\\,\\text{N}$",
+        "$64\\,\\text{N}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$F_c=mv^2/r=2(16)/1=32\\,\\text{N}$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Circular Motion"
+    },
+    {
+      "id": "jee_phy_484",
+      "question": "The escape velocity from the surface of Earth is approximately:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Escape_velocity.svg",
+      "options": [
+        "$5.6\\,\\text{km/s}$",
+        "$7.9\\,\\text{km/s}$",
+        "$11.2\\,\\text{km/s}$",
+        "$15.0\\,\\text{km/s}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The escape velocity from Earth is $v_e=\\sqrt{2GM/R}$, approximately $11.2\\,\\text{km/s}$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "jee_phy_485",
+      "question": "Two masses $m$ and $m$ are separated by distance $r$. Their gravitational force is $F$. If the distance is doubled, the force becomes:",
+      "imageUrl": "",
+      "options": [
+        "$F/2$",
+        "$F/4$",
+        "$2F$",
+        "$4F$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since $F\\propto1/r^2$, doubling $r$ makes the force $F/4$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "jee_phy_486",
+      "question": "A simple pendulum has length $1\\,\\text{m}$. Taking $g=\\pi^2\\,\\text{m/s}^2$, its time period is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Simple_pendulum.svg",
+      "options": [
+        "$1\\,\\text{s}$",
+        "$2\\,\\text{s}$",
+        "$\\pi\\,\\text{s}$",
+        "$4\\,\\text{s}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$T=2\\pi\\sqrt{L/g}=2\\pi\\sqrt{1/\\pi^2}=2\\,\\text{s}$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "jee_phy_487",
+      "question": "A wave has frequency $500\\,\\text{Hz}$ and wavelength $0.6\\,\\text{m}$. Its speed is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wave_motion.gif",
+      "options": [
+        "$100\\,\\text{m/s}$",
+        "$200\\,\\text{m/s}$",
+        "$300\\,\\text{m/s}$",
+        "$500\\,\\text{m/s}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wave speed is $v=f\\lambda=500\\times0.6=300\\,\\text{m/s}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Waves"
+    },
+    {
+      "id": "jee_phy_488",
+      "question": "The electric field due to a point charge $q$ at distance $r$ is proportional to:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Point_charge_electric_field.svg",
+      "options": [
+        "$r$",
+        "$1/r$",
+        "$1/r^2$",
+        "$r^2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From Coulomb's law, $E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}$, so $E\\propto1/r^2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_489",
+      "question": "A capacitor of capacitance $5\\,\\mu\\text{F}$ is connected to a $10\\,\\text{V}$ battery. The charge stored is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Capacitor_symbol.svg",
+      "options": [
+        "$5\\,\\mu\\text{C}$",
+        "$25\\,\\mu\\text{C}$",
+        "$50\\,\\mu\\text{C}$",
+        "$100\\,\\mu\\text{C}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$Q=CV=5\\,\\mu\\text{F}\\times10\\,\\text{V}=50\\,\\mu\\text{C}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Capacitance"
+    },
+    {
+      "id": "jee_phy_490",
+      "question": "A $10\\,\\Omega$ resistor is connected across a $20\\,\\text{V}$ battery. The current through it is:",
+      "imageUrl": "",
+      "options": [
+        "$0.5\\,\\text{A}$",
+        "$1\\,\\text{A}$",
+        "$2\\,\\text{A}$",
+        "$4\\,\\text{A}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Ohm's law, $I=V/R=20/10=2\\,\\text{A}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_491",
+      "question": "Two resistors $6\\,\\Omega$ and $3\\,\\Omega$ are connected in parallel. Their equivalent resistance is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Resistors_parallel.svg",
+      "options": [
+        "$1\\,\\Omega$",
+        "$2\\,\\Omega$",
+        "$3\\,\\Omega$",
+        "$9\\,\\Omega$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\frac1R=\\frac16+\\frac13=\\frac12$, hence $R=2\\,\\Omega$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_492",
+      "question": "A charged particle enters a uniform magnetic field perpendicular to the field. Its path is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cyclotron_motion.svg",
+      "options": [
+        "Straight line",
+        "Circular",
+        "Parabolic",
+        "Elliptical"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnetic force is always perpendicular to velocity and acts as centripetal force, producing circular motion.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Magnetic Effects of Current"
+    },
+    {
+      "id": "jee_phy_493",
+      "question": "The magnetic field at the centre of a circular coil of radius $R$ carrying current $I$ and having $N$ turns is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Magnetic_field_of_current_loop.svg",
+      "options": [
+        "$\\frac{\\mu_0I}{2R}$",
+        "$\\frac{\\mu_0NI}{2R}$",
+        "$\\frac{\\mu_0NI}{R}$",
+        "$\\frac{\\mu_0I}{NR}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an $N$-turn circular coil, $B=\\frac{\\mu_0NI}{2R}$ at the centre.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Magnetism"
+    },
+    {
+      "id": "jee_phy_494",
+      "question": "A coil has $100$ turns and area $0.01\\,\\text{m}^2$. It is placed in a magnetic field of $0.5\\,\\text{T}$. If the field changes uniformly to zero in $0.1\\,\\text{s}$, the average induced emf is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Electromagnetic_induction.svg",
+      "options": [
+        "$0.5\\,\\text{V}$",
+        "$5\\,\\text{V}$",
+        "$50\\,\\text{V}$",
+        "$100\\,\\text{V}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Average emf $=N\\Delta\\Phi/\\Delta t=N A\\Delta B/\\Delta t=100(0.01)(0.5)/0.1=5\\,\\text{V}$.",
+      "difficulty": "medium-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "jee_phy_495",
+      "question": "In a photoelectric experiment, the stopping potential is increased when:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Photoelectric_effect.svg",
+      "options": [
+        "Intensity is decreased",
+        "Frequency of incident light is increased",
+        "Work function is increased only",
+        "Area of metal is increased"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$K_{\\max}=h\\nu-\\phi=eV_s$. Therefore, increasing frequency increases the stopping potential.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Dual Nature of Matter & Radiation"
+    },
+
+    {
+      "id": "jee_chem_496",
+      "question": "The number of moles present in $18\\,\\text{g}$ of water is:",
+      "imageUrl": "",
+      "options": [
+        "$0.5$",
+        "$1$",
+        "$2$",
+        "$18$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Molar mass of water is $18\\,\\text{g/mol}$. Thus moles $=18/18=1$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Some Basic Concepts of Chemistry"
+    },
+    {
+      "id": "jee_chem_497",
+      "question": "The atomic number of an element represents the number of:",
+      "imageUrl": "",
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Nucleons",
+        "Neutrons + electrons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atomic number $Z$ is defined as the number of protons in the nucleus.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Structure of Atom"
+    },
+    {
+      "id": "jee_chem_498",
+      "question": "Which orbital has the highest penetration among the following?",
+      "imageUrl": "",
+      "options": [
+        "$3s$",
+        "$3p$",
+        "$3d$",
+        "$4s$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For the same principal shell, penetration follows $s>p>d>f$. Hence $3s$ has greater penetration than $3p$ and $3d$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Atomic Structure"
+    },
+    {
+      "id": "jee_chem_499",
+      "question": "The most electronegative element is:",
+      "imageUrl": "",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Fluorine",
+        "Chlorine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fluorine has the highest electronegativity on the Pauling scale.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Periodic Classification"
+    },
+    {
+      "id": "jee_chem_500",
+      "question": "Which molecule has a linear geometry?",
+      "imageUrl": "",
+      "options": [
+        "$NH_3$",
+        "$H_2O$",
+        "$CO_2$",
+        "$CH_4$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$CO_2$ has two electron domains around carbon and is linear with bond angle $180^\\circ$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_chem_501",
+      "question": "The bond order of $O_2$ according to molecular orbital theory is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$1.5$",
+        "$2$",
+        "$3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bond order of oxygen molecule is $2$, corresponding to a double bond.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "jee_chem_502",
+      "question": "For an exothermic reaction, the value of $\\Delta H$ is:",
+      "imageUrl": "",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Always infinite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An exothermic reaction releases heat, so its enthalpy change is negative: $\\Delta H<0$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_chem_503",
+      "question": "If the equilibrium constant $K_c$ for a reaction is very large, the equilibrium mixture contains predominantly:",
+      "imageUrl": "",
+      "options": [
+        "Reactants",
+        "Products",
+        "Equal reactants and products",
+        "Only catalyst"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A large $K_c$ indicates that products are strongly favoured at equilibrium.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Equilibrium"
+    },
+    {
+      "id": "jee_chem_504",
+      "question": "The pH of a neutral solution at $25^\\circ\\text{C}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$5$",
+        "$7$",
+        "$14$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At $25^\\circ\\text{C}$, neutral water has $[H^+]=10^{-7}\\,\\text{M}$, so pH is $7$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "jee_chem_505",
+      "question": "The oxidation number of chromium in $K_2Cr_2O_7$ is:",
+      "imageUrl": "",
+      "options": [
+        "$+3$",
+        "$+4$",
+        "$+6$",
+        "$+7$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$2(+1)+2x+7(-2)=0$, giving $2x=12$ and $x=+6$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "jee_chem_506",
+      "question": "The standard electrode potential of the standard hydrogen electrode is:",
+      "imageUrl": "",
+      "options": [
+        "$0\\,\\text{V}$",
+        "$1\\,\\text{V}$",
+        "$-1\\,\\text{V}$",
+        "$0.76\\,\\text{V}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The standard hydrogen electrode is assigned a standard reduction potential of exactly $0\\,\\text{V}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_507",
+      "question": "During electrolysis, oxidation occurs at the:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Electrolysis.svg",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Salt bridge",
+        "Electrolyte only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxidation always occurs at the anode, while reduction occurs at the cathode.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_508",
+      "question": "For a first-order reaction, the unit of rate constant is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{mol L}^{-1}\\text{s}^{-1}$",
+        "$\\text{s}^{-1}$",
+        "$\\text{L mol}^{-1}\\text{s}^{-1}$",
+        "$\\text{mol}^{-1}\\text{s}^{-1}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a first-order reaction, rate $=k[A]$, so the unit of $k$ is $\\text{s}^{-1}$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_509",
+      "question": "The half-life of a first-order reaction is independent of:",
+      "imageUrl": "",
+      "options": [
+        "Rate constant",
+        "Initial concentration",
+        "Temperature",
+        "Activation energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a first-order reaction, $t_{1/2}=\\frac{0.693}{k}$, so it is independent of initial concentration.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_510",
+      "question": "Which of the following is an ideal colligative property?",
+      "imageUrl": "",
+      "options": [
+        "Viscosity",
+        "Osmotic pressure",
+        "Surface tension",
+        "Refractive index"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Osmotic pressure depends on the number of solute particles and is a colligative property.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_511",
+      "question": "The oxidation state of oxygen in $H_2O_2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-2$",
+        "$-1$",
+        "$0$",
+        "$+1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In peroxides, oxygen has oxidation state $-1$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "jee_chem_512",
+      "question": "Which of the following is an amphoteric oxide?",
+      "imageUrl": "",
+      "options": [
+        "$Na_2O$",
+        "$CO_2$",
+        "$Al_2O_3$",
+        "$SO_2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$Al_2O_3$ reacts with both acids and bases, so it is amphoteric.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main Level",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "jee_chem_513",
+      "question": "Which halogen is the strongest oxidising agent?",
+      "imageUrl": "",
+      "options": [
+        "$F_2$",
+        "$Cl_2$",
+        "$Br_2$",
+        "$I_2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluorine has the highest standard reduction potential among halogens and is therefore the strongest oxidising agent.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "jee_chem_514",
+      "question": "The IUPAC name of $CH_3CH_2OH$ is:",
+      "imageUrl": "",
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "Propanol",
+        "Ethanal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$CH_3CH_2OH$ contains two carbon atoms and an alcohol group, so its IUPAC name is ethanol.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "General Organic Chemistry"
+    },
+    {
+      "id": "jee_chem_515",
+      "question": "The major product of addition of $HBr$ to propene in the absence of peroxide is:",
+      "imageUrl": "",
+      "options": [
+        "1-bromopropane",
+        "2-bromopropane",
+        "1,2-dibromopropane",
+        "Propanol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the absence of peroxide, HBr follows Markovnikov addition and gives 2-bromopropane as the major product.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "jee_chem_516",
+      "question": "Which reagent is commonly used to oxidise a primary alcohol to an aldehyde under controlled conditions?",
+      "imageUrl": "",
+      "options": [
+        "$PCC$",
+        "$NaBH_4$",
+        "$LiAlH_4$",
+        "$H_2/Ni$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PCC (pyridinium chlorochromate) can oxidise a primary alcohol to an aldehyde without generally proceeding to the carboxylic acid.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_517",
+      "question": "Which compound gives a positive Tollens' test?",
+      "imageUrl": "",
+      "options": [
+        "Ethane",
+        "Propanone",
+        "Ethanal",
+        "Benzene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aldehydes such as ethanal reduce Tollens' reagent and produce the characteristic silver mirror.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Aldehydes, Ketones & Carboxylic Acids"
+    },
+    {
+      "id": "jee_chem_518",
+      "question": "The functional group present in carboxylic acids is:",
+      "imageUrl": "",
+      "options": [
+        "$-OH$",
+        "$-CHO$",
+        "$-COOH$",
+        "$-CO-$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Carboxylic acids contain the carboxyl functional group $-COOH$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Carboxylic Acids"
+    },
+    {
+      "id": "jee_chem_519",
+      "question": "The coordination number of the central metal ion in $[Co(NH_3)_6]^{3+}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Six $NH_3$ ligands are directly coordinated to cobalt, so the coordination number is $6$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "jee_chem_520",
+      "question": "Which ligand is a strong-field ligand?",
+      "imageUrl": "",
+      "options": [
+        "$Cl^-$",
+        "$F^-$",
+        "$CN^-$",
+        "$Br^-$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$CN^-$ is a strong-field ligand and produces large crystal-field splitting.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main Level",
+      "topicTag": "Coordination Compounds"
+    },
+
+    {
+      "id": "jee_math_521",
+      "question": "If $z=1+i$, then $|z|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$\\sqrt{2}$",
+        "$2$",
+        "$3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$|z|=\\sqrt{1^2+1^2}=\\sqrt2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_522",
+      "question": "The coefficient of $x^2$ in $(1+x)^6$ is:",
+      "imageUrl": "",
+      "options": [
+        "$6$",
+        "$12$",
+        "$15$",
+        "$20$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The coefficient is ${}^{6}C_2=15$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Binomial Theorem"
+    },
+    {
+      "id": "jee_math_523",
+      "question": "If the roots of $x^2-8x+k=0$ are equal, then $k$ is:",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$12$",
+        "$16$",
+        "$32$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equal roots require $b^2-4ac=0$. Thus $64-4k=0$, giving $k=16$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_524",
+      "question": "The sum of the first $20$ natural numbers is:",
+      "imageUrl": "",
+      "options": [
+        "$190$",
+        "$200$",
+        "$210$",
+        "$220$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$S=\\frac{n(n+1)}2=\\frac{20\\times21}{2}=210$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Sequences & Series"
+    },
+    {
+      "id": "jee_math_525",
+      "question": "The determinant $\\begin{vmatrix}3&2\\\\1&4\\end{vmatrix}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$10$",
+        "$12$",
+        "$14$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Determinant $=3(4)-2(1)=12-2=10$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_526",
+      "question": "If $\\vec a\\cdot\\vec b=|\\vec a||\\vec b|$, the angle between the two non-zero vectors is:",
+      "imageUrl": "",
+      "options": [
+        "$0^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since $\\vec a\\cdot\\vec b=|a||b|\\cos\\theta$, we have $\\cos\\theta=1$, giving $\\theta=0^\\circ$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Vector Algebra"
+    },
+    {
+      "id": "jee_math_527",
+      "question": "The slope of the line joining $(2,3)$ and $(6,11)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$m=\\frac{11-3}{6-2}=\\frac84=2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Coordinate Geometry"
+    },
+    {
+      "id": "jee_math_528",
+      "question": "The equation of the line passing through $(1,2)$ with slope $3$ is:",
+      "imageUrl": "",
+      "options": [
+        "$y=3x+1$",
+        "$y=3x-1$",
+        "$y=x+3$",
+        "$y=2x+3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using point-slope form, $y-2=3(x-1)$, hence $y=3x-1$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Straight Lines"
+    },
+    {
+      "id": "jee_math_529",
+      "question": "The derivative of $\\sin x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\cos x$",
+        "$-\\cos x$",
+        "$\\sin x$",
+        "$-\\sin x$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\frac{d}{dx}(\\sin x)=\\cos x$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Differential Calculus"
+    },
+    {
+      "id": "jee_math_530",
+      "question": "The maximum value of $4x-x^2$ for real $x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$4x-x^2=4-(x-2)^2$. Therefore the maximum value is $4$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Applications of Derivatives"
+    },
+    {
+      "id": "jee_math_531",
+      "question": "The value of $\\int_0^\\pi \\sin x\\,dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$\\pi$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Integral Calculus"
+    },
+    {
+      "id": "jee_math_532",
+      "question": "The limit $\\lim_{x\\to0}\\frac{\\sin x}{x}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$1$",
+        "$\\infty$",
+        "$-1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard trigonometric limit is $\\lim_{x\\to0}\\frac{\\sin x}{x}=1$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Limits"
+    },
+    {
+      "id": "jee_math_533",
+      "question": "The distance between $(0,0)$ and $(3,4)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$7$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$d=\\sqrt{3^2+4^2}=5$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Coordinate Geometry"
+    },
+    {
+      "id": "jee_math_534",
+      "question": "The equation of the circle with centre $(0,0)$ and radius $5$ is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle_coordinates.svg",
+      "options": [
+        "$x^2+y^2=5$",
+        "$x^2+y^2=10$",
+        "$x^2+y^2=25$",
+        "$x^2+y^2=50$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For centre $(0,0)$ and radius $r$, the equation is $x^2+y^2=r^2$. Hence $x^2+y^2=25$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Circles"
+    },
+    {
+      "id": "jee_math_535",
+      "question": "The eccentricity of an ellipse is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ellipse_eccentricity.svg",
+      "options": [
+        "$0<e<1$",
+        "$e=1$",
+        "$e>1$",
+        "$e=2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an ellipse, eccentricity satisfies $0\\le e<1$. For a non-circular ellipse, $0<e<1$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Conic Sections"
+    },
+    {
+      "id": "jee_math_536",
+      "question": "If $\\tan\\theta=\\sqrt3$ and $0<\\theta<\\pi/2$, then $\\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\pi/6$",
+        "$\\pi/4$",
+        "$\\pi/3$",
+        "$\\pi/2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the first quadrant, $\\tan\\theta=\\sqrt3$ gives $\\theta=\\pi/3$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Trigonometric Functions"
+    },
+    {
+      "id": "jee_math_537",
+      "question": "The principal value of $\\sin^{-1}(1)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$\\pi/6$",
+        "$\\pi/4$",
+        "$\\pi/2$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The principal range of $\\sin^{-1}x$ is $[-\\pi/2,\\pi/2]$, hence $\\sin^{-1}(1)=\\pi/2$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Inverse Trigonometric Functions"
+    },
+    {
+      "id": "jee_math_538",
+      "question": "The probability of getting a six when a fair die is thrown once is:",
+      "imageUrl": "",
+      "options": [
+        "$1/2$",
+        "$1/3$",
+        "$1/6$",
+        "$1/12$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There is one favourable outcome out of six equally likely outcomes, so probability is $1/6$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Probability"
+    },
+    {
+      "id": "jee_math_539",
+      "question": "The mean of $2,4,6,8,10$ is:",
+      "imageUrl": "",
+      "options": [
+        "$4$",
+        "$5$",
+        "$6$",
+        "$8$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mean $=\\frac{2+4+6+8+10}{5}=\\frac{30}{5}=6$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_540",
+      "question": "The variance of a dataset in which every observation is equal to $5$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$1$",
+        "$5$",
+        "$25$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All observations are equal to their mean, so every deviation is zero. Hence variance is $0$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_541",
+      "question": "If $A$ is a $2\\times2$ matrix and $|A|=3$, then $|2A|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$6$",
+        "$9$",
+        "$12$",
+        "$24$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a $2\\times2$ matrix, $|kA|=k^2|A|$. Thus $|2A|=4(3)=12$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_542",
+      "question": "The general solution of $\\frac{dy}{dx}=2x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$y=x^2+C$",
+        "$y=2x^2+C$",
+        "$y=x+C$",
+        "$y=2x+C$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Integrating, $y=\\int2x\\,dx=x^2+C$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Differential Equations"
+    },
+    {
+      "id": "jee_math_543",
+      "question": "The area under $y=x^2$ from $x=0$ to $x=1$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1/4$",
+        "$1/3$",
+        "$1/2$",
+        "$1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\int_0^1x^2dx=\\left[\\frac{x^3}{3}\\right]_0^1=\\frac13$.",
+      "difficulty": "easy-medium",
+      "year": "JEE Main Level",
+      "topicTag": "Integral Calculus"
+    },
+    {
+      "id": "jee_math_544",
+      "question": "If $\\alpha$ and $\\beta$ are roots of $x^2-7x+10=0$, then $\\alpha\\beta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$5$",
+        "$7$",
+        "$10$",
+        "$14$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $ax^2+bx+c=0$, product of roots is $\\alpha\\beta=c/a$. Hence $\\alpha\\beta=10$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_545",
+      "question": "The number of ways of selecting $2$ objects from $7$ distinct objects is:",
+      "imageUrl": "",
+      "options": [
+        "$14$",
+        "$21$",
+        "$28$",
+        "$35$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The number of selections is ${}^{7}C_2=\\frac{7\\times6}{2}=21$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Permutations & Combinations"
+    },
+    {
+      "id": "jee_math_546",
+      "question": "The value of $\\log_{10}1000$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$10$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since $10^3=1000$, $\\log_{10}1000=3$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Mathematical Reasoning & Algebra"
+    },
+    {
+      "id": "jee_math_547",
+      "question": "If $f(x)=x^2+3x$, then $f'(1)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$6$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$f'(x)=2x+3$. Therefore $f'(1)=2+3=5$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Differential Calculus"
+    },
+    {
+      "id": "jee_math_548",
+      "question": "The value of $\\int e^x\\,dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$e^x+C$",
+        "$xe^x+C$",
+        "$e^{x+1}+C$",
+        "$x^2e^x+C$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since the derivative of $e^x$ is itself, $\\int e^x dx=e^x+C$.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Integral Calculus"
+    },
+    {
+      "id": "jee_math_549",
+      "question": "The value of $\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$1/2$",
+        "$1$",
+        "$2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the standard limit, $\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}=\\frac12$.",
+      "difficulty": "medium",
+      "year": "JEE Main Level",
+      "topicTag": "Limits"
+    },
+    {
+      "id": "jee_math_550",
+      "question": "If the vectors $\\vec a$ and $\\vec b$ are parallel and non-zero, then their cross product is:",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cross_product.svg",
+      "options": [
+        "$|a||b|$",
+        "$1$",
+        "$0$",
+        "$-1$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$|\\vec a\\times\\vec b|=|a||b|\\sin\\theta$. For parallel vectors, $\\theta=0^\\circ$ or $180^\\circ$, so the cross product is zero.",
+      "difficulty": "easy",
+      "year": "JEE Main Level",
+      "topicTag": "Vector Algebra"
+    }
+  ]
+}
