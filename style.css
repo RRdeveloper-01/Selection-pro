@@ -6,6 +6,7 @@ body {
     background-color: #f8f9fa;
     color: #333;
     padding-top: 130px;
+    line-height:1.8;
 }
 
 .exam-grid{
@@ -24,13 +25,7 @@ body {
 .exam-card:hover{
     transform: translateY(-10px);
 }
-    .logo {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0px;
-    padding: 0px;}
-.logo span { color: #007bff; }
-
+  
 .hero {
 
     background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.8)), url('https://via.placeholder.com/1500x500');
