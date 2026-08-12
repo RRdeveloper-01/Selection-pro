@@ -1,0 +1,1208 @@
+{
+  "subject": "JEE Main Full Mock Test",
+  "chapter": "Practice Test 15",
+  "chapterslug": "jee_main_pt_15",
+  "totalQuestions": 75,
+  "questions": [
+    {
+      "id": "jee_phy_551",
+      "question": "A particle executes SHM with amplitude $A$ and angular frequency $\\omega$. At displacement $x=A/2$, the ratio of kinetic energy to potential energy is:",
+      "imageUrl": "",
+      "options": [
+        "$3:1$",
+        "$1:1$",
+        "$3:4$",
+        "$1:3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$U/E=x^2/A^2=1/4$, so $K=3E/4$. Hence $K:U=3:1$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "jee_phy_552",
+      "question": "A projectile is launched with speed $u$ at an angle $\\theta$ such that its speed at the highest point is $u/3$. Its horizontal range is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{4u^2}{9g}$",
+        "$\\frac{2u^2}{3g}$",
+        "$\\frac{8u^2}{9g}$",
+        "$\\frac{4\\sqrt2u^2}{9g}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At the highest point $u\\cos\\theta=u/3$, so $\\cos\\theta=1/3$. Therefore $\\sin2\\theta=4\\sqrt2/9$, giving $R=4\\sqrt2u^2/(9g)$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Kinematics - Projectile Motion"
+    },
+    {
+      "id": "jee_phy_553",
+      "question": "A block of mass $m$ is attached between two identical springs, each of force constant $k$, on a frictionless surface. The angular frequency of small oscillations is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{m/2k}$",
+        "$\\sqrt{2k/m}$",
+        "$2\\sqrt{k/m}$",
+        "$\\sqrt{k/m}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both springs provide restoring force, so $F=-2kx$. Thus $m\\ddot x+2kx=0$ and $\\omega=\\sqrt{2k/m}$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "jee_phy_554",
+      "question": "A uniform rod of length $L$ and mass $M$ is pivoted at one end. A point mass $M$ is attached at the other end. The moment of inertia about the pivot is:",
+      "imageUrl": "",
+      "options": [
+        "$ML^2$",
+        "$\\frac12ML^2$",
+        "$\\frac43ML^2$",
+        "$\\frac13ML^2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For the rod $I=ML^2/3$ and for the end mass $I=ML^2$. Total $I=4ML^2/3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_555",
+      "question": "A solid sphere rolls without slipping from rest through a vertical height $h$. Its speed at the bottom is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{gh}$",
+        "$\\sqrt{10gh/7}$",
+        "$\\sqrt{7gh/10}$",
+        "$\\sqrt{2gh}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using $I=2MR^2/5$ and $v=\\omega R$, energy conservation gives $Mgh=7Mv^2/10$. Hence $v=\\sqrt{10gh/7}$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_556",
+      "question": "A satellite is shifted from a circular orbit of radius $R$ to another circular orbit of radius $9R$. The ratio of its orbital periods $T_1:T_2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1:9$",
+        "$1:3$",
+        "$3:1$",
+        "$1:27$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kepler's law gives $T\\propto r^{3/2}$, so $T_2/T_1=9^{3/2}=27$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "jee_phy_557",
+      "question": "A capacitor of capacitance $C$ charged to voltage $V$ is disconnected from the battery and its plate separation is doubled. The new electrostatic energy is:",
+      "imageUrl": "",
+      "options": [
+        "$2CV^2$",
+        "$\\frac14CV^2$",
+        "$CV^2$",
+        "$\\frac12CV^2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Charge remains constant and capacitance becomes $C/2$. Since $U=Q^2/(2C)$, energy doubles to $CV^2$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electrostatics - Capacitance"
+    },
+    {
+      "id": "jee_phy_558",
+      "question": "Two point charges $+q$ and $+4q$ are separated by distance $d$. The electric field is zero between them at distance $x$ from $+q$. Then $x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$d/3$",
+        "$2d/3$",
+        "$d/2$",
+        "$d/4$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equating field magnitudes: $q/x^2=4q/(d-x)^2$, hence $d-x=2x$ and $x=d/3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electrostatics"
+    },
+    {
+      "id": "jee_phy_559",
+      "question": "A wire of resistance $R$ is stretched uniformly to twice its original length, with volume constant. Its new resistance is:",
+      "imageUrl": "",
+      "options": [
+        "$R/2$",
+        "$R$",
+        "$2R$",
+        "$4R$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Constant volume gives $A' = A/2$. Since $R=\\rho L/A$, doubling length and halving area gives $R'=4R$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_560",
+      "question": "A battery of emf $E$ and internal resistance $r$ delivers maximum power to a load. The load resistance and maximum power are:",
+      "imageUrl": "",
+      "options": [
+        "$r/2,\\ E^2/(2r)$",
+        "$2r,\\ E^2/(2r)$",
+        "$r,\\ E^2/(4r)$",
+        "$r,\\ E^2/r$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Maximum power transfer requires $R=r$. Then $P_{max}=E^2/(4r)$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_phy_561",
+      "question": "A charged particle enters a uniform magnetic field with speed $v$ making angle $\\theta$ with the field. The pitch of its helical path is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{2\\pi qB}{mv\\cos\\theta}$",
+        "$\\frac{2\\pi mv\\cos\\theta}{qB}$",
+        "$\\frac{2\\pi mv\\sin\\theta}{qB}$",
+        "$\\frac{mv}{qB}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parallel speed is $v\\cos\\theta$ and cyclotron period is $2\\pi m/(qB)$. Their product is the pitch.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Magnetic Effects of Current"
+    },
+    {
+      "id": "jee_phy_562",
+      "question": "A conducting loop of resistance $R$ and area $A$ is in a uniform perpendicular magnetic field. If the field decreases uniformly from $B$ to zero in time $t$, the induced current magnitude is:",
+      "imageUrl": "",
+      "options": [
+        "$B/(ARt)$",
+        "$BA/(Rt)$",
+        "$BR/(At)$",
+        "$BAt/R$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Induced emf is $BA/t$, so $I=BA/(Rt)$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "jee_phy_563",
+      "question": "In a series LCR circuit at resonance, the impedance and phase difference between current and applied voltage are:",
+      "imageUrl": "",
+      "options": [
+        "$R$ and $0$",
+        "$R$ and $\\pi/2$",
+        "$X_L-X_C$ and $0$",
+        "$\\sqrt{R^2+(X_L+X_C)^2}$ and $\\pi/2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At resonance $X_L=X_C$, hence net reactance is zero, $Z=R$, and current is in phase with voltage.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "jee_phy_564",
+      "question": "An ideal transformer has $N_p=1000$ turns and $N_s=100$ turns. If the primary voltage is $220$ V, the secondary voltage is:",
+      "imageUrl": "",
+      "options": [
+        "$110$ V",
+        "$2200$ V",
+        "$22$ V",
+        "$2.2$ V"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$V_s/V_p=N_s/N_p=1/10$, hence $V_s=22$ V.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "jee_phy_565",
+      "question": "A convex lens of focal length $20$ cm forms a real image twice the size of the object. The object distance is:",
+      "imageUrl": "",
+      "options": [
+        "$30$ cm",
+        "$40$ cm",
+        "$20$ cm",
+        "$10$ cm"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For a real image of magnitude 2, $v=2|u|$. Lens formula gives $|u|=10$ cm.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Optics - Ray Optics"
+    },
+    {
+      "id": "jee_phy_566",
+      "question": "In Young's double-slit experiment, the original central intensity is $I_0$. If one slit amplitude is reduced to half while the other is unchanged, the new central intensity is:",
+      "imageUrl": "",
+      "options": [
+        "$I_0/2$",
+        "$9I_0/16$",
+        "$I_0/4$",
+        "$I_0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Original amplitude sum is $2a$; new sum is $3a/2$. Intensities are proportional to squared amplitudes, so ratio is $9/16$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Optics - Wave Optics"
+    },
+    {
+      "id": "jee_phy_567",
+      "question": "An electron and a proton are accelerated through the same potential difference. The ratio of their de Broglie wavelengths $\\lambda_e/\\lambda_p$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$\\sqrt{m_p/m_e}$",
+        "$\\sqrt{m_e/m_p}$",
+        "$m_p/m_e$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the same potential, $p=\\sqrt{2mqV}$ and $\\lambda\\propto1/\\sqrt m$. Thus $\\lambda_e/\\lambda_p=\\sqrt{m_p/m_e}$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Dual Nature of Matter & Radiation"
+    },
+    {
+      "id": "jee_phy_568",
+      "question": "A radioactive nucleus has decay constant $\\lambda$. The ratio of mean life to half-life is:",
+      "imageUrl": "",
+      "options": [
+        "$1/2$",
+        "$1/\\ln2$",
+        "$\\ln2$",
+        "$2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\tau=1/\\lambda$ and $T_{1/2}=\\ln2/\\lambda$, so the ratio is $1/\\ln2$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Atoms & Nuclei"
+    },
+    {
+      "id": "jee_phy_569",
+      "question": "For a reversible adiabatic process of an ideal gas, which relation is correct?",
+      "imageUrl": "",
+      "options": [
+        "$PV^\\gamma=\\text{constant}$",
+        "$P/T=\\text{constant}$",
+        "$V/T=\\text{constant}$",
+        "$PV=\\text{constant}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The reversible adiabatic equation is $PV^\\gamma=constant$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_570",
+      "question": "One mole of an ideal monatomic gas is heated at constant pressure from temperature $T$ to $3T$. The work done is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac32RT$",
+        "$2RT$",
+        "$3RT$",
+        "$RT$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At constant pressure, $W=nR\\Delta T=R(3T-T)=2RT$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "jee_phy_571",
+      "question": "A fluid flows through a horizontal pipe whose area changes from $A$ to $A/4$. If speed in the wider section is $v$, speed in the narrow section is:",
+      "imageUrl": "",
+      "options": [
+        "$4v$",
+        "$v$",
+        "$2v$",
+        "$v/4$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Continuity gives $Av=(A/4)v_2$, hence $v_2=4v$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Fluid Mechanics"
+    },
+    {
+      "id": "jee_phy_572",
+      "question": "A liquid rises to height $h$ in a capillary of radius $r$. If radius becomes $r/3$, all else unchanged, the new rise is:",
+      "imageUrl": "",
+      "options": [
+        "$9h$",
+        "$h$",
+        "$h/3$",
+        "$3h$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Capillary rise varies inversely with radius, so reducing radius by 3 increases rise by 3.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Properties of Liquids"
+    },
+    {
+      "id": "jee_phy_573",
+      "question": "A particle moves in a circle of radius $R$ with constant angular acceleration $\\alpha$ from rest. Its tangential speed after time $t$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\alpha t^2/2$",
+        "$R/(\\alpha t)$",
+        "$\\alpha t/R$",
+        "$\\alpha Rt$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Starting from rest, $\\omega=\\alpha t$. Therefore $v=R\\omega=\\alpha Rt$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Rotational Motion"
+    },
+    {
+      "id": "jee_phy_574",
+      "question": "A body of mass $m$ is attached to a vertical spring of constant $k$. Its equilibrium extension is:",
+      "imageUrl": "",
+      "options": [
+        "$k/mg$",
+        "$mg/k$",
+        "$mgk$",
+        "$g/k$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At equilibrium $kx=mg$, so $x=mg/k$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Properties of Solids"
+    },
+    {
+      "id": "jee_phy_575",
+      "question": "Two identical resistors are connected first in series and then in parallel across the same battery. The ratio of power in series to power in parallel is:",
+      "imageUrl": "",
+      "options": [
+        "$2:1$",
+        "$1:4$",
+        "$1:2$",
+        "$4:1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Equivalent resistances are $2R$ and $R/2$. Since $P=V^2/R$, the ratio is $1:4$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "jee_chem_576",
+      "question": "For a buffer containing equal concentrations of a weak acid HA and its salt NaA, the pH is:",
+      "imageUrl": "",
+      "options": [
+        "$2pK_a$",
+        "$pK_b$",
+        "$7$",
+        "$pK_a$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Henderson-Hasselbalch gives $pH=pK_a+\\log([A^-]/[HA])=pK_a$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Equilibrium - Ionic Equilibrium"
+    },
+    {
+      "id": "jee_chem_577",
+      "question": "For $Ag_2CrO_4\\rightleftharpoons2Ag^++CrO_4^{2-}$, if molar solubility is $s$, then:",
+      "imageUrl": "",
+      "options": [
+        "$K_{sp}=s^2$",
+        "$K_{sp}=2s^2$",
+        "$K_{sp}=4s^3$",
+        "$K_{sp}=s^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$K_{sp}=(2s)^2(s)=4s^3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Equilibrium - Solubility"
+    },
+    {
+      "id": "jee_chem_578",
+      "question": "A first-order reaction has $k=0.0693\\,min^{-1}$. Its half-life is:",
+      "imageUrl": "",
+      "options": [
+        "$100$ min",
+        "$20$ min",
+        "$10$ min",
+        "$5$ min"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$t_{1/2}=0.693/k=10$ min.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_579",
+      "question": "For rate law $r=k[A]^2[B]$, the overall order is:",
+      "imageUrl": "",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Overall order is $2+1=3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "jee_chem_580",
+      "question": "A galvanic cell has positive $E^\\circ_{cell}$ when:",
+      "imageUrl": "",
+      "options": [
+        "$K=0$",
+        "$\\Delta G^\\circ>0$",
+        "$\\Delta G^\\circ<0$",
+        "$\\Delta G^\\circ=0$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\Delta G^\\circ=-nFE^\\circ_{cell}$, so positive cell potential corresponds to negative standard Gibbs energy.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_581",
+      "question": "At 298 K, for a one-electron cell with $E^\\circ_{cell}=0.0591$ V, the equilibrium constant is:",
+      "imageUrl": "",
+      "options": [
+        "$1000$",
+        "$100$",
+        "$10$",
+        "$1$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$E^\\circ=(0.0591/n)\\log K$. With $n=1$, $\\log K=1$, hence $K=10$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "jee_chem_582",
+      "question": "The oxidation state of chromium in $K_2Cr_2O_7$ is:",
+      "imageUrl": "",
+      "options": [
+        "$+7$",
+        "$+5$",
+        "$+3$",
+        "$+6$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$2(+1)+2x+7(-2)=0$ gives $x=+6$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "jee_chem_583",
+      "question": "Which molecule has the largest bond angle?",
+      "imageUrl": "",
+      "options": [
+        "$NH_3$",
+        "$CH_4$",
+        "$BF_3$",
+        "$H_2O$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$BF_3$ is trigonal planar with $120^\\circ$ bond angles.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding & Molecular Structure"
+    },
+    {
+      "id": "jee_chem_584",
+      "question": "The molecular shape of $XeF_4$ is:",
+      "imageUrl": "",
+      "options": [
+        "Tetrahedral",
+        "Square planar",
+        "Trigonal bipyramidal",
+        "See-saw"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Six electron domains occur around Xe; two lone pairs occupy opposite positions, giving square-planar molecular geometry.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding & Molecular Structure"
+    },
+    {
+      "id": "jee_chem_585",
+      "question": "Which species has the highest bond order?",
+      "imageUrl": "",
+      "options": [
+        "$O_2^+$",
+        "$O_2^-$",
+        "$O_2$",
+        "$O_2^{2-}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Removing one antibonding electron from O2 raises bond order from 2 to 2.5 in $O_2^+$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding & Molecular Structure"
+    },
+    {
+      "id": "jee_chem_586",
+      "question": "Among these, the strongest acid in water is:",
+      "imageUrl": "",
+      "options": [
+        "$ClCH_2COOH$",
+        "$Cl_3CCOOH$",
+        "$CH_3COOH$",
+        "$Cl_2CHCOOH$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The -I effect of chlorine stabilizes the conjugate base; three Cl atoms give the strongest acid.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "General Organic Chemistry"
+    },
+    {
+      "id": "jee_chem_587",
+      "question": "The major product of dehydration of 3-methyl-2-butanol is:",
+      "imageUrl": "",
+      "options": [
+        "2-methylbutane",
+        "2-methyl-1-butene",
+        "2-methyl-2-butene",
+        "3-methyl-1-butene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acid-catalyzed dehydration predominantly gives the Zaitsev alkene, 2-methyl-2-butene.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_588",
+      "question": "Which reagent converts a primary alcohol to an aldehyde without significant over-oxidation?",
+      "imageUrl": "",
+      "options": [
+        "PCC",
+        "$LiAlH_4$",
+        "$K_2Cr_2O_7/H^+$",
+        "$KMnO_4$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PCC is a mild oxidant that stops primary alcohol oxidation at the aldehyde stage.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_589",
+      "question": "The major product of phenol with bromine water is:",
+      "imageUrl": "",
+      "options": [
+        "2,4,6-tribromophenol",
+        "Bromobenzene",
+        "No reaction",
+        "p-bromophenol only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The strongly activating -OH group directs bromination to both ortho and para positions, giving 2,4,6-tribromophenol.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Alcohols, Phenols & Ethers"
+    },
+    {
+      "id": "jee_chem_590",
+      "question": "Aniline is less basic than cyclohexylamine mainly because:",
+      "imageUrl": "",
+      "options": [
+        "Cyclohexylamine has no lone pair",
+        "Nitrogen in aniline is sp3",
+        "Its lone pair is delocalized into the benzene ring",
+        "Aniline is ionic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resonance delocalization makes the nitrogen lone pair in aniline less available for protonation.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "jee_chem_591",
+      "question": "The number of stereoisomers of 2,3-dibromopentane is:",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "There are two stereogenic centers and no internal plane of symmetry, giving $2^2=4$ stereoisomers.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Organic Chemistry - Isomerism"
+    },
+    {
+      "id": "jee_chem_592",
+      "question": "Which reagent enables anti-Markovnikov addition of HBr to an alkene?",
+      "imageUrl": "",
+      "options": [
+        "Peroxide ($ROOR$)",
+        "$Hg(OAc)_2$",
+        "$H_2SO_4$",
+        "$Br_2/CCl_4$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Peroxide initiates a radical chain mechanism for anti-Markovnikov addition of HBr.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "jee_chem_593",
+      "question": "Ozonolysis of 2-methylpropene followed by reductive work-up gives:",
+      "imageUrl": "",
+      "options": [
+        "Acetic acid only",
+        "Propanone only",
+        "Methanol + CO",
+        "Acetone + formaldehyde"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cleavage of $CH_2=C(CH_3)_2$ produces $HCHO$ and acetone.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "jee_chem_594",
+      "question": "In $[Fe(CN)_6]^{4-}$, the oxidation state of Fe and number of unpaired electrons are:",
+      "imageUrl": "",
+      "options": [
+        "+2, 2",
+        "+2, 0",
+        "+3, 1",
+        "+4, 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fe is +2. It is d6 and CN- is strong-field, giving low-spin $t_{2g}^6$ with zero unpaired electrons.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "jee_chem_595",
+      "question": "The geometry of $[PtCl_4]^{2-}$ is generally:",
+      "imageUrl": "",
+      "options": [
+        "Trigonal planar",
+        "Octahedral",
+        "Tetrahedral",
+        "Square planar"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pt(II) is d8 and commonly adopts square-planar geometry.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "jee_chem_596",
+      "question": "Which has the greatest lattice enthalpy magnitude?",
+      "imageUrl": "",
+      "options": [
+        "CaO",
+        "NaCl",
+        "KCl",
+        "MgO"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The 2+/2- ionic charges in MgO produce much stronger electrostatic attraction than the 1+/1- salts.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Chemical Bonding & Molecular Structure"
+    },
+    {
+      "id": "jee_chem_597",
+      "question": "For an ideal solution, the enthalpy of mixing is:",
+      "imageUrl": "",
+      "options": [
+        "Infinite",
+        "Positive",
+        "Zero",
+        "Negative"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, an ideal solution has $\\Delta H_{mix}=0$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_598",
+      "question": "A non-volatile solute raises the boiling point because it:",
+      "imageUrl": "",
+      "options": [
+        "Increases vapour pressure",
+        "Makes surface tension zero",
+        "Decreases molar mass",
+        "Decreases vapour pressure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The solute lowers solvent vapour pressure, requiring a higher temperature to reach external pressure.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_599",
+      "question": "The van't Hoff factor for complete dissociation of $Al_2(SO_4)_3$ is:",
+      "imageUrl": "",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Complete dissociation gives 2 Al3+ and 3 sulfate ions, i.e. 5 particles.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "jee_chem_600",
+      "question": "Among Na, Mg, Al and Si, the highest first ionization enthalpy is for:",
+      "imageUrl": "",
+      "options": [
+        "Al",
+        "Na",
+        "Mg",
+        "Si"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Across Period 3, Si has the highest first ionization enthalpy among these four.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Periodic Table & Periodicity"
+    },
+    {
+      "id": "jee_math_601",
+      "question": "If $z$ satisfies $|z-2|=|z+2|$, the locus of $z=x+iy$ is:",
+      "imageUrl": "",
+      "options": [
+        "$x=0$",
+        "$y=0$",
+        "$x=2$",
+        "$y=2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The locus is the perpendicular bisector of $(2,0)$ and $(-2,0)$, hence $x=0$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_602",
+      "question": "The number of roots of $z^4=16$ lying on the real axis is:",
+      "imageUrl": "",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The four roots have modulus 2; the real ones are $2$ and $-2$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_603",
+      "question": "The coefficient of $x^5$ in $(1+x)^9(1-x)^5$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-20$",
+        "$-30$",
+        "$-36$",
+        "$20$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rewrite as $(1+x)^4(1-x^2)^5$. The $x^5$ term comes from $4x^3(-5x^2)$, giving $-20$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Binomial Theorem"
+    },
+    {
+      "id": "jee_math_604",
+      "question": "If the roots of $x^2-2(a+1)x+a^2+1=0$ are equal, then $a$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "$-1$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Discriminant $=4[(a+1)^2-(a^2+1)]=8a$. Equal roots require it to be zero, so $a=0$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_605",
+      "question": "The determinant of a square matrix with two identical rows is:",
+      "imageUrl": "",
+      "options": [
+        "Cannot be determined",
+        "$1$",
+        "$0$",
+        "$-1$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A determinant is zero whenever two rows or two columns are identical.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_606",
+      "question": "If $A^2=A$, the possible eigenvalues of $A$ are:",
+      "imageUrl": "",
+      "options": [
+        "$0$ and $1$",
+        "Only 0",
+        "Only 1",
+        "$-1$ and $1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an eigenvalue $\\lambda$, $\\lambda^2=\\lambda$, hence $\\lambda=0$ or 1.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Matrices & Determinants"
+    },
+    {
+      "id": "jee_math_607",
+      "question": "The maximum value of $x/(1+x^2)$ for real $x$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1/4$",
+        "$1$",
+        "$2$",
+        "$1/2$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For $x>0$, $1+x^2\\ge2x$, so the ratio is at most $1/2$, attained at $x=1$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Functions & Inequalities"
+    },
+    {
+      "id": "jee_math_608",
+      "question": "For $f(x)=x^3-3x$, the number of local extrema is:",
+      "imageUrl": "",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$f'(x)=3(x^2-1)$ has critical points $x=\\pm1$, and the derivative changes sign at both.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Applications of Derivatives"
+    },
+    {
+      "id": "jee_math_609",
+      "question": "The area under $y=\\sqrt{x}$ from $0$ to $4$ is:",
+      "imageUrl": "",
+      "options": [
+        "$32/3$",
+        "$16/3$",
+        "$4$",
+        "$8/3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\int_0^4x^{1/2}dx=\\frac23(4^{3/2})=16/3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Integral Calculus"
+    },
+    {
+      "id": "jee_math_610",
+      "question": "The value of $\\int_0^{\\pi/2}\\sin^3x\\,dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2/3$",
+        "$1/3$",
+        "$1$",
+        "$4/3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using $\\sin^3x=\\sin x(1-\\cos^2x)$ gives $\\int_0^1(1-u^2)du=2/3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Integral Calculus"
+    },
+    {
+      "id": "jee_math_611",
+      "question": "The limit $\\lim_{x\\to0}(\\sin x-x\\cos x)/x^3$ equals:",
+      "imageUrl": "",
+      "options": [
+        "$1/6$",
+        "$1/3$",
+        "$1/2$",
+        "$2/3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expansions give $\\sin x=x-x^3/6+\\cdots$ and $x\\cos x=x-x^3/2+\\cdots$, so the difference divided by $x^3$ tends to $1/3$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Limit, Continuity & Differentiability"
+    },
+    {
+      "id": "jee_math_612",
+      "question": "The general solution of $dy/dx=y/x$ for $x\\ne0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$y=x+C$",
+        "$y=C/x$",
+        "$y=Ce^x$",
+        "$y=Cx$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Separating gives $dy/y=dx/x$, hence $\\ln|y|=\\ln|x|+C$ and $y=Cx$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Differential Equations"
+    },
+    {
+      "id": "jee_math_613",
+      "question": "The solution of $dy/dx+y=e^x$ satisfying $y(0)=0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac12(e^x-e^{-x})$",
+        "$xe^x$",
+        "$e^x-1$",
+        "$\\frac12(e^x+e^{-x})$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The integrating factor is $e^x$. Thus $(ye^x)'=e^{2x}$, giving $y=\\frac12(e^x-e^{-x})$ after applying $y(0)=0$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Differential Equations"
+    },
+    {
+      "id": "jee_math_614",
+      "question": "The distance of $(2,-3)$ from the line $3x-4y+5=0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3$",
+        "$4$",
+        "$5$",
+        "$23/5$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Distance is $|3(2)-4(-3)+5|/\\sqrt{9+16}=23/5$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Coordinate Geometry"
+    },
+    {
+      "id": "jee_math_615",
+      "question": "The circle passing through the origin and having centre $(3,4)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$x^2+y^2-6x-8y=0$",
+        "$x^2+y^2=25$",
+        "$x^2+y^2+6x+8y=0$",
+        "$x^2+y^2-3x-4y=0$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radius squared is $25$. Expanding $(x-3)^2+(y-4)^2=25$ gives the stated equation.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Circles"
+    },
+    {
+      "id": "jee_math_616",
+      "question": "The length of the tangent from $(5,0)$ to the circle $x^2+y^2=9$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{34}$",
+        "$2$",
+        "$4$",
+        "$3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tangent length is $\\sqrt{5^2-3^2}=4$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Circles"
+    },
+    {
+      "id": "jee_math_617",
+      "question": "The eccentricity of $x^2/25+y^2/9=1$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3/5$",
+        "$5/3$",
+        "$4/5$",
+        "$9/25$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Here $a=5,b=3,c=4$, so $e=c/a=4/5$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Conic Sections"
+    },
+    {
+      "id": "jee_math_618",
+      "question": "The tangent to $x^2+y^2=25$ at $(3,4)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$x+y=7$",
+        "$3x-4y=25$",
+        "$4x+3y=25$",
+        "$3x+4y=25$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The tangent formula is $xx_1+yy_1=r^2$, hence $3x+4y=25$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Coordinate Geometry"
+    },
+    {
+      "id": "jee_math_619",
+      "question": "If $\\vec a=(1,2,2)$ and $\\vec b=(2,-1,1)$, then $|\\vec a\\times\\vec b|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$7$",
+        "$\\sqrt{35}$",
+        "$5$",
+        "$5\\sqrt2$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\vec a\\times\\vec b=(4,3,-5)$, whose magnitude is $\\sqrt{16+9+25}=5\\sqrt2$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Vector Algebra"
+    },
+    {
+      "id": "jee_math_620",
+      "question": "The angle between vectors $(1,1,0)$ and $(1,0,1)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$90^\\circ$",
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$45^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dot product is 1 and both magnitudes are $\\sqrt2$, so $\\cos\\theta=1/2$ and $\\theta=60^\\circ$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Vector Algebra"
+    },
+    {
+      "id": "jee_math_621",
+      "question": "A fair die is thrown twice. The probability that the sum is a prime number is:",
+      "imageUrl": "",
+      "options": [
+        "$5/12$",
+        "$7/18$",
+        "$1/2$",
+        "$13/36$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Prime sums 2,3,5,7,11 have respectively 1,2,4,6,2 outcomes: 15 out of 36, giving $5/12$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Probability"
+    },
+    {
+      "id": "jee_math_622",
+      "question": "From five distinct letter types $A,B,C,D,E$, the number of ways of selecting exactly three distinct letters is:",
+      "imageUrl": "",
+      "options": [
+        "$5$",
+        "$20$",
+        "$15$",
+        "$10$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The number of selections is $\\binom53=10$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Permutations & Combinations"
+    },
+    {
+      "id": "jee_math_623",
+      "question": "The coefficient of variation for a dataset with mean 20 and standard deviation 4 is:",
+      "imageUrl": "",
+      "options": [
+        "$5\\%$",
+        "$20\\%$",
+        "$80\\%$",
+        "$25\\%$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CV $=(4/20)\\times100=20\\%$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_624",
+      "question": "If $Var(X)=9$, then $Var(5X-7)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$9$",
+        "$225$",
+        "$18$",
+        "$25$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$Var(aX+b)=a^2Var(X)$, so $25\\times9=225$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "jee_math_625",
+      "question": "The number of onto functions from a 3-element set to a 2-element set is:",
+      "imageUrl": "",
+      "options": [
+        "$4$",
+        "$6$",
+        "$8$",
+        "$9$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are $2^3=8$ total functions and 2 constant non-onto functions, so $8-2=6$.",
+      "difficulty": "very-hard",
+      "year": "JEE Main Level",
+      "topicTag": "Relations & Functions"
+    }
+  ]
+}
