@@ -1,0 +1,317 @@
+<section class="independence-banner">
+
+    <div class="independence-content">
+
+        <div class="independence-flag">
+            🇮🇳
+        </div>
+
+        <div class="independence-text">
+
+            <span class="coming-badge">
+                COMING SOON ON 15 AUGUST 🇮🇳
+            </span>
+
+            <h2>
+                15 August Mega Quiz 2026
+            </h2>
+
+            <p>
+                Get ready for a special Independence Day Quiz,
+                important GK questions & latest updates.
+            </p>
+
+            <div class="independence-buttons">
+
+                <a href="/gk/15-august-mega-quiz-2026.html"
+                   class="quiz-btn">
+                    🎯 Mega Quiz
+                </a>
+
+                <a href="https://t.me/selectionpro1"
+                   target="_blank"
+                   rel="noopener"
+                   class="telegram-btn">
+                    ✈️ Join Telegram
+                </a>
+
+                <button
+                    class="notify-btn"
+                    onclick="subscribeForUpdates()">
+                    🔔 Get Notifications
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<style>
+
+/*======================================
+    15 AUGUST BANNER
+======================================*/
+
+.independence-banner{
+    width:94%;
+    max-width:1100px;
+    margin:25px auto;
+    padding:3px;
+    border-radius:18px;
+
+    background:linear-gradient(
+        135deg,
+        #ff7a18,
+        #ffffff,
+        #138808
+    );
+
+    box-shadow:0 8px 30px rgba(0,0,0,.12);
+}
+
+.independence-content{
+    background:#fff;
+    border-radius:16px;
+    padding:24px 28px;
+
+    display:flex;
+    align-items:center;
+    gap:25px;
+
+    position:relative;
+    overflow:hidden;
+}
+
+/* Decorative circles */
+
+.independence-content::before{
+    content:"";
+    position:absolute;
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    background:rgba(255,122,24,.07);
+    right:-45px;
+    top:-45px;
+}
+
+.independence-content::after{
+    content:"";
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:rgba(19,136,8,.06);
+    left:-35px;
+    bottom:-45px;
+}
+
+
+/* Flag */
+
+.independence-flag{
+    min-width:85px;
+    height:85px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#fff7ed;
+
+    font-size:48px;
+
+    box-shadow:
+    0 5px 18px rgba(255,122,24,.15);
+}
+
+
+/* Text */
+
+.independence-text{
+    flex:1;
+    position:relative;
+    z-index:2;
+}
+
+.coming-badge{
+    display:inline-block;
+
+    background:#fff0e6;
+    color:#e85d04;
+
+    padding:5px 11px;
+
+    border-radius:20px;
+
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:.5px;
+
+    margin-bottom:7px;
+}
+
+.independence-text h2{
+    font-size:25px;
+    font-weight:800;
+    color:#222;
+    margin-bottom:5px;
+}
+
+.independence-text p{
+    font-size:13px;
+    color:#666;
+    margin-bottom:15px;
+}
+
+
+/* Buttons */
+
+.independence-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:9px;
+}
+
+.independence-buttons a,
+.independence-buttons button{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-height:40px;
+
+    padding:9px 15px;
+
+    border:none;
+    border-radius:9px;
+
+    font-family:'Poppins',sans-serif;
+    font-size:12px;
+    font-weight:700;
+
+    text-decoration:none;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.quiz-btn{
+    background:#ff7a18;
+    color:#fff;
+}
+
+.quiz-btn:hover{
+    background:#e85d04;
+    transform:translateY(-2px);
+}
+
+.telegram-btn{
+    background:#229ed9;
+    color:#fff;
+}
+
+.telegram-btn:hover{
+    background:#168ac0;
+    transform:translateY(-2px);
+}
+
+.notify-btn{
+    background:#138808;
+    color:#fff;
+}
+
+.notify-btn:hover{
+    background:#0b7005;
+    transform:translateY(-2px);
+}
+
+
+/*======================================
+    MOBILE
+======================================*/
+
+@media(max-width:600px){
+
+    .independence-banner{
+        width:94%;
+        margin:18px auto;
+    }
+
+    .independence-content{
+        padding:20px 16px;
+        gap:14px;
+        align-items:flex-start;
+    }
+
+    .independence-flag{
+        min-width:48px;
+        width:48px;
+        height:48px;
+        font-size:27px;
+    }
+
+    .independence-text h2{
+        font-size:18px;
+        line-height:1.35;
+    }
+
+    .independence-text p{
+        font-size:11px;
+        line-height:1.6;
+    }
+
+    .coming-badge{
+        font-size:9px;
+        padding:4px 8px;
+    }
+
+    .independence-buttons{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:7px;
+    }
+
+    .independence-buttons a,
+    .independence-buttons button{
+        width:100%;
+        min-height:38px;
+        font-size:11px;
+    }
+
+}
+
+</style>
+
+<script>
+async function subscribeForUpdates(){
+
+    try{
+
+        if(typeof OneSignal === "undefined"){
+            alert("Notifications are loading. Please try again.");
+            return;
+        }
+
+        await OneSignal.User.PushSubscription.optIn();
+
+        alert("🔔 Notifications enabled successfully!");
+
+    }catch(error){
+
+        console.log("OneSignal error:", error);
+
+        alert("Please allow notifications from your browser.");
+
+    }
+
+}
+</script>
