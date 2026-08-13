@@ -356,4 +356,10 @@
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
+          <url>
+       <loc>https://selectionpro.in/scholarship/pm-usp-scholarship.html</loc>
+       <lastmod>2026-08-13T11:00:00+05:30</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
 </urlset>
