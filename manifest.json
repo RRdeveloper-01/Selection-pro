@@ -1,7 +1,7 @@
 {
   "name": "Selection Pro - Competitive Exam Preparation",
   "short_name": "Selection Pro",
-  "description": "Selection Pro provides current affairs, previous year questions, mock tests, scholarships, exam updates and study resources for competitive exams.",
+  "description": "Current Affairs, Previous Year Questions, Mock Tests, Scholarships and exam updates for competitive exams.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

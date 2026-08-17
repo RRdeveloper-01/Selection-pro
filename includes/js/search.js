@@ -1,25 +1,3 @@
-//install banner includes//
-fetch("/includes/install.html")
-  .then(response => response.text())
-  .then(data => {
-
-    const footer = document.getElementById("install");
-
-    if (footer) {
-      footer.innerHTML = data;
-    }
-
-  })
-  .catch(error => {
-
-    console.error(
-      "install banner loading failed:",
-      error
-    );
-
-  });
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
     const overlay = document.getElementById('search-overlay');

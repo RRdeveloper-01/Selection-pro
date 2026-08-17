@@ -16,9 +16,11 @@ const STATIC_ASSETS = [
 self.addEventListener("install", event => {
 
   event.waitUntil(
+
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(STATIC_ASSETS))
       .then(() => self.skipWaiting())
+
   );
 
 });
@@ -57,16 +59,15 @@ self.addEventListener("fetch", event => {
 
   const request = event.request;
 
-  /* Only handle GET requests */
   if (request.method !== "GET") {
     return;
   }
 
-  /*
-     HTML pages:
-     Network first so that new Current Affairs
-     and other updates appear immediately.
-  */
+
+  /* ==============================
+     HTML PAGES
+     Network First
+  ============================== */
 
   if (request.mode === "navigate") {
 
@@ -90,7 +91,8 @@ self.addEventListener("fetch", event => {
           return caches.match(request)
             .then(cachedResponse => {
 
-              return cachedResponse || caches.match("/index.html");
+              return cachedResponse ||
+                     caches.match("/index.html");
 
             });
 
@@ -102,10 +104,10 @@ self.addEventListener("fetch", event => {
   }
 
 
-  /*
-     CSS, JS, images and other files:
-     Cache first for faster loading.
-  */
+  /* ==============================
+     CSS / JS / IMAGES
+     Cache First
+  ============================== */
 
   event.respondWith(
 
