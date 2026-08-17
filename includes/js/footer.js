@@ -257,3 +257,6 @@ window.addEventListener(
 
   }
 );
+if (installBanner) {
+    installBanner.style.display = "flex";
+}
