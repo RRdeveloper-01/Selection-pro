@@ -237,16 +237,4 @@ function initializePwaInstall() {
 
 }
 
-
-/* ======================================
-   WAIT FOR PWA HTML
-====================================== */
-
-document.addEventListener(
-  "pwaBannerReady",
-  function () {
-
-    initializePwaInstall();
-
-  }
-);
+initializePwaInstall();
