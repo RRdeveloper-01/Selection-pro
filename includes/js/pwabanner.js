@@ -1,28 +1,44 @@
+/* ======================================
+   PWA BANNER INCLUDE
+====================================== */
+
 fetch("/includes/pwa.html")
   .then(response => {
+
     if (!response.ok) {
-      throw new Error("PWA banner failed to load");
+      throw new Error(
+        "Banner file not found: " + response.status
+      );
     }
 
     return response.text();
+
   })
   .then(data => {
 
-    const pwa = document.getElementById("pwa");
+    const bannerContainer =
+      document.getElementById("pwa");
 
-    if (!pwa) {
-      console.error("#pwa element not found");
-      return;
+    if (bannerContainer) {
+
+      bannerContainer.innerHTML = data;
+
+      console.log("PWA banner loaded successfully.");
+
+    } else {
+
+      console.error(
+        "Element #pwaBanner not found."
+      );
+
     }
-
-    pwa.innerHTML = data;
-
-    // Tell pwa.js that banner HTML is ready
-    document.dispatchEvent(
-      new Event("pwaBannerReady")
-    );
 
   })
   .catch(error => {
-    console.error("PWA banner loading error:", error);
+
+    console.error(
+      "PWA banner loading failed:",
+      error
+    );
+
   });
