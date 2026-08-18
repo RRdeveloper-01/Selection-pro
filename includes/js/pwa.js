@@ -1,5 +1,5 @@
 /* ======================================
-   SERVICE WORKER / PWA
+   SERVICE WORKER
 ====================================== */
 
 if ("serviceWorker" in navigator) {
@@ -8,7 +8,6 @@ if ("serviceWorker" in navigator) {
 
     navigator.serviceWorker
       .register("/service-worker.js")
-
       .then(function (registration) {
 
         console.log(
@@ -17,11 +16,10 @@ if ("serviceWorker" in navigator) {
         );
 
       })
-
       .catch(function (error) {
 
         console.error(
-          "Selection Pro Service Worker registration failed:",
+          "Service Worker registration failed:",
           error
         );
 
@@ -34,33 +32,37 @@ if ("serviceWorker" in navigator) {
 
 
 /* ======================================
-   PWA INSTALL PROMPT
+   PWA INSTALL
 ====================================== */
 
 let deferredInstallPrompt = null;
 
 
-/* Get banner elements */
+function getPwaElements() {
 
-const installBanner =
-  document.getElementById("pwaInstallBanner");
+  return {
 
-const installButton =
-  document.getElementById("pwaInstallBtn");
+    banner:
+      document.getElementById("pwaInstallBanner"),
 
-const closeButton =
-  document.getElementById("pwaCloseBtn");
+    installButton:
+      document.getElementById("pwaInstallBtn"),
+
+    closeButton:
+      document.getElementById("pwaCloseBtn")
+
+  };
+
+}
 
 
-
-/* ======================================
-   CHECK IF APP IS ALREADY INSTALLED
-====================================== */
-
-function isPWAInstalled() {
+function isPwaInstalled() {
 
   return (
-    window.matchMedia("(display-mode: standalone)").matches ||
+    window.matchMedia(
+      "(display-mode: standalone)"
+    ).matches ||
+
     window.navigator.standalone === true
   );
 
@@ -69,48 +71,31 @@ function isPWAInstalled() {
 
 
 /* ======================================
-   BROWSER INSTALL EVENT
+   INSTALL PROMPT
 ====================================== */
 
 window.addEventListener(
   "beforeinstallprompt",
   function (event) {
 
-    /*
-       Prevent browser from showing
-       its automatic prompt immediately.
-    */
-
     event.preventDefault();
-
-
-    /*
-       Save the event so our custom
-       Install App button can use it.
-    */
 
     deferredInstallPrompt = event;
 
+    const elements = getPwaElements();
 
-    /*
-       Don't show banner if app
-       is already installed.
-    */
+    if (
+      elements.banner &&
+      !isPwaInstalled()
+    ) {
 
-    if (isPWAInstalled()) {
-      return;
-    }
-
-
-    /*
-       Show our custom banner.
-    */
-
-    if (installBanner) {
-
-      installBanner.style.display = "flex";
+      elements.banner.style.display = "flex";
 
     }
+
+    console.log(
+      "Selection Pro install prompt available."
+    );
 
   }
 );
@@ -121,16 +106,22 @@ window.addEventListener(
    INSTALL BUTTON
 ====================================== */
 
-if (installButton) {
+document.addEventListener(
+  "click",
+  async function (event) {
 
-  installButton.addEventListener(
-    "click",
-    async function () {
+    if (
+      event.target &&
+      event.target.id === "pwaInstallBtn"
+    ) {
+
+      const elements = getPwaElements();
+
 
       if (!deferredInstallPrompt) {
 
-        console.log(
-          "PWA installation is not currently available."
+        alert(
+          "Install option is not available right now. Please use your browser's Install option from the menu."
         );
 
         return;
@@ -138,72 +129,58 @@ if (installButton) {
       }
 
 
-      /*
-         Show official browser
-         installation dialog.
-      */
-
       deferredInstallPrompt.prompt();
 
-
-      /*
-         Wait for user's choice.
-      */
 
       const result =
         await deferredInstallPrompt.userChoice;
 
 
       console.log(
-        "Selection Pro installation:",
+        "Installation result:",
         result.outcome
       );
 
 
-      /*
-         Clear saved prompt.
-      */
-
       deferredInstallPrompt = null;
 
 
-      /*
-         Hide banner.
-      */
+      if (elements.banner) {
 
-      if (installBanner) {
-
-        installBanner.style.display = "none";
+        elements.banner.style.display = "none";
 
       }
 
     }
-  );
 
-}
+  }
+);
 
 
 
 /* ======================================
-   CLOSE BUTTON
+   CLOSE BANNER
 ====================================== */
 
-if (closeButton) {
+document.addEventListener(
+  "click",
+  function (event) {
 
-  closeButton.addEventListener(
-    "click",
-    function () {
+    if (
+      event.target &&
+      event.target.id === "pwaCloseBtn"
+    ) {
 
-      if (installBanner) {
+      const elements = getPwaElements();
 
-        installBanner.style.display = "none";
-
+      if (elements.banner) {
+        elements.banner.style.display = "none";
       }
 
     }
-  );
 
-}
+  }
+);
 
 
 
@@ -216,17 +193,15 @@ window.addEventListener(
   function () {
 
     console.log(
-      "Selection Pro PWA installed successfully."
+      "Selection Pro installed successfully."
     );
-
 
     deferredInstallPrompt = null;
 
+    const elements = getPwaElements();
 
-    if (installBanner) {
-
-      installBanner.style.display = "none";
-
+    if (elements.banner) {
+      elements.banner.style.display = "none";
     }
 
   }
