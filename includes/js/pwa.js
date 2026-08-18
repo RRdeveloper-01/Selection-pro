@@ -35,8 +35,7 @@ if ("serviceWorker" in navigator) {
    PWA INSTALL
 ====================================== */
 
-let deferredInstallPrompt = null;
-
+window.deferredInstallPrompt = null;
 
 function getPwaElements() {
 
@@ -80,7 +79,7 @@ window.addEventListener(
 
     event.preventDefault();
 
-    deferredInstallPrompt = event;
+    window.deferredInstallPrompt = event;
 
     const elements = getPwaElements();
 
@@ -118,7 +117,7 @@ document.addEventListener(
       const elements = getPwaElements();
 
 
-      if (!deferredInstallPrompt) {
+      if (!window.deferredInstallPrompt) {
 
         alert(
           "Install option is not available right now. Please use your browser's Install option from the menu."
@@ -129,11 +128,11 @@ document.addEventListener(
       }
 
 
-      deferredInstallPrompt.prompt();
+      window.deferredInstallPrompt.prompt();
 
 
       const result =
-        await deferredInstallPrompt.userChoice;
+        await window.deferredInstallPrompt.userChoice;
 
 
       console.log(
@@ -142,7 +141,7 @@ document.addEventListener(
       );
 
 
-      deferredInstallPrompt = null;
+      window.deferredInstallPrompt = null;
 
 
       if (elements.banner) {
@@ -196,7 +195,7 @@ window.addEventListener(
       "Selection Pro installed successfully."
     );
 
-    deferredInstallPrompt = null;
+    window.deferredInstallPrompt = null;
 
     const elements = getPwaElements();
 
