@@ -1,8 +1,4 @@
 .telegram-float{
-    position:fixed;
-    right:15px;
-    bottom:90px;
-    z-index:9999;
     display:flex;
     align-items:center;
     gap:8px;
@@ -14,33 +10,22 @@
     font-family:Arial,sans-serif;
     font-size:15px;
     font-weight:600;
-    box-shadow:0 5px 15px rgba(0,0,0,.25);
-    animation:bounce 2s infinite;
-    transition:.3s;
+    
 }
 
 .telegram-float:hover{
     transform:scale(1.08);
 }
 
-@keyframes bounce{
-    0%,100%{transform:translateY(0);}
-    50%{transform:translateY(-8px);}
-}
 
 @media(max-width:600px){
     .telegram-float{
-        right:12px;
-        bottom:80px;
         padding:10px 14px;
         font-size:14px;
     }
 }
 /*support button style*/
 .floating-support-btn {
-    position: fixed;
-    bottom: 30px;            /* Niche se distance */
-    right: 20px;             /* Right side me fix rakhne ke liye */
     background-color: #28a745; /* Green Color (Aap badal sakte hain) */
     color: #ffffff;
     padding: 12px 20px;
@@ -53,8 +38,8 @@
     font-size: 15px;
     text-decoration: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-    z-index: 9999;           /* Hamesha sabhi elements ke upar dikhega */
-    transition: all 0.3s ease;
+    
+    
 }
 
 /* Mouse Hover Effect */
