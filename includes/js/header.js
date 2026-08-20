@@ -8,7 +8,7 @@ fetch("/includes/header.html")
   });
   // UPI Payment Functionality
 window.payNow = function(amount) {
-    var upiId = "8957940617@fam";
+    var upiId = "8528568653@slc";
     var name = "Support Us";
     var upiUrl = "upi://pay?pa=" + upiId + "&pn=" + encodeURIComponent(name) + "&am=" + amount + "&cu=INR";
     window.location.href = upiUrl;
