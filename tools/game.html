@@ -11,7 +11,7 @@
      PRIMARY SEO
 ================================ -->
 
-<title>Brain Booster Memory Game | 5-Minute Study Break | Selection Pro</title>
+<title>Brain Booster Memory Game | 5-Minute smart Study Break | Selection Pro</title>
 
 <meta name="description"
 content="Play Selection Pro Brain Booster, a quick memory and focus game designed for a 5-minute study break. Test sequence memory, improve focus and return to your exam preparation.">
@@ -1475,33 +1475,64 @@ your 5-minute brain break.
 </div>
 
 
-<div class="session-options"
-     id="sessionOptions">
+<div class="session-options" id="sessionOptions">
 
-<button class="session-option selected"
+    <button
+        class="session-option selected"
+        onclick="selectSession(30,this)">
+        30 Min
+    </button>
+
+    <button
+        class="session-option"
         onclick="selectSession(60,this)">
+        60 Min
+    </button>
 
-60 Min
-
-</button>
-
-<button class="session-option"
+    <button
+        class="session-option"
         onclick="selectSession(90,this)">
+        90 Min
+    </button>
 
-90 Min
+    <button
+        class="session-option"
+        onclick="selectSession(120,this)">
+        120 Min
+    </button>
 
-</button>
-
-<button class="session-option"
+    <button
+        class="session-option"
         onclick="selectSession(180,this)">
-
-180 Min
-
-</button>
+        180 Min
+    </button>
 
 </div>
 
+<div style="width:100%;margin-bottom:10px;">
 
+    <input
+        id="customSession"
+        type="number"
+        min="1"
+        max="240"
+        placeholder="Custom minutes (1–240)"
+        style="
+        width:100%;
+        padding:11px;
+        border-radius:11px;
+        border:1px solid rgba(255,255,255,.09);
+        background:rgba(255,255,255,.05);
+        color:#fff;
+        text-align:center;
+        outline:none;
+        font-family:inherit;
+        font-weight:700;
+        "
+        oninput="selectCustomSession(this)"
+    >
+
+</div>
 <button class="btn"
         id="overlayButton"
         onclick="startStudySession()">
@@ -1723,208 +1754,148 @@ Best
      GO STUDY
 ========================================== -->
 
-<section class="go-study"
-         id="goStudy">
+<section class="go-study" id="goStudy">
 
-<h2 class="go-title">
+    <h2 class="go-title" id="resourceTitle">
+        📚 Study Resources
+    </h2>
 
-📚 Break Complete!
+    <p class="go-sub" id="resourceSubtitle">
+        Your study session is active. Use these Selection Pro resources
+        while your timer is running.
+    </p>
 
-</h2>
+    <div class="study-grid">
 
+        <a href="/current-affairs/affairs-hub.html"
+           class="study-card">
 
-<p class="go-sub">
+            <div class="card-icon">📰</div>
 
-Your 5-minute brain break is over.
-Great job — now it's time to get back
-to your preparation.
+            <div class="card-content">
 
-</p>
+                <div class="card-title">
+                    Daily Current Affairs
+                </div>
 
+                <div class="card-desc">
+                    Read latest current affairs, quick revision
+                    and important exam updates.
+                </div>
 
-<div class="study-grid">
+            </div>
 
+            <div class="card-arrow">→</div>
 
-<a href="/current-affairs/affairs-hub.html"
-   class="study-card">
+        </a>
 
-<div class="card-icon">
 
-📰
+        <a href="/exam.html"
+           class="study-card">
 
-</div>
+            <div class="card-icon">📝</div>
 
-<div class="card-content">
+            <div class="card-content">
 
-<div class="card-title">
+                <div class="card-title">
+                    Exam Practice
+                </div>
 
-Daily Current Affairs
+                <div class="card-desc">
+                    Choose your exam and practice with
+                    exam-focused questions.
+                </div>
 
-</div>
+            </div>
 
-<div class="card-desc">
+            <div class="card-arrow">→</div>
 
-Read latest current affairs,
-quick revision and exam updates.
+        </a>
 
-</div>
 
-</div>
+        <a href="/english_mock_test.html"
+           class="study-card">
 
-<div class="card-arrow">
+            <div class="card-icon">🎯</div>
 
-→
+            <div class="card-content">
 
-</div>
+                <div class="card-title">
+                    Mock Tests
+                </div>
 
-</a>
+                <div class="card-desc">
+                    Attempt practice tests and improve
+                    your exam preparation.
+                </div>
 
+            </div>
 
-<a href="/exam.html"
-   class="study-card">
+            <div class="card-arrow">→</div>
 
-<div class="card-icon">
+        </a>
 
-📝
 
-</div>
+        <a href="/blog.html"
+           class="study-card">
 
-<div class="card-content">
+            <div class="card-icon">📚</div>
 
-<div class="card-title">
+            <div class="card-content">
 
-Exam Practice
+                <div class="card-title">
+                    Selection Pro Blog
+                </div>
 
-</div>
+                <div class="card-desc">
+                    Study tips, exam strategies and
+                    useful educational articles.
+                </div>
 
-<div class="card-desc">
+            </div>
 
-Choose your exam and start
-a practice test.
+            <div class="card-arrow">→</div>
 
-</div>
+        </a>
 
-</div>
 
-<div class="card-arrow">
+        <a href="/index.html"
+           class="study-card">
 
-→
+            <div class="card-icon">🏠</div>
 
-</div>
+            <div class="card-content">
 
-</a>
+                <div class="card-title">
+                    Selection Pro Home
+                </div>
 
+                <div class="card-desc">
+                    Explore PYQs, scholarships, exams
+                    and other study resources.
+                </div>
 
-<a href="/blog.html"
-   class="study-card">
+            </div>
 
-<div class="card-icon">
+            <div class="card-arrow">→</div>
 
-📚
+        </a>
 
-</div>
+    </div>
 
-<div class="card-content">
 
-<div class="card-title">
+    <!-- NEW SESSION BUTTON -->
 
-Selection Pro Blog
+    <button
+        class="btn secondary-btn"
+        id="newSessionBtn"
+        onclick="openNewSession()">
 
-</div>
+        ⏱️ Start New Study Session
 
-<div class="card-desc">
-
-Study tips, exam strategies
-and useful educational articles.
-
-</div>
-
-</div>
-
-<div class="card-arrow">
-
-→
-
-</div>
-
-</a>
-
-
-<a href="/english_mock_test.html"
-   class="study-card">
-
-<div class="card-icon">
-
-🎯
-
-</div>
-
-<div class="card-content">
-
-<div class="card-title">
-
-Mock Tests
-
-</div>
-
-<div class="card-desc">
-
-Practice with exam-focused
-mock tests.
-
-</div>
-
-</div>
-
-<div class="card-arrow">
-
-→
-
-</div>
-
-</a>
-
-
-<a href="/index.html"
-   class="study-card">
-
-<div class="card-icon">
-
-🏠
-
-</div>
-
-<div class="card-content">
-
-<div class="card-title">
-
-Selection Pro Home
-
-</div>
-
-<div class="card-desc">
-
-Explore PYQs, exams,
-scholarships and more.
-
-</div>
-
-</div>
-
-<div class="card-arrow">
-
-→
-
-</div>
-
-</a>
-
-
-</div>
+    </button>
 
 </section>
-
-
 <!-- ==========================================
      HOW TO PLAY / SEO CONTENT
 ========================================== -->
@@ -2419,107 +2390,156 @@ return false;
    SESSION SELECT
 ================================================== */
 
-function selectSession(
-minutes,
-button
-){
+function selectSession(minutes, button){
 
-selectedSession = minutes;
+    selectedSession = minutes;
 
-document
-.querySelectorAll(".session-option")
-.forEach(
-btn =>
-btn.classList.remove("selected")
-);
+    const custom =
+        document.getElementById("customSession");
 
-button.classList.add("selected");
+    if(custom){
+        custom.value = "";
+    }
 
-document.getElementById(
-"studyStatus"
-).innerText =
-"📚 "+minutes+
-" Minute Study Session";
+    document
+        .querySelectorAll(".session-option")
+        .forEach(btn =>
+            btn.classList.remove("selected")
+        );
 
-document.getElementById(
-"studyTime"
-).innerText =
-"Focus first. Your break unlocks after "+
-minutes+" minutes.";
+    if(button){
+        button.classList.add("selected");
+    }
+
+    document.getElementById("studyStatus")
+        .innerText =
+        "📚 " + minutes + " Minute Study Session";
+
+    document.getElementById("studyTime")
+        .innerText =
+        "Focus first. Your 5-minute break unlocks after " +
+        minutes + " minutes.";
 
 }
+function selectCustomSession(input){
 
+    let minutes =
+        parseInt(input.value,10);
 
+    if(
+        isNaN(minutes) ||
+        minutes < 1 ||
+        minutes > 240
+    ){
+
+        return;
+
+    }
+
+    selectedSession = minutes;
+
+    document
+        .querySelectorAll(".session-option")
+        .forEach(btn =>
+            btn.classList.remove("selected")
+        );
+
+    document.getElementById("studyStatus")
+        .innerText =
+        "📚 " + minutes + " Minute Study Session";
+
+    document.getElementById("studyTime")
+        .innerText =
+        "Custom study session selected. " +
+        "Your break unlocks after " +
+        minutes + " minutes.";
+
+}
 /* ==================================================
    START STUDY SESSION
 ================================================== */
 
 function startStudySession(){
 
-clearInterval(studyTimer);
+    clearInterval(studyTimer);
+    clearInterval(breakTimer);
+    clearInterval(gameTimer);
 
-clearInterval(breakTimer);
+    selectedSession =
+        selectedSession || 60;
 
-clearInterval(gameTimer);
+    appState = {
 
+        mode:"study",
 
-selectedSession =
-selectedSession || 60;
+        selectedSession:selectedSession,
 
+        studyEndTime:
+            Date.now() +
+            (selectedSession * 60 * 1000),
 
-appState = {
+        breakEndTime:0
 
-mode:"study",
+    };
 
-selectedSession:selectedSession,
+    saveState();
 
-studyEndTime:
-Date.now() +
-(selectedSession * 60 * 1000),
+    requestNotificationPermission();
 
-breakEndTime:0
+    document.getElementById("overlay")
+        .classList.add("hidden");
 
-};
+    document.getElementById("gameArea")
+        .classList.add("locked");
 
+    /*
+       STUDY RESOURCES AB VISIBLE RAHENGE
+    */
 
-saveState();
+    showStudyResources();
 
+    updateStudyTimerFromStorage();
 
-/*
-   Ask notification permission only after
-   user explicitly starts a study session.
-*/
-
-requestNotificationPermission();
-
-
-document.getElementById(
-"overlay"
-).classList.add("hidden");
-
-
-document.getElementById(
-"gameArea"
-).classList.add("locked");
-
-
-document.getElementById(
-"goStudy"
-).classList.remove("show");
-
-
-updateStudyTimerFromStorage();
-
-
-studyTimer =
-setInterval(
-updateStudyTimerFromStorage,
-1000
-);
+    studyTimer =
+        setInterval(
+            updateStudyTimerFromStorage,
+            1000
+        );
 
 }
+/* show study resources */
+function showStudyResources(){
 
+    const section =
+        document.getElementById("goStudy");
 
+    const title =
+        document.getElementById("resourceTitle");
+
+    const subtitle =
+        document.getElementById("resourceSubtitle");
+
+    if(!section) return;
+
+    section.classList.add("show");
+
+    if(title){
+
+        title.innerText =
+            "📚 Study Session Active";
+
+    }
+
+    if(subtitle){
+
+        subtitle.innerText =
+            "Keep studying! Your break will unlock when " +
+            "the selected session is complete. " +
+            "You can use these Selection Pro resources below.";
+
+    }
+
+}
 /* ==================================================
    STUDY TIMER
 ================================================== */
@@ -2573,7 +2593,7 @@ String(minutes).padStart(2,"0")+
 String(seconds).padStart(2,"0")+
 " remaining";
 
-
+showStudyResources();
 if(remaining <= 0){
 
 clearInterval(studyTimer);
@@ -2624,9 +2644,8 @@ document.getElementById(
 ).classList.add("hidden");
 
 
-document.getElementById(
-"goStudy"
-).classList.remove("show");
+document.getElementById("goStudy")
+    .classList.remove("show");
 
 
 document.getElementById(
@@ -2737,80 +2756,149 @@ endBreak();
 
 function endBreak(){
 
-isPlaying = false;
+    isPlaying = false;
+    isDisplaying = false;
 
-isDisplaying = false;
+    clearInterval(gameTimer);
+    clearInterval(breakTimer);
 
+    appState.mode =
+        "break-complete";
 
-clearInterval(gameTimer);
+    appState.breakEndTime = 0;
 
-clearInterval(breakTimer);
+    saveState();
 
+    document.getElementById("gameArea")
+        .classList.add("locked");
 
-appState.mode =
-"break-complete";
+    document.getElementById("breakBox")
+        .classList.remove("show");
 
+    /*
+       Study resources visible rahenge
+       lekin ab heading change hogi.
+    */
 
-appState.breakEndTime = 0;
+    const section =
+        document.getElementById("goStudy");
 
+    const title =
+        document.getElementById("resourceTitle");
 
-saveState();
+    const subtitle =
+        document.getElementById("resourceSubtitle");
 
+    if(section){
 
-document.getElementById(
-"gameArea"
-).classList.add("locked");
+        section.classList.add("show");
 
+    }
 
-document.getElementById(
-"breakBox"
-).classList.remove("show");
+    if(title){
 
+        title.innerText =
+            "📚 Break Complete — Back To Study";
 
-document.getElementById(
-"goStudy"
-).classList.add("show");
+    }
 
+    if(subtitle){
 
-document.getElementById(
-"studyStatus"
-).innerText =
-"📚 Break Complete — Back To Study";
+        subtitle.innerText =
+            "Your 5-minute break is over. " +
+            "Choose a new study session below to unlock " +
+            "your next brain break.";
 
+    }
 
-document.getElementById(
-"studyTime"
-).innerText =
-"Choose a new study session to unlock your next break.";
+    document.getElementById("studyStatus")
+        .innerText =
+        "📚 Break Complete — Back To Study";
 
+    document.getElementById("studyTime")
+        .innerText =
+        "Choose a new study session to continue.";
 
-document.getElementById(
-"modalIcon"
-).innerText = "📚";
+    /*
+       IMPORTANT:
+       Skip / break complete ke baad
+       new session screen directly show karo.
+    */
 
+    showNewSessionScreen();
 
-document.getElementById(
-"modalTitle"
-).innerText =
-"Break Complete";
-
-
-document.getElementById(
-"modalDesc"
-).innerHTML =
-"Your 5-minute brain break is over.<br>"+
-"Time to get back to your studies.";
-
-
-beep(
-300,
-"sine",
-.3
-);
+    beep(
+        300,
+        "sine",
+        .3
+    );
 
 }
+/*new sessions screen */
+function showNewSessionScreen(){
 
+    document.getElementById("modalIcon")
+        .innerText = "📚";
 
+    document.getElementById("modalTitle")
+        .innerText =
+        "Start A New Study Session";
+
+    document.getElementById("modalDesc")
+        .innerHTML =
+        "Your break is complete.<br><br>" +
+        "Choose how long you want to study next. " +
+        "You can select a preset time or enter your own.";
+
+    document.getElementById("sessionOptions")
+        .style.display = "grid";
+
+    const custom =
+        document.getElementById("customSession");
+
+    if(custom){
+        custom.value = "";
+    }
+
+    const button =
+        document.getElementById("overlayButton");
+
+    button.innerText =
+        "📚 Start New Study Session";
+
+    button.onclick =
+        startStudySession;
+
+    document.getElementById("overlay")
+        .classList.remove("hidden");
+
+}
+function openNewSession(){
+
+    clearInterval(studyTimer);
+    clearInterval(breakTimer);
+    clearInterval(gameTimer);
+
+    isPlaying = false;
+    isDisplaying = false;
+
+    appState.mode =
+        "break-complete";
+
+    appState.studyEndTime = 0;
+    appState.breakEndTime = 0;
+
+    saveState();
+
+    document.getElementById("gameArea")
+        .classList.add("locked");
+
+    document.getElementById("breakBox")
+        .classList.remove("show");
+
+    showNewSessionScreen();
+
+}
 /* ==================================================
    GAME START
 ================================================== */
@@ -4130,9 +4218,7 @@ document.getElementById(
 ).classList.add("locked");
 
 
-document.getElementById(
-"goStudy"
-).classList.remove("show");
+showStudyResources();
 
 
 updateStudyTimerFromStorage();
@@ -4233,46 +4319,57 @@ return;
    BREAK COMPLETE
 ------------------------------------------------ */
 
-if(
-appState.mode === "break-complete"
-){
+if(appState.mode === "break-complete"){
 
-document.getElementById(
-"overlay"
-).classList.add("hidden");
+    document.getElementById("overlay")
+        .classList.add("hidden");
 
+    document.getElementById("gameArea")
+        .classList.add("locked");
 
-document.getElementById(
-"gameArea"
-).classList.add("locked");
+    document.getElementById("breakBox")
+        .classList.remove("show");
 
+    document.getElementById("studyStatus")
+        .innerText =
+        "📚 Break Complete — Back To Study";
 
-document.getElementById(
-"breakBox"
-).classList.remove("show");
+    document.getElementById("studyTime")
+        .innerText =
+        "Choose a new study session to continue.";
 
+    /*
+       Resources visible
+    */
 
-document.getElementById(
-"goStudy"
-).classList.add("show");
+    const section =
+        document.getElementById("goStudy");
 
+    const title =
+        document.getElementById("resourceTitle");
 
-document.getElementById(
-"studyStatus"
-).innerText =
-"📚 Break Complete — Back To Study";
+    const subtitle =
+        document.getElementById("resourceSubtitle");
 
+    section.classList.add("show");
 
-document.getElementById(
-"studyTime"
-).innerText =
-"Choose a new study session to unlock your next break.";
+    title.innerText =
+        "📚 Break Complete — Back To Study";
+
+    subtitle.innerText =
+        "Your 5-minute break is over. " +
+        "Choose a new study session below to unlock " +
+        "your next brain break.";
+
+    /*
+       Refresh ke baad bhi
+       New Session option automatically show.
+    */
+
+    showNewSessionScreen();
 
 }
-
 }
-
-
 /* ==================================================
    INITIAL PAGE LOAD
 ================================================== */
