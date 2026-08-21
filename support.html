@@ -117,13 +117,13 @@
     </div>
 
     <div class="amounts">
-        <span class="badge" onclick="payNow(10)">₹10</span>
-        <span class="badge" onclick="payNow(20)">₹20</span>
-        <span class="badge" onclick="payNow(50)">₹50</span>
-        <span class="badge" onclick="payNow(100)">₹100</span>
-        <span class="badge" onclick="payNow(200)">₹200</span>
-        <span class="badge" onclick="payNow(500)">₹500</span>
-        <span class="badge" onclick="payNow(1000)">₹1000</span>
+        <span class="badge" >₹10</span>
+        <span class="badge" >₹20</span>
+        <span class="badge" >₹50</span>
+        <span class="badge">₹100</span>
+        <span class="badge" >₹200</span>
+        <span class="badge" >₹500</span>
+        <span class="badge">₹1000</span>
     </div>
 
     <div class="upi-box">
@@ -143,12 +143,7 @@
         alert("UPI ID copied: " + upiText);
     }
 
-    function payNow(amount) {
-        var upiId = "8528568653@slc";
-        var name = "Support Us";
-        var upiUrl = "upi://pay?pa=" + upiId + "&pn=" + encodeURIComponent(name) + "&am=" + amount + "&cu=INR";
-        window.location.href = upiUrl;
-    }
+    
 </script>
 
 </body>
