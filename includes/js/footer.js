@@ -2,7 +2,7 @@
    footer INCLUDE
 ====================================== */
 
-fetch("/includes/footer.html")
+fetch('/includes/footer.html?v=2')
   .then(response => {
 
     if (!response.ok) {
