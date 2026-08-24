@@ -1,4 +1,4 @@
-fetch('/includes/header.html?v=2')
+fetch('/includes/header.html?v=3')
   .then(response => response.text())
   .then(data => {
     document.getElementById("header").innerHTML = data;

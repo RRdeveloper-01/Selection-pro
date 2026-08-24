@@ -8,7 +8,9 @@ body {
     padding-top: 130px;
     line-height:1.8;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .exam-grid{
     display: grid;
     grid-template-columns: repeat (auto-fit, minmax(250px,1fr));
