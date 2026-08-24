@@ -11,21 +11,12 @@
   },
   "questions": [
     {
-      "id": "ssc_cgl_pt04_001",
-      "question": "In a certain code language, 'EXAMINATION' is written as 'FYBJJOBUJPO'. How is 'CERTIFICATE' written in that code?",
-      "imageUrl": "",
-      "options": [
-        "DFSUIJGDBUF",
-        "DFSUIJFDBUF",
-        "DFSUIJFCBUF",
-        "EFTVJJECAVE"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Alternate pattern: +1 to vowels and consonants, but checking position-wise shift: E(+1)=F, X(+1)=Y, A(+1)=B, M(+1)=N (wait, M->J is -3), actual pattern: +1, +1, +1, -3, +1, -3, +1, -3, +1, -3, +1. Applying the exact mixed shift gives 'DFSUIJFDBUF'.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Coding-Decoding"
-    },
+    "questionId": "ssc_cgl_pt04_001",
+    "section": "Reasoning",
+    "topic": "Coding Decoding",
+    "correctAnswer": 0,
+    "explanation": "A direct +1 shift pattern is applied to each letter:\nE(+1)=F, X(+1)=Y, A(+1)=B, M(+1)=N, I(+1)=J, N(+1)=O, A(+1)=B, T(+1)=U, I(+1)=J, O(+1)=P, N(+1)=O -> FYBJJOBUJPO\nApplying the same +1 shift pattern to CERTIFICATE:\nC(+1)=D, E(+1)=F, R(+1)=S, T(+1)=U, I(+1)=J, F(+1)=G, I(+1)=J, C(+1)=D, A(+1)=B, T(+1)=U, E(+1)=F -> DFSUIJGDBUF"
+  },
     {
       "id": "ssc_cgl_pt04_002",
       "question": "Find the missing number in the series: 14, 28, 31, 124, 129, ?",
@@ -42,22 +33,14 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Number Series"
     },
-    {
-      "id": "ssc_cgl_pt04_003",
-      "question": "Select the odd pair of numbers:",
-      "imageUrl": "",
-      "options": [
-        "12 : 1726",
-        "14 : 2742",
-        "8 : 510",
-        "10 : 998"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Pattern is n : (n³ - 2). 12³ - 2 = 1726. 8³ - 2 = 510. 10³ - 2 = 998. But 14³ - 2 = 2744 - 2 = 2742, whereas 14³ is 2744. Wait, 14³-2 = 2742 is correct. Let's re-verify: 8³-2=510, 10³-2=998, 12³-2=1726. 14: 2742 is n³-2. Wait, 14^3 = 2744. 2744 - 2 = 2742. 12^3 = 1728 - 2 = 1726. 8^3 = 512 - 2 = 510. 10^3 = 1000 - 2 = 998. If all follow n^3 - 2, 14:2742 is valid. Option B is chosen as odd if given as 14:2740.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Classification"
-    },
+  {
+    "questionId": "ssc_cgl_pt04_003",
+    "section": "Reasoning",
+    "topic": "Classification",
+    "options": ["14 : 2740", "12 : 1726", "10 : 998", "8 : 510"],
+    "correctAnswer": 0,
+    "explanation": "All other options follow the pattern n^3 - 2:\n12^3 - 2 = 1726\n10^3 - 2 = 998\n8^3 - 2 = 510\nHowever, 14^3 - 2 = 2742 (not 2740). Thus, Option 1 is the odd one out."
+  },
     {
       "id": "ssc_cgl_pt04_004",
       "question": "Introducing a man, a woman said, 'His mother's mother-in-law is the only mother-in-law of my mother.' How is the man related to the woman?",
@@ -170,22 +153,15 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Seating Arrangement"
     },
-    {
-      "id": "ssc_cgl_pt04_011",
-      "question": "Find the wrong term in the series: 3, 7, 16, 35, 74, 153",
-      "imageUrl": "",
-      "options": [
-        "16",
-        "35",
-        "74",
-        "153"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5. 3×2+1=7; 7×2+2=16; 16×2+3=35; 35×2+4=74 (should be 35×2+4=74? Wait, 35×2+4 = 74. Then 74×2+5 = 153). Wait: 16×2+3=35, 35×2+4=74. Then 74 is correct! Ah: 3, 7, 16, 32... if pattern is ×2+1, ×2+2, ×2+3, then 35×2+4 = 74. What about 74×2+5=153? All follow! Let's check 3, 7, 15, 31, 63...",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Number Series"
-    },
+  {
+    "questionId": "ssc_cgl_pt04_011",
+    "section": "Reasoning",
+    "topic": "Number Series",
+    "series": [3, 7, 16, 35, 75, 153],
+    "correctAnswer": 4,
+    "explanation": "The pattern of the series is:\n3 * 2 + 1 = 7\n7 * 2 + 2 = 16\n16 * 2 + 3 = 35\n35 * 2 + 4 = 74 (instead of 75)\n74 * 2 + 5 = 153\nTherefore, the wrong number in the series is 75."
+  },
+
     {
       "id": "ssc_cgl_pt04_012",
       "question": "Select the option that is related to the third word in the same way as the second word is related to the first word: Nephrology : Kidney :: Myology : ?",
@@ -202,22 +178,14 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Analogy"
     },
-    {
-      "id": "ssc_cgl_pt04_013",
-      "question": "A cube of side 12 cm is painted red on three adjacent faces and blue on the remaining three faces. It is then cut into smaller cubes of side 2 cm each. How many small cubes have at least one face painted red and at least one face painted blue?",
-      "imageUrl": "",
-      "options": [
-        "30",
-        "33",
-        "36",
-        "42"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Total grid size n = 12/2 = 6. Edges and corners where red faces meet blue faces contain cubes with both colors. Calculating these specific boundary cubes yields 33.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Cube and Dice"
-    },
+     {
+    "questionId": "ssc_cgl_pt04_013",
+    "section": "Reasoning",
+    "topic": "Cube and Dice",
+    "options": ["30", "32", "33", "36"],
+    "correctAnswer": 0,
+    "explanation": "n = 12 / 2 = 6.\n3 Red and 3 Blue faces intersect at 6 internal edges.\nCubes along the edges containing both Red + Blue colors = 6 * (n - 2) = 6 * (6 - 2) = 24.\nCorner cubes containing both Red + Blue colors = 6.\nTotal such cubes = 24 + 6 = 30."
+  },
     {
       "id": "ssc_cgl_pt04_014",
       "question": "Complete the series: 7, 13, 25, 45, 75, ?",
@@ -298,22 +266,14 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Blood Relations"
     },
-    {
-      "id": "ssc_cgl_pt04_019",
-      "question": "Choose the number-pair which is different from others based on a specific mathematical rule:",
-      "imageUrl": "",
-      "options": [
-        "14 - 198",
-        "18 - 326",
-        "12 - 146",
-        "16 - 258"
-      ],
-      "correctAnswer": 3,
-      "explanation": "14² + 2 = 198. 18² + 2 = 326. 12² + 2 = 146. But 16² + 2 = 258, wait: 16²=256, 256+2=258. Wait, 14²=196, +2=198. 18²=324, +2=326. 12²=144, +2=146. All are n²+2. Thus 16-258 follows it. (If option were 16 - 254, it would be odd).",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Classification"
-    },
+     {
+    "questionId": "ssc_cgl_pt04_019",
+    "section": "Reasoning",
+    "topic": "Classification",
+    "options": ["12 : 146", "14 : 198", "16 : 254", "18 : 326"],
+    "correctAnswer": 2,
+    "explanation": "All other options follow the pattern n^2 + 2:\n12^2 + 2 = 146\n14^2 + 2 = 198\n18^2 + 2 = 326\nHowever, 16^2 + 2 = 258 (not 254). Thus, Option 3 is the odd one out."
+  },
     {
       "id": "ssc_cgl_pt04_020",
       "question": "If A = 2, M = 26, and Z = 52, then what is the code value of 'BET'?",
@@ -875,21 +835,13 @@
       "topicTag": "Profit and Loss"
     },
     {
-      "id": "ssc_cgl_pt04_055",
-      "question": "The ratio of ages of A and B 4 years ago was 4 : 5. Eight years from now, the ratio of their ages will be 11 : 13. What is the present age of A?",
-      "imageUrl": "",
-      "options": [
-        "28 years",
-        "32 years",
-        "24 years",
-        "36 years"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Let ages 4 yrs ago be 4x and 5x. After 12 years (from 4 yrs ago): (4x + 12)/(5x + 12) = 11/13 => 52x + 156 = 55x + 132 => 3x = 24 => x = 8. A's present age = 4(6) + 4 = 28 years.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Ratio and Proportion"
-    },
+    "questionId": "ssc_cgl_pt04_055",
+    "section": "Quant",
+    "topic": "Ratio and Proportion",
+    "options": ["28 years", "30 years", "32 years", "36 years"],
+    "correctAnswer": 3,
+    "explanation": "Let the ages of A and B 4 years ago be 4x and 5x respectively.\nRatio of their ages 8 years from now (which is 12 years after 4 years ago):\n(4x + 12) / (5x + 12) = 11 / 13\n52x + 156 = 55x + 132\n3x = 24 => x = 8\nA's present age = 4x + 4 = 4(8) + 4 = 36 years."
+  },
     {
       "id": "ssc_cgl_pt04_056",
       "question": "If tan θ + sec θ = 3 (where θ is an acute angle), find the value of sin θ.",
@@ -970,22 +922,14 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Number System"
     },
-    {
-      "id": "ssc_cgl_pt04_061",
-      "question": "The base of a right pyramid is an equilateral triangle of side 4 cm. If its total surface area is 3 times its lateral surface area, what is the slant height?",
-      "imageUrl": "",
-      "options": [
-        "2/√3 cm",
-        "4/√3 cm",
-        "2√3 cm",
-        "√3 cm"
-      ],
-      "correctAnswer": 0,
-      "explanation": "TSA = LSA + Base Area => 3 LSA = LSA + Base Area => 2 LSA = Base Area. LSA = 1/2 × Perimeter × slant height = 1/2 × 12 × l = 6l. Base Area = (√3/4) × 16 = 4√3. 2(6l) = 4√3 => 12l = 4√3 => l = 4√3/12 = √3/3 = 1/√3. Wait, calculating gives 2/√3 cm.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Mensuration"
-    },
+   {
+    "questionId": "ssc_cgl_pt04_061",
+    "section": "Quant",
+    "topic": "Mensuration",
+    "options": ["1/√3 cm", "2/√3 cm", "√3 cm", "2 cm"],
+    "correctAnswer": 0,
+    "explanation": "Base Area = (√3/4) * 4^2 = 4√3 cm²\nLSA = 1/2 * Perimeter * l = 1/2 * 12 * l = 6l\nGiven: TSA = 3 * LSA => LSA + Base Area = 3 * LSA => 2 * LSA = Base Area\n2 * (6l) = 4√3\n12l = 4√3 => l = 4√3 / 12 = √3/3 = 1/√3 cm."
+  },
     {
       "id": "ssc_cgl_pt04_062",
       "question": "The price of petrol increases by 25%. By what percentage must a motorist reduce petrol consumption so as to keep expenditure constant?",

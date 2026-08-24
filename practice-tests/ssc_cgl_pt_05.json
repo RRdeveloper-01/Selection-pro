@@ -1,0 +1,1614 @@
+{
+"subject": "SSC CGL Tier 1 Full Mock Test",
+"chapter": "Practice Test 05",
+"chapterslug": "ssc_cgl_pt_05",
+"totalQuestions": 100,
+"pattern": {
+"Reasoning": 25,
+"General Awareness": 25,
+"Quantitative Aptitude": 25,
+"English Comprehension": 25
+},
+"questions": [
+{
+"id": "ssc_cgl_pt05_001",
+"question": "If 'MONKEY' is coded as 'XDJMNL', then how will 'TIGER' be coded in that language?",
+"imageUrl": "",
+"options": [
+"QDFHS",
+"SDFHS",
+"QDFHR",
+"RDFHS"
+],
+"correctAnswer": 0,
+"explanation": "Each letter in the word is shifted 1 position backward (-1) and the order of letters is reversed: Y-1=X, E-1=D, K-1=J, N-1=M, O-1=N, M-1=L. Applying same to 'TIGER': R-1=Q, E-1=D, G-1=F, I-1=H, T-1=S. Result: QDFHS.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Coding-Decoding"
+},
+{
+"id": "ssc_cgl_pt05_002",
+"question": "Find the missing term in the given series: 12, 23, 45, 89, 177, ?",
+"imageUrl": "",
+"options": [
+"353",
+"355",
+"351",
+"357"
+],
+"correctAnswer": 0,
+"explanation": "Pattern: x2 - 1. 122 - 1 = 23; 232 - 1 = 45; 452 - 1 = 89; 892 - 1 = 177; 1772 - 1 = 353.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number Series"
+},
+{
+    "id": "ssc_cgl_pt05_003",
+    "question": "Select the odd number-pair: (13, 172), (11, 122), (15, 226), (17, 290)",
+    "imageUrl": "",
+    "options": [
+      "(13, 172)",
+      "(11, 122)",
+      "(15, 226)",
+      "(17, 290)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pattern for all other pairs is second number = (first number)^2 + 1. For 11: 11^2 + 1 = 122. For 15: 15^2 + 1 = 226. For 17: 17^2 + 1 = 290. But for 13: 13^2 + 1 = 170 ≠ 172. Hence, (13, 172) is the odd pair.",
+    "difficulty": "hard",
+    "year": "SSC CGL Tier 1 Advanced Level",
+    "topicTag": "Classification"
+  },
+{
+"id": "ssc_cgl_pt05_004",
+"question": "A is the brother of B. C is the mother of A. D is the father of C. E is the son of D. How is A related to D?",
+"imageUrl": "",
+"options": [
+"Grandson",
+"Grandfather",
+"Son",
+"Brother"
+],
+"correctAnswer": 0,
+"explanation": "C is A's mother. D is C's father. Therefore, D is the maternal grandfather of A, which means A is the grandson of D.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Blood Relations"
+},
+{
+"id": "ssc_cgl_pt05_005",
+"question": "A person walks 8 km towards West, turns left and walks 6 km. Then turns right and walks 4 km, turns right again and walks 11 km. How far and in which direction is he from starting point?",
+"imageUrl": "",
+"options": [
+"13 km North-West",
+"13 km South-West",
+"12 km North-West",
+"15 km West"
+],
+"correctAnswer": 0,
+"explanation": "Starting at (0,0): West 8 km -> (-8, 0). Left (South) 6 km -> (-8, -6). Right (West) 4 km -> (-12, -6). Right (North) 11 km -> (-12, 5). Distance = √((-12)^2 + 5^2) = √(144 + 25) = √169 = 13 km. Direction is North-West.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Direction Sense"
+},
+{
+"id": "ssc_cgl_pt05_006",
+"question": "In a certain code language, 'SYSTEM' is written as 'SYSMET' and 'NEARER' as 'AENRER'. How is 'FRACTION' written in that language?",
+"imageUrl": "",
+"options": [
+"CARFNOIT",
+"CARFTION",
+"ARFCNOIT",
+"CARFNOST"
+],
+"correctAnswer": 0,
+"explanation": "Divide word into two halves of 4 letters each: 'FRAC' and 'TION'. Reverse first half -> 'CARF'. Reverse second half -> 'NOIT'. Combined: CARFNOIT.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Coding-Decoding"
+},
+{
+"id": "ssc_cgl_pt05_007",
+"question": "Statements: 1. All doors are keys. 2. All keys are locks. 3. Some locks are windows. Conclusions: I. Some doors are windows. II. Some locks are doors. III. All doors are locks.",
+"imageUrl": "",
+"options": [
+"Only II and III follow",
+"Only I and II follow",
+"Only I and III follow",
+"All follow"
+],
+"correctAnswer": 0,
+"explanation": "All doors are keys & All keys are locks -> All doors are locks (III follows). Since All doors are locks -> Some locks are doors (II follows). Doors and windows have no direct relation, so I doesn't necessarily follow.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Syllogism"
+},
+{
+"id": "ssc_cgl_pt05_008",
+"question": "Select the combination of letters that when sequentially placed in the gaps will complete the letter series: a_ba_b_b_a_b",
+"imageUrl": "",
+"options": [
+"b b a a b",
+"a b a b a",
+"b a b a b",
+"a a b b a"
+],
+"correctAnswer": 0,
+"explanation": "Repeating pattern is 'abba': a[b]ba / [b]b[a]b / [a]b[b]... filling gaps yields 'b b a a b'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Alphabet Series"
+},
+{
+"id": "ssc_cgl_pt05_009",
+"question": "If 26th January 2020 was Sunday, what day of the week was 26th January 2024?",
+"imageUrl": "",
+"options": [
+"Friday",
+"Thursday",
+"Saturday",
+"Wednesday"
+],
+"correctAnswer": 0,
+"explanation": "Years 2020 to 2024: 2020 is leap year (includes Feb 29 2020), 2021 normal, 2022 normal, 2023 normal. Total odd days = 2 + 1 + 1 + 1 = 5 odd days. Sunday + 5 days = Friday.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Calendar"
+},
+{
+    "id": "ssc_cgl_pt05_010",
+    "question": "Six people P, Q, R, S, T, U are sitting in a row facing North. P and S are at the extreme ends. Q is sitting to immediate right of P. T is third to left of S. Who is sitting second to left of R?",
+    "imageUrl": "",
+    "options": [
+      "Q",
+      "P",
+      "T",
+      "S"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Seating arrangement from left to right (Positions 1 to 6): P(1), Q(2), T(3), U(4), R(5), S(6). Position of R is 5, so second to the left of R is position 3, which is T.",
+    "difficulty": "hard",
+    "year": "SSC CGL Tier 1 Advanced Level",
+    "topicTag": "Seating Arrangement"
+  },
+{
+"id": "ssc_cgl_pt05_011",
+"question": "Find the missing number in sequence: 3, 7, 16, 32, 57, ?",
+"imageUrl": "",
+"options": [
+"93",
+"88",
+"91",
+"95"
+],
+"correctAnswer": 0,
+"explanation": "Differences: 4, 9, 16, 25. These are squares of 2, 3, 4, 5. Next difference is 6^2 = 36. Next term = 57 + 36 = 93.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number Series"
+},
+{
+"id": "ssc_cgl_pt05_012",
+"question": "If 'EARTH' is coded as '8201815', then how will 'GLOBE' be coded?",
+"imageUrl": "",
+"options": [
+"5215127",
+"7121525",
+"5212157",
+"7151225"
+],
+"correctAnswer": 0,
+"explanation": "Positions in alphabet in reverse order: H=8, T=20, R=18, A=1, E=5 -> 8201815. For GLOBE: E=5, B=2, O=15, L=12, G=7 -> 5215127.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Coding-Decoding"
+},
+{
+"id": "ssc_cgl_pt05_013",
+"question": "How many triangles are there in a pentagram (5-pointed star)?",
+"imageUrl": "",
+"options": [
+"10",
+"8",
+"12",
+"5"
+],
+"correctAnswer": 0,
+"explanation": "A standard 5-pointed star contains 5 small outer triangles and 5 larger overlapping triangles formed by inner pentagon lines, totaling 10 triangles.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Counting Figures"
+},
+{
+"id": "ssc_cgl_pt05_014",
+"question": "Find the wrong term in the series: 2, 5, 11, 27, 58, 121",
+"imageUrl": "",
+"options": [
+"11",
+"27",
+"58",
+"5"
+],
+"correctAnswer": 0,
+"explanation": "Pattern: x2 + 1, x2 + 2, x2 + 3... 22 + 1 = 5; 52 + 2 = 12 (given 11); 122 + 3 = 27; 272 + 4 = 58; 582 + 5 = 121. Wrong number is 11.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number Series"
+},
+{
+"id": "ssc_cgl_pt05_015",
+"question": "If the second half of the English alphabet is written in reverse order, which letter will be 7th to the right of 12th letter from left end?",
+"imageUrl": "",
+"options": [
+"U",
+"V",
+"T",
+"W"
+],
+"correctAnswer": 0,
+"explanation": "Position from left = 12 + 7 = 19th letter. First half (A-M, 13 letters) unchanged. Second half (N-Z, 13 letters) reversed (Z at 14, Y at 15... N at 26). 19th position = 13 + 6th letter of reversed second half. Reversed sequence: Z, Y, X, W, V, U... 6th letter is U.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Alphabetical Arrangement"
+},
+{
+"id": "ssc_cgl_pt05_016",
+"question": "At what angle are the hands of a clock inclined at 15 minutes past 8?",
+"imageUrl": "",
+"options": [
+"157.5°",
+"150°",
+"165°",
+"142.5°"
+],
+"correctAnswer": 0,
+"explanation": "Angle = |30H - 5.5M| = |308 - 5.515| = |240 - 82.5| = 157.5°.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Clock"
+},
+{
+"id": "ssc_cgl_pt05_017",
+"question": "In a queue, Ramesh is 14th from front and Suresh is 17th from back. If they interchange their positions, Ramesh becomes 21st from front. How many persons are there in queue?",
+"imageUrl": "",
+"options": [
+"37",
+"38",
+"36",
+"35"
+],
+"correctAnswer": 0,
+"explanation": "Total persons = (New position of Ramesh from front + Old position of Suresh from back) - 1 = 21 + 17 - 1 = 37.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Ranking"
+},
+ {
+    "id": "ssc_cgl_pt05_018",
+    "question": "Which interchange of signs makes the equation correct? 16 - 8 ÷ 4 + 2 × 3 = 20",
+    "imageUrl": "",
+    "options": [
+      "+ and -",
+      "÷ and ×",
+      "+ and ×",
+      "- and ÷"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interchanging + and - gives: 16 + 8 ÷ 4 - 2 × 3 = 16 + 2 - 6 = 12. Alternatively, original expression 16 - 8 ÷ 4 + 2 × 3 = 16 - 2 + 6 = 20 is verified.",
+    "difficulty": "hard",
+    "year": "SSC CGL Tier 1 Advanced Level",
+    "topicTag": "Mathematical Operations"
+  },
+{
+"id": "ssc_cgl_pt05_019",
+"question": "Seismology : Earthquakes :: Ornithology : ?",
+"imageUrl": "",
+"options": [
+"Birds",
+"Reptiles",
+"Insects",
+"Fishes"
+],
+"correctAnswer": 0,
+"explanation": "Seismology is the scientific study of earthquakes; Ornithology is the study of birds.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Analogy"
+},
+{
+"id": "ssc_cgl_pt05_020",
+"question": "Pointing to a photograph, a woman said, 'His mother's only son is my father-in-law.'How is the woman's husband related to the man in the photograph?",
+"imageUrl": "",
+"options": [
+"Son",
+"Father",
+"Brother",
+"Nephew"
+],
+"correctAnswer": 0,
+"explanation": "'His mother's only son' = the man himself. 'is my father-in-law' -> The man in the photo is the father-in-law of the woman, so her husband is the son of the man in photograph.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Blood Relations"
+},
+{
+"id": "ssc_cgl_pt05_021",
+"question": "Select the missing term: 5, 11, 24, 51, 106, ?",
+"imageUrl": "",
+"options": [
+"217",
+"213",
+"215",
+"219"
+],
+"correctAnswer": 0,
+"explanation": "Pattern: x2 + 1, x2 + 2, x2 + 3, x2 + 4, x2 + 5. 106 * 2 + 5 = 212 + 5 = 217.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number Series"
+},
+{
+"id": "ssc_cgl_pt05_022",
+"question": "Which Venn diagram best represents: Authors, Teachers, Men?",
+"imageUrl": "",
+"options": [
+"Three intersecting circles overlapping with each other",
+"One circle inside another with third intersecting",
+"Three mutually exclusive circles",
+"Two concentric circles with one separate"
+],
+"correctAnswer": 0,
+"explanation": "A person can be an Author, a Teacher, and a Man simultaneously. Hence, three mutually intersecting circles represent the relationship.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Venn Diagram"
+},
+{
+"id": "ssc_cgl_pt05_023",
+"question": "How many 3-letter meaningful English words can be formed from the word 'LAP' using each letter once?",
+"imageUrl": "",
+"options": [
+"2",
+"1",
+"3",
+"0"
+],
+"correctAnswer": 0,
+"explanation": "Words formed: 'LAP' and 'PAL' (2 words).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Alphabetical Arrangement"
+},
+{
+"id": "ssc_cgl_pt05_024",
+"question": "Five students A, B, C, D, E scored different marks. A scored more than B but less than C. D scored more than E but less than B. Who scored the highest marks?",
+"imageUrl": "",
+"options": [
+"C",
+"A",
+"B",
+"D"
+],
+"correctAnswer": 0,
+"explanation": "Order: C > A > B > D > E. Highest scorer is C.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Ranking"
+},
+{
+"id": "ssc_cgl_pt05_025",
+"question": "Statements: All apples are fruits. No fruit is a vegetable. Conclusions: I. No apple is a vegetable. II. Some fruits are apples.",
+"imageUrl": "",
+"options": [
+"Both I and II follow",
+"Only I follows",
+"Only II follows",
+"Neither follows"
+],
+"correctAnswer": 0,
+"explanation": "Since all apples are inside fruits and no fruit is vegetable -> no apple is vegetable (I follows). All apples are fruits -> some fruits are apples (II follows).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Syllogism"
+},
+{
+"id": "ssc_cgl_pt05_026",
+"question": "Which Constitutional Amendment Act reduced the voting age from 21 years to 18 years in India?",
+"imageUrl": "",
+"options": [
+"61st Amendment Act, 1988",
+"44th Amendment Act, 1978",
+"52nd Amendment Act, 1985",
+"73rd Amendment Act, 1992"
+],
+"correctAnswer": 0,
+"explanation": "The 61st Constitutional Amendment Act of 1988 lowered the voting age for Lok Sabha and Assembly elections from 21 to 18 years.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Indian Polity"
+},
+{
+"id": "ssc_cgl_pt05_027",
+"question": "Under which Article of the Constitution of India is the Comptroller and Auditor General (CAG) appointed?",
+"imageUrl": "",
+"options": [
+"Article 148",
+"Article 280",
+"Article 324",
+"Article 110"
+],
+"correctAnswer": 0,
+"explanation": "Article 148 provides for the independent office of Comptroller and Auditor General of India.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Indian Polity"
+},
+{
+"id": "ssc_cgl_pt05_028",
+"question": "Which organelle is known as the 'Powerhouse of the Cell'?",
+"imageUrl": "",
+"options": [
+"Mitochondria",
+"Ribosome",
+"Lysosome",
+"Golgi Apparatus"
+],
+"correctAnswer": 0,
+"explanation": "Mitochondria produce ATP through cellular respiration, earning the title Powerhouse of the Cell.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Biology"
+},
+{
+"id": "ssc_cgl_pt05_029",
+"question": "What is the SI unit of Electrical Resistance?",
+"imageUrl": "",
+"options": [
+"Ohm",
+"Siemens",
+"Tesla",
+"Henry"
+],
+"correctAnswer": 0,
+"explanation": "The SI unit of electrical resistance is Ohm (Ω).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Physics"
+},
+{
+"id": "ssc_cgl_pt05_030",
+"question": "Which river is also known as 'Tsangpo' in Tibet?",
+"imageUrl": "",
+"options": [
+"Brahmaputra",
+"Indus",
+"Sutlej",
+"Ganga"
+],
+"correctAnswer": 0,
+"explanation": "Brahmaputra originates near Mount Kailash as Yarlung Tsangpo in Tibet.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geography"
+},
+{
+"id": "ssc_cgl_pt05_031",
+"question": "Who was the founder of the Maurya Empire?",
+"imageUrl": "",
+"options": [
+"Chandragupta Maurya",
+"Ashoka",
+"Bindusara",
+"Bimbisara"
+],
+"correctAnswer": 0,
+"explanation": "Chandragupta Maurya established the Maurya Empire in 322 BCE with the help of Chanakya.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Ancient History"
+},
+{
+"id": "ssc_cgl_pt05_032",
+"question": "During whose reign did Chinese traveler Hiuen Tsang visit India?",
+"imageUrl": "",
+"options": [
+"Harshavardhana",
+"Chandragupta II",
+"Kanishka",
+"Samudragupta"
+],
+"correctAnswer": 0,
+"explanation": "Hiuen Tsang visited India during the 7th century reign of King Harshavardhana.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Ancient History"
+},
+{
+"id": "ssc_cgl_pt05_033",
+"question": "Which apex institution regulates the monetary policy in India?",
+"imageUrl": "",
+"options": [
+"Reserve Bank of India",
+"SEBI",
+"NABARD",
+"Ministry of Finance"
+],
+"correctAnswer": 0,
+"explanation": "RBI regulates monetary policy, currency issue, and banking sector in India.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Economy"
+},
+{
+"id": "ssc_cgl_pt05_034",
+"question": "Which vitamin deficiency causes Scurvy?",
+"imageUrl": "",
+"options": [
+"Vitamin C",
+"Vitamin A",
+"Vitamin D",
+"Vitamin B12"
+],
+"correctAnswer": 0,
+"explanation": "Deficiency of Vitamin C (Ascorbic Acid) causes Scurvy.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Biology"
+},
+{
+"id": "ssc_cgl_pt05_035",
+"question": "What is the maximum limit of loan under Pradhan Mantri MUDRA Yojana 'Tarun' category?",
+"imageUrl": "",
+"options": [
+"₹10 Lakh",
+"₹5 Lakh",
+"₹15 Lakh",
+"₹20 Lakh"
+],
+"correctAnswer": 0,
+"explanation": "Tarun category covers loans above ₹5 Lakh up to ₹10 Lakh.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Government Schemes"
+},
+{
+"id": "ssc_cgl_pt05_036",
+"question": "Which straits connect the Atlantic Ocean with the Mediterranean Sea?",
+"imageUrl": "",
+"options": [
+"Strait of Gibraltar",
+"Strait of Malacca",
+"Bering Strait",
+"Palk Strait"
+],
+"correctAnswer": 0,
+"explanation": "Strait of Gibraltar connects Atlantic Ocean to Mediterranean Sea and separates Spain from Morocco.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geography"
+},
+{
+"id": "ssc_cgl_pt05_037",
+"question": "Which index is released by the Ministry of Statistics and Programme Implementation to measure inflation at consumer level?",
+"imageUrl": "",
+"options": [
+"Consumer Price Index (CPI)",
+"Wholesale Price Index (WPI)",
+"Index of Industrial Production (IIP)",
+"GDP Deflator"
+],
+"correctAnswer": 0,
+"explanation": "CPI measures retail inflation and is published by NSO under MoSPI.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Economy"
+},
+{
+"id": "ssc_cgl_pt05_038",
+"question": "Which layer of Earth's atmosphere contains the Ozone layer?",
+"imageUrl": "",
+"options": [
+"Stratosphere",
+"Troposphere",
+"Mesosphere",
+"Exosphere"
+],
+"correctAnswer": 0,
+"explanation": "Ozone layer is situated in the Stratosphere (15-35 km above Earth surface).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geography"
+},
+{
+"id": "ssc_cgl_pt05_039",
+"question": "What is the chemical name of Baking Soda?",
+"imageUrl": "",
+"options": [
+"Sodium Bicarbonate",
+"Sodium Carbonate",
+"Sodium Chloride",
+"Calcium Carbonate"
+],
+"correctAnswer": 0,
+"explanation": "Baking Soda is Sodium Bicarbonate (NaHCO3).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Chemistry"
+},
+{
+"id": "ssc_cgl_pt05_040",
+"question": "Who among the following was the founder of Slave Dynasty in Delhi Sultanate?",
+"imageUrl": "",
+"options": [
+"Qutb-ud-din Aibak",
+"Iltutmish",
+"Balban",
+"Razia Sultana"
+],
+"correctAnswer": 0,
+"explanation": "Qutb-ud-din Aibak founded Slave Dynasty in 1206 CE.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Medieval History"
+},
+{
+"id": "ssc_cgl_pt05_041",
+"question": "Which pass connects Srinagar with Leh?",
+"imageUrl": "",
+"options": [
+"Zoji La",
+"Shipki La",
+"Nathu La",
+"Rohtang Pass"
+],
+"correctAnswer": 0,
+"explanation": "Zoji La pass connects Srinagar with Leh in Ladakh.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geography"
+},
+{
+"id": "ssc_cgl_pt05_042",
+"question": "Which gas is known as Laughing Gas?",
+"imageUrl": "",
+"options": [
+"Nitrous Oxide (N2O)",
+"Nitric Oxide (NO)",
+"Nitrogen Dioxide (NO2)",
+"Sulphur Dioxide (SO2)"
+],
+"correctAnswer": 0,
+"explanation": "Nitrous Oxide (N2O) is commonly known as Laughing Gas.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Chemistry"
+},
+{
+"id": "ssc_cgl_pt05_043",
+"question": "In which state is Kaziranga National Park located?",
+"imageUrl": "",
+"options": [
+"Assam",
+"West Bengal",
+"Uttarakhand",
+"Madhya Pradesh"
+],
+"correctAnswer": 0,
+"explanation": "Kaziranga National Park, famous for one-horned rhinoceros, is in Assam.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Environment"
+},
+{
+"id": "ssc_cgl_pt05_044",
+"question": "Which Fundamental Right was removed by the 44th Constitutional Amendment Act, 1978?",
+"imageUrl": "",
+"options": [
+"Right to Property",
+"Right to Education",
+"Right to Freedom of Speech",
+"Right to Equality"
+],
+"correctAnswer": 0,
+"explanation": "Right to Property was deleted from Fundamental Rights and made a legal right under Article 300A.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Indian Polity"
+},
+{
+"id": "ssc_cgl_pt05_045",
+"question": "What is the escape velocity from Earth's surface?",
+"imageUrl": "",
+"options": [
+"11.2 km/s",
+"9.8 m/s²",
+"7.9 km/s",
+"2.4 km/s"
+],
+"correctAnswer": 0,
+"explanation": "Escape velocity from Earth surface is approximately 11.2 km/s.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Physics"
+},
+{
+"id": "ssc_cgl_pt05_046",
+"question": "Who built the famous Khajuraho temples in Madhya Pradesh?",
+"imageUrl": "",
+"options": [
+"Chandela Dynasty",
+"Chola Dynasty",
+"Maurya Dynasty",
+"Gupta Dynasty"
+],
+"correctAnswer": 0,
+"explanation": "Khajuraho temples were built by Chandela rulers between 950 and 1050 CE.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Medieval History"
+},
+{
+"id": "ssc_cgl_pt05_047",
+"question": "Which Article of Indian Constitution relates to Emergency provisions due to War or External Aggression (National Emergency)?",
+"imageUrl": "",
+"options": [
+"Article 352",
+"Article 356",
+"Article 360",
+"Article 370"
+],
+"correctAnswer": 0,
+"explanation": "Article 352 empowers President to declare National Emergency on grounds of war, external aggression, or armed rebellion.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Indian Polity"
+},
+{
+"id": "ssc_cgl_pt05_048",
+"question": "What is the unit of power of a lens in Optics?",
+"imageUrl": "",
+"options": [
+"Dioptre",
+"Lumen",
+"Candela",
+"Watt"
+],
+"correctAnswer": 0,
+"explanation": "Power of a lens P = 1/f (in meters), measured in Dioptres (D).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Physics"
+},
+{
+"id": "ssc_cgl_pt05_049",
+"question": "Who gave the slogan 'Swaraj is my birthright and I shall have it'?",
+"imageUrl": "",
+"options": [
+"Bal Gangadhar Tilak",
+"Lala Lajpat Rai",
+"Bipin Chandra Pal",
+"Subhash Chandra Bose"
+],
+"correctAnswer": 0,
+"explanation": "Bal Gangadhar Tilak raised this iconic slogan during Indian National Movement.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Modern History"
+},
+{
+"id": "ssc_cgl_pt05_050",
+"question": "Which sector contributes highest to India's Gross Value Added (GVA)?",
+"imageUrl": "",
+"options": [
+"Services Sector",
+"Agriculture Sector",
+"Industrial Sector",
+"Mining Sector"
+],
+"correctAnswer": 0,
+"explanation": "Services sector contributes over 50% to India's GVA.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Economy"
+},
+{
+"id": "ssc_cgl_pt05_051",
+"question": "If x + 1/x = 5, find the value of x² + 1/x².",
+"imageUrl": "",
+"options": [
+"23",
+"25",
+"27",
+"21"
+],
+"correctAnswer": 0,
+"explanation": "x² + 1/x² = (x + 1/x)² - 2 = 5² - 2 = 25 - 2 = 23.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Algebra"
+},
+{
+"id": "ssc_cgl_pt05_052",
+"question": "A shopkeeper gives two successive discounts of 20% and 10% on an item. Find single equivalent discount.",
+"imageUrl": "",
+"options": [
+"28%",
+"30%",
+"25%",
+"26%"
+],
+"correctAnswer": 0,
+"explanation": "Equivalent discount = A + B - (AB)/100 = 20 + 10 - (2010)/100 = 30 - 2 = 28%.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Profit and Loss"
+},
+{
+"id": "ssc_cgl_pt05_053",
+"question": "The average of 5 consecutive odd numbers is 27. What is the product of smallest and largest numbers?",
+"imageUrl": "",
+"options": [
+"713",
+"715",
+"697",
+"705"
+],
+"correctAnswer": 0,
+"explanation": "Middle number = 27. Numbers are 23, 25, 27, 29, 31. Smallest = 23, largest = 31. Product = 23 * 31 = 713.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Average"
+},
+{
+"id": "ssc_cgl_pt05_054",
+"question": "A train 180 m long running at 54 km/h crosses a platform in 20 seconds. Length of platform is:",
+"imageUrl": "",
+"options": [
+"120 m",
+"100 m",
+"150 m",
+"140 m"
+],
+"correctAnswer": 0,
+"explanation": "Speed = 54 * (5/18) = 15 m/s. Distance = Speed * Time = 15 * 20 = 300 m. Platform length = 300 - 180 = 120 m.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Time, Speed and Distance"
+},
+{
+"id": "ssc_cgl_pt05_055",
+"question": "If A : B = 2 : 3 and B : C = 4 : 5, find A : B : C.",
+"imageUrl": "",
+"options": [
+"8 : 12 : 15",
+"6 : 9 : 15",
+"8 : 10 : 15",
+"2 : 3 : 5"
+],
+"correctAnswer": 0,
+"explanation": "A : B = 8 : 12, B : C = 12 : 15. A : B : C = 8 : 12 : 15.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Ratio and Proportion"
+},
+{
+"id": "ssc_cgl_pt05_056",
+"question": "At what rate per annum simple interest will ₹4000 amount to ₹5200 in 3 years?",
+"imageUrl": "",
+"options": [
+"10%",
+"8%",
+"12%",
+"9%"
+],
+"correctAnswer": 0,
+"explanation": "S.I. = 5200 - 4000 = 1200. Rate = (1200 * 100) / (4000 * 3) = 120000 / 12000 = 10%.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Simple Interest"
+},
+{
+"id": "ssc_cgl_pt05_057",
+"question": "A can do a work in 12 days and B in 15 days. Working together, in how many days will they finish the work?",
+"imageUrl": "",
+"options": [
+"6 (2/3) days",
+"6 (1/2) days",
+"7 days",
+"5 (5/9) days"
+],
+"correctAnswer": 0,
+"explanation": "Time = (12 * 15) / (12 + 15) = 180 / 27 = 20 / 3 = 6 (2/3) days.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Time and Work"
+},
+{
+"id": "ssc_cgl_pt05_058",
+"question": "Find the remainder when 2^31 is divided by 5.",
+"imageUrl": "",
+"options": [
+"3",
+"2",
+"1",
+"4"
+],
+"correctAnswer": 0,
+"explanation": "2^1 mod 5 = 2, 2^2 mod 5 = 4, 2^3 mod 5 = 3, 2^4 mod 5 = 1 (cyclicity of 4). 31 mod 4 = 3. So 2^31 mod 5 = 2^3 mod 5 = 3.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number System"
+},
+{
+"id": "ssc_cgl_pt05_059",
+"question": "If x + 1/x = 3, find the value of x³ + 1/x³.",
+"imageUrl": "",
+"options": [
+"18",
+"27",
+"24",
+"21"
+],
+"correctAnswer": 0,
+"explanation": "x³ + 1/x³ = 3³ - 3(3) = 27 - 9 = 18.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Algebra"
+},
+{
+"id": "ssc_cgl_pt05_060",
+"question": "The perimeter of an equilateral triangle is 36 cm. Its area in cm² is:",
+"imageUrl": "",
+"options": [
+"36√3",
+"18√3",
+"24√3",
+"48√3"
+],
+"correctAnswer": 0,
+"explanation": "Side a = 36 / 3 = 12 cm. Area = (√3/4) * a² = (√3/4) * 144 = 36√3 cm².",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geometry"
+},
+{
+"id": "ssc_cgl_pt05_061",
+"question": "Compound interest on ₹10,000 at 10% per annum for 2 years compounded annually is:",
+"imageUrl": "",
+"options": [
+"₹2100",
+"₹2000",
+"₹2200",
+"₹2050"
+],
+"correctAnswer": 0,
+"explanation": "Amount = 10000 * (1.10)² = 12100. CI = 12100 - 10000 = ₹2100.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Compound Interest"
+},
+{
+"id": "ssc_cgl_pt05_062",
+"question": "If x + y + z = 0, then x³ + y³ + z³ is equal to:",
+"imageUrl": "",
+"options": [
+"3xyz",
+"xyz",
+"0",
+"3(x+y+z)"
+],
+"correctAnswer": 0,
+"explanation": "Standard algebraic identity: If x + y + z = 0, then x³ + y³ + z³ = 3xyz.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Algebra"
+},
+{
+"id": "ssc_cgl_pt05_063",
+"question": "Radius of sphere is 7 cm. Its volume in cm³ is (π = 22/7):",
+"imageUrl": "",
+"options": [
+"1437.33",
+"1372",
+"1512",
+"1400"
+],
+"correctAnswer": 0,
+"explanation": "Volume = (4/3) * (22/7) * 7³ = (4/3) * 22 * 49 = 4312 / 3 = 1437.33 cm³.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Mensuration"
+},
+{
+"id": "ssc_cgl_pt05_064",
+"question": "If 20% of A = 50% of B, then A : B is:",
+"imageUrl": "",
+"options": [
+"5 : 2",
+"2 : 5",
+"1 : 2",
+"2 : 1"
+],
+"correctAnswer": 0,
+"explanation": "0.20 A = 0.50 B => A / B = 5 / 2 => 5 : 2.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Percentage"
+},
+{
+"id": "ssc_cgl_pt05_065",
+"question": "If tanθ = 3/4, then value of (sinθ + cosθ) is:",
+"imageUrl": "",
+"options": [
+"7/5",
+"1/5",
+"5/7",
+"6/5"
+],
+"correctAnswer": 0,
+"explanation": "Opposite = 3, Adjacent = 4, Hypotenuse = √(3² + 4²) = 5. sinθ = 3/5, cosθ = 4/5. Sum = 3/5 + 4/5 = 7/5.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Trigonometry"
+},
+{
+"id": "ssc_cgl_pt05_066",
+"question": "Value of (64)^(-2/3) is:",
+"imageUrl": "",
+"options": [
+"1/16",
+"1/8",
+"1/4",
+"16"
+],
+"correctAnswer": 0,
+"explanation": "64 = 4³. (4³)^(-2/3) = 4^(-2) = 1/16.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Indices"
+},
+{
+"id": "ssc_cgl_pt05_067",
+"question": "In what ratio must tea at ₹62/kg be mixed with tea at ₹72/kg so that mixture is worth ₹65/kg?",
+"imageUrl": "",
+"options": [
+"7 : 3",
+"3 : 7",
+"5 : 3",
+"2 : 3"
+],
+"correctAnswer": 0,
+"explanation": "By Alligation: (72 - 65) : (65 - 62) = 7 : 3.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Mixture and Alligation"
+},
+{
+"id": "ssc_cgl_pt05_068",
+"question": "Find the unit digit of (2137)^753.",
+"imageUrl": "",
+"options": [
+"7",
+"1",
+"3",
+"9"
+],
+"correctAnswer": 0,
+"explanation": "Unit digit depends on 7^753. Cyclicity of 7 is 4 (7, 9, 3, 1). 753 mod 4 = 1. So 7^1 = 7.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Number System"
+},
+{
+"id": "ssc_cgl_pt05_069",
+"question": "By selling an article for ₹720, a man loses 10%. At what price should he sell it to gain 20%?",
+"imageUrl": "",
+"options": [
+"₹960",
+"₹900",
+"₹840",
+"₹1000"
+],
+"correctAnswer": 0,
+"explanation": "90% of CP = 720 => CP = 800. Selling price for 20% gain = 800 * 1.20 = ₹960.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Profit and Loss"
+},
+{
+"id": "ssc_cgl_pt05_070",
+"question": "If roots of x² - 5x + k = 0 are real and distinct, then:",
+"imageUrl": "",
+"options": [
+"k < 25/4",
+"k > 25/4",
+"k = 25/4",
+"k < 5"
+],
+"correctAnswer": 0,
+"explanation": "Discriminant B² - 4AC > 0 => (-5)² - 4(1)(k) > 0 => 25 - 4k > 0 => k < 25/4.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Quadratic Equations"
+},
+{
+"id": "ssc_cgl_pt05_071",
+"question": "Volume of a cylinder is 1540 cm³ and height is 10 cm. Its radius is (π = 22/7):",
+"imageUrl": "",
+"options": [
+"7 cm",
+"14 cm",
+"3.5 cm",
+"10 cm"
+],
+"correctAnswer": 0,
+"explanation": "Volume = π r² h => 1540 = (22/7) * r² * 10 => r² = (154 * 7) / 22 = 49 => r = 7 cm.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Mensuration"
+},
+{
+"id": "ssc_cgl_pt05_072",
+"question": "A boat goes 12 km upstream in 3 hours and 18 km downstream in 2 hours. Speed of stream is:",
+"imageUrl": "",
+"options": [
+"2.5 km/h",
+"3 km/h",
+"2 km/h",
+"1.5 km/h"
+],
+"correctAnswer": 0,
+"explanation": "Upstream speed U = 12 / 3 = 4 km/h. Downstream speed D = 18 / 2 = 9 km/h. Stream speed = (D - U) / 2 = (9 - 4) / 2 = 2.5 km/h.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Boats and Streams"
+},
+{
+"id": "ssc_cgl_pt05_073",
+"question": "Mean of 10 numbers is 15. If each number is multiplied by 3, what will be new mean?",
+"imageUrl": "",
+"options": [
+"45",
+"30",
+"15",
+"50"
+],
+"correctAnswer": 0,
+"explanation": "When every observation is multiplied by a constant k, the mean is also multiplied by k. New mean = 15 * 3 = 45.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Statistics"
+},
+{
+"id": "ssc_cgl_pt05_074",
+"question": "Evaluate: sin² 30° + cos² 60° + tan² 45°",
+"imageUrl": "",
+"options": [
+"3/2",
+"1",
+"2",
+"1/2"
+],
+"correctAnswer": 0,
+"explanation": "(1/2)² + (1/2)² + 1² = 1/4 + 1/4 + 1 = 1/2 + 1 = 3/2.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Trigonometry"
+},
+{
+"id": "ssc_cgl_pt05_075",
+"question": "A chord of length 16 cm is drawn in a circle of radius 10 cm. Distance of chord from center is:",
+"imageUrl": "",
+"options": [
+"6 cm",
+"8 cm",
+"5 cm",
+"4 cm"
+],
+"correctAnswer": 0,
+"explanation": "Half chord = 8 cm. Distance from center d = √(10² - 8²) = √(100 - 64) = √36 = 6 cm.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Geometry"
+},
+{
+"id": "ssc_cgl_pt05_076",
+"question": "Select the correctly spelt word:",
+"imageUrl": "",
+"options": [
+"Accommodation",
+"Acommodation",
+"Accomodation",
+"Acomodation"
+],
+"correctAnswer": 0,
+"explanation": "'Accommodation' (with double 'c' and double 'm') is the correct spelling.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Spelling"
+},
+{
+"id": "ssc_cgl_pt05_077",
+"question": "Select SYNONYM of: CANDID",
+"imageUrl": "",
+"options": [
+"Frank",
+"Secretive",
+"Deceitful",
+"Arrogant"
+],
+"correctAnswer": 0,
+"explanation": "'Candid' means truthful and straightforward; 'Frank' is its closest synonym.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Synonyms"
+},
+{
+"id": "ssc_cgl_pt05_078",
+"question": "Select ANTONYM of: BENEVOLENT",
+"imageUrl": "",
+"options": [
+"Malevolent",
+"Kind",
+"Generous",
+"Sympathetic"
+],
+"correctAnswer": 0,
+"explanation": "'Benevolent' means well-meaning and kindly; 'Malevolent' (wishing evil) is its antonym.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Antonyms"
+},
+{
+"id": "ssc_cgl_pt05_079",
+"question": "Identify error: She is senior than me in service.",
+"imageUrl": "",
+"options": [
+"senior than me",
+"She is",
+"in service",
+"No error"
+],
+"correctAnswer": 0,
+"explanation": "Comparative adjectives ending in '-ior' (senior, junior, superior, inferior) take 'to' instead of 'than'. Correct: 'senior to me'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Error Detection"
+},
+{
+"id": "ssc_cgl_pt05_080",
+"question": "Fill in the blank: He refrained ___ making any comments on the controversial issue.",
+"imageUrl": "",
+"options": [
+"from",
+"to",
+"with",
+"at"
+],
+"correctAnswer": 0,
+"explanation": "The verb 'refrain' is always followed by the preposition 'from'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Prepositions"
+},
+{
+"id": "ssc_cgl_pt05_081",
+"question": "Select passive voice: The teacher is explaining the lesson.",
+"imageUrl": "",
+"options": [
+"The lesson is being explained by the teacher.",
+"The lesson was explained by the teacher.",
+"The lesson has been explained by the teacher.",
+"The lesson is explained by the teacher."
+],
+"correctAnswer": 0,
+"explanation": "Present continuous active 'is explaining' changes to passive 'is being explained'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Voice"
+},
+{
+"id": "ssc_cgl_pt05_082",
+"question": "Select indirect speech: He said, 'I have passed the examination.'",
+"imageUrl": "",
+"options": [
+"He said that he had passed the examination.",
+"He said that he has passed the examination.",
+"He told that he passed the examination.",
+"He said that he was passing the examination."
+],
+"correctAnswer": 0,
+"explanation": "Present perfect 'have passed' changes to past perfect 'had passed' in indirect speech.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Narration"
+},
+{
+"id": "ssc_cgl_pt05_083",
+"question": "One-word substitute: One who looks at the bright side of things.",
+"imageUrl": "",
+"options": [
+"Optimist",
+"Pessimist",
+"Atheist",
+"Altruist"
+],
+"correctAnswer": 0,
+"explanation": "An 'Optimist' is a person who tends to be hopeful and confident about the future.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "One Word Substitution"
+},
+{
+"id": "ssc_cgl_pt05_084",
+"question": "Meaning of idiom: 'To spill the beans'",
+"imageUrl": "",
+"options": [
+"To reveal a secret prematurely",
+"To cause an accident",
+"To waste food",
+"To work hard"
+],
+"correctAnswer": 0,
+"explanation": "'To spill the beans' means to disclose confidential information or a secret.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Idioms"
+},
+{
+"id": "ssc_cgl_pt05_085",
+"question": "Select the correctly spelt word:",
+"imageUrl": "",
+"options": [
+"Bureaucracy",
+"Beurocracy",
+"Bureaucracy",
+"Bureacracy"
+],
+"correctAnswer": 0,
+"explanation": "'Bureaucracy' is the correct spelling.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Spelling"
+},
+{
+"id": "ssc_cgl_pt05_086",
+"question": "Improve underlined phrase: No sooner did he arrive then the meeting started.",
+"imageUrl": "",
+"options": [
+"than the meeting started",
+"when the meeting started",
+"that the meeting started",
+"no improvement"
+],
+"correctAnswer": 0,
+"explanation": "'No sooner' takes 'than' as its pair, not 'then' or 'when'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Sentence Improvement"
+},
+{
+"id": "ssc_cgl_pt05_087",
+"question": "Select SYNONYM of: LETHARGIC",
+"imageUrl": "",
+"options": [
+"Sluggish",
+"Energetic",
+"Active",
+"Alert"
+],
+"correctAnswer": 0,
+"explanation": "'Lethargic' means lacking energy or enthusiasm; 'Sluggish' is synonymous.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Synonyms"
+},
+{
+"id": "ssc_cgl_pt05_088",
+"question": "Select ANTONYM of: AMBIGUOUS",
+"imageUrl": "",
+"options": [
+"Clear",
+"Vague",
+"Obscure",
+"Doubtful"
+],
+"correctAnswer": 0,
+"explanation": "'Ambiguous' means open to more than one interpretation or unclear; 'Clear' is antonymous.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Antonyms"
+},
+{
+"id": "ssc_cgl_pt05_089",
+"question": "Find error: One of my friends are going to London next week.",
+"imageUrl": "",
+"options": [
+"are going to",
+"One of my friends",
+"London next week",
+"No error"
+],
+"correctAnswer": 0,
+"explanation": "Subject 'One' is singular, so singular verb 'is' should be used instead of 'are'. Correct: 'is going'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Error Detection"
+},
+{
+"id": "ssc_cgl_pt05_090",
+"question": "Improve underlined phrase: He is too weak to walk.",
+"imageUrl": "",
+"options": [
+"no improvement",
+"so weak to walk",
+"very weak to walk",
+"too weak for walking"
+],
+"correctAnswer": 0,
+"explanation": "The structure 'too + adjective + to + infinitive' is grammatically correct.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Sentence Improvement"
+},
+{
+"id": "ssc_cgl_pt05_091",
+"question": "Rearrange segments: P: to protect wildlife; Q: the sanctuary was established; R: in order to preserve ecological balance; S: in the region.",
+"imageUrl": "",
+"options": [
+"Q-P-R-S",
+"P-Q-R-S",
+"R-S-Q-P",
+"S-R-Q-P"
+],
+"correctAnswer": 0,
+"explanation": "Correct order: 'The sanctuary was established to protect wildlife in order to preserve ecological balance in the region.' (Q-P-R-S).",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Sentence Rearrangement"
+},
+{
+"id": "ssc_cgl_pt05_092",
+"question": "Fill in the blank: Honesty is ___ best policy.",
+"imageUrl": "",
+"options": [
+"the",
+"a",
+"an",
+"no article"
+],
+"correctAnswer": 0,
+"explanation": "Superlative degree ('best') requires the definite article 'the'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Articles"
+},
+{
+"id": "ssc_cgl_pt05_093",
+"question": "Select meaning of idiom: 'At the eleventh hour'",
+"imageUrl": "",
+"options": [
+"At the last possible moment",
+"At 11 o'clock sharp",
+"Too early",
+"In the middle of night"
+],
+"correctAnswer": 0,
+"explanation": "'At the eleventh hour' means at the last possible minute or moment before it's too late.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Idioms"
+},
+{
+"id": "ssc_cgl_pt05_094",
+"question": "Select the correctly spelt word:",
+"imageUrl": "",
+"options": [
+"Maintenance",
+"Maintainance",
+"Maintenence",
+"Maintenace"
+],
+"correctAnswer": 0,
+"explanation": "'Maintenance' is the correct spelling.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Spelling"
+},
+{
+"id": "ssc_cgl_pt05_095",
+"question": "Fill in the blank: If it rains, we ___ the match.",
+"imageUrl": "",
+"options": [
+"will cancel",
+"would cancel",
+"canceled",
+"had canceled"
+],
+"correctAnswer": 0,
+"explanation": "First conditional structure: 'If + present simple, will + base verb'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Tenses"
+},
+{
+"id": "ssc_cgl_pt05_096",
+"question": "Select ANTONYM of: FCIL (FACILE)",
+"imageUrl": "",
+"options": [
+"Arduous",
+"Easy",
+"Simple",
+"Effortless"
+],
+"correctAnswer": 0,
+"explanation": "'Facile' means effortless or simple; 'Arduous' (requiring strenuous effort) is its antonym.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Antonyms"
+},
+{
+"id": "ssc_cgl_pt05_097",
+"question": "Select SYNONYM of: METICULOUS",
+"imageUrl": "",
+"options": [
+"Painstaking",
+"Careless",
+"Sloppy",
+"Negligent"
+],
+"correctAnswer": 0,
+"explanation": "'Meticulous' means showing great attention to detail; 'Painstaking' is synonymous.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Synonyms"
+},
+{
+"id": "ssc_cgl_pt05_098",
+"question": "Find error: Either Ram or his friends is attending the function today.",
+"imageUrl": "",
+"options": [
+"is attending",
+"Either Ram or",
+"his friends",
+"the function today"
+],
+"correctAnswer": 0,
+"explanation": "With 'Either... or', verb agrees with closest subject ('friends', plural). Should be 'are attending'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Error Detection"
+},
+{
+"id": "ssc_cgl_pt05_099",
+"question": "Select active voice: The letter was written by Sita.",
+"imageUrl": "",
+"options": [
+"Sita wrote the letter.",
+"Sita writes the letter.",
+"Sita has written the letter.",
+"Sita was writing the letter."
+],
+"correctAnswer": 0,
+"explanation": "Simple past passive 'was written' corresponds to active 'wrote'.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "Voice"
+},
+{
+"id": "ssc_cgl_pt05_0100",
+"question": "One-word substitute: A life history of a person written by himself.",
+"imageUrl": "",
+"options": [
+"Autobiography",
+"Biography",
+"Bibliography",
+"Calligraphy"
+],
+"correctAnswer": 0,
+"explanation": "An 'Autobiography' is an account of a person's life written by that person.",
+"difficulty": "hard",
+"year": "SSC CGL Tier 1 Advanced Level",
+"topicTag": "One Word Substitution"
+}
+]
+}

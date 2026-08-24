@@ -427,21 +427,22 @@
       "topicTag": "Number Series"
     },
     {
-      "id": "ssc_cgl_pt12_027",
-      "question": "If EARTH is written as FCUXJ, how is GLOBE coded?",
-      "imageUrl": "",
-      "options": [
-        "HNQEJ",
-        "HNSGJ",
-        "HPSGJ",
-        "HNQGJ"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Pattern: +1, +2, +3, +4, +5. G(+1)->H, L(+2)->N, O(+3)->R (Wait: O+3=R, check G+1=H, L+2=N, O+3=R, B+4=F, E+5=J -> HNRFJ, in sequence G->H, L->N, O->Q (+2?), E(+1)->F, A(+2)->C, R(+3)->U, T(+4)->X, H(+5)->J. So GLOBE: G+1=H, L+2=N, O+3=R, B+4=F, E+5=J. HNQGJ uses +1, +2, +2, +5, +5 shift. Corrected pattern: G(+1)=H, L(+2)=N, O(+2)=Q, B(+5)=G, E(+5)=J).",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Coding-Decoding"
-    },
+  "id": "ssc_cgl_pt12_027",
+  "question": "If EARTH is written as FCUXJ, how is GLOBE coded?",
+  "imageUrl": "",
+  "options": [
+    "HNQEJ",
+    "HNSGJ",
+    "HNRFJ",
+    "HNQGJ"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Pattern adds incremental positions (+1, +2, +3, +4, +5): G(+1)=H, L(+2)=N, O(+3)=R, B(+4)=F, E(+5)=J. Thus, GLOBE is coded as HNRFJ.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Coding-Decoding"
+}
+,
     {
       "id": "ssc_cgl_pt12_028",
       "question": "Choose the odd pair out:",
@@ -667,21 +668,21 @@
       "topicTag": "Coding-Decoding"
     },
     {
-      "id": "ssc_cgl_pt12_042",
-      "question": "Identify the odd pair out:",
-      "imageUrl": "",
-      "options": [
-        "Gold : Ornament",
-        "Wood : Furniture",
-        "Leather : Shoe",
-        "Cloth : Garment"
-      ],
-      "correctAnswer": 2,
-      "explanation": "All pairs follow Raw Material : Finished Product, but options are uniform. Let's look closer: Leather/Shoe, Wood/Furniture, Gold/Ornament, Cloth/Garment - wait, Leather is processed animal skin, others are standard raw sources. (Or alternate: all are natural materials used to make products, standard pair).",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Classification"
-    },
+  "id": "ssc_cgl_pt12_042",
+  "question": "Identify the odd pair out:",
+  "imageUrl": "",
+  "options": [
+    "Gold : Ornament",
+    "Wood : Furniture",
+    "Car : Driver",
+    "Cloth : Garment"
+  ],
+  "correctAnswer": 2,
+  "explanation": "Gold, Wood, and Cloth are raw materials used to make Ornaments, Furniture, and Garments respectively. Car : Driver does not follow the Raw Material : Product relation.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Classification"
+},
     {
       "id": "ssc_cgl_pt12_043",
       "question": "What is the angle between clock hands at 3:00?",

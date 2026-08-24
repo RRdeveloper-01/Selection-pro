@@ -228,22 +228,22 @@
       "year": "SSC CGL Tier 1 Level",
       "topicTag": "Order & Ranking"
     },
-    {
-      "id": "ssc_reasoning_015",
-      "question": "If MIRROR is written as RORRIM, how is COMPUTER written in the same way?",
-      "imageUrl": "",
-      "options": [
-        "RETUPMOC",
-        "RETUPMOC",
-        "RETUPMOC",
-        "COMPUTER"
-      ],
-      "correctAnswer": 0,
-      "explanation": "The word is written in reverse order: COMPUTER → RETUPMOC.",
-      "difficulty": "hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Word Formation"
-    },
+   {
+  "id": "ssc_reasoning_015",
+  "question": "If MIRROR is written as RORRIM, how is COMPUTER written in the same way?",
+  "imageUrl": "",
+  "options": [
+    "RETUPMOC",
+    "RETUMPOC",
+    "RETUPCOMA",
+    "COMPUTER"
+  ],
+  "correctAnswer": 0,
+  "explanation": "The word is written in reverse order: COMPUTER → RETUPMOC.",
+  "difficulty": "hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Word Formation"
+},
     {
       "id": "ssc_reasoning_016",
       "question": "Find the odd pair.",

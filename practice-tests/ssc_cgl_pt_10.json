@@ -1,0 +1,1614 @@
+{
+  "subject": "SSC CGL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 10",
+  "chapterslug": "ssc_cgl_pt_10",
+  "totalQuestions": 100,
+  "pattern": {
+    "Reasoning": 25,
+    "General Awareness": 25,
+    "Quantitative Aptitude": 25,
+    "English Comprehension": 25
+  },
+  "questions": [
+    {
+      "id": "ssc_cgl_pt10_001",
+      "question": "Statements: All cars are vehicles. Some vehicles are electric. Conclusions: I. Some cars are electric. II. Some vehicles are cars.",
+      "imageUrl": "",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither follows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since all cars are vehicles, some vehicles must be cars (Conversion of 'All A are B' gives 'Some B are A'). The relationship between cars and electric is not directly stated.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "ssc_cgl_pt10_002",
+      "question": "If FLOWER is coded as EKNVDQ, how is GARDEN coded in that same pattern?",
+      "imageUrl": "",
+      "options": [
+        "FZQCDM",
+        "FYQCDM",
+        "FZQCEM",
+        "GAQCDM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted 1 step backward (-1) in alphabetical order: G->F, A->Z, R->Q, D->C, E->D, N->M.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_cgl_pt10_003",
+      "question": "Select the missing number in the sequence: 4, 11, 30, 67, 128, ?",
+      "imageUrl": "",
+      "options": [
+        "219",
+        "216",
+        "222",
+        "225"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pattern: n³ + 3. For n=1: 1+3=4; n=2: 8+3=11; n=3: 27+3=30; n=4: 64+3=67; n=5: 125+3=128; n=6: 216+3=219.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_cgl_pt10_004",
+      "question": "A person walks 8 km South, turns West and walks 6 km. What is the shortest distance from the starting point?",
+      "imageUrl": "",
+      "options": [
+        "10 km",
+        "14 km",
+        "12 km",
+        "2 km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distance = √(8² + 6²) = √(64 + 36) = √100 = 10 km.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "ssc_cgl_pt10_005",
+      "question": "Select the odd word out among the given options:",
+      "imageUrl": "",
+      "options": [
+        "Graphite",
+        "Diamond",
+        "Coal",
+        "Methane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methane is a compound (CH4), whereas Graphite, Diamond, and Coal are allotropes/forms of pure elemental carbon.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_cgl_pt10_006",
+      "question": "If '+' means '÷', '-' means '×', '×' means '+', and '÷' means '-', then solve: 20 + 4 - 6 × 5 ÷ 3",
+      "imageUrl": "",
+      "options": [
+        "32",
+        "30",
+        "28",
+        "35"
+      ],
+      "correctAnswer": 0,
+      "explanation": "20 ÷ 4 × 6 + 5 - 3 = 5 × 6 + 5 - 3 = 30 + 5 - 3 = 32.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Mathematical Operations"
+    },
+    {
+      "id": "ssc_cgl_pt10_007",
+      "question": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+      "imageUrl": "",
+      "options": [
+        "Mother",
+        "Sister",
+        "Aunt",
+        "Grandmother"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The only daughter of the woman's mother is the woman herself. Thus, she is his mother.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_cgl_pt10_008",
+      "question": "Find the missing term in the series: BY, DW, FU, HS, ?",
+      "imageUrl": "",
+      "options": [
+        "JQ",
+        "KP",
+        "IR",
+        "LO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First letters shift +2 (B, D, F, H, J). Second letters are opposite alphabet pairs (B-Y, D-W, F-U, H-S, J-Q).",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Alphabet Series"
+    },
+    {
+      "id": "ssc_cgl_pt10_009",
+      "question": "Doctor : Hospital :: Teacher : ?",
+      "imageUrl": "",
+      "options": [
+        "School",
+        "Student",
+        "Book",
+        "Classroom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A doctor works in a hospital; a teacher works in a school.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_cgl_pt10_010",
+      "question": "If 26th January 2024 was a Friday, what day of the week was 26th January 2025?",
+      "imageUrl": "",
+      "options": [
+        "Sunday",
+        "Saturday",
+        "Monday",
+        "Tuesday"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2024 is a leap year, and Feb 29 lies between Jan 26, 2024 and Jan 26, 2025 (+2 odd days). Friday + 2 = Sunday.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Calendar"
+    },
+    {
+      "id": "ssc_cgl_pt10_011",
+      "question": "Find the angle between the hands of a clock at 3:30.",
+      "imageUrl": "",
+      "options": [
+        "75°",
+        "85°",
+        "90°",
+        "60°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angle = |30*H - (11/2)*M| = |30*3 - (11/2)*30| = |90 - 165| = 75°.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Clock"
+    },
+    {
+      "id": "ssc_cgl_pt10_012",
+      "question": "In a row of 40 students, Amit is 14th from the top. What is his rank from the bottom?",
+      "imageUrl": "",
+      "options": [
+        "27th",
+        "26th",
+        "28th",
+        "25th"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rank from bottom = Total - Rank from top + 1 = 40 - 14 + 1 = 27th.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Ranking"
+    },
+    {
+      "id": "ssc_cgl_pt10_013",
+      "question": "Complete the series: 7, 16, 34, 70, ?",
+      "imageUrl": "",
+      "options": [
+        "142",
+        "140",
+        "144",
+        "138"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pattern: x * 2 + 2. (7*2+2=16; 16*2+2=34; 34*2+2=70; 70*2+2=142).",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_cgl_pt10_014",
+      "question": "If COMPUTER is coded as RFUVQNPC, how is MEDICINE coded in that pattern?",
+      "imageUrl": "",
+      "options": [
+        "EOJDJEFM",
+        "EOJDEJFM",
+        "MFEJDJOE",
+        "EOJDJFEM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First and last letters reverse places, remaining middle letters reverse and shift +1.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_cgl_pt10_015",
+      "question": "Which Venn diagram best represents: Animals, Dogs, Cats?",
+      "imageUrl": "",
+      "options": [
+        "One big circle containing two disjoint circles inside",
+        "Three intersecting circles",
+        "Three disjoint circles",
+        "One circle containing another, with a third separate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dogs and Cats are distinct disjoint categories, both completely contained inside Animals.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Venn Diagram"
+    },
+    {
+      "id": "ssc_cgl_pt10_016",
+      "question": "A cube of side 4 cm is painted green on all faces and cut into 1 cm small cubes. How many cubes have NO face painted?",
+      "imageUrl": "",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Formula for 0 faces painted = (n - 2)³ where n = 4. (4 - 2)³ = 2³ = 8.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Cube and Dice"
+    },
+    {
+      "id": "ssc_cgl_pt10_017",
+      "question": "If A is taller than B, B is taller than C, and D is taller than A, who is the shortest?",
+      "imageUrl": "",
+      "options": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Order of height: D > A > B > C. Thus, C is the shortest.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Ranking"
+    },
+    {
+      "id": "ssc_cgl_pt10_018",
+      "question": "How many meaningful English words can be formed using the letters 'T', 'A', 'E', 'R' only once each?",
+      "imageUrl": "",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Words formed: RATE, TEAR, TARE. Total = 3.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Word Formation"
+    },
+    {
+      "id": "ssc_cgl_pt10_019",
+      "question": "Six persons A, B, C, D, E, F are sitting in a circle facing the center. A is opposite to D. B is to the immediate right of A. Who is sitting opposite to B?",
+      "imageUrl": "",
+      "options": [
+        "E or F",
+        "C",
+        "D",
+        "A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a 6-person circle, the person opposite to immediate right of A is immediate left of D, which could be E or F depending on remaining slots.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Seating Arrangement"
+    },
+    {
+      "id": "ssc_cgl_pt10_020",
+      "question": "Find the missing term in the sequence: 1, 8, 27, 64, 125, ?",
+      "imageUrl": "",
+      "options": [
+        "216",
+        "243",
+        "343",
+        "196"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The terms are perfect cubes: 1³, 2³, 3³, 4³, 5³, 6³ = 216.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_cgl_pt10_021",
+      "question": "If CAT is coded as 24 and DOG is coded as 26, how is PIG coded?",
+      "imageUrl": "",
+      "options": [
+        "32",
+        "30",
+        "34",
+        "28"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P(16) + I(9) + G(7) = 32.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+  "id": "ssc_cgl_pt10_022",
+  "question": "Arranging the letters of 'SMART' in alphabetical order, how many letters maintain their original positions?",
+  "imageUrl": "",
+  "options": [
+    "2",
+    "1",
+    "0",
+    "3"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Original: S M A R T -> Alphabetical: A M R S T. Both 'M' (2nd position) and 'T' (5th position) maintain their original positions. Hence, 2 letters.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Alphabetical Arrangement"
+},
+    {
+      "id": "ssc_cgl_pt10_023",
+      "question": "A man faces North-West. He turns 90° clockwise and then 180° anti-clockwise. Which direction is he facing now?",
+      "imageUrl": "",
+      "options": [
+        "South-East",
+        "South-West",
+        "North-East",
+        "East"
+      ],
+      "correctAnswer": 0,
+      "explanation": "North-West + 90° clockwise = North-East. North-East + 180° = South-West.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "ssc_cgl_pt10_024",
+      "question": "Statements: No cat is a dog. All dogs are wolves. Conclusion: Some wolves are dogs.",
+      "imageUrl": "",
+      "options": [
+        "Follows",
+        "Does not follow",
+        "Either follows or not",
+        "Neither follows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'All dogs are wolves' converts directly to 'Some wolves are dogs'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Syllogism"
+    },
+    {
+  "id": "ssc_cgl_pt10_025",
+  "question": "Select the odd letter pair out:",
+  "imageUrl": "",
+  "options": [
+    "HK",
+    "MN",
+    "EV",
+    "GT"
+  ],
+  "correctAnswer": 0,
+  "explanation": "MN, EV, and GT are pairs of opposite letters in the English alphabet, whereas HK is not an opposite pair.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Classification"
+},
+    {
+      "id": "ssc_cgl_pt10_026",
+      "question": "Which river is known as the 'Sorrow of Bengal'?",
+      "imageUrl": "",
+      "options": [
+        "Damodar River",
+        "Kosi River",
+        "Hooghly River",
+        "Brahmaputra River"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Damodar River was historically called the 'Sorrow of Bengal' due to its devastating floods.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_cgl_pt10_027",
+      "question": "Who was the founder of the Maurya Empire?",
+      "imageUrl": "",
+      "options": [
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Bindusara",
+        "Chandragupta I"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chandragupta Maurya founded the Maurya Empire with the help of Chanakya in 322 BCE.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Ancient History"
+    },
+    {
+      "id": "ssc_cgl_pt10_028",
+      "question": "Which Article of the Indian Constitution deals with the 'Right to Freedom of Speech'?",
+      "imageUrl": "",
+      "options": [
+        "Article 19",
+        "Article 14",
+        "Article 21",
+        "Article 32"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Article 19(1)(a) guarantees freedom of speech and expression to all citizens.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_cgl_pt10_029",
+      "question": "What is the primary gas found in Natural Gas?",
+      "imageUrl": "",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Propane",
+        "Butane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Methane (CH4) makes up around 70-90% of natural gas composition.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_cgl_pt10_030",
+      "question": "Which organ filters blood and forms urine in the human body?",
+      "imageUrl": "",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Heart",
+        "Lungs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kidneys contain nephrons that filter metabolic waste from the bloodstream.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_cgl_pt10_031",
+      "question": "Who led the Bardoli Satyagraha in 1928?",
+      "imageUrl": "",
+      "options": [
+        "Sardar Vallabhbhai Patel",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Gopabandhu Das"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sardar Vallabhbhai Patel successfully led the Bardoli Satyagraha, earning the title 'Sardar'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_cgl_pt10_032",
+      "question": "What is the SI unit of Pressure?",
+      "imageUrl": "",
+      "options": [
+        "Pascal",
+        "Newton",
+        "Joule",
+        "Watt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pascal (Pa), defined as 1 Newton per square meter, is the SI unit of pressure.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_cgl_pt10_033",
+      "question": "Which fundamental right is called the 'Heart and Soul of the Constitution' by Dr. B.R. Ambedkar?",
+      "imageUrl": "",
+      "options": [
+        "Right to Constitutional Remedies (Article 32)",
+        "Right to Equality (Article 14)",
+        "Right to Freedom (Article 19)",
+        "Right to Life (Article 21)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dr. Ambedkar referred to Article 32 (Right to Constitutional Remedies) as the heart and soul of the Constitution.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_cgl_pt10_034",
+      "question": "Where is the Kaziranga National Park located?",
+      "imageUrl": "",
+      "options": [
+        "Assam",
+        "West Bengal",
+        "Odisha",
+        "Madhya Pradesh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kaziranga National Park, famous for the one-horned rhinoceros, is in Assam.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_cgl_pt10_035",
+      "question": "Which acid is present in ants' sting?",
+      "imageUrl": "",
+      "options": [
+        "Formic acid",
+        "Acetic acid",
+        "Citric acid",
+        "Lactic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ant stings contain Formic acid (Methanoic acid).",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_cgl_pt10_036",
+      "question": "Who was the first Governor-General of Independent India?",
+      "imageUrl": "",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Lord Wavell",
+        "Dr. Rajendra Prasad"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lord Mountbatten was the first Governor-General of free India; C. Rajagopalachari was the first Indian Governor-General.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_cgl_pt10_037",
+      "question": "Which planet is known as the 'Red Planet'?",
+      "imageUrl": "",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mars appears red due to the high concentration of iron oxide on its surface.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Astronomy"
+    },
+    {
+      "id": "ssc_cgl_pt10_038",
+      "question": "Who was the founder of the Brahmo Samaj?",
+      "imageUrl": "",
+      "options": [
+        "Raja Ram Mohan Roy",
+        "Swami Dayananda Saraswati",
+        "Swami Vivekananda",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raja Ram Mohan Roy established the Brahmo Samaj in 1828.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_cgl_pt10_039",
+      "question": "Which instrument is used to measure Atmospheric Pressure?",
+      "imageUrl": "",
+      "options": [
+        "Barometer",
+        "Hygrometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A Barometer is used to gauge atmospheric pressure.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Scientific Instruments"
+    },
+    {
+      "id": "ssc_cgl_pt10_040",
+      "question": "Which classical dance form belongs to the state of Kerala?",
+      "imageUrl": "",
+      "options": [
+        "Kathakali",
+        "Bharatanatyam",
+        "Kathak",
+        "Kuchipudi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kathakali is a major traditional classical dance form originating in Kerala.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Art and Culture"
+    },
+    {
+      "id": "ssc_cgl_pt10_041",
+      "question": "What is the national aquatic animal of India?",
+      "imageUrl": "",
+      "options": [
+        "Ganges River Dolphin",
+        "Gharial",
+        "Blue Whale",
+        "Dugong"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Ganges River Dolphin was officially declared India's National Aquatic Animal in 2009.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "General Knowledge"
+    },
+    {
+      "id": "ssc_cgl_pt10_042",
+      "question": "Who wrote the famous book 'Wealth of Nations'?",
+      "imageUrl": "",
+      "options": [
+        "Adam Smith",
+        "John Maynard Keynes",
+        "Karl Marx",
+        "Alfred Marshall"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adam Smith authored 'The Wealth of Nations' in 1776.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Economics"
+    },
+    {
+      "id": "ssc_cgl_pt10_043",
+      "question": "Which pigment gives color to human skin?",
+      "imageUrl": "",
+      "options": [
+        "Melanin",
+        "Hemoglobin",
+        "Keratin",
+        "Carotene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Melanin is produced by melanocytes and determines skin, hair, and eye pigmentation.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_cgl_pt10_044",
+      "question": "Which non-metal remains liquid at room temperature?",
+      "imageUrl": "",
+      "options": [
+        "Bromine",
+        "Mercury",
+        "Iodine",
+        "Chlorine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bromine is the only non-metallic element that is liquid under standard ambient conditions.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_cgl_pt10_045",
+      "question": "In which city is the headquarters of UNESCO located?",
+      "imageUrl": "",
+      "options": [
+        "Paris",
+        "Geneva",
+        "New York",
+        "Rome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The headquarters of UNESCO are located in Paris, France.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "International Organizations"
+    },
+    {
+      "id": "ssc_cgl_pt10_046",
+      "question": "Which Indian state has the longest coastline?",
+      "imageUrl": "",
+      "options": [
+        "Gujarat",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Maharashtra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gujarat boasts the longest coastline in India, extending around 1600 km.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_cgl_pt10_047",
+      "question": "Who was the ruler of Delhi during the Revolt of 1857?",
+      "imageUrl": "",
+      "options": [
+        "Bahadur Shah II",
+        "Shah Alam II",
+        "Akbar II",
+        "Nana Sahib"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bahadur Shah II (Bahadur Shah Zafar) was proclaimed emperor by the rebels in 1857.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_cgl_pt10_048",
+      "question": "Which element has the highest electrical conductivity?",
+      "imageUrl": "",
+      "options": [
+        "Silver",
+        "Copper",
+        "Gold",
+        "Aluminum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Silver possesses the highest thermal and electrical conductivity among all metals.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_cgl_pt10_049",
+      "question": "Under which Constitutional Amendment was the Right to Property removed from Fundamental Rights?",
+      "imageUrl": "",
+      "options": [
+        "44th Amendment",
+        "42nd Amendment",
+        "86th Amendment",
+        "52nd Amendment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 44th Amendment Act in 1978 turned the Right to Property into a legal right (Article 300A).",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_cgl_pt10_050",
+      "question": "What is the study of fungi called?",
+      "imageUrl": "",
+      "options": [
+        "Mycology",
+        "Phycology",
+        "Virology",
+        "Bacteriology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mycology is the dedicated branch of biology studying fungi.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_cgl_pt10_051",
+      "question": "If 25% of a number is 80, what is 40% of that number?",
+      "imageUrl": "",
+      "options": [
+        "128",
+        "120",
+        "132",
+        "140"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Number = (80 / 25) * 100 = 320. 40% of 320 = 128.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Percentage"
+    },
+    {
+      "id": "ssc_cgl_pt10_052",
+      "question": "A trader marks his goods 20% above CP and offers a 10% discount. Find his profit percentage.",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "6%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let CP = 100, MP = 120. SP = 120 - 10% of 120 = 108. Profit = 8%.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_cgl_pt10_053",
+      "question": "The average age of 5 employees is 28 years. If a new employee aged 34 joins, what is the new average age?",
+      "imageUrl": "",
+      "options": [
+        "29 years",
+        "30 years",
+        "28.5 years",
+        "29.5 years"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total age = 5 * 28 + 34 = 140 + 34 = 174. New average = 174 / 6 = 29 years.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_cgl_pt10_054",
+      "question": "A 240 m long train crosses a platform of length 160 m in 20 seconds. Find speed of the train in km/h.",
+      "imageUrl": "",
+      "options": [
+        "72 km/h",
+        "54 km/h",
+        "90 km/h",
+        "60 km/h"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total distance = 240 + 160 = 400 m. Speed = 400 / 20 = 20 m/s = 20 * (18/5) = 72 km/h.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_cgl_pt10_055",
+      "question": "If A:B = 2:3 and B:C = 5:6, find A:B:C.",
+      "imageUrl": "",
+      "options": [
+        "10:15:18",
+        "2:5:6",
+        "10:12:18",
+        "6:15:18"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply A:B by 5 -> 10:15. Multiply B:C by 3 -> 15:18. Ratio A:B:C = 10:15:18.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Ratio and Proportion"
+    },
+    {
+      "id": "ssc_cgl_pt10_056",
+      "question": "Find Simple Interest on ₹5000 at 8% p.a. for 3 years.",
+      "imageUrl": "",
+      "options": [
+        "₹1200",
+        "₹1000",
+        "₹1500",
+        "₹1250"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SI = (P * R * T) / 100 = (5000 * 8 * 3) / 100 = ₹1200.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "ssc_cgl_pt10_057",
+      "question": "P can finish a piece of work in 12 days and Q in 24 days. How long will they take together?",
+      "imageUrl": "",
+      "options": [
+        "8 days",
+        "6 days",
+        "9 days",
+        "10 days"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combined rate = 1/12 + 1/24 = 3/24 = 1/8. Time required = 8 days.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "ssc_cgl_pt10_058",
+      "question": "Find LCM of 15, 25, and 30.",
+      "imageUrl": "",
+      "options": [
+        "150",
+        "120",
+        "180",
+        "90"
+      ],
+      "correctAnswer": 0,
+      "explanation": "15 = 3*5, 25 = 5², 30 = 2*3*5. LCM = 2 * 3 * 5² = 150.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Number System"
+    },
+    {
+      "id": "ssc_cgl_pt10_059",
+      "question": "If x - 1/x = 4, find x² + 1/x².",
+      "imageUrl": "",
+      "options": [
+        "18",
+        "16",
+        "14",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x² + 1/x² = (x - 1/x)² + 2 = 4² + 2 = 16 + 2 = 18.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_cgl_pt10_060",
+      "question": "Find the area of an equilateral triangle with side 8 cm.",
+      "imageUrl": "",
+      "options": [
+        "16√3 cm²",
+        "32√3 cm²",
+        "64√3 cm²",
+        "12√3 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Area = (√3 / 4) * side² = (√3 / 4) * 64 = 16√3 cm².",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Geometry"
+    },
+    {
+      "id": "ssc_cgl_pt10_061",
+      "question": "Find the compound interest on ₹8000 at 5% p.a. for 2 years.",
+      "imageUrl": "",
+      "options": [
+        "₹820",
+        "₹800",
+        "₹840",
+        "₹810"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amount = 8000 * (1.05)² = 8820. CI = 8820 - 8000 = ₹820.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "ssc_cgl_pt10_062",
+      "question": "Solve for x: 3(x - 2) = 2(x + 4)",
+      "imageUrl": "",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "3x - 6 = 2x + 8 => x = 14.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_cgl_pt10_063",
+      "question": "The total surface area of a sphere is 616 cm². Find its radius. (Use π = 22/7)",
+      "imageUrl": "",
+      "options": [
+        "7 cm",
+        "14 cm",
+        "3.5 cm",
+        "10.5 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "4πr² = 616 => 4 * (22/7) * r² = 616 => r² = 49 => r = 7 cm.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_cgl_pt10_064",
+      "question": "Single discount equivalent to successive discounts of 20% and 10% is:",
+      "imageUrl": "",
+      "options": [
+        "28%",
+        "30%",
+        "25%",
+        "26%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Discount = 20 + 10 - (20*10)/100 = 30 - 2 = 28%.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Percentage"
+    },
+    {
+      "id": "ssc_cgl_pt10_065",
+      "question": "If sin θ = 4/5, find cos θ.",
+      "imageUrl": "",
+      "options": [
+        "3/5",
+        "5/3",
+        "3/4",
+        "4/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Opposite = 4, Hypotenuse = 5 => Adjacent = 3. cos θ = 3/5.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_cgl_pt10_066",
+      "question": "Simplify: (3^4 * 9^2) / 27",
+      "imageUrl": "",
+      "options": [
+        "243",
+        "81",
+        "27",
+        "729"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(3^4 * 3^4) / 3^3 = 3^8 / 3^3 = 3^5 = 243.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Indices"
+    },
+    {
+      "id": "ssc_cgl_pt10_067",
+      "question": "In what ratio must rice at ₹60/kg be mixed with rice at ₹80/kg to get a mixture worth ₹68/kg?",
+      "imageUrl": "",
+      "options": [
+        "3:2",
+        "2:3",
+        "4:3",
+        "1:2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By alligation: (80 - 68) : (68 - 60) = 12 : 8 = 3 : 2.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Mixture and Alligation"
+    },
+    {
+      "id": "ssc_cgl_pt10_068",
+      "question": "Find the product of roots of equation x² - 7x + 12 = 0.",
+      "imageUrl": "",
+      "options": [
+        "12",
+        "7",
+        "-12",
+        "-7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Product of roots = c/a = 12/1 = 12.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "ssc_cgl_pt10_069",
+      "question": "If length of a rectangle increases by 10% and width increases by 20%, total area increases by:",
+      "imageUrl": "",
+      "options": [
+        "32%",
+        "30%",
+        "28%",
+        "35%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "% Change = 10 + 20 + (10*20)/100 = 30 + 2 = 32%.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_cgl_pt10_070",
+      "question": "A boat goes 24 km upstream in 4 hours. If current speed is 2 km/h, what is boat speed in still water?",
+      "imageUrl": "",
+      "options": [
+        "8 km/h",
+        "6 km/h",
+        "10 km/h",
+        "4 km/h"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Upstream speed = 24 / 4 = 6 km/h. Still water speed = Upstream + Current = 6 + 2 = 8 km/h.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Boats and Streams"
+    },
+    {
+      "id": "ssc_cgl_pt10_071",
+      "question": "Find mode of data set: 4, 7, 5, 4, 8, 4, 9, 7",
+      "imageUrl": "",
+      "options": [
+        "4",
+        "7",
+        "5",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mode is the most frequently occurring value (4 appears three times).",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Statistics"
+    },
+    {
+      "id": "ssc_cgl_pt10_072",
+      "question": "Evaluate: sin²(30°) + cos²(30°)",
+      "imageUrl": "",
+      "options": [
+        "1",
+        "0",
+        "1/2",
+        "√3/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trigonometric identity sin²θ + cos²θ = 1.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_cgl_pt10_073",
+      "question": "The perimeter of a circle is 88 cm. Find its radius. (π = 22/7)",
+      "imageUrl": "",
+      "options": [
+        "14 cm",
+        "7 cm",
+        "21 cm",
+        "28 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "2 * (22/7) * r = 88 => r = (88 * 7) / 44 = 14 cm.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Geometry"
+    },
+    {
+      "id": "ssc_cgl_pt10_074",
+      "question": "Find HCF of 42, 63, and 105.",
+      "imageUrl": "",
+      "options": [
+        "21",
+        "7",
+        "14",
+        "3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "42 = 21*2, 63 = 21*3, 105 = 21*5. HCF is 21.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Number System"
+    },
+    {
+      "id": "ssc_cgl_pt10_075",
+      "question": "Selling price of 10 items equals cost price of 12 items. Find profit percentage.",
+      "imageUrl": "",
+      "options": [
+        "20%",
+        "25%",
+        "15%",
+        "18%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Profit% = [(12 - 10) / 10] * 100 = (2 / 10) * 100 = 20%.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_cgl_pt10_076",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Embarrass",
+        "Embaras",
+        "Embarass",
+        "Embarras"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Embarrass' features double 'r' and double 's'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_cgl_pt10_077",
+      "question": "Select the synonym of: **BENEVOLENT**",
+      "imageUrl": "",
+      "options": [
+        "Kind",
+        "Cruel",
+        "Greedy",
+        "Selfish"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Benevolent' means well-meaning and kindly.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_078",
+      "question": "Select the antonym of: **HOSTILE**",
+      "imageUrl": "",
+      "options": [
+        "Friendly",
+        "Aggressive",
+        "Antagonistic",
+        "Unfriendly"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Hostile' means aggressive; 'Friendly' is the exact antonym.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_079",
+      "question": "Identify the error: *One of the book is missing from the shelf.*",
+      "imageUrl": "",
+      "options": [
+        "the book",
+        "One of",
+        "is missing",
+        "from the shelf"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'One of the' is followed by a plural noun ('books'). Correct: 'One of the books'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_cgl_pt10_080",
+      "question": "Fill in the blank: *He is addicted ___ gambling.*",
+      "imageUrl": "",
+      "options": [
+        "to",
+        "with",
+        "for",
+        "in"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'addicted' is followed by the preposition 'to'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Prepositions"
+    },
+    {
+      "id": "ssc_cgl_pt10_081",
+      "question": "Convert to Passive Voice: *She sang a song.*",
+      "imageUrl": "",
+      "options": [
+        "A song was sung by her.",
+        "A song is sung by her.",
+        "A song has been sung by her.",
+        "A song was being sung by her."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Simple past active becomes 'was + past participle' in passive.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Voice"
+    },
+    {
+      "id": "ssc_cgl_pt10_082",
+      "question": "Convert to Indirect Speech: *Rohan said, 'I have completed my work.'*",
+      "imageUrl": "",
+      "options": [
+        "Rohan said that he had completed his work.",
+        "Rohan said that he has completed his work.",
+        "Rohan said that I had completed my work.",
+        "Rohan told he had completed his work."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Present perfect tense changes to past perfect tense in indirect speech.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Narration"
+    },
+    {
+      "id": "ssc_cgl_pt10_083",
+      "question": "One word substitution: *One who looks at the bright side of things*",
+      "imageUrl": "",
+      "options": [
+        "Optimist",
+        "Pessimist",
+        "Atheist",
+        "Egoist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An 'Optimist' is a person who tends to be hopeful and confident about outcomes.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    },
+    {
+      "id": "ssc_cgl_pt10_084",
+      "question": "Select the meaning of the idiom: **Burn the midnight oil**",
+      "imageUrl": "",
+      "options": [
+        "Work or study late into the night",
+        "Waste energy",
+        "Set fire to something",
+        "Wake up early"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Burn the midnight oil' means to stay up late studying or working.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_cgl_pt10_085",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Privilege",
+        "Priviledge",
+        "Privelege",
+        "Privlege"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Privilege' is the correct spelling without a 'd'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_cgl_pt10_086",
+      "question": "Fill in the blank: *The committee ___ submitted its report.*",
+      "imageUrl": "",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "were"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When acting as a single unified body, 'committee' takes a singular verb ('has').",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Grammar"
+    },
+    {
+      "id": "ssc_cgl_pt10_087",
+      "question": "Select the synonym of: **FRUGAL**",
+      "imageUrl": "",
+      "options": [
+        "Economical",
+        "Extravagant",
+        "Wasteful",
+        "Generous"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Frugal' means sparing or economical regarding money or food.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_088",
+      "question": "Select the antonym of: **ANCIENT**",
+      "imageUrl": "",
+      "options": [
+        "Modern",
+        "Old",
+        "Historic",
+        "Antique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Ancient' refers to long past times; 'Modern' is its opposite.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_089",
+      "question": "Identify the error: *No sooner did he see the tiger when he ran away.*",
+      "imageUrl": "",
+      "options": [
+        "when he ran away",
+        "No sooner did",
+        "he see",
+        "the tiger"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'No sooner' is always paired with 'than', not 'when'. Correct: 'than he ran away'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_cgl_pt10_090",
+      "question": "Sentence Improvement: *He is superior than all his colleagues.*",
+      "imageUrl": "",
+      "options": [
+        "superior to",
+        "more superior than",
+        "superior from",
+        "no improvement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative words like superior, inferior, senior, junior take 'to' rather than 'than'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "ssc_cgl_pt10_091",
+      "question": "Rearrange the sentence parts: P: to improve the economy / Q: the government has / R: introduced several reforms / S: in recent months",
+      "imageUrl": "",
+      "options": [
+        "Q-R-P-S",
+        "P-Q-R-S",
+        "R-Q-P-S",
+        "S-R-Q-P"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coherent sequence: Q ('the government has') R ('introduced several reforms') P ('to improve the economy') S ('in recent months').",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Sentence Rearrangement"
+    },
+    {
+      "id": "ssc_cgl_pt10_092",
+      "question": "Fill in the article: *Suresh is ___ European citizen.*",
+      "imageUrl": "",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'European' starts with a consonant phonetic sound (/jʊərəˈpiːən/), requiring 'a'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Articles"
+    },
+    {
+      "id": "ssc_cgl_pt10_093",
+      "question": "Select the meaning of: **FEASIBLE**",
+      "imageUrl": "",
+      "options": [
+        "Practicable",
+        "Impossible",
+        "Unrealistic",
+        "Difficult"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Feasible' means possible and practical to achieve or carry out easily.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Vocabulary"
+    },
+    {
+      "id": "ssc_cgl_pt10_094",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Maintenance",
+        "Maintainance",
+        "Maintenence",
+        "Mentenance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Maintenance' is the standard spelling.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_cgl_pt10_095",
+      "question": "Fill in the blank: *The firemen managed to put ___ the fire.*",
+      "imageUrl": "",
+      "options": [
+        "out",
+        "off",
+        "down",
+        "away"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrasal verb 'put out' means to extinguish a flame or fire.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Prepositions"
+    },
+    {
+      "id": "ssc_cgl_pt10_096",
+      "question": "Select the antonym of: **MANDATORY**",
+      "imageUrl": "",
+      "options": [
+        "Optional",
+        "Compulsory",
+        "Obligatory",
+        "Required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mandatory' means required by rule; 'Optional' is its opposite.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_097",
+      "question": "Select the synonym of: **METICULOUS**",
+      "imageUrl": "",
+      "options": [
+        "Careful",
+        "Careless",
+        "Sloppy",
+        "Hastily"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Meticulous' means showing great attention to detail; precise and careful.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_cgl_pt10_098",
+      "question": "Identify the error: *He works hard lest he may fail.*",
+      "imageUrl": "",
+      "options": [
+        "lest he may fail",
+        "He works hard",
+        "fail",
+        "No error"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Lest' is followed by 'should' (e.g., 'lest he should fail').",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_cgl_pt10_099",
+      "question": "Convert to Passive Voice: *Who wrote the Mahabharata?*",
+      "imageUrl": "",
+      "options": [
+        "By whom was the Mahabharata written?",
+        "By who was the Mahabharata written?",
+        "Who was the Mahabharata written by?",
+        "By whom the Mahabharata was written?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Who' changes to 'By whom', and simple past uses 'was + past participle'.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Voice"
+    },
+    {
+      "id": "ssc_cgl_pt10_0100",
+      "question": "Select the meaning of the idiom: **Once in a blue moon**",
+      "imageUrl": "",
+      "options": [
+        "Very rarely",
+        "Frequently",
+        "On full moon nights",
+        "Never"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Once in a blue moon' is an idiom that denotes an event occurring very rarely.",
+      "difficulty": "medium-hard",
+      "year": "SSC CGL Tier 1 Level",
+      "topicTag": "Idioms"
+    }
+  ]
+}

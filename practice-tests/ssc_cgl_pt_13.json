@@ -651,21 +651,21 @@
       "topicTag": "Coding-Decoding"
     },
     {
-      "id": "ssc_cgl_pt13_041",
-      "question": "Select the odd pair out:",
-      "imageUrl": "",
-      "options": [
-        "Cow : Calf",
-        "Dog : Puppy",
-        "Cat : Kitten",
-        "Lion : Cub"
-      ],
-      "correctAnswer": 0,
-      "explanation": "All listed pairs correctly represent Animal : Offspring, making option definitions uniform (All valid). If selecting non-matching type: none.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Classification"
-    },
+  "id": "ssc_cgl_pt13_041",
+  "question": "Select the odd pair out:",
+  "imageUrl": "",
+  "options": [
+    "Cow : Calf",
+    "Lion : Roar",
+    "Cat : Kitten",
+    "Dog : Puppy"
+  ],
+  "correctAnswer": 1,
+  "explanation": "Cow:Calf, Cat:Kitten, and Dog:Puppy represent the Animal:Offspring relationship, whereas Lion:Roar represents the Animal:Sound relationship.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Classification"
+},
     {
       "id": "ssc_cgl_pt13_042",
       "question": "At 6:00, what is the angle between hour and minute hands?",
@@ -1147,21 +1147,21 @@
       "topicTag": "Antonyms"
     },
     {
-      "id": "ssc_cgl_pt13_072",
-      "question": "Select the correctly spelt word:",
-      "imageUrl": "",
-      "options": [
-        "Privilege",
-        "Priviledge",
-        "Privelege",
-        "Privilege"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Correct spelling is 'Privilege'.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Spelling"
-    },
+  "id": "ssc_cgl_pt13_072",
+  "question": "Select the correctly spelt word:",
+  "imageUrl": "",
+  "options": [
+    "Privilege",
+    "Priviledge",
+    "Privelege",
+    "Privlege"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Correct spelling is 'Privilege'.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Spelling"
+},
     {
       "id": "ssc_cgl_pt13_073",
       "question": "Fill in the blank: *He abstained ___ voting.*",

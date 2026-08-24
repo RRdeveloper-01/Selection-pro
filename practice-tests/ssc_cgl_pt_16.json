@@ -427,21 +427,21 @@
       "topicTag": "Number Series"
     },
     {
-      "id": "ssc_cgl_pt16_027",
-      "question": "In a certain code language, 'SMART' is coded as 'UOCPT'. How is 'GREAT' coded in that language?",
-      "imageUrl": "",
-      "options": [
-        "ITCGV",
-        "ITCVG",
-        "ISCGV",
-        "ITGYV"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Pattern: +2, -2, +2, -2, +2. G(+2)=I, R(-2)=P (Wait: S+2=U, M+2=O? S(19)->U(21) [+2], M(13)->O(15) [+2], A(1)->C(3) [+2], R(18)->P(16) [-2], T(20)->V(22) [+2]). Applying +2, +2, +2, -2, +2: G(+2)=I, R(+2)=T, E(+2)=G, A(-2)=Y, T(+2)=V -> ITGYV. Let's adjust rule to pure +2 on all: G(+2)=I, R(+2)=T, E(+2)=G, A(+2)=C, T(+2)=V -> ITGCV.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 2 Level",
-      "topicTag": "Coding-Decoding"
-    },
+  "id": "ssc_cgl_pt16_027",
+  "question": "In a certain code language, 'SMART' is coded as 'UOCPT'. How is 'GREAT' coded in that language?",
+  "imageUrl": "",
+  "options": [
+    "ITCGV",
+    "ITCVG",
+    "ISCGV",
+    "ITGYV"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Pattern: +2, +2, +2, -2, +2. Applying to GREAT: G(+2)=I, R(+2)=T, E(+2)=G, A(-2)=Y, T(+2)=V, which gives ITGYV.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 2 Level",
+  "topicTag": "Coding-Decoding"
+},
     {
       "id": "ssc_cgl_pt16_028",
       "question": "Select the odd pair from the following:",
@@ -507,21 +507,21 @@
       "topicTag": "Blood Relations"
     },
     {
-      "id": "ssc_cgl_pt16_032",
-      "question": "Complete the letter series: p q r _ p q _ r p _ q r _ q r r",
-      "imageUrl": "",
-      "options": [
-        "r p q p",
-        "r r p p",
-        "q p r p",
-        "r r p q"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Repeating pattern: 'p q r r'. Filled entries: p q r [r] | p q [r] r | p [p] q r | [p] q r r -> r r p p. Correct selection: r r p p.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 2 Level",
-      "topicTag": "Alphabet Series"
-    },
+  "id": "ssc_cgl_pt16_032",
+  "question": "Complete the letter series: p q r _ p q _ r p _ q r _ q r r",
+  "imageUrl": "",
+  "options": [
+    "r p q p",
+    "r r p p",
+    "q p r p",
+    "r r p q"
+  ],
+  "correctAnswer": 1,
+  "explanation": "The repeating pattern is 'p q r r'. Filling the missing letters yields: p q r [r] | p q [r] r | p [p] q r | [p] q r r. The inserted letters are r, r, p, p.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 2 Level",
+  "topicTag": "Alphabet Series"
+},
     {
       "id": "ssc_cgl_pt16_033",
       "question": "Analogy: Odometer : Distance :: Barometer : ?",
@@ -795,21 +795,21 @@
       "topicTag": "Statement & Assumptions"
     },
     {
-      "id": "ssc_cgl_pt16_050",
-      "question": "How many total triangles are formed by drawing both diagonals inside a simple square?",
-      "imageUrl": "",
-      "options": [
-        "4",
-        "6",
-        "8",
-        "10"
-      ],
-      "correctAnswer": 0,
-      "explanation": "4 single small triangles + 4 larger triangles formed by combining adjacent pairs along diagonals = 8 triangles.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Counting Figures"
-    },
+  "id": "ssc_cgl_pt16_050",
+  "question": "How many total triangles are formed by drawing both diagonals inside a simple square?",
+  "imageUrl": "",
+  "options": [
+    "4",
+    "6",
+    "8",
+    "10"
+  ],
+  "correctAnswer": 2,
+  "explanation": "A square with both diagonals contains 4 small individual triangles and 4 larger triangles formed by adjacent pairs, making a total of 8 triangles.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Counting Figures"
+},
     {
       "id": "ssc_cgl_pt16_051",
       "question": "Select the synonym of: **CANDID**",
@@ -1243,21 +1243,21 @@
       "topicTag": "Profit and Loss"
     },
     {
-      "id": "ssc_cgl_pt16_078",
-      "question": "The average age of a family of 5 members is 24 years. If the age of the youngest member is 8 years, what was the average age of the family at the time of birth of the youngest member?",
-      "imageUrl": "",
-      "options": [
-        "20 years",
-        "16 years",
-        "18 years",
-        "22 years"
-      ],
-      "correctAnswer": 3,
-      "explanation": "Sum of current ages = 5 × 24 = 120. Sum 8 years ago = 120 - (5 × 8) = 80. Total members then = 4. Average = 80 / 4 = 20 years.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 2 Level",
-      "topicTag": "Average"
-    },
+  "id": "ssc_cgl_pt16_078",
+  "question": "The average age of a family of 5 members is 24 years. If the age of the youngest member is 8 years, what was the average age of the family at the time of birth of the youngest member?",
+  "imageUrl": "",
+  "options": [
+    "20 years",
+    "16 years",
+    "18 years",
+    "22 years"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Total sum of current ages = 5 × 24 = 120. Total age 8 years ago = 120 - (5 × 8) = 80 years. At the birth of the youngest member, 4 members were present. Average age = 80 / 4 = 20 years.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 2 Level",
+  "topicTag": "Average"
+},
     {
       "id": "ssc_cgl_pt16_079",
       "question": "A car covers 300 km at a speed of 60 km/h and returns at 40 km/h. What is its average speed for the whole journey?",

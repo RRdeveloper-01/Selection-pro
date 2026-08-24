@@ -427,21 +427,21 @@
       "topicTag": "Number Series"
     },
     {
-      "id": "ssc_cgl_pt17_027",
-      "question": "In a certain code, 'PLANT' is written as 'QMBOU'. How is 'FLOWER' written in that code?",
-      "imageUrl": "",
-      "options": [
-        "GMZXFS",
-        "GOMXFS",
-        "GMNXFS",
-        "GMPXFS"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Pattern: Every letter shifted by +1. F->G, L->M, O->P... Wait: O+1=P, W+1=X, E+1=F, R+1=S -> GMPXFS.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 2 Level",
-      "topicTag": "Coding-Decoding"
-    },
+  "id": "ssc_cgl_pt17_027",
+  "question": "In a certain code, 'PLANT' is written as 'QMBOU'. How is 'FLOWER' written in that code?",
+  "imageUrl": "",
+  "options": [
+    "GMZXFS",
+    "GOMXFS",
+    "GMNXFS",
+    "GMPXFS"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Pattern: Every letter is shifted by +1. F(+1)=G, L(+1)=M, O(+1)=P, W(+1)=X, E(+1)=F, R(+1)=S. Hence, FLOWER becomes GMPXFS.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 2 Level",
+  "topicTag": "Coding-Decoding"
+},
     {
       "id": "ssc_cgl_pt17_028",
       "question": "Select the odd pair from the following options:",
@@ -635,21 +635,21 @@
       "topicTag": "Logical Order"
     },
     {
-      "id": "ssc_cgl_pt17_040",
-      "question": "If CAT is coded as 24 and DOG is coded as 26, how is BIRD coded?",
-      "imageUrl": "",
-      "options": [
-        "36",
-        "34",
-        "32",
-        "30"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sum of letter values: B(2) + I(9) + R(18) + D(4) = 33... wait, 2+9+18+4 = 33. If BIRD option is 36, CAT: C(3)+A(1)+T(20)=24, DOG: D(4)+O(15)+G(7)=26. Let's fix calculation: B(2)+I(9)+R(18)+D(4)=33. Wait, let's select 33 if option revised, or adjusting options: 33.",
-      "difficulty": "medium-hard",
-      "year": "SSC CGL Tier 1 Level",
-      "topicTag": "Coding-Decoding"
-    },
+  "id": "ssc_cgl_pt17_040",
+  "question": "If CAT is coded as 24 and DOG is coded as 26, how is BIRD coded?",
+  "imageUrl": "",
+  "options": [
+    "33",
+    "34",
+    "32",
+    "30"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Sum of positional values of letters: C(3) + A(1) + T(20) = 24, D(4) + O(15) + G(7) = 26. Similarly, B(2) + I(9) + R(18) + D(4) = 33.",
+  "difficulty": "medium-hard",
+  "year": "SSC CGL Tier 1 Level",
+  "topicTag": "Coding-Decoding"
+},
     {
       "id": "ssc_cgl_pt17_041",
       "question": "Analogy: 7 : 50 :: 9 : ?",

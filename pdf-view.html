@@ -137,62 +137,271 @@
 
     <div id="questions-paper">Loading Questions...</div>
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const testId = urlParams.get('id') || 'practice-01';
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const testId = urlParams.get('id') || 'practice-01';
 
-        // JSON fetch karein
-        fetch(`practice-tests/${testId}.json`)
-            .then(res => res.json())
-            .then(data => {
-                document.getElementById('paper-title').innerText = data.chapter || "Practice Test";
-                const container = document.getElementById('questions-paper');
-                container.innerHTML = "";
 
-                data.questions.forEach((q, idx) => {
-                    // Image Check
-                    let imgHTML = '';
-                    if (q.imageUrl && q.imageUrl.trim() !== '') {
-                        imgHTML = `
-                            <div class="q-img-container">
-                                <img src="${q.imageUrl}" alt="Question Diagram">
-                            </div>
-                        `;
-                    }
+    /* ============================================
+       RANDOMIZE OPTIONS
+       ============================================ */
 
-                    // Options HTML
-                    let opts = q.options.map((opt, i) => `
-                        <div class="option-item">(${String.fromCharCode(65 + i)}) ${opt}</div>
+    function randomizeOptions(questions) {
+
+        return questions.map(question => {
+
+            // Original correct option ko save karo
+            const correctOption =
+                question.options[question.correctAnswer];
+
+
+            // Options ki copy
+            const shuffledOptions =
+                [...question.options];
+
+
+            // Fisher-Yates Shuffle
+            for (
+                let i = shuffledOptions.length - 1;
+                i > 0;
+                i--
+            ) {
+
+                const j =
+                    Math.floor(Math.random() * (i + 1));
+
+
+                [
+                    shuffledOptions[i],
+                    shuffledOptions[j]
+                ] =
+                [
+                    shuffledOptions[j],
+                    shuffledOptions[i]
+                ];
+            }
+
+
+            // Shuffle ke baad correct option ka
+            // new index find karo
+            const newCorrectAnswer =
+                shuffledOptions.indexOf(correctOption);
+
+
+            return {
+                ...question,
+
+                options: shuffledOptions,
+
+                correctAnswer: newCorrectAnswer
+            };
+
+        });
+
+    }
+
+
+    /* ============================================
+       JSON FETCH
+       ============================================ */
+
+    fetch(`practice-tests/${testId}.json`)
+
+        .then(res => {
+
+            if (!res.ok) {
+                throw new Error("JSON file not found");
+            }
+
+            return res.json();
+
+        })
+
+
+        .then(data => {
+
+            /* ========================================
+               RANDOMIZE OPTIONS
+               ======================================== */
+
+            if (
+                data.questions &&
+                Array.isArray(data.questions)
+            ) {
+
+                data.questions =
+                    randomizeOptions(data.questions);
+
+            }
+
+
+            /* ========================================
+               PAPER TITLE
+               ======================================== */
+
+            document.getElementById('paper-title').innerText =
+                data.chapter || "Practice Test";
+
+
+            /* ========================================
+               QUESTIONS CONTAINER
+               ======================================== */
+
+            const container =
+                document.getElementById('questions-paper');
+
+
+            container.innerHTML = "";
+
+
+            /* ========================================
+               RENDER QUESTIONS
+               ======================================== */
+
+            data.questions.forEach((q, idx) => {
+
+
+                /* ====================================
+                   IMAGE CHECK
+                   ==================================== */
+
+                let imgHTML = '';
+
+
+                if (
+                    q.imageUrl &&
+                    q.imageUrl.trim() !== ''
+                ) {
+
+                    imgHTML = `
+                        <div class="q-img-container">
+
+                            <img
+                                src="${q.imageUrl}"
+                                alt="Question Diagram"
+                            >
+
+                        </div>
+                    `;
+
+                }
+
+
+                /* ====================================
+                   OPTIONS HTML
+                   ==================================== */
+
+                let opts =
+                    q.options.map((opt, i) => `
+
+                        <div class="option-item">
+                            (${String.fromCharCode(65 + i)})
+                            ${opt}
+                        </div>
+
                     `).join('');
 
-                    // Correct Answer Label
-                    let correctChar = String.fromCharCode(65 + q.correctAnswer);
-                    let correctText = q.options[q.correctAnswer] || '';
-                    let ansHTML = `
-                        <div class="ans-box">
-                            ✔ Correct Answer: (${correctChar}) ${correctText}
-                        </div>
-                    `;
 
-                    container.innerHTML += `
-                        <div class="q-box">
-                            <div class="q-text">Q${idx + 1}. ${q.question}</div>
-                            ${imgHTML}
-                            <div class="options">${opts}</div>
-                            ${ansHTML}
-                        </div>
-                    `;
-                });
-                // Render quiz complete hone ke baad MathJax call karein
-if (window.MathJax && window.MathJax.typesetPromise) {
-    MathJax.typesetPromise();
-}
+                /* ====================================
+                   CORRECT ANSWER
+                   ==================================== */
 
-            })
-            .catch(err => {
-                document.getElementById('questions-paper').innerHTML = "<p style='color:red;'>Data loading error...</p>";
+                const correctChar =
+                    String.fromCharCode(
+                        65 + q.correctAnswer
+                    );
+
+
+                const correctText =
+                    q.options[q.correctAnswer] || '';
+
+
+                let ansHTML = `
+
+                    <div class="ans-box">
+
+                        ✔ Correct Answer:
+                        (${correctChar})
+                        ${correctText}
+
+                    </div>
+
+                `;
+
+
+                /* ====================================
+                   QUESTION CARD
+                   ==================================== */
+
+                container.innerHTML += `
+
+                    <div class="q-box">
+
+                        <div class="q-text">
+                            Q${idx + 1}. ${q.question}
+                        </div>
+
+
+                        ${imgHTML}
+
+
+                        <div class="options">
+
+                            ${opts}
+
+                        </div>
+
+
+                        ${ansHTML}
+
+                    </div>
+
+                `;
+
             });
-    </script>
+
+
+            /* ========================================
+               MATHJAX
+               ======================================== */
+
+            if (
+                window.MathJax &&
+                window.MathJax.typesetPromise
+            ) {
+
+                MathJax.typesetPromise();
+
+            }
+
+        })
+
+
+        /* ============================================
+           ERROR HANDLING
+           ============================================ */
+
+        .catch(err => {
+
+            console.error(
+                "Mock test loading error:",
+                err
+            );
+
+
+            document.getElementById(
+                'questions-paper'
+            ).innerHTML = `
+
+                <p style="color:red;">
+                    Data loading error...
+                </p>
+
+            `;
+
+        });
+
+</script>
         <script src="/includes/js/lang.js"></script>
          <script src="/includes/js/translate.js"></script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

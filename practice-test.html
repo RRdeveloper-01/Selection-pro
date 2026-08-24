@@ -343,145 +343,453 @@
 
     </div>
 
-    <script>
-        let testData = null;
+<script>
+    let testData = null;
 
-        document.addEventListener("DOMContentLoaded", () => {
-            fetchMockTestData();
-        });
+    document.addEventListener("DOMContentLoaded", () => {
+        fetchMockTestData();
+    });
 
-        // Dynamic JSON Fetching Function
-        async function fetchMockTestData() {
-            // URL se 'id' parameter extract karein (e.g. ?id=practice-06 ya ?id=jee-practice-01)
-            const urlParams = new URLSearchParams(window.location.search);
-            const testId = urlParams.get('id') || 'practice-01';
 
-            try {
-                // 'practice-tests' folder se target JSON file load karein
-                const response = await fetch(`practice-tests/${testId}.json`);
-                if (!response.ok) throw new Error("JSON file not found");
-                testData = await response.json();
-            } catch (error) {
-                console.warn("Fetch failed, loading fallback demo data.", error);
-                
-                
+    /* ============================================
+       RANDOMIZE OPTIONS
+       ============================================ */
+
+    function randomizeOptions(questions) {
+
+        return questions.map(question => {
+
+            // Original correct option ko save karo
+            const correctOption = question.options[question.correctAnswer];
+
+            // Options ki copy banao
+            const shuffledOptions = [...question.options];
+
+            // Fisher-Yates Shuffle
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+
+                const j = Math.floor(Math.random() * (i + 1));
+
+                [shuffledOptions[i], shuffledOptions[j]] =
+                [shuffledOptions[j], shuffledOptions[i]];
             }
 
-            renderQuiz(testData);
+            // Shuffle ke baad correct option ka new index
+            const newCorrectAnswer =
+                shuffledOptions.indexOf(correctOption);
+
+            return {
+                ...question,
+                options: shuffledOptions,
+                correctAnswer: newCorrectAnswer
+            };
+        });
+    }
+
+
+    /* ============================================
+       DYNAMIC JSON FETCHING
+       ============================================ */
+
+    async function fetchMockTestData() {
+
+        // URL se id parameter extract karein
+        // Example:
+        // ?id=practice-06
+        // ?id=ssc_cgl_pt_03
+
+        const urlParams =
+            new URLSearchParams(window.location.search);
+
+        const testId =
+            urlParams.get('id') || 'practice-01';
+
+
+        try {
+
+            // Target JSON file load karein
+            const response =
+                await fetch(`practice-tests/${testId}.json`);
+
+
+            if (!response.ok) {
+                throw new Error("JSON file not found");
+            }
+
+
+            // JSON data
+            testData = await response.json();
+
+
+            /* ========================================
+               RANDOMIZE OPTIONS
+               ======================================== */
+
+            if (
+                testData.questions &&
+                Array.isArray(testData.questions)
+            ) {
+
+                testData.questions =
+                    randomizeOptions(testData.questions);
+
+            }
+
+
+        } catch (error) {
+
+            console.warn(
+                "Fetch failed, loading fallback demo data.",
+                error
+            );
+
+            return;
         }
 
-        // Render Questions UI
-        function renderQuiz(data) {
-            document.getElementById("test-name").innerText = data.chapter || "Practice Test";
-            document.getElementById("subject-tag").innerText = `Subject: ${data.subject || 'General'} | Slug: ${data.chapterslug || ''}`;
-            document.getElementById("total-badge").innerText = `${data.questions.length} Questions`;
 
-            const container = document.getElementById("questions-container");
-            container.innerHTML = "";
+        // Quiz render
+        renderQuiz(testData);
+    }
 
-            data.questions.forEach((q, index) => {
-                const qCard = document.createElement("div");
-                qCard.className = "q-card";
 
-                // Check for Graph / Image URL
-                let imageHTML = "";
-                if (q.imageUrl && q.imageUrl.trim() !== "") {
-                    imageHTML = `
-                        <div class="q-image-container">
-                            <img src="${q.imageUrl}" alt="Question Diagram" loading="lazy">
-                        </div>
-                    `;
-                }
+    /* ============================================
+       RENDER QUESTIONS UI
+       ============================================ */
 
-                let optionsHTML = "";
-                q.options.forEach((opt, optIdx) => {
-                    optionsHTML += `
-                        <label class="option-item">
-                            <input type="radio" name="q_${index}" value="${optIdx}" required>
-                            <span>${opt}</span>
-                        </label>
-                    `;
-                });
+    function renderQuiz(data) {
 
-                qCard.innerHTML = `
-                    <div class="q-header">
-                        <span class="q-num">Q${index + 1}.</span>
-                        <div style="width: 100%;">
-                            <div class="q-text">${q.question}</div>
-                            ${imageHTML}
-                            <div class="q-tags">
-                                <span><i class="fa-regular fa-bookmark"></i> ${q.topicTag || 'General'}</span>
-                                <span><i class="fa-regular fa-calendar"></i> ${q.year || ''}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="options-list">
-                        ${optionsHTML}
-                    </div>
-                    <div class="explanation" id="exp_${index}">
-                        <strong><i class="fa-regular fa-lightbulb"></i> Explanation:</strong> ${q.explanation}
+        document.getElementById("test-name").innerText =
+            data.chapter || "Practice Test";
+
+
+        document.getElementById("subject-tag").innerText =
+            `Subject: ${data.subject || 'General'} | Slug: ${data.chapterslug || ''}`;
+
+
+        document.getElementById("total-badge").innerText =
+            `${data.questions.length} Questions`;
+
+
+        const container =
+            document.getElementById("questions-container");
+
+
+        container.innerHTML = "";
+
+
+        data.questions.forEach((q, index) => {
+
+            const qCard =
+                document.createElement("div");
+
+            qCard.className = "q-card";
+
+
+            /* ========================================
+               CHECK QUESTION IMAGE
+               ======================================== */
+
+            let imageHTML = "";
+
+
+            if (
+                q.imageUrl &&
+                q.imageUrl.trim() !== ""
+            ) {
+
+                imageHTML = `
+                    <div class="q-image-container">
+                        <img
+                            src="${q.imageUrl}"
+                            alt="Question Diagram"
+                            loading="lazy"
+                        >
                     </div>
                 `;
+            }
 
-                container.appendChild(qCard);
+
+            /* ========================================
+               OPTIONS
+               ======================================== */
+
+            let optionsHTML = "";
+
+
+            q.options.forEach((opt, optIdx) => {
+
+                optionsHTML += `
+                    <label class="option-item">
+
+                        <input
+                            type="radio"
+                            name="q_${index}"
+                            value="${optIdx}"
+                            required
+                        >
+
+                        <span>${opt}</span>
+
+                    </label>
+                `;
             });
 
-            document.getElementById("submit-btn").style.display = "block";
-            // Render quiz complete hone ke baad MathJax call karein
-if (window.MathJax && window.MathJax.typesetPromise) {
-    MathJax.typesetPromise();
-}
+
+            /* ========================================
+               QUESTION CARD
+               ======================================== */
+
+            qCard.innerHTML = `
+
+                <div class="q-header">
+
+                    <span class="q-num">
+                        Q${index + 1}.
+                    </span>
+
+
+                    <div style="width: 100%;">
+
+                        <div class="q-text">
+                            ${q.question}
+                        </div>
+
+
+                        ${imageHTML}
+
+
+                        <div class="q-tags">
+
+                            <span>
+                                <i class="fa-regular fa-bookmark"></i>
+                                ${q.topicTag || 'General'}
+                            </span>
+
+
+                            <span>
+                                <i class="fa-regular fa-calendar"></i>
+                                ${q.year || ''}
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="options-list">
+
+                    ${optionsHTML}
+
+                </div>
+
+
+                <div
+                    class="explanation"
+                    id="exp_${index}"
+                >
+
+                    <strong>
+                        <i class="fa-regular fa-lightbulb"></i>
+                        Explanation:
+                    </strong>
+
+                    ${q.explanation}
+
+                </div>
+
+            `;
+
+
+            container.appendChild(qCard);
+
+        });
+
+
+        /* ============================================
+           SHOW SUBMIT BUTTON
+           ============================================ */
+
+        document.getElementById("submit-btn").style.display =
+            "block";
+
+
+        /* ============================================
+           MATHJAX
+           ============================================ */
+
+        if (
+            window.MathJax &&
+            window.MathJax.typesetPromise
+        ) {
+
+            MathJax.typesetPromise();
 
         }
 
-        // Scoreboard & Submit Logic
-        document.getElementById("quiz-form").addEventListener("submit", function(e) {
+    }
+
+
+    /* ============================================
+       SCOREBOARD & SUBMIT LOGIC
+       ============================================ */
+
+    document
+        .getElementById("quiz-form")
+        .addEventListener("submit", function(e) {
+
             e.preventDefault();
 
-            if (!testData || !testData.questions) return;
+
+            if (
+                !testData ||
+                !testData.questions
+            ) {
+                return;
+            }
+
 
             let correctCount = 0;
-            let totalCount = testData.questions.length;
+
+            let totalCount =
+                testData.questions.length;
+
+
+            /* ========================================
+               CHECK EVERY QUESTION
+               ======================================== */
 
             testData.questions.forEach((q, index) => {
-                const selectedOpt = document.querySelector(`input[name="q_${index}"]:checked`);
-                const expBox = document.getElementById(`exp_${index}`);
-                
-                if (expBox) expBox.style.display = "block";
+
+                const selectedOpt =
+                    document.querySelector(
+                        `input[name="q_${index}"]:checked`
+                    );
+
+
+                const expBox =
+                    document.getElementById(
+                        `exp_${index}`
+                    );
+
+
+                // Explanation show karo
+                if (expBox) {
+                    expBox.style.display = "block";
+                }
+
+
+                /* ====================================
+                   CHECK ANSWER
+                   ==================================== */
 
                 if (selectedOpt) {
-                    const userAns = parseInt(selectedOpt.value);
-                    if (userAns === q.correctAnswer) {
+
+                    const userAns =
+                        parseInt(selectedOpt.value);
+
+
+                    if (
+                        userAns ===
+                        q.correctAnswer
+                    ) {
+
                         correctCount++;
+
                     }
+
                 }
+
             });
 
-            let wrongCount = totalCount - correctCount;
-            let percentage = Math.round((correctCount / totalCount) * 100);
 
-            // Populate Scoreboard Data
-            document.getElementById("res-total").innerText = totalCount;
-            document.getElementById("res-correct").innerText = correctCount;
-            document.getElementById("res-wrong").innerText = wrongCount;
-            document.getElementById("res-percent").innerText = `${percentage}%`;
+            /* ========================================
+               RESULT CALCULATION
+               ======================================== */
 
-            // Progress Bar Fill
-            document.getElementById("progress-fill").style.width = `${percentage}%`;
+            let wrongCount =
+                totalCount - correctCount;
 
-            // Show Scoreboard & Scroll
-            const resultCard = document.getElementById("result-card");
-            resultCard.style.display = "block";
-            resultCard.scrollIntoView({ behavior: 'smooth' });
 
-            // Disable Submit Button
-            const submitBtn = document.getElementById("submit-btn");
+            let percentage =
+                Math.round(
+                    (correctCount / totalCount) * 100
+                );
+
+
+            /* ========================================
+               POPULATE SCOREBOARD
+               ======================================== */
+
+            document.getElementById("res-total").innerText =
+                totalCount;
+
+
+            document.getElementById("res-correct").innerText =
+                correctCount;
+
+
+            document.getElementById("res-wrong").innerText =
+                wrongCount;
+
+
+            document.getElementById("res-percent").innerText =
+                `${percentage}%`;
+
+
+            /* ========================================
+               PROGRESS BAR
+               ======================================== */
+
+            document.getElementById(
+                "progress-fill"
+            ).style.width =
+                `${percentage}%`;
+
+
+            /* ========================================
+               SHOW RESULT CARD
+               ======================================== */
+
+            const resultCard =
+                document.getElementById("result-card");
+
+
+            resultCard.style.display =
+                "block";
+
+
+            resultCard.scrollIntoView({
+                behavior: "smooth"
+            });
+
+
+            /* ========================================
+               DISABLE SUBMIT BUTTON
+               ======================================== */
+
+            const submitBtn =
+                document.getElementById("submit-btn");
+
+
             submitBtn.disabled = true;
-            submitBtn.innerText = "Test Submitted";
-            submitBtn.style.opacity = "0.6";
-            submitBtn.style.cursor = "not-allowed";
+
+
+            submitBtn.innerText =
+                "Test Submitted";
+
+
+            submitBtn.style.opacity =
+                "0.6";
+
+
+            submitBtn.style.cursor =
+                "not-allowed";
+
         });
-    </script>
+
+</script>
             <script src="/includes/js/lang.js"></script>
          <script src="/includes/js/translate.js"></script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
