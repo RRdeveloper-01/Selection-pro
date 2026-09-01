@@ -181,3 +181,134 @@
         padding: 8px 10px;
     }
 }
+/* =====================================
+   PROMOTIONAL POPUP
+===================================== */
+
+.promo-overlay {
+    position: fixed;
+    inset: 0;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.60);
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    z-index: 999999;
+
+    padding: 15px;
+}
+
+
+/* Popup Box */
+
+.promo-box {
+    position: relative;
+
+    width: min(92vw, 650px);
+
+    background: #ffffff;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+
+    animation: promoShow 0.35s ease;
+}
+
+
+/* Banner */
+
+.promo-box img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    cursor: pointer;
+}
+
+
+/* Close Button */
+
+.promo-close {
+    position: absolute;
+
+    top: 8px;
+    right: 8px;
+
+    width: 36px;
+    height: 36px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: rgba(0,0,0,0.75);
+
+    color: #ffffff;
+
+    font-size: 26px;
+
+    line-height: 34px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition: 0.2s;
+}
+
+
+.promo-close:hover {
+    background: #000000;
+
+    transform: scale(1.08);
+}
+
+
+/* Animation */
+
+@keyframes promoShow {
+
+    from {
+        opacity: 0;
+        transform: scale(0.90);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .promo-box {
+        width: 94vw;
+
+        border-radius: 12px;
+    }
+
+    .promo-close {
+        width: 32px;
+        height: 32px;
+
+        font-size: 23px;
+
+        top: 6px;
+        right: 6px;
+    }
+
+}
