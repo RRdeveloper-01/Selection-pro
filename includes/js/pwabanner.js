@@ -1,194 +1,289 @@
 /* ======================================
-   PWA BANNER INCLUDE
+PWA + PROMOTIONAL BANNER INCLUDE
 ====================================== */
 
-fetch(`/includes/pwa.html?v=2`)
-  .then(response => {
+fetch("/includes/pwa.html?v=3")
+.then(response => {
 
-    if (!response.ok) {
-      throw new Error(
-        "Banner file not found: " + response.status
-      );
-    }
+if (!response.ok) {
+  throw new Error(
+    "Banner file not found: " + response.status
+  );
+}
 
-    return response.text();
+return response.text();
 
-  })
-  .then(data => {
+})
+.then(data => {
 
-    const bannerContainer =
-      document.getElementById("pwa");
+const bannerContainer =
+  document.getElementById("pwa");
 
-    if (bannerContainer) {
+if (!bannerContainer) {
 
-      bannerContainer.innerHTML = data;
+  console.error(
+    "Element #pwa not found."
+  );
 
-      console.log("PWA banner loaded successfully.");
+  return;
+}
 
-    } else {
+/* ======================================
+   INSERT HTML
+====================================== */
 
-      console.error(
-        "Element #pwaBanner not found."
-      );
+bannerContainer.innerHTML = data;
 
-    }
+console.log(
+  "PWA + Promo banner loaded successfully."
+);
 
-  })
-  .catch(error => {
 
-    console.error(
-      "PWA banner loading failed:",
-      error
-    );
+/* ======================================
+   PROMOTIONAL BANNERS
+====================================== */
 
-  });
-  //promo banner
-  const promoBanners = [
+const promoBanners = [
 
-    {
-        id: "current-affairs",
-        image: "/images/current-affairs-common.webp",
-        link: "/current-affairs/affairs-hub.html"
-    },
+  {
+    id: "current-affairs",
+    image: "/images/current-affairs-common.webp",
+    link: "/current-affairs/affairs-hub.html"
+  },
 
-    {
-        id: "preparation-guide",
-        image: "/images/preparation-guide.webp",
-        link: "/blog/preparation-guide.html"
-    }
+  {
+    id: "preparation-guide",
+    image: "/images/preparation-guide.webp",
+    link: "/blog/preparation-guide.html"
+  }
 
 ];
 
 
-const promoPopup = document.getElementById("promoPopup");
-const promoImage = document.getElementById("promoImage");
-const promoLink = document.getElementById("promoLink");
-const promoClose = document.getElementById("promoClose");
+/* ======================================
+   GET ELEMENTS AFTER HTML IS LOADED
+====================================== */
+
+const promoPopup =
+  document.getElementById("promoPopup");
+
+const promoImage =
+  document.getElementById("promoImage");
+
+const promoLink =
+  document.getElementById("promoLink");
+
+const promoClose =
+  document.getElementById("promoClose");
+
+
+/* ======================================
+   SAFETY CHECK
+====================================== */
+
+if (
+  !promoPopup ||
+  !promoImage ||
+  !promoLink ||
+  !promoClose
+) {
+
+  console.error(
+    "Promo popup elements not found."
+  );
+
+  return;
+}
+
 
 let currentBannerId = null;
 
 
-// =====================================
-// GET CLOSED BANNERS
-// =====================================
+/* ======================================
+   GET CLOSED BANNERS
+====================================== */
 
 function getClosedBanners() {
 
-    const data = localStorage.getItem("closedPromoBanners");
+  const data =
+    localStorage.getItem(
+      "closedPromoBanners"
+    );
 
-    return data ? JSON.parse(data) : {};
+  return data
+    ? JSON.parse(data)
+    : {};
 
 }
 
 
-// =====================================
-// SAVE CLOSE TIME
-// =====================================
+/* ======================================
+   SAVE CLOSE TIME
+====================================== */
 
 function saveClosedBanner(id) {
 
-    const closed = getClosedBanners();
+  const closed =
+    getClosedBanners();
 
-    closed[id] = Date.now();
+  closed[id] = Date.now();
 
-    localStorage.setItem(
-        "closedPromoBanners",
-        JSON.stringify(closed)
-    );
+  localStorage.setItem(
+    "closedPromoBanners",
+    JSON.stringify(closed)
+  );
 
 }
 
 
-// =====================================
-// CHECK 24 HOURS
-// =====================================
+/* ======================================
+   CHECK 24 HOURS
+====================================== */
 
 function isClosedWithin24Hours(id) {
 
-    const closed = getClosedBanners();
+  const closed =
+    getClosedBanners();
 
-    if (!closed[id]) {
-        return false;
-    }
+  if (!closed[id]) {
+    return false;
+  }
 
-    const currentTime = Date.now();
+  const currentTime =
+    Date.now();
 
-    const closeTime = closed[id];
+  const closeTime =
+    closed[id];
 
-    const twentyFourHours = 24 * 60 * 60 * 1000;
+  const twentyFourHours =
+    24 * 60 * 60 * 1000;
 
-    return (currentTime - closeTime) < twentyFourHours;
+  return (
+    currentTime - closeTime
+  ) < twentyFourHours;
 
 }
 
 
-// =====================================
-// SHOW RANDOM BANNER
-// =====================================
+/* ======================================
+   SHOW RANDOM BANNER
+====================================== */
 
 function showRandomBanner() {
 
-    const availableBanners = promoBanners.filter(
-        banner => !isClosedWithin24Hours(banner.id)
+  const availableBanners =
+    promoBanners.filter(
+      banner =>
+        !isClosedWithin24Hours(
+          banner.id
+        )
     );
 
 
-    // Agar sab banners 24 hours ke liye closed hain
-    if (availableBanners.length === 0) {
-        return;
-    }
+  /* Sab banners closed hain */
+
+  if (availableBanners.length === 0) {
+
+    console.log(
+      "All promo banners are closed for 24 hours."
+    );
+
+    return;
+  }
 
 
-    // Random banner
-    const randomIndex = Math.floor(
-        Math.random() * availableBanners.length
+  /* Random banner */
+
+  const randomIndex =
+    Math.floor(
+      Math.random() *
+      availableBanners.length
     );
 
 
-    const banner = availableBanners[randomIndex];
+  const banner =
+    availableBanners[randomIndex];
 
 
-    currentBannerId = banner.id;
+  currentBannerId =
+    banner.id;
 
 
-    promoImage.src = banner.image;
+  /* Set image */
 
-    promoLink.href = banner.link;
+  promoImage.src =
+    banner.image;
 
 
-    promoPopup.style.display = "flex";
+  /* Set link */
+
+  promoLink.href =
+    banner.link;
+
+
+  /* Show popup */
+
+  promoPopup.style.display =
+    "flex";
+
+
+  console.log(
+    "Promo banner shown:",
+    banner.id
+  );
 
 }
 
 
-// =====================================
-// CLOSE BUTTON
-// =====================================
+/* ======================================
+   CLOSE BUTTON
+====================================== */
 
-promoClose.addEventListener("click", function() {
+promoClose.addEventListener(
+  "click",
+  function() {
 
-    promoPopup.style.display = "none";
+    promoPopup.style.display =
+      "none";
 
 
     if (currentBannerId) {
 
-        saveClosedBanner(currentBannerId);
+      saveClosedBanner(
+        currentBannerId
+      );
 
     }
 
-});
+  }
+);
 
 
-// =====================================
-// SHOW AFTER RANDOM 3–4 SECONDS
-// =====================================
+/* ======================================
+   SHOW AFTER RANDOM 3–4 SECONDS
+====================================== */
 
 const randomDelay =
-    Math.floor(Math.random() * 1000) + 3000;
+  Math.floor(
+    Math.random() * 1000
+  ) + 3000;
 
 
-setTimeout(function() {
+setTimeout(
+  function() {
 
     showRandomBanner();
 
-}, randomDelay);
+  },
+  randomDelay
+);
+
+})
+.catch(error => {
+
+console.error(
+  "PWA / Promo banner loading failed:",
+  error
+);
+
+});
