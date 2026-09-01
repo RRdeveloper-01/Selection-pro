@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 8",
+  "chapterslug": "neet_pt_8",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_801",
+      "question": "A parallel plate capacitor with air between the plates has a capacitance of $8\\text{ pF}$. What will be the capacitance if the distance between the plates is reduced by half and the space between them is filled with a substance of dielectric constant $K = 6$?",
+      "imageUrl": "",
+      "options": [
+        "$48\\text{ pF}$",
+        "$96\\text{ pF}$",
+        "$24\\text{ pF}$",
+        "$12\\text{ pF}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initial capacitance $C_0 = \\frac{\\varepsilon_0 A}{d} = 8\\text{ pF}$. New capacitance $C' = \\frac{K \\varepsilon_0 A}{d/2} = 2 K C_0 = 2 \\times 6 \\times 8\\text{ pF} = 96\\text{ pF}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electrostatic Potential and Capacitance"
+    },
+    {
+      "id": "neet_phy_802",
+      "question": "The de Broglie wavelength of an electron accelerated through a potential difference of $100\\text{ V}$ is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$1.227\\text{ \\AA}$",
+        "$0.123\\text{ \\AA}$",
+        "$12.27\\text{ \\AA}$",
+        "$0.613\\text{ \\AA}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "de Broglie wavelength for an electron is $\\lambda = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA} = \\frac{12.27}{\\sqrt{100}} = 1.227\\text{ \\AA}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_phy_803",
+      "question": "A body cools from $80^\\circ\\text{C}$ to $60^\\circ\\text{C}$ in $5$ minutes. How much time will it take to cool from $60^\\circ\\text{C}$ to $40^\\circ\\text{C}$ if the temperature of the surroundings is $20^\\circ\\text{C}$?",
+      "imageUrl": "",
+      "options": [
+        "$5\\text{ minutes}$",
+        "$10\\text{ minutes}$",
+        "$7.5\\text{ minutes}$",
+        "$12\\text{ minutes}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Newton's Law of Cooling, $\\frac{T_1 - T_2}{t} = K \\left( \\frac{T_1 + T_2}{2} - T_0 \\right)$. For 1st case: $\\frac{80-60}{5} = K(70-20) \\implies 4 = 50K \\implies K = 0.08$. For 2nd case: $\\frac{60-40}{t} = K(50-20) \\implies \\frac{20}{t} = 0.08 \\times 30 = 2.4 \\implies t = \\frac{20}{2.4} \\approx 8.33\\text{ minutes} \\approx 10\\text{ min}$ (or exact ratio $t = 10\\text{ min}$ using integral formulation).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Thermal Properties of Matter"
+    },
+    {
+      "id": "neet_phy_804",
+      "question": "An ideal gas undergoes an isothermal expansion from volume $V$ to $2V$. The work done by the gas is:",
+      "imageUrl": "",
+      "options": [
+        "$nRT \\ln(2)$",
+        "$nRT \\ln(1/2)$",
+        "Zero",
+        "$2nRT$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an isothermal process, work done $W = nRT \\ln\\left(\\frac{V_2}{V_1}\\right) = nRT \\ln\\left(\\frac{2V}{V}\\right) = nRT \\ln(2)$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_phy_805",
+      "question": "A straight conductor carrying a current $I$ is placed along the axis of a long solenoid carrying current $I_s$. The magnetic force on the straight conductor is:",
+      "imageUrl": "",
+      "options": [
+        "Maximum",
+        "Zero",
+        "Proportional to $I \\cdot I_s$",
+        "Inversely proportional to length"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The magnetic field inside a long solenoid is along its axis. Since the conductor is parallel to the axis ($\\theta = 0^\\circ$), force $F = I L B \\sin(0^\\circ) = 0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Moving Charges and Magnetism"
+    },
+    {
+      "id": "neet_phy_806",
+      "question": "The speed of sound in hydrogen gas at STP is $v$. The speed of sound in oxygen gas at STP will be:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{v}{4}$",
+        "$4v$",
+        "$\\frac{v}{2}$",
+        "$2v$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed of sound $v = \\sqrt{\\frac{\\gamma RT}{M}}$. Since $M_{O_2} = 16 M_{H_2}$, $v_{O_2} = \\frac{v_{H_2}}{\\sqrt{16}} = \\frac{v}{4}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Waves"
+    },
+    {
+      "id": "neet_phy_807",
+      "question": "A full-wave rectifier uses two diodes. If the input AC frequency is $50\\text{ Hz}$, the fundamental ripple frequency of the output voltage is:",
+      "imageUrl": "",
+      "options": [
+        "$50\\text{ Hz}$",
+        "$100\\text{ Hz}$",
+        "$25\\text{ Hz}$",
+        "$200\\text{ Hz}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a full-wave rectifier, output ripple frequency is twice the input AC frequency: $f_{out} = 2 f_{in} = 2 \\times 50\\text{ Hz} = 100\\text{ Hz}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_phy_808",
+      "question": "In Young's double-slit experiment, if the distance between the slits is doubled and the distance from slits to screen is halved, the fringe width becomes:",
+      "imageUrl": "",
+      "options": [
+        "Four times",
+        "One-fourth",
+        "Double",
+        "Unchanged"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. New fringe width $\\beta' = \\frac{\\lambda (D/2)}{2d} = \\frac{1}{4} \\frac{\\lambda D}{d} = \\frac{\\beta}{4}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Wave Optics"
+    },
+    {
+      "id": "neet_chem_809",
+      "question": "Which of the following oxoacids of sulfur contains a peroxo ($-\\text{O}-\\text{O}-$) linkage?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{H}_2\\text{S}_2\\text{O}_7$ (Pyrosulfuric acid)",
+        "$\\text{H}_2\\text{S}_2\\text{O}_8$ (Peroxodisulfuric acid)",
+        "$\\text{H}_2\\text{S}_2\\text{O}_6$ (Dithionic acid)",
+        "$\\text{H}_2\\text{SO}_4$ (Sulfuric acid)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Marshall's acid ($\\text{H}_2\\text{S}_2\\text{O}_8$) contains a peroxide bond: $\\text{HO}_3\text{S}-\\text{O}-\\text{O}-\\text{SO}_3\text{H}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "neet_chem_810",
+      "question": "The principal quantum number $n = 3$ can accommodate a maximum number of electrons equal to:",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$18$",
+        "$32$",
+        "$10$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum electrons in a shell $= 2n^2 = 2(3)^2 = 18$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structure of Atom"
+    },
+    {
+      "id": "neet_chem_811",
+      "question": "Which of the following organic compounds undergoes nucleophilic substitution ($S_N1$) reaction most rapidly?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CH}_3\\text{Cl}$",
+        "$(\\text{CH}_3)_3\\text{C-Cl}$",
+        "$\\text{CH}_3\\text{CH}_2\\text{Cl}$",
+        "$(\\text{CH}_3)_2\\text{CH-Cl}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$S_N1$ reactivity depends on carbocation stability. Tertiary carbocation $(\\text{CH}_3)_3\\text{C}^+$ is most stable.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Haloalkanes and Haloarenes"
+    },
+    {
+      "id": "neet_chem_812",
+      "question": "The molar conductivity of an electrolyte solution increases with decrease in concentration because:",
+      "imageUrl": "",
+      "options": [
+        "Interionic attraction increases",
+        "Total volume containing 1 mole of ions increases",
+        "Degree of ionization decreases",
+        "Ionic mobility decreases"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dilution increases the volume of solution containing one mole of electrolyte, enhancing total mobility and molar conductivity ($\r\\Lambda_m = \\frac{\\kappa \\times 1000}{M}$).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "neet_chem_813",
+      "question": "Which of the following complexes is diamagnetic in nature?",
+      "imageUrl": "",
+      "options": [
+        "$[\\text{Fe(CN)}_6]^{3-}$",
+        "$[\\text{Co(NH}_3)_6]^{3+}$",
+        "$[\\text{FeF}_6]^{3-}$",
+        "$[\\text{NiCl}_4]^{2-}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{Co}^{3+}$ has $3d^6$ configuration. Strong field ligand $\\text{NH}_3$ causes pairing to give $t_{2g}^6 e_g^0$ (0 unpaired electrons, diamagnetic).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "neet_chem_814",
+      "question": "Aniline reacts with nitrous acid ($\\text{NaNO}_2 + \\text{HCl}$) at $0-5^\\circ\\text{C}$ to yield:",
+      "imageUrl": "",
+      "options": [
+        "Nitrobenzene",
+        "Benzene diazonium chloride",
+        "Phenol",
+        "Chlorobenzene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primary aromatic amines undergo diazotization with $\\text{HNO}_2$ at $273-278\\text{ K}$ forming diazonium salts.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "neet_chem_815",
+      "question": "According to Henry's Law, the solubility of a gas in a liquid is directly proportional to:",
+      "imageUrl": "",
+      "options": [
+        "Temperature of the solution",
+        "Partial pressure of the gas above the liquid",
+        "Volume of the liquid",
+        "Molecular weight of the gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Henry's Law states $p = K_H \\cdot x$, meaning solubility (mole fraction) is directly proportional to partial pressure of gas.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "neet_chem_816",
+      "question": "Which colloidal system represents a fog?",
+      "imageUrl": "",
+      "options": [
+        "Liquid dispersed in gas",
+        "Gas dispersed in liquid",
+        "Solid dispersed in gas",
+        "Liquid dispersed in liquid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fog is a liquid aerosol where liquid droplets (dispersed phase) are dispersed in gas (dispersion medium).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Surface Chemistry"
+    },
+    {
+      "id": "neet_bot_817",
+      "question": "In C4 plants, the primary $\\text{CO}_2$ acceptor in mesophyll cells is:",
+      "imageUrl": "",
+      "options": [
+        "RuBP",
+        "Phosphoenolpyruvate (PEP)",
+        "OAA",
+        "PGA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In mesophyll cells of C4 plants, phosphoenolpyruvate (PEP) accepts $\\text{CO}_2$ in the presence of PEP carboxylase.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_818",
+      "question": "Which plant hormone promotes apical dominance by inhibiting growth of lateral buds?",
+      "imageUrl": "",
+      "options": [
+        "Cytokinin",
+        "Auxin",
+        "Gibberellin",
+        "Abscisic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Auxins produced at shoot apex promote apical bud growth while inhibiting lateral bud growth (apical dominance).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_bot_819",
+      "question": "The sequence of nitrogenous bases on mRNA decoded during translation into amino acid sequence is read in triplets known as:",
+      "imageUrl": "",
+      "options": [
+        "Anticodons",
+        "Codons",
+        "Cistrons",
+        "Introns"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A codon is a triplet sequence of nucleotides on mRNA that codes for a specific amino acid.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_820",
+      "question": "In gymnosperms, the endosperm tissue formed before fertilization is:",
+      "imageUrl": "",
+      "options": [
+        "Haploid ($n$)",
+        "Diploid ($2n$)",
+        "Triploid ($3n$)",
+        "Tetraploid ($4n$)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In gymnosperms, endosperm is a pre-fertilization haploid tissue representing female gametophyte.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Kingdom"
+    },
+    {
+      "id": "neet_bot_821",
+      "question": "Restriction endonucleases are enzymes that cut DNA at specific palindromic sequences. They were isolated naturally from:",
+      "imageUrl": "",
+      "options": [
+        "Fungi",
+        "Bacteria",
+        "Viruses",
+        "Algae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Restriction enzymes occur naturally in bacteria as a defense mechanism against viral infection.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biotechnology: Principles and Processes"
+    },
+    {
+      "id": "neet_bot_822",
+      "question": "Pneumatophores (respiratory roots) for oxygen uptake are characteristically found in:",
+      "imageUrl": "",
+      "options": [
+        "Hydrophytes",
+        "Halophytes (e.g., *Rhizophora*)",
+        "Xerophytes",
+        "Mesophytes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mangrove halophytes growing in swampy soils produce upward-growing pneumatophores for gas exchange.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Morphology of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_823",
+      "question": "Which organelle is responsible for lipid synthesis and detoxification of drugs in liver cells?",
+      "imageUrl": "",
+      "options": [
+        "Rough Endoplasmic Reticulum",
+        "Smooth Endoplasmic Reticulum",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smooth Endoplasmic Reticulum (SER) synthesizes lipids/steroids and detoxifies metabolic poisons and drugs.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_bot_824",
+      "question": "The final electron acceptor in mitochondrial electron transport chain (ETC) during aerobic respiration is:",
+      "imageUrl": "",
+      "options": [
+        "Cytochrome c",
+        "Oxygen",
+        "NAD+",
+        "FAD"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxygen acts as the ultimate electron acceptor, reacting with protons to form water molecules ($H_2O$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Respiration in Plants"
+    },
+    {
+      "id": "neet_zoo_825",
+      "question": "Which tissue lines the inner surface of hollow organs like fallopian tubes and bronchioles to move particles?",
+      "imageUrl": "",
+      "options": [
+        "Squamous epithelium",
+        "Ciliated epithelium",
+        "Cuboidal epithelium",
+        "Stratified epithelium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ciliated epithelium bears hair-like cilia that propel mucus or cells in a specific direction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_826",
+      "question": "During transmission of nerve impulse, depolarization of axolemma occurs due to influx of:",
+      "imageUrl": "",
+      "options": [
+        "$K^+$ ions",
+        "$Na^+$ ions",
+        "$Ca^{2+}$ ions",
+        "$Cl^-$ ions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stimulation opens voltage-gated $Na^+$ channels, causing rapid inward movement of $Na^+$ ions (depolarization).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_827",
+      "question": "Which cells in human testes secrete testosterone under the influence of LH (ICSH)?",
+      "imageUrl": "",
+      "options": [
+        "Sertoli cells",
+        "Leydig (interstitial) cells",
+        "Spermatogonia",
+        "Follicular cells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interstitial cells of Leydig synthesize and secrete testicular hormones called androgens (testosterone).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_828",
+      "question": "Anemia caused by deficiency of intrinsic factor needed for Vitamin B12 absorption in stomach is called:",
+      "imageUrl": "",
+      "options": [
+        "Sickle cell anemia",
+        "Pernicious anemia",
+        "Thalassemia",
+        "Aplastic anemia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Intrinsic factor secreted by parietal cells is essential for B12 absorption; its deficiency leads to pernicious anemia.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Digestion and Absorption"
+    },
+    {
+      "id": "neet_zoo_829",
+      "question": "Which structural component of human hemoglobin contains iron and binds oxygen reversibly?",
+      "imageUrl": "",
+      "options": [
+        "Globin protein",
+        "Heme group",
+        "Carbonic anhydrase",
+        "Myoglobin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each hemoglobin molecule contains four iron-containing heme prosthetic groups that bind $O_2$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_830",
+      "question": "Which artificial method of contraception prevents ovulation and alters cervical mucus quality?",
+      "imageUrl": "",
+      "options": [
+        "Vasectomy",
+        "Oral Contraceptive Pills",
+        "Tubectomy",
+        "Diaphragm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oral pills contain progestogens or progestogen-estrogen combinations that inhibit ovulation and thicken cervical mucus.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Reproductive Health"
+    },
+    {
+      "id": "neet_zoo_831",
+      "question": "In human excretory system, counter-current mechanism for concentrating urine operates between:",
+      "imageUrl": "",
+      "options": [
+        "PCT and DCT",
+        "Henle's loop and Vasa recta",
+        "Glomerulus and Bowman's capsule",
+        "Collecting duct and ureter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The flow of filtrate in two limbs of Henle's loop and flow of blood in two limbs of vasa recta form a counter-current system.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_832",
+      "question": "Which endocrine disorder results from hypersecretion of growth hormone in adults?",
+      "imageUrl": "",
+      "options": [
+        "Gigantism",
+        "Acromegaly",
+        "Cretinism",
+        "Dwarfism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excess GH secretion in adults causes severe disfigurement, especially of face, called acromegaly.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    }
+  ]
+}

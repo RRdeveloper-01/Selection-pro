@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 3",
+  "chapterslug": "neet_pt_3",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_301",
+      "question": "A body of mass $2\\text{ kg}$ is moving in a circular path of radius $1\\text{ m}$ with a constant speed of $4\\text{ m/s}$. The centripetal force acting on the body is:",
+      "imageUrl": "",
+      "options": [
+        "$8\\text{ N}$",
+        "$16\\text{ N}$",
+        "$32\\text{ N}$",
+        "$4\\text{ N}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Centripetal force $F_c = \\frac{m v^2}{r} = \\frac{2 \\times 4^2}{1} = 32\\text{ N}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Laws of Motion"
+    },
+    {
+      "id": "neet_phy_302",
+      "question": "The work done in lifting a mass $m$ from the surface of the Earth to a height equal to the radius of the Earth $R$ is:",
+      "imageUrl": "",
+      "options": [
+        "$mgR$",
+        "$\\frac{1}{2} mgR$",
+        "$2mgR$",
+        "$\\frac{1}{4} mgR$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$W = \\Delta U = -\\frac{GMm}{2R} - \\left(-\\frac{GMm}{R}\\right) = \\frac{GMm}{2R} = \\frac{1}{2} mgR$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "neet_phy_303",
+      "question": "An ideal transformer has $500$ primary turns and $100$ secondary turns. If the input primary voltage is $220\\text{ V}$, the secondary output voltage is:",
+      "imageUrl": "",
+      "options": [
+        "$1100\\text{ V}$",
+        "$44\\text{ V}$",
+        "$22\\text{ V}$",
+        "$440\\text{ V}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transformer ratio $\\frac{V_s}{V_p} = \\frac{N_s}{N_p} \\implies V_s = 220 \\times \\frac{100}{500} = 44\\text{ V}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "neet_phy_304",
+      "question": "The speed of light in a medium of relative permittivity $\\epsilon_r = 2$ and relative permeability $\\mu_r = 2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3 \\times 10^8\\text{ m/s}$",
+        "$1.5 \\times 10^8\\text{ m/s}$",
+        "$6 \\times 10^8\\text{ m/s}$",
+        "$2.25 \\times 10^8\\text{ m/s}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refractive index $n = \\sqrt{\\mu_r \\epsilon_r} = \\sqrt{2 \\times 2} = 2$. Speed in medium $v = \\frac{c}{n} = \\frac{3 \\times 10^8}{2} = 1.5 \\times 10^8\\text{ m/s}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electromagnetic Waves"
+    },
+    {
+      "id": "neet_phy_305",
+      "question": "The terminal velocity of a small spherical ball falling through a viscous liquid is directly proportional to:",
+      "imageUrl": "",
+      "options": [
+        "Radius of ball $r$",
+        "Square of radius $r^2$",
+        "Cube of radius $r^3$",
+        "Viscosity coefficient $\\eta$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Stokes' law gives terminal velocity $v_t = \\frac{2 r^2 (\\rho - \\sigma) g}{9 \\eta}$, hence $v_t \\propto r^2$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Mechanical Properties of Fluids"
+    },
+    {
+      "id": "neet_phy_306",
+      "question": "A charged particle $q$ enters a perpendicular magnetic field $B$ with velocity $v$. The kinetic energy of the particle:",
+      "imageUrl": "",
+      "options": [
+        "Increases continuously",
+        "Decreases continuously",
+        "Remains constant",
+        "Oscillates periodically"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Magnetic force is always perpendicular to velocity ($\rvec{F} = q\rvec{v} \\times \rvec{B}$), doing zero work. Thus kinetic energy remains constant.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Moving Charges and Magnetism"
+    },
+    {
+      "id": "neet_phy_307",
+      "question": "In a full-wave rectifier, if the input AC signal frequency is $50\\text{ Hz}$, the fundamental ripple frequency of output is:",
+      "imageUrl": "",
+      "options": [
+        "$25\\text{ Hz}$",
+        "$50\\text{ Hz}$",
+        "$100\\text{ Hz}$",
+        "$200\\text{ Hz}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a full-wave rectifier, output ripple frequency is twice the input frequency ($2 \\times 50\\text{ Hz} = 100\\text{ Hz}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_phy_308",
+      "question": "The energy of hydrogen atom in ground state is $-13.6\\text{ eV}$. The energy of $n=3$ state is:",
+      "imageUrl": "",
+      "options": [
+        "$-4.53\\text{ eV}$",
+        "$-1.51\\text{ eV}$",
+        "$-3.4\\text{ eV}$",
+        "$-0.85\\text{ eV}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$E_n = \\frac{-13.6}{n^2}\\text{ eV}$. For $n=3$, $E_3 = \\frac{-13.6}{9} = -1.51\\text{ eV}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Atoms"
+    },
+    {
+      "id": "neet_chem_309",
+      "question": "Which of the following molecules has maximum covalent character according to Fajan's rules?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{LiF}$",
+        "$\\text{LiCl}$",
+        "$\\text{LiBr}$",
+        "$\\text{LiI}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Larger anion size increases polarizability. Since $\\text{I}^-$ is largest, $\\text{LiI}$ has maximum covalent character.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_310",
+      "question": "The IUPAC name of $\\text{CH}_3-\\text{CO}-\\text{CH}_2-\\text{CHO}$ is:",
+      "imageUrl": "",
+      "options": [
+        "3-oxobutanal",
+        "3-oxobutanol",
+        "2-oxobutanal",
+        "1,3-dioxobutane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aldehyde group ($-\\text{CHO}$) has higher priority than ketone ($-\\text{CO}-$). Numbering starts from $-\\text{CHO}$ carbon: 3-oxobutanal.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Organic Chemistry - Basic Principles"
+    },
+    {
+      "id": "neet_chem_311",
+      "question": "What is the standard enthalpy of formation of an element in its standard reference state?",
+      "imageUrl": "",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "Variable depending on temperature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By convention, standard enthalpy of formation ($\\Delta_f H^\\circ$) for an element in its most stable standard state is taken as zero.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_chem_312",
+      "question": "Which alkali metal ion has highest ionic mobility in aqueous solution?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Li}^+$",
+        "$\\text{Na}^+$",
+        "$\\text{K}^+$",
+        "$\\text{Cs}^+$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\text{Cs}^+$ has largest ionic radius and smallest hydrated radius, giving it least hydration drag and highest ionic mobility.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "s-Block Elements"
+    },
+    {
+      "id": "neet_chem_313",
+      "question": "Aniline reacts with nitrous acid ($\\text{NaNO}_2 + \\text{HCl}$) at $0-5^\\circ\\text{C}$ to yield:",
+      "imageUrl": "",
+      "options": [
+        "Phenol",
+        "Benzene",
+        "Benzene diazonium chloride",
+        "Nitrobenzene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Primary aromatic amines undergo diazotization with $\\text{HNO}_2$ at $273-278\\text{ K}$ to form benzene diazonium salts.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "neet_chem_314",
+      "question": "The Coordination Number of central metal ion in $[\\text{Fe}(\\text{EDTA})]^-$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{EDTA}^{4-}$ is a hexadentate ligand binding through 2 nitrogen and 4 oxygen donor atoms, so CN = 6.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "neet_chem_315",
+      "question": "Which of the following colligative properties is most suitable to determine molecular mass of polymers?",
+      "imageUrl": "",
+      "options": [
+        "Relative lowering of vapour pressure",
+        "Elevation of boiling point",
+        "Depression of freezing point",
+        "Osmotic pressure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Osmotic pressure produces measurable values even at very low molar concentrations of macromolecules.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Solutions"
+    },
+    {
+      "id": "neet_chem_316",
+      "question": "Electrolysis of aqueous $\\text{NaCl}$ solution using inert electrodes produces which gas at cathode?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Cl}_2$",
+        "$\\text{O}_2$",
+        "$\\text{H}_2$",
+        "$\\text{Na}$ vapor"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Water has higher reduction potential than $\\text{Na}^+$ ion, so $\\text{H}^+$ is reduced to hydrogen gas ($\\text{H}_2$) at the cathode.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "neet_bot_317",
+      "question": "The primary $\\text{CO}_2$ acceptor in C4 plants is:",
+      "imageUrl": "",
+      "options": [
+        "RuBP",
+        "Phosphoenolpyruvate (PEP)",
+        "OAA",
+        "PGA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In mesophyll cells of C4 plants, PEP (3-carbon compound) acts as initial $\\text{CO}_2$ acceptor catalyzed by PEP carboxylase.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_318",
+      "question": "The term 'Omnis cellula-e cellula' (all cells arise from pre-existing cells) was proposed by:",
+      "imageUrl": "",
+      "options": [
+        "Schleiden",
+        "Schwann",
+        "Rudolf Virchow",
+        "Robert Hooke"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Rudolf Virchow (1855) modified cell theory by establishing that new cells originate from pre-existing cells.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_bot_319",
+      "question": "Which floral family shows marginal placentation in its ovary?",
+      "imageUrl": "",
+      "options": [
+        "Fabaceae",
+        "Solanaceae",
+        "Liliaceae",
+        "Brassicaceae"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fabaceae (pea family) possesses monocarpellary ovary with marginal placentation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Morphology of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_320",
+      "question": "The enzyme restriction endonuclease cleaves DNA at specific sequences called:",
+      "imageUrl": "",
+      "options": [
+        "Promoter sites",
+        "Palindromic sequences",
+        "Poly-A tails",
+        "Exon regions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Restriction enzymes inspect DNA length to recognize specific symmetrical palindromic nucleotide sequences.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biotechnology: Principles and Processes"
+    },
+    {
+      "id": "neet_bot_321",
+      "question": "Pneumatophores (respiratory roots) are modified roots present typically in:",
+      "imageUrl": "",
+      "options": [
+        "Hydrophytes",
+        "Halophytes (Mangroves)",
+        "Xerophytes",
+        "Mesophytes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mangrove plants (Rhizophora) growing in swampy saline soils produce erect negative geotropic pneumatophores for oxygen uptake.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Morphology of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_322",
+      "question": "During aerobic respiration, maximum ATP molecules are synthesized via electron transport chain in:",
+      "imageUrl": "",
+      "options": [
+        "Cytoplasm",
+        "Inner mitochondrial membrane",
+        "Mitochondrial matrix",
+        "Perimitochondrial space"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ETC complexes and ATP synthase ($F_0-F_1$ particles) are embedded in inner mitochondrial membrane (cristae).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Respiration in Plants"
+    },
+    {
+      "id": "neet_bot_323",
+      "question": "The cross between an $F_1$ individual and its homozygous recessive parent is termed:",
+      "imageUrl": "",
+      "options": [
+        "Monohybrid cross",
+        "Back cross",
+        "Test cross",
+        "Reciprocal cross"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A test cross identifies unknown genotype by crossing $F_1$ hybrid with homozygous recessive parent.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Principles of Inheritance and Variation"
+    },
+    {
+      "id": "neet_bot_324",
+      "question": "Which pyramid is ALWAYS upright in any stable ecosystem without exception?",
+      "imageUrl": "",
+      "options": [
+        "Pyramid of Biomass",
+        "Pyramid of Energy",
+        "Pyramid of Numbers",
+        "Pyramid of Height"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pyramid of energy is always upright because energy is lost as heat at every successive trophic level.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ecosystem"
+    },
+    {
+      "id": "neet_zoo_325",
+      "question": "Which cell organelles in human sperm contain enzymes aiding penetration of egg membrane (corona radiata)?",
+      "imageUrl": "",
+      "options": [
+        "Centrioles",
+        "Acrosome",
+        "Mitochondrial spiral",
+        "Axoneme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acrosome is a modified Golgi structure containing sperm lysins like hyaluronidase.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_326",
+      "question": "Glomerular filtration rate (GFR) in a healthy human adult is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$125\\text{ mL/min}$",
+        "$180\\text{ mL/min}$",
+        "$500\\text{ mL/min}$",
+        "$12.5\\text{ mL/min}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal GFR is around $125\\text{ mL/min}$, amounting to about $180\\text{ L}$ of filtrate per day.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_327",
+      "question": "Insulin deficiency or resistance leads to diabetes mellitus characterized by glucose in urine called:",
+      "imageUrl": "",
+      "options": [
+        "Uremia",
+        "Glycosuria",
+        "Ketonuria",
+        "Hematuria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Excretion of glucose in urine is termed glycosuria, a hallmark sign of Diabetes Mellitus.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_328",
+      "question": "Which cranial nerve in human body is the longest and innervates visceral organs?",
+      "imageUrl": "",
+      "options": [
+        "Optic nerve (II)",
+        "Trigeminal nerve (V)",
+        "Vagus nerve (X)",
+        "Hypoglossal nerve (XII)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vagus nerve ($X^{\\text{th}}$ cranial nerve) is the longest parasympathetic cranial nerve supplying thoracic and abdominal viscera.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_329",
+      "question": "In humerus bone, the head fits into which cavity of pectoral girdle?",
+      "imageUrl": "",
+      "options": [
+        "Acetabulum",
+        "Glenoid cavity",
+        "Foramen magnum",
+        "Sigmoid notch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The head of humerus articulates with glenoid cavity of scapula forming shoulder ball-and-socket joint.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    },
+    {
+      "id": "neet_zoo_330",
+      "question": "In human menstrual cycle, sudden surge of which hormone induces ovulation around day 14?",
+      "imageUrl": "",
+      "options": [
+        "FSH",
+        "LH",
+        "Progesterone",
+        "Estrogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LH surge (rapid rise in Luteinizing Hormone) triggers rupture of Graafian follicle and release of ovum.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_331",
+      "question": "The enzyme present in human saliva that hydrolyzes starch into maltose is:",
+      "imageUrl": "",
+      "options": [
+        "Pepsin",
+        "Salivary Amylase (Ptyalin)",
+        "Trypsin",
+        "Lipase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Salivary amylase breaks down about 30% starch into disaccharide maltose at optimum pH 6.8.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Digestion and Absorption"
+    },
+    {
+      "id": "neet_zoo_332",
+      "question": "A person with blood group AB positive is considered a universal recipient because:",
+      "imageUrl": "",
+      "options": [
+        "RBCs lack both A and B antigens",
+        "Plasma lacks anti-A and anti-B antibodies",
+        "RBCs carry anti-A antibodies",
+        "Plasma contains both anti-A and anti-B antibodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood group AB plasma lacks anti-A and anti-B antibodies, avoiding agglutination with donated RBCs.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 2",
+  "chapterslug": "neet_pt_2",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_201",
+      "question": "A particle moves along a straight line such that its displacement at time $t$ is $x = 3t^2 - 12t + 5$. The velocity of the particle when its acceleration is zero is:",
+      "imageUrl": "",
+      "options": [
+        "$-12\\text{ m/s}$",
+        "$0\\text{ m/s}$",
+        "$6\\text{ m/s}$",
+        "$-6\\text{ m/s}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Velocity $v = \\frac{dx}{dt} = 6t - 12$ and acceleration $a = \\frac{dv}{dt} = 6\\text{ m/s}^2$ (constant). Since acceleration is constant ($6\\text{ m/s}^2$), velocity when $t=0$ or at any reference is calculated using expression $v(t)$. At $t=0$, $v = -12\\text{ m/s}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Motion in a Straight Line"
+    },
+    {
+      "id": "neet_phy_202",
+      "question": "An ideal gas undergoes an isothermal expansion from volume $V_1$ to $V_2$. The work done by the gas is:",
+      "imageUrl": "",
+      "options": [
+        "$nRT \\ln\\left(\\frac{V_2}{V_1}\\right)$",
+        "$nRT \\left(\\frac{V_2}{V_1}\\right)$",
+        "$nRT \\ln\\left(\\frac{V_1}{V_2}\\right)$",
+        "Zero"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an isothermal process ($T = \\text{constant}$), work done $W = \\int P dV = nRT \\ln\\left(\\frac{V_2}{V_1}\\right)$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_phy_203",
+      "question": "Two electric dipoles of moment $p$ and $2p$ are placed in a uniform electric field $E$. The maximum torque experienced by the second dipole compared to the first is:",
+      "imageUrl": "",
+      "options": [
+        "Equal",
+        "Double",
+        "Half",
+        "Four times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maximum torque $\\tau_{\\max} = pE$. For dipole moment $2p$, $\\tau_{\\max} = 2pE$, which is double that of the first.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Electric Charges and Fields"
+    },
+    {
+      "id": "neet_phy_204",
+      "question": "The self-inductance of a long solenoid is proportional to:",
+      "imageUrl": "",
+      "options": [
+        "Number of turns $N$",
+        "Square of number of turns $N^2$",
+        "$1/N$",
+        "$1/N^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-inductance of solenoid $L = \\frac{\\mu_0 N^2 A}{l}$, so $L \\propto N^2$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "neet_phy_205",
+      "question": "In a Young's double slit experiment, if the distance between the slits is halved and the distance between slits and screen is doubled, the fringe width becomes:",
+      "imageUrl": "",
+      "options": [
+        "Unchanged",
+        "Doubled",
+        "Four times",
+        "Halved"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fringe width $\\beta = \\frac{\\lambda D}{d}$. New fringe width $\\beta' = \\frac{\\lambda (2D)}{(d/2)} = 4\\beta$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Wave Optics"
+    },
+    {
+      "id": "neet_phy_206",
+      "question": "A simple pendulum has time period $T_1$ on Earth's surface and $T_2$ at a height equal to radius of Earth $R$. The ratio $T_1/T_2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1:2$",
+        "$2:1$",
+        "$1:4$",
+        "$1:\\sqrt{2}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At height $h=R$, $g' = g/4$. Time period $T \\propto 1/\\sqrt{g}$. Thus $T_2 = 2 T_1$, so $T_1/T_2 = 1/2$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "neet_phy_207",
+      "question": "The speed of sound in hydrogen gas at STP is $v$. The speed of sound in oxygen gas at STP will be:",
+      "imageUrl": "",
+      "options": [
+        "$4v$",
+        "$v/4$",
+        "$v/2$",
+        "$2v$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed of sound $v = \\sqrt{\\frac{\\gamma RT}{M}}$. Molecular mass of $O_2$ is $16$ times that of $H_2$. Therefore, $v_{O_2} = \\frac{v_{H_2}}{\\sqrt{16}} = \\frac{v}{4}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Waves"
+    },
+    {
+      "id": "neet_phy_208",
+      "question": "A p-n junction diode acts as a closed switch when it is:",
+      "imageUrl": "",
+      "options": [
+        "Forward biased",
+        "Reverse biased",
+        "Unbiased",
+        "Lightly doped"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In forward bias, depletion layer width decreases and resistance becomes low, so it acts like a closed switch.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_chem_209",
+      "question": "Which of the following molecules/ions is diamagnetic?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{O}_2$",
+        "$\\text{B}_2$",
+        "$\\text{N}_2$",
+        "$\\text{NO}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{N}_2$ has $14$ electrons with all electrons paired in molecular orbitals, making it diamagnetic.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_210",
+      "question": "The solubility product ($K_{sp}$) of $\\text{AgCl}$ is $1.0 \\times 10^{-10}$. Its solubility in pure water is:",
+      "imageUrl": "",
+      "options": [
+        "$1.0 \\times 10^{-5}\\text{ M}$",
+        "$1.0 \\times 10^{-10}\\text{ M}$",
+        "$2.0 \\times 10^{-5}\\text{ M}$",
+        "$1.0 \\times 10^{-2.5}\\text{ M}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a 1:1 salt like $\\text{AgCl}$, $K_{sp} = S^2 \\implies S = \\sqrt{K_{sp}} = \\sqrt{10^{-10}} = 10^{-5}\\text{ M}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "neet_chem_211",
+      "question": "In which of the following compounds does nitrogen exhibit the highest oxidation state?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{NH}_3$",
+        "$\\text{N}_2\\text{H}_4$",
+        "$\\text{HNO}_3$",
+        "$\\text{NO}_2$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In $\\text{HNO}_3$, oxidation state of N is $+5$, which is its maximum oxidation state.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "neet_chem_212",
+      "question": "Which reagent is used to distinguish between ethane and ethyne?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Br}_2/\\text{CCl}_4$",
+        "Ammoniacal $\\text{AgNO}_3$ solution",
+        "Bayer's reagent",
+        "Cold dilute $\\text{KMnO}_4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ethyne (terminal alkyne) contains acidic hydrogens and reacts with ammoniacal $\\text{AgNO}_3$ (Tollens' reagent) to give a white precipitate, while ethane does not.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "neet_chem_213",
+      "question": "Equal volumes of two solutions of pH 3 and pH 5 are mixed. What is the pH of the resulting mixture?",
+      "imageUrl": "",
+      "options": [
+        "$4.0$",
+        "$3.3$",
+        "$3.5$",
+        "$4.5$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$[\\text{H}^+]_1 = 10^{-3}$, $[\\text{H}^+]_2 = 10^{-5}$. Total $[\\text{H}^+] = \\frac{10^{-3} + 10^{-5}}{2} \\approx 5 \\times 10^{-4}\\text{ M}$. $\\text{pH} = -\\log(5 \\times 10^{-4}) \\approx 3.3$.",
+      "difficulty": "hard",
+      "year": "NEET Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "neet_chem_214",
+      "question": "Glucose on reaction with concentrated $\\text{HNO}_3$ gives:",
+      "imageUrl": "",
+      "options": [
+        "Gluconic acid",
+        "Saccharic acid",
+        "Sorbitol",
+        "n-Hexane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Strong oxidizing agent conc. $\\text{HNO}_3$ oxidizes both the aldehyde group and primary alcohol group of glucose to dicarboxylic acid (Saccharic acid).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "neet_chem_215",
+      "question": "Which of the following transition metal ions is colored in aqueous solution?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Sc}^{3+}$",
+        "$\\text{Ti}^{4+}$",
+        "$\\text{Cu}^+$",
+        "$\\text{Fe}^{2+}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\text{Fe}^{2+}$ has $3d^6$ configuration with unpaired d-electrons permitting d-d transition, making its solution colored. $\\text{Sc}^{3+}$ ($3d^0$), $\\text{Ti}^{4+}$ ($3d^0$), and $\\text{Cu}^+$ ($3d^{10}$) are colorless.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "d and f Block Elements"
+    },
+    {
+      "id": "neet_chem_216",
+      "question": "Reimer-Tiemann reaction converts phenol into:",
+      "imageUrl": "",
+      "options": [
+        "Benzoic acid",
+        "Salicylaldehyde",
+        "Salicylic acid",
+        "Benzaldehyde"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Phenol reacts with $\\text{CHCl}_3$ and aqueous $\\text{NaOH}$ (Reimer-Tiemann reaction) to yield Salicylaldehyde.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_bot_217",
+      "question": "The site of perception of light in plants for photoperiodism is:",
+      "imageUrl": "",
+      "options": [
+        "Shoot apex",
+        "Stem",
+        "Leaves",
+        "Roots"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Leaves perceive the light stimulus for photoperiodism, which induces the synthesis of florigen (flowering signal).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_bot_218",
+      "question": "Which cellular organelle is called the 'suicide bag' of the cell?",
+      "imageUrl": "",
+      "options": [
+        "Ribosome",
+        "Lysosome",
+        "Golgi apparatus",
+        "Mitochondria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lysosomes contain hydrolytic enzymes and can digest damaged cellular components, earning them the name suicide bags.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_bot_219",
+      "question": "In a food chain, maximum energy is present at the level of:",
+      "imageUrl": "",
+      "options": [
+        "Primary consumers",
+        "Producers",
+        "Secondary consumers",
+        "Decomposers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Lindeman's 10% law, producers capture and store maximum energy, which decreases at subsequent trophic levels.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ecosystem"
+    },
+    {
+      "id": "neet_bot_220",
+      "question": "The vascular bundles in dicot stem are characterized as:",
+      "imageUrl": "",
+      "options": [
+        "Conjoint, collateral, and open",
+        "Conjoint, collateral, and closed",
+        "Radial and open",
+        "Concentric and closed"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dicot stem vascular bundles are conjoint, collateral, and open due to presence of cambium between xylem and phloem.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Anatomy of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_221",
+      "question": "Which of the following is an example of an ex-situ conservation method for plants?",
+      "imageUrl": "",
+      "options": [
+        "National Parks",
+        "Botanical Gardens",
+        "Biosphere Reserves",
+        "Sacred Groves"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Botanical gardens and seed banks are ex-situ conservation approaches, whereas National Parks and Biosphere Reserves are in-situ.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biodiversity and Conservation"
+    },
+    {
+      "id": "neet_bot_222",
+      "question": "During non-cyclic photophosphorylation, the primary electron donor to PS II is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{NADPH}$",
+        "Water ($\\text{H}_2\\text{O}$)",
+        "Plastocyanin",
+        "Ferredoxin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Photolysis of water provides replacement electrons to the reaction center $P_{680}$ of PS II.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_223",
+      "question": "The initiation codon in protein synthesis (translation) is:",
+      "imageUrl": "",
+      "options": [
+        "UAA",
+        "UAG",
+        "AUG",
+        "UGA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "AUG codes for Methionine and serves as the universal start codon for protein translation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_224",
+      "question": "Which plant hormone promotes stomatal closure under drought stress conditions?",
+      "imageUrl": "",
+      "options": [
+        "Cytokinin",
+        "Abscisic Acid (ABA)",
+        "Gibberellic Acid",
+        "Auxin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Abscisic acid (ABA) acts as a stress hormone and triggers rapid closure of stomata to prevent water loss.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_zoo_225",
+      "question": "Which part of the human brain regulates body temperature, hunger, and thirst?",
+      "imageUrl": "",
+      "options": [
+        "Cerebellum",
+        "Hypothalamus",
+        "Medulla oblongata",
+        "Thalamus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hypothalamus contains thermoregulatory, satiety, and thirst centers in the brain.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_226",
+      "question": "Spermatogenesis is directly stimulated and regulated by which pituitary hormone?",
+      "imageUrl": "",
+      "options": [
+        "FSH",
+        "LH / ICSH",
+        "ACTH",
+        "Prolactin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "FSH acts on Sertoli cells to stimulate factors needed for spermatogenesis.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_227",
+      "question": "Which type of epithelial tissue lines the inner surface of human fallopian tubes to move ova?",
+      "imageUrl": "",
+      "options": [
+        "Squamous epithelium",
+        "Ciliated epithelium",
+        "Cuboidal epithelium",
+        "Columnar non-ciliated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ciliated columnar epithelium lines fallopian tubes and bronchioles to move particles/cells in a specific direction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_228",
+      "question": "Which enzyme converts inactive fibrinogen into active fibrin during blood clotting?",
+      "imageUrl": "",
+      "options": [
+        "Thrombokinase",
+        "Thrombin",
+        "Prothrombin",
+        "Renin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thrombin converts soluble fibrinogen into insoluble fibrin threads during blood coagulation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_229",
+      "question": "T-lymphocytes mature in which primary lymphoid organ?",
+      "imageUrl": "",
+      "options": [
+        "Bone marrow",
+        "Thymus",
+        "Spleen",
+        "Lymph nodes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "T-lymphocytes originate in bone marrow but migrate to the Thymus for maturation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_230",
+      "question": "The contraction of human heart muscle is initiated by impulse generated at:",
+      "imageUrl": "",
+      "options": [
+        "AV node",
+        "SA node",
+        "Purkinje fibers",
+        "Bundle of His"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sino-atrial node (SA node) acts as natural pacemaker of heart by generating action potentials spontaneously.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_231",
+      "question": "Which IUD releases progesterone hormone to prevent pregnancy?",
+      "imageUrl": "",
+      "options": [
+        "CuT",
+        "Lippes loop",
+        "Progestasert / LNG-20",
+        "Multiload 375"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Progestasert and LNG-20 are hormone-releasing intrauterine devices (IUDs).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Reproductive Health"
+    },
+    {
+      "id": "neet_zoo_232",
+      "question": "The volume of air inspired or expired during normal quiet breathing is called:",
+      "imageUrl": "",
+      "options": [
+        "Inspiratory Reserve Volume",
+        "Tidal Volume",
+        "Residual Volume",
+        "Vital Capacity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tidal Volume (TV) is volume of air inspired or expired during normal respiration (~500 mL).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 5",
+  "chapterslug": "neet_pt_5",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_501",
+      "question": "A capacitor of capacitance $C$ is charged to a potential difference $V$. It is then disconnected from the battery and connected across an uncharged capacitor of capacitance $2C$. The common potential after connection is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{V}{3}$",
+        "$\\frac{V}{2}$",
+        "$\\frac{2V}{3}$",
+        "$3V$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Common potential $V_{common} = \\frac{C_1 V_1 + C_2 V_2}{C_1 + C_2} = \\frac{C \\cdot V + 2C \\cdot 0}{C + 2C} = \\frac{CV}{3C} = \\frac{V}{3}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electrostatic Potential and Capacitance"
+    },
+    {
+      "id": "neet_phy_502",
+      "question": "The dimensions of magnetic flux density (magnetic field $B$) are:",
+      "imageUrl": "",
+      "options": [
+        "$[M^1 L^0 T^{-2} A^{-1}]$",
+        "$[M^1 L^1 T^{-2} A^{-1}]$",
+        "$[M^1 L^2 T^{-2} A^{-1}]$",
+        "$[M^0 L^1 T^{-2} A^{-1}]$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From force formula $F = q v B \\implies B = \\frac{F}{q v} = \\frac{[M L T^{-2}]}{[A T][L T^{-1}]} = [M^1 L^0 T^{-2} A^{-1}]$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Units and Measurements"
+    },
+    {
+      "id": "neet_phy_503",
+      "question": "A projectile is thrown with an initial velocity of $20\\text{ m/s}$ at an angle of $30^\\circ$ with the horizontal. Taking $g = 10\\text{ m/s}^2$, the maximum height attained by the projectile is:",
+      "imageUrl": "",
+      "options": [
+        "$5\\text{ m}$",
+        "$10\\text{ m}$",
+        "$15\\text{ m}$",
+        "$20\\text{ m}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum height $H = \\frac{u^2 \\sin^2\\theta}{2g} = \\frac{20^2 \\times \\sin^2(30^\\circ)}{2 \\times 10} = \\frac{400 \\times (1/4)}{20} = 5\\text{ m}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Motion in a Plane"
+    },
+    {
+      "id": "neet_phy_504",
+      "question": "Which of the following electromagnetic waves has the highest frequency?",
+      "imageUrl": "",
+      "options": [
+        "Radio waves",
+        "Microwaves",
+        "Ultraviolet rays",
+        "Gamma rays"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gamma rays have the shortest wavelength and highest frequency in the electromagnetic spectrum.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Electromagnetic Waves"
+    },
+    {
+      "id": "neet_phy_505",
+      "question": "The escape velocity from Earth's surface is $11.2\\text{ km/s}$. If a planet has double the radius and double the mass of Earth, the escape velocity from that planet will be:",
+      "imageUrl": "",
+      "options": [
+        "$11.2\\text{ km/s}$",
+        "$22.4\\text{ km/s}$",
+        "$5.6\\text{ km/s}$",
+        "$15.8\\text{ km/s}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Escape velocity $v_e = \\sqrt{\\frac{2GM}{R}}$. If $M'=2M$ and $R'=2R$, then $v_e' = \\sqrt{\\frac{2G(2M)}{2R}} = \\sqrt{\\frac{2GM}{R}} = v_e = 11.2\\text{ km/s}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "neet_phy_506",
+      "question": "An ideal heat engine operating between $127^\\circ\\text{C}$ and $27^\\circ\\text{C}$ has an efficiency of:",
+      "imageUrl": "",
+      "options": [
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$20\\%$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Efficiency $\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{27+273}{127+273} = 1 - \\frac{300}{400} = 0.25 = 25\\%$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_phy_507",
+      "question": "In a Zener diode used as a voltage regulator, the Zener breakdown occurs under:",
+      "imageUrl": "",
+      "options": [
+        "Forward bias with light doping",
+        "Reverse bias with heavy doping",
+        "Forward bias with heavy doping",
+        "Reverse bias with light doping"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zener diodes are heavily doped p-n junctions designed to operate under reverse bias in the breakdown region.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_phy_508",
+      "question": "The magnetic susceptibility ($\rchi$) of a paramagnetic material is inversely proportional to absolute temperature $T$. This statement is known as:",
+      "imageUrl": "",
+      "options": [
+        "Curie's Law",
+        "Lenz's Law",
+        "Gauss's Law",
+        "Ampere's Law"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Curie's Law states that magnetic susceptibility of paramagnetic substances varies inversely with absolute temperature: $\rchi = \\frac{C}{T}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Magnetism and Matter"
+    },
+    {
+      "id": "neet_chem_509",
+      "question": "Which of the following organic compounds will give positive Fehling's test?",
+      "imageUrl": "",
+      "options": [
+        "Benzaldehyde",
+        "Propanone",
+        "Ethanal",
+        "Acetophenone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aliphatic aldehydes like ethanal reduce Fehling's solution to give a red precipitate of $\\text{Cu}_2\\text{O}$. Aromatic aldehydes like benzaldehyde do not reduce Fehling's solution.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Aldehydes, Ketones and Carboxylic Acids"
+    },
+    {
+      "id": "neet_chem_510",
+      "question": "The oxidation number of phosphorus in orthophosphoric acid ($\\text{H}_3\\text{PO}_4$) is:",
+      "imageUrl": "",
+      "options": [
+        "$+3$",
+        "$+5$",
+        "$+1$",
+        "$-3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$3(+1) + x + 4(-2) = 0 \\implies 3 + x - 8 = 0 \\implies x = +5$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "neet_chem_511",
+      "question": "Which of the following molecules has a non-zero dipole moment?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CO}_2$",
+        "$\\text{BF}_3$",
+        "$\\text{CCl}_4$",
+        "$\\text{NH}_3$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\text{NH}_3$ has a trigonal pyramidal shape with a lone pair on nitrogen, resulting in a net dipole moment ($\r\\mu \\neq 0$). $\\text{CO}_2$, $\\text{BF}_3$, and $\\text{CCl}_4$ are symmetrical ($\r\\mu = 0$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_512",
+      "question": "Phenol reacts with dilute $\\text{HNO}_3$ at room temperature to form:",
+      "imageUrl": "",
+      "options": [
+        "2,4,6-trinitrophenol (Picric acid)",
+        "ortho- and para-nitrophenols",
+        "meta-nitrophenol only",
+        "Nitrobenzene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dilute $\\text{HNO}_3$ nitrates phenol to yield a mixture of o-nitrophenol and p-nitrophenol. Concentrated $\\text{HNO}_3$ yields picric acid.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_chem_513",
+      "question": "The bond order of $\\text{O}_2^+$ ion according to Molecular Orbital Theory is:",
+      "imageUrl": "",
+      "options": [
+        "$2.0$",
+        "$2.5$",
+        "$1.5$",
+        "$3.0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{O}_2^+$ has 15 electrons. Bonding electrons $N_b = 10$, Antibonding $N_a = 5$. Bond order = $\\frac{N_b - N_a}{2} = \\frac{10 - 5}{2} = 2.5$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_514",
+      "question": "Which among the following halogen acids is the strongest acid in aqueous solution?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{HF}$",
+        "$\\text{HCl}$",
+        "$\\text{HBr}$",
+        "$\\text{HI}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Down the group, $H-X$ bond dissociation energy decreases ($H-I$ bond is weakest), making $\\text{HI}$ release $H^+$ ions most easily.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "neet_chem_515",
+      "question": "The half-life of a zero-order reaction is directly proportional to:",
+      "imageUrl": "",
+      "options": [
+        "Initial concentration of reactant $[A]_0$",
+        "Square of initial concentration $[A]_0^2$",
+        "Inverse of initial concentration $\\frac{1}{[A]_0}$",
+        "Temperature only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For zero-order reaction, $t_{1/2} = \\frac{[A]_0}{2k}$, which shows $t_{1/2} \\propto [A]_0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "neet_chem_516",
+      "question": "Which vitamin deficiency causes Pernicious Anemia?",
+      "imageUrl": "",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B6",
+        "Vitamin B12",
+        "Vitamin C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Deficiency of Vitamin B12 (Cyanocobalamin) impairs RBC maturation leading to Pernicious Anemia.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "neet_bot_517",
+      "question": "Which of the following plant tissues consists of dead cells at maturity?",
+      "imageUrl": "",
+      "options": [
+        "Parenchyma",
+        "Collenchyma",
+        "Sclerenchyma",
+        "Companion cells"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sclerenchyma cells possess heavily lignified cell walls and lose protoplasm at maturity, becoming dead cells.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Anatomy of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_518",
+      "question": "The enzyme responsible for primary carbon fixation in C3 cycle (Calvin Cycle) is:",
+      "imageUrl": "",
+      "options": [
+        "PEP Carboxylase",
+        "RuBisCO",
+        "ATP Synthase",
+        "Pyruvate Dehydrogenase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RuBisCO (Ribulose-1,5-bisphosphate carboxylase-oxygenase) catalyzes $\\text{CO}_2$ fixation in the Calvin cycle.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_519",
+      "question": "In DNA structure, two polynucleotide strands are held together by:",
+      "imageUrl": "",
+      "options": [
+        "Phosphodiester bonds",
+        "Glycosidic bonds",
+        "Hydrogen bonds",
+        "Peptide bonds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hydrogen bonds between complementary nitrogenous bases (A=T and C≡G) hold the double helix strands together.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_520",
+      "question": "Which of the following is an example of non-vascular embryophyte?",
+      "imageUrl": "",
+      "options": [
+        "Algae",
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bryophytes form embryos during development but lack vascular tissues (xylem and phloem).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Plant Kingdom"
+    },
+    {
+      "id": "neet_bot_521",
+      "question": "The technique used to separate fragments of DNA based on their size is:",
+      "imageUrl": "",
+      "options": [
+        "Polymerase Chain Reaction (PCR)",
+        "Agarose Gel Electrophoresis",
+        "Northern Blotting",
+        "Centrifugation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Agarose gel electrophoresis separates negatively charged DNA fragments toward anode based on molecular size.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biotechnology: Principles and Processes"
+    },
+    {
+      "id": "neet_bot_522",
+      "question": "In a mendelian dihybrid cross ($AaBb \\times AaBb$), the phenotypic ratio in $F_2$ generation is:",
+      "imageUrl": "",
+      "options": [
+        "$3:1$",
+        "$1:2:1$",
+        "$9:3:3:1$",
+        "$9:7$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The classic mendelian dihybrid phenotypic ratio across independently assorting traits is $9:3:3:1$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Principles of Inheritance and Variation"
+    },
+    {
+      "id": "neet_bot_523",
+      "question": "Water potential of pure water at standard temperature and pressure is equal to:",
+      "imageUrl": "",
+      "options": [
+        "Zero",
+        "100",
+        "10",
+        "$-10$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By convention, pure water at standard temperature and atmospheric pressure has a water potential ($\\Psi_w$) of zero.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Transport in Plants"
+    },
+    {
+      "id": "neet_bot_524",
+      "question": "Which cell organelle is rich in hydrolytic enzymes functioning at acidic pH?",
+      "imageUrl": "",
+      "options": [
+        "Lysosome",
+        "Peroxisome",
+        "Glyoxysome",
+        "Vacuole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysosomes contain acid hydrolases (lipases, proteases, carbohydrases) optimal at acidic pH (~5.0).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_zoo_525",
+      "question": "The specialized junction that facilitates rapid transfer of ions and small molecules between adjacent cardiac muscle cells is:",
+      "imageUrl": "",
+      "options": [
+        "Tight junction",
+        "Adhering junction",
+        "Gap junction",
+        "Desmosome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gap junctions (intercalated discs) allow rapid electrical communication and ion passage between cardiac cells.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_526",
+      "question": "Which hormone is responsible for ejection of milk from mammary glands during lactation?",
+      "imageUrl": "",
+      "options": [
+        "Prolactin",
+        "Oxytocin",
+        "Estrogen",
+        "Progesterone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Oxytocin causes contraction of myoepithelial cells in mammary glands, stimulating milk let-down/ejection.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_527",
+      "question": "In human nephron, maximum reabsorption of water and essential nutrients takes place in:",
+      "imageUrl": "",
+      "options": [
+        "Proximal Convoluted Tubule (PCT)",
+        "Henle's Loop",
+        "Distal Convoluted Tubule (DCT)",
+        "Collecting Duct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nearly 70–80% of electrolytes and water and virtually all essential nutrients are reabsorbed in PCT.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_528",
+      "question": "Antibodies present in human colostrum that provide natural passive immunity to infants belong to class:",
+      "imageUrl": "",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgM",
+        "IgE"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Colostrum is rich in IgA antibodies which protect the newborn's gastrointestinal tract.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_529",
+      "question": "Which part of human ear contains sensory hair cells responsible for hearing?",
+      "imageUrl": "",
+      "options": [
+        "Organ of Corti",
+        "Macula",
+        "Crista ampullaris",
+        "Eustachian tube"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Organ of Corti, located on basilar membrane inside cochlea, contains hair cells functioning as auditory receptors.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_530",
+      "question": "During muscle contraction, which band/zone in the sarcomere shortens and disappears?",
+      "imageUrl": "",
+      "options": [
+        "A-band",
+        "H-zone",
+        "Z-line",
+        "M-line"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to sliding filament theory, actin filaments slide over myosin, narrowing the I-band and causing the H-zone to shorten/disappear.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    },
+    {
+      "id": "neet_zoo_531",
+      "question": "Which of the following is a non-steroidal oral contraceptive pill developed by CDRI, Lucknow?",
+      "imageUrl": "",
+      "options": [
+        "Mala-D",
+        "Mala-N",
+        "Saheli",
+        "Progestasert"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Saheli is a once-a-week non-steroidal oral contraceptive pill developed by CDRI, Lucknow.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Reproductive Health"
+    },
+    {
+      "id": "neet_zoo_532",
+      "question": "In human circulatory system, oxygenated blood from lungs enters which heart chamber?",
+      "imageUrl": "",
+      "options": [
+        "Right Atrium",
+        "Right Ventricle",
+        "Left Atrium",
+        "Left Ventricle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pulmonary veins carry oxygenated blood from lungs directly into the Left Atrium of the heart.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    }
+  ]
+}

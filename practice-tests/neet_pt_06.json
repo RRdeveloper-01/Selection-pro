@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 6",
+  "chapterslug": "neet_pt_6",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_601",
+      "question": "Two charges $+q$ and $-q$ are placed at a distance $d$ apart. The electric potential at the midpoint of the line joining the two charges is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{2q}{d}$",
+        "Zero",
+        "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{4q}{d}$",
+        "$\\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{d^2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Potential at midpoint $V = V_1 + V_2 = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{d/2} + \\frac{1}{4\\pi\\varepsilon_0}\\frac{-q}{d/2} = 0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Electrostatic Potential and Capacitance"
+    },
+    {
+      "id": "neet_phy_602",
+      "question": "A wire of resistance $12\\ \\Omega$ is bent in the form of a circle. The effective resistance between two points along any diameter is:",
+      "imageUrl": "",
+      "options": [
+        "$3\\ \\Omega$",
+        "$6\\ \\Omega$",
+        "$12\\ \\Omega$",
+        "$2.4\\ \\Omega$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The diameter divides the wire into two semi-circular halves, each having resistance $6\\ \\Omega$. Connected in parallel: $R_{eq} = \\frac{6 \\times 6}{6 + 6} = 3\\ \\Omega$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "neet_phy_603",
+      "question": "The fundamental frequency of a closed organ pipe of length $L$ is $f$. If it is opened at both ends, its fundamental frequency becomes:",
+      "imageUrl": "",
+      "options": [
+        "$f$",
+        "$2f$",
+        "$\\frac{f}{2}$",
+        "$4f$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Closed pipe fundamental frequency $f_{closed} = \\frac{v}{4L} = f$. Open pipe fundamental frequency $f_{open} = \\frac{v}{2L} = 2f$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Waves"
+    },
+    {
+      "id": "neet_phy_604",
+      "question": "The kinetic energy needed to project a body of mass $m$ from Earth's surface to infinity is:",
+      "imageUrl": "",
+      "options": [
+        "$mgR$",
+        "$\\frac{1}{2}mgR$",
+        "$2mgR$",
+        "$\\frac{1}{4}mgR$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Binding energy at Earth's surface is $\\frac{GMm}{R} = mgR$. To send it to infinity, initial $KE = mgR$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "neet_phy_605",
+      "question": "Which logic gate gives a LOW output ($0$) only when both of its inputs are HIGH ($1$)?",
+      "imageUrl": "",
+      "options": [
+        "AND gate",
+        "NAND gate",
+        "NOR gate",
+        "OR gate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NAND gate truth table produces $0$ only when $A=1$ and $B=1$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_phy_606",
+      "question": "A convex lens of focal length $20\\text{ cm}$ is placed in contact with a concave lens of focal length $40\\text{ cm}$. The power of the combination is:",
+      "imageUrl": "",
+      "options": [
+        "$+2.5\\text{ D}$",
+        "$-2.5\\text{ D}$",
+        "$+5.0\\text{ D}$",
+        "$-5.0\\text{ D}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$P_1 = \\frac{100}{20} = +5\\text{ D}$, $P_2 = \\frac{100}{-40} = -2.5\\text{ D}$. Net power $P = P_1 + P_2 = +5 - 2.5 = +2.5\\text{ D}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics and Optical Instruments"
+    },
+    {
+      "id": "neet_phy_607",
+      "question": "The root mean square speed ($v_{rms}$) of nitrogen gas molecules at temperature $T$ is proportional to:",
+      "imageUrl": "",
+      "options": [
+        "$T$",
+        "$\\sqrt{T}$",
+        "$T^2$",
+        "$\\frac{1}{\\sqrt{T}}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$v_{rms} = \\sqrt{\\frac{3RT}{M}}$, which shows $v_{rms} \\propto \\sqrt{T}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Kinetic Theory"
+    },
+    {
+      "id": "neet_phy_608",
+      "question": "When light travels from air to glass, which property of light remains unchanged?",
+      "imageUrl": "",
+      "options": [
+        "Wavelength",
+        "Speed",
+        "Frequency",
+        "Amplitude"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Frequency is a characteristic property of the source emitting light and remains constant during refraction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Wave Optics"
+    },
+    {
+      "id": "neet_chem_609",
+      "question": "Which of the following molecules has a linear shape according to VSEPR theory?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{SO}_2$",
+        "$\\text{H}_2\\text{O}$",
+        "$\\text{BeCl}_2$",
+        "$\\text{O}_3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{BeCl}_2$ has $sp$ hybridization with $180^\\circ$ bond angle and linear geometry.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_610",
+      "question": "Phenol on distillation with Zinc dust gives:",
+      "imageUrl": "",
+      "options": [
+        "Benzene",
+        "Toluene",
+        "Benzoic acid",
+        "Anisole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heating phenol with zinc dust causes reduction to yield benzene and $\\text{ZnO}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_chem_611",
+      "question": "The monomer units of Nylon-6,6 are:",
+      "imageUrl": "",
+      "options": [
+        "Caprolactam only",
+        "Hexamethylenediamine and Adipic acid",
+        "Styrene and 1,3-Butadiene",
+        "Ethylene glycol and Terephthalic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nylon-6,6 is a condensation polymer of hexamethylenediamine and adipic acid.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Polymers"
+    },
+    {
+      "id": "neet_chem_612",
+      "question": "Which transition metal ion exhibits maximum magnetic moment in ground state?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{Fe}^{2+}$",
+        "$\\text{Mn}^{2+}$",
+        "$\\text{Cr}^{3+}$",
+        "$\\text{Cu}^{2+}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{Mn}^{2+}$ has $3d^5$ configuration with 5 unpaired electrons ($n=5$), giving maximum magnetic moment $\\mu = \\sqrt{5(5+2)} = 5.92\\text{ BM}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "d and f Block Elements"
+    },
+    {
+      "id": "neet_chem_613",
+      "question": "The rate constant of a zero-order reaction has the units:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{s}^{-1}$",
+        "$\\text{mol L}^{-1}\\text{ s}^{-1}$",
+        "$\\text{L mol}^{-1}\\text{ s}^{-1}$",
+        "$\\text{L}^2\\text{ mol}^{-2}\\text{ s}^{-1}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For zero-order, $\\text{Rate} = k[A]^0 \\implies k = \\text{Rate} = \\text{mol L}^{-1}\\text{ s}^{-1}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "neet_chem_614",
+      "question": "Tollens' reagent is chemically:",
+      "imageUrl": "",
+      "options": [
+        "Ammoniacal Silver Nitrate solution",
+        "Alkaline Copper Sulfate solution",
+        "Aqueous Potassium Permanganate",
+        "Neutral Ferric Chloride solution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tollens' reagent is an ammoniacal silver nitrate solution containing $[\\text{Ag}(\\text{NH}_3)_2]^+$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Aldehydes, Ketones and Carboxylic Acids"
+    },
+    {
+      "id": "neet_chem_615",
+      "question": "Which pair of ions forms an acidic buffer solution?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CH}_3\\text{COOH}$ and $\\text{CH}_3\\text{COONa}$",
+        "$\\text{NH}_4\\text{OH}$ and $\\text{NH}_4\\text{Cl}$",
+        "$\\text{HCl}$ and $\\text{NaCl}$",
+        "$\\text{NaOH}$ and $\\text{NaCl}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An acidic buffer consists of a weak acid ($\\text{CH}_3\\text{COOH}$) and its salt with a strong base ($\\text{CH}_3\\text{COONa}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "neet_chem_616",
+      "question": "The hybridization of carbon atoms involved in C-C single bond of propene ($\\text{CH}_3-\\text{CH}=\\text{CH}_2$) are:",
+      "imageUrl": "",
+      "options": [
+        "$sp^3$ and $sp^2$",
+        "$sp^2$ and $sp^2$",
+        "$sp^3$ and $sp$",
+        "$sp$ and $sp^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In $\\text{CH}_3-\\text{CH}=\\text{CH}_2$, C3 ($\\text{CH}_3$) is $sp^3$ hybridized and C2 ($=\\text{CH}-$) is $sp^2$ hybridized.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Organic Chemistry - Basic Principles"
+    },
+    {
+      "id": "neet_bot_617",
+      "question": "The specialized epidermal cells surrounding guard cells in stomata are called:",
+      "imageUrl": "",
+      "options": [
+        "Subsidiary cells",
+        "Bulliform cells",
+        "Trichomes",
+        "Lenticels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subsidiary cells are modified epidermal cells closely surrounding guard cells.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Anatomy of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_618",
+      "question": "In lac operon concept, the repressor protein binds to:",
+      "imageUrl": "",
+      "options": [
+        "Promoter gene",
+        "Operator gene",
+        "Structural gene z",
+        "Regulator gene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In absence of inducer, repressor protein binds to operator region preventing RNA polymerase from transcribing operon.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_619",
+      "question": "Which cell organelle is termed the 'Powerhouse of the Cell' due to ATP generation?",
+      "imageUrl": "",
+      "options": [
+        "Chloroplast",
+        "Mitochondrion",
+        "Golgi body",
+        "Endoplasmic reticulum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mitochondria produce cellular energy in the form of ATP via oxidative phosphorylation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_bot_620",
+      "question": "During DNA replication, Okazaki fragments are joined together by the enzyme:",
+      "imageUrl": "",
+      "options": [
+        "DNA Polymerase I",
+        "DNA Ligase",
+        "Helicase",
+        "RNA Primase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNA ligase joins discontinuous Okazaki fragments synthesized on lagging strand.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_621",
+      "question": "Root hair cells absorb water from soil primarily through:",
+      "imageUrl": "",
+      "options": [
+        "Active transport",
+        "Osmosis",
+        "Imbibition",
+        "Turgor pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Root hair cells absorb water down a water potential gradient by osmosis.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Transport in Plants"
+    },
+    {
+      "id": "neet_bot_622",
+      "question": "In Bt cotton, the Bt toxin protein is coded by which gene family?",
+      "imageUrl": "",
+      "options": [
+        "cry gene",
+        "lac gene",
+        "pBR322 gene",
+        "ori gene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The crystal insecticidal protein is encoded by *cry* genes (e.g., *cryIAc*, *cryIIAb*).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biotechnology and its Applications"
+    },
+    {
+      "id": "neet_bot_623",
+      "question": "Which stage of mitosis is best suited to study morphology and counting of chromosomes?",
+      "imageUrl": "",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromosomes are highly condensed and aligned on equatorial plane during metaphase, making it ideal for morphological study.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_624",
+      "question": "Which element is an essential component of ring structure of chlorophyll?",
+      "imageUrl": "",
+      "options": [
+        "Iron",
+        "Magnesium",
+        "Calcium",
+        "Manganese"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Magnesium ($Mg^{2+}$) forms the central atom of the porphyrin ring of chlorophyll.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_zoo_625",
+      "question": "Which endocrine gland secretes calcitonin hormone to lower blood calcium level?",
+      "imageUrl": "",
+      "options": [
+        "Parathyroid gland",
+        "Thyroid gland",
+        "Adrenal cortex",
+        "Pancreas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thyrocalcitonin (TCT) is secreted by parafollicular cells of thyroid gland and reduces blood $Ca^{2+}$ levels.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_626",
+      "question": "Which valve prevents backflow of blood from right ventricle into right atrium during ventricular systole?",
+      "imageUrl": "",
+      "options": [
+        "Bicuspid (Mitral) valve",
+        "Tricuspid valve",
+        "Aortic semilunar valve",
+        "Eustachian valve"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tricuspid valve Guards the right atrioventricular opening and prevents backflow of blood into right atrium.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_627",
+      "question": "The structural and functional unit of liver is called:",
+      "imageUrl": "",
+      "options": [
+        "Hepatic lobule",
+        "Glisson's capsule",
+        "Crypts of Lieberkuhn",
+        "Kupffer cell"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hepatic lobules are structural units of liver containing hepatic cells arranged in cords.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Digestion and Absorption"
+    },
+    {
+      "id": "neet_zoo_628",
+      "question": "In human female, fertilization normally occurs in which region of fallopian tube?",
+      "imageUrl": "",
+      "options": [
+        "Infundibulum",
+        "Ampulla",
+        "Isthmus",
+        "Uterus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fertilization occurs at the ampullary region of the oviduct/fallopian tube.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_629",
+      "question": "Which tissue connects skeletal muscle to bone in humans?",
+      "imageUrl": "",
+      "options": [
+        "Ligament",
+        "Tendon",
+        "Cartilage",
+        "Areolar tissue"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tendons are dense regular connective tissue structures that attach muscles to bones.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_630",
+      "question": "Which disease is caused by deficiency of adrenal cortical hormones (glucocorticoids/mineralocorticoids)?",
+      "imageUrl": "",
+      "options": [
+        "Cushing's syndrome",
+        "Addison's disease",
+        "Grave's disease",
+        "Acromegaly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Underproduction of hormones by adrenal cortex leads to Addison's disease.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_631",
+      "question": "Maximum oxygen transport in human blood occurs in the form of:",
+      "imageUrl": "",
+      "options": [
+        "Dissolved in plasma",
+        "Oxyhemoglobin",
+        "Carbamino-hemoglobin",
+        "Bicarbonate ions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "About $97\\%$ of oxygen is transported by RBCs in the form of oxyhemoglobin.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_632",
+      "question": "The exocrine secretion of human pancreas contains which inactive enzyme?",
+      "imageUrl": "",
+      "options": [
+        "Trypsinogen",
+        "Pepsinogen",
+        "Renin",
+        "Ptyalin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pancreatic juice contains zymogens including trypsinogen, chymotrypsinogen, and procarboxypeptidase.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Digestion and Absorption"
+    }
+  ]
+}

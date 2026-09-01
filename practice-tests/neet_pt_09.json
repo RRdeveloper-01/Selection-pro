@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 9",
+  "chapterslug": "neet_pt_9",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_901",
+      "question": "Two long parallel wires carrying equal currents $I$ in opposite directions are separated by a distance $d$. The magnetic field intensity at the midpoint between the wires is:",
+      "imageUrl": "",
+      "options": [
+        "Zero",
+        "$\\frac{\\mu_0 I}{\\pi d}$",
+        "$\\frac{2\\mu_0 I}{\\pi d}$",
+        "$\\frac{\\mu_0 I}{2\\pi d}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At the midpoint, fields due to both wires point in the same direction. $B_{net} = \\frac{\\mu_0 I}{2\\pi (d/2)} + \\frac{\\mu_0 I}{2\\pi (d/2)} = \\frac{\\mu_0 I}{\\pi d} + \\frac{\\mu_0 I}{\\pi d} = \\frac{2\\mu_0 I}{\\pi d}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Moving Charges and Magnetism"
+    },
+    {
+      "id": "neet_phy_902",
+      "question": "The work function of a photosensitive surface is $3.3\\text{ eV}$. The threshold frequency for photoelectric emission is ($h = 6.6 \\times 10^{-34}\\text{ J\\cdot s}$):",
+      "imageUrl": "",
+      "options": [
+        "$8.0 \\times 10^{14}\\text{ Hz}$",
+        "$4.0 \\times 10^{14}\\text{ Hz}$",
+        "$1.2 \\times 10^{15}\\text{ Hz}$",
+        "$2.5 \\times 10^{14}\\text{ Hz}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\Phi = h \\nu_0 \\implies \\nu_0 = \\frac{3.3 \\times 1.6 \\times 10^{-19}\\text{ J}}{6.6 \\times 10^{-34}\\text{ J\\cdot s}} = 8.0 \\times 10^{14}\\text{ Hz}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_phy_903",
+      "question": "An ideal gas expands adiabatically from volume $V$ to $8V$. If the ratio of specific heats is $\\gamma = 5/3$, the ratio of initial to final pressure is:",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$16$",
+        "$32$",
+        "$64$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For an adiabatic process, $P_1 V_1^{\\gamma} = P_2 V_2^{\\gamma} \\implies \\frac{P_1}{P_2} = \\left(\\frac{V_2}{V_1}\\right)^{\\gamma} = (8)^{5/3} = (2^3)^{5/3} = 2^5 = 32$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_phy_904",
+      "question": "In a $p-n$ junction diode, the thickness of the depletion layer is of the order of:",
+      "imageUrl": "",
+      "options": [
+        "$1\\text{ cm}$",
+        "$1\\text{ mm}$",
+        "$10^{-6}\\text{ m}$",
+        "$10^{-10}\\text{ m}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The width of the depletion region in a semiconductor $p-n$ junction is typically on the order of $10^{-6}\\text{ m}$ ($1\\ \\mu\\text{m}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Semiconductor Electronics"
+    },
+    {
+      "id": "neet_phy_905",
+      "question": "A body of mass $m$ is moving in a circular path of radius $r$ with constant speed $v$. The work done by the centripetal force during one complete revolution is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{m v^2}{r} \\cdot 2\\pi r$",
+        "Zero",
+        "$\\frac{1}{2} m v^2$",
+        "$m v^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centripetal force acts perpendicular to the direction of motion at every instant ($\r\\theta = 90^\\circ$). Hence, work done $W = F d \\cos(90^\\circ) = 0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Work, Energy and Power"
+    },
+    {
+      "id": "neet_phy_906",
+      "question": "The speed of electromagnetic waves in a vacuum is equal to:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{\\mu_0 \\varepsilon_0}$",
+        "$\\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$",
+        "$\\frac{\\mu_0}{\\varepsilon_0}$",
+        "$\\sqrt{\\frac{\\mu_0}{\\varepsilon_0}}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Maxwell proved that the velocity of electromagnetic radiation in free space is given by $c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Electromagnetic Waves"
+    },
+    {
+      "id": "neet_phy_907",
+      "question": "A simple pendulum of length $L$ has a time period $T$. If the acceleration due to gravity increases by $4\\%$, its time period will:",
+      "imageUrl": "",
+      "options": [
+        "Increase by $2\\%$",
+        "Decrease by $2\\%$",
+        "Increase by $4\\%$",
+        "Decrease by $4\\%$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$T = 2\\pi \\sqrt{\\frac{L}{g}} \\implies \\frac{\\Delta T}{T} = -\\frac{1}{2}\\frac{\\Delta g}{g} = -\\frac{1}{2}(4\\%) = -2\\%$. The time period decreases by $2\\%$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "neet_phy_908",
+      "question": "The focal length of an objective lens of an astronomical telescope is $100\\text{ cm}$ and that of the eyepiece is $5\\text{ cm}$. The magnifying power for normal adjustment is:",
+      "imageUrl": "",
+      "options": [
+        "$20$",
+        "$500$",
+        "$105$",
+        "$95$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Magnifying power in normal adjustment is $m = \\frac{f_o}{f_e} = \\frac{100}{5} = 20$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics and Optical Instruments"
+    },
+    {
+      "id": "neet_chem_909",
+      "question": "Which alkali metal hydroxide is the most basic in nature?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{LiOH}$",
+        "$\\text{NaOH}$",
+        "$\\text{KOH}$",
+        "$\\text{CsOH}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Down group 1, ionic radius increases, reducing $M-OH$ bond energy. Thus, $\\text{CsOH}$ dissociates most readily, making it the most basic.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "s-Block Elements"
+    },
+    {
+      "id": "neet_chem_910",
+      "question": "The shape of $\\text{PCl}_5$ molecule in the gas phase according to VSEPR theory is:",
+      "imageUrl": "",
+      "options": [
+        "Trigonal bipyramidal",
+        "Square pyramidal",
+        "Octahedral",
+        "Tetrahedral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\text{PCl}_5$ has 5 bond pairs and $sp^3d$ hybridization, yielding a trigonal bipyramidal shape.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_911",
+      "question": "Which of the following ampicillin/amine derivatives reacts with Hinsberg's reagent to give a product insoluble in alkali?",
+      "imageUrl": "",
+      "options": [
+        "Primary amine",
+        "Secondary amine",
+        "Tertiary amine",
+        "Quaternary ammonium salt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Secondary amines react with Hinsberg's reagent (benzenesulfonyl chloride) to form $N,N$-dialkylbenzenesulfonamides, which lack an acidic hydrogen and are insoluble in aqueous $\\text{KOH}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "neet_chem_912",
+      "question": "The oxidation number of Nickel in $[\\text{Ni(CO)}_4]$ is:",
+      "imageUrl": "",
+      "options": [
+        "$0$",
+        "$+2$",
+        "$+4$",
+        "$-2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon monoxide ($\\text{CO}$) is a neutral ligand. $x + 4(0) = 0 \\implies x = 0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "neet_chem_913",
+      "question": "For a reaction to be spontaneous at all temperatures, the conditions must be:",
+      "imageUrl": "",
+      "options": [
+        "$\\Delta H < 0$ and $\\Delta S > 0$",
+        "$\\Delta H > 0$ and $\\Delta S < 0$",
+        "$\\Delta H < 0$ and $\\Delta S < 0$",
+        "$\\Delta H > 0$ and $\\Delta S > 0$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since $\\Delta G = \\Delta H - T\\Delta S$, when $\\Delta H$ is negative and $\\Delta S$ is positive, $\\Delta G$ is always negative at any temperature.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Thermodynamics"
+    },
+    {
+      "id": "neet_chem_914",
+      "question": "Which halogen forms only one oxoacid ($\rHOF$)?",
+      "imageUrl": "",
+      "options": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fluorine is highly electronegative and lacks $d$-orbitals, forming only one oxoacid, fluoric(I) acid ($\\text{HOF}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "p-Block Elements"
+    },
+    {
+      "id": "neet_chem_915",
+      "question": "The standard reduction potentials of three metals $A$, $B$, and $C$ are $+0.34\\text{ V}$, $-0.76\\text{ V}$, and $-2.37\\text{ V}$ respectively. Their reducing power order is:",
+      "imageUrl": "",
+      "options": [
+        "$A > B > C$",
+        "$C > B > A$",
+        "$B > C > A$",
+        "$A > C > B$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "More negative reduction potential corresponds to a stronger reducing agent. Hence order is $C > B > A$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electrochemistry"
+    },
+    {
+      "id": "neet_chem_916",
+      "question": "Ozonolysis of 2-methylbut-2-ene produces:",
+      "imageUrl": "",
+      "options": [
+        "Propanone and Ethanal",
+        "Ethanal and Methanal",
+        "Propanone and Methanal",
+        "Butanone and Ethanal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cleaving the double bond in $(\\text{CH}_3)_2\\text{C}=\\text{CH}-\\text{CH}_3$ via ozonolysis gives propanone ($(\\text{CH}_3)_2\\text{C}=\\text{O}$) and ethanal ($\\text{CH}_3\\text{CHO}$).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Hydrocarbons"
+    },
+    {
+      "id": "neet_bot_917",
+      "question": "In photorespiration (C2 cycle), the organelles involved in sequential order are:",
+      "imageUrl": "",
+      "options": [
+        "Chloroplast, Peroxisome, Mitochondrion",
+        "Chloroplast, Mitochondrion, Peroxisome",
+        "Peroxisome, Chloroplast, Mitochondrion",
+        "Mitochondrion, Peroxisome, Chloroplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photorespiration occurs in three cell organelles in sequence: Chloroplast $\\rightarrow$ Peroxisome $\\rightarrow$ Mitochondrion.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_918",
+      "question": "Genetic code is described as 'degenerate' because:",
+      "imageUrl": "",
+      "options": [
+        "One codon codes for more than one amino acid",
+        "More than one codon can code for a single amino acid",
+        "Codons overlap during translation",
+        "It varies between prokaryotes and eukaryotes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Degeneracy means that most amino acids are specified by more than one codon (e.g., 6 different codons code for Leucine).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_919",
+      "question": "The functional cross-section of plant tissue responsible for translocation of organic solutes (sucrose) is:",
+      "imageUrl": "",
+      "options": [
+        "Xylem vessels",
+        "Sieve tube elements",
+        "Sclereids",
+        "Tracheids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sieve tubes along with companion cells in phloem conduct organic food from leaves to sink tissues.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Transport in Plants"
+    },
+    {
+      "id": "neet_bot_920",
+      "question": "Which of the following is a non-symbiotic (free-living) nitrogen-fixing bacterium?",
+      "imageUrl": "",
+      "options": [
+        "Rhizobium",
+        "Azotobacter",
+        "Frankia",
+        "Anabaena azollae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "*Azotobacter* and *Beijerinckia* are free-living aerobic nitrogen-fixing bacteria in soil.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Mineral Nutrition"
+    },
+    {
+      "id": "neet_bot_921",
+      "question": "The floral formula $\\bigoplus \\Phi K_{(5)} C_{(5)} A_5 \\underline{G}_{(2)}$ belongs to which family?",
+      "imageUrl": "",
+      "options": [
+        "Fabaceae",
+        "Solanaceae",
+        "Liliaceae",
+        "Brassicaceae"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Solanaceae exhibits actinomorphic symmetry, fused calyx (5), fused corolla (5), 5 epipetalous stamens, and bicarpellary syncarpous superior ovary.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Morphology of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_922",
+      "question": "In recombinant DNA technology, plasmid vectors are useful because they:",
+      "imageUrl": "",
+      "options": [
+        "Are linear double-stranded RNA",
+        "Replicate independently of genomic DNA",
+        "Integrate into host chromosome permanently",
+        "Lack origin of replication"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plasmids are extra-chromosomal, autonomous, self-replicating circular double-stranded DNA molecules.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biotechnology: Principles and Processes"
+    },
+    {
+      "id": "neet_bot_923",
+      "question": "Which stage of cell division is characterized by the formation of synaptonemal complex?",
+      "imageUrl": "",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During zygotene stage of Prophase I, homologous chromosomes pair up (synapsis) mediated by synaptonemal complex.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_924",
+      "question": "The primary photosynthetic pigment present in all green plants that absorbs light in blue and red regions is:",
+      "imageUrl": "",
+      "options": [
+        "Chlorophyll a",
+        "Chlorophyll b",
+        "Carotenoids",
+        "Xanthophylls"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chlorophyll a acts as the chief reaction-center pigment in light reaction of photosynthesis.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_zoo_925",
+      "question": "Which region of human brain acts as the primary center for regulating body temperature, hunger, and thirst?",
+      "imageUrl": "",
+      "options": [
+        "Cerebellum",
+        "Thalamus",
+        "Hypothalamus",
+        "Medulla oblongata"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hypothalamus contains centers that control body temperature, urge for eating (hunger), and drinking (thirst).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_926",
+      "question": "In human female, the corpus luteum is formed after ovulation from the remnants of:",
+      "imageUrl": "",
+      "options": [
+        "Primary follicle",
+        "Graafian follicle",
+        "Secondary oocyte",
+        "Corpus albicans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Following ovulation, the ruptured Graafian follicle transforms under LH influence into the endocrine structure called corpus luteum.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_927",
+      "question": "Which antibody class is most abundant in human blood serum and can cross the placenta?",
+      "imageUrl": "",
+      "options": [
+        "IgA",
+        "IgM",
+        "IgG",
+        "IgE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IgG is the most abundant immunoglobulin (~80%) and the only class capable of crossing the placental barrier.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_928",
+      "question": "Glomerular Filtration Rate (GFR) in a healthy human adult is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$125\\text{ mL/min}$ ($180\\text{ L/day}$)",
+        "$500\\text{ mL/min}$",
+        "$50\\text{ mL/min}$",
+        "$12.5\\text{ L/day}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Normal GFR in a healthy individual is around $125\\text{ mL/minute}$, amounting to $180\\text{ liters}$ per day.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_929",
+      "question": "The pacemaker of human heart that initiates action potentials spontaneously is:",
+      "imageUrl": "",
+      "options": [
+        "Atrioventricular Node (AVN)",
+        "Sinoatrial Node (SAN)",
+        "Bundle of His",
+        "Purkinje fibers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SAN generates maximum action potentials ($70-75/\\text{min}$) and sets the rhythm of heart contractions, acting as the pacemaker.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_930",
+      "question": "Which hormone acts on the collecting duct of kidney nephrons to increase water reabsorption?",
+      "imageUrl": "",
+      "options": [
+        "Oxytocin",
+        "Anti-Diuretic Hormone (ADH / Vasopressin)",
+        "Aldosterone",
+        "Atrial Natriuretic Factor (ANF)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ADH facilitates water reabsorption from distal parts of the tubule and collecting duct to prevent diuresis.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_931",
+      "question": "Cartilaginous joint in human skeleton is exemplified by:",
+      "imageUrl": "",
+      "options": [
+        "Sutures in skull",
+        "Joint between adjacent vertebrae",
+        "Shoulder joint (ball and socket)",
+        "Knee joint (hinge)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Joints between adjacent vertebrae in the vertebral column are cartilaginous joints permitting limited movement.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    },
+    {
+      "id": "neet_zoo_932",
+      "question": "The enzyme carbonic anhydrase present in high concentrations in RBCs catalyzes the conversion of:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CO}_2 + \\text{H}_2\\text{O} \\rightleftharpoons \\text{H}_2\\text{CO}_3$",
+        "$\\text{O}_2 + \\text{Hb} \\rightleftharpoons \\text{HbO}_2$",
+        "Glucose $\\rightarrow$ Pyruvate",
+        "Pepsinogen $\\rightarrow$ Pepsin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbonic anhydrase speeds up the hydration of carbon dioxide into carbonic acid ($\\text{H}_2\\text{CO}_3$) for transport as bicarbonate ions.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    }
+  ]
+}

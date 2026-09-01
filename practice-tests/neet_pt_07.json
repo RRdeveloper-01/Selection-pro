@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 7",
+  "chapterslug": "neet_pt_7",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_701",
+      "question": "Two charges $+1\\mu\\text{C}$ and $+4\\mu\\text{C}$ are placed at a distance of $30\\text{ cm}$ apart in air. At what distance from the $+1\\mu\\text{C}$ charge on the line joining them is the net electric field zero?",
+      "imageUrl": "",
+      "options": [
+        "$10\\text{ cm}$",
+        "$20\\text{ cm}$",
+        "$15\\text{ cm}$",
+        "$5\\text{ cm}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neutral point distance $x = \\frac{r}{\\sqrt{\\frac{q_2}{q_1}} + 1} = \\frac{30}{\\sqrt{\\frac{4}{1}} + 1} = \\frac{30}{2 + 1} = 10\\text{ cm}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electric Charges and Fields"
+    },
+    {
+      "id": "neet_phy_702",
+      "question": "The threshold wavelength for photoelectric effect on a metal surface is $6000\\ \\text{\\AA}$. The work function of the metal is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$2.07\\text{ eV}$",
+        "$4.14\\text{ eV}$",
+        "$1.03\\text{ eV}$",
+        "$3.10\\text{ eV}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work function $\\phi = \\frac{hc}{\\lambda_0} = \\frac{12400\\text{ eV\\cdot\\AA}}{6000\\text{\\AA}} \\approx 2.07\\text{ eV}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_phy_703",
+      "question": "A particle executes SHM with an amplitude $A$. At what displacement from its mean position is its kinetic energy equal to its potential energy?",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{A}{2}$",
+        "$\\frac{A}{\\sqrt{2}}$",
+        "$\\frac{A}{4}$",
+        "$\\frac{\\sqrt{3}A}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\rKE = PE \\implies \\frac{1}{2}m\\omega^2(A^2 - x^2) = \\frac{1}{2}m\\omega^2 x^2 \\implies A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "neet_phy_704",
+      "question": "An alternating voltage $V = 200\\sqrt{2} \\sin(100t)\\text{ V}$ is applied across a $100\\ \\Omega$ resistor. The RMS current through the circuit is:",
+      "imageUrl": "",
+      "options": [
+        "$2\\text{ A}$",
+        "$2\\sqrt{2}\\text{ A}$",
+        "$1\\text{ A}$",
+        "$\\sqrt{2}\\text{ A}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$V_{rms} = \\frac{V_0}{\\sqrt{2}} = \\frac{200\\sqrt{2}}{\\sqrt{2}} = 200\\text{ V}$. Current $I_{rms} = \\frac{V_{rms}}{R} = \\frac{200}{100} = 2\\text{ A}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "neet_phy_705",
+      "question": "A body of mass $2\\text{ kg}$ is dropped from a height of $10\\text{ m}$. Ignoring air resistance, its kinetic energy just before hitting the ground is ($g = 9.8\\text{ m/s}^2$):",
+      "imageUrl": "",
+      "options": [
+        "$196\\text{ J}$",
+        "$98\\text{ J}$",
+        "$392\\text{ J}$",
+        "$49\\text{ J}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By conservation of mechanical energy, final $\rKE = \\text{initial } PE = mgh = 2 \\times 9.8 \\times 10 = 196\\text{ J}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Work, Energy and Power"
+    },
+    {
+      "id": "neet_phy_706",
+      "question": "The self-inductance $L$ of a solenoid of length $l$, area of cross-section $A$, and total turns $N$ is given by:",
+      "imageUrl": "",
+      "options": [
+        "$\\mu_0 \\frac{N^2 A}{l}$",
+        "$\\mu_0 \\frac{N A}{l}$",
+        "$\\mu_0 N^2 A l$",
+        "$\\mu_0 \\frac{N A^2}{l}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Self-inductance of a solenoid is $L = \\mu_0 n^2 A l = \\mu_0 \\left(\\frac{N}{l}\\right)^2 A l = \\mu_0 \\frac{N^2 A}{l}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Electromagnetic Induction"
+    },
+    {
+      "id": "neet_phy_707",
+      "question": "The angle of minimum deviation for an equilateral glass prism is $30^\\circ$. The refractive index of the material of the prism is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{2}$",
+        "$1.5$",
+        "$\\sqrt{3}$",
+        "$1.33$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For an equilateral prism, $A = 60^\\circ$. Refractive index $\r\\mu = \\frac{\\sin\\left(\\frac{A + D_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)} = \\frac{\\sin\\left(\\frac{60^\\circ + 30^\\circ}{2}\\right)}{\\sin(30^\\circ)} = \\frac{\\sin(45^\\circ)}{\\sin(30^\\circ)} = \\frac{1/\\sqrt{2}}{1/2} = \\sqrt{2}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics and Optical Instruments"
+    },
+    {
+      "id": "neet_phy_708",
+      "question": "The radius of gyration of a uniform circular disc of mass $M$ and radius $R$ about an axis passing through its center and perpendicular to its plane is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{R}{\\sqrt{2}}$",
+        "$\\frac{R}{2}$",
+        "$\\frac{R}{\\sqrt{3}}$",
+        "$R$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moment of inertia $I = \\frac{1}{2} M R^2 = M K^2 \\implies K = \\frac{R}{\\sqrt{2}}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "System of Particles and Rotational Motion"
+    },
+    {
+      "id": "neet_chem_709",
+      "question": "Which of the following elements has the highest electronegativity on Pauling scale?",
+      "imageUrl": "",
+      "options": [
+        "Oxygen",
+        "Chlorine",
+        "Fluorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fluorine is the most electronegative element in the periodic table with a Pauling value of 4.0.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Classification of Elements and Periodicity"
+    },
+    {
+      "id": "neet_chem_710",
+      "question": "The IUPAC name of $\\text{CH}_3-\\text{CH(OH)}-\\text{CH}_2-\\text{CHO}$ is:",
+      "imageUrl": "",
+      "options": [
+        "3-hydroxybutanal",
+        "2-hydroxybutanal",
+        "3-hydroxybutan-2-one",
+        "4-hydroxybutan-2-one"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Numbering starts from the aldehyde carbon ($-\\text{CHO}$ as C1). Hydroxyl group ($-\\text{OH}$) is at C3, giving 3-hydroxybutanal.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Organic Chemistry - Basic Principles"
+    },
+    {
+      "id": "neet_chem_711",
+      "question": "The geometry and hybridization of $\\text{XeF}_4$ molecule are respectively:",
+      "imageUrl": "",
+      "options": [
+        "Square planar and $sp^3d^2$",
+        "Tetrahedral and $sp^3$",
+        "Octahedral and $sp^3d^2$",
+        "Square pyramidal and $sp^3d$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\text{XeF}_4$ has 4 bond pairs and 2 lone pairs ($sp^3d^2$ hybridization). Its molecular geometry is square planar.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_712",
+      "question": "Which of the following metal ions gives a characteristic crimson red color in the flame test?",
+      "imageUrl": "",
+      "options": [
+        "Sodium",
+        "Lithium",
+        "Calcium",
+        "Barium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lithium imparts a crimson red color to the non-luminous flame.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "s-Block Elements"
+    },
+    {
+      "id": "neet_chem_713",
+      "question": "Reaction of methyl magnesium bromide ($\rCH_3MgBr$) with formaldehyde ($\rHCHO$) followed by hydrolysis gives:",
+      "imageUrl": "",
+      "options": [
+        "Ethanol",
+        "Methanol",
+        "Propan-2-ol",
+        "Ethanal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reaction of Grignard reagent with formaldehyde produces primary alcohols. $\\text{HCHO} + \\text{CH}_3\\text{MgBr} \\xrightarrow{\\text{H}_3\\text{O}^+} \\text{CH}_3\\text{CH}_2\\text{OH}$ (ethanol).",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_chem_714",
+      "question": "What is the coordinate number of a face-centered cubic (fcc) unit cell?",
+      "imageUrl": "",
+      "options": [
+        "$6$",
+        "$8$",
+        "$12$",
+        "$4$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In an fcc or ccp lattice, each sphere touches 12 neighboring spheres (coordination number = 12).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Solid State"
+    },
+    {
+      "id": "neet_chem_715",
+      "question": "According to Le Chatelier's principle, an exothermic reversible reaction is favored in the forward direction by:",
+      "imageUrl": "",
+      "options": [
+        "Increasing temperature",
+        "Decreasing temperature",
+        "Decreasing pressure",
+        "Removing reactants"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Exothermic reactions release heat; decreasing temperature shifts equilibrium in the forward direction according to Le Chatelier's principle.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Equilibrium"
+    },
+    {
+      "id": "neet_chem_716",
+      "question": "Which polymer is commonly known as Teflon?",
+      "imageUrl": "",
+      "options": [
+        "Polytetrafluoroethylene (PTFE)",
+        "Polyacrylonitrile (PAN)",
+        "Polymethyl methacrylate (PMMA)",
+        "Polyvinyl chloride (PVC)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Teflon is the commercial name for polytetrafluoroethylene ($[\\text{CF}_2-\\text{CF}_2]_n$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Polymers"
+    },
+    {
+      "id": "neet_bot_717",
+      "question": "The functional unit of inheritance made up of DNA sequence coding for RNA or polypeptide is called:",
+      "imageUrl": "",
+      "options": [
+        "Gene",
+        "Cistron",
+        "Muton",
+        "Recon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cistron is defined as a segment of DNA coding for a polypeptide chain.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_718",
+      "question": "Which plant growth regulator is commonly used to induce ripening of fruits?",
+      "imageUrl": "",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Ethylene",
+        "Abscisic Acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening and senescence.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_bot_719",
+      "question": "During meiotic division, crossing over between non-sister chromatids occurs during:",
+      "imageUrl": "",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Crossing over occurs during the pachytene stage of prophase-I in meiosis.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_720",
+      "question": "In angiosperms, double fertilization results in the formation of:",
+      "imageUrl": "",
+      "options": [
+        "Zygote and Primary Endosperm Nucleus (PEN)",
+        "Zygote and Synergid",
+        "Endosperm and Seed Coat",
+        "Embryo sac and Antipodals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Syngamy yields a diploid zygote, and triple fusion yields a triploid primary endosperm nucleus (PEN).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "id": "neet_bot_721",
+      "question": "Which of the following ecosystems shows an inverted pyramid of biomass?",
+      "imageUrl": "",
+      "options": [
+        "Grassland ecosystem",
+        "Forest ecosystem",
+        "Pond ecosystem",
+        "Desert ecosystem"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In aquatic/pond ecosystems, biomass of standing crop of phytoplankton is small compared to zooplankton/fish, giving an inverted pyramid.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ecosystem"
+    },
+    {
+      "id": "neet_bot_722",
+      "question": "The primary cause of biodiversity loss worldwide, often called the 'Evil Quartet' chief component, is:",
+      "imageUrl": "",
+      "options": [
+        "Habitat loss and fragmentation",
+        "Over-exploitation",
+        "Alien species invasions",
+        "Co-extinctions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Habitat loss and fragmentation is the most important cause driving animals and plants to extinction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biodiversity and Conservation"
+    },
+    {
+      "id": "neet_bot_723",
+      "question": "Casparian strips present in the endodermis of roots are composed of a waterproof material called:",
+      "imageUrl": "",
+      "options": [
+        "Chitin",
+        "Suberin",
+        "Cellulose",
+        "Pectin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Casparian strips are waxy bands of suberin deposited on radial and tangential walls of endodermal cells.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Anatomy of Flowering Plants"
+    },
+    {
+      "id": "neet_bot_724",
+      "question": "Which of the following is an example of an obligate anaerobe bacterium involved in denitrification?",
+      "imageUrl": "",
+      "options": [
+        "Rhizobium",
+        "Nitrosomonas",
+        "Pseudomonas",
+        "Azotobacter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Denitrification is carried out by bacteria such as *Pseudomonas* and *Thiobacillus*.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Mineral Nutrition"
+    },
+    {
+      "id": "neet_zoo_725",
+      "question": "Which organelle is known as the 'suicide bag' of the cell due to its hydrolytic enzyme content?",
+      "imageUrl": "",
+      "options": [
+        "Lysosome",
+        "Ribosome",
+        "Golgi body",
+        "Centrosome"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lysosomes store hydrolytic enzymes capable of digesting cellular components, earning them the name 'suicide bags'.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell: The Unit of Life"
+    },
+    {
+      "id": "neet_zoo_726",
+      "question": "The volume of air inspired or expired during normal restful breathing is called:",
+      "imageUrl": "",
+      "options": [
+        "Inspiratory Reserve Volume (IRV)",
+        "Tidal Volume (TV)",
+        "Residual Volume (RV)",
+        "Expiratory Reserve Volume (ERV)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tidal volume is the volume of air inspired or expired during a normal respiration (~500 mL).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_727",
+      "question": "Which cranial nerve in humans is the longest and regulates heart rate and visceral activities?",
+      "imageUrl": "",
+      "options": [
+        "Trigeminal nerve (V)",
+        "Facial nerve (VII)",
+        "Vagus nerve (X)",
+        "Glossopharyngeal nerve (IX)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vagus nerve (Cranial nerve X) parasympathetically innervates heart, lungs, and gut.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Neural Control and Coordination"
+    },
+    {
+      "id": "neet_zoo_728",
+      "question": "In human female reproductive cycle, surge of which hormone triggers ovulation?",
+      "imageUrl": "",
+      "options": [
+        "FSH",
+        "LH",
+        "Progesterone",
+        "Prolactin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rapid secretion of LH leading to maximum level (LH surge) mid-cycle causes rupture of Graafian follicle and release of ovum.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_729",
+      "question": "Which type of immunoglobulin mediates allergic reactions in human body?",
+      "imageUrl": "",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgE",
+        "IgA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IgE antibodies are produced during allergic responses and bind to mast cells, releasing histamine.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_730",
+      "question": "The functional unit of skeletal muscle contraction located between two successive Z-lines is:",
+      "imageUrl": "",
+      "options": [
+        "Sarcomere",
+        "Sarcoplasm",
+        "Sarcolemma",
+        "Myofibril"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The portion of myofibril between two successive Z-lines is called a sarcomere, the functional unit of contraction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    },
+    {
+      "id": "neet_zoo_731",
+      "question": "Erythroblastosis fetalis can occur when an Rh-negative mother carries an Rh-positive fetus during:",
+      "imageUrl": "",
+      "options": [
+        "First pregnancy only",
+        "Subsequent Rh-positive pregnancies",
+        "Subsequent Rh-negative pregnancies",
+        "All pregnancies regardless of Rh factor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sensitization occurs during 1st delivery; antibodies crossed into fetal circulation in subsequent Rh-positive pregnancies cause erythroblastosis fetalis.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_732",
+      "question": "Gout is a disorder characterized by inflammation of joints due to accumulation of:",
+      "imageUrl": "",
+      "options": [
+        "Calcium carbonate crystals",
+        "Uric acid crystals",
+        "Urea crystals",
+        "Lactic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gout is joint inflammation resulting from deposition of monosodium urate / uric acid crystals in joints.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    }
+  ]
+}

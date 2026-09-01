@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 4",
+  "chapterslug": "neet_pt_4",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_401",
+      "question": "A particle executes simple harmonic motion (SHM) with an amplitude $A$. At what displacement from the mean position is its kinetic energy equal to its potential energy?",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{A}{2}$",
+        "$\\frac{A}{\\sqrt{2}}$",
+        "$\\frac{A}{4}$",
+        "$\\frac{\\sqrt{3}A}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kinetic Energy $KE = \\frac{1}{2}m\\omega^2(A^2 - x^2)$ and Potential Energy $PE = \\frac{1}{2}m\\omega^2 x^2$. Equating $KE = PE$ gives $A^2 - x^2 = x^2 \\implies 2x^2 = A^2 \\implies x = \\frac{A}{\\sqrt{2}}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Oscillations"
+    },
+    {
+      "id": "neet_phy_402",
+      "question": "The de Broglie wavelength of an electron accelerated through a potential difference of $V$ volts is approximately given by:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$",
+        "$\\frac{12.27}{V}\\text{ \\AA}$",
+        "$\\frac{\\sqrt{V}}{12.27}\\text{ \\AA}$",
+        "$12.27 \\times \\sqrt{V}\\text{ \\AA}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "De Broglie wavelength for an electron is $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2meV}} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_phy_403",
+      "question": "Two resistors of resistances $R_1 = 6\\ \\Omega$ and $R_2 = 3\\ \\Omega$ are connected in parallel across a $6\\text{ V}$ battery. The total current drawn from the battery is:",
+      "imageUrl": "",
+      "options": [
+        "$1\\text{ A}$",
+        "$2\\text{ A}$",
+        "$3\\text{ A}$",
+        "$0.67\\text{ A}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equivalent resistance $R_{eq} = \\frac{R_1 R_2}{R_1 + R_2} = \\frac{6 \\times 3}{6 + 3} = 2\\ \\Omega$. Total current $I = \\frac{V}{R_{eq}} = \\frac{6}{2} = 3\\text{ A}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "neet_phy_404",
+      "question": "The moment of inertia of a uniform solid sphere of mass $M$ and radius $R$ about its diameter is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{2}{5}MR^2$",
+        "$\\frac{2}{3}MR^2$",
+        "$\\frac{1}{2}MR^2$",
+        "$\\frac{7}{5}MR^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The moment of inertia of a solid sphere about an axis passing through its center (diameter) is $I = \\frac{2}{5}MR^2$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "System of Particles and Rotational Motion"
+    },
+    {
+      "id": "neet_phy_405",
+      "question": "A ray of light strikes a plane mirror at an angle of incidence of $30^\\circ$. The angle of deviation produced by the mirror is:",
+      "imageUrl": "",
+      "options": [
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$120^\\circ$",
+        "$150^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Angle of deviation for a plane mirror is given by $\\delta = 180^\\circ - 2i = 180^\\circ - 2(30^\\circ) = 120^\\circ$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics and Optical Instruments"
+    },
+    {
+      "id": "neet_phy_406",
+      "question": "A body of mass $5\\text{ kg}$ is acted upon by two perpendicular forces $6\\text{ N}$ and $8\\text{ N}$. The magnitude of acceleration of the body is:",
+      "imageUrl": "",
+      "options": [
+        "$2\\text{ m/s}^2$",
+        "$2.8\\text{ m/s}^2$",
+        "$1.4\\text{ m/s}^2$",
+        "$10\\text{ m/s}^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Net force $F_{net} = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = 10\\text{ N}$. Acceleration $a = \\frac{F_{net}}{m} = \\frac{10}{5} = 2\\text{ m/s}^2$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Laws of Motion"
+    },
+    {
+      "id": "neet_phy_407",
+      "question": "An ideal black body emits radiation at $27^\\circ\\text{C}$ at a rate $E$. If its temperature is raised to $327^\\circ\\text{C}$, the rate of radiation emission becomes:",
+      "imageUrl": "",
+      "options": [
+        "$2E$",
+        "$4E$",
+        "$8E$",
+        "$16E$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to Stefan-Boltzmann Law, $E \\propto T^4$. $T_1 = 27+273 = 300\\text{ K}$, $T_2 = 327+273 = 600\\text{ K}$. $\\frac{E_2}{E_1} = \\left(\\frac{600}{300}\\right)^4 = 2^4 = 16 \\implies E_2 = 16E$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Thermal Properties of Matter"
+    },
+    {
+      "id": "neet_phy_408",
+      "question": "The work function of a metal surface is $2.0\\text{ eV}$. The threshold frequency for photoelectric emission is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$4.83 \\times 10^{14}\\text{ Hz}$",
+        "$3.0 \\times 10^{15}\\text{ Hz}$",
+        "$6.63 \\times 10^{14}\\text{ Hz}$",
+        "$1.2 \\times 10^{15}\\text{ Hz}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Work function $\\Phi_0 = h \\nu_0 \\implies \\nu_0 = \\frac{\\Phi_0}{h} = \\frac{2.0 \\times 1.6 \\times 10^{-19}\\text{ J}}{6.63 \\times 10^{-34}\\text{ J s}} \\approx 4.83 \\times 10^{14}\\text{ Hz}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_chem_409",
+      "question": "Which of the following elements has the highest electronegativity according to the Pauling scale?",
+      "imageUrl": "",
+      "options": [
+        "Oxygen",
+        "Chlorine",
+        "Fluorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fluorine is the most electronegative element in the periodic table with a Pauling value of 4.0.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Classification of Elements and Periodicity"
+    },
+    {
+      "id": "neet_chem_410",
+      "question": "The geometry and hybridization of $\\text{XeF}_4$ molecule are respectively:",
+      "imageUrl": "",
+      "options": [
+        "Tetrahedral, $sp^3$",
+        "Square planar, $sp^3d^2$",
+        "Octahedral, $sp^3d^2$",
+        "Trigonal bipyramidal, $sp^3d$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{XeF}_4$ has 4 bond pairs and 2 lone pairs on Xe (steric number = 6). Its steric hybridization is $sp^3d^2$, and shape/geometry of atoms is square planar.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_411",
+      "question": "Which of the following primary alcohols undergoes the fastest reaction with Lucas reagent (conc. $\\text{HCl} + \\text{ZnCl}_2$)?",
+      "imageUrl": "",
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "Propan-1-ol",
+        "2-Methylpropan-2-ol"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lucas reagent reacts via $S_N1$ mechanism involving carbocation intermediate. 2-Methylpropan-2-ol is a tertiary alcohol and forms carbocation instantly, giving immediate turbidity.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_chem_412",
+      "question": "The half-life period of a first-order reaction is $69.3\\text{ minutes}$. What is the rate constant ($k$) of the reaction?",
+      "imageUrl": "",
+      "options": [
+        "$0.01\\text{ min}^{-1}$",
+        "$0.1\\text{ min}^{-1}$",
+        "$0.001\\text{ min}^{-1}$",
+        "$0.693\\text{ min}^{-1}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a first-order reaction, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{69.3} = 0.01\\text{ min}^{-1}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "neet_chem_413",
+      "question": "Aldol condensation is NOT given by which of the following compounds?",
+      "imageUrl": "",
+      "options": [
+        "Ethanal ($\\text{CH}_3\\text{CHO}$)",
+        "Propanone ($\\text{CH}_3\\text{COCH}_3$)",
+        "Benzaldehyde ($\\text{C}_6\\text{H}_5\\text{CHO}$)",
+        "Propanal ($\\text{CH}_3\\text{CH}_2\\text{CHO}$)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aldol condensation requires at least one $\\alpha$-hydrogen atom. Benzaldehyde lacks $\\alpha$-hydrogens and hence undergoes Cannizzaro reaction instead.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Aldehydes, Ketones and Carboxylic Acids"
+    },
+    {
+      "id": "neet_chem_414",
+      "question": "Which transition metal complex shows optical isomerism?",
+      "imageUrl": "",
+      "options": [
+        "cis-$[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$",
+        "trans-$[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$",
+        "$[\\text{Co}(\\text{NH}_3)_4\\text{Cl}_2]^+$",
+        "$[\\text{Ni}(\\text{CN})_4]^{2-}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "cis-$[\\text{Co}(\\text{en})_2\\text{Cl}_2]^+$ lacks a plane of symmetry and is non-superimposable on its mirror image, showing optical activity. The trans-isomer has a plane of symmetry.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Coordination Compounds"
+    },
+    {
+      "id": "neet_chem_415",
+      "question": "According to Bronsted-Lowry concept, the conjugate base of $\\text{HCO}_3^-$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{H}_2\\text{CO}_3$",
+        "$\\text{CO}_3^{2-}$",
+        "$\\text{OH}^-$",
+        "$\\text{CO}_2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Conjugate base is formed when an acid donates a proton ($H^+$). $\\text{HCO}_3^- - \\text{H}^+ = \\text{CO}_3^{2-}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "neet_chem_416",
+      "question": "The basicity order of primary, secondary, and tertiary methylamines in aqueous solution is:",
+      "imageUrl": "",
+      "options": [
+        "$(\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$",
+        "$(\\text{CH}_3)_3\\text{N} > (\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > \\text{NH}_3$",
+        "$\\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_2\\text{NH} > (\\text{CH}_3)_3\\text{N} > \\text{NH}_3$",
+        "$(\\text{CH}_3)_2\\text{NH} > (\\text{CH}_3)_3\\text{N} > \\text{CH}_3\\text{NH}_2 > \\text{NH}_3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In aqueous medium, due to inductive, steric, and solvation factors, the basicity order of methyl-substituted amines is $2^\\circ > 1^\\circ > 3^\\circ > \\text{NH}_3$ ($2130$).",
+      "difficulty": "hard",
+      "year": "NEET Level",
+      "topicTag": "Amines"
+    },
+    {
+      "id": "neet_bot_417",
+      "question": "In angiosperms, double fertilization involves:",
+      "imageUrl": "",
+      "options": [
+        "Fertilization of egg cell twice by two sperms",
+        "Syngamy and Triple fusion",
+        "Fusion of sperm with synergid and antipodal cell",
+        "Fusion of two polar nuclei with one male gamete"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Double fertilization comprises syngamy (fusion of one male gamete with egg) and triple fusion (fusion of second male gamete with two polar nuclei/diploid secondary nucleus).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "id": "neet_bot_418",
+      "question": "Which stage of meiotic division is characterized by the alignment of bivalent chromosomes on the equatorial plate?",
+      "imageUrl": "",
+      "options": [
+        "Prophase I",
+        "Metaphase I",
+        "Anaphase I",
+        "Metaphase II"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During Metaphase I of meiosis, homologous chromosome pairs (bivalents) align on the equatorial plate.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_419",
+      "question": "Which nitrogen-fixing free-living aerobic bacterium is commonly present in soil?",
+      "imageUrl": "",
+      "options": [
+        "Rhizobium",
+        "Azotobacter",
+        "Anabaena",
+        "Clostridium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Azotobacter and Beijerinckia are free-living aerobic nitrogen-fixing bacteria in soil.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Microbes in Human Welfare"
+    },
+    {
+      "id": "neet_bot_420",
+      "question": "Guttation in plants occurs due to the development of:",
+      "imageUrl": "",
+      "options": [
+        "Transpiration pull",
+        "Root pressure",
+        "Osmotic pressure",
+        "Suction pressure"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Positive root pressure created during early morning/night pushes water out through hydathodes (guttation).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Transport in Plants"
+    },
+    {
+      "id": "neet_bot_421",
+      "question": "The functional unit of inheritance made up of DNA sequence is termed a:",
+      "imageUrl": "",
+      "options": [
+        "Cistron / Gene",
+        "Codon",
+        "Intron",
+        "Exon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A gene (or cistron) is defined as a segment of DNA coding for a polypeptide or RNA molecule.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_422",
+      "question": "In C3 plants, the first stable carbon fixation product formed is:",
+      "imageUrl": "",
+      "options": [
+        "Oxaloacetic acid (OAA)",
+        "3-Phosphoglyceric acid (PGA)",
+        "Phosphoenolpyruvate (PEP)",
+        "Glucose"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Calvin cycle (C3 pathway), carboxylation of RuBP yields two molecules of 3-Phosphoglyceric acid (3-PGA).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_423",
+      "question": "The interaction between orchid growing as an epiphyte on a mango branch is an example of:",
+      "imageUrl": "",
+      "options": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Amensalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Commensalism is an interaction where one species benefits (orchid gets support) and the other is neither harmed nor benefited (mango tree).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Organisms and Populations"
+    },
+    {
+      "id": "neet_bot_424",
+      "question": "Which plant hormone is widely used to induce rapid ripening of fruits?",
+      "imageUrl": "",
+      "options": [
+        "Ethylene",
+        "Gibberellin",
+        "Cytokinin",
+        "Auxin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening and enhances respiration rate (climacteric rise).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_zoo_425",
+      "question": "Which of the following hormones is secreted by the corpus luteum after ovulation?",
+      "imageUrl": "",
+      "options": [
+        "Estrogen",
+        "Progesterone",
+        "LH",
+        "FSH"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ruptured Graafian follicle transforms into corpus luteum, which secretes large amounts of progesterone essential for maintaining endometrium.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_426",
+      "question": "The functional unit of the human kidney responsible for urine formation is:",
+      "imageUrl": "",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Alveolus",
+        "Glomerulus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nephron is the structural and functional filtration unit of the kidney.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_427",
+      "question": "Emphysema is a chronic respiratory disorder characterized by major damage to:",
+      "imageUrl": "",
+      "options": [
+        "Tracheal cartilages",
+        "Bronchial lining",
+        "Alveolar walls",
+        "Diaphragm muscles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cigarette smoking leads to destruction of alveolar walls in emphysema, reducing respiratory surface area.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_428",
+      "question": "T-cells and B-cells involved in adaptive immune responses are types of:",
+      "imageUrl": "",
+      "options": [
+        "Monocytes",
+        "Lymphocytes",
+        "Neutrophils",
+        "Eosinophils"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lymphocytes are specialized agranulocytic white blood cells responsible for adaptive (acquired) immunity.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_429",
+      "question": "Which hormone regulates the 24-hour diurnal rhythm (sleep-wake cycle) of the human body?",
+      "imageUrl": "",
+      "options": [
+        "Melatonin",
+        "Thymosin",
+        "Oxytocin",
+        "Cortisol"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Melatonin, secreted by the pineal gland, regulates sleep-wake cycles and diurnal body rhythms.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_430",
+      "question": "Which part of the alimentary canal in cockroaches serves for grinding food particles?",
+      "imageUrl": "",
+      "options": [
+        "Crop",
+        "Gizzard (Proventriculus)",
+        "Hepatic caeca",
+        "Mesenteron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The gizzard has an outer thick circular muscle layer and inner chitinous teeth used for grinding food particles.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_431",
+      "question": "The volume of air remaining in lungs even after a forcible maximal expiration is called:",
+      "imageUrl": "",
+      "options": [
+        "Tidal Volume",
+        "Expiratory Reserve Volume",
+        "Residual Volume",
+        "Vital Capacity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Residual Volume (RV) is the volume of air left in lungs after forceful expiration (~1100 mL to 1200 mL).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_432",
+      "question": "Which contraceptive method acts by blocking gamete transport in human males?",
+      "imageUrl": "",
+      "options": [
+        "Tubectomy",
+        "Vasectomy",
+        "CuT insertion",
+        "Oral contraceptive pills"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vasectomy is a surgical sterilization procedure in males where a small part of vas deferens is cut and tied to prevent sperm transport.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Reproductive Health"
+    }
+  ]
+}

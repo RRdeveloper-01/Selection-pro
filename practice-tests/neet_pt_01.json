@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 1",
+  "chapterslug": "neet_pt_1",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_101",
+      "question": "The dimensions of Planck's constant are identical to that of:",
+      "imageUrl": "",
+      "options": [
+        "Linear momentum",
+        "Angular momentum",
+        "Energy",
+        "Power"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both Planck's constant ($h$) and angular momentum ($L$) have dimensions $[M L^2 T^{-1}]$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Units and Measurements"
+    },
+    {
+      "id": "neet_phy_102",
+      "question": "A particle is projected with velocity $u$ at an angle $\\theta$ with the horizontal. The time of flight $T$ is given by:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{u\\sin\\theta}{g}$",
+        "$\\frac{2u\\sin\\theta}{g}$",
+        "$\\frac{u\\cos\\theta}{g}$",
+        "$\\frac{2u\\cos\\theta}{g}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total time of flight $T = \\frac{2u_y}{g} = \\frac{2u\\sin\\theta}{g}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Motion in a Plane"
+    },
+    {
+      "id": "neet_phy_103",
+      "question": "A wire of resistance $R$ is stretched to double its original length keeping volume constant. Its new resistance becomes:",
+      "imageUrl": "",
+      "options": [
+        "$2R$",
+        "$4R$",
+        "$R/2$",
+        "$R/4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$R = \\rho \\frac{L}{A}$. When length is doubled ($L'=2L$), area becomes $A'=A/2$, so $R' = 4R$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "neet_phy_104",
+      "question": "The magnetic field at the center of a circular coil of radius $R$ carrying current $I$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{\\mu_0 I}{2R}$",
+        "$\\frac{\\mu_0 I}{4\\pi R}$",
+        "$\\frac{\\mu_0 I}{2\\pi R}$",
+        "$\\frac{\\mu_0 I}{4R}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Standard Biot-Savart formula for the magnetic field at the center of a current loop is $B = \\frac{\\mu_0 I}{2R}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Moving Charges and Magnetism"
+    },
+    {
+      "id": "neet_phy_105",
+      "question": "The focal length of a convex lens in air is $20\\text{ cm}$. When immersed completely in water ($n_w = 4/3$), its focal length becomes ($n_g = 3/2$):",
+      "imageUrl": "",
+      "options": [
+        "$20\\text{ cm}$",
+        "$40\\text{ cm}$",
+        "$80\\text{ cm}$",
+        "$10\\text{ cm}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using Lens Maker's formula, $f_{\\text{water}} = 4 \\times f_{\\text{air}} = 4 \\times 20 = 80\\text{ cm}$.",
+      "difficulty": "hard",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics"
+    },
+    {
+      "id": "neet_phy_106",
+      "question": "The de Broglie wavelength associated with an electron accelerated through a potential difference of $V$ volts is approximately:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$",
+        "$\\frac{1.227}{\\sqrt{V}}\\text{ \\AA}$",
+        "$\\frac{122.7}{\\sqrt{V}}\\text{ \\AA}$",
+        "$\\frac{0.1227}{\\sqrt{V}}\\text{ \\AA}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\lambda = \\frac{h}{\\sqrt{2meV}} = \\frac{12.27}{\\sqrt{V}}\\text{ \\AA}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Matter and Radiation"
+    },
+    {
+      "id": "neet_phy_107",
+      "question": "A body falls freely from rest. The ratio of distances covered in the $1^{\\text{st}}$, $2^{\\text{nd}}$, and $3^{\\text{rd}}$ seconds is:",
+      "imageUrl": "",
+      "options": [
+        "$1:2:3$",
+        "$1:4:9$",
+        "$1:3:5$",
+        "$1:5:9$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Distance covered in $n^{\\text{th}}$ second $S_n \\propto (2n-1)$. Ratio for $n=1,2,3$ is $1:3:5$ (Galileo's Law of Odd Numbers).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Motion in a Straight Line"
+    },
+    {
+      "id": "neet_phy_108",
+      "question": "The half-life of a radioactive substance is $10\\text{ days}$. The time required for $75\\%$ of the substance to decay is:",
+      "imageUrl": "",
+      "options": [
+        "$10\\text{ days}$",
+        "$20\\text{ days}$",
+        "$30\\text{ days}$",
+        "$40\\text{ days}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$75\\%$ decay leaves $25\\%$ ($1/4^{\\text{th}}$) remaining, which takes $2$ half-lives $= 2 \\times 10 = 20\\text{ days}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Nuclei"
+    },
+    {
+      "id": "neet_chem_109",
+      "question": "The hybridization and shape of $\\text{SF}_6$ molecule are respectively:",
+      "imageUrl": "",
+      "options": [
+        "$sp^3d$, Trigonal bipyramidal",
+        "$sp^3d^2$, Octahedral",
+        "$d^2sp^3$, Square planar",
+        "$sp^3$, Tetrahedral"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{SF}_6$ has 6 bond pairs and 0 lone pairs on S, giving $sp^3d^2$ hybridization and octahedral geometry.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_110",
+      "question": "What is the pH of a $10^{-8}\\text{ M } \\text{HCl}$ solution at $25^\\circ\\text{C}$?",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$7$",
+        "$6.98$",
+        "$7.02$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In dilute acids, $[\\text{H}^+]$ from water ($10^{-7}\\text{ M}$) must be considered: total $[\\text{H}^+] = 1.1 \\times 10^{-7}\\text{ M}$, yielding $\\text{pH} \\approx 6.98$.",
+      "difficulty": "hard",
+      "year": "NEET Level",
+      "topicTag": "Ionic Equilibrium"
+    },
+    {
+      "id": "neet_chem_111",
+      "question": "The oxidation state of Chromium in Potassium Dichromate ($\\text{K}_2\\text{Cr}_2\\text{O}_7$) is:",
+      "imageUrl": "",
+      "options": [
+        "$+3$",
+        "$+4$",
+        "$+6$",
+        "$+7$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$2(+1) + 2(x) + 7(-2) = 0 \\implies 2x = 12 \\implies x = +6$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Redox Reactions"
+    },
+    {
+      "id": "neet_chem_112",
+      "question": "Which of the following compounds does NOT undergo Aldol condensation?",
+      "imageUrl": "",
+      "options": [
+        "Acetaldehyde",
+        "Benzaldehyde",
+        "Propananal",
+        "Acetone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benzaldehyde lacks $\\alpha$-hydrogens and therefore undergoes Cannizzaro reaction instead of Aldol condensation.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Aldehydes, Ketones and Carboxylic Acids"
+    },
+    {
+      "id": "neet_chem_113",
+      "question": "The SI unit of rate constant for a first-order chemical reaction is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{mol L}^{-1} \\text{s}^{-1}$",
+        "$\\text{L mol}^{-1} \\text{s}^{-1}$",
+        "$\\text{s}^{-1}$",
+        "$\\text{mol}^{-2} \\text{L}^2 \\text{s}^{-1}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unit of $k = (\\text{mol L}^{-1})^{1-n} \\text{s}^{-1}$. For $n=1$, unit is $\\text{s}^{-1}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "neet_chem_114",
+      "question": "The primary structure of a protein is stabilized and maintained mainly by:",
+      "imageUrl": "",
+      "options": [
+        "Hydrogen bonds",
+        "Peptide bonds",
+        "Disulfide linkages",
+        "Ionic bonds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primary structure refers to the sequence of amino acids joined linearly by covalent peptide bonds ($-\\text{CO-NH-}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "neet_chem_115",
+      "question": "Which of the following elements has the highest electronegativity according to Pauling scale?",
+      "imageUrl": "",
+      "options": [
+        "Oxygen",
+        "Chlorine",
+        "Fluorine",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fluorine is the most electronegative element in the periodic table with a value of $4.0$ on the Pauling scale.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Classification of Elements"
+    },
+    {
+      "id": "neet_chem_116",
+      "question": "According to IUPAC nomenclature, the correct name for $\\text{CH}_3\\text{-CH(OH)-CH}_2\\text{-COOH}$ is:",
+      "imageUrl": "",
+      "options": [
+        "3-hydroxybutanoic acid",
+        "2-hydroxybutanoic acid",
+        "beta-hydroxybutyric acid",
+        "4-hydroxybutanoic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Numbering starts from carboxyl carbon: $\\text{C}_1(\\text{COOH})-\\text{C}_2\\text{H}_2-\\text{C}_3\\text{H(OH)}-\\text{C}_4\\text{H}_3$. Name is 3-hydroxybutanoic acid.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Organic Chemistry - Basic Principles"
+    },
+    {
+      "id": "neet_bot_117",
+      "question": "In photorespiration (C3 plants), the cell organelles involved in sequence are:",
+      "imageUrl": "",
+      "options": [
+        "Chloroplast, Peroxisome, Mitochondria",
+        "Chloroplast, Mitochondria, Peroxisome",
+        "Peroxisome, Chloroplast, Mitochondria",
+        "Mitochondria, Peroxisome, Chloroplast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Photorespiration occurs sequentially in Chloroplast $\\rightarrow$ Peroxisome $\\rightarrow$ Mitochondria.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_118",
+      "question": "Double fertilization is a characteristic features unique to which group of plants?",
+      "imageUrl": "",
+      "options": [
+        "Gymnosperms",
+        "Pteridophytes",
+        "Angiosperms",
+        "Bryophytes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Double fertilization (syngamy + triple fusion) is unique to Angiosperms.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "id": "neet_bot_119",
+      "question": "The phenotypic ratio of a typical Mendelian dihybrid cross in $F_2$ generation is:",
+      "imageUrl": "",
+      "options": [
+        "$3:1$",
+        "$1:2:1$",
+        "$9:3:3:1$",
+        "$9:7$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mendel's dihybrid cross yields a phenotypic ratio of $9:3:3:1$ in the $F_2$ generation.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Principles of Inheritance and Variation"
+    },
+    {
+      "id": "neet_bot_120",
+      "question": "Gaseous plant hormone responsible for ripening of fruits is:",
+      "imageUrl": "",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Ethylene",
+        "Abscisic Acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethylene ($\\text{C}_2\\text{H}_4$) is a gaseous plant hormone that promotes climacteric fruit ripening.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_bot_121",
+      "question": "During which phase of mitosis do chromosomes line up along the equatorial plate?",
+      "imageUrl": "",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At Metaphase, chromosomes align at the metaphase plate (equator) attached to spindle fibers via kinetochores.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_122",
+      "question": "Which enzyme unwinds the double helical DNA structure during replication?",
+      "imageUrl": "",
+      "options": [
+        "DNA Polymerase",
+        "DNA Ligase",
+        "Helicase",
+        "Primase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Helicase breaks hydrogen bonds between nitrogenous base pairs to unwind the DNA double helix.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_123",
+      "question": "The functional unit of environment in which living organisms interact with non-living components is:",
+      "imageUrl": "",
+      "options": [
+        "Biome",
+        "Ecosystem",
+        "Community",
+        "Population"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An Ecosystem is a functional structural unit where biotic elements interact with abiotic factors.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ecosystem"
+    },
+    {
+      "id": "neet_bot_124",
+      "question": "C4 plants are ecologically adapted to hot dry climates because they avoid:",
+      "imageUrl": "",
+      "options": [
+        "Transpiration",
+        "Photorespiration",
+        "Glycolysis",
+        "Kreb's cycle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C4 plants concentrate $\\text{CO}_2$ around RuBisCO in bundle sheath cells, preventing oxygenation and avoiding photorespiration.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_zoo_125",
+      "question": "Which antibody is predominant in human colostrum providing natural passive immunity to newborn?",
+      "imageUrl": "",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgE"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IgA is secretory antibody present abundantly in colostrum (first milk).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_126",
+      "question": "Which factor causes oxygen-hemoglobin dissociation curve to shift to the RIGHT?",
+      "imageUrl": "",
+      "options": [
+        "High $pO_2$",
+        "High $pCO_2$ and High $[H^+]$",
+        "Low temperature",
+        "High pH"
+      ],
+      "correctAnswer": 1,
+      "explanation": "High $pCO_2$, low pH (high $H^+$ concentration), elevated temperature, and high 2,3-BPG cause right shift (Bohr effect), decreasing affinity.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_127",
+      "question": "The functional structural unit of the human kidney is called:",
+      "imageUrl": "",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Glomerulus",
+        "Henle's Loop"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each human kidney contains approximately 1 million nephrons, which serve as its basic structural and functional unit.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_128",
+      "question": "'Saheli', a non-steroidal once-a-week oral contraceptive pill, was developed at:",
+      "imageUrl": "",
+      "options": [
+        "AIIMS, New Delhi",
+        "CDRI, Lucknow",
+        "ICMR, New Delhi",
+        "IISC, Bangalore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Saheli was formulated by scientists at Central Drug Research Institute (CDRI) in Lucknow, India.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Reproductive Health"
+    },
+    {
+      "id": "neet_zoo_129",
+      "question": "The joint present between Atlas (C1) and Axis (C2) vertebrae in humans is a:",
+      "imageUrl": "",
+      "options": [
+        "Hinge joint",
+        "Pivot joint",
+        "Ball and Socket joint",
+        "Gliding joint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The atlanto-axial joint between atlas and axis is a pivot synovial joint allowing rotational movement of head.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Locomotion and Movement"
+    },
+    {
+      "id": "neet_zoo_130",
+      "question": "In response to low blood pressure/blood volume, Juxtaglomerular (JG) cells secrete:",
+      "imageUrl": "",
+      "options": [
+        "Aldosterone",
+        "Renin",
+        "Angiotensinogen",
+        "ANF"
+      ],
+      "correctAnswer": 1,
+      "explanation": "JG cells release the enzyme Renin, which converts angiotensinogen to angiotensin I to initiate the RAAS cascade.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_131",
+      "question": "Which hormone is master regulator of basal metabolic rate (BMR) in human body?",
+      "imageUrl": "",
+      "options": [
+        "Insulin",
+        "Thyroxine ($T_4$)",
+        "Adrenaline",
+        "Parathormone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thyroid hormones ($T_3$ and $T_4$) regulate Basal Metabolic Rate (BMR) across tissues.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_132",
+      "question": "According to Darwin, organic evolution is driven by:",
+      "imageUrl": "",
+      "options": [
+        "Inheritance of acquired characters",
+        "Natural selection acting on small, directional variations",
+        "Mutational saltations",
+        "Genetic drift alone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Darwin's theory of evolution attributes speciation to Natural Selection acting on minor, continuous variations.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Evolution"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "NEET Full Mock Test",
+  "chapter": "Practice Test 10",
+  "chapterslug": "neet_pt_10",
+  "totalQuestions": 32,
+  "questions": [
+    {
+      "id": "neet_phy_1001",
+      "question": "A uniform wire of resistance $R$ is cut into 5 equal parts. These parts are then connected in parallel. If the equivalent resistance of this combination is $R'$, then the ratio $R/R'$ is:",
+      "imageUrl": "",
+      "options": [
+        "1/25",
+        "1/5",
+        "5",
+        "25"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Each part has resistance $r = R/5$. In parallel, $1/R' = 5/r = 5/(R/5) = 25/R \\implies R' = R/25$. Thus, $R/R' = 25$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Current Electricity"
+    },
+    {
+      "id": "neet_phy_1002",
+      "question": "An ideal transformer has a primary to secondary turns ratio of $1:10$. If an alternating voltage of $220\\text{ V}$ is applied across the primary, the secondary voltage will be:",
+      "imageUrl": "",
+      "options": [
+        "$22\\text{ V}$",
+        "$2200\\text{ V}$",
+        "$110\\text{ V}$",
+        "$440\\text{ V}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transformer ratio $\\frac{V_s}{V_p} = \\frac{N_s}{N_p} \\implies \\frac{V_s}{220} = \\frac{10}{1} \\implies V_s = 2200\\text{ V}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Alternating Current"
+    },
+    {
+      "id": "neet_phy_1003",
+      "question": "The angle of dip at the magnetic poles of the Earth is:",
+      "imageUrl": "",
+      "options": [
+        "$0^\\circ$",
+        "$45^\\circ$",
+        "$90^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At the magnetic poles, the magnetic field lines are perpendicular to the surface, so the angle of dip is $90^\\circ$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Magnetism and Matter"
+    },
+    {
+      "id": "neet_phy_1004",
+      "question": "If the kinetic energy of a free particle is doubled, its de Broglie wavelength becomes:",
+      "imageUrl": "",
+      "options": [
+        "2 times",
+        "$\\sqrt{2}$ times",
+        "$1/\\sqrt{2}$ times",
+        "$1/2$ times"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\lambda = \\frac{h}{\\sqrt{2mK}}$. If $K' = 2K$, then $\\lambda' = \\frac{h}{\\sqrt{2m(2K)}} = \\frac{\\lambda}{\\sqrt{2}}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Dual Nature of Radiation and Matter"
+    },
+    {
+      "id": "neet_phy_1005",
+      "question": "A satellite is revolving around the Earth in a circular orbit of radius $r$ with velocity $v_0$. The escape velocity from the same orbit is:",
+      "imageUrl": "",
+      "options": [
+        "$v_0$",
+        "$\\sqrt{2} v_0$",
+        "$v_0 / \\sqrt{2}$",
+        "$2 v_0$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Orbital velocity $v_0 = \\sqrt{\\frac{GM}{r}}$ and escape velocity $v_e = \\sqrt{\\frac{2GM}{r}} = \\sqrt{2} v_0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Gravitation"
+    },
+    {
+      "id": "neet_phy_1006",
+      "question": "A convex lens of focal length $20\\text{ cm}$ is placed in contact with a concave lens of focal length $10\\text{ cm}$. The power of the combination is:",
+      "imageUrl": "",
+      "options": [
+        "$+5\\text{ D}$",
+        "$-5\\text{ D}$",
+        "$+10\\text{ D}$",
+        "$-10\\text{ D}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$P_1 = \\frac{100}{20} = +5\\text{ D}$, $P_2 = -\\frac{100}{10} = -10\\text{ D}$. Net power $P = P_1 + P_2 = 5 - 10 = -5\\text{ D}$.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Ray Optics and Optical Instruments"
+    },
+    {
+      "id": "neet_phy_1007",
+      "question": "The dimensions of stress are identical to those of:",
+      "imageUrl": "",
+      "options": [
+        "Force",
+        "Pressure",
+        "Energy",
+        "Strain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both stress and pressure are defined as Force per unit Area ($[M L^{-1} T^{-2}]$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Mechanical Properties of Solids"
+    },
+    {
+      "id": "neet_phy_1008",
+      "question": "The half-life of a radioactive nucleus is $20\\text{ minutes}$. What fraction of the original nucleus remains undecayed after $60\\text{ minutes}$?",
+      "imageUrl": "",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Number of half-lives $n = \\frac{t}{T_{1/2}} = \\frac{60}{20} = 3$. Remaining fraction $N/N_0 = (1/2)^3 = 1/8$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Nuclei"
+    },
+    {
+      "id": "neet_chem_1009",
+      "question": "Which of the following molecules has a non-zero dipole moment?",
+      "imageUrl": "",
+      "options": [
+        "$\\text{CO}_2$",
+        "$\\text{BF}_3$",
+        "$\\text{NH}_3$",
+        "$\\text{CCl}_4$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\text{NH}_3$ has a pyramidal geometry with a net dipole moment ($\r\\mu = 1.47\\text{ D}$), whereas others are symmetrical with $\\mu = 0$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Bonding"
+    },
+    {
+      "id": "neet_chem_1010",
+      "question": "The oxidation state of Chromium in Potassium Dichromate ($\\text{K}_2\\text{Cr}_2\\text{O}_7$) is:",
+      "imageUrl": "",
+      "options": [
+        "$+3$",
+        "$+6$",
+        "$+5$",
+        "$+4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$2(+1) + 2x + 7(-2) = 0 \\implies 2x - 12 = 0 \\implies x = +6$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "d- and f-Block Elements"
+    },
+    {
+      "id": "neet_chem_1011",
+      "question": "Which metal is purified by Mond process?",
+      "imageUrl": "",
+      "options": [
+        "Zinc",
+        "Nickel",
+        "Copper",
+        "Zirconium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mond process involves heating Nickel with carbon monoxide to form volatile nickel tetracarbonyl, which decomposes to give pure Nickel.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "General Principles of Isolation of Elements"
+    },
+    {
+      "id": "neet_chem_1012",
+      "question": "The conjugate base of $\\text{HCO}_3^-$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\text{H}_2\\text{CO}_3$",
+        "$\\text{CO}_3^{2-}$",
+        "$\\text{CO}_2$",
+        "$\\text{OH}^-$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A conjugate base is formed by removing a proton ($H^+$) from an acid. $\\text{HCO}_3^- \\rightarrow \\text{H}^+ + \\text{CO}_3^{2-}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Equilibrium"
+    },
+    {
+      "id": "neet_chem_1013",
+      "question": "Which carbohydrate is known as table sugar?",
+      "imageUrl": "",
+      "options": [
+        "Glucose",
+        "Fructose",
+        "Sucrose",
+        "Maltose"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sucrose, a disaccharide of $\\alpha$-D-glucose and $\\beta$-D-fructose, is commonly called table sugar.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Biomolecules"
+    },
+    {
+      "id": "neet_chem_1014",
+      "question": "For a first-order reaction, the half-life period ($t_{1/2}$) is related to rate constant ($k$) by:",
+      "imageUrl": "",
+      "options": [
+        "$t_{1/2} = \\frac{0.693}{k}$",
+        "$t_{1/2} = \\frac{k}{0.693}$",
+        "$t_{1/2} = \\frac{[A]_0}{2k}$",
+        "$t_{1/2} = \\frac{1}{k [A]_0}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a first-order reaction, $t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Kinetics"
+    },
+    {
+      "id": "neet_chem_1015",
+      "question": "Which polymer is formed by condensation polymerization of ethylene glycol and terephthalic acid?",
+      "imageUrl": "",
+      "options": [
+        "Nylon 6,6",
+        "Terylene (Dacron)",
+        "Bakelite",
+        "Teflon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Terylene (Dacron) is a polyester formed by condensation polymerization of ethylene glycol and terephthalic acid.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Polymers"
+    },
+    {
+      "id": "neet_chem_1016",
+      "question": "Reaction of Phenol with chloroform in presence of aqueous $\\text{NaOH}$ followed by acidification yields:",
+      "imageUrl": "",
+      "options": [
+        "Benzoic acid",
+        "Salicylaldehyde",
+        "Salicylic acid",
+        "Anisole"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This reaction is the Reimer-Tiemann reaction, which introduces an aldehyde group ($-CHO$) at ortho position relative to $-OH$ group of phenol.",
+      "difficulty": "medium",
+      "year": "NEET Level",
+      "topicTag": "Alcohols, Phenols and Ethers"
+    },
+    {
+      "id": "neet_bot_1017",
+      "question": "The site of light reaction during photosynthesis in green plant cells is:",
+      "imageUrl": "",
+      "options": [
+        "Stroma of chloroplast",
+        "Thylakoid / Grana",
+        "Outer membrane of chloroplast",
+        "Matrix of mitochondria"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Light reactions (photochemical phase) occur in the thylakoid membranes / grana of chloroplasts.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Photosynthesis in Higher Plants"
+    },
+    {
+      "id": "neet_bot_1018",
+      "question": "During which phase of mitosis do chromosomes align at the equatorial plate?",
+      "imageUrl": "",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At metaphase, all chromosomes move to the equator and align along the metaphase plate via spindle fibers.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Cell Cycle and Cell Division"
+    },
+    {
+      "id": "neet_bot_1019",
+      "question": "Which nitrogen base is present in RNA but absent in DNA?",
+      "imageUrl": "",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Thymine",
+        "Uracil"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Uracil is present in RNA instead of Thymine which is found in DNA.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Molecular Basis of Inheritance"
+    },
+    {
+      "id": "neet_bot_1020",
+      "question": "In a food chain, maximum energy is available at the level of:",
+      "imageUrl": "",
+      "options": [
+        "Primary consumers",
+        "Producers",
+        "Secondary consumers",
+        "Decomposers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Producers occupy the first trophic level and hold maximum energy according to Lindeman's 10% energy transfer rule.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Ecosystem"
+    },
+    {
+      "id": "neet_bot_1021",
+      "question": "Which plant hormone is responsible for ripening of fruits?",
+      "imageUrl": "",
+      "options": [
+        "Ethylene",
+        "Gibberellic acid",
+        "Auxin",
+        "Abscisic acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening and senescence.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Plant Growth and Development"
+    },
+    {
+      "id": "neet_bot_1022",
+      "question": "Water potential of pure water at standard temperature and pressure is taken as:",
+      "imageUrl": "",
+      "options": [
+        "Zero",
+        "100",
+        "1",
+        "Negative"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By convention, pure water at standard temperature and pressure has a water potential ($\\Psi_w$) of zero.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Transport in Plants"
+    },
+    {
+      "id": "neet_bot_1023",
+      "question": "The functional unit of inheritance made up of a specific sequence of DNA is a:",
+      "imageUrl": "",
+      "options": [
+        "Chromosome",
+        "Gene",
+        "Genome",
+        "Plasmid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A gene is the fundamental physical and functional unit of heredity.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Principles of Inheritance and Variation"
+    },
+    {
+      "id": "neet_bot_1024",
+      "question": "Pollen grains are well-preserved as fossils due to the presence of:",
+      "imageUrl": "",
+      "options": [
+        "Pectocellulose",
+        "Sporopollenin",
+        "Lignin",
+        "Suberin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The exine layer of pollen grains is made of sporopollenin, one of the most resistant organic substances known.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "id": "neet_zoo_1025",
+      "question": "The volume of air inspired or expired during a normal respiration in humans is called:",
+      "imageUrl": "",
+      "options": [
+        "Inspiratory Reserve Volume",
+        "Tidal Volume",
+        "Residual Volume",
+        "Vital Capacity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tidal Volume (TV) is the volume of air inspired or expired during normal respiration (~$500\\text{ mL}$).",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Breathing and Exchange of Gases"
+    },
+    {
+      "id": "neet_zoo_1026",
+      "question": "Which blood group is known as the universal donor in humans?",
+      "imageUrl": "",
+      "options": [
+        "AB positive",
+        "O negative",
+        "O positive",
+        "AB negative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "O negative blood lacks A, B, and Rh antigens, making it suitable for donation to any blood group.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Body Fluids and Circulation"
+    },
+    {
+      "id": "neet_zoo_1027",
+      "question": "Master endocrine gland that controls the function of other endocrine glands is:",
+      "imageUrl": "",
+      "options": [
+        "Thyroid gland",
+        "Pituitary gland",
+        "Adrenal gland",
+        "Pancreas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pituitary gland secretes tropic hormones that regulate activities of other endocrine glands.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Chemical Coordination and Integration"
+    },
+    {
+      "id": "neet_zoo_1028",
+      "question": "The structural and functional unit of human kidney is:",
+      "imageUrl": "",
+      "options": [
+        "Neuron",
+        "Nephron",
+        "Alveolus",
+        "Hepatocyte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nephron is the basic structural and functional unit responsible for urine formation in kidneys.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Excretory Products and their Elimination"
+    },
+    {
+      "id": "neet_zoo_1029",
+      "question": "Which immune cell produces antibodies in response to pathogen invasion?",
+      "imageUrl": "",
+      "options": [
+        "T-lymphocytes",
+        "B-lymphocytes",
+        "Neutrophils",
+        "Eosinophils"
+      ],
+      "correctAnswer": 1,
+      "explanation": "B-lymphocytes differentiate into plasma cells that synthesize antibodies.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Health and Disease"
+    },
+    {
+      "id": "neet_zoo_1030",
+      "question": "Which muscle type is involuntary, non-striated, and uninucleate?",
+      "imageUrl": "",
+      "options": [
+        "Skeletal muscle",
+        "Smooth muscle",
+        "Cardiac muscle",
+        "Voluntary muscle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Smooth muscles are unstriated (smooth), involuntary, and contain single central nuclei.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Structural Organisation in Animals"
+    },
+    {
+      "id": "neet_zoo_1031",
+      "question": "In human female reproductive system, fertilization usually occurs in:",
+      "imageUrl": "",
+      "options": [
+        "Ovary",
+        "Ampullary-isthmic junction of Fallopian tube",
+        "Uterus",
+        "Vagina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fertilization occurs inside the fallopian tube, specifically at the ampullary-isthmic junction.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Human Reproduction"
+    },
+    {
+      "id": "neet_zoo_1032",
+      "question": "Which disease is caused by an extra copy of chromosome 21 (Trisomy 21)?",
+      "imageUrl": "",
+      "options": [
+        "Turner's syndrome",
+        "Klinefelter's syndrome",
+        "Down's syndrome",
+        "Hemophilia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Down's syndrome is a genetic disorder caused by autosomal trisomy of chromosome 21.",
+      "difficulty": "easy",
+      "year": "NEET Level",
+      "topicTag": "Principles of Inheritance and Variation"
+    }
+  ]
+}
