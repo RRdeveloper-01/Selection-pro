@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 08",
+  "chapterslug": "ssc_chsl_pt_08",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt08_001",
+      "question": "If MONKEY is coded as 13151411525, then ORANGE will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "151811475",
+        "1518114175",
+        "1518114755",
+        "151711475"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters correspond directly to their positional values in the alphabet: O(15), R(18), A(1), N(14), G(7), E(5) -> 151811475.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt08_002",
+      "question": "Select the missing number in the given series: 4, 9, 20, 43, 90, ?",
+      "imageUrl": "",
+      "options": [
+        "180",
+        "183",
+        "185",
+        "187"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $(n \\times 2) + 1$, $(n \\times 2) + 2$, $(n \\times 2) + 3$, $(n \\times 2) + 4$... Next term = $(90 \\times 2) + 5 = 185$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt08_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nSeismograph : Earthquake :: Anemometer : ?",
+      "imageUrl": "",
+      "options": [
+        "Wind Speed",
+        "Rainfall",
+        "Atmospheric Pressure",
+        "Ocean Current"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A seismograph measures earthquake intensity; an anemometer measures wind speed.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt08_004",
+      "question": "Select the odd option among the following:",
+      "imageUrl": "",
+      "options": [
+        "Gold",
+        "Silver",
+        "Platinum",
+        "Bronze"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bronze is an alloy (copper and tin), whereas Gold, Silver, and Platinum are pure elemental metals.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt08_005",
+      "question": "In a code language, if 'WATER' is written as 'YCVGT', how will 'FIRE' be written in that code?",
+      "imageUrl": "",
+      "options": [
+        "HKTG",
+        "HKTG",
+        "HKTG",
+        "HKTG"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Every letter is shifted forward by 2 positions (+2). F+2=H, I+2=K, R+2=T, E+2=G -> HKTG.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt08_006",
+      "question": "Pointing to a man, a woman said, 'His wife is the only daughter of my father.' How is the man related to the woman?",
+      "imageUrl": "",
+      "options": [
+        "Brother",
+        "Husband",
+        "Father-in-law",
+        "Uncle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only daughter of the woman's father is the woman herself. So, the man's wife is the woman herself. The man is her husband.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_chsl_pt08_007",
+      "question": "Which of the following Fundamental Rights cannot be suspended even during a National Emergency?",
+      "imageUrl": "",
+      "options": [
+        "Article 14 and 19",
+        "Article 19 and 20",
+        "Article 20 and 21",
+        "Article 21 and 22"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Articles 20 (Protection in respect of conviction for offenses) and 21 (Protection of life and personal liberty) cannot be suspended during a National Emergency.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt08_008",
+      "question": "The famous Sun Temple at Konark was built by which king?",
+      "imageUrl": "",
+      "options": [
+        "Narasimhadeva I",
+        "Rajendra Chola",
+        "Ashoka",
+        "Kharavela"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Konark Sun Temple in Odisha was constructed by King Narasimhadeva I of the Eastern Ganga Dynasty.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Medieval History"
+    },
+    {
+      "id": "ssc_chsl_pt08_009",
+      "question": "Which is the highest peak in India (located within fully Indian-controlled territory)?",
+      "imageUrl": "",
+      "options": [
+        "Mount Everest",
+        "K2 (Godwin-Austen)",
+        "Kangchenjunga",
+        "Nanda Devi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kangchenjunga (8,586 m) in Sikkim is the highest peak in India located completely within undivided Indian territory.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt08_010",
+      "question": "Which gas is popularly known as 'Laughing Gas'?",
+      "imageUrl": "",
+      "options": [
+        "Nitrous Oxide",
+        "Nitric Oxide",
+        "Carbon Monoxide",
+        "Sulfur Dioxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrous Oxide ($N_2O$) is commonly referred to as laughing gas.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt08_011",
+      "question": "Which hormone is responsible for regulating blood sugar levels in the human body?",
+      "imageUrl": "",
+      "options": [
+        "Thyroxin",
+        "Insulin",
+        "Adrenaline",
+        "Estrogen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Insulin, produced by the pancreas, regulates glucose levels in the bloodstream.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_chsl_pt08_012",
+      "question": "The Non-Cooperation Movement was launched by Mahatma Gandhi in which year?",
+      "imageUrl": "",
+      "options": [
+        "1915",
+        "1919",
+        "1920",
+        "1930"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mahatma Gandhi launched the Non-Cooperation Movement in 1920.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt08_013",
+      "question": "If $x - \\frac{1}{x} = 4$, then find the value of $x^3 - \\frac{1}{x^3}$:",
+      "imageUrl": "",
+      "options": [
+        "52",
+        "64",
+        "76",
+        "82"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$x^3 - \\frac{1}{x^3} = \\left(x - \\frac{1}{x}\\right)^3 + 3\\left(x - \\frac{1}{x}\\right) = 4^3 + 3(4) = 64 + 12 = 76$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt08_014",
+      "question": "The ratio of the speed of two trains is 4 : 5. If the second train covers 400 km in 4 hours, what is the speed of the first train?",
+      "imageUrl": "",
+      "options": [
+        "70 km/h",
+        "75 km/h",
+        "80 km/h",
+        "85 km/h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed of 2nd train = $400 / 4 = 100\\text{ km/h}$. Since ratio = $4 : 5$, $5 \\text{ units} = 100 \\Rightarrow 1 \\text{ unit} = 20$. Speed of 1st train = $4 \\times 20 = 80\\text{ km/h}$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ratio and Speed"
+    },
+    {
+      "id": "ssc_chsl_pt08_015",
+      "question": "Find the compound interest on ₹10,000 for 2 years at 12% per annum, compounded annually:",
+      "imageUrl": "",
+      "options": [
+        "₹2,400",
+        "₹2,544",
+        "₹2,600",
+        "₹2,644"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Effective CI rate = $12 + 12 + \\frac{12 \\times 12}{100} = 25.44\\%$. CI = $10,000 \\times 25.44\\% = ₹2,544$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "ssc_chsl_pt08_016",
+      "question": "The perimeter of a rectangle is 48 cm and its length is twice its breadth. Find its area:",
+      "imageUrl": "",
+      "options": [
+        "120 cm²",
+        "128 cm²",
+        "136 cm²",
+        "144 cm²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$2(l + b) = 48 \\Rightarrow l + b = 24$. Since $l = 2b \\Rightarrow 3b = 24 \\Rightarrow b = 8\\text{ cm}, l = 16\\text{ cm}$. Area = $16 \\times 8 = 128\\text{ cm}^2$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt08_017",
+      "question": "If $\\tan \\theta + \\cot \\theta = 2$, then the value of $\\tan^5 \\theta + \\cot^5 \\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since $\\tan \\theta + \\cot \\theta = 2$, $\\tan \\theta = 1$ ($\\theta = 45^\\circ$). So $1^5 + 1^5 = 2$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt08_018",
+      "question": "A shopkeeper allows two successive discounts of 20% and 10% on an item. Find the single equivalent discount percentage:",
+      "imageUrl": "",
+      "options": [
+        "28%",
+        "30%",
+        "32%",
+        "35%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equivalent discount = $A + B - \\frac{AB}{100} = 20 + 10 - \\frac{200}{100} = 28\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt08_019",
+      "question": "The average score of 5 workers is 60. If one worker's score of 80 is excluded, what is the average score of the remaining workers?",
+      "imageUrl": "",
+      "options": [
+        "52",
+        "54",
+        "55",
+        "56"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total sum = $5 \\times 60 = 300$. Remaining sum = $300 - 80 = 220$. New average = $220 / 4 = 55$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt08_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Privilege",
+        "Privilege",
+        "Priviledge",
+        "Privelege"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Privilege' is the correct spelling.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt08_021",
+      "question": "Select the synonym of the given word: LETHARGIC",
+      "imageUrl": "",
+      "options": [
+        "Energetic",
+        "Sluggish",
+        "Active",
+        "Lively"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Lethargic' means feeling slow, sluggish, or lacking energy.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt08_022",
+      "question": "Select the antonym of the given word: HARMONY",
+      "imageUrl": "",
+      "options": [
+        "Peace",
+        "Accord",
+        "Discord",
+        "Unity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Harmony' means agreement or peace; 'Discord' is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt08_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nEach of the boys have completed their homework.",
+      "imageUrl": "",
+      "options": [
+        "Each of",
+        "the boys",
+        "have completed",
+        "their homework"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Each' takes a singular verb. The phrase 'have completed' should be corrected to 'has completed'.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt08_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To make matters worse'",
+      "imageUrl": "",
+      "options": [
+        "Add insult to injury",
+        "Hit the nail on the head",
+        "Curiosity killed the cat",
+        "Once in a blue moon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Add insult to injury' means to make an already bad situation worse.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt08_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A handwriting that cannot be read'",
+      "imageUrl": "",
+      "options": [
+        "Legible",
+        "Illegible",
+        "Incorrigible",
+        "Inaudible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Illegible' refers to handwriting or print that is unreadable or hard to read.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

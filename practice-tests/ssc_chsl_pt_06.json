@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 06",
+  "chapterslug": "ssc_chsl_pt_06",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt06_001",
+      "question": "If TIGER is coded as 2097518, then LION will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "1291514",
+        "1281514",
+        "1191514",
+        "1291415"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters are directly represented by their alphabetical position values: L(12), I(9), O(15), N(14) -> 1291514.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt06_002",
+      "question": "Select the missing number in the given series: 11, 13, 17, 23, 31, ?",
+      "imageUrl": "",
+      "options": [
+        "39",
+        "41",
+        "43",
+        "45"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The differences between successive terms are prime numbers: +2, +4, +6, +8... wait, the differences are +2, +4, +6, +8, so next is +10: 31 + 10 = 41.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt06_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nThermometer : Temperature :: Hygrometer : ?",
+      "imageUrl": "",
+      "options": [
+        "Pressure",
+        "Humidity",
+        "Density",
+        "Current"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A thermometer measures temperature; a hygrometer measures humidity.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt06_004",
+      "question": "In a certain code, '+' means '÷', '-' means '+', '×' means '-' and '÷' means '×'. Solve the following equation: 24 + 6 - 8 × 2 ÷ 3",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Replacing operations: 24 ÷ 6 + 8 - 2 × 3 = 4 + 8 - 6 = 6.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mathematical Operations"
+    },
+    {
+      "id": "ssc_chsl_pt06_005",
+      "question": "Select the odd option among the following:",
+      "imageUrl": "",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Moon",
+        "Mars"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Moon is a natural satellite, whereas Mercury, Venus, and Mars are planets.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt06_006",
+      "question": "A is B's brother. C is A's father. D is E's brother. E is B's daughter. How is D related to A?",
+      "imageUrl": "",
+      "options": [
+        "Uncle",
+        "Nephew",
+        "Son",
+        "Brother"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since E is B's daughter and D is E's brother, D is B's son. Since A is B's brother, D is A's nephew.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_chsl_pt06_007",
+      "question": "Which classical dance form belongs to the state of Tamil Nadu?",
+      "imageUrl": "",
+      "options": [
+        "Kathak",
+        "Bharatanatyam",
+        "Odissi",
+        "Manipuri"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bharatanatyam is an ancient classical dance form originating from Tamil Nadu.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Art and Culture"
+    },
+    {
+      "id": "ssc_chsl_pt06_008",
+      "question": "Who was the first Law Minister of independent India?",
+      "imageUrl": "",
+      "options": [
+        "Sardar Vallabhbhai Patel",
+        "Dr. B. R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Maulana Abul Kalam Azad"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dr. B. R. Ambedkar served as the first Law and Justice Minister of Independent India.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt06_009",
+      "question": "Which schedule of the Indian Constitution contains the list of official languages?",
+      "imageUrl": "",
+      "options": [
+        "7th Schedule",
+        "8th Schedule",
+        "9th Schedule",
+        "10th Schedule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 8th Schedule of the Indian Constitution lists the 22 official languages.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt06_010",
+      "question": "What is the chemical name of common salt?",
+      "imageUrl": "",
+      "options": [
+        "Sodium Chloride",
+        "Sodium Carbonate",
+        "Sodium Bicarbonate",
+        "Calcium Chloride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Common salt is chemically known as Sodium Chloride ($NaCl$).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt06_011",
+      "question": "Which gland in the human body is referred to as the 'Master Gland'?",
+      "imageUrl": "",
+      "options": [
+        "Thyroid Gland",
+        "Pituitary Gland",
+        "Adrenal Gland",
+        "Pancreas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Pituitary Gland is called the Master Gland as it controls functions of many other endocrine glands.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_chsl_pt06_012",
+      "question": "Which battle laid the foundation of Mughal rule in India in 1526?",
+      "imageUrl": "",
+      "options": [
+        "First Battle of Panipat",
+        "Second Battle of Panipat",
+        "Battle of Khanwa",
+        "Battle of Plassey"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Babur defeated Ibrahim Lodi in the First Battle of Panipat in 1526 to establish the Mughal Empire.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Medieval History"
+    },
+    {
+      "id": "ssc_chsl_pt06_013",
+      "question": "If $x + \\frac{1}{x} = 3$, find the value of $x^4 + \\frac{1}{x^4}$:",
+      "imageUrl": "",
+      "options": [
+        "47",
+        "49",
+        "51",
+        "53"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$x^2 + \\frac{1}{x^2} = 3^2 - 2 = 7$. Next, $x^4 + \\frac{1}{x^4} = 7^2 - 2 = 47$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt06_014",
+      "question": "The ratio of two numbers is 3 : 5 and their HCF is 12. Find their LCM:",
+      "imageUrl": "",
+      "options": [
+        "120",
+        "144",
+        "180",
+        "240"
+      ],
+      "correctAnswer": 2,
+      "explanation": "LCM = $a \\times b \\times HCF = 3 \\times 5 \\times 12 = 180$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number System"
+    },
+    {
+      "id": "ssc_chsl_pt06_015",
+      "question": "A train 200 m long is running at a speed of 54 km/h. How much time will it take to cross a standing pole?",
+      "imageUrl": "",
+      "options": [
+        "12 seconds",
+        "13.33 seconds",
+        "15 seconds",
+        "16 seconds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $54 \\times \\frac{5}{18} = 15\\text{ m/s}$. Time = $\\frac{200}{15} = \\frac{40}{3} \\approx 13.33\\text{ seconds}$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt06_016",
+      "question": "The diagonal of a cube is $6\\sqrt{3}\\text{ cm}$. What is its total surface area?",
+      "imageUrl": "",
+      "options": [
+        "144 cm²",
+        "216 cm²",
+        "288 cm²",
+        "324 cm²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diagonal = $a\\sqrt{3} = 6\\sqrt{3} \\Rightarrow a = 6\\text{ cm}$. Total Surface Area = $6a^2 = 6 \\times 36 = 216\\text{ cm}^2$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt06_017",
+      "question": "A trader marks goods 25% above cost price and allows a discount of 12% on the marked price. His profit percent is:",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "13%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Overall % change = $25 - 12 - \\frac{25 \\times 12}{100} = 13 - 3 = 10\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt06_018",
+      "question": "If $\\tan \\theta = 1$, then find the value of $\\frac{2\\sin \\theta \\cos \\theta}{\\cos^2 \\theta - \\sin^2 \\theta}$:",
+      "imageUrl": "",
+      "options": [
+        "0",
+        "1",
+        "Undefined",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If $\\tan \\theta = 1$, then $\\theta = 45^\\circ$. $\\cos^2 45^\\circ - \\sin^2 45^\\circ = 0$. Division by zero makes it undefined.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt06_019",
+      "question": "The average of 7 consecutive odd numbers is 27. What is the largest of these numbers?",
+      "imageUrl": "",
+      "options": [
+        "31",
+        "33",
+        "35",
+        "37"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For 7 consecutive odd numbers, the average is the middle (4th) number = 27. The largest (7th) number = $27 + (3 \\times 2) = 33$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt06_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Separately",
+        "Seperately",
+        "Separatly",
+        "Seperatley"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Separately' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt06_021",
+      "question": "Select the synonym of the given word: METICULOUS",
+      "imageUrl": "",
+      "options": [
+        "Careful",
+        "Careless",
+        "Sloppy",
+        "Hasty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt06_022",
+      "question": "Select the antonym of the given word: VANISH",
+      "imageUrl": "",
+      "options": [
+        "Disappear",
+        "Emerge",
+        "Fade",
+        "Evaporate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Vanish' means to disappear; 'Emerge' or appear is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt06_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nNo sooner did the bell rang than the students ran out of the class.",
+      "imageUrl": "",
+      "options": [
+        "No sooner did",
+        "the bell rang",
+        "than the students",
+        "ran out of the class"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The auxiliary verb 'did' must be followed by the base form of the main verb ('ring' instead of 'rang').",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt06_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To be extremely indecisive or unable to make a choice'",
+      "imageUrl": "",
+      "options": [
+        "Sitting on the fence",
+        "Biting off more than you can chew",
+        "A piece of cake",
+        "In the same boat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Sitting on the fence' means remaining neutral or unable to decide between two sides.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt06_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A person who hates or distrusts mankind'",
+      "imageUrl": "",
+      "options": [
+        "Misanthrope",
+        "Philanthropist",
+        "Misogynist",
+        "Optometrist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A 'Misanthrope' is a person who dislikes or avoids human society.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

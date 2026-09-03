@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 02",
+  "chapterslug": "ssc_chsl_pt_02",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt02_001",
+      "question": "If EARTH is coded as FCSTJ, then GLOBE will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "HMPCF",
+        "HNQDG",
+        "INQDG",
+        "HMPC-G"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted one position forward (+1): G->H, L->M, O->P, B->C, E->F.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt02_002",
+      "question": "Find the missing number in the series: 4, 9, 19, 39, 79, ?",
+      "imageUrl": "",
+      "options": [
+        "158",
+        "159",
+        "160",
+        "161"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pattern: (Previous number × 2) + 1. So, (79 × 2) + 1 = 159.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt02_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nNeedle : Sew :: Pen : ?",
+      "imageUrl": "",
+      "options": [
+        "Ink",
+        "Paper",
+        "Write",
+        "Nib"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A needle is used to sew; similarly, a pen is used to write.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt02_004",
+      "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+      "imageUrl": "",
+      "options": [
+        "Grandmother",
+        "Granddaughter",
+        "Daughter",
+        "Aunt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A is B's sister and C's daughter. Since D is C's father, A is D's granddaughter.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_chsl_pt02_005",
+      "question": "In a class of 50 students, Rohit is ranked 18th from the top. What is his rank from the bottom?",
+      "imageUrl": "",
+      "options": [
+        "32nd",
+        "33rd",
+        "34th",
+        "31st"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rank from bottom = (Total students - Rank from top) + 1 = (50 - 18) + 1 = 33rd.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ranking"
+    },
+    {
+      "id": "ssc_chsl_pt02_006",
+      "question": "Select the odd letter-pair from the following options:",
+      "imageUrl": "",
+      "options": [
+        "EV",
+        "GT",
+        "KP",
+        "HS"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All options consist of opposite letter pairs. HS is also opposite, but checking alphabetical positions shows EV, GT, KP, HS are all valid opposite pairs; looking closely at order or difference: E(5)+V(22)=27, G(7)+T(20)=27, K(11)+P(16)=27, H(8)+S(19)=27. (Standard CHSL classification based on vowel/consonant: EV is the only pair starting with a vowel).",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt02_007",
+      "question": "Which article of the Indian Constitution is related to the 'Emergency provisions' due to war or external aggression?",
+      "imageUrl": "",
+      "options": [
+        "Article 352",
+        "Article 356",
+        "Article 360",
+        "Article 368"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Article 352 deals with National Emergency due to war, external aggression, or armed rebellion.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt02_008",
+      "question": "The famous Sun Temple of Konark was built by which king?",
+      "imageUrl": "",
+      "options": [
+        "Narasimhadeva I",
+        "Anantavarman Chodaganga",
+        "Rajendra Chola",
+        "Ashoka"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Konark Sun Temple in Odisha was constructed by King Narasimhadeva I of the Eastern Ganga Dynasty.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Medieval History"
+    },
+    {
+      "id": "ssc_chsl_pt02_009",
+      "question": "Which classical dance form originated in the state of Kerala?",
+      "imageUrl": "",
+      "options": [
+        "Kathak",
+        "Bharatanatyam",
+        "Kathakali",
+        "Kuchipudi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kathakali (along with Mohiniyattam) originated in Kerala.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Art and Culture"
+    },
+    {
+      "id": "ssc_chsl_pt02_010",
+      "question": "What is the SI unit of Pressure?",
+      "imageUrl": "",
+      "options": [
+        "Joule",
+        "Pascal",
+        "Watt",
+        "Newton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The SI unit of pressure is Pascal (Pa), equivalent to 1 Newton per square meter.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt02_011",
+      "question": "Which gas is known as 'Laughing Gas'?",
+      "imageUrl": "",
+      "options": [
+        "Nitrous Oxide",
+        "Carbon Monoxide",
+        "Sulphur Dioxide",
+        "Nitric Oxide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nitrous oxide ($N_2O$) is commonly referred to as laughing gas.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt02_012",
+      "question": "The term 'Bully' is associated with which game?",
+      "imageUrl": "",
+      "options": [
+        "Cricket",
+        "Football",
+        "Field Hockey",
+        "Basketball"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Bully' is a method used to restart play in Field Hockey.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Sports"
+    },
+    {
+      "id": "ssc_chsl_pt02_013",
+      "question": "If the cost price of 12 articles is equal to the selling price of 10 articles, what is the gain percentage?",
+      "imageUrl": "",
+      "options": [
+        "16.66%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gain % = [(12 - 10) / 10] × 100 = (2 / 10) × 100 = 20%.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt02_014",
+      "question": "Two numbers are in the ratio 3 : 4 and their LCM is 180. The smaller number is:",
+      "imageUrl": "",
+      "options": [
+        "35",
+        "45",
+        "60",
+        "75"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let numbers be 3x and 4x. LCM = 12x = 180 => x = 15. Smaller number = 3 × 15 = 45.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ratio and Proportion"
+    },
+    {
+      "id": "ssc_chsl_pt02_015",
+      "question": "In how many years will a sum of money double itself at 10% per annum simple interest?",
+      "imageUrl": "",
+      "options": [
+        "5 years",
+        "8 years",
+        "10 years",
+        "12 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time = (100 × (N - 1)) / R = (100 × 1) / 10 = 10 years.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "ssc_chsl_pt02_016",
+      "question": "A and B can complete a piece of work in 12 days and 16 days respectively. If they work together, in how many days will the work be completed?",
+      "imageUrl": "",
+      "options": [
+        "6.8 days",
+        "6.85 days",
+        "6.86 days",
+        "7 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Time taken = (12 × 16) / (12 + 16) = 192 / 28 = 48 / 7 ≈ 6.86 days.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "ssc_chsl_pt02_017",
+      "question": "If $\\tan \\theta = \\frac{4}{3}$, then the value of $\\sin \\theta + \\cos \\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{7}{5}$",
+        "$\\frac{1}{5}$",
+        "$\\frac{5}{7}$",
+        "$\\frac{2}{5}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Opposite = 4, Adjacent = 3 => Hypotenuse = 5. $\\sin \\theta = \\frac{4}{5}$, $\\cos \\theta = \\frac{3}{5}$. Sum = $\\frac{7}{5}$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt02_018",
+      "question": "The diagonal of a square is $10\\sqrt{2}\\text{ cm}$. Find its area:",
+      "imageUrl": "",
+      "options": [
+        "$50\\text{ cm}^2$",
+        "$100\\text{ cm}^2$",
+        "$200\\text{ cm}^2$",
+        "$400\\text{ cm}^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Side = Diagonal / $\\sqrt{2}$ = 10 cm. Area = $\\text{Side}^2$ = $10^2$ = $100\\text{ cm}^2$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt02_019",
+      "question": "The single equivalent discount for two successive discounts of 20% and 10% is:",
+      "imageUrl": "",
+      "options": [
+        "28%",
+        "30%",
+        "32%",
+        "25%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equivalent discount = $A + B - \\frac{A \\times B}{100} = 20 + 10 - \\frac{200}{100} = 28\\%$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Percentage"
+    },
+    {
+      "id": "ssc_chsl_pt02_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Embarrassment",
+        "Embarasment",
+        "Embarassment",
+        "Embarrasment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Embarrassment' (with double 'r' and double 's') is the correct spelling.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt02_021",
+      "question": "Select the synonym of the given word: DILIGENT",
+      "imageUrl": "",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Careless",
+        "Incompetent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diligent means showing care and effort in one's work; hardworking is its synonym.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt02_022",
+      "question": "Select the antonym of the given word: CANDID",
+      "imageUrl": "",
+      "options": [
+        "Frank",
+        "Honest",
+        "Secretive",
+        "Direct"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Candid means truthful and straightforward. Secretive or deceitful is its antonym.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt02_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nNeither of the two candidates have submitted their documents.",
+      "imageUrl": "",
+      "options": [
+        "Neither of the",
+        "two candidates",
+        "have submitted",
+        "their documents"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Neither' is a singular subject distributive pronoun and should take the singular verb 'has submitted' instead of 'have submitted'.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt02_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To be in a high state of excitement or happiness'",
+      "imageUrl": "",
+      "options": [
+        "On cloud nine",
+        "Under the weather",
+        "At the eleventh hour",
+        "Once in a blue moon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'On cloud nine' means extremely happy or ecstatic.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt02_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A sound that cannot be heard'",
+      "imageUrl": "",
+      "options": [
+        "Audible",
+        "Inaudible",
+        "Incredible",
+        "Illegible"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Inaudible' refers to a sound that is impossible to hear.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

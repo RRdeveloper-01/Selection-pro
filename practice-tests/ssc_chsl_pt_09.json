@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 09",
+  "chapterslug": "ssc_chsl_pt_09",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt09_001",
+      "question": "If FLOWER is coded as 6121523518, then GARDEN will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "71184514",
+        "711841514",
+        "71174514",
+        "71185514"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters correspond directly to their alphabetical positions: G(7), A(1), R(18), D(4), E(5), N(14) -> 71184514.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt09_002",
+      "question": "Select the missing number in the given series: 7, 14, 28, 56, 112, ?",
+      "imageUrl": "",
+      "options": [
+        "210",
+        "224",
+        "236",
+        "248"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each number is multiplied by 2 ($n \\times 2$). Next term = $112 \\times 2 = 224$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt09_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nCardiology : Heart :: Dermatology : ?",
+      "imageUrl": "",
+      "options": [
+        "Lungs",
+        "Bones",
+        "Skin",
+        "Brain"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cardiology is the study of the heart; Dermatology is the study of the skin.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt09_004",
+      "question": "Select the odd pair from the following:",
+      "imageUrl": "",
+      "options": [
+        "Dog : Bark",
+        "Cat : Meow",
+        "Lion : Roar",
+        "Horse : Neighing"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The noun form of the sound is used in the first three ('Bark', 'Meow', 'Roar'), whereas 'Neighing' is in the continuous participle form instead of 'Neigh'.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt09_005",
+      "question": "Pointing to a photograph, a woman says, 'He is the son of the only daughter of my father.' How is the man in the photograph related to the woman?",
+      "imageUrl": "",
+      "options": [
+        "Brother",
+        "Son",
+        "Nephew",
+        "Father"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The only daughter of the woman's father is the woman herself. Thus, the man in the photograph is her son.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_chsl_pt09_006",
+      "question": "Statements:\nI. All apples are fruits.\nII. Some fruits are sweet.\nConclusions:\n1. All apples are sweet.\n2. Some sweet things are fruits.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion 1 follows",
+        "Only conclusion 2 follows",
+        "Neither conclusion follows",
+        "Both conclusions follow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statement II ('Some fruits are sweet') converts directly to 'Some sweet things are fruits'. Conclusion 1 does not necessarily follow.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "ssc_chsl_pt09_007",
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "imageUrl": "",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Altimeter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A barometer is used to measure atmospheric pressure.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt09_008",
+      "question": "Who was the first Vice-President of independent India?",
+      "imageUrl": "",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Dr. S. Radhakrishnan",
+        "V. V. Giri",
+        "Zakir Husain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dr. Sarvepalli Radhakrishnan served as the first Vice-President of India from 1952 to 1962.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt09_009",
+      "question": "Which fundamental constitutional right was omitted by the 44th Amendment Act, 1978?",
+      "imageUrl": "",
+      "options": [
+        "Right to Property",
+        "Right to Freedom",
+        "Right to Equality",
+        "Right against Exploitation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 44th Amendment Act removed the Right to Property from fundamental rights and made it a legal right under Article 300A.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt09_010",
+      "question": "In which state is the famous Sun Temple of Modhera situated?",
+      "imageUrl": "",
+      "options": [
+        "Odisha",
+        "Gujarat",
+        "Rajasthan",
+        "Madhya Pradesh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Modhera Sun Temple is situated in the Mehsana district of Gujarat.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Art and Culture"
+    },
+    {
+      "id": "ssc_chsl_pt09_011",
+      "question": "What is the capital city of Australia?",
+      "imageUrl": "",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Perth"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Canberra is the capital city of Australia.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt09_012",
+      "question": "Which element is added to natural rubber in the process of vulcanization?",
+      "imageUrl": "",
+      "options": [
+        "Carbon",
+        "Sulfur",
+        "Phosphorus",
+        "Silicon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sulfur is added during vulcanization to improve the elasticity and strength of rubber.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt09_013",
+      "question": "If $x + \\frac{1}{x} = 6$, find the value of $x^2 + \\frac{1}{x^2}$:",
+      "imageUrl": "",
+      "options": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$x^2 + \\frac{1}{x^2} = \\left(x + \\frac{1}{x}\\right)^2 - 2 = 6^2 - 2 = 36 - 2 = 34$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt09_014",
+      "question": "Two numbers are in the ratio 4 : 5. If their HCF is 8, find their LCM:",
+      "imageUrl": "",
+      "options": [
+        "120",
+        "140",
+        "160",
+        "180"
+      ],
+      "correctAnswer": 2,
+      "explanation": "LCM = $a \\times b \\times \\text{HCF} = 4 \\times 5 \\times 8 = 160$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number System"
+    },
+    {
+      "id": "ssc_chsl_pt09_015",
+      "question": "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?",
+      "imageUrl": "",
+      "options": [
+        "10%",
+        "12%",
+        "12.5%",
+        "15%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If Principal = $P$, Interest = $P$ in 8 years. Rate = $\\frac{100}{8} = 12.5\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "ssc_chsl_pt09_016",
+      "question": "The diameter of a sphere is 14 cm. Find its surface area ($\n\\pi = \\frac{22}{7}$):",
+      "imageUrl": "",
+      "options": [
+        "576 cm²",
+        "616 cm²",
+        "654 cm²",
+        "720 cm²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radius $r = 7\\text{ cm}$. Surface area = $4\\pi r^2 = 4 \\times \\frac{22}{7} \\times 49 = 616\\text{ cm}^2$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt09_017",
+      "question": "A motorboat travels at 15 km/h in still water. If the speed of the current is 3 km/h, find the time taken to travel 36 km downstream:",
+      "imageUrl": "",
+      "options": [
+        "1.5 hours",
+        "2 hours",
+        "2.5 hours",
+        "3 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Downstream speed = $15 + 3 = 18\\text{ km/h}$. Time taken = $\\frac{36}{18} = 2\\text{ hours}$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt09_018",
+      "question": "If $\\sec \\theta + \\tan \\theta = 3$, then the value of $\\sec \\theta - \\tan \\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "1/3",
+        "1/2",
+        "3",
+        "2/3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since $\\sec^2 \\theta - \\tan^2 \\theta = 1$, $(\\sec \\theta + \\tan \\theta)(\\sec \\theta - \\tan \\theta) = 1$. Thus, $\\sec \\theta - \\tan \\theta = 1/3$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt09_019",
+      "question": "A shopkeeper sells a product for ₹540 after giving a discount of 10%. Find the marked price of the product:",
+      "imageUrl": "",
+      "options": [
+        "₹580",
+        "₹600",
+        "₹620",
+        "₹650"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Marked Price = $\\frac{540}{0.90} = ₹600$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt09_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Nessasary",
+        "Necessary",
+        "Necassary",
+        "Neccessary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Necessary' (single 'c', double 's') is the correct spelling.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt09_021",
+      "question": "Select the synonym of the given word: BENEVOLENT",
+      "imageUrl": "",
+      "options": [
+        "Kind",
+        "Cruel",
+        "Malevolent",
+        "Selfish"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Benevolent' means well-meaning and kindly; 'Kind' is synonymous.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt09_022",
+      "question": "Select the antonym of the given word: ARROGANT",
+      "imageUrl": "",
+      "options": [
+        "Humble",
+        "Proud",
+        "Haughty",
+        "Insolent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arrogant' means having an exaggerated sense of one's importance; 'Humble' is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt09_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nScarcely had I reached the station than the train left.",
+      "imageUrl": "",
+      "options": [
+        "Scarcely had I",
+        "reached the station",
+        "than the train",
+        "left"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Scarcely' must be paired with 'when' instead of 'than'. 'No sooner' takes 'than'.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt09_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To be in high spirits'",
+      "imageUrl": "",
+      "options": [
+        "On cloud nine",
+        "Under the weather",
+        "At sea",
+        "Down in the dumps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'On cloud nine' means extremely happy or in high spirits.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt09_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A life history of a person written by himself'",
+      "imageUrl": "",
+      "options": [
+        "Biography",
+        "Autobiography",
+        "Bibliography",
+        "Memoir"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An 'Autobiography' is an account of a person's life written by that person.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 03",
+  "chapterslug": "ssc_chsl_pt_03",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt03_001",
+      "question": "If CLOCK is coded as 31215311, then WATCH will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "2312038",
+        "2311938",
+        "2212038",
+        "2312048"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters are replaced directly by their positional values in the alphabet: W(23), A(1), T(20), C(3), H(8) -> 2312038.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt03_002",
+      "question": "Select the missing number in the series: 3, 5, 9, 17, 33, ?",
+      "imageUrl": "",
+      "options": [
+        "65",
+        "60",
+        "63",
+        "67"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The differences between adjacent terms are +2, +4, +8, +16. The next difference is +32, so 33 + 32 = 65.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt03_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nDoctor : Stethoscope :: Sculptor : ?",
+      "imageUrl": "",
+      "options": [
+        "Anvil",
+        "Chisel",
+        "Pen",
+        "Brush"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A stethoscope is the primary tool used by a doctor; similarly, a chisel is used by a sculptor.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt03_004",
+      "question": "If '+' means '-', '-' means '×', '×' means '÷', and '÷' means '+', then evaluate the expression: 15 - 3 + 10 × 2 ÷ 5",
+      "imageUrl": "",
+      "options": [
+        "40",
+        "45",
+        "42",
+        "38"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Replacing operators: 15 × 3 - 10 ÷ 2 + 5 = 45 - 5 + 5 = 40.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mathematical Operations"
+    },
+    {
+      "id": "ssc_chsl_pt03_005",
+      "question": "Find the odd number-pair from the following options:",
+      "imageUrl": "",
+      "options": [
+        "12 : 144",
+        "13 : 169",
+        "15 : 225",
+        "14 : 198"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In all other pairs, the second number is the exact square of the first number ($14^2 = 196$, not 198).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt03_006",
+      "question": "Arrange the following words in a logical and meaningful order:\n1. Seed  2. Plant  3. Fruit  4. Tree  5. Flower",
+      "imageUrl": "",
+      "options": [
+        "1, 2, 4, 5, 3",
+        "1, 2, 3, 4, 5",
+        "2, 1, 4, 5, 3",
+        "1, 4, 2, 5, 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical growth order: Seed -> Plant -> Tree -> Flower -> Fruit.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Logical Order of Words"
+    },
+    {
+      "id": "ssc_chsl_pt03_007",
+      "question": "Who among the following was the author of 'Indika'?",
+      "imageUrl": "",
+      "options": [
+        "Megasthenes",
+        "Kautilya",
+        "Fa-Hien",
+        "Hiuen Tsang"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Megasthenes, an ambassador sent by Seleucus I Nicator to Chandragupta Maurya's court, wrote 'Indika'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ancient History"
+    },
+    {
+      "id": "ssc_chsl_pt03_008",
+      "question": "Which article of the Indian Constitution grants powers to the President to grant pardons?",
+      "imageUrl": "",
+      "options": [
+        "Article 61",
+        "Article 72",
+        "Article 74",
+        "Article 123"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Article 72 empowers the President of India to grant pardons, reprieves, respites, or remissions of punishment.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt03_009",
+      "question": "Which planet in our solar system is known as the 'Red Planet'?",
+      "imageUrl": "",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mars is known as the Red Planet due to the iron oxide present on its surface.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt03_010",
+      "question": "Which blood group is universally designated as the universal donor?",
+      "imageUrl": "",
+      "options": [
+        "AB positive",
+        "O negative",
+        "O positive",
+        "AB negative"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Blood group O negative contains no A, B, or Rh antigens, making it safe for transfusion to all recipients.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_chsl_pt03_011",
+      "question": "Who is known as the 'Father of Indian Renaissance'?",
+      "imageUrl": "",
+      "options": [
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Rabindranath Tagore",
+        "Dadabhai Naoroji"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raja Ram Mohan Roy is considered the Father of Indian Renaissance due to his efforts against social evils.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt03_012",
+      "question": "The term 'Dunk' or 'Slam Dunk' is associated with which sport?",
+      "imageUrl": "",
+      "options": [
+        "Volleyball",
+        "Basketball",
+        "Tennis",
+        "Badminton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A slam dunk is a type of basketball shot executed by leaping high and forcing the ball through the basket.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Sports"
+    },
+    {
+      "id": "ssc_chsl_pt03_013",
+      "question": "The average age of 6 members of a family is 25 years. If the age of the youngest member is 5 years, what was the average age of the family at the time of the birth of the youngest member?",
+      "imageUrl": "",
+      "options": [
+        "20 years",
+        "22 years",
+        "24 years",
+        "26 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of current ages = 6 × 25 = 150 years. Total reduction 5 years ago for 6 members = 30 years. Sum of ages at birth = 120. Average among remaining 5 members = 120 / 5 = 24 years.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt03_014",
+      "question": "If $\\sin \\theta = \\frac{3}{5}$, then the value of $\\cos \\theta + \\tan \\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{31}{20}$",
+        "$\\frac{29}{20}$",
+        "$\\frac{7}{5}$",
+        "$\\frac{8}{5}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For $\\sin \\theta = \\frac{3}{5}$, adjacent side = 4. Thus $\\cos \\theta = \\frac{4}{5}$ and $\\tan \\theta = \\frac{3}{4}$. Sum = $\\frac{4}{5} + \\frac{3}{4} = \\frac{16 + 15}{20} = \\frac{31}{20}$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt03_015",
+      "question": "A train running at a speed of 72 km/h crosses a platform 200 m long in 22 seconds. What is the length of the train?",
+      "imageUrl": "",
+      "options": [
+        "220 m",
+        "240 m",
+        "250 m",
+        "280 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $72 \\times \\frac{5}{18} = 20\\text{ m/s}$. Distance = Speed × Time = $20 \\times 22 = 440\\text{ m}$. Length of train = $440 - 200 = 240\\text{ m}$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt03_016",
+      "question": "Find the compound interest on ₹10,000 at 10% per annum for 2 years, compounded annually:",
+      "imageUrl": "",
+      "options": [
+        "₹2,000",
+        "₹2,100",
+        "₹2,200",
+        "₹2,250"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amount = $10000 \\times (1.1)^2 = ₹12,100$. CI = $12100 - 10000 = ₹2,100$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "ssc_chsl_pt03_017",
+      "question": "If $x + \\frac{1}{x} = 4$, then find the value of $x^2 + \\frac{1}{x^2}$:",
+      "imageUrl": "",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$x^2 + \\frac{1}{x^2} = \\left(x + \\frac{1}{x}\\right)^2 - 2 = 4^2 - 2 = 14$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt03_018",
+      "question": "The ratio of two numbers is 5 : 7. If 6 is added to each number, the ratio becomes 3 : 4. Find the numbers:",
+      "imageUrl": "",
+      "options": [
+        "30 and 42",
+        "25 and 35",
+        "20 and 28",
+        "15 and 21"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Let numbers be $5x$ and $7x$. $\\frac{5x+6}{7x+6} = \\frac{3}{4} \\Rightarrow 20x + 24 = 21x + 18 \\Rightarrow x = 6$. Numbers are $5(6)=30$ and $7(6)=42$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ratio and Proportion"
+    },
+    {
+      "id": "ssc_chsl_pt03_019",
+      "question": "The diameter of a circle is 28 cm. Find its area ($\n\\pi = \\frac{22}{7}$):",
+      "imageUrl": "",
+      "options": [
+        "$616\\text{ cm}^2$",
+        "$308\\text{ cm}^2$",
+        "$154\\text{ cm}^2$",
+        "$1232\\text{ cm}^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radius = 14 cm. Area = $\\pi r^2 = \\frac{22}{7} \\times 14 \\times 14 = 616\\text{ cm}^2$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt03_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Accomodate",
+        "Acommodate",
+        "Accommodate",
+        "Acomodate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Accommodate' (with double 'c' and double 'm') is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt03_021",
+      "question": "Select the synonym of the given word: AUDACIOUS",
+      "imageUrl": "",
+      "options": [
+        "Bold",
+        "Timid",
+        "Polite",
+        "Cautious"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Audacious' means showing a willingness to take surprisingly bold risks.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt03_022",
+      "question": "Select the antonym of the given word: OBSCURE",
+      "imageUrl": "",
+      "options": [
+        "Vague",
+        "Clear",
+        "Dim",
+        "Hidden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Obscure' means uncertain or difficult to see; 'Clear' is its direct opposite.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt03_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nEach of the girls have performed remarkably well on stage.",
+      "imageUrl": "",
+      "options": [
+        "Each of the girls",
+        "have performed",
+        "remarkably well",
+        "on stage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distributive pronoun 'Each' requires a singular verb: 'has performed' instead of 'have performed'.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt03_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To make a bad situation worse'",
+      "imageUrl": "",
+      "options": [
+        "Add fuel to the fire",
+        "Burn bridges",
+        "Break the ice",
+        "Hit the nail on the head"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Add fuel to the fire' means doing or saying something that makes an already difficult situation worse.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt03_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A life history of a person written by himself'",
+      "imageUrl": "",
+      "options": [
+        "Biography",
+        "Autobiography",
+        "Bibliography",
+        "Calligraphy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An account of a person's life written by that person is called an 'Autobiography'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

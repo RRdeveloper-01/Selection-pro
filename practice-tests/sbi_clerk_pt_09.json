@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 09",
+  "chapterslug": "sbi_clerk_pt_09",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt09_001",
+      "question": "Statements:\nAll Apples are Mangoes.\nSome Mangoes are Bananas.\n\nConclusions:\nI. Some Bananas are Mangoes.\nII. Some Apples are Bananas.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since Some Mangoes are Bananas, it directly follows that Some Bananas are Mangoes (Conclusion I follows). There is no definite relationship given between Apples and Bananas, so Conclusion II does not follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt09_002",
+      "question": "Statements: C ≥ D > E = F ≤ G < H\nConclusions:\nI. C > F\nII. E < H",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From C ≥ D > E = F, we get C > F (Conclusion I follows). From E = F ≤ G < H, we get E < H (Conclusion II follows). Both conclusions follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt09_003",
+      "question": "In a certain code language, 'STATION' is written as 'TUBUJPO'. How is 'HARBOUR' written in that language?",
+      "imageUrl": "",
+      "options": [
+        "IBSCPVS",
+        "IBSCPVS",
+        "IBSCQU S",
+        "IBSCPUR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1: H+1=I, A+1=B, R+1=S, B+1=C, O+1=P, U+1=V, R+1=S -> IBSCPVS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt09_004",
+      "question": "Statements: Only a few Reds are Blues. All Blues are Greens.\nConclusions:\nI. Some Reds are Greens.\nII. All Reds can never be Blues.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The portion of Reds that are Blues must also be Greens, so Some Reds are Greens (Conclusion I follows). 'Only a few Reds are Blues' means All Reds can never be Blues (Conclusion II follows).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt09_005",
+      "question": "A person moves 8 km East, turns North and travels 6 km. What is the shortest distance between his starting point and ending point?",
+      "imageUrl": "",
+      "options": [
+        "10 km",
+        "12 km",
+        "14 km",
+        "16 km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Pythagoras theorem: Shortest distance = $\\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10\\text{ km}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt09_006",
+      "question": "In a row of 35 students facing North, M is 12th from the left end and N is 14th from the right end. How many students sit between M and N?",
+      "imageUrl": "",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions from ends = $12 + 14 = 26$. Since $26 < 35$, there is no overlap. Students between = $35 - 26 = 9$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt09_007",
+      "question": "A is the father of B. C is the mother of A. How is C related to B?",
+      "imageUrl": "",
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Aunt",
+        "Sister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C is the mother of B's father (A), so C is the paternal grandmother of B.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt09_008",
+      "question": "How many such pairs of letters are there in the word 'SYSTEM' each of which has as many letters between them as in the English alphabet (in both directions)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letter positions: S(19), Y(25), S(19), T(20), E(5), M(13).\nForward: (S, T) -> S(19) and T(20) are consecutive letters in the alphabet. Total pairs = 1.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt09_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$240 \\div 12 + 25 \\times 3 - 35 = ?$",
+      "imageUrl": "",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using BODMAS:\n$240 \\div 12 = 20$\n$25 \\times 3 = 75$\n$20 + 75 - 35 = 60$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt09_010",
+      "question": "Find the missing number in the series: 4, 9, 19, 39, 79, ?",
+      "imageUrl": "",
+      "options": [
+        "149",
+        "154",
+        "159",
+        "164"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2 + 1$.\n$4 \\times 2 + 1 = 9$\n$9 \\times 2 + 1 = 19$\n$19 \\times 2 + 1 = 39$\n$39 \\times 2 + 1 = 79$\n$? = 79 \\times 2 + 1 = 159$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt09_011",
+      "question": "A shopkeeper marks an article 40% above cost price and allows a discount of 15%. What is his profit percentage?",
+      "imageUrl": "",
+      "options": [
+        "16%",
+        "19%",
+        "22%",
+        "25%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Profit % = $40 - 15 - \\frac{40 \\times 15}{100} = 25 - 6 = 19\\%$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt09_012",
+      "question": "A sum of ₹8,000 becomes ₹9,600 in 2 years at simple interest. Find the rate of interest per annum:",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interest earned = $9600 - 8000 = ₹1,600$.\n$SI = \\frac{P \\times R \\times T}{100} \\Rightarrow 1600 = \\frac{8000 \\times R \\times 2}{100} \\Rightarrow 1600 = 160R \\Rightarrow R = 10\\%$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "sbi_clerk_pt09_013",
+      "question": "A and B together can finish a work in 10 days. A alone can complete it in 15 days. How many days will B take to complete it alone?",
+      "imageUrl": "",
+      "options": [
+        "20 days",
+        "25 days",
+        "30 days",
+        "35 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "B's 1-day work = $\\frac{1}{10} - \\frac{1}{15} = \\frac{3 - 2}{30} = \\frac{1}{30}$.\nTime taken by B alone = 30 days.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt09_014",
+      "question": "The ages of A and B are in the ratio 3 : 4. Five years hence, the sum of their ages will be 52 years. Find the present age of B:",
+      "imageUrl": "",
+      "options": [
+        "18 years",
+        "21 years",
+        "24 years",
+        "28 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Present sum of ages = $52 - 5 - 5 = 42\\text{ years}$. Ratio = $3 : 4$.\nPresent age of B = $\\frac{4}{7} \\times 42 = 24\\text{ years}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt09_015",
+      "question": "A train 180 meters long is traveling at a speed of 72 km/h. How long will it take to pass a telegraph pole?",
+      "imageUrl": "",
+      "options": [
+        "7 seconds",
+        "8 seconds",
+        "9 seconds",
+        "10 seconds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed = $72 \\times \\frac{5}{18} = 20\\text{ m/s}$.\nTime = $\\frac{\\text{Length}}{\\text{Speed}} = \\frac{180}{20} = 9\\text{ seconds}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt09_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 9x + 20 = 0$\n$y^2 - 13y + 42 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-4)(x-5) = 0 \\Rightarrow x = 4, 5$.\nFor $y$: $(y-6)(y-7) = 0 \\Rightarrow y = 6, 7$.\nSince $x$ values (4, 5) are strictly smaller than $y$ values (6, 7), $x < y$ (which implies $x \\le y$).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt09_017",
+      "question": "The average of 8 numbers is 18. If a new number 36 is added to the set, what is the new average?",
+      "imageUrl": "",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sum of 8 numbers = $8 \\times 18 = 144$.\nNew total sum = $144 + 36 = 180$.\nNew average = $\\frac{180}{9} = 20$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt09_018",
+      "question": "Find the grammatical error in the given sentence:\nNeither the teacher nor the students (A) / was present (B) / in the classroom yesterday. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "Neither the teacher nor the students",
+        "was present",
+        "in the classroom yesterday",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When using 'neither... nor', the verb agrees with the closer subject ('students', which is plural), so 'were present' should be used instead of 'was present'.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt09_019",
+      "question": "Select the synonym of the underlined word:\nHer **prudent** financial choices helped her avoid debt.",
+      "imageUrl": "",
+      "options": [
+        "Wise",
+        "Reckless",
+        "Foolish",
+        "Careless"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Prudent' means acting with or showing care and thought for the future; 'Wise' is its synonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt09_020",
+      "question": "Select the antonym of the underlined word:\nHis **arrogant** behavior alienated his friends.",
+      "imageUrl": "",
+      "options": [
+        "Humble",
+        "Proud",
+        "Haughty",
+        "Bold"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Arrogant' means having or revealing an exaggerated sense of one's own importance; 'Humble' is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt09_021",
+      "question": "Fill in the blank with the most appropriate word:\nShe was deeply ______ by the overwhelming support from her community.",
+      "imageUrl": "",
+      "options": [
+        "moved",
+        "disturbed",
+        "annoyed",
+        "ignored"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Moved' means affected emotionally or touched by a gesture.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt09_022",
+      "question": "Select the option that correctly improves the underlined phrase:\nHe is senior **than me** in terms of work experience.",
+      "imageUrl": "",
+      "options": [
+        "senior to me",
+        "senior than I",
+        "more senior than me",
+        "No improvement required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Words like senior, junior, superior, and inferior take 'to' instead of 'than'. Thus, 'senior to me' is correct.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt09_023",
+      "question": "What is the meaning of the idiom 'To face the music'?",
+      "imageUrl": "",
+      "options": [
+        "To listen to music",
+        "To accept unpleasant consequences",
+        "To perform on stage",
+        "To ignore criticism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To face the music' means to accept the unpleasant consequences of one's actions.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt09_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Maintenance",
+        "Maintenence",
+        "Maintanance",
+        "Maintenence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Maintenance' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt09_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: financial literacy plays\nQ: a crucial role in\nR: empowering individuals to\nS: manage their savings effectively",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'financial literacy plays (P) / a crucial role in (Q) / empowering individuals to (R) / manage their savings effectively (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 10",
+  "chapterslug": "sbi_clerk_pt_10",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt10_001",
+      "question": "Statements:\nSome Pens are Markers.\nAll Markers are Crayons.\n\nConclusions:\nI. Some Crayons are Pens.\nII. All Pens are Crayons.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since Some Pens are Markers and All Markers are Crayons, the portion of Pens that are Markers must also be Crayons. Thus, 'Some Crayons are Pens' follows (Conclusion I). However, not all Pens are required to be Crayons (Conclusion II does not follow).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt10_002",
+      "question": "Statements: P > Q ≥ R = S < T ≤ U\nConclusions:\nI. P > S\nII. R < U",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From P > Q ≥ R = S, we get P > S (Conclusion I follows). From R = S < T ≤ U, we get R < U (Conclusion II follows). Both conclusions follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt10_003",
+      "question": "In a certain code language, 'PLANET' is written as 'QMBOFU'. How is 'STREAM' written in that language?",
+      "imageUrl": "",
+      "options": [
+        "TUSFBN",
+        "TUSFBN",
+        "TURFBN",
+        "TUSEBN"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1: S+1=T, T+1=U, R+1=S, E+1=F, A+1=B, M+1=N -> TUSFBN.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt10_004",
+      "question": "Statements: Only a few Shirts are Pants. No Pant is a Jacket.\nConclusions:\nI. Some Shirts are not Jackets.\nII. All Shirts can never be Pants.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The portion of Shirts that are Pants cannot be Jackets, so 'Some Shirts are not Jackets' follows (Conclusion I). 'Only a few Shirts are Pants' directly implies All Shirts can never be Pants (Conclusion II follows).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt10_005",
+      "question": "A person walks 15m West from point A to B, turns North and walks 8m to point C. What is the shortest distance between point A and point C?",
+      "imageUrl": "",
+      "options": [
+        "17m",
+        "19m",
+        "21m",
+        "23m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Pythagoras theorem: Shortest distance = $\\sqrt{15^2 + 8^2} = \\sqrt{225 + 64} = \\sqrt{289} = 17\\text{m}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt10_006",
+      "question": "In a row of 42 persons facing North, A is 16th from the left end and B is 14th from the right end. How many persons sit between A and B?",
+      "imageUrl": "",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions from ends = $16 + 14 = 30$. Since $30 < 42$, there is no overlap. Number of persons between = $42 - 30 = 12$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt10_007",
+      "question": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?",
+      "imageUrl": "",
+      "options": [
+        "His own",
+        "His son's",
+        "His father's",
+        "His nephew's"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since the man has no brothers or sisters, 'my father's son' refers to himself. Therefore, 'that man's father is myself', meaning the photograph is of his son.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt10_008",
+      "question": "How many such pairs of letters are there in the word 'FLOWER' each of which has as many letters between them as in the English alphabet (in both directions)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letter positions: F(6), L(12), O(15), W(23), E(5), R(18).\nChecking forward and backward pairs reveals no valid pairs matching alphabetical order distance.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt10_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$50\\% \\text{ of } 300 + 25\\% \\text{ of } 160 = ?$",
+      "imageUrl": "",
+      "options": [
+        "170",
+        "180",
+        "190",
+        "200"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$50\\% \\text{ of } 300 = 150$.\n$25\\% \\text{ of } 160 = 40$.\n$150 + 40 = 190$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt10_010",
+      "question": "Find the missing number in the series: 8, 17, 36, 75, 154, ?",
+      "imageUrl": "",
+      "options": [
+        "309",
+        "311",
+        "313",
+        "315"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2 + 1, \\times 2 + 2, \\times 2 + 3, \\times 2 + 4, \\times 2 + 5$.\n$8 \\times 2 + 1 = 17$\n$17 \\times 2 + 2 = 36$\n$36 \\times 2 + 3 = 75$\n$75 \\times 2 + 4 = 154$\n$? = 154 \\times 2 + 5 = 313$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt10_011",
+      "question": "An article bought for ₹500 is sold at a loss of 20%. What is its selling price?",
+      "imageUrl": "",
+      "options": [
+        "₹380",
+        "₹400",
+        "₹420",
+        "₹440"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Selling Price = $500 \\times (1 - 0.20) = 500 \\times 0.80 = ₹400$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt10_012",
+      "question": "A sum of ₹5,000 earns compound interest of ₹1,050 in 2 years at annual compounding. What is the rate of interest per annum?",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amount = $5000 + 1050 = ₹6,050$.\n$\\frac{A}{P} = \\frac{6050}{5000} = \\frac{121}{100} = \\left(1 + \\frac{R}{100}\\right)^2 \\Rightarrow \\frac{11}{10} = 1 + \\frac{R}{100} \\Rightarrow R = 10\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "sbi_clerk_pt10_013",
+      "question": "A, B, and C can complete a task individually in 12, 15, and 20 days respectively. In how many days can all three complete the task together?",
+      "imageUrl": "",
+      "options": [
+        "4 days",
+        "5 days",
+        "6 days",
+        "8 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combined 1-day work = $\\frac{1}{12} + \\frac{1}{15} + \\frac{1}{20} = \\frac{5 + 4 + 3}{60} = \\frac{12}{60} = \\frac{1}{5}$.\nTotal time taken = 5 days.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt10_014",
+      "question": "The ratio of present ages of A and B is 2 : 3. Four years ago, the sum of their ages was 32 years. Find the present age of A:",
+      "imageUrl": "",
+      "options": [
+        "12 years",
+        "16 years",
+        "20 years",
+        "24 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present sum of ages = $32 + 4 + 4 = 40\\text{ years}$. Ratio = $2 : 3$.\nPresent age of A = $\\frac{2}{5} \\times 40 = 16\\text{ years}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt10_015",
+      "question": "A train running at 54 km/h crosses a 150m long platform in 18 seconds. Find the length of the train:",
+      "imageUrl": "",
+      "options": [
+        "100 meters",
+        "120 meters",
+        "150 meters",
+        "180 meters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $54 \\times \\frac{5}{18} = 15\\text{ m/s}$.\nTotal distance = Speed $\\times$ Time = $15 \\times 18 = 270\\text{ meters}$.\nLength of train = Total distance - Platform length = $270 - 150 = 120\\text{ meters}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt10_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 12x + 35 = 0$\n$y^2 - 16y + 63 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-5)(x-7) = 0 \\Rightarrow x = 5, 7$.\nFor $y$: $(y-7)(y-9) = 0 \\Rightarrow y = 7, 9$.\nComparing values: $5 < 7, 5 < 9, 7 = 7, 7 < 9$. Therefore, $x \\le y$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt10_017",
+      "question": "The average mark of 25 students is 60. If 5 new students join with an average mark of 90, what is the new average mark for all students?",
+      "imageUrl": "",
+      "options": [
+        "62",
+        "65",
+        "68",
+        "70"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Initial total marks = $25 \\times 60 = 1500$.\nNew students' total marks = $5 \\times 90 = 450$.\nCombined total = $1500 + 450 = 1950$.\nNew average = $\\frac{1950}{30} = 65$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt10_018",
+      "question": "Find the grammatical error in the given sentence:\nMany a student (A) / have failed to pass (B) / the preliminary examination. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "Many a student",
+        "have failed to pass",
+        "the preliminary examination",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'Many a' is always followed by a singular noun and a singular verb. Therefore, 'has failed' should be used instead of 'have failed'.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt10_019",
+      "question": "Select the synonym of the underlined word:\nHis **diligent** efforts led to the successful completion of the project.",
+      "imageUrl": "",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Careless",
+        "Inattentive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Diligent' means showing care and conscientiousness in work or duties; 'Hardworking' is its synonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt10_020",
+      "question": "Select the antonym of the underlined word:\nThe committee gave a **hostile** reception to the proposed changes.",
+      "imageUrl": "",
+      "options": [
+        "Friendly",
+        "Aggressive",
+        "Unfavorable",
+        "Cold"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Hostile' means showing or feeling opposition or dislike; 'Friendly' or welcoming is its antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt10_021",
+      "question": "Fill in the blank with the most suitable preposition:\nShe is proficient ______ English and Spanish.",
+      "imageUrl": "",
+      "options": [
+        "in",
+        "at",
+        "with",
+        "for"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'proficient' takes the preposition 'in' when referring to skills, languages, or subjects.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt10_022",
+      "question": "Select the option that correctly improves the underlined phrase:\nHe was senior **than all** his colleagues in the department.",
+      "imageUrl": "",
+      "options": [
+        "senior to all",
+        "more senior than all",
+        "senior than any",
+        "No improvement required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative adjectives ending in '-ior' (like senior, junior, superior) take 'to' instead of 'than'. Hence, 'senior to all' is correct.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt10_023",
+      "question": "What is the meaning of the idiom 'To break the ice'?",
+      "imageUrl": "",
+      "options": [
+        "To break something fragile",
+        "To initiate a conversation in a social setting",
+        "To cause an accident",
+        "To end a friendship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To break the ice' means to do or say something to relieve tension or initiate conversation in a social setting.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt10_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Committment",
+        "Commitment",
+        "Comittment",
+        "Comitment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Commitment' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt10_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: time management is\nQ: an essential skill\nR: for achieving productivity\nS: in professional life",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'time management is (P) / an essential skill (Q) / for achieving productivity (R) / in professional life (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

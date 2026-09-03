@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 05",
+  "chapterslug": "ssc_chsl_pt_05",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt05_001",
+      "question": "If MANGO is coded as 13114715, then APPLE will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "11616125",
+        "11515125",
+        "11616115",
+        "11615125"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters are mapped to their position in the alphabet: A(1), P(16), P(16), L(12), E(5) -> 11616125.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt05_002",
+      "question": "Select the missing number in the given series: 5, 11, 23, 47, 95, ?",
+      "imageUrl": "",
+      "options": [
+        "190",
+        "191",
+        "192",
+        "193"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pattern: (Previous number × 2) + 1. So, (95 × 2) + 1 = 191.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt05_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nChef : Restaurant :: Farmer : ?",
+      "imageUrl": "",
+      "options": [
+        "Field",
+        "Crop",
+        "Tractor",
+        "Barn"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A chef works in a restaurant; similarly, a farmer works in a field.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt05_004",
+      "question": "Looking at a photograph, Ramesh said, 'She is the daughter of my grandfather's only son.' How is the girl in the photograph related to Ramesh?",
+      "imageUrl": "",
+      "options": [
+        "Mother",
+        "Sister",
+        "Aunt",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Grandfather's only son is Ramesh's father. The daughter of Ramesh's father is Ramesh's sister.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "ssc_chsl_pt05_005",
+      "question": "Select the odd pair of numbers from the given options:",
+      "imageUrl": "",
+      "options": [
+        "8 - 64",
+        "6 - 36",
+        "7 - 49",
+        "9 - 82"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In all other pairs, the second number is the exact square of the first number ($9^2 = 81$, not 82).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt05_006",
+      "question": "Arrange the following words in a logical order:\n1. Examination  2. Application  3. Selection  4. Interview  5. Job Offer",
+      "imageUrl": "",
+      "options": [
+        "2, 1, 4, 3, 5",
+        "2, 1, 3, 4, 5",
+        "1, 2, 4, 3, 5",
+        "2, 4, 1, 3, 5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The logical hiring sequence: Application -> Examination -> Interview -> Selection -> Job Offer.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Logical Order of Words"
+    },
+    {
+      "id": "ssc_chsl_pt05_007",
+      "question": "Who among the following was known as the 'Frontier Gandhi'?",
+      "imageUrl": "",
+      "options": [
+        "Khan Abdul Ghaffar Khan",
+        "Maulana Abul Kalam Azad",
+        "Subhash Chandra Bose",
+        "Mohammad Ali Jinnah"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Khan Abdul Ghaffar Khan was affectionately called Frontier Gandhi for his non-violent struggles.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt05_008",
+      "question": "Which article of the Indian Constitution prescribes the procedure for the impeachment of the President?",
+      "imageUrl": "",
+      "options": [
+        "Article 52",
+        "Article 56",
+        "Article 61",
+        "Article 72"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Article 61 outlines the process for impeachment of the President of India.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt05_009",
+      "question": "What is the longest river in Peninsular India?",
+      "imageUrl": "",
+      "options": [
+        "Narmada",
+        "Godavari",
+        "Krishna",
+        "Kaveri"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Godavari is the longest river of Peninsular India and is often called 'Dakshin Ganga'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt05_010",
+      "question": "Which metal is the best conductor of electricity?",
+      "imageUrl": "",
+      "options": [
+        "Copper",
+        "Silver",
+        "Gold",
+        "Aluminum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Silver possesses the highest electrical conductivity of all metals.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt05_011",
+      "question": "What is the primary function of Hemoglobin in the human body?",
+      "imageUrl": "",
+      "options": [
+        "Transport of Oxygen",
+        "Destruction of Bacteria",
+        "Prevention of Anemia",
+        "Blood Clotting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hemoglobin in red blood cells binds and carries oxygen from the lungs to tissue body parts.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_chsl_pt05_012",
+      "question": "The famous classical dance 'Kuchipudi' originated in which Indian state?",
+      "imageUrl": "",
+      "options": [
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Kerala"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kuchipudi is a classical Indian dance form originating in Andhra Pradesh.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Art and Culture"
+    },
+    {
+      "id": "ssc_chsl_pt05_013",
+      "question": "The marked price of a shirt is ₹800. If it is sold for ₹680, what is the discount percentage?",
+      "imageUrl": "",
+      "options": [
+        "12%",
+        "15%",
+        "18%",
+        "20%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Discount = 800 - 680 = ₹120. Discount % = (120 / 800) * 100 = 15%.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt05_014",
+      "question": "A and B can do a job in 10 days and 15 days respectively. They started together, but A left after 2 days. In how many days will B complete the remaining work?",
+      "imageUrl": "",
+      "options": [
+        "8 days",
+        "10 days",
+        "12 days",
+        "14 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combined rate = 1/10 + 1/15 = 1/6. Work done in 2 days = 2/6 = 1/3. Remaining work = 2/3. Time taken by B = (2/3) / (1/15) = 10 days.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "ssc_chsl_pt05_015",
+      "question": "If $x + \\frac{1}{x} = 5$, find the value of $x^3 + \\frac{1}{x^3}$:",
+      "imageUrl": "",
+      "options": [
+        "110",
+        "115",
+        "120",
+        "125"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$x^3 + \\frac{1}{x^3} = \\left(x + \\frac{1}{x}\\right)^3 - 3\\left(x + \\frac{1}{x}\\right) = 5^3 - 3(5) = 125 - 15 = 110$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt05_016",
+      "question": "A sum of ₹5000 amounts to ₹6000 in 2 years at simple interest. What is the rate of interest per annum?",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SI = ₹1000 in 2 years -> ₹500/year. Rate % = (500 / 5000) * 100 = 10%.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "ssc_chsl_pt05_017",
+      "question": "If $\\sin \\theta = \\frac{1}{2}$, then the value of $\\cot \\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\sqrt{3}$",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If $\\sin \\theta = \\frac{1}{2}$, then $\\theta = 30^\\circ$. $\\cot 30^\\circ = \\sqrt{3}$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt05_018",
+      "question": "The sides of a triangle are 6 cm, 8 cm, and 10 cm. Find its area:",
+      "imageUrl": "",
+      "options": [
+        "20 cm²",
+        "24 cm²",
+        "30 cm²",
+        "48 cm²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a right-angled triangle ($6^2 + 8^2 = 10^2$). Area = 1/2 * base * height = 1/2 * 6 * 8 = 24 cm².",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt05_019",
+      "question": "A man covers a distance of 180 km in 4 hours. What is his speed in m/s?",
+      "imageUrl": "",
+      "options": [
+        "12.5 m/s",
+        "15 m/s",
+        "17.5 m/s",
+        "20 m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Speed = 180 / 4 = 45 km/h. Converting to m/s: 45 * (5/18) = 12.5 m/s.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt05_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Occassion",
+        "Ocasion",
+        "Occasion",
+        "Occassionn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Occasion' (with double 'c' and single 's') is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt05_021",
+      "question": "Select the synonym of the given word: IMPEDIMENT",
+      "imageUrl": "",
+      "options": [
+        "Obstacle",
+        "Assistance",
+        "Benefit",
+        "Clearance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Impeditment' means a hindrance or obstruction in doing something; 'Obstacle' is synonymous.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt05_022",
+      "question": "Select the antonym of the given word: GREGARIOUS",
+      "imageUrl": "",
+      "options": [
+        "Sociable",
+        "Introverted",
+        "Friendly",
+        "Outgoing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Gregarious' means fond of company and sociable; 'Introverted' or reserved is its antonym.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt05_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nOne of the student was absent during the annual sports meet.",
+      "imageUrl": "",
+      "options": [
+        "One of the",
+        "student was",
+        "absent during",
+        "sports meet"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'One of the' should always be followed by a plural noun ('students' instead of 'student').",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt05_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To study late into the night'",
+      "imageUrl": "",
+      "options": [
+        "Burn the midnight oil",
+        "Hit the hay",
+        "Break the ice",
+        "Under the weather"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Burn the midnight oil' means to work or study late into the night.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt05_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A person who collects or studies stamps'",
+      "imageUrl": "",
+      "options": [
+        "Numismatist",
+        "Philatelist",
+        "Anthropologist",
+        "Archaeologist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 'Philatelist' is a person who studies or collects postage stamps. (Numismatist collects coins).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

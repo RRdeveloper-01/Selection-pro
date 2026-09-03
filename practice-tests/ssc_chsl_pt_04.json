@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 04",
+  "chapterslug": "ssc_chsl_pt_04",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt04_001",
+      "question": "If PEARL is coded as 16511812, then DIAMOND will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "4911315144",
+        "49113151414",
+        "4811315144",
+        "4911415144"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters are mapped directly to their positional alphabet values: D(4), I(9), A(1), M(13), O(15), N(14), D(4) -> 4911315144.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt04_002",
+      "question": "Select the missing number in the series: 2, 6, 12, 20, 30, ?",
+      "imageUrl": "",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Differences are +4, +6, +8, +10. The next difference is +12, so 30 + 12 = 42 (Alternatively: $n^2 + n$).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt04_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nFrance : Paris :: Japan : ?",
+      "imageUrl": "",
+      "options": [
+        "Beijing",
+        "Seoul",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tokyo is the capital of Japan, just as Paris is the capital of France.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt04_004",
+      "question": "A man walks 10 km South, turns right and walks 6 km, then turns left and walks 5 km. Which direction is he facing now?",
+      "imageUrl": "",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Facing South -> Turns Right (West) -> Turns Left (South). He is currently facing South.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "ssc_chsl_pt04_005",
+      "question": "Select the odd term from the given options:",
+      "imageUrl": "",
+      "options": [
+        "Square",
+        "Triangle",
+        "Cube",
+        "Rectangle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cube is a 3D geometric shape, whereas Square, Triangle, and Rectangle are 2D shapes.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt04_006",
+      "question": "Statements:\nI. All cats are dogs.\nII. All dogs are mammals.\nConclusions:\n1. All cats are mammals.\n2. Some mammals are cats.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion 1 follows",
+        "Only conclusion 2 follows",
+        "Neither conclusion follows",
+        "Both conclusions follow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since cats ⊂ dogs ⊂ mammals, both 'All cats are mammals' and 'Some mammals are cats' logically follow.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "ssc_chsl_pt04_007",
+      "question": "Which officer of the Indian Constitution is known as the 'Guardian of the Public Purse'?",
+      "imageUrl": "",
+      "options": [
+        "Finance Minister",
+        "Comptroller and Auditor General (CAG)",
+        "RBI Governor",
+        "Prime Minister"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Comptroller and Auditor General (CAG) of India (Article 148) is known as the Guardian of the Public Purse.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt04_008",
+      "question": "Which Mughal Emperor built the famous Taj Mahal in Agra?",
+      "imageUrl": "",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Medieval History"
+    },
+    {
+      "id": "ssc_chsl_pt04_009",
+      "question": "In which state is the Kaziranga National Park located?",
+      "imageUrl": "",
+      "options": [
+        "Assam",
+        "Uttarakhand",
+        "Madhya Pradesh",
+        "West Bengal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kaziranga National Park, famous for its one-horned rhinoceroses, is in Assam.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt04_010",
+      "question": "Deficiency of Vitamin C causes which disease?",
+      "imageUrl": "",
+      "options": [
+        "Rickets",
+        "Scurvy",
+        "Beriberi",
+        "Night Blindness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vitamin C deficiency leads to Scurvy.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Biology"
+    },
+    {
+      "id": "ssc_chsl_pt04_011",
+      "question": "What is the SI unit of Work and Energy?",
+      "imageUrl": "",
+      "options": [
+        "Watt",
+        "Newton",
+        "Joule",
+        "Pascal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The SI unit for both work and energy is the Joule (J).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt04_012",
+      "question": "Who was the founder of the Maurya Empire?",
+      "imageUrl": "",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Brihadratha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chandragupta Maurya founded the Maurya Empire with the assistance of Chanakya (Kautilya).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ancient History"
+    },
+    {
+      "id": "ssc_chsl_pt04_013",
+      "question": "If $x - \\frac{1}{x} = 5$, then the value of $x^2 + \\frac{1}{x^2}$ is:",
+      "imageUrl": "",
+      "options": [
+        "23",
+        "25",
+        "27",
+        "29"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$x^2 + \\frac{1}{x^2} = \\left(x - \\frac{1}{x}\\right)^2 + 2 = 5^2 + 2 = 27$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt04_014",
+      "question": "A shopkeeper marks an article 30% above its cost price and gives a discount of 10%. Find his profit percentage:",
+      "imageUrl": "",
+      "options": [
+        "17%",
+        "18%",
+        "20%",
+        "22%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Net Profit % = $30 - 10 - \\frac{30 \\times 10}{100} = 20 - 3 = 17\\%$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt04_015",
+      "question": "The mean proportional between 9 and 25 is:",
+      "imageUrl": "",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "205"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mean proportional = $\\sqrt{a \\times b} = \\sqrt{9 \\times 25} = \\sqrt{225} = 15$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ratio and Proportion"
+    },
+    {
+      "id": "ssc_chsl_pt04_016",
+      "question": "A pipe can fill a tank in 10 hours and another pipe can empty it in 15 hours. If both pipes are opened together, how long will it take to fill the tank?",
+      "imageUrl": "",
+      "options": [
+        "20 hours",
+        "25 hours",
+        "30 hours",
+        "35 hours"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Net rate = $\\frac{1}{10} - \\frac{1}{15} = \\frac{3 - 2}{30} = \\frac{1}{30}$. Time taken = 30 hours.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "ssc_chsl_pt04_017",
+      "question": "Find the value of $\\sin^2 30^\\circ + \\cos^2 30^\\circ + \\tan 45^\\circ$:",
+      "imageUrl": "",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since $\\sin^2 \\theta + \\cos^2 \\theta = 1$ and $\\tan 45^\\circ = 1$, the expression evaluates to $1 + 1 = 2$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt04_018",
+      "question": "The volume of a sphere with radius 3 cm is ($\n\\pi = \\frac{22}{7}$):",
+      "imageUrl": "",
+      "options": [
+        "113.14 cm³",
+        "100.50 cm³",
+        "88.20 cm³",
+        "120.45 cm³"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume = $\\frac{4}{3} \\pi r^3 = \\frac{4}{3} \\times \\frac{22}{7} \\times 27 \\approx 113.14\\text{ cm}^3$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt04_019",
+      "question": "The average of first 10 natural numbers is:",
+      "imageUrl": "",
+      "options": [
+        "5",
+        "5.5",
+        "6",
+        "6.5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Average of first $n$ natural numbers = $\\frac{n + 1}{2} = \\frac{10 + 1}{2} = 5.5$.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt04_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Maintenance",
+        "Maintanance",
+        "Maintenence",
+        "Mentenance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Maintenance' is the correct spelling.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt04_021",
+      "question": "Select the synonym of the given word: PRUDENT",
+      "imageUrl": "",
+      "options": [
+        "Careless",
+        "Wise",
+        "Foolish",
+        "Reckless"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Prudent' means acting with or showing care and thought for the future; 'Wise' is synonymous.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt04_022",
+      "question": "Select the antonym of the given word: BOISTEROUS",
+      "imageUrl": "",
+      "options": [
+        "Noisy",
+        "Clamorous",
+        "Quiet",
+        "Lively"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Boisterous' means noisy, energetic, and rowdy; 'Quiet' is its direct antonym.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt04_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nShe is more smarter than her elder sister.",
+      "imageUrl": "",
+      "options": [
+        "She is",
+        "more smarter",
+        "than her",
+        "elder sister"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Double comparatives are incorrect. 'More smarter' should be replaced by 'smarter'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt04_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To reveal a secret unintentionally'",
+      "imageUrl": "",
+      "options": [
+        "Let the cat out of the bag",
+        "Hit below the belt",
+        "Burn the midnight oil",
+        "Bite the dust"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Let the cat out of the bag' means accidentally revealing secret information.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt04_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A place where birds are kept'",
+      "imageUrl": "",
+      "options": [
+        "Apiary",
+        "Aviary",
+        "Aquarium",
+        "Sanctuary"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An 'Aviary' is a large cage or enclosure for keeping birds. (An 'Apiary' is for bees).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

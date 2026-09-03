@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 08",
+  "chapterslug": "sbi_clerk_pt_08",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt08_001",
+      "question": "Statements:\nSome Cats are Dogs.\nNo Dog is a Lion.\n\nConclusions:\nI. Some Cats are not Lions.\nII. No Cat is a Lion.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The portion of Cats that are Dogs can never be Lions, so 'Some Cats are not Lions' definitely follows (Conclusion I). However, we cannot state that 'No Cat is a Lion' for all Cats (Conclusion II does not follow).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt08_002",
+      "question": "Statements: M ≥ N > O; P ≤ O = Q\nConclusions:\nI. M > Q\nII. N > P",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combining: M ≥ N > O = Q ≥ P. From M ≥ N > O = Q, we get M > Q (Conclusion I follows). From N > O ≥ P, we get N > P (Conclusion II follows).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt08_003",
+      "question": "In a certain code language, 'ORANGE' is written as 'PSBOHF'. How is 'GRAPES' written in that language?",
+      "imageUrl": "",
+      "options": [
+        "HSBQFT",
+        "HSBQFT",
+        "HSBRET",
+        "HSBQF U"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1: G+1=H, R+1=S, A+1=B, P+1=Q, E+1=F, S+1=T -> HSBQFT.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt08_004",
+      "question": "Statements: Only a few Books are Pens. No Pen is a Ruler.\nConclusions:\nI. All Books can never be Pens.\nII. Some Books are Rulers.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Only a few Books are Pens' means Some Books are Pens and Some Books are NOT Pens, so All Books can never be Pens (Conclusion I follows). There is no definite relation between Books and Rulers (Conclusion II does not follow).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt08_005",
+      "question": "A person walks 9 km North, turns East and walks 12 km. What is the shortest distance between his starting point and ending point?",
+      "imageUrl": "",
+      "options": [
+        "13 km",
+        "15 km",
+        "17 km",
+        "21 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Pythagoras theorem: Distance = $\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15\\text{ km}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt08_006",
+      "question": "In a row of 32 students facing North, R is 11th from the left end and S is 13th from the right end. How many students sit between R and S?",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions from ends = $11 + 13 = 24$. Since $24 < 32$, there is no overlap. Students between = $32 - 24 = 8$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt08_007",
+      "question": "Pointing to a woman, Rahul said, 'She is the sister of my mother's only son.' How is the woman related to Rahul?",
+      "imageUrl": "",
+      "options": [
+        "Mother",
+        "Sister",
+        "Aunt",
+        "Daughter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'My mother's only son' refers to Rahul himself. The woman is the sister of Rahul, so she is Rahul's sister.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt08_008",
+      "question": "How many such pairs of letters are there in the word 'DESIGN' each of which has as many letters between them as in the English alphabet (in both directions)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Letter positions: D(4), E(5), S(19), I(9), G(7), N(14).\n1. (D, E) -> Consecutive letters (D=4, E=5).\n2. Backward: G(7) and I(9) -> G, H, I (1 letter between). Total pairs = 2.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt08_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$320 \\div 8 + 14 \\times 5 - 20 = ?$",
+      "imageUrl": "",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using BODMAS:\n$320 \\div 8 = 40$\n$14 \\times 5 = 70$\n$40 + 70 - 20 = 90$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt08_010",
+      "question": "Find the missing term in the series: 7, 15, 31, 63, 127, ?",
+      "imageUrl": "",
+      "options": [
+        "245",
+        "251",
+        "255",
+        "259"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2 + 1$.\n$7 \\times 2 + 1 = 15$\n$15 \\times 2 + 1 = 31$\n$31 \\times 2 + 1 = 63$\n$63 \\times 2 + 1 = 127$\n$? = 127 \\times 2 + 1 = 255$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt08_011",
+      "question": "A shopkeeper marks an item 50% above the cost price and gives a discount of 20%. What is his profit percentage?",
+      "imageUrl": "",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Profit % = $50 - 20 - \\frac{50 \\times 20}{100} = 30 - 10 = 20\\%$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt08_012",
+      "question": "The ratio of efficiency of A and B is 4 : 3. If they complete a piece of work together in 12 days, how many days will B take alone to complete it?",
+      "imageUrl": "",
+      "options": [
+        "21 days",
+        "24 days",
+        "28 days",
+        "32 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combined efficiency per day = $4 + 3 = 7\\text{ units}$. Total work = $7 \\times 12 = 84\\text{ units}$. Time taken by B alone = $\\frac{84}{3} = 28\\text{ days}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt08_013",
+      "question": "The simple interest on a sum of money for 3 years at 10% per annum is ₹1,500. Find the principal sum:",
+      "imageUrl": "",
+      "options": [
+        "₹4,500",
+        "₹5,000",
+        "₹5,500",
+        "₹6,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$SI = \\frac{P \\times R \\times T}{100} \\Rightarrow 1500 = \\frac{P \\times 10 \\times 3}{100} \\Rightarrow 30P = 150000 \\Rightarrow P = ₹5,000$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "sbi_clerk_pt08_014",
+      "question": "A train 200 meters long is running at a speed of 54 km/h. How much time will it take to cross a standing pole?",
+      "imageUrl": "",
+      "options": [
+        "12 seconds",
+        "13.33 seconds",
+        "15 seconds",
+        "16.66 seconds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $54 \\times \\frac{5}{18} = 15\\text{ m/s}$. Time = $\\frac{\\text{Distance}}{\\text{Speed}} = \\frac{200}{15} = 13.33\\text{ seconds}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt08_015",
+      "question": "The average of 6 numbers is 25. If one number is excluded, the average becomes 22. Find the excluded number:",
+      "imageUrl": "",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of 6 numbers = $6 \\times 25 = 150$. Sum of remaining 5 numbers = $5 \\times 22 = 110$. Excluded number = $150 - 110 = 40$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt08_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 7x + 12 = 0$\n$y^2 - 11y + 30 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-3)(x-4) = 0 \\Rightarrow x = 3, 4$.\nFor $y$: $(y-5)(y-6) = 0 \\Rightarrow y = 5, 6$.\nSince both values of $x$ (3, 4) are strictly smaller than both values of $y$ (5, 6), $x < y$ (which implies $x \\le y$).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt08_017",
+      "question": "The present ages of X and Y are in the ratio 4 : 5. Six years ago, the sum of their ages was 42 years. Find the present age of Y:",
+      "imageUrl": "",
+      "options": [
+        "24 years",
+        "28 years",
+        "30 years",
+        "35 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Present sum of ages = $42 + 6 + 6 = 54\\text{ years}$. Ratio = $4 : 5$.\nPresent age of Y = $\\frac{5}{9} \\times 54 = 30\\text{ years}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt08_018",
+      "question": "Find the grammatical error in the given sentence:\nHardly had I reached (A) / the station than the train (B) / departed from the platform. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "Hardly had I reached",
+        "the station than the train",
+        "departed from the platform",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Hardly' takes 'when' as its conjunction pair, not 'than'. ('Than' is used with 'No sooner').",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt08_019",
+      "question": "Select the synonym of the underlined word:\nHer **candid** opinion helped us make an informed decision.",
+      "imageUrl": "",
+      "options": [
+        "Frank",
+        "Secret",
+        "Biased",
+        "Deceptive"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Candid' means truthful, straightforward, or frank.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt08_020",
+      "question": "Select the antonym of the underlined word:\nThe manager’s **lenient** attitude encouraged indiscipline in the team.",
+      "imageUrl": "",
+      "options": [
+        "Strict",
+        "Kind",
+        "Soft",
+        "Flexible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Lenient' means merciful or permissive; 'Strict' is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt08_021",
+      "question": "Fill in the blank with the most appropriate preposition:\nHe was prevented ______ entering the venue due to lack of a valid pass.",
+      "imageUrl": "",
+      "options": [
+        "from",
+        "to",
+        "by",
+        "with"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb 'prevented' takes the preposition 'from' followed by a gerund.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt08_022",
+      "question": "Select the option that correctly improves the underlined phrase:\nOne of the student **have forgotten** his bag in the library.",
+      "imageUrl": "",
+      "options": [
+        "One of the students has forgotten",
+        "One of the student has forgotten",
+        "One of the students have forgotten",
+        "No improvement required"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'One of the' takes a plural noun ('students') and a singular verb ('has forgotten').",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt08_023",
+      "question": "What is the meaning of the idiom 'To add fuel to the fire'?",
+      "imageUrl": "",
+      "options": [
+        "To extinguish a conflict",
+        "To make a bad situation worse",
+        "To start a new project",
+        "To provide energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To add fuel to the fire' means to worsen an already bad or tense situation.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt08_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Privilege",
+        "Priviledge",
+        "Privelege",
+        "Privilage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Privilege' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt08_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: renewable energy sources\nQ: are essential for reducing\nR: reliance on fossil fuels\nS: and curbing carbon emissions",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'renewable energy sources (P) / are essential for reducing (Q) / reliance on fossil fuels (R) / and curbing carbon emissions (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

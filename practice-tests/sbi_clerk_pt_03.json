@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 03",
+  "chapterslug": "sbi_clerk_pt_03",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt03_001",
+      "question": "Statements:\nAll Apples are Fruits.\nSome Fruits are Sweet.\n\nConclusions:\nI. Some Sweet are Apples.\nII. Some Fruits are Apples.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since all Apples are Fruits, some Fruits are definitely Apples (Conclusion II follows). However, there is no direct connection given between Sweet and Apples, so Conclusion I does not necessarily follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt03_002",
+      "question": "Statements: M ≤ N < O = P ≤ Q < R\nConclusions:\nI. M < P\nII. R > O",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From M ≤ N < O = P, we get M < P (Conclusion I follows). From O = P ≤ Q < R, we get O < R, which means R > O (Conclusion II follows).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt03_003",
+      "question": "In a certain code language, 'SMART' is coded as 'TKBSU'. How is 'CANDLE' coded in that language?",
+      "imageUrl": "",
+      "options": [
+        "DBOEMF",
+        "DZMCMD",
+        "DBOEMD",
+        "DBOEMF"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1: C+1=D, A+1=B, N+1=O, D+1=E, L+1=M, E+1=F -> DBOEMF.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt03_004",
+      "question": "How many such pairs of digits are there in the number '6325941' each of which has as many digits between them in the number as when they are arranged in ascending order?",
+      "imageUrl": "",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "More than three"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Checking original pairs against natural series distances:\nPairs forward/backward: (2, 4) -> 2,3,4; (3, 5) -> 3,4,5; (1, 2) -> 1,2. Total 3 pairs.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Test"
+    },
+    {
+      "id": "sbi_clerk_pt03_005",
+      "question": "Statements: Only a few cars are buses. All buses are trucks.\nConclusions:\nI. Some trucks are cars.\nII. All cars being trucks is a possibility.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cars overlap with buses, and all buses are trucks, so some trucks are definitely cars (Conclusion I follows). 'Only a few cars are buses' restricts cars from all being buses, but all cars can still be trucks (Conclusion II follows).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt03_006",
+      "question": "In a class of 50 students, Priya is ranked 18th from the top. What is her rank from the bottom?",
+      "imageUrl": "",
+      "options": [
+        "32nd",
+        "33rd",
+        "34th",
+        "35th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rank from bottom = Total students - Rank from top + 1 = 50 - 18 + 1 = 33rd.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt03_007",
+      "question": "A person starts walking North for 10m, turns right and walks 6m, then turns right again and walks 10m. How far and in which direction is he from his starting point?",
+      "imageUrl": "",
+      "options": [
+        "6m East",
+        "6m West",
+        "10m North",
+        "10m South"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Walking 10m North, 6m East, then 10m South brings the person directly 6m East of the starting point.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt03_008",
+      "question": "Looking at a picture, Amit said, 'She is the mother of my father's only daughter.' How is the lady in the picture related to Amit?",
+      "imageUrl": "",
+      "options": [
+        "Aunt",
+        "Sister",
+        "Mother",
+        "Grandmother"
+      ],
+      "correctAnswer": 2,
+      "explanation": "My father's only daughter = Amit's sister. The mother of Amit's sister is Amit's mother.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt03_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$45\\% \\text{ of } 300 + \\sqrt{1024} = ?$",
+      "imageUrl": "",
+      "options": [
+        "163",
+        "167",
+        "171",
+        "175"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$45\\% \\text{ of } 300 = 135$. $\\sqrt{1024} = 32$. Value = $135 + 32 = 167$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt03_010",
+      "question": "Find the missing term in the series: 7, 14, 42, 168, ?",
+      "imageUrl": "",
+      "options": [
+        "672",
+        "740",
+        "840",
+        "920"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2, \\times 3, \\times 4, \\times 5$.\n$7 \\times 2 = 14$\n$14 \\times 3 = 42$\n$42 \\times 4 = 168$\n$? = 168 \\times 5 = 840$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt03_011",
+      "question": "A and B can complete a piece of work in 10 days and 15 days respectively. They work together for 4 days and then A leaves. How many days will B take to complete the remaining work?",
+      "imageUrl": "",
+      "options": [
+        "4 days",
+        "5 days",
+        "6 days",
+        "7 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "1-day work of (A + B) = $\\frac{1}{10} + \\frac{1}{15} = \\frac{1}{6}$. Work in 4 days = $\\frac{4}{6} = \\frac{2}{3}$. Remaining work = $1 - \\frac{2}{3} = \\frac{1}{3}$. Time taken by B = $\\frac{1/3}{1/15} = 5\\text{ days}$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt03_012",
+      "question": "The marked price of an article is ₹1,200. A shopkeeper allows a discount of 15% and still makes a profit of 20%. What is the cost price of the article?",
+      "imageUrl": "",
+      "options": [
+        "₹820",
+        "₹850",
+        "₹880",
+        "₹900"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Selling Price = $1200 \\times 0.85 = ₹1,020$. Since CP $\\times 1.20 = 1020$, CP = $\\frac{1020}{1.2} = ₹850$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt03_013",
+      "question": "The sum of three consecutive even numbers is 78. What is the largest of these numbers?",
+      "imageUrl": "",
+      "options": [
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let numbers be $x, x+2, x+4$. $3x + 6 = 78 \\Rightarrow 3x = 72 \\Rightarrow x = 24$. Largest number = $24 + 4 = 28$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt03_014",
+      "question": "A train 200 meters long is running at a speed of 54 km/h. How much time will it take to cross a platform 100 meters long?",
+      "imageUrl": "",
+      "options": [
+        "15 seconds",
+        "18 seconds",
+        "20 seconds",
+        "24 seconds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Speed = $54 \\times \\frac{5}{18} = 15\\text{ m/s}$. Total distance = $200 + 100 = 300\\text{ m}$. Time = $\\frac{300}{15} = 20\\text{ seconds}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt03_015",
+      "question": "In how many years will ₹5,000 amount to ₹6,050 at 10% per annum compound interest?",
+      "imageUrl": "",
+      "options": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "4 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\frac{A}{P} = \\frac{6050}{5000} = \\frac{121}{100} = \\left(1 + \\frac{10}{100}\\right)^n \\Rightarrow \\left(\\frac{11}{10}\\right)^2 = \\left(\\frac{11}{10}\\right)^n \\Rightarrow n = 2\\text{ years}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "sbi_clerk_pt03_016",
+      "question": "Solve for x and y:\n$x^2 - 7x + 12 = 0$\n$y^2 - 9y + 20 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-3)(x-4) = 0 \\Rightarrow x = 3, 4$.\nFor $y$: $(y-4)(y-5) = 0 \\Rightarrow y = 4, 5$.\nComparing: $3 < 4, 3 < 5, 4 = 4, 4 < 5$. So $x \\le y$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt03_017",
+      "question": "The ratio of two numbers is 3 : 4 and their LCM is 180. What is the sum of the two numbers?",
+      "imageUrl": "",
+      "options": [
+        "90",
+        "105",
+        "120",
+        "135"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let numbers be $3x$ and $4x$. LCM = $12x = 180 \\Rightarrow x = 15$. Sum = $3x + 4x = 7x = 7 \\times 15 = 105$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "LCM and HCF"
+    },
+    {
+      "id": "sbi_clerk_pt03_018",
+      "question": "Find the error in the given sentence:\nOne of the most important feature (A) / of this project (B) / is its user-friendly interface. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "One of the most important feature",
+        "of this project",
+        "is its user-friendly interface",
+        "No error"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The phrase 'One of the' is always followed by a plural noun. Thus, 'feature' should be 'features'.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt03_019",
+      "question": "Select the synonym of the underlined word:\nThe manager gave a **concise** summary of the quarterly report.",
+      "imageUrl": "",
+      "options": [
+        "Lengthy",
+        "Brief",
+        "Detailed",
+        "Complicated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Concise' means giving a lot of information clearly and in a few words; 'Brief' is synonymous.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt03_020",
+      "question": "Select the antonym of the underlined word:\nHe is known for his **humble** nature despite his immense wealth.",
+      "imageUrl": "",
+      "options": [
+        "Modest",
+        "Arrogant",
+        "Polite",
+        "Gentle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Humble' means modest and respectful; 'Arrogant' is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt03_021",
+      "question": "Fill in the blank with the most suitable option:\nThe company plans to ______ a new marketing strategy next month.",
+      "imageUrl": "",
+      "options": [
+        "launch",
+        "prevent",
+        "demolish",
+        "dismiss"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Launch' fits appropriately when introducing a new plan or strategy.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt03_022",
+      "question": "Select the option that replaces the underlined phrase correctly:\nShe insisted **on to pay** the bill herself.",
+      "imageUrl": "",
+      "options": [
+        "on paying",
+        "to paying",
+        "for pay",
+        "at paying"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb 'insist' is followed by the preposition 'on' + gerund (-ing form). Therefore, 'insisted on paying' is correct.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt03_023",
+      "question": "Select the idiom that best fits the meaning: 'To face a difficult situation with courage'",
+      "imageUrl": "",
+      "options": [
+        "Bite the bullet",
+        "Cry over spilt milk",
+        "Burn the midnight oil",
+        "Beat around the bush"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Bite the bullet' means to face a difficult situation courageously.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt03_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Privilege",
+        "Privledge",
+        "Privelege",
+        "Privilige"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Privilege' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt03_025",
+      "question": "Rearrange the given parts to form a meaningful sentence:\nP: an essential part\nQ: of human development\nR: education plays\nS: in every society",
+      "imageUrl": "",
+      "options": [
+        "R P Q S",
+        "P Q R S",
+        "R S P Q",
+        "Q P R S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical flow: 'education plays (R) / an essential part (P) / of human development (Q) / in every society (S).' -> RPQS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

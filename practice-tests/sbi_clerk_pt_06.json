@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 06",
+  "chapterslug": "sbi_clerk_pt_06",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt06_001",
+      "question": "Statements:\nAll Cities are Towns.\nSome Towns are Villages.\n\nConclusions:\nI. Some Cities are Villages.\nII. Some Villages are Towns.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since Some Towns are Villages, it directly follows that Some Villages are Towns (Conclusion II follows). However, there is no direct relation given between Cities and Villages, so Conclusion I does not follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt06_002",
+      "question": "Statements: K > L ≥ M = N < O ≤ P\nConclusions:\nI. K > N\nII. O > M",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From K > L ≥ M = N, we get K > N (Conclusion I follows). From M = N < O, we get M < O or O > M (Conclusion II follows). Both conclusions follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt06_003",
+      "question": "In a certain code language, 'FLIGHT' is written as 'GMJHJU'. How is 'ROCKET' coded in that language?",
+      "imageUrl": "",
+      "options": [
+        "SPDLFU",
+        "SPDLEU",
+        "SPDLFU",
+        "SPELF U"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1 in alphabetical order: R+1=S, O+1=P, C+1=D, K+1=L, E+1=F, T+1=U -> SPDLFU.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt06_004",
+      "question": "Statements: Only a few Laptops are Mobiles. All Mobiles are Gadgets.\nConclusions:\nI. Some Laptops are Gadgets.\nII. All Laptops can never be Mobiles.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The portion of Laptops that are Mobiles must also be Gadgets, so Some Laptops are Gadgets (Conclusion I follows). 'Only a few Laptops are Mobiles' explicitly means All Laptops can never be Mobiles (Conclusion II follows).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt06_005",
+      "question": "Point X is 6m West of Point Y. Point Z is 8m North of Point Y. What is the shortest distance between Point X and Point Z?",
+      "imageUrl": "",
+      "options": [
+        "8m",
+        "10m",
+        "12m",
+        "14m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using Pythagoras theorem: Distance = $\\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10\\text{m}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt06_006",
+      "question": "In a row of 28 students facing North, A is 8th from the left end and B is 12th from the right end. How many students sit between A and B?",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions = $8 + 12 = 20$. Since $20 < 28$, there is no overlap. Students between = $28 - 20 = 8$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt06_007",
+      "question": "If 'A' is the brother of 'B', 'B' is the sister of 'C', and 'C' is the father of 'D', how is 'A' related to 'D'?",
+      "imageUrl": "",
+      "options": [
+        "Father",
+        "Uncle",
+        "Brother",
+        "Grandfather"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A and B are siblings of C (father of D). A is a male sibling of D's father, so A is the paternal uncle of D.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt06_008",
+      "question": "How many such pairs of letters are there in the word 'CRICKET' each of which has as many letters between them as in the English alphabet (in both directions)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letter positions: C(3), R(18), I(9), C(3), K(11), E(5), T(20).\nBackward direction: E(5) to I(9) has 3 letters between them (5, 6, 7, 8, 9) -> Pair (E, I). Total pair = 1.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt06_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$180 \\div 6 + 15 \\times 4 - 25 = ?$",
+      "imageUrl": "",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using BODMAS:\n$180 \\div 6 = 30$\n$15 \\times 4 = 60$\n$30 + 60 - 25 = 65$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt06_010",
+      "question": "Find the missing number in the series: 6, 13, 28, 59, 122, ?",
+      "imageUrl": "",
+      "options": [
+        "245",
+        "247",
+        "249",
+        "251"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2 + 1, \\times 2 + 2, \\times 2 + 3, \\times 2 + 4, \\times 2 + 5$.\n$6 \\times 2 + 1 = 13$\n$13 \\times 2 + 2 = 28$\n$28 \\times 2 + 3 = 59$\n$59 \\times 2 + 4 = 122$\n$? = 122 \\times 2 + 5 = 249$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt06_011",
+      "question": "A sum of ₹6,000 amounts to ₹7,200 in 2 years at simple interest. What is the annual rate of interest?",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total interest = $7200 - 6000 = ₹1,200$.\n$SI = \\frac{P \\times R \\times T}{100} \\Rightarrow 1200 = \\frac{6000 \\times R \\times 2}{100} \\Rightarrow 1200 = 120R \\Rightarrow R = 10\\%$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "sbi_clerk_pt06_012",
+      "question": "A shopkeeper marks an article 30% above the cost price and allows a discount of 10%. Find his profit percentage:",
+      "imageUrl": "",
+      "options": [
+        "15%",
+        "17%",
+        "18%",
+        "20%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Profit % = $30 - 10 - \\frac{30 \\times 10}{100} = 20 - 3 = 17\\%$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt06_013",
+      "question": "A and B can complete a work in 15 days and 20 days respectively. If they work together for 5 days, what fraction of the work remains?",
+      "imageUrl": "",
+      "options": [
+        "5/12",
+        "7/12",
+        "1/3",
+        "1/2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Combined 1-day work = $\\frac{1}{15} + \\frac{1}{20} = \\frac{7}{60}$.\nWork done in 5 days = $5 \\times \\frac{7}{60} = \\frac{35}{60} = \\frac{7}{12}$.\nRemaining work = $1 - \\frac{7}{12} = \\frac{5}{12}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt06_014",
+      "question": "The ratio of present ages of P and Q is 3 : 5. After 5 years, the sum of their ages will be 50 years. What is the present age of P?",
+      "imageUrl": "",
+      "options": [
+        "12 years",
+        "15 years",
+        "18 years",
+        "20 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present sum of ages = $50 - 5 - 5 = 40\\text{ years}$. Ratio = $3 : 5$.\nPresent age of P = $\\frac{3}{8} \\times 40 = 15\\text{ years}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt06_015",
+      "question": "A train 250 meters long crosses a platform 150 meters long in 20 seconds. What is the speed of the train in km/h?",
+      "imageUrl": "",
+      "options": [
+        "60 km/h",
+        "72 km/h",
+        "80 km/h",
+        "90 km/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total distance = $250 + 150 = 400\\text{ meters}$.\nSpeed in m/s = $\\frac{400}{20} = 20\\text{ m/s}$.\nSpeed in km/h = $20 \\times \\frac{18}{5} = 72\\text{ km/h}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt06_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 8x + 15 = 0$\n$y^2 - 12y + 35 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-3)(x-5) = 0 \\Rightarrow x = 3, 5$.\nFor $y$: $(y-5)(y-7) = 0 \\Rightarrow y = 5, 7$.\nComparing: $3 < 5, 3 < 7, 5 = 5, 5 < 7$. So $x \\le y$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt06_017",
+      "question": "The average weight of 10 items is 25 kg. If one item weighing 43 kg is replaced by a new item, the average increases by 2 kg. What is the weight of the new item?",
+      "imageUrl": "",
+      "options": [
+        "53 kg",
+        "58 kg",
+        "63 kg",
+        "68 kg"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Increase in total weight = $10 \\times 2 = 20\\text{ kg}$.\nWeight of new item = Replaced weight + Increase = $43 + 20 = 63\\text{ kg}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt06_018",
+      "question": "Find the grammatical error in the given sentence:\nScarcely had the doctor left (A) / than the patient began (B) / to feel severe pain again. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "Scarcely had the doctor left",
+        "than the patient began",
+        "to feel severe pain again",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Scarcely' is followed by 'when', not 'than'. ('Than' is paired with 'No sooner').",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt06_019",
+      "question": "Select the synonym of the underlined word:\nHis **impeccable** record earned him a quick promotion.",
+      "imageUrl": "",
+      "options": [
+        "Flawless",
+        "Faulty",
+        "Ordinary",
+        "Questionable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Impeccable' means faultless or exemplary; 'Flawless' is its exact synonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt06_020",
+      "question": "Select the antonym of the underlined word:\nShe was **hesitant** to share her thoughts during the meeting.",
+      "imageUrl": "",
+      "options": [
+        "Reluctant",
+        "Confident",
+        "Uncertain",
+        "Cautious"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Hesitant' means slow or reluctant in acting; 'Confident' or decisive is its antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt06_021",
+      "question": "Fill in the blank with the most appropriate preposition:\nThe team succeeded ______ completing the project well before the deadline.",
+      "imageUrl": "",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "with"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The verb 'succeed' takes the preposition 'in' when followed by a gerund.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt06_022",
+      "question": "Select the option that correctly improves the underlined phrase:\nNeither he nor his friends **is going** to attend the seminar.",
+      "imageUrl": "",
+      "options": [
+        "are going",
+        "was going",
+        "has gone",
+        "were gone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When using 'neither... nor', the verb agrees with the closer subject ('his friends', which is plural). Hence, 'are going' is correct.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt06_023",
+      "question": "What is the meaning of the idiom 'To burn the midnight oil'?",
+      "imageUrl": "",
+      "options": [
+        "To waste energy",
+        "To work late into the night",
+        "To cause a fire accident",
+        "To feel exhausted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To burn the midnight oil' means to read or work late into the night.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt06_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Guarantee",
+        "Garantee",
+        "Guaranteee",
+        "Garanty"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Guarantee' is the correct standard spelling.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt06_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: digital banking has transformed\nQ: the way financial services\nR: are accessed and managed\nS: across the nation",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'digital banking has transformed (P) / the way financial services (Q) / are accessed and managed (R) / across the nation (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 04",
+  "chapterslug": "sbi_clerk_pt_04",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt04_001",
+      "question": "Statements:\nSome Mobiles are Laptops.\nNo Laptop is a Tablet.\n\nConclusions:\nI. Some Mobiles are not Tablets.\nII. No Mobile is a Tablet.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The portion of Mobiles that are Laptops can never be Tablets, so 'Some Mobiles are not Tablets' definitely follows (Conclusion I). However, we cannot claim 'No Mobile is a Tablet' across all Mobiles (Conclusion II does not follow).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt04_002",
+      "question": "Statements: X ≥ Y > Z; W ≤ Z = V\nConclusions:\nI. X > V\nII. Y > W",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combining the statements: X ≥ Y > Z = V ≥ W. From X ≥ Y > Z = V, we get X > V (Conclusion I follows). From Y > Z ≥ W, we get Y > W (Conclusion II follows).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt04_003",
+      "question": "In a certain code language, 'PAPER' is written as 'QBQFS'. How is 'STAMP' written in that language?",
+      "imageUrl": "",
+      "options": [
+        "TUBNQ",
+        "TUBNQ",
+        "TVBNQ",
+        "TUBQN"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1 in the alphabetical order: S+1=T, T+1=U, A+1=B, M+1=N, P+1=Q -> TUBNQ.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt04_004",
+      "question": "Statements: Only a few Pens are Pencils. No Pencil is an Eraser.\nConclusions:\nI. All Pens can never be Pencils.\nII. Some Pens are Erasers.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Only a few Pens are Pencils' means Some Pens are Pencils and Some Pens are NOT Pencils. Hence, All Pens can never be Pencils (Conclusion I follows). There is no definite relationship given between Pens and Erasers (Conclusion II does not follow).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt04_005",
+      "question": "How many such pairs of letters are there in the word 'STREAM' each of which has as many letters between them as in the English alphabet (in both forward and backward directions)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letter positions: S(19), T(20), R(18), E(5), A(1), M(13).\nForward: (S, T) -> S(19) and T(20) are consecutive.\nNo other pairs exist forward or backward. Total pair = 1.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt04_006",
+      "question": "If 'A + B' means A is the mother of B, 'A - B' means A is the sister of B, and 'A * B' means A is the father of B, what does 'P * Q + R - S' mean?",
+      "imageUrl": "",
+      "options": [
+        "P is the maternal grandfather of S",
+        "P is the father-in-law of S",
+        "P is the paternal grandfather of S",
+        "P is the uncle of S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P * Q -> P is father of Q. Q + R -> Q is mother of R. R - S -> R is sister of S. So Q is mother of S, and P is mother's father (maternal grandfather) of S.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt04_007",
+      "question": "A person walks 8 km South, then turns West and walks 6 km, then turns North and walks 8 km. How far is he from his starting point?",
+      "imageUrl": "",
+      "options": [
+        "6 km",
+        "8 km",
+        "10 km",
+        "14 km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 8 km South movement and 8 km North movement cancel each other out along the vertical axis. The remaining horizontal distance is 6 km West from the start point.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt04_008",
+      "question": "In a row of 35 people, A is 12th from the left end and B is 15th from the right end. How many people are sitting between A and B?",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions = $12 + 15 = 27$. Since $27 < 35$ (Total), there is no overlap. Persons between = $35 - 27 = 8$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt04_009",
+      "question": "What should come in place of the question mark (?) in the following question?\n$240 \\div 8 + 12 \\times 5 - 15 = ?$",
+      "imageUrl": "",
+      "options": [
+        "65",
+        "70",
+        "75",
+        "80"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using BODMAS:\n$240 \\div 8 = 30$\n$12 \\times 5 = 60$\n$30 + 60 - 15 = 75$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt04_010",
+      "question": "Find the missing term in the series: 4, 9, 19, 39, 79, ?",
+      "imageUrl": "",
+      "options": [
+        "149",
+        "159",
+        "169",
+        "179"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pattern: $\\times 2 + 1$.\n$4 \\times 2 + 1 = 9$\n$9 \\times 2 + 1 = 19$\n$19 \\times 2 + 1 = 39$\n$39 \\times 2 + 1 = 79$\n$? = 79 \\times 2 + 1 = 159$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt04_011",
+      "question": "A shopkeeper marks his goods 40% above the cost price and allows a discount of 15% on the marked price. What is his profit percentage?",
+      "imageUrl": "",
+      "options": [
+        "15%",
+        "17%",
+        "19%",
+        "21%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Net percentage change formula = $a + b + \\frac{a \\times b}{100} = 40 - 15 - \\frac{40 \\times 15}{100} = 25 - 6 = 19\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt04_012",
+      "question": "The ratio of the efficiency of A and B is 3 : 2. Working together, they can finish a work in 12 days. In how many days can A alone finish the work?",
+      "imageUrl": "",
+      "options": [
+        "18 days",
+        "20 days",
+        "24 days",
+        "30 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combined efficiency per day = $3 + 2 = 5\\text{ units}$. Total work = $5 \\times 12 = 60\\text{ units}$. Time taken by A alone = $\\frac{60}{3} = 20\\text{ days}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt04_013",
+      "question": "A car covers a distance of 300 km in 5 hours. If its speed is increased by 20 km/h, how much time will it take to cover the same distance?",
+      "imageUrl": "",
+      "options": [
+        "3.5 hours",
+        "3.75 hours",
+        "4 hours",
+        "4.25 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Original speed = $\\frac{300}{5} = 60\\text{ km/h}$. New speed = $60 + 20 = 80\\text{ km/h}$. New time = $\\frac{300}{80} = 3.75\\text{ hours}$ (or 3 hours 45 mins).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt04_014",
+      "question": "The simple interest on a sum of money for 2 years at 8% per annum is ₹1,200. Find the principal sum:",
+      "imageUrl": "",
+      "options": [
+        "₹6,500",
+        "₹7,000",
+        "₹7,500",
+        "₹8,000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$SI = \\frac{P \\times R \\times T}{100} \\Rightarrow 1200 = \\frac{P \\times 8 \\times 2}{100} \\Rightarrow 16P = 120000 \\Rightarrow P = ₹7,500$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "sbi_clerk_pt04_015",
+      "question": "The average of 5 numbers is 20. If one number is excluded, the average becomes 18. What is the excluded number?",
+      "imageUrl": "",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of 5 numbers = $5 \\times 20 = 100$. Sum of remaining 4 numbers = $4 \\times 18 = 72$. Excluded number = $100 - 72 = 28$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt04_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 9x + 20 = 0$\n$y^2 - 13y + 42 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "x ≥ y"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-4)(x-5) = 0 \\Rightarrow x = 4, 5$.\nFor $y$: $(y-6)(y-7) = 0 \\Rightarrow y = 6, 7$.\nSince both values of $x$ (4, 5) are smaller than both values of $y$ (6, 7), $x < y$ (which implies $x \\le y$).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt04_017",
+      "question": "The ratio of present ages of A and B is 3 : 4. Four years ago, the sum of their ages was 34 years. Find the present age of B:",
+      "imageUrl": "",
+      "options": [
+        "18 years",
+        "20 years",
+        "24 years",
+        "28 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Present sum of ages = $34 + 4 + 4 = 42\\text{ years}$. Ratio = $3 : 4$. Present age of B = $\\frac{4}{7} \\times 42 = 24\\text{ years}$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt04_018",
+      "question": "Find the error in the given sentence:\nNo sooner did the bell ring (A) / when the students rushed (B) / out of their classrooms. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "No sooner did the bell ring",
+        "when the students rushed",
+        "out of their classrooms",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'No sooner' is always paired with 'than', not 'when'. 'When' is used with 'Hardly' or 'Scarcely'.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt04_019",
+      "question": "Select the synonym of the underlined word:\nThe committee came to a **unanimous** decision regarding the promotion policy.",
+      "imageUrl": "",
+      "options": [
+        "Divided",
+        "United",
+        "Confused",
+        "Uncertain"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Unanimous' means in complete agreement or united in opinion.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt04_020",
+      "question": "Select the antonym of the underlined word:\nHis **arrogant** behaviour alienated most of his co-workers.",
+      "imageUrl": "",
+      "options": [
+        "Polite",
+        "Modest",
+        "Rude",
+        "Proud"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Arrogant' means having an exaggerated sense of one's own importance; 'Modest' or humble is its antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt04_021",
+      "question": "Fill in the blank with the most appropriate word:\nShe was so engrossed ______ her work that she did not notice the time.",
+      "imageUrl": "",
+      "options": [
+        "in",
+        "with",
+        "at",
+        "on"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The adjective 'engrossed' takes the preposition 'in' (e.g., 'engrossed in something').",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt04_022",
+      "question": "Select the correct option to replace the underlined phrase:\nHe is senior **than** me in the department by two years.",
+      "imageUrl": "",
+      "options": [
+        "to",
+        "from",
+        "over",
+        "above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparative adjectives like 'senior', 'junior', 'superior', 'inferior' take the preposition 'to' instead of 'than'.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt04_023",
+      "question": "What does the idiom 'To spill the beans' mean?",
+      "imageUrl": "",
+      "options": [
+        "To drop food",
+        "To reveal a secret",
+        "To waste resources",
+        "To create trouble"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'To spill the beans' means to disclose confidential information or reveal a secret prematurely.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt04_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Maintenance",
+        "Maintainance",
+        "Maintenence",
+        "Mentenance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Maintenance' is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt04_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: environmental conservation\nQ: plays a critical role\nR: in securing a healthy future\nS: for upcoming generations",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'environmental conservation (P) / plays a critical role (Q) / in securing a healthy future (R) / for upcoming generations (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}

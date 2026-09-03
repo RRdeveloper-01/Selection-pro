@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 01",
+  "chapterslug": "ssc_chsl_pt_01",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt01_001",
+      "question": "If CAT is coded as 24, and DOG is coded as 26, then PIG will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sum of positional values: P(16) + I(9) + G(7) = 32.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt01_002",
+      "question": "Select the missing number from the given series: 7, 10, 16, 25, 37, ?",
+      "imageUrl": "",
+      "options": [
+        "52",
+        "50",
+        "55",
+        "48"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Differences are +3, +6, +9, +12. Next difference is +15, so 37 + 15 = 52.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt01_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nNepal : Kathmandu :: Bhutan : ?",
+      "imageUrl": "",
+      "options": [
+        "Thimphu",
+        "Dhaka",
+        "Colombo",
+        "Male"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thimphu is the capital of Bhutan, just as Kathmandu is the capital of Nepal.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt01_004",
+      "question": "Point A is 5 m West of Point B. Point B is 4 m North of Point C. Point D is 5 m East of Point C. What is the distance between Point A and Point D?",
+      "imageUrl": "",
+      "options": [
+        "4 m",
+        "5 m",
+        "9 m",
+        "10 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Points form a rectangle; the distance between A and D is equal to BC, which is 4 m.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "ssc_chsl_pt01_005",
+      "question": "Find the odd one out among the given options:",
+      "imageUrl": "",
+      "options": [
+        "Copper",
+        "Iron",
+        "Brass",
+        "Aluminum"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Brass is an alloy, while the others are pure metallic elements.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt01_006",
+      "question": "In a row of 40 students, A is 15th from the left end. What is A's position from the right end?",
+      "imageUrl": "",
+      "options": [
+        "25th",
+        "26th",
+        "24th",
+        "27th"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Position from right = (Total students - Position from left) + 1 = (40 - 15) + 1 = 26th.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ranking"
+    },
+    {
+      "id": "ssc_chsl_pt01_007",
+      "question": "Which fundamental right in the Indian Constitution guarantees protection against untouchability?",
+      "imageUrl": "",
+      "options": [
+        "Article 15",
+        "Article 16",
+        "Article 17",
+        "Article 18"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Article 17 of the Indian Constitution abolishes untouchability.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt01_008",
+      "question": "Who among the following was the founder of the Brahmo Samaj?",
+      "imageUrl": "",
+      "options": [
+        "Swami Dayananda Saraswati",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt01_009",
+      "question": "Which layer of Earth's atmosphere contains the ozone layer?",
+      "imageUrl": "",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer is located in the Stratosphere.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt01_010",
+      "question": "What is the chemical symbol for Gold?",
+      "imageUrl": "",
+      "options": [
+        "Ag",
+        "Au",
+        "Fe",
+        "Hg"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The chemical symbol for Gold is Au (derived from Latin 'Aurum').",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt01_011",
+      "question": "Which instrument is used to measure electric current?",
+      "imageUrl": "",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Barometer",
+        "Galvanometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An ammeter is used to measure electric current in a circuit.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt01_012",
+      "question": "Who was the first Governor-General of independent India?",
+      "imageUrl": "",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Jawaharlal Nehru"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lord Mountbatten served as the first Governor-General of independent India.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt01_013",
+      "question": "If 15% of a number is 45, what is 40% of that number?",
+      "imageUrl": "",
+      "options": [
+        "100",
+        "120",
+        "140",
+        "160"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Number = (45 / 15) * 100 = 300. 40% of 300 = 120.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Percentage"
+    },
+    {
+      "id": "ssc_chsl_pt01_014",
+      "question": "A shopkeeper sells an item for ₹480 at a loss of 20%. To gain 20%, at what price should he sell it?",
+      "imageUrl": "",
+      "options": [
+        "₹600",
+        "₹640",
+        "₹720",
+        "₹800"
+      ],
+      "correctAnswer": 2,
+      "explanation": "CP = 480 / 0.8 = 600. New SP for 20% gain = 600 * 1.2 = ₹720.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt01_015",
+      "question": "Find the simple interest on ₹8000 at 5% per annum for 3 years:",
+      "imageUrl": "",
+      "options": [
+        "₹1000",
+        "₹1200",
+        "₹1400",
+        "₹1600"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SI = (P * R * T) / 100 = (8000 * 5 * 3) / 100 = ₹1200.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Simple Interest"
+    },
+    {
+      "id": "ssc_chsl_pt01_016",
+      "question": "A train 150 m long passes a telegraph pole in 9 seconds. The speed of the train in km/h is:",
+      "imageUrl": "",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "66 km/h",
+        "75 km/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = 150 / 9 m/s = (150 / 9) * (18 / 5) = 60 km/h.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt01_017",
+      "question": "If a + b = 8 and ab = 15, then the value of a³ + b³ is:",
+      "imageUrl": "",
+      "options": [
+        "152",
+        "172",
+        "192",
+        "212"
+      ],
+      "correctAnswer": 0,
+      "explanation": "a³ + b³ = (a + b)³ - 3ab(a + b) = 8³ - 3(15)(8) = 512 - 360 = 152.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt01_018",
+      "question": "The average of 5 numbers is 20. If one number is excluded, the average becomes 18. The excluded number is:",
+      "imageUrl": "",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of 5 numbers = 100. Sum of 4 numbers = 72. Excluded number = 100 - 72 = 28.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt01_019",
+      "question": "Find the perimeter of a rectangle whose length is 12 cm and diagonal is 13 cm:",
+      "imageUrl": "",
+      "options": [
+        "30 cm",
+        "34 cm",
+        "36 cm",
+        "40 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Breadth = √(13² - 12²) = √(169 - 144) = 5 cm. Perimeter = 2(12 + 5) = 34 cm.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Mensuration"
+    },
+    {
+      "id": "ssc_chsl_pt01_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Recieve",
+        "Receive",
+        "Receve",
+        "Recievee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Receive' is the correct spelling.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt01_021",
+      "question": "Select the synonym of the given word: BENIGN",
+      "imageUrl": "",
+      "options": [
+        "Harsh",
+        "Kind",
+        "Hostile",
+        "Severe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Benign means gentle, mild, or kind.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt01_022",
+      "question": "Select the antonym of the given word: ARTIFICIAL",
+      "imageUrl": "",
+      "options": [
+        "Synthetic",
+        "Natural",
+        "False",
+        "Unreal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Natural' is the direct opposite of 'Artificial'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt01_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nHe do not know how to swim in deep water.",
+      "imageUrl": "",
+      "options": [
+        "He do not",
+        "know how",
+        "to swim",
+        "in deep water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Third-person singular 'He' takes 'does not' instead of 'do not'.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt01_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To face a difficult situation with courage'",
+      "imageUrl": "",
+      "options": [
+        "Bite the bullet",
+        "Burn the midnight oil",
+        "Spill the beans",
+        "Cry over spilt milk"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Bite the bullet' means facing a difficult or unpleasant situation bravely.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt01_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A person who looks at the bright side of things'",
+      "imageUrl": "",
+      "options": [
+        "Pessimist",
+        "Optimist",
+        "Atheist",
+        "Pacifist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An 'Optimist' is a person who tends to be hopeful and looks at the positive side.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

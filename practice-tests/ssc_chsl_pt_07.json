@@ -1,0 +1,414 @@
+{
+  "subject": "SSC CHSL Tier 1 Full Mock Test",
+  "chapter": "Practice Test 07",
+  "chapterslug": "ssc_chsl_pt_07",
+  "totalQuestions": 25,
+  "pattern": {
+    "General Intelligence": 6,
+    "General Awareness": 6,
+    "Quantitative Aptitude": 7,
+    "English Language": 6
+  },
+  "questions": [
+    {
+      "id": "ssc_chsl_pt07_001",
+      "question": "If CAMEL is coded as 3113512, then HORSE will be coded as:",
+      "imageUrl": "",
+      "options": [
+        "81518195",
+        "81517195",
+        "81418195",
+        "81518185"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Letters correspond directly to their positions in the alphabetical order: H(8), O(15), R(18), S(19), E(5) -> 81518195.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "ssc_chsl_pt07_002",
+      "question": "Select the missing number in the given series: 3, 7, 16, 32, 57, ?",
+      "imageUrl": "",
+      "options": [
+        "85",
+        "91",
+        "93",
+        "98"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The differences between adjacent terms are square numbers: +4 ($2^2$), +9 ($3^2$), +16 ($4^2$), +25 ($5^2$). Next difference is +36 ($6^2$), making $57 + 36 = 93$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "ssc_chsl_pt07_003",
+      "question": "Select the option that is related to the third term in the same way as the second term is related to the first term:\nOphthalmologist : Eyes :: Nephrologist : ?",
+      "imageUrl": "",
+      "options": [
+        "Heart",
+        "Lungs",
+        "Kidneys",
+        "Liver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An ophthalmologist specializes in eyes; a nephrologist specializes in kidneys.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Analogy"
+    },
+    {
+      "id": "ssc_chsl_pt07_004",
+      "question": "Select the odd option among the following:",
+      "imageUrl": "",
+      "options": [
+        "Copper",
+        "Zinc",
+        "Iron",
+        "Brass"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Brass is an alloy (mixture of copper and zinc), whereas Copper, Zinc, and Iron are pure metallic elements.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Classification"
+    },
+    {
+      "id": "ssc_chsl_pt07_005",
+      "question": "A person starts walking towards the East. After walking 20 meters, he turns to his left and walks 15 meters. Then he turns to his right and walks 10 meters. Finally, he turns to his right and walks 15 meters. How far is he from his starting point?",
+      "imageUrl": "",
+      "options": [
+        "20 meters",
+        "25 meters",
+        "30 meters",
+        "35 meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Horizontal net displacement = $20\\text{ m (East)} + 10\\text{ m (East)} = 30\\text{ meters}$. Vertical displacement cancels out ($+15\\text{ m North} - 15\\text{ m South} = 0\\text{ m}$).",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "ssc_chsl_pt07_006",
+      "question": "In a row of students, Anil is 12th from the left and Sunita is 18th from the right. When they interchange their positions, Anil becomes 22nd from the left. How many students are there in the row?",
+      "imageUrl": "",
+      "options": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total students = (Anil's new position from left + Sunita's original position from right) - 1 = $22 + 18 - 1 = 39$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Ranking & Order"
+    },
+    {
+      "id": "ssc_chsl_pt07_007",
+      "question": "Which fundamental right in the Indian Constitution is referred to as the 'Heart and Soul of the Constitution' by Dr. B. R. Ambedkar?",
+      "imageUrl": "",
+      "options": [
+        "Right to Equality",
+        "Right to Freedom of Religion",
+        "Right to Constitutional Remedies",
+        "Right against Exploitation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dr. B. R. Ambedkar called Article 32 (Right to Constitutional Remedies) the heart and soul of the Constitution.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Indian Polity"
+    },
+    {
+      "id": "ssc_chsl_pt07_008",
+      "question": "Who was the Governor-General of India during the Revolt of 1857?",
+      "imageUrl": "",
+      "options": [
+        "Lord Dalhousie",
+        "Lord Canning",
+        "Lord Curzon",
+        "Lord Ripon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lord Canning served as the Governor-General of India during the Sepoy Mutiny of 1857 and later became India's first Viceroy.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt07_009",
+      "question": "Which layer of the atmosphere contains the ozone layer that protects us from ultraviolet rays?",
+      "imageUrl": "",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer is located in the lower portion of the Stratosphere.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geography"
+    },
+    {
+      "id": "ssc_chsl_pt07_010",
+      "question": "Which instrument is used to measure electric current in a circuit?",
+      "imageUrl": "",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Galvanometer",
+        "Barometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An Ammeter is used to measure electric current flowing in amperes.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Physics"
+    },
+    {
+      "id": "ssc_chsl_pt07_011",
+      "question": "Which acid is present in ant sting?",
+      "imageUrl": "",
+      "options": [
+        "Acetic acid",
+        "Formic acid",
+        "Citric acid",
+        "Lactic acid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ant stings contain Formic acid (Methanoic acid).",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Chemistry"
+    },
+    {
+      "id": "ssc_chsl_pt07_012",
+      "question": "Who was the founder of the Brahmo Samaj in 1828?",
+      "imageUrl": "",
+      "options": [
+        "Swami Dayananda Saraswati",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Ishwar Chandra Vidyasagar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in Kolkata in 1828.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Modern History"
+    },
+    {
+      "id": "ssc_chsl_pt07_013",
+      "question": "If the compound interest on a sum for 2 years at 10% per annum, compounded annually, is ₹525, find the simple interest on the same sum for the same period at the same rate:",
+      "imageUrl": "",
+      "options": [
+        "₹480",
+        "₹500",
+        "₹510",
+        "₹520"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CI rate equivalent for 2 years at 10% = $10 + 10 + \\frac{100}{100} = 21\\%$. So, $21\\% = ₹525 \\Rightarrow 1\\% = ₹25$. SI for 2 years at 10% = $20\\% = 20 \\times 25 = ₹500$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "ssc_chsl_pt07_014",
+      "question": "A train passes a 100 m long platform in 10 seconds and a telegraph post in 6 seconds. Find the length of the train:",
+      "imageUrl": "",
+      "options": [
+        "120 m",
+        "150 m",
+        "180 m",
+        "200 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $\\frac{L}{6} = \\frac{L + 100}{10} \\Rightarrow 10L = 6L + 600 \\Rightarrow 4L = 600 \\Rightarrow L = 150\\text{ m}$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Time, Speed and Distance"
+    },
+    {
+      "id": "ssc_chsl_pt07_015",
+      "question": "If $\\cos \\theta = \\frac{4}{5}$, then find the value of $\\tan \\theta + \\sec \\theta$:",
+      "imageUrl": "",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "2.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If $\\cos \\theta = \\frac{4}{5}$, base = 4, hypotenuse = 5, perpendicular = 3. $\\tan \\theta = \\frac{3}{4}$, $\\sec \\theta = \\frac{5}{4}$. Sum = $\\frac{3+5}{4} = 2$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Trigonometry"
+    },
+    {
+      "id": "ssc_chsl_pt07_016",
+      "question": "The areas of two similar triangles are $64\\text{ cm}^2$ and $121\\text{ cm}^2$. If the longest side of the larger triangle is $22\\text{ cm}$, what is the longest side of the smaller triangle?",
+      "imageUrl": "",
+      "options": [
+        "12 cm",
+        "14 cm",
+        "16 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ratio of sides = $\\sqrt{\\frac{\\text{Area}_1}{\\text{Area}_2}} = \\sqrt{\\frac{64}{121}} = \\frac{8}{11}$. Side = $\\frac{8}{11} \\times 22 = 16\\text{ cm}$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Geometry"
+    },
+    {
+      "id": "ssc_chsl_pt07_017",
+      "question": "If $a + b + c = 9$ and $ab + bc + ca = 26$, find the value of $a^2 + b^2 + c^2$:",
+      "imageUrl": "",
+      "options": [
+        "27",
+        "29",
+        "31",
+        "33"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca) \\Rightarrow 81 = a^2 + b^2 + c^2 + 52 \\Rightarrow a^2 + b^2 + c^2 = 29$.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Algebra"
+    },
+    {
+      "id": "ssc_chsl_pt07_018",
+      "question": "By selling an article for ₹720, a trader incurs a loss of 10%. At what price should he sell it to gain 20%?",
+      "imageUrl": "",
+      "options": [
+        "₹880",
+        "₹920",
+        "₹960",
+        "₹1000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cost Price = $\\frac{720}{0.90} = ₹800$. Target Selling Price = $800 \\times 1.20 = ₹960$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "ssc_chsl_pt07_019",
+      "question": "The average weight of 8 men increases by 1.5 kg when a man weighing 65 kg is replaced by a new man. Find the weight of the new man:",
+      "imageUrl": "",
+      "options": [
+        "72 kg",
+        "75 kg",
+        "77 kg",
+        "80 kg"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Increase in total weight = $8 \\times 1.5 = 12\\text{ kg}$. Weight of new man = $65 + 12 = 77\\text{ kg}$.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "ssc_chsl_pt07_020",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Accommodate",
+        "Acommodate",
+        "Accomodate",
+        "Acomodate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Accommodate' (with double 'c' and double 'm') is the correct spelling.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Spelling"
+    },
+    {
+      "id": "ssc_chsl_pt07_021",
+      "question": "Select the synonym of the given word: CANDID",
+      "imageUrl": "",
+      "options": [
+        "Frank",
+        "Deceitful",
+        "Secretive",
+        "Arrogant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Candid' means truthful and straightforward; 'Frank' is synonymous.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "ssc_chsl_pt07_022",
+      "question": "Select the antonym of the given word: OBSCURE",
+      "imageUrl": "",
+      "options": [
+        "Vague",
+        "Clear",
+        "Hidden",
+        "Doubtful"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Obscure' means unclear or uncertain; 'Clear' is its direct antonym.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "ssc_chsl_pt07_023",
+      "question": "Identify the segment in the sentence which contains a grammatical error:\nNeither John nor his friends is present at the party.",
+      "imageUrl": "",
+      "options": [
+        "Neither John",
+        "nor his friends",
+        "is present",
+        "at the party"
+      ],
+      "correctAnswer": 2,
+      "explanation": "When subjects are joined by 'neither... nor', the verb agrees with the subject closest to it. Since 'his friends' is plural, the verb should be 'are' instead of 'is'.",
+      "difficulty": "medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Error Detection"
+    },
+    {
+      "id": "ssc_chsl_pt07_024",
+      "question": "Select the most appropriate idiom for the given meaning: 'To face a difficult situation courageously'",
+      "imageUrl": "",
+      "options": [
+        "Take the bull by the horns",
+        "Cry over spilt milk",
+        "Add fuel to the fire",
+        "Spill the beans"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Take the bull by the horns' means to deal with a difficult situation directly and bravely.",
+      "difficulty": "easy",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "ssc_chsl_pt07_025",
+      "question": "Select the option that can be used as a one-word substitute for: 'A speech made without previous preparation'",
+      "imageUrl": "",
+      "options": [
+        "Extempore",
+        "Eulogy",
+        "Soliloquy",
+        "Oration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An 'Extempore' (or Impromptu) speech is spoken or done without preparation.",
+      "difficulty": "easy-medium",
+      "year": "SSC CHSL Tier 1 Level",
+      "topicTag": "One Word Substitution"
+    }
+  ]
+}

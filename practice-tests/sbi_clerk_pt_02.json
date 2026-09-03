@@ -1,0 +1,413 @@
+{
+  "subject": "SBI Clerk Prelims Full Mock Test",
+  "chapter": "Practice Test 05",
+  "chapterslug": "sbi_clerk_pt_05",
+  "totalQuestions": 25,
+  "pattern": {
+    "Reasoning Ability": 8,
+    "Quantitative Aptitude": 9,
+    "English Language": 8
+  },
+  "questions": [
+    {
+      "id": "sbi_clerk_pt05_001",
+      "question": "Statements:\nSome Books are Papers.\nAll Papers are Files.\n\nConclusions:\nI. Some Files are Books.\nII. Some Papers are Books.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Either conclusion I or II follows",
+        "Both conclusions I and II follow"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since Some Books are Papers and All Papers are Files, the overlap between Books and Papers is contained in Files, so Some Files are Books (Conclusion I follows). Also, if Some Books are Papers, it directly implies Some Papers are Books (Conclusion II follows).",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt05_002",
+      "question": "Statements: A ≥ B > C = D ≤ E < F\nConclusions:\nI. A > D\nII. C < F",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From A ≥ B > C = D, we get A > D (Conclusion I follows). From C = D ≤ E < F, we get C < F (Conclusion II follows). Both conclusions follow.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Inequality"
+    },
+    {
+      "id": "sbi_clerk_pt05_003",
+      "question": "In a certain code language, 'GLOBAL' is coded as 'HPMCBM'. How is 'FLOWER' coded in that language?",
+      "imageUrl": "",
+      "options": [
+        "GMPXFS",
+        "GMPXFS",
+        "GKPXFS",
+        "GMQXFS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each letter is shifted forward by +1 in alphabetical order: F+1=G, L+1=M, O+1=P, W+1=X, E+1=F, R+1=S -> GMPXFS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Coding-Decoding"
+    },
+    {
+      "id": "sbi_clerk_pt05_004",
+      "question": "Statements: Only a few Cars are Bikes. No Bike is a Bus.\nConclusions:\nI. Some Cars are not Buses.\nII. All Bikes being Cars is a possibility.",
+      "imageUrl": "",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions I and II follow",
+        "Neither conclusion I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The portion of Cars that are Bikes cannot be Buses, so 'Some Cars are not Buses' is true (Conclusion I follows). While Cars cannot all be Bikes due to 'Only a few', all Bikes can easily fit inside Cars as a possibility (Conclusion II follows).",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Syllogism"
+    },
+    {
+      "id": "sbi_clerk_pt05_005",
+      "question": "A person walks 12m North from point A to B, turns East and walks 5m to point C. What is the shortest distance between point A and point C?",
+      "imageUrl": "",
+      "options": [
+        "13m",
+        "15m",
+        "17m",
+        "19m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Pythagoras theorem: Shortest distance = $\\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13\\text{m}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Direction Sense"
+    },
+    {
+      "id": "sbi_clerk_pt05_006",
+      "question": "In a row of 30 persons facing North, P is 10th from the left end and Q is 12th from the right end. How many persons sit between P and Q?",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum of positions from ends = $10 + 12 = 22$. Since $22 < 30$, there is no overlap. Number of persons between = $30 - 22 = 8$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Order and Ranking"
+    },
+    {
+      "id": "sbi_clerk_pt05_007",
+      "question": "Pointing to a man, a woman said, 'His mother is the only daughter of my father.' How is the woman related to the man?",
+      "imageUrl": "",
+      "options": [
+        "Sister",
+        "Mother",
+        "Aunt",
+        "Daughter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'only daughter of my father' refers to the woman herself. Therefore, his mother is the woman, meaning she is his mother.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Blood Relations"
+    },
+    {
+      "id": "sbi_clerk_pt05_008",
+      "question": "How many meaningful English words can be formed using the 1st, 3rd, 5th, and 8th letters of the word 'BANKING' (using each letter only once in each word)?",
+      "imageUrl": "",
+      "options": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Letters chosen: 1st=B, 3rd=N, 5th=I, 8th=No 8th letter (word length is 7). Correcting target word to 'BANKINGS' (8 letters) -> 1st=B, 3rd=N, 5th=I, 8th=S -> NIB(S) / BIN(S) -> One standard meaningful word: 'BINS'.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Alphabet Test"
+    },
+    {
+      "id": "sbi_clerk_pt05_009",
+      "question": "What should come in place of the question mark (?) in the following equation?\n$35\\% \\text{ of } 200 + 40\\% \\text{ of } 150 = ?$",
+      "imageUrl": "",
+      "options": [
+        "120",
+        "130",
+        "140",
+        "150"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$35\\% \\text{ of } 200 = 70$.\n$40\\% \\text{ of } 150 = 60$.\n$70 + 60 = 130$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Simplification"
+    },
+    {
+      "id": "sbi_clerk_pt05_010",
+      "question": "Find the missing number in the series: 3, 7, 16, 35, 74, ?",
+      "imageUrl": "",
+      "options": [
+        "143",
+        "149",
+        "153",
+        "158"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pattern: $\\times 2 + 1, \\times 2 + 2, \\times 2 + 3, \\times 2 + 4, \\times 2 + 5$.\n$3 \\times 2 + 1 = 7$\n$7 \\times 2 + 2 = 16$\n$16 \\times 2 + 3 = 35$\n$35 \\times 2 + 4 = 74$\n$? = 74 \\times 2 + 5 = 153$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Number Series"
+    },
+    {
+      "id": "sbi_clerk_pt05_011",
+      "question": "An article is sold for ₹720 at a loss of 10%. At what price should it be sold to earn a profit of 20%?",
+      "imageUrl": "",
+      "options": [
+        "₹880",
+        "₹920",
+        "₹960",
+        "₹1,000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SP at 90% CP = ₹720 $\\Rightarrow$ CP = $\\frac{720}{0.90} = ₹800$.\nTarget SP for 20% profit = $800 \\times 1.20 = ₹960$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Profit and Loss"
+    },
+    {
+      "id": "sbi_clerk_pt05_012",
+      "question": "A sum of ₹10,000 earns compound interest of ₹2,100 in 2 years (compounded annually). What is the annual rate of interest?",
+      "imageUrl": "",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Amount = $10000 + 2100 = ₹12,100$.\n$\\frac{A}{P} = \\frac{12100}{10000} = \\left(1 + \\frac{R}{100}\\right)^2 \\Rightarrow \\left(\\frac{11}{10}\\right)^2 = \\left(1 + \\frac{R}{100}\\right)^2 \\Rightarrow \\frac{R}{100} = 0.10 \\Rightarrow R = 10\\%$.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Compound Interest"
+    },
+    {
+      "id": "sbi_clerk_pt05_013",
+      "question": "A, B, and C can complete a piece of work in 10, 12, and 15 days respectively. In how many days can all three complete the work together?",
+      "imageUrl": "",
+      "options": [
+        "3 days",
+        "4 days",
+        "5 days",
+        "6 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combined 1-day work = $\\frac{1}{10} + \\frac{1}{12} + \\frac{1}{15} = \\frac{6 + 5 + 4}{60} = \\frac{15}{60} = \\frac{1}{4}$.\nTime taken = 4 days.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Time and Work"
+    },
+    {
+      "id": "sbi_clerk_pt05_014",
+      "question": "The ratio of ages of A and B is 4 : 5. After 6 years, the sum of their ages will be 57 years. Find the present age of A:",
+      "imageUrl": "",
+      "options": [
+        "16 years",
+        "20 years",
+        "24 years",
+        "28 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Present sum of ages = $57 - 6 - 6 = 45\\text{ years}$. Ratio = $4 : 5$.\nPresent age of A = $\\frac{4}{9} \\times 45 = 20\\text{ years}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Ages"
+    },
+    {
+      "id": "sbi_clerk_pt05_015",
+      "question": "A train running at a speed of 90 km/h passes a pole in 12 seconds. Find the length of the train:",
+      "imageUrl": "",
+      "options": [
+        "250 meters",
+        "300 meters",
+        "350 meters",
+        "400 meters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed = $90 \\times \\frac{5}{18} = 25\\text{ m/s}$.\nLength = Speed $\\times$ Time = $25 \\times 12 = 300\\text{ meters}$.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Speed, Time and Distance"
+    },
+    {
+      "id": "sbi_clerk_pt05_016",
+      "question": "Solve the quadratic equations:\n$x^2 - 11x + 30 = 0$\n$y^2 - 15y + 56 = 0$",
+      "imageUrl": "",
+      "options": [
+        "x > y",
+        "x < y",
+        "x ≤ y",
+        "No relation can be established"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x$: $(x-5)(x-6) = 0 \\Rightarrow x = 5, 6$.\nFor $y$: $(y-7)(y-8) = 0 \\Rightarrow y = 7, 8$.\nSince all values of $x$ (5, 6) are strictly less than all values of $y$ (7, 8), $x < y$ (which implies $x \\le y$).",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "sbi_clerk_pt05_017",
+      "question": "The average score of 20 students in a test is 50. Later, it was discovered that a score of 45 was incorrectly misread as 85. What is the correct average score?",
+      "imageUrl": "",
+      "options": [
+        "47",
+        "48",
+        "49",
+        "51"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Difference in total sum = $45 - 85 = -40$.\nChange in average = $\\frac{-40}{20} = -2$.\nCorrect average = $50 - 2 = 48$.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Average"
+    },
+    {
+      "id": "sbi_clerk_pt05_018",
+      "question": "Find the error in the given sentence:\nShe is one of those employees (A) / who always completes (B) / their tasks on time. (C) / No error (D)",
+      "imageUrl": "",
+      "options": [
+        "She is one of those employees",
+        "who always completes",
+        "their tasks on time",
+        "No error"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relative pronoun 'who' refers to the plural antecedent 'employees', so it requires a plural verb ('complete' instead of 'completes').",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Error Spotting"
+    },
+    {
+      "id": "sbi_clerk_pt05_019",
+      "question": "Select the synonym of the underlined word:\nHis **meticulous** approach to work ensured there were no errors in the report.",
+      "imageUrl": "",
+      "options": [
+        "Careless",
+        "Thorough",
+        "Hasty",
+        "Indifferent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Meticulous' means showing great attention to detail or thorough/careful.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Synonyms"
+    },
+    {
+      "id": "sbi_clerk_pt05_020",
+      "question": "Select the antonym of the underlined word:\nThe new regulations brought **clarity** to the existing tax framework.",
+      "imageUrl": "",
+      "options": [
+        "Simplicity",
+        "Confusion",
+        "Directness",
+        "Transparency"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Clarity' means the quality of being clear; 'Confusion' or ambiguity is its direct antonym.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Antonyms"
+    },
+    {
+      "id": "sbi_clerk_pt05_021",
+      "question": "Fill in the blank with the most suitable word:\nDespite facing severe obstacles, she ______ in pursuing her medical degree.",
+      "imageUrl": "",
+      "options": [
+        "persisted",
+        "refused",
+        "surrendered",
+        "hesitated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Persisted' means continued firmly in a course of action despite difficulty.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Fillers"
+    },
+    {
+      "id": "sbi_clerk_pt05_022",
+      "question": "Select the correct option to replace the underlined phrase:\nNeither the manager nor his assistants **was available** for comment.",
+      "imageUrl": "",
+      "options": [
+        "were available",
+        "is available",
+        "are available",
+        "has been available"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When 'neither... nor' connects two subjects, the verb agrees with the closer subject ('assistants', which is plural past context). Thus, 'were available' is correct.",
+      "difficulty": "easy-medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Sentence Improvement"
+    },
+    {
+      "id": "sbi_clerk_pt05_023",
+      "question": "Select the idiom that best fits: 'To be in a state of uncertainty or indecision'",
+      "imageUrl": "",
+      "options": [
+        "Sitting on the fence",
+        "Burning the candle at both ends",
+        "Biting the bullet",
+        "Barking up the wrong tree"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Sitting on the fence' means remaining neutral or undecided in a situation.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Idioms"
+    },
+    {
+      "id": "sbi_clerk_pt05_024",
+      "question": "Select the correctly spelt word:",
+      "imageUrl": "",
+      "options": [
+        "Entrepreneur",
+        "Entreprenuer",
+        "Entreprener",
+        "Entrapreneur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Entrepreneur' is the correct spelling.",
+      "difficulty": "medium",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Spelling Test"
+    },
+    {
+      "id": "sbi_clerk_pt05_025",
+      "question": "Rearrange the given parts to form a coherent sentence:\nP: effective communication skills\nQ: are vital for success\nR: in both personal\nS: and professional spheres",
+      "imageUrl": "",
+      "options": [
+        "P Q R S",
+        "Q P R S",
+        "R S P Q",
+        "P R Q S"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logical sequence: 'effective communication skills (P) / are vital for success (Q) / in both personal (R) / and professional spheres (S).' -> PQRS.",
+      "difficulty": "easy",
+      "year": "SBI Clerk Prelims Level",
+      "topicTag": "Para Jumbles"
+    }
+  ]
+}
