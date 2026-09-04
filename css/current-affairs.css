@@ -1,0 +1,315 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f7fb;
+            color: #202124;
+            line-height: 1.75;
+            padding-top: 130px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+
+        .container {
+            width: min(1100px, 92%);
+            margin: auto;
+        }
+
+
+        /* =========================
+           BREADCRUMB
+        ========================== */
+
+        .breadcrumb {
+            padding: 18px 0;
+            font-size: 13px;
+            color: #666;
+        }
+
+        .breadcrumb a {
+            color: #2563eb;
+        }
+
+
+        /* =========================
+           ARTICLE
+        ========================== */
+
+        .article {
+            background: #fff;
+            padding: 32px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,.05);
+        }
+
+
+        .category {
+            display: inline-block;
+            background: #eaf1ff;
+            color: #2563eb;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+
+        h1 {
+            font-size: clamp(28px, 5vw, 44px);
+            line-height: 1.25;
+            color: #111827;
+            margin-bottom: 15px;
+        }
+
+
+        .intro {
+            font-size: 17px;
+            color: #555;
+            margin-bottom: 18px;
+        }
+
+
+        .updated {
+            font-size: 13px;
+            color: #777;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 18px;
+        }
+
+
+        /* =========================
+           SHARE
+        ========================== */
+
+        .share-box {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 18px;
+            margin: 25px 0;
+        }
+
+
+        .share-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+
+        .share-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+        }
+
+
+        .share-btn {
+            border: 0;
+            cursor: pointer;
+            padding: 9px 14px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 600;
+            background: #eef2f7;
+            transition: .2s;
+        }
+
+
+        .share-btn:hover {
+            transform: translateY(-2px);
+        }
+
+
+        /* =========================
+           NEWS CARD
+        ========================== */
+
+        .news-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+
+        .news-card h2 {
+            font-size: 25px;
+            line-height: 1.4;
+            color: #111827;
+            margin-bottom: 14px;
+        }
+
+
+        .news-card h3 {
+            font-size: 18px;
+            margin: 20px 0 8px;
+        }
+
+
+        .news-card p {
+            color: #444;
+            margin-bottom: 13px;
+        }
+
+
+        .highlight {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 18px 0;
+        }
+
+
+        /* =========================
+           FACTS
+        ========================== */
+
+        .facts {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+
+        .fact {
+            background: #f8fafc;
+            border-radius: 9px;
+            padding: 15px;
+        }
+
+
+        .fact strong {
+            display: block;
+            color: #111827;
+        }
+
+
+        /* =========================
+           REVISION BOX
+        ========================== */
+
+        .revision {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 22px;
+            margin-top: 30px;
+        }
+
+
+        .revision li {
+            margin: 8px 0 8px 20px;
+        }
+
+
+        /* =========================
+           FAQ
+        ========================== */
+
+        .faq {
+            margin-top: 35px;
+        }
+
+
+        .faq h2 {
+            margin-bottom: 10px;
+        }
+
+
+        .faq-item {
+            padding: 16px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+
+        .faq-item h3 {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+
+
+        /* =========================
+           RELATED
+        ========================== */
+
+        .related {
+            margin-top: 35px;
+        }
+
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+
+        .related-card {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 17px;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            margin-top: 40px;
+            background: #111827;
+            color: #fff;
+            text-align: center;
+            padding: 30px 15px;
+            font-size: 13px;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================== */
+
+        @media (max-width: 700px) {
+
+            .article {
+                padding: 20px;
+            }
+
+            .facts {
+                grid-template-columns: 1fr;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .news-card {
+                padding: 18px;
+            }
+
+            .news-card h2 {
+                font-size: 21px;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+        }
