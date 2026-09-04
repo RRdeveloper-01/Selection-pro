@@ -91,7 +91,15 @@
           "value": "0"
         }
       ]
-}
+},{
+      "source": "/includes/js/pwabanner.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        }
+      ]
+    }
     
   ]
 }

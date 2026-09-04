@@ -55,6 +55,11 @@ const promoBanners = [
     id: "preparation-guide",
     image: "/images/strategy.webp",
     link: "/blog/preparation-guide.html"
+  },
+  {
+    id: "support",
+    image: "/images/support.webp",
+    link: "/support.html"
   }
 
 ];
