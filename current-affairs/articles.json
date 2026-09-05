@@ -1,5 +1,29 @@
 [
   {
+  "title": "Economy News Today - 5 Sep 2026",
+  "date": "5 Sep 2026",
+  "file": "economy/sept-05-2026-economy.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "economy"
+},
+{
+  "title": "Science & Technology / Space News Today - 5 Sep 2026",
+  "date": "5 Sep 2026",
+  "file": "science-technology/sept-05-2026-science-technology.html",
+  "month": "2026-09",
+  "exams": "upsc ssc railway state-psc defence",
+  "cats": "science-technology"
+},
+{
+  "title": "International News Today - 5 Sep 2026",
+  "date": "5 Sep 2026",
+  "file": "international/sept-05-2026-international.html",
+  "month": "2026-09",
+  "exams": "upsc ssc railway state-psc defence",
+  "cats": "international"
+},
+  {
   "title": "National News Today - 4 Sep 2026",
   "date": "4 Sep 2026",
   "file": "national/sept-04-2026-national.html",
