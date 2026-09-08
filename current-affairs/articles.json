@@ -1,6 +1,46 @@
 [
   
   {
+    "title": "National Current Affairs Today - 8 Sep 2026",
+    "date": "8 Sep 2026",
+    "file": "national/sept-08-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc railway state-psc",
+    "cats": "national"
+  },
+  {
+    "title": "International Current Affairs Today - 8 Sep 2026",
+    "date": "8 Sep 2026",
+    "file": "international/sept-08-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc state-psc",
+    "cats": "international"
+  },
+  {
+    "title": "Economy Current Affairs Today - 8 Sep 2026",
+    "date": "8 Sep 2026",
+    "file": "economy/sept-08-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "economy"
+  },
+  {
+    "title": "Science and Technology Current Affairs Today - 8 Sep 2026",
+    "date": "8 Sep 2026",
+    "file": "science-technology/sept-08-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc railway state-psc",
+    "cats": "science-technology"
+  },
+  {
+    "title": "Sports Current Affairs Today - 8 Sep 2026",
+    "date": "8 Sep 2026",
+    "file": "sports/sept-08-2026.html",
+    "month": "2026-09",
+    "exams": "ssc railway state-psc",
+    "cats": "sports"
+  },
+  {
     "title": "National News Today - 7 Sep 2026",
     "date": "7 Sep 2026",
     "file": "national/sept-07-2026.html",
