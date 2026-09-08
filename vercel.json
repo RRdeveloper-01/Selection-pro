@@ -102,7 +102,16 @@
     },
 
     {
-      "source": "/affairs-hub.html",
+      "source": "/current-affairs /affairs-hub.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate, max-age=0"
+        }
+      ]
+    },
+  {
+      "source": "/current-affairs/affairs.js",
       "headers": [
         {
           "key": "Cache-Control",
@@ -110,7 +119,6 @@
         }
       ]
     }
-  
 
     
   ]
