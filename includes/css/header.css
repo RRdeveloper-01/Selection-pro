@@ -3,13 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 0;
+    margin: 0;
     background: #fff;
     border-bottom: 1px solid #ddd;
     position: fixed; /* Header ko screen par fix rakhne ke liye */
     top: 0;
     left: 0;
     width: 100%; /* Pura width lene ke liye */
+    padding-left: 25px;
+    padding-right: 20px;
     z-index: 100;
 }
 

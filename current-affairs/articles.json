@@ -1,5 +1,45 @@
 [
   {
+    "title": "National Current Affairs 10 September 2026: India News Today & Education News",
+    "date": "10 Sep 2026",
+    "file": "national/sept-10-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "national"
+  },
+  {
+    "title": "World News & International Current Affairs 10 September 2026: Global News Today",
+    "date": "10 Sep 2026",
+    "file": "international/sept-10-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "international"
+  },
+  {
+    "title": "Economy Current Affairs 10 September 2026: India Economy News, RBI, Rupee & Markets",
+    "date": "10 Sep 2026",
+    "file": "economy/sept-10-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "economy"
+  },
+  {
+    "title": "Science & Technology Current Affairs 10 September 2026: ISRO, Space News & Technology",
+    "date": "10 Sep 2026",
+    "file": "science-technology/sept-10-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "science-technology"
+  },
+  {
+    "title": "Sports Current Affairs 10 September 2026: India Sports News, Cricket & Hockey",
+    "date": "10 Sep 2026",
+    "file": "sports/sept-10-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "sports"
+  },
+  {
     "title": "National News Today - 9 Sep 2026",
     "date": "9 Sep 2026",
     "file": "national/sept-09-2026.html",
