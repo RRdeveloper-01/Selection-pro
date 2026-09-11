@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SelectionPro - Free Online Handwritten PDF Notes Maker Tool</title>
+  
+  <!-- On-Page SEO Meta Tags -->
+  <meta name="description" content="SelectionPro ek free online tool hai jisse aap professional handwritten style notes bana sakte hain aur unhe instant high-quality PDF me download kar sakte hain. Free notes maker for students and teachers.">
+  <meta name="keywords" content="handwritten notes maker, online notes tool, free pdf notes generator, selectionpro notes, student notes maker, high quality pdf notes, digital handwriting tool">
+  <meta name="author" content="SelectionPro">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SelectionPro - Create & Download Free Handwritten PDF Notes">
+  <meta property="og:description" content="Design beautiful handwritten PDF notes online for free. Custom fonts, design banners, and instant PDF download. Share with your friends!">
+  <meta property="og:url" content="https://selectionpro.in/landing.html">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --sky-blue: #0ea5e9;
+      --sky-light: #f0f9ff;
+      --sky-soft: #e0f2fe;
+      --navy-dark: #0f172a;
+      --text-gray: #475569;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      padding-top: 130px;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--sky-light);
+      color: var(--navy-dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* Dummy Header Placeholder (Aap iski jagah apna Header include kar sakte hain) */
+    .common-header-placeholder {
+      width: 100%;
+      background: var(--white);
+      padding: 15px 5%;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      font-weight: bold;
+      color: var(--sky-blue);
+      border-bottom: 2px solid var(--sky-soft);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      text-align: center;
+      padding: 40px 10px;
+    }
+
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--navy-dark);
+      margin-bottom: 15px;
+    }
+
+    .hero-title span {
+      color: var(--sky-blue);
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+      color: var(--text-gray);
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+    }
+
+    /* 3D Action Card */
+    .card-3d-wrapper {
+      perspective: 1000px;
+      display: flex;
+      justify-content: center;
+      margin: 30px 0 50px 0;
+    }
+
+    .card-3d {
+      background: linear-gradient(135deg, #ffffff 0%, #e0f2fe 100%);
+      width: 100%;
+      max-width: 600px;
+      padding: 40px 30px;
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15), 
+                  0 1px 3px rgba(0, 0, 0, 0.05);
+      border: 2px solid var(--white);
+      text-align: center;
+      transform-style: preserve-3d;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .card-3d:hover {
+      transform: translateY(-10px) rotateX(4deg) rotateY(-2deg);
+      box-shadow: 0 30px 60px rgba(14, 165, 233, 0.25);
+    }
+
+    .card-3d-icon {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+      display: inline-block;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .btn-3d {
+      display: inline-block;
+      background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+      color: var(--white);
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 16px 36px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 10px 20px rgba(14, 165, 233, 0.4);
+      transition: all 0.3s ease;
+      border: none;
+      margin-top: 15px;
+    }
+
+    .btn-3d:hover {
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      box-shadow: 0 15px 25px rgba(14, 165, 233, 0.5);
+      transform: scale(1.03);
+    }
+
+    /* Features Section */
+    .features-section {
+      margin-top: 60px;
+    }
+
+    .section-heading {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: var(--navy-dark);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .feature-box {
+      background: var(--white);
+      padding: 30px 25px;
+      border-radius: 16px;
+      border: 1px solid var(--sky-soft);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+      border-color: var(--sky-blue);
+    }
+
+    .feature-icon {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    .feature-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: var(--navy-dark);
+    }
+
+    .feature-desc {
+      font-size: 0.95rem;
+      color: var(--text-gray);
+    }
+
+    /* Share Alert / Callout Box */
+    .share-callout {
+      background: linear-gradient(135deg, #e0f2fe 0%, #ffffff 100%);
+      border: 2px dashed var(--sky-blue);
+      border-radius: 16px;
+      padding: 25px;
+      text-align: center;
+      margin: 60px 0 30px 0;
+    }
+
+    .share-callout h3 {
+      color: var(--sky-blue);
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+    }
+
+    .share-callout p {
+      color: var(--text-gray);
+      font-size: 0.95rem;
+    }
+
+    /* Dummy Footer Placeholder */
+    .common-footer-placeholder {
+      width: 100%;
+      background: var(--white);
+      padding: 20px 5%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--text-gray);
+      border-top: 2px solid var(--sky-soft);
+      margin-top: 40px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero-title { font-size: 1.9rem; }
+      .card-3d { padding: 30px 20px; }
+      .btn-3d { font-size: 1rem; padding: 14px 28px; }
+    }
+  </style>
+  
+<link rel="manifest" href="/manifest.json">
+
+<meta name="theme-color" content="#ffffff">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="apple-mobile-web-app-title" content="Selection Pro">
+
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+   
+    <link rel="stylesheet" href="/includes/css/header.css">
+    <link rel="stylesheet" href="/includes/css/footer.css">
+    <script src="/includes/js/analytics.js"></script>
+    <script src="/includes/js/onesignal.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+        <script src="/includes/js/notification.js"></script>
+
+</head>
+<body>
+
+<div id="header"></div>
+  <main class="container">
+    
+    <!-- Hero Section with Natural Keyword Integration -->
+    <section class="hero-section">
+      <h1 class="hero-title">Create Beautiful <span>Handwritten PDF Notes</span> Online</h1>
+      <p class="hero-subtitle">
+        SelectionPro is an advanced free digital tool designed for students and teachers to write clean, formatted, handwriting-style notes and export them instantly as print-ready PDF documents.
+      </p>
+
+      <!-- 3D Card Area -->
+      <div class="card-3d-wrapper">
+        <div class="card-3d" onclick="window.location.href='index.html'">
+          <div class="card-3d-icon">📒</div>
+          <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--navy-dark);">
+            SelectionPro Notes Studio
+          </h2>
+          <p style="font-size: 0.95rem; color: var(--text-gray); margin-bottom: 15px;">
+            Click below to open the workspace and start designing your customized handwritten notes instantly.
+          </p>
+          <a href="/tools/notes-maker.html" class="btn-3d">Click Here to Start Writing Notes 📒</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features-section">
+      <h2 class="section-heading">Why Use SelectionPro Notes Tool?</h2>
+      
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">📝</div>
+          <h3 class="feature-title">Real Handwriting Style</h3>
+          <p class="feature-desc">Write notes using attractive cursive fonts like Kalam and Caveat that look like natural pen-on-paper handwriting.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">📄</div>
+          <h3 class="feature-title">Multiple Page Formats</h3>
+          <p class="feature-desc">Choose from standard Ruled lines, Plain blank pages, Grid/Maths paper, or Dotted patterns according to your subjects.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🎨</div>
+          <h3 class="feature-title">Smart Banners & Headers</h3>
+          <p class="feature-desc">Organize topics effortlessly using drag-and-drop pre-designed headers, section tags, remarks, and note highlight banners.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Instant PDF Download</h3>
+          <p class="feature-desc">Convert your handwritten digital notes into high-resolution, perfectly aligned A4 PDF documents in a single click.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Share Callout Section -->
+    <section class="share-callout">
+      <h3>📢 Loved using SelectionPro?</h3>
+      <p>Please <strong>share with your friends</strong>, study groups, and classmates so everyone can make aesthetic handwritten PDF notes easily!</p>
+    </section>
+
+  </main>
+
+<div id="footer"></div>
+<div id="pwa"></div>
+<script src="/includes/js/pwabanner.js"></script>
+<script src="/includes/js/pwa.js"></script>
+<script src="/includes/js/header.js" ></script>
+<script src="/includes/js/footer.js" ></script>
+
+
+<script src="/includes/js/search.js"></script>
+</body>
+</html>
