@@ -1,54 +1,57 @@
 [
-  [
   {
-    "title": "National Current Affairs 13 September 2026: India News Today & Education News",
-    "date": "13 September 2026",
-    "file": "/current-affairs/national/sept-13-2026.html",
-    "month": "September 2026",
-    "exams": ["UPSC", "SSC", "Railway", "Banking", "Defence", "State PCS"],
-    "cats": ["National", "India News", "Education News"]
-  },
-  {
-    "title": "World News & International Current Affairs 13 September 2026: Global News Today",
-    "date": "13 September 2026",
-    "file": "/current-affairs/international/sept-13-2026.html",
-    "month": "September 2026",
-    "exams": ["UPSC", "SSC", "Railway", "Banking", "State PCS"],
-    "cats": ["International", "World News", "Global News"]
-  },
-  {
-    "title": "Economy Current Affairs 13 September 2026: India Economy News, Oil, Rupee & Markets",
-    "date": "13 September 2026",
-    "file": "/current-affairs/economy/sept-13-2026.html",
-    "month": "September 2026",
-    "exams": ["UPSC", "SSC", "Banking", "Railway", "State PCS"],
-    "cats": ["Economy", "India Economy", "Business & Finance"]
-  },
-  {
-    "title": "Science & Technology Current Affairs 13 September 2026: ISRO, Space & Innovation News",
-    "date": "13 September 2026",
-    "file": "/current-affairs/science-technology/sept-13-2026.html",
-    "month": "September 2026",
-    "exams": ["UPSC", "SSC", "Railway", "Defence", "State PCS"],
-    "cats": ["Science & Technology", "ISRO", "Space", "AI & Innovation"]
-  },
-  {
-    "title": "Sports Current Affairs 13 September 2026: India Sports News, Cricket & Hockey",
-    "date": "13 September 2026",
-    "file": "/current-affairs/sports/sept-13-2026.html",
-    "month": "September 2026",
-    "exams": ["SSC", "Railway", "UPSC", "Defence", "State PCS"],
-    "cats": ["Sports", "India Sports", "Cricket", "Hockey"]
-  }
-],
+  "title": "National Current Affairs 13 September 2026: India News Today, BRICS & Education News",
+  "date": "13 Sep 2026",
+  "file": "national/sept-13-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "national",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "World News & International Current Affairs 13 September 2026: Global News Today",
+  "date": "13 Sep 2026",
+  "file": "international/sept-13-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "international",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Economy Current Affairs 13 September 2026: India Economy News, Rupee, Oil & Markets",
+  "date": "13 Sep 2026",
+  "file": "economy/sept-13-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "economy",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Science & Technology Current Affairs 13 September 2026: India Space & Innovation News",
+  "date": "13 Sep 2026",
+  "file": "science-technology/sept-13-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "science-technology",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Sports Current Affairs 13 September 2026: India Sports News, Cricket & Hockey",
+  "date": "13 Sep 2026",
+  "file": "sports/sept-13-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "sports",
+  "previous": "/current-affairs/affairs-hub.html"
+},
   {
     "title": "National Current Affairs 12 September 2026: India News Today, BRICS & Education News",
     "date": "12 Sep 2026",
     "file": "national/sept-12-2026.html",
     "month": "2026-09",
     "exams": "upsc ssc banking railway state-psc",
-    "cats": "national",
-    "previous": "/current-affairs/affairs-hub.html"
+    "cats": "national"
+
    
   },
   {
