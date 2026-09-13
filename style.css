@@ -127,57 +127,7 @@ button:hover {
     }
 /*mock test */
 
-.lang-header {
-    background-color: #333;
-    color: white;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    text-decoration: none;}
-.spac{
-    border: 3px solid black;
-    padding: 10px ;
-    background-color: #121288;
-    color: white;
-    margin: 10px ;
-    padding: 15px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    text-decoration: none;}
-.space{
-    border: 3px solid black;
-    padding: 10px ;
-    background-color: #121288;
-    color: white;
-    margin: 15px ;
-    padding: 15px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    text-decoration: none;}
-.switches a {
-    color: #bbb;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: 500;
-    justify-items: center;}
-.switches a:hover {
-    background-color: lightblue;}
-.switches a.active {
-    color: blue;
-    font-weight: bold;}
-.content {
-    padding: 50px;
-    text-align: center;
-}
-        
+
 
     .faq-item {
         border-bottom: 1px solid #d1d8e0;

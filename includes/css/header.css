@@ -206,3 +206,408 @@
     font-size: 12px;
     font-weight: bold;
 }
+/* ==========================================
+   SELECTION PRO - FIXED BOTTOM NAVIGATION
+========================================== */
+
+:root {
+  --sp-nav-blue: #0d6efd;
+  --sp-nav-text: #667085;
+  --sp-nav-bg: rgba(255, 255, 255, 0.97);
+  --sp-nav-border: #e7eaf0;
+}
+
+
+/* ------------------------------------------
+   MAIN NAVIGATION
+------------------------------------------ */
+
+.sp-bottom-nav {
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+
+  height: 72px;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+
+  background: var(--sp-nav-bg);
+
+  border-top: 1px solid var(--sp-nav-border);
+
+  box-shadow:
+    0 -4px 18px rgba(0, 0, 0, 0.06);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  z-index: 99999;
+
+  padding-bottom: env(safe-area-inset-bottom);
+
+  box-sizing: content-box;
+}
+
+
+/* ------------------------------------------
+   NAV ITEM
+------------------------------------------ */
+
+.sp-nav-item {
+
+  position: relative;
+
+  flex: 1;
+
+  min-width: 0;
+
+  height: 72px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 4px;
+
+  text-decoration: none;
+
+  color: var(--sp-nav-text);
+
+  -webkit-tap-highlight-color: transparent;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+
+}
+
+
+/* ------------------------------------------
+   ICON
+------------------------------------------ */
+
+.sp-nav-icon {
+
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    transform 0.2s ease;
+}
+
+
+.sp-nav-icon svg {
+
+  width: 23px;
+  height: 23px;
+
+  fill: none;
+
+  stroke: currentColor;
+
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+}
+
+
+/* ------------------------------------------
+   LABEL
+------------------------------------------ */
+
+.sp-nav-label {
+
+  max-width: 100%;
+
+  padding: 0 2px;
+
+  font-family: Poppins, Arial, sans-serif;
+
+  font-size: 10.5px;
+
+  font-weight: 500;
+
+  line-height: 1.1;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+}
+
+
+/* ------------------------------------------
+   ACTIVE ITEM
+------------------------------------------ */
+
+.sp-nav-item.active {
+
+  color: var(--sp-nav-blue);
+
+}
+
+
+.sp-nav-item.active .sp-nav-icon {
+
+  transform: translateY(-1px);
+
+}
+
+
+.sp-nav-item.active .sp-nav-label {
+
+  font-weight: 600;
+
+}
+
+
+/* Small active indicator */
+
+.sp-nav-item.active::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 30px;
+
+  height: 3px;
+
+  border-radius: 0 0 5px 5px;
+
+  background: var(--sp-nav-blue);
+
+}
+
+
+/* ------------------------------------------
+   CENTER HOME BUTTON
+------------------------------------------ */
+
+.sp-home-item {
+
+  justify-content: center;
+
+}
+
+
+.sp-home-circle {
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #eef5ff;
+
+  color: var(--sp-nav-blue);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+
+}
+
+
+.sp-home-circle svg {
+
+  width: 22px;
+  height: 22px;
+
+  fill: none;
+
+  stroke: currentColor;
+
+  stroke-width: 1.9;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+
+}
+
+
+/* Home active */
+
+.sp-home-item.active .sp-home-circle {
+
+  background: var(--sp-nav-blue);
+
+  color: #ffffff;
+
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 5px 15px rgba(13, 110, 253, 0.28);
+
+}
+
+
+.sp-home-item.active::before {
+
+  display: none;
+
+}
+
+
+/* ------------------------------------------
+   TOUCH EFFECT
+------------------------------------------ */
+
+.sp-nav-item:active {
+
+  transform: scale(0.94);
+
+}
+
+
+.sp-nav-item:active .sp-home-circle {
+
+  transform: scale(0.94);
+
+}
+
+
+/* ------------------------------------------
+   MOBILE CONTENT SPACE
+------------------------------------------ */
+
+/*
+   Prevent page content from hiding behind
+   the fixed navigation.
+*/
+
+body {
+
+  padding-bottom: 86px;
+
+}
+
+
+/* ------------------------------------------
+   VERY SMALL PHONES
+------------------------------------------ */
+
+@media (max-width: 360px) {
+
+  .sp-bottom-nav {
+    height: 68px;
+  }
+
+  .sp-nav-item {
+    height: 68px;
+  }
+
+  .sp-nav-icon {
+    width: 23px;
+    height: 23px;
+  }
+
+  .sp-nav-icon svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  .sp-nav-label {
+    font-size: 9.5px;
+  }
+
+  .sp-home-circle {
+    width: 39px;
+    height: 39px;
+  }
+
+  body {
+    padding-bottom: 82px;
+  }
+
+}
+
+
+/* ------------------------------------------
+   DESKTOP
+------------------------------------------ */
+
+/*
+   Keep it mobile-app style.
+   On larger screens it stays fixed but
+   doesn't become unnecessarily huge.
+*/
+
+@media (min-width: 768px) {
+
+  .sp-bottom-nav {
+
+    left: 50%;
+
+    right: auto;
+
+    transform: translateX(-50%);
+
+    width: min(560px, 92%);
+
+    bottom: 14px;
+
+    height: 68px;
+
+    border: 1px solid var(--sp-nav-border);
+
+    border-radius: 20px;
+
+    box-shadow:
+      0 8px 30px rgba(0, 0, 0, 0.12);
+
+    overflow: hidden;
+
+    padding-bottom: 0;
+
+  }
+
+
+  .sp-nav-item {
+
+    height: 68px;
+
+  }
+
+
+  body {
+
+    padding-bottom: 30px;
+
+  }
+
+}
