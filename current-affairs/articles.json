@@ -1,5 +1,50 @@
 [
   {
+  "title": "National Current Affairs 14 September 2026: India News Today, BRICS & Education News",
+  "date": "14 Sep 2026",
+  "file": "national/sept-14-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "national",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "World News & International Current Affairs 14 September 2026: Global News Today",
+  "date": "14 Sep 2026",
+  "file": "international/sept-14-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "international",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Economy Current Affairs 14 September 2026: India Economy News, Rupee, Oil & Markets",
+  "date": "14 Sep 2026",
+  "file": "economy/sept-14-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "economy",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Science & Technology Current Affairs 14 September 2026: India Space & Innovation News",
+  "date": "14 Sep 2026",
+  "file": "science-technology/sept-14-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "science-technology",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+{
+  "title": "Sports Current Affairs 14 September 2026: India Sports News, Asia Cup & Hockey",
+  "date": "14 Sep 2026",
+  "file": "sports/sept-14-2026.html",
+  "month": "2026-09",
+  "exams": "upsc ssc banking railway state-psc",
+  "cats": "sports",
+  "previous": "/current-affairs/affairs-hub.html"
+},
+  {
   "title": "National Current Affairs 13 September 2026: India News Today, BRICS & Education News",
   "date": "13 Sep 2026",
   "file": "national/sept-13-2026.html",
