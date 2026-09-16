@@ -27,15 +27,7 @@ html {
 .exam-card:hover{
     transform: translateY(-10px);
 }
-  
-.hero {
 
-    background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.8)), url('https://via.placeholder.com/1500x500');
-     background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 20px;}
-.hero h1 { font-size: 40px; margin-bottom: 10px; }
 .container {
     padding: 50px 10%;}
 .section-title {
@@ -301,4 +293,793 @@ backdrop-filter: 70vw;
     transform: scale(1.02);
     background: #4f46e5;
     
+}
+/* advanced */
+/* =====================================================
+   SELECTION PRO - HOME STUDY SECTION
+===================================================== */
+
+.sp-hero {
+    width: 100%;
+    background: linear-gradient(135deg, #1688f5, #268df0);
+    color: #fff;
+    overflow: hidden;
+}
+
+.sp-hero-content {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 350px;
+    padding: 55px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sp-hero-text {
+    flex: 1;
+    max-width: 680px;
+    z-index: 2;
+}
+
+.sp-hero-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 7px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.sp-hero h1 {
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1.12;
+    margin: 0 0 18px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.sp-hero h1 span {
+    display: block;
+}
+
+.sp-hero p {
+    max-width: 650px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.sp-hero-buttons {
+    margin-top: 25px;
+}
+
+.sp-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background: #fff;
+    color: #0869d7;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.sp-hero-btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   HERO ILLUSTRATION
+===================================================== */
+
+.sp-hero-illustration {
+    width: 370px;
+    height: 280px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.sp-glow {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 20px;
+    top: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+/* Books */
+
+.sp-books {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 245px;
+}
+
+.sp-book {
+    height: 42px;
+    border-radius: 7px 12px 12px 7px;
+    position: relative;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sp-book span {
+    position: absolute;
+    height: 5px;
+    width: 65%;
+    left: 20px;
+    top: 18px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.book-bottom {
+    width: 235px;
+    background: #f8c52a;
+    transform: rotate(-2deg);
+}
+
+.book-middle {
+    width: 250px;
+    margin-left: -5px;
+    background: #f5f5f5;
+    transform: rotate(2deg);
+}
+
+.book-middle span {
+    background: #d4d4d4;
+}
+
+.book-top {
+    width: 220px;
+    margin-left: 12px;
+    background: #143f86;
+    transform: rotate(-3deg);
+}
+
+
+/* Target */
+
+.sp-target {
+    position: absolute;
+    left: 5px;
+    bottom: 45px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 7px solid rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-10deg);
+}
+
+.target-ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #f6c428;
+}
+
+.ring-1 {
+    width: 55px;
+    height: 55px;
+}
+
+.ring-2 {
+    width: 30px;
+    height: 30px;
+    border-color: #fff;
+}
+
+.target-center {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #f6c428;
+}
+
+
+/* Graduation Cap */
+
+.sp-cap {
+    position: absolute;
+    top: 22px;
+    right: 55px;
+    width: 115px;
+    height: 90px;
+    transform: rotate(-7deg);
+}
+
+.cap-top {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 100px;
+    height: 42px;
+    background: #113c80;
+    transform: rotate(45deg) skew(-8deg, -8deg);
+    border-radius: 5px;
+}
+
+.cap-base {
+    position: absolute;
+    left: 27px;
+    top: 43px;
+    width: 70px;
+    height: 22px;
+    border-radius: 50%;
+    background: #0b2e68;
+}
+
+.cap-tassel {
+    position: absolute;
+    right: 2px;
+    top: 45px;
+    width: 4px;
+    height: 42px;
+    background: #f6c428;
+    transform: rotate(-15deg);
+}
+
+.cap-tassel::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #f6c428;
+}
+
+
+/* Floating elements */
+
+.sp-bubble {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+}
+
+.bubble-one {
+    top: 5px;
+    left: 60px;
+}
+
+.bubble-two {
+    top: 100px;
+    left: 125px;
+    font-size: 35px;
+}
+
+.bubble-three {
+    bottom: 125px;
+    right: 0;
+}
+
+
+/* =====================================================
+   COMMON SECTION
+===================================================== */
+
+.sp-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 25px 10px;
+}
+
+.sp-section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.sp-heading-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.sp-heading-icon {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d6efd;
+    font-size: 27px;
+    flex-shrink: 0;
+}
+
+.sp-section-heading h2 {
+    margin: 0;
+    color: #102f63;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.sp-view-all {
+    color: #086ee6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.sp-view-all:hover {
+    text-decoration: underline;
+}
+
+
+/* =====================================================
+   STUDY CARDS
+===================================================== */
+
+.sp-study-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.sp-study-card {
+    position: relative;
+    min-height: 135px;
+    padding: 22px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sp-study-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-blue {
+    background: #edf6ff;
+    border: 1px solid #d7eaff;
+}
+
+.card-green {
+    background: #edfff4;
+    border: 1px solid #d5f5df;
+}
+
+.card-red {
+    background: #fff1ee;
+    border: 1px solid #ffe0da;
+}
+
+.card-purple {
+    background: #f4efff;
+    border: 1px solid #e4d9ff;
+}
+
+.sp-card-icon {
+    width: 65px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.sp-card-content {
+    padding-right: 25px;
+}
+
+.sp-card-content h3 {
+    margin: 0 0 7px;
+    color: #102f63;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.sp-card-content p {
+    margin: 0;
+    color: #506887;
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.sp-card-arrow {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.65);
+    color: #086ee6;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* =====================================================
+   TODAY'S STUDY HUB
+===================================================== */
+
+.sp-today-section {
+    margin-top: 12px;
+}
+
+.fire-icon {
+    font-size: 23px;
+}
+
+.sp-today-scroll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.sp-today-card {
+    padding: 20px;
+    border-radius: 18px;
+    min-height: 225px;
+    display: flex;
+    flex-direction: column;
+}
+
+.today-news {
+    background: #edf6ff;
+}
+
+.today-test {
+    background: #fff8e8;
+}
+
+.today-notes {
+    background: #f5efff;
+}
+
+.today-card-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.sp-today-card h3 {
+    margin: 0 0 5px;
+    color: #102f63;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.today-date {
+    margin: 0 0 7px !important;
+    color: #56718e !important;
+    font-size: 13px !important;
+    font-weight: 600;
+}
+
+.sp-today-card p {
+    margin: 0;
+    color: #506887;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sp-today-card a {
+    margin-top: auto;
+    padding: 10px 14px;
+    border-radius: 25px;
+    background: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.today-test a {
+    background: #f4a500;
+}
+
+.today-notes a {
+    background: #7045df;
+}
+
+
+/* =====================================================
+   POPULAR
+===================================================== */
+
+.sp-popular-section {
+    padding-bottom: 35px;
+}
+
+.star-icon {
+    font-size: 25px;
+}
+
+.sp-popular-scroll {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding: 3px 2px 12px;
+    scrollbar-width: none;
+}
+
+.sp-popular-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.sp-popular-card {
+    min-width: 155px;
+    height: 105px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease;
+}
+
+.sp-popular-card:hover {
+    transform: translateY(-3px);
+}
+
+.popular-icon {
+    font-size: 30px;
+}
+
+.sp-popular-card strong {
+    font-size: 14px;
+}
+
+.popular-ssc {
+    background: #fff0f2;
+    color: #d62945;
+}
+
+.popular-jee {
+    background: #eaf5ff;
+    color: #086ee6;
+}
+
+.popular-cuet {
+    background: #f2edff;
+    color: #6340d8;
+}
+
+.popular-ca {
+    background: #eafbf0;
+    color: #138a43;
+}
+
+.popular-notes {
+    background: #f1edff;
+    color: #6541d8;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 800px) {
+
+    .sp-hero-content {
+        min-height: 320px;
+        padding: 45px 25px;
+    }
+
+    .sp-hero-illustration {
+        width: 280px;
+        transform: scale(0.85);
+        transform-origin: center right;
+    }
+
+    .sp-study-grid {
+        gap: 12px;
+    }
+
+    .sp-study-card {
+        padding: 18px;
+    }
+
+    .sp-card-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 28px;
+    }
+
+    .sp-card-content h3 {
+        font-size: 17px;
+    }
+
+    .sp-card-content p {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .sp-hero-content {
+        min-height: auto;
+        padding: 30px 20px 25px;
+        display: block;
+    }
+
+    .sp-hero-badge {
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+
+    .sp-hero h1 {
+        font-size: 31px;
+        line-height: 1.18;
+        letter-spacing: -0.5px;
+    }
+
+    .sp-hero p {
+        font-size: 15px;
+        line-height: 1.55;
+    }
+
+    .sp-hero-buttons {
+        margin-top: 18px;
+    }
+
+    .sp-hero-btn {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .sp-hero-illustration {
+        width: 100%;
+        height: 170px;
+        margin-top: 8px;
+        transform: scale(0.72);
+        transform-origin: center center;
+    }
+
+    .sp-books {
+        right: 15%;
+        bottom: 8px;
+    }
+
+    .sp-target {
+        left: 8%;
+        bottom: 30px;
+    }
+
+    .sp-cap {
+        right: 22%;
+        top: 0;
+    }
+
+    .sp-section {
+        padding: 25px 16px 8px;
+    }
+
+    .sp-section-heading {
+        margin-bottom: 14px;
+    }
+
+    .sp-section-heading h2 {
+        font-size: 20px;
+    }
+
+    .sp-heading-icon {
+        font-size: 23px;
+        width: 28px;
+    }
+
+    .sp-view-all {
+        font-size: 13px;
+    }
+
+    .sp-study-grid {
+        grid-template-columns: 1fr;
+        gap: 11px;
+    }
+
+    .sp-study-card {
+        min-height: 105px;
+        padding: 16px;
+        border-radius: 15px;
+    }
+
+    .sp-card-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 13px;
+        font-size: 26px;
+    }
+
+    .sp-card-content h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .sp-card-content p {
+        font-size: 12.5px;
+        line-height: 1.4;
+    }
+
+    .sp-card-arrow {
+        right: 12px;
+        bottom: 12px;
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+    }
+
+    /* Today's Hub becomes horizontal scroll */
+    .sp-today-scroll {
+        display: flex;
+        overflow-x: auto;
+        gap: 12px;
+        scrollbar-width: none;
+        padding-bottom: 5px;
+    }
+
+    .sp-today-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sp-today-card {
+        min-width: 245px;
+        min-height: 210px;
+        padding: 17px;
+        border-radius: 16px;
+    }
+
+    .sp-today-card h3 {
+        font-size: 17px;
+    }
+
+    .sp-today-card p {
+        font-size: 13px;
+    }
+
+    .sp-popular-card {
+        min-width: 135px;
+        height: 92px;
+    }
+
+    .popular-icon {
+        font-size: 26px;
+    }
+
+    .sp-popular-card strong {
+        font-size: 12px;
+    }
+
 }
