@@ -1,5 +1,50 @@
 [
   {
+    "title": "India News 18 September 2026: India News Today, National & Education News",
+    "date": "18 Sep 2026",
+    "file": "national/sept-18-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "national",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "World News 18 September 2026: International News Today & Global News",
+    "date": "18 Sep 2026",
+    "file": "international/sept-18-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "international",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Economy News 18 September 2026: India Economy, Rupee, Oil, UPI & Markets",
+    "date": "18 Sep 2026",
+    "file": "economy/sept-18-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "economy",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Science & Technology News 18 September 2026: India Tech, Semiconductor, AI & Space News",
+    "date": "18 Sep 2026",
+    "file": "science-technology/sept-18-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "science-technology",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Sports News 18 September 2026: India Sports News, Asian Games, Cricket & Hockey",
+    "date": "18 Sep 2026",
+    "file": "sports/sept-18-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "sports",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
   "title": "India News 17 September 2026: India News Today, National & Education News",
   "date": "17 Sep 2026",
   "file": "national/sept-17-2026.html",
