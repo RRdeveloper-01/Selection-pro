@@ -1014,4 +1014,38 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
 </url>
+<url>
+    <loc>https://selectionpro.in/current-affairs/national/sept-19-2026.html</loc>
+    <lastmod>2026-09-19T07:22:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://selectionpro.in/current-affairs/international/sept-19-2026.html</loc>
+    <lastmod>2026-09-19T07:22:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://selectionpro.in/current-affairs/economy/sept-19-2026.html</loc>
+    <lastmod>2026-09-19T07:22:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://selectionpro.in/current-affairs/science-technology/sept-19-2026.html</loc>
+    <lastmod>2026-09-19T07:22:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>https://selectionpro.in/current-affairs/sports/sept-19-2026.html</loc>
+    <lastmod>2026-09-19T07:22:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
 </urlset>

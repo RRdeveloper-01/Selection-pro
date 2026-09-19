@@ -1,5 +1,50 @@
 [
   {
+    "title": "India News 19 September 2026: National & Education News",
+    "date": "19 Sep 2026",
+    "file": "national/sept-19-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "national",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "World News 19 September 2026: Global & International News",
+    "date": "19 Sep 2026",
+    "file": "international/sept-19-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "international",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Economy News 19 September 2026: Rupee, Oil & Markets",
+    "date": "19 Sep 2026",
+    "file": "economy/sept-19-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "economy",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Science & Technology News 19 September 2026: AI, Semiconductor & Tech",
+    "date": "19 Sep 2026",
+    "file": "science-technology/sept-19-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "science-technology",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
+    "title": "Sports News 19 September 2026: Asian Games, Cricket & India Sports",
+    "date": "19 Sep 2026",
+    "file": "sports/sept-19-2026.html",
+    "month": "2026-09",
+    "exams": "upsc ssc banking railway state-psc",
+    "cats": "sports",
+    "previous": "/current-affairs/affairs-hub.html"
+  },
+  {
     "title": "India News 18 September 2026: India News Today, National & Education News",
     "date": "18 Sep 2026",
     "file": "national/sept-18-2026.html",
