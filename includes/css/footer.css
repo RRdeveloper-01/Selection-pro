@@ -83,7 +83,7 @@
     position: fixed;
     left: 12px;
     right: 12px;
-    bottom: 12px;
+    bottom: 75px;
 
     z-index: 999999;
 
@@ -170,7 +170,7 @@
     .pwa-install-banner {
         left: 8px;
         right: 8px;
-        bottom: 8px;
+        bottom: 75px;
     }
 
     .pwa-install-info span {

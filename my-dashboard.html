@@ -14,77 +14,189 @@
       content="Your personalized Selection Pro study dashboard with exam resources, preparation tools and recommended study materials.">
 
 <style>
-    /* ==========================================
-   MY EXAM
-========================================== */
+
+/* =====================================================
+   SELECTION PRO
+   MY EXAM / PREPARATION DASHBOARD
+===================================================== */
 
 #myExamSection{
-    margin:25px 0;
+    width:100%;
+    max-width:1180px;
+    margin:0 auto;
+    padding:18px 0 130px;
+    box-sizing:border-box;
 }
+
+
+/* =====================================================
+   HEADER
+===================================================== */
 
 .my-exam-header{
-
     display:flex;
-
+    align-items:flex-end;
     justify-content:space-between;
 
-    align-items:center;
+    gap:20px;
 
-    gap:15px;
-
-    margin-bottom:15px;
+    margin-bottom:22px;
 }
 
-.my-exam-header small{
-    color:#8ea0b8;
+
+.exam-heading-left{
+    min-width:0;
+}
+
+
+.exam-heading-label{
+    display:block;
+
+    color:#8b99aa;
+
     font-size:11px;
-    letter-spacing:1px;
+    font-weight:700;
+
+    letter-spacing:1.5px;
+
+    margin-bottom:6px;
 }
+
 
 .my-exam-header h2{
-    margin-top:5px;
+
+    display:flex;
+    align-items:center;
+
+    gap:9px;
+
+    margin:0;
+
+    color:#202124;
+
+    font-size:30px;
+    font-weight:800;
+
+    letter-spacing:-.5px;
 }
 
-.my-exam-header a{
 
-    color:#63a9ff;
+.exam-main-icon{
+    font-size:29px;
+    line-height:1;
+}
+
+
+/* CHANGE EXAM */
+
+.change-exam-btn{
+
+    display:flex;
+    align-items:center;
+
+    gap:7px;
+
+    color:#4d95db;
+
+    font-size:14px;
+    font-weight:600;
 
     text-decoration:none;
 
-    font-size:13px;
+    white-space:nowrap;
+
+    transition:.2s;
 }
 
+
+.change-exam-btn span{
+    font-size:18px;
+}
+
+
+.change-exam-btn:hover{
+    color:#0d6efd;
+    transform:translateX(2px);
+}
+
+
+/* =====================================================
+   CORE RESOURCE GRID
+===================================================== */
 
 .my-exam-grid{
 
     display:grid;
 
     grid-template-columns:
-    repeat(auto-fit,minmax(250px,1fr));
+    repeat(2,minmax(0,1fr));
 
-    gap:14px;
+    gap:15px;
 }
 
 
+/* =====================================================
+   CORE RESOURCE CARD
+===================================================== */
+
 .my-exam-card{
 
+    position:relative;
+
     display:flex;
+    align-items:center;
 
-    gap:14px;
+    min-height:125px;
 
-    padding:18px;
+    padding:20px;
 
-    background:#0d1b2d;
+    box-sizing:border-box;
 
-    border:1px solid #23354c;
+    background:
+        linear-gradient(
+            145deg,
+            #0d1b2d,
+            #12243a
+        );
 
-    border-radius:16px;
+    border:1px solid rgba(94,145,195,.12);
+
+    border-radius:22px;
 
     color:white;
 
     text-decoration:none;
 
-    transition:.25s;
+    overflow:hidden;
+
+    box-shadow:
+        0 8px 25px rgba(10,25,45,.10);
+
+    transition:
+        transform .22s ease,
+        box-shadow .22s ease,
+        border-color .22s ease;
+}
+
+
+.my-exam-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+    height:120px;
+
+    right:-55px;
+    bottom:-65px;
+
+    border-radius:50%;
+
+    background:
+        rgba(65,145,225,.09);
+
+    pointer-events:none;
 }
 
 
@@ -92,39 +204,331 @@
 
     transform:translateY(-3px);
 
-    border-color:#438eea;
+    border-color:
+        rgba(80,155,230,.35);
+
+    box-shadow:
+        0 15px 35px rgba(10,25,45,.16);
 }
 
 
-.my-exam-card > span{
+/* =====================================================
+   CARD ICON
+===================================================== */
 
-    min-width:42px;
+.my-exam-card-icon{
 
-    height:42px;
+    flex:0 0 58px;
 
-    display:grid;
+    width:58px;
+    height:58px;
 
-    place-items:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
-    background:#132b48;
+    margin-right:16px;
 
-    border-radius:12px;
+    border-radius:17px;
 
-    font-size:22px;
+    background:
+        linear-gradient(
+            145deg,
+            #142f52,
+            #102641
+        );
+
+    box-shadow:
+        inset 0 1px 0
+        rgba(255,255,255,.06);
+
+    font-size:28px;
+
+    line-height:1;
+}
+
+
+/* =====================================================
+   CARD CONTENT
+===================================================== */
+
+.my-exam-card-content{
+
+    flex:1;
+
+    min-width:0;
+
+    position:relative;
+
+    z-index:2;
+}
+
+
+.my-exam-card-title-row{
+
+    display:flex;
+    align-items:center;
+
+    gap:8px;
+
+    min-width:0;
 }
 
 
 .my-exam-card h3{
 
-    font-size:15px;
+    margin:0;
 
-    margin-bottom:5px;
+    color:#fff;
+
+    font-size:17px;
+
+    line-height:1.3;
+
+    font-weight:750;
 }
 
 
 .my-exam-card p{
 
-    color:#91a0b4;
+    margin:7px 0 0;
+
+    color:#92a2b7;
+
+    font-size:13px;
+
+    line-height:1.55;
+
+    max-width:500px;
+}
+
+
+/* =====================================================
+   ARROW
+===================================================== */
+
+.my-exam-card-arrow{
+
+    flex:0 0 auto;
+
+    width:34px;
+    height:34px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-left:10px;
+
+    border-radius:50%;
+
+    background:
+        rgba(255,255,255,.055);
+
+    color:#8bb9e7;
+
+    font-size:18px;
+
+    position:relative;
+
+    z-index:2;
+
+    transition:.2s;
+}
+
+
+.my-exam-card:hover
+.my-exam-card-arrow{
+
+    transform:translateX(3px);
+
+    background:
+        rgba(255,255,255,.11);
+}
+
+
+/* =====================================================
+   BADGE
+===================================================== */
+
+.exam-card-badge{
+
+    display:inline-flex;
+    align-items:center;
+
+    padding:4px 8px;
+
+    border-radius:20px;
+
+    background:
+        rgba(65,190,125,.14);
+
+    color:#62d69a;
+
+    font-size:8px;
+    font-weight:800;
+
+    letter-spacing:.5px;
+}
+
+
+/* =====================================================
+   EXTRA RESOURCE SECTION
+===================================================== */
+
+.exam-extra-section{
+
+    margin-top:32px;
+}
+
+
+.exam-section-heading{
+
+    margin-bottom:15px;
+}
+
+
+.exam-section-kicker{
+
+    display:block;
+
+    color:#8b99aa;
+
+    font-size:10px;
+    font-weight:800;
+
+    letter-spacing:1.5px;
+
+    margin-bottom:5px;
+}
+
+
+.exam-section-heading h3{
+
+    margin:0;
+
+    color:#202124;
+
+    font-size:21px;
+
+    font-weight:800;
+}
+
+
+.exam-section-heading p{
+
+    margin:4px 0 0;
+
+    color:#8a96a6;
+
+    font-size:12px;
+}
+
+
+.exam-extra-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,minmax(0,1fr));
+
+    gap:13px;
+}
+
+
+.exam-extra-card{
+
+    display:flex;
+    align-items:center;
+
+    min-height:95px;
+
+    padding:17px;
+
+    box-sizing:border-box;
+
+    background:#fff;
+
+    border:1px solid #e4eaf1;
+
+    border-radius:19px;
+
+    text-decoration:none;
+
+    box-shadow:
+        0 7px 22px
+        rgba(20,45,75,.05);
+
+    transition:.2s;
+}
+
+
+.exam-extra-card:hover{
+
+    transform:translateY(-2px);
+
+    border-color:#c9dbea;
+
+    box-shadow:
+        0 12px 28px
+        rgba(20,45,75,.09);
+}
+
+
+.extra-card-icon{
+
+    width:50px;
+    height:50px;
+
+    flex:0 0 50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-right:14px;
+
+    border-radius:15px;
+
+    background:#edf5ff;
+
+    font-size:24px;
+}
+
+
+.extra-card-content{
+
+    flex:1;
+
+    min-width:0;
+}
+
+
+.extra-card-title-row{
+
+    display:flex;
+    align-items:center;
+
+    gap:7px;
+}
+
+
+.extra-card-content h4{
+
+    margin:0;
+
+    color:#1e2b3b;
+
+    font-size:15px;
+    font-weight:750;
+}
+
+
+.extra-card-content p{
+
+    margin:5px 0 0;
+
+    color:#7f8b9b;
 
     font-size:12px;
 
@@ -132,42 +536,649 @@
 }
 
 
+.extra-badge{
+
+    padding:3px 7px;
+
+    border-radius:10px;
+
+    background:#fff1d9;
+
+    color:#b87916;
+
+    font-size:8px;
+
+    font-weight:800;
+}
+
+
+.extra-card-arrow{
+
+    margin-left:8px;
+
+    color:#8d9dad;
+
+    font-size:18px;
+}
+
+
+/* =====================================================
+   CHALLENGES
+===================================================== */
+
+.exam-challenge-section{
+
+    margin-top:32px;
+}
+
+
+.exam-challenge-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,minmax(0,1fr));
+
+    gap:15px;
+}
+
+
+.exam-challenge-card{
+
+    position:relative;
+
+    display:block;
+
+    min-height:185px;
+
+    padding:20px;
+
+    box-sizing:border-box;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #f3f8fe
+        );
+
+    border:1px solid #dfe8f2;
+
+    border-radius:22px;
+
+    text-decoration:none;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(25,60,100,.055);
+
+    transition:.2s;
+}
+
+
+.exam-challenge-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 14px 32px
+        rgba(25,60,100,.10);
+}
+
+
+.challenge-top{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+}
+
+
+.challenge-icon{
+
+    width:50px;
+    height:50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:15px;
+
+    background:#eaf3ff;
+
+    font-size:25px;
+}
+
+
+.challenge-badge{
+
+    padding:5px 9px;
+
+    border-radius:20px;
+
+    background:#eaf8f0;
+
+    color:#2c9960;
+
+    font-size:8px;
+
+    font-weight:800;
+
+    letter-spacing:.5px;
+}
+
+
+.challenge-content h4{
+
+    margin:16px 0 5px;
+
+    color:#172638;
+
+    font-size:18px;
+
+    font-weight:800;
+}
+
+
+.challenge-content p{
+
+    margin:0;
+
+    color:#7d8998;
+
+    font-size:13px;
+
+    line-height:1.55;
+}
+
+
+.challenge-meta{
+
+    margin-top:12px;
+
+    color:#687789;
+
+    font-size:12px;
+
+    font-weight:600;
+}
+
+
+.challenge-progress-wrap{
+
+    margin-top:14px;
+}
+
+
+.challenge-progress-info{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:6px;
+
+    color:#8995a5;
+
+    font-size:11px;
+}
+
+
+.challenge-progress-info strong{
+
+    color:#4385bd;
+}
+
+
+.challenge-progress{
+
+    width:100%;
+    height:6px;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    background:#e5ecf3;
+}
+
+
+.challenge-progress span{
+
+    display:block;
+
+    height:100%;
+
+    border-radius:20px;
+
+    background:#4b94d7;
+}
+
+
+.challenge-arrow{
+
+    position:absolute;
+
+    right:18px;
+    bottom:17px;
+
+    width:32px;
+    height:32px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#edf5fc;
+
+    color:#4a8bc5;
+
+    font-size:17px;
+}
+
+
+/* =====================================================
+   QUICK ACTIONS
+===================================================== */
+
+.exam-quick-section{
+
+    margin-top:32px;
+}
+
+
+.exam-quick-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:11px;
+}
+
+
+.exam-quick-card{
+
+    display:flex;
+    align-items:center;
+
+    gap:9px;
+
+    padding:14px;
+
+    border-radius:15px;
+
+    background:#fff;
+
+    border:1px solid #e4eaf1;
+
+    text-decoration:none;
+
+    transition:.2s;
+}
+
+
+.exam-quick-card:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 8px 22px
+        rgba(20,45,75,.08);
+}
+
+
+.quick-icon{
+    font-size:20px;
+}
+
+
+.quick-text{
+
+    flex:1;
+
+    color:#263546;
+
+    font-size:12px;
+
+    font-weight:700;
+}
+
+
+.quick-arrow{
+
+    color:#91a1b2;
+}
+
+
+/* =====================================================
+   STATS
+===================================================== */
+
+.exam-stats-card{
+
+    margin-top:28px;
+
+    padding:20px;
+
+    background:#fff;
+
+    border:1px solid #e4eaf1;
+
+    border-radius:22px;
+
+    box-shadow:
+        0 7px 25px
+        rgba(30,50,75,.05);
+}
+
+
+.stats-header h3{
+
+    margin:0;
+
+    color:#202124;
+
+    font-size:20px;
+
+    font-weight:800;
+}
+
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:10px;
+
+    margin-top:16px;
+}
+
+
+.stat-item{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding:14px 8px;
+
+    border-radius:15px;
+
+    background:#f7f9fc;
+
+    text-align:center;
+}
+
+
+.stat-icon{
+
+    font-size:21px;
+
+    margin-bottom:4px;
+}
+
+
+.stat-item strong{
+
+    color:#182638;
+
+    font-size:19px;
+}
+
+
+.stat-item small{
+
+    color:#8995a6;
+
+    font-size:10px;
+}
+
+
+/* =====================================================
+   EMPTY STATE
+===================================================== */
+
 .my-exam-empty{
+
+    padding:35px 20px;
 
     text-align:center;
 
-    padding:30px;
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #f5f9fe
+        );
 
-    background:#0d1b2d;
+    border:1px solid #e1e8f0;
 
-    border:1px solid #23354c;
+    border-radius:22px;
 
-    border-radius:18px;
+    box-shadow:
+        0 8px 25px
+        rgba(20,45,75,.06);
+}
+
+
+.my-exam-empty h2{
+
+    margin:0;
+
+    color:#202124;
+
+    font-size:21px;
 }
 
 
 .my-exam-empty p{
 
-    color:#94a3b8;
-
     margin:10px 0 18px;
+
+    color:#8995a6;
+
+    font-size:13px;
 }
 
 
 .my-exam-empty a{
 
-    display:inline-block;
+    display:inline-flex;
 
     padding:11px 18px;
 
+    border-radius:11px;
+
     background:#2575fc;
 
-    color:white;
-
-    border-radius:10px;
+    color:#fff;
 
     text-decoration:none;
+
+    font-size:13px;
+
+    font-weight:600;
 }
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:700px){
+
+    #myExamSection{
+
+        padding:
+            5px
+            0
+            130px;
+    }
+
+
+    .my-exam-header{
+
+        align-items:flex-end;
+
+        margin-bottom:18px;
+    }
+
+
+    .my-exam-header h2{
+
+        font-size:27px;
+    }
+
+
+    .exam-main-icon{
+
+        font-size:26px;
+    }
+
+
+    .change-exam-btn{
+
+        font-size:13px;
+    }
+
+
+    .my-exam-grid{
+
+        grid-template-columns:1fr;
+
+        gap:13px;
+    }
+
+
+    .my-exam-card{
+
+        min-height:116px;
+
+        padding:17px;
+
+        border-radius:21px;
+    }
+
+
+    .my-exam-card-icon{
+
+        width:52px;
+        height:52px;
+
+        flex-basis:52px;
+
+        margin-right:14px;
+
+        border-radius:15px;
+
+        font-size:25px;
+    }
+
+
+    .my-exam-card h3{
+
+        font-size:16px;
+    }
+
+
+    .my-exam-card p{
+
+        font-size:12px;
+
+        margin-top:5px;
+    }
+
+
+    .my-exam-card-arrow{
+
+        width:31px;
+        height:31px;
+
+        font-size:16px;
+    }
+
+
+    .exam-extra-grid,
+    .exam-challenge-grid{
+
+        grid-template-columns:1fr;
+    }
+
+
+    .exam-quick-grid{
+
+        grid-template-columns:repeat(2,1fr);
+    }
+
+
+    .stats-grid{
+
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+/* =====================================================
+   SMALL PHONES
+===================================================== */
+
+@media(max-width:380px){
+
+    .my-exam-header{
+
+        align-items:flex-start;
+
+        flex-direction:column;
+
+        gap:8px;
+    }
+
+
+    .my-exam-card{
+
+        padding:14px;
+    }
+
+
+    .my-exam-card-icon{
+
+        width:47px;
+        height:47px;
+
+        flex-basis:47px;
+
+        font-size:22px;
+    }
+
+
+    .my-exam-card h3{
+
+        font-size:15px;
+    }
+
+
+    .my-exam-card p{
+
+        font-size:11px;
+    }
+
+}
+
 </style>
   
 <link rel="manifest" href="/manifest.json">
@@ -200,7 +1211,14 @@
     
 </div>
 
-<section id="myExamSection"></section>
+<!-- =========================================
+     MY EXAM / PREPARATION DASHBOARD
+========================================= -->
+
+<section
+    id="myExamSection"
+    class="my-preparation-section">
+</section>
      
 
 <script src="/dashboard/exam-config.js"></script>
