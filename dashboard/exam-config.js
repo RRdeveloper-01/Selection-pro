@@ -380,7 +380,36 @@ const EXAM_CONFIG = {
         category: "Engineering",
         icon: "⚡",
 
+challenges: [
 
+            {
+                title: "100 Days JEE MAINS Revision Challenge",
+
+                description:
+                    "Daily chapter revision, study timetable and practice test.",
+
+                url: "https://t.me/selectionprojee",
+
+                icon: "🚀",
+
+                badge: "COMING SOON",
+
+                duration: "100 Days",
+
+                progress: "Complete 100 members to start revision series",
+
+                currentDay: 0,
+
+                totalDays: 0,
+
+                todayTest:
+                    "https://t.me/selectionprojee",
+
+                todaySchedule:
+                    "https://t.me/selectionprojee"
+            }
+
+        ],
         pages: [
 
             {
@@ -448,6 +477,7 @@ const EXAM_CONFIG = {
             }
 
         ],
+        
         /* =================================
        QUICK ACTIONS
        OPTIONAL
