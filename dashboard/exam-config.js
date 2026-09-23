@@ -418,7 +418,7 @@ challenges: [
                 description:
                     "JEE Main syllabus, pattern and important information.",
 
-                url: "/jeemains.html",
+                url: "/jeemains.html#strategy",
 
                 icon: "📚",
                 type: "guide"
@@ -431,7 +431,7 @@ challenges: [
                 description:
                     "Practice JEE Main previous year questions.",
 
-                url: "/jeemains.html",
+                url: "/jeemains.html#official-pyq",
 
                 icon: "📝",
                 type: "pyq"
@@ -444,7 +444,7 @@ challenges: [
                 description:
                     "Practice JEE Main online mock tests.",
 
-                url: "/jee-mock.html",
+                url: "/jeemains.html",
 
                 icon: "🎯",
                 type: "mock"
@@ -457,7 +457,7 @@ challenges: [
                 description:
                     "Practice JEE mock tests.",
 
-                url: "/mock/jee_mock_test.html",
+                url: "/mock/jee_mains_mock_test.html",
 
                 icon: "🎯",
                 type: "mock"
