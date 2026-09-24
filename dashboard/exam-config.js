@@ -388,7 +388,7 @@ challenges: [
                 description:
                     "Daily chapter revision, study timetable and practice test.",
 
-                url: "https://t.me/selectionprojee",
+                url: "/revision-series/jeemains.html",
 
                 icon: "🚀",
 
@@ -396,7 +396,7 @@ challenges: [
 
                 duration: "100 Days",
 
-                progress: "Complete 100 members to start revision series",
+                progress: "0",
 
                 currentDay: 0,
 
@@ -492,7 +492,7 @@ challenges: [
         },
 
         {
-            title: "Study Notes",
+            title: "Create Notes",
             url: "/tools/notes.html",
             icon: "📝"
         },
