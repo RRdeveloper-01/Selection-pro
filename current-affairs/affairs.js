@@ -8,7 +8,7 @@
         // Fetch articles from external JSON file
         async function loadArticles() {
             try {
-                const response = await fetch("articles.json?v=1.1.1.5");
+                const response = await fetch("articles.json?v=1.1.1.6");
                 caArticles = await response.json();
                 renderCards();
             } catch (error) {
