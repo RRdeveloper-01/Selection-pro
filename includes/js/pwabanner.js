@@ -2,7 +2,7 @@
    PWA + PROMOTIONAL BANNER INCLUDE
 ====================================== */
 
-fetch("/includes/pwa.html?v=4")
+fetch("/includes/pwa.html?v=5")
 .then(response => {
 
   if (!response.ok) {

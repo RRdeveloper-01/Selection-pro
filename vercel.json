@@ -1,55 +1,7 @@
 {
-  "redirects": [
-    {
-      "source": "/update%20/august-3-updates.html",
-      "destination": "/update/august-3-updates.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/august-01-updates.html",
-      "destination": "/update/august-01-updates.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/july-30.html",
-      "destination": "/update/july-30.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/ibps-csa-new-update.html",
-      "destination": "/update/ibps-csa-new-update.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/ssc-calendar-2026-27.html",
-      "destination": "/update/ssc-calendar-2026-27.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/student_protest_end.html",
-      "destination": "/update/student_protest_end.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/2026-07-25.html",
-      "destination": "/update/2026-07-25.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/student_protest_24_july.html",
-      "destination": "/update/student_protest_24_july.html",
-      "permanent": true
-    },
-    {
-      "source": "/update%20/student-protest_23_july.html",
-      "destination": "/update/student-protest_23_july.html",
-      "permanent": true
-    }
-  ],
-
   "headers": [
     {
-      "source": "/(.*).(css)",
+      "source": "/(.*)\\.css",
       "headers": [
         {
           "key": "Cache-Control",
@@ -58,7 +10,7 @@
       ]
     },
     {
-      "source": "/(.*).(png|jpg|jpeg|webp|gif|svg|ico)",
+      "source": "/(.*)\\.(png|jpg|jpeg|webp|gif|svg|ico)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -67,16 +19,7 @@
       ]
     },
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-{
-    "source": "/articles.json",
+      "source": "/articles.json",
       "headers": [
         {
           "key": "Cache-Control",
@@ -91,7 +34,8 @@
           "value": "0"
         }
       ]
-},{
+    },
+    {
       "source": "/includes/js/pwabanner.js",
       "headers": [
         {
@@ -100,9 +44,8 @@
         }
       ]
     },
-
     {
-      "source": "/current-affairs /affairs-hub.html",
+      "source": "/current-affairs/affairs-hub.html",
       "headers": [
         {
           "key": "Cache-Control",
@@ -110,7 +53,7 @@
         }
       ]
     },
-  {
+    {
       "source": "/current-affairs/affairs.js",
       "headers": [
         {
@@ -119,7 +62,5 @@
         }
       ]
     }
-
-    
   ]
 }

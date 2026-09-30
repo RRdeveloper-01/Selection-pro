@@ -17,7 +17,30 @@
     transform:scale(1.08);
 }
 
+.footer-youtube {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #202124;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    transition: all 0.25s ease;
+}
 
+.footer-youtube i {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.footer-youtube:hover {
+    color: #ff0000;
+    transform: translateY(-1px);
+}
+
+.footer-youtube:hover i {
+    transform: scale(1.08);
+}
 @media(max-width:600px){
     .telegram-float{
         padding:10px 14px;
