@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Pro - 100 Days JEE Master Revision Plan</title>
+    <!-- Hindi & Clean Typography Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #ffffff;
+            border: none;
+            padding: 16px 36px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.5);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(37, 99, 235, 0.7);
+        }
+
+        /* 16:9 Landscape Page Dimensions for Standard Slide & PDF Printing */
+        @page {
+            size: 16in 9in landscape;
+            margin: 0;
+        }
+
+        .slide {
+            width: 16in;
+            height: 9in;
+            background-color: #f8fafc;
+            color: #0f172a;
+            padding: 0.6in;
+            page-break-after: always;
+            position: relative;
+            margin: 0 auto 30px auto;
+            text-align: left;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Top Header Bar */
+        .header-bar {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 18px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .brand-title {
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #1e293b;
+        }
+
+        .brand-subtitle {
+            font-size: 14px;
+            color: #64748b;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .badge {
+            color: #ffffff;
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-weight: 800;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Main Slide Content Card */
+        .card-body {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 35px 40px;
+            flex-grow: 1;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        .subject-tag {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 6px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .chapter-header {
+            margin-bottom: 15px;
+        }
+
+        .eng-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #0f172a;
+            line-height: 1.2;
+        }
+
+        .hindi-title {
+            font-size: 22px;
+            color: #475569;
+            font-weight: 600;
+            margin-top: 4px;
+        }
+
+        /* Topics Section */
+        .topics-box {
+            background: #f1f5f9;
+            border-left: 5px solid #2563eb;
+            border-radius: 8px;
+            padding: 18px 24px;
+            margin-bottom: 20px;
+        }
+
+        .topics-heading {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #475569;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .topics-content {
+            font-size: 16px;
+            color: #1e293b;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        /* 3-Step Execution Layout */
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .step-card {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 18px;
+            text-align: left;
+            position: relative;
+        }
+
+        .step-number {
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .step-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 6px;
+        }
+
+        .step-desc {
+            font-size: 13px;
+            color: #64748b;
+            line-height: 1.4;
+        }
+
+        .step-time {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            background: #f1f5f9;
+            padding: 4px 10px;
+            border-radius: 4px;
+            color: #334155;
+        }
+
+        /* Footer Instructions */
+        .footer-banner {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 12px 20px;
+            font-size: 13px;
+            color: #1e40af;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        /* Print Media Setup */
+        @media print {
+            body {
+                background: transparent;
+                padding: 0;
+            }
+            .download-btn {
+                display: none;
+            }
+            .slide {
+                margin: 0;
+                border-radius: 0;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<a class="download-btn" href="jeemains.html">back to series</a>
+    <button class="download-btn" onclick="window.print()">📥 Print / Save 100-Day Schedule PDF</button>
+
+    <div id="slides-container"></div>
+
+    <script>
+        // Professional Master Dataset (100 Days Comprehensive JEE Syllabus)
+        const masterSchedule = [
+            // Week 1
+            [1, 1, "Mathematics", "Sets, Relations & Functions", "समुच्चय, संबंध और फलन", "Types of sets, Power Set, Equivalence Relations, Domain & Range of Functions, One-One and Onto Mappings."],
+            [2, 1, "Mathematics", "Complex Numbers & Quadratic Equations", "सम्मिश्र संख्याएँ और द्विघात समीकरण", "Modulus & Conjugate, Argand Plane, Quadratic Roots & Coefficients, Nature of Roots, Equations Reducible to Quadratic."],
+            [3, 1, "Physics", "Units, Measurements & Errors", "मात्रक, मापन एवं त्रुटि विश्लेषण", "SI Units, Dimensional Analysis & Applications, Errors in Measurement, Least Count of Vernier Calliper & Screw Gauge."],
+            [4, 1, "Physics", "Kinematics 1D & 2D", "एकविमीय एवं द्विविमीय गतिकी", "Motion in a Straight Line, Motion Graphs, Relative Velocity, Projectile Motion, Uniform Circular Motion."],
+            [5, 1, "Chemistry", "Some Basic Concepts in Chemistry", "रसायन विज्ञान की कुछ मूल अवधारणाएँ", "Mole Concept, Stoichiometric Calculations, Concentration Terms (Molarity, Molality, Mole Fraction), Limiting Reagent."],
+            [6, 1, "Chemistry", "Atomic Structure", "परमाणु संरचना", "Bohr's Atomic Model, Photoelectric Effect, De Broglie Wavelength, Quantum Numbers, Electronic Configuration Rules."],
+            [7, 1, "Weekly Revision Test", "Week 01 Comprehensive Assessment", "प्रथम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 1–6 Syllabus: Sets, Complex Numbers, Kinematics, Mole Concept, and Atomic Structure."],
+
+            // Week 2
+            [8, 2, "Mathematics", "Matrices & Determinants", "आव्यूह और सारणिक", "Types of Matrices, Adjoint & Inverse, Properties of Determinants, System of Linear Equations using Cramer's Rule."],
+            [9, 2, "Mathematics", "Permutations & Combinations", "क्रमचय और संचय", "Fundamental Principle of Counting, P(n,r) and C(n,r), Circular Permutations, Division & Distribution into Groups."],
+            [10, 2, "Physics", "Laws of Motion & Friction", "गति के नियम एवं घर्षण", "Newton's Laws of Motion, Free Body Diagrams (FBD), Static & Kinetic Friction, Circular Dynamics, Momentum Conservation."],
+            [11, 2, "Physics", "Work, Energy & Power", "कार्य, ऊर्जा एवं शक्ति", "Work-Energy Theorem, Conservative vs Non-Conservative Forces, Potential Energy Curve, Elastic & Inelastic Collisions."],
+            [12, 2, "Chemistry", "Chemical Bonding & Molecular Structure I", "रासायनिक आबंधन एवं आण्विक संरचना - I", "Ionic & Covalent Bonding, Lewis Structures, VSEPR Theory, Dipole Moment, Fajan's Rules."],
+            [13, 2, "Chemistry", "Chemical Bonding & Molecular Structure II", "रासायनिक आबंधन एवं आण्विक संरचना - II", "Hybridization, Molecular Orbital Theory (MOT), Bond Order & Magnetic Behaviour, Hydrogen Bonding."],
+            [14, 2, "Weekly Revision Test", "Week 02 Comprehensive Assessment", "द्वितीय सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 8–13 Syllabus: Matrices, P&C, Laws of Motion, Work-Energy, and Chemical Bonding."],
+
+            // Week 3
+            [15, 3, "Mathematics", "Binomial Theorem", "द्विपद प्रमेय", "Binomial Expansion for Positive Integral Index, General & Middle Terms, Binomial Coefficients Properties, Applications."],
+            [16, 3, "Mathematics", "Sequences & Series I", "अनुक्रम और श्रेणी - I", "Arithmetic Progression (AP), Geometric Progression (GP), Insertion of Means (AM & GM), AM-GM Inequality."],
+            [17, 3, "Physics", "Center of Mass & System of Particles", "द्रव्यमान केंद्र एवं कणों का निकाय", "Center of Mass Calculation for Rigid Bodies, Conservation of Linear Momentum, Rocket Propulsion."],
+            [18, 3, "Physics", "Rotational Dynamics", "घूर्णन गतिकी", "Torque, Angular Momentum, Moment of Inertia Theorems, Pure Rolling Motion, Rotational Kinetic Energy."],
+            [19, 3, "Chemistry", "Chemical Thermodynamics", "रासायनिक ऊष्मागतिकी", "First Law of Thermodynamics, Enthalpy, Heat Capacity, Hess's Law, Enthalpies of Bond Dissociation & Reaction."],
+            [20, 3, "Chemistry", "Solutions & Colligative Properties", "विलयन एवं अणुसंख्या गुणधर्म", "Raoult's Law, Ideal & Non-Ideal Solutions, Colligative Properties (Relative Lowering of Vapor Pressure, Elevation in BP, Depression in FP, Osmotic Pressure), Van't Hoff Factor."],
+            [21, 3, "Weekly Revision Test", "Week 03 Comprehensive Assessment", "तृतीय सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 15–20 Syllabus: Binomial Theorem, Sequences, Rotational Dynamics, Thermodynamics, and Solutions."],
+
+            // Week 4
+            [22, 4, "Mathematics", "Sequences & Series II", "अनुक्रम और श्रेणी - II (विशेष श्रेणी)", "Arithmetico-Geometric Progression (AGP), Summation of Special Series using Sigma Notation, Method of Differences."],
+            [23, 4, "Mathematics", "Limits, Continuity & Differentiability", "सीमा, निरंतरता और अवकलनीयता", "Evaluation of Limits, L'Hôpital's Rule, Standard Limits, Test for Continuity, Differentiability of Functions."],
+            [24, 4, "Physics", "Gravitation", "गुरुत्वाकर्षण", "Kepler's Laws, Universal Law of Gravitation, Variation of Acceleration due to Gravity ('g'), Escape Velocity, Satellite Motion."],
+            [25, 4, "Physics", "Mechanical Properties of Solids", "ठोसों के यांत्रिक गुण", "Stress-Strain Relationship, Hooke's Law, Young's Modulus, Bulk Modulus, Modulus of Rigidity, Elastic Potential Energy."],
+            [26, 4, "Chemistry", "Chemical Equilibrium", "रासायनिक साम्यावस्था", "Law of Mass Action, Equilibrium Constant (Kp & Kc), Le Chatelier's Principle & Applications."],
+            [27, 4, "Chemistry", "Ionic Equilibrium", "आयनिक साम्यावस्था", "Arrhenius & Bronsted-Lowry Acids/Bases, pH Scale, Buffer Solutions, Solubility Product (Ksp), Common Ion Effect."],
+            [28, 4, "Weekly Revision Test", "Week 04 Comprehensive Assessment", "चतुर्थ सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 22–27 Syllabus: Special Series, LCD, Gravitation, Elasticity, Chemical & Ionic Equilibrium."],
+
+            // Week 5
+            [29, 5, "Mathematics", "Application of Derivatives (AOD)", "अवकलज के अनुप्रयोग", "Rate of Change, Tangents & Normals, Increasing & Decreasing Functions, Maxima and Minima."],
+            [30, 5, "Mathematics", "Indefinite Integration", "अनिश्चित समाकलन", "Standard Integration Formulas, Substitution Method, Integration by Parts, Partial Fractions Method."],
+            [31, 5, "Physics", "Fluid Mechanics", "तरल यांत्रिकी", "Pascal's Law, Archimedes Principle, Viscosity, Stokes' Law, Terminal Velocity, Bernoulli's Principle & Applications."],
+            [32, 5, "Physics", "Surface Tension & Calorimetry", "पृष्ठ तनाव एवं कैलोरीमिति", "Surface Energy, Capillarity, Excess Pressure inside Droplets, Thermal Expansion, Calorimetry Equations."],
+            [33, 5, "Chemistry", "Redox Reactions", "अपचयोपचय अभिक्रियाएं", "Oxidation Number Method, Balancing Redox Reactions, Ion-Electron Method, Redox Titrations."],
+            [34, 5, "Chemistry", "Electrochemistry", "वैद्युतरसायन", "Electrolytic & Galvanic Cells, Nernst Equation, Conductance in Electrolytic Solutions, Kohlrausch's Law, Faraday's Laws of Electrolysis."],
+            [35, 5, "Weekly Revision Test", "Week 05 Comprehensive Assessment", "पंचम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 29–34 Syllabus: AOD, Indefinite Integrals, Fluid Mechanics, Redox, and Electrochemistry."],
+
+            // Week 6
+            [36, 6, "Mathematics", "Definite Integration & Area", "निश्चित समाकलन एवं क्षेत्रफल", "Properties of Definite Integrals, Leibniz Rule, Area Bounded by Curves."],
+            [37, 6, "Mathematics", "Differential Equations", "अवकल समीकरण", "Order & Degree, Solution of Differential Equations by Variable Separable Method, Homogeneous & Linear Differential Equations."],
+            [38, 6, "Physics", "Kinetic Theory of Gases (KTG)", "गैसों का अणुगति सिद्धांत", "Ideal Gas Equation, Kinetic Interpretation of Temperature, RMS & Average Velocities, Degrees of Freedom, Law of Equipartition of Energy."],
+            [39, 6, "Physics", "Simple Harmonic Motion (SHM)", "सरल आवर्त गति", "Equation of SHM, Velocity, Acceleration, Energy in SHM, Simple Pendulum, Spring-Mass System."],
+            [40, 6, "Chemistry", "Chemical Kinetics", "रासायनिक बलगतिकी", "Rate of Reaction, Order & Molecularity, Integrated Rate Laws (Zero & First Order), Half-Life Period, Arrhenius Equation."],
+            [41, 6, "Chemistry", "Periodic Properties & Classification", "तत्वों का आवर्ती वर्गीकरण", "Modern Periodic Law, Trends in Atomic & Ionic Radii, Ionization Enthalpy, Electron Gain Enthalpy, Electronegativity."],
+            [42, 6, "Weekly Revision Test", "Week 06 Comprehensive Assessment", "षष्ठम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 36–41 Syllabus: Definite Integrals, Differential Equations, KTG, SHM, Kinetics, and Periodic Trends."],
+
+            // Week 7
+            [43, 7, "Mathematics", "Straight Lines", "सरल रेखाएं", "Slope of a Line, Distance Formula, Various Forms of Equations of a Line, Distance of a Point from a Line, Pair of Straight Lines."],
+            [44, 7, "Mathematics", "Circles", "वृत्त", "Standard & General Equations of Circle, Tangents & Normals to a Circle, Family of Circles, Intersection of Line and Circle."],
+            [45, 7, "Physics", "Mechanical Waves & Sound", "यांत्रिक तरंगें एवं ध्वनि", "Transverse & Longitudinal Waves, Wave Equation, Principle of Superposition, Standing Waves in Strings & Pipes, Beats."],
+            [46, 7, "Physics", "Electrostatics: Electric Charge & Field", "वैद्युत आवेश तथा क्षेत्र", "Coulomb's Law, Electric Field Intensity, Electric Dipole & Torque, Gauss's Law & Its Applications."],
+            [47, 7, "Chemistry", "p-Block Elements", "p-ब्लॉक के तत्व", "General Trends in Groups 13 to 18, Anomalous Properties of First Element, Chemical Reactivity & Key Compounds."],
+            [48, 7, "Chemistry", "d- and f- Block Elements", "d- एवं f- ब्लॉक के तत्व", "Transition Elements Electronic Configuration, General Characteristics, Lanthanide Contraction, Preparation & Properties of K2Cr2O7 & KMnO4."],
+            [49, 7, "Weekly Revision Test", "Week 07 Comprehensive Assessment", "सप्तम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 43–48 Syllabus: Straight Lines, Circles, Sound Waves, Electrostatics I, p-Block, d & f-Block."],
+
+            // Week 8
+            [50, 8, "Mathematics", "Conic Sections (Parabola, Ellipse, Hyperbola)", "शंकु परिच्छेद", "Standard Equations of Parabola, Ellipse, and Hyperbola, Tangents, Focal Properties, Eccentricity."],
+            [51, 8, "Mathematics", "Vector Algebra", "सदिश बीजगणित", "Addition of Vectors, Scalar (Dot) Product, Vector (Cross) Product, Scalar Triple Product & Geometric Interpretations."],
+            [52, 8, "Physics", "Electric Potential & Capacitance", "वैद्युत विभव एवं धारिता", "Electric Potential due to Point Charge & Dipole, Equipotential Surfaces, Capacitance, Parallel Plate Capacitor with Dielectrics."],
+            [53, 8, "Physics", "Current Electricity", "धारा विद्युत", "Ohm's Law, Drift Velocity, Kirchhoff's Circuit Laws, Wheatstone Bridge, Combination of Resistors and Cells."],
+            [54, 8, "Chemistry", "Coordination Compounds I", "उपसहसंयोजन यौगिक - I", "Werner's Theory, IUPAC Nomenclature, Types of Ligands, Coordination Number, Isomerism in Coordination Compounds."],
+            [55, 8, "Chemistry", "Coordination Compounds II", "उपसहसंयोजन यौगिक - II", "Valence Bond Theory (VBT), Crystal Field Theory (CFT), Color & Magnetic Properties, Applications of Coordination Compounds."],
+            [56, 8, "Weekly Revision Test", "Week 08 Comprehensive Assessment", "अष्टम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 50–55 Syllabus: Conic Sections, Vectors, Capacitance, Current Electricity, and Coordination Chemistry."],
+
+            // Week 9
+            [57, 9, "Mathematics", "Three Dimensional Geometry (3D)", "त्रिविमीय ज्यामिति", "Direction Cosines & Ratios, Equation of Line in Space, Skew Lines & Shortest Distance between Two Lines."],
+            [58, 9, "Mathematics", "Statistics", "सांख्यिकी", "Measures of Dispersion: Mean Deviation, Variance and Standard Deviation for Ungrouped & Grouped Data."],
+            [59, 9, "Physics", "Magnetic Effects of Current", "गतिमान आवेश एवं चुंबकत्व", "Biot-Savart Law, Ampere's Circuital Law, Force on Moving Charge in Magnetic Field, Cyclotron, Solenoid."],
+            [60, 9, "Physics", "Magnetism and Matter", "चुंबकत्व एवं द्रव्य", "Magnetic Dipole Moment, Magnetic Field Lines, Para-, Dia-, and Ferromagnetic Substances, Earth's Magnetism."],
+            [61, 9, "Chemistry", "Purification & Analysis of Organic Compounds", "कार्बनिक यौगिकों का शोधन एवं विश्लेषण", "Purification Methods (Crystallization, Distillation, Chromatography), Qualitative & Quantitative Analysis (Lassaigne Test, Dumas & Kjeldahl Methods)."],
+            [62, 9, "Chemistry", "General Organic Chemistry (GOC)", "सामान्य कार्बनिक रसायन (GOC)", "IUPAC Nomenclature, Electronic Displacement Effects (Inductive, Electromeric, Resonance, Hyperconjugation), Reaction Intermediates."],
+            [63, 9, "Weekly Revision Test", "Week 09 Comprehensive Assessment", "नवम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 57–62 Syllabus: 3D Geometry, Statistics, Moving Charges, Magnetism, Purification, and GOC."],
+
+            // Week 10
+            [64, 10, "Mathematics", "Probability", "प्रायिकता", "Conditional Probability, Multiplication Theorem, Bayes' Theorem, Random Variable & Probability Distribution."],
+            [65, 10, "Mathematics", "Trigonometric Functions & Equations", "त्रिकोणमितीय फलन एवं समीकरण", "Trigonometric Ratios & Identities, Compound Angles, Multiple/Submultiple Angles, General Solutions of Trigonometric Equations."],
+            [66, 10, "Physics", "Electromagnetic Induction (EMI)", "वैद्युतचुंबकीय प्रेरण", "Magnetic Flux, Faraday's Laws of Induction, Lenz's Law, Motional EMF, Self and Mutual Inductance."],
+            [67, 10, "Physics", "Alternating Current (AC)", "प्रत्यावर्ती धारा", "Peak & RMS Values, AC through L, C, R elements, LCR Series Circuit, Resonance, Power Factor, Transformer."],
+            [68, 10, "Chemistry", "Hydrocarbons I: Alkanes & Alkenes", "हाइड्रोकार्बन - एल्केन एवं एल्कीन", "Mechanism of Electrophilic Addition, Free Radical Halogenation, Ozonolysis, Markovnikov Rule."],
+            [69, 10, "Chemistry", "Hydrocarbons II: Alkynes & Aromatic", "हाइड्रोकार्बन - एल्काइन एवं एरोमैटिक", "Acidic Character of Alkynes, Benzene Aromaticity, Huckel Rule, Electrophilic Aromatic Substitution Reactions."],
+            [70, 10, "Weekly Revision Test", "Week 10 Comprehensive Assessment", "दशम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 64–69 Syllabus: Probability, Trigonometry, EMI, AC, Alkanes, Alkenes, and Aromatic Hydrocarbons."],
+
+            // Week 11
+            [71, 11, "Mathematics", "Inverse Trigonometric Functions", "प्रतिलोम त्रिकोणमितीय फलन", "Domain and Range of ITF, Principal Value Branch, Graphs, Properties & Simplifications."],
+            [72, 11, "Mathematics", "High-Yield Calculus Integrated Practice", "अवकल एवं समाकलन गणित एकीकृत अभ्यास", "Advanced Problem Solving combining LCD, Derivatives, Definite Integrals, and Differential Equations."],
+            [73, 11, "Physics", "Electromagnetic Waves", "वैद्युतचुंबकीय तरंगें", "Displacement Current, Electromagnetic Spectrum, Transverse Nature of EM Waves, Wave Equations."],
+            [74, 11, "Physics", "Ray Optics & Optical Instruments", "किरण प्रकाशिकी एवं प्रकाशिक यंत्र", "Reflection & Refraction, Total Internal Reflection (TIR), Lenses, Prisms, Microscope & Telescope."],
+            [75, 11, "Chemistry", "Haloalkanes and Haloarenes", "हेलोएल्केन तथा हेलोएरीन", "SN1 and SN2 Reaction Mechanisms, Preparation & Properties of Haloalkanes and Haloarenes."],
+            [76, 11, "Chemistry", "Alcohols, Phenols and Ethers", "ऐल्कोहॉल, फ़ीनॉल एवं ईथर", "Preparation Methods, Distinction Tests (1°, 2°, 3° Alcohols), Acidic Nature of Phenol, Reimer-Tiemann Reaction, Ethers Synthesis."],
+            [77, 11, "Weekly Revision Test", "Week 11 Comprehensive Assessment", "एकादश सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 71–76 Syllabus: ITF, Calculus Practice, EM Waves, Ray Optics, Haloalkanes, Alcohols & Phenols."],
+
+            // Week 12
+            [78, 12, "Mathematics", "Algebra Integrated Problem Solving", "बीजगणित संपूर्ण एकीकृत अभ्यास", "High-Yield Advanced Problem Solving covering Complex Numbers, Matrices, Determinants, and P&C."],
+            [79, 12, "Mathematics", "Coordinate Geometry Integrated Practice", "निर्देशांक ज्यामिति एकीकृत अभ्यास", "Advanced Mixed Questions covering Straight Lines, Circles, Parabola, Ellipse, and Hyperbola."],
+            [80, 12, "Physics", "Wave Optics", "तरंग प्रकाशिकी", "Huygens Principle, Young's Double Slit Experiment (YDSE), Interference, Fringe Width, Diffraction & Polarization."],
+            [81, 12, "Physics", "Dual Nature of Matter & Radiation", "विकिरण तथा द्रव्य की द्वैत प्रकृति", "Photoelectric Effect Equations, Stopping Potential, De Broglie Wavelength, Davisson-Germer Experiment."],
+            [82, 12, "Chemistry", "Aldehydes and Ketones", "ऐल्डिहाइड और कीटोन", "Nucleophilic Addition Reactions, Aldol Condensation, Cannizzaro Reaction, Tollens' & Fehling's Tests."],
+            [83, 12, "Chemistry", "Carboxylic Acids & Amines", "कार्बोक्सिलिक अम्ल एवं एमीन", "Acidic Strength of Carboxylic Acids, Basicity of Amines, Gabriel Phthalimide Synthesis, Hoffmann Bromamide Reaction, Diazonium Salts."],
+            [84, 12, "Weekly Revision Test", "Week 12 Comprehensive Assessment", "द्वादश सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 78–83 Syllabus: Algebra Practice, Coordinate Practice, Wave Optics, Dual Nature, Aldehydes, Ketones & Amines."],
+
+            // Week 13
+            [85, 13, "Mathematics", "Vectors & 3D Advanced Problem Solving", "सदिश एवं 3D उच्च-स्तरीय अभ्यास", "Mixed Multi-Concept Questions on 3D Geometry and Vector Products."],
+            [86, 13, "Mathematics", "Complete Syllabus Mathematics Drill", "गणित संपूर्ण पाठ्यक्रम ड्रिल", "Timed Problem Solving across all 14 Mathematics JEE Modules."],
+            [87, 13, "Physics", "Atoms and Nuclei", "परमाणु तथा नाभिक", "Alpha-Particle Scattering, Bohr Model of Hydrogen Atom, Mass Defect, Binding Energy per Nucleon, Nuclear Fission & Fusion."],
+            [88, 13, "Physics", "Semiconductor Electronics", "अर्धचालक इलेक्ट्रॉनिकी", "Energy Bands, p-n Junction Diode, Rectifiers, Zener Diode as Voltage Regulator, Logic Gates (AND, OR, NOT, NAND, NOR)."],
+            [89, 13, "Chemistry", "Biomolecules", "जैव-अणु", "Classification of Carbohydrates, Glucose & Fructose Structures, Amino Acids, Peptide Bond, Proteins, Nucleic Acids (DNA & RNA)."],
+            [90, 13, "Chemistry", "Principles Related to Practical Chemistry", "प्रायोगिक रसायन के सिद्धांत", "Detection of Functional Groups, Inorganic Salt Analysis (Cations & Anions), Titrimetric Analysis Principles."],
+            [91, 13, "Weekly Revision Test", "Full Syllabus Mock Evaluation 01", "संपूर्ण पाठ्यक्रम मॉक मूल्यांकन 01", "Full Length Mock Evaluation covering entire Physics, Chemistry, and Mathematics Syllabus."],
+
+            // Week 14 & 15: Selection Pro Final Mock Exams
+            [92, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 02", "ग्रैंड मॉक टेस्ट 02", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [93, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 03", "ग्रैंड मॉक टेस्ट 03", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [94, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 04", "ग्रैंड मॉक टेस्ट 04", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [95, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 05", "ग्रैंड मॉक टेस्ट 05", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [96, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 06", "ग्रैंड मॉक टेस्ट 06", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [97, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 07", "ग्रैंड मॉक टेस्ट 07", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [98, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 08", "ग्रैंड मॉक टेस्ट 08", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [99, 15, "Selection Pro Mock", "Full Syllabus Grand Mock Test 09", "ग्रैंड मॉक टेस्ट 09", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Math syllabus."],
+            [100, 15, "Selection Pro Mock", "Final All-India Rank Predictor Mock 10", "अंतिम ऑल-इंडिया रैंक मॉक 10", "Final Full Syllabus Grand Mock Test for Speed, Accuracy & Error Analysis."]
+        ];
+
+        const colorPalette = {
+            "Mathematics": "#2563eb",
+            "Physics": "#dc2626",
+            "Chemistry": "#16a34a",
+            "Weekly Revision Test": "#7c3aed",
+            "Selection Pro Mock": "#0284c7"
+        };
+
+        const container = document.getElementById('slides-container');
+
+        masterSchedule.forEach(row => {
+            const [day, week, subject, engTitle, hindiTitle, topics] = row;
+            const themeColor = colorPalette[subject] || "#2563eb";
+            const isTestDay = subject.includes("Test") || subject.includes("Mock");
+
+            const slide = document.createElement('div');
+            slide.className = 'slide';
+
+            if (isTestDay) {
+                // Test Day Layout
+                slide.innerHTML = `
+                    <div class="header-bar">
+                        <div>
+                            <div class="brand-title">SELECTION PRO | JEE 100 DAYS ACTION PLAN</div>
+                            <div class="brand-subtitle">Rigorous Testing & Performance Evaluation Phase</div>
+                        </div>
+                        <div class="badge" style="background: ${themeColor}">DAY ${day.toString().padStart(2, '0')} • WEEK ${week.toString().padStart(2, '0')}</div>
+                    </div>
+
+                    <div class="card-body">
+                        <div>
+                            <span class="subject-tag" style="background: ${themeColor}">${subject}</span>
+                            <div class="chapter-header">
+                                <div class="eng-title" style="color: ${themeColor}">${engTitle}</div>
+                                <div class="hindi-title">(${hindiTitle})</div>
+                            </div>
+
+                            <div class="topics-box" style="border-left-color: ${themeColor}">
+                                <div class="topics-heading">Test Coverage Scope</div>
+                                <div class="topics-content">${topics}</div>
+                            </div>
+                        </div>
+
+                        <div class="steps-grid">
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Phase 01</div>
+                                <div class="step-title">Exam Environment Setup</div>
+                                <div class="step-desc">Sit in a noise-free environment with strict timing control.</div>
+                                <div class="step-time">Duration: 15 Mins</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Phase 02</div>
+                                <div class="step-title">Take Selection Pro Test</div>
+                                <div class="step-desc">Attempt targeted test questions with high accuracy.</div>
+                                <div class="step-time">Duration: 180 Mins</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Phase 03</div>
+                                <div class="step-title">Comprehensive Analysis</div>
+                                <div class="step-desc">Log negative marks and unattempted topics in error notebook.</div>
+                                <div class="step-time">Duration: 45 Mins</div>
+                            </div>
+                        </div>
+
+                        <div class="footer-banner">
+                            <span>📌 TEST INSTRUCTION: Log all weak areas identified during this assessment for revision.</span>
+                            <span>Target Accuracy: >85%</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                // Regular Daily Study Layout
+                slide.innerHTML = `
+                    <div class="header-bar">
+                        <div>
+                            <div class="brand-title">SELECTION PRO | JEE 100 DAYS ACTION PLAN</div>
+                            <div class="brand-subtitle">Structured Chapter Revision & Question Practice Execution</div>
+                        </div>
+                        <div class="badge" style="background: ${themeColor}">DAY ${day.toString().padStart(2, '0')} • WEEK ${week.toString().padStart(2, '0')}</div>
+                    </div>
+
+                    <div class="card-body">
+                        <div>
+                            <span class="subject-tag" style="background: ${themeColor}">${subject}</span>
+                            <div class="chapter-header">
+                                <div class="eng-title">${engTitle}</div>
+                                <div class="hindi-title">(${hindiTitle})</div>
+                            </div>
+
+                            <div class="topics-box" style="border-left-color: ${themeColor}">
+                                <div class="topics-heading">Key Topics Covered</div>
+                                <div class="topics-content">${topics}</div>
+                            </div>
+                        </div>
+
+                        <div class="steps-grid">
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Step 01</div>
+                                <div class="step-title">Concept & Formula Revision</div>
+                                <div class="step-desc">Revise core theory, formulas, shortcuts, and key derivations.</div>
+                                <div class="step-time">Duration: 90 Mins</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Step 02</div>
+                                <div class="step-title">Targeted Question Practice</div>
+                                <div class="step-desc">Solve previous year questions (PYQs) and standard problems.</div>
+                                <div class="step-time">Duration: 90 Mins</div>
+                            </div>
+                            <div class="step-card">
+                                <div class="step-number" style="color: ${themeColor}">Step 03</div>
+                                <div class="step-title">Take Selection Pro Test</div>
+                                <div class="step-desc">Execute 25 curated practice questions under timed test mode.</div>
+                                <div class="step-time">Duration: 45 Mins</div>
+                            </div>
+                        </div>
+
+                        <div class="footer-banner">
+                            <span>📌 DAILY INSTRUCTION: Update your daily Short Notes and log errors after completing the Selection Pro Test.</span>
+                            <span>Daily Goal: 100% Completion</span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            container.appendChild(slide);
+        });
+    </script>
+</body>
+</html>
