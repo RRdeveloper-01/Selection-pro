@@ -665,7 +665,7 @@ function renderMyExam(){
         ================================== -->
 
         <div class="my-exam-grid">
-
+            ${challengeHTML}
             ${pageCards}
 
         </div>
@@ -676,8 +676,6 @@ function renderMyExam(){
         ================================== -->
 
         ${statsHTML}
-
-        ${challengeHTML}
 
         ${extraResourceHTML}
 

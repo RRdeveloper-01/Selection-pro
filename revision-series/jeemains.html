@@ -5,7 +5,6 @@
     <!-- =====================================================
          SELECTION PRO
          JEE 100 DAYS REVISION SERIES
-         Single File Page
     ====================================================== -->
 
     <meta charset="UTF-8">
@@ -16,10 +15,10 @@
     <title>JEE 100 Days Revision Series | Daily Challenge & Tests | Selection Pro</title>
 
     <meta name="description"
-          content="Join Selection Pro's JEE 100 Days Revision Series. Get daily chapter-wise revision challenges, exam-relevant practice tests, previous day tests and a complete JEE syllabus breakdown.">
+          content="Join Selection Pro's JEE 100 Days Revision Series with daily chapter-wise revision challenges, PYQ practice, Selection Pro tests and a complete JEE revision plan.">
 
     <meta name="keywords"
-          content="JEE 100 days revision, JEE revision series, JEE daily challenge, JEE mock test, JEE practice test, JEE syllabus breakdown, JEE preparation, JEE Main preparation, JEE revision plan, Selection Pro">
+          content="JEE 100 days revision, JEE revision series, JEE daily challenge, JEE practice test, JEE PYQ, JEE Main preparation, JEE revision plan, Selection Pro">
 
     <meta name="author"
           content="Selection Pro">
@@ -30,7 +29,9 @@
     <link rel="canonical"
           href="https://selectionpro.in/jee-100-days.html">
 
+
     <!-- Open Graph -->
+
     <meta property="og:type"
           content="website">
 
@@ -38,8 +39,27 @@
           content="JEE 100 Days Revision Series | Selection Pro">
 
     <meta property="og:description"
-          content="Daily JEE revision challenges, practice tests and complete syllabus breakdown — all in one 100-day revision plan.">
+          content="Daily JEE revision challenges, PYQ practice and Selection Pro tests in a structured 100-day revision journey.">
+<link rel="manifest" href="/manifest.json">
 
+<meta name="theme-color" content="#ffffff">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="apple-mobile-web-app-title" content="Selection Pro">
+
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+  
+    <link rel="stylesheet" href="/includes/css/footer.css">
+    <script src="/includes/js/analytics.js"></script>
+    <script src="/includes/js/onesignal.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM0R8NFRM0"></script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+        <script src="/includes/js/notification.js"></script>
     <meta property="og:url"
           content="https://selectionpro.in/jee-100-days.html">
 
@@ -49,7 +69,9 @@
     <meta property="og:image"
           content="https://selectionpro.in/images/jee-100-days.webp">
 
+
     <!-- Twitter -->
+
     <meta name="twitter:card"
           content="summary_large_image">
 
@@ -57,16 +79,18 @@
           content="JEE 100 Days Revision Series | Selection Pro">
 
     <meta name="twitter:description"
-          content="A structured 100-day JEE revision journey with daily challenges, practice tests and syllabus planning.">
+          content="A structured 100-day JEE revision journey with daily challenges, PYQ practice and Selection Pro tests.">
 
     <meta name="twitter:image"
           content="https://selectionpro.in/images/jee-100-days.webp">
 
-    <!-- Theme -->
+
     <meta name="theme-color"
           content="#0d6efd">
 
+
     <!-- Poppins -->
+
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
 
@@ -87,7 +111,7 @@
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "JEE 100 Days Revision Series",
-      "description": "A structured 100-day JEE revision program with daily challenges, chapter-wise practice and exam-relevant tests.",
+      "description": "A structured 100-day JEE revision program with daily challenges, PYQ practice and Selection Pro tests.",
       "provider": {
         "@type": "Organization",
         "name": "Selection Pro",
@@ -100,977 +124,1452 @@
     </script>
 
 
-    <style>
-
-        /* =====================================================
-           RESET
-        ====================================================== */
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-
-            --primary: #0d6efd;
-            --primary-dark: #0957c7;
-            --primary-light: #eaf3ff;
-
-            --bg: #f5f7fb;
-            --card: #ffffff;
-
-            --text: #202124;
-            --muted: #667085;
-
-            --border: #e6eaf0;
-
-            --success: #16a34a;
-            --success-bg: #ecfdf3;
-
-            --warning: #f59e0b;
-            --warning-bg: #fff8e6;
-
-            --purple: #7c3aed;
-            --purple-bg: #f3edff;
-
-            --danger: #dc3545;
-
-            --shadow:
-                0 8px 30px rgba(15, 23, 42, .07);
-
-            --radius: 18px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: "Poppins", sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.75;
-            padding-top: 95px;
-        }
-
-        button,
-        a {
-            font-family: inherit;
-        }
-
-        button {
-            cursor: pointer;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-
-        /* =====================================================
-           TOP BAR
-        ====================================================== */
-
-        .topbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 78px;
-            background: rgba(255,255,255,.94);
-            backdrop-filter: blur(16px);
-            border-bottom: 1px solid var(--border);
-            z-index: 1000;
-        }
-
-        .topbar-inner {
-            max-width: 1120px;
-            height: 100%;
-            margin: auto;
-            padding: 0 18px;
-
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .back-btn {
-            width: 44px;
-            height: 44px;
-            border-radius: 13px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            background: var(--primary-light);
-            color: var(--primary);
-
-            font-size: 21px;
-            font-weight: 800;
-
-            transition: .2s;
-        }
-
-        .back-btn:hover {
-            background: var(--primary);
-            color: white;
-            transform: translateX(-2px);
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .brand-icon {
-            width: 42px;
-            height: 42px;
-            border-radius: 12px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            background: linear-gradient(
-                135deg,
-                #0d6efd,
-                #084bb8
-            );
-
-            color: white;
-            font-size: 17px;
-            font-weight: 800;
-
-            box-shadow:
-                0 7px 18px rgba(13,110,253,.22);
-        }
-
-        .brand-title {
-            font-weight: 800;
-            font-size: 16px;
-            line-height: 1.2;
-        }
-
-        .brand-sub {
-            font-size: 10px;
-            color: var(--muted);
-        }
-
-
-        /* =====================================================
-           MAIN
-        ====================================================== */
-
-        .container {
-            width: min(1120px, calc(100% - 30px));
-            margin: auto;
-        }
-
-
-        /* =====================================================
-           HERO
-        ====================================================== */
-
-        .hero {
-            position: relative;
-            overflow: hidden;
-
-            margin-top: 20px;
-            padding: 32px 28px;
-
-            border-radius: 26px;
-
-            background:
-                radial-gradient(
-                    circle at 85% 15%,
-                    rgba(56,189,248,.28),
-                    transparent 30%
-                ),
-                linear-gradient(
-                    135deg,
-                    #061b3d,
-                    #0b4fa8
-                );
-
-            color: white;
-
-            box-shadow:
-                0 20px 55px rgba(13,110,253,.18);
-        }
-
-        .hero::after {
-            content: "";
-            position: absolute;
-            width: 220px;
-            height: 220px;
-            right: -70px;
-            bottom: -100px;
-            border-radius: 50%;
-            border: 35px solid rgba(255,255,255,.07);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .eyebrow {
-            display: inline-flex;
-            align-items: center;
-            gap: 7px;
-
-            padding: 6px 11px;
-            border-radius: 999px;
-
-            background: rgba(255,255,255,.12);
-            border: 1px solid rgba(255,255,255,.14);
-
-            font-size: 11px;
-            font-weight: 700;
-            letter-spacing: .5px;
-
-            margin-bottom: 12px;
-        }
-
-        .hero h1 {
-            font-size: clamp(28px, 5vw, 48px);
-            line-height: 1.18;
-            font-weight: 800;
-            max-width: 750px;
-        }
-
-        .hero h1 span {
-            color: #ffd84a;
-        }
-
-        .hero p {
-            margin-top: 12px;
-            max-width: 700px;
-
-            color: rgba(255,255,255,.84);
-
-            font-size: 14px;
-        }
-
-        .hero-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 9px;
-            margin-top: 20px;
-        }
-
-        .hero-pill {
-            padding: 7px 11px;
-            border-radius: 9px;
-
-            background: rgba(255,255,255,.1);
-            border: 1px solid rgba(255,255,255,.13);
-
-            font-size: 11px;
-            font-weight: 600;
-        }
-
-
-        /* =====================================================
-           PROGRESS
-        ====================================================== */
-
-        .progress-card {
-            margin-top: 18px;
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-
-            padding: 20px;
-
-            box-shadow: var(--shadow);
-        }
-
-        .progress-head {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 15px;
+<style>
 
-            margin-bottom: 11px;
-        }
+/* =====================================================
+   RESET
+===================================================== */
 
-        .progress-head strong {
-            font-size: 15px;
-        }
-
-        .progress-day {
-            color: var(--primary);
-            font-size: 13px;
-            font-weight: 700;
-        }
-
-        .progress-track {
-            height: 10px;
-            border-radius: 20px;
-            background: #edf1f6;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            width: 1%;
-            height: 100%;
-            border-radius: inherit;
-
-            background:
-                linear-gradient(
-                    90deg,
-                    #0d6efd,
-                    #38bdf8
-                );
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-            transition: width .5s ease;
-        }
+:root {
 
-        .progress-foot {
-            display: flex;
-            justify-content: space-between;
+    --primary: #0d6efd;
+    --primary-dark: #0957c7;
+    --primary-light: #eaf3ff;
 
-            margin-top: 8px;
-
-            font-size: 11px;
-            color: var(--muted);
-        }
-
-
-        /* =====================================================
-           SWITCH
-        ====================================================== */
-
-        .switch-wrap {
-            margin-top: 22px;
-
-            display: flex;
-            justify-content: center;
-        }
-
-        .mode-switch {
-            width: 100%;
-            max-width: 620px;
-
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+    --bg: #f5f7fb;
+    --card: #ffffff;
 
-            padding: 5px;
-
-            background: #e9eef5;
-            border-radius: 14px;
-        }
-
-        .mode-btn {
-            border: 0;
-            background: transparent;
-
-            padding: 12px 10px;
+    --text: #202124;
+    --muted: #667085;
 
-            border-radius: 10px;
+    --border: #e6eaf0;
 
-            color: #667085;
-            font-size: 13px;
-            font-weight: 700;
-
-            transition: .2s;
-        }
-
-        .mode-btn.active {
-            color: var(--primary);
-            background: white;
-
-            box-shadow:
-                0 3px 12px rgba(15,23,42,.08);
-        }
+    --success: #16a34a;
+    --success-bg: #ecfdf3;
 
+    --warning: #f59e0b;
+    --warning-bg: #fff8e6;
 
-        /* =====================================================
-           SECTION
-        ====================================================== */
+    --purple: #7c3aed;
+    --purple-bg: #f3edff;
 
-        .section {
-            margin-top: 25px;
-        }
-
-        .section-heading {
-            display: flex;
-            justify-content: space-between;
-            align-items: end;
-            gap: 15px;
+    --danger: #dc3545;
 
-            margin-bottom: 14px;
-        }
+    --shadow:
+        0 8px 30px rgba(15, 23, 42, .07);
 
-        .section-heading h2 {
-            font-size: 21px;
-            font-weight: 800;
-        }
+    --radius: 18px;
+}
 
-        .section-heading p {
-            font-size: 12px;
-            color: var(--muted);
-        }
 
+html {
+    scroll-behavior: smooth;
+}
 
-        /* =====================================================
-           TODAY CHALLENGE
-        ====================================================== */
 
-        .challenge-card {
-            background: white;
-            border: 1px solid var(--border);
-            border-radius: 20px;
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    padding-top: 95px;
+}
 
-            padding: 22px;
 
-            box-shadow: var(--shadow);
-        }
+button,
+a {
+    font-family: inherit;
+}
 
-        .challenge-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 15px;
-        }
 
-        .day-badge {
-            display: inline-flex;
-            align-items: center;
+button {
+    cursor: pointer;
+}
 
-            padding: 6px 10px;
-            border-radius: 8px;
 
-            background: var(--primary-light);
-            color: var(--primary);
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-            font-size: 11px;
-            font-weight: 800;
-        }
 
-        .date-label {
-            font-size: 11px;
-            color: var(--muted);
-            margin-top: 5px;
-        }
+/* =====================================================
+   TOP BAR
+===================================================== */
 
-        .subject-tag {
-            padding: 6px 10px;
-            border-radius: 8px;
+.topbar {
 
-            background: var(--purple-bg);
-            color: var(--purple);
+    position: fixed;
 
-            font-size: 11px;
-            font-weight: 700;
-        }
+    top: 0;
+    left: 0;
 
-        .challenge-title {
-            margin-top: 16px;
+    width: 100%;
+    height: 78px;
 
-            font-size: 22px;
-            line-height: 1.35;
-            font-weight: 800;
-        }
+    background: rgba(255,255,255,.94);
 
-        .challenge-description {
-            margin-top: 8px;
-            color: var(--muted);
-            font-size: 13px;
-        }
+    backdrop-filter: blur(16px);
 
+    border-bottom: 1px solid var(--border);
 
-        /* TASKS */
+    z-index: 1000;
+}
 
-        .task-list {
-            display: grid;
-            gap: 10px;
-            margin-top: 18px;
-        }
 
-        .task {
-            display: flex;
-            align-items: flex-start;
-            gap: 11px;
+.topbar-inner {
 
-            padding: 12px;
+    max-width: 1120px;
 
-            border-radius: 12px;
-            background: #f7f9fc;
-            border: 1px solid #edf0f4;
-        }
+    height: 100%;
 
-        .task-check {
-            width: 24px;
-            height: 24px;
+    margin: auto;
 
-            flex: 0 0 24px;
+    padding: 0 18px;
 
-            border-radius: 7px;
+    display: flex;
 
-            border: 1.5px solid #cbd5e1;
+    align-items: center;
 
-            background: white;
+    gap: 15px;
+}
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-            color: transparent;
+.back-btn {
 
-            transition: .2s;
-        }
+    width: 44px;
+    height: 44px;
 
-        .task.done .task-check {
-            background: var(--success);
-            border-color: var(--success);
-            color: white;
-        }
+    border-radius: 13px;
 
-        .task-text {
-            font-size: 13px;
-            font-weight: 600;
-        }
+    display: flex;
 
-        .task-text small {
-            display: block;
-            color: var(--muted);
-            font-weight: 400;
-            margin-top: 2px;
-        }
+    align-items: center;
+    justify-content: center;
 
+    background: var(--primary-light);
 
-        /* ACTION */
+    color: var(--primary);
 
-        .challenge-actions {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
+    font-size: 21px;
 
-            margin-top: 20px;
-        }
+    font-weight: 800;
 
-        .primary-btn,
-        .secondary-btn {
-            min-height: 44px;
-            padding: 10px 17px;
+    transition: .2s;
+}
 
-            border-radius: 11px;
 
-            font-size: 12px;
-            font-weight: 700;
+.back-btn:hover {
 
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 7px;
-        }
+    background: var(--primary);
 
-        .primary-btn {
-            border: 0;
-            background: var(--primary);
-            color: white;
+    color: white;
 
-            box-shadow:
-                0 7px 18px rgba(13,110,253,.2);
-        }
+    transform: translateX(-2px);
+}
 
-        .primary-btn:hover {
-            background: var(--primary-dark);
-        }
 
-        .secondary-btn {
-            border: 1px solid var(--border);
-            background: white;
-            color: var(--text);
-        }
+.brand {
 
+    display: flex;
 
-        /* =====================================================
-           TEST AREA
-        ====================================================== */
+    align-items: center;
 
-        .test-section {
-            margin-top: 25px;
-        }
+    gap: 10px;
+}
 
-        .coming-card {
-            position: relative;
-            overflow: hidden;
 
-            background:
-                linear-gradient(
-                    135deg,
-                    #061b3d,
-                    #0d6efd
-                );
+.brand-icon {
 
-            color: white;
+    width: 42px;
+    height: 42px;
 
-            border-radius: 20px;
-            padding: 22px;
+    border-radius: 12px;
 
-            box-shadow:
-                0 15px 40px rgba(13,110,253,.16);
-        }
+    display: flex;
 
-        .coming-card::before {
-            content: "COMING SOON";
+    align-items: center;
+    justify-content: center;
 
-            position: absolute;
-            right: -35px;
-            top: 25px;
+    background:
+        linear-gradient(
+            135deg,
+            #0d6efd,
+            #084bb8
+        );
 
-            transform: rotate(35deg);
+    color: white;
 
-            padding: 7px 45px;
+    font-size: 17px;
 
-            background: #ffd21c;
-            color: #202124;
+    font-weight: 800;
 
-            font-size: 10px;
-            font-weight: 900;
-            letter-spacing: 1px;
-        }
+    box-shadow:
+        0 7px 18px rgba(13,110,253,.22);
+}
 
-        .coming-icon {
-            width: 48px;
-            height: 48px;
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
+.brand-title {
 
-            border-radius: 14px;
+    font-weight: 800;
 
-            background: rgba(255,255,255,.12);
+    font-size: 16px;
 
-            font-size: 23px;
+    line-height: 1.2;
+}
 
-            margin-bottom: 14px;
-        }
 
-        .coming-card h3 {
-            font-size: 20px;
-            font-weight: 800;
-        }
+.brand-sub {
 
-        .coming-card p {
-            margin-top: 6px;
+    font-size: 10px;
 
-            max-width: 650px;
+    color: var(--muted);
+}
 
-            color: rgba(255,255,255,.78);
-            font-size: 12px;
-        }
 
+/* =====================================================
+   MAIN
+===================================================== */
 
-        /* =====================================================
-           TEST GRID
-        ====================================================== */
+.container {
 
-        .test-grid {
-            display: grid;
-            grid-template-columns:
-                repeat(2, minmax(0, 1fr));
+    width: min(
+        1120px,
+        calc(100% - 30px)
+    );
 
-            gap: 14px;
-            margin-top: 15px;
-        }
+    margin: auto;
+}
 
-        .test-card {
-            background: white;
 
-            border: 1px solid var(--border);
-            border-radius: 17px;
+/* =====================================================
+   HERO
+===================================================== */
 
-            padding: 17px;
+.hero {
 
-            box-shadow: 0 5px 20px rgba(15,23,42,.045);
+    position: relative;
 
-            transition: .2s;
-        }
+    overflow: hidden;
 
-        .test-card:hover {
-            transform: translateY(-3px);
-            box-shadow: var(--shadow);
-        }
+    margin-top: 20px;
 
-        .test-card-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 10px;
-        }
+    padding: 32px 28px;
 
-        .test-day {
-            color: var(--primary);
-            font-size: 11px;
-            font-weight: 800;
-        }
+    border-radius: 26px;
 
-        .test-status {
-            padding: 4px 8px;
-            border-radius: 7px;
+    background:
 
-            background: var(--success-bg);
-            color: var(--success);
+        radial-gradient(
+            circle at 85% 15%,
+            rgba(56,189,248,.28),
+            transparent 30%
+        ),
 
-            font-size: 9px;
-            font-weight: 800;
-        }
+        linear-gradient(
+            135deg,
+            #061b3d,
+            #0b4fa8
+        );
 
-        .test-title {
-            margin-top: 11px;
+    color: white;
 
-            font-size: 15px;
-            line-height: 1.4;
-            font-weight: 800;
-        }
+    box-shadow:
+        0 20px 55px rgba(13,110,253,.18);
+}
 
-        .test-info {
-            margin-top: 7px;
 
-            color: var(--muted);
-            font-size: 10px;
-        }
+.hero::after {
 
-        .test-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    content: "";
 
-            width: 100%;
-            min-height: 39px;
+    position: absolute;
 
-            margin-top: 13px;
+    width: 220px;
+    height: 220px;
 
-            border-radius: 9px;
+    right: -70px;
+    bottom: -100px;
 
-            background: var(--primary-light);
-            color: var(--primary);
+    border-radius: 50%;
 
-            font-size: 11px;
-            font-weight: 800;
-        }
+    border:
+        35px solid rgba(255,255,255,.07);
+}
 
 
-        /* =====================================================
-           SYLLABUS
-        ====================================================== */
+.hero-content {
 
-        #syllabusView {
-            display: none;
-        }
+    position: relative;
 
-        .phase-grid {
-            display: grid;
-            grid-template-columns:
-                repeat(3, minmax(0,1fr));
+    z-index: 2;
+}
 
-            gap: 14px;
-        }
 
-        .phase {
-            background: white;
+.eyebrow {
 
-            border: 1px solid var(--border);
-            border-radius: 18px;
+    display: inline-flex;
 
-            padding: 18px;
+    align-items: center;
 
-            box-shadow: var(--shadow);
-        }
+    gap: 7px;
 
-        .phase-number {
-            font-size: 10px;
-            font-weight: 800;
-            color: var(--primary);
+    padding: 6px 11px;
 
-            letter-spacing: 1px;
-        }
+    border-radius: 999px;
 
-        .phase h3 {
-            margin-top: 5px;
+    background:
+        rgba(255,255,255,.12);
 
-            font-size: 17px;
-            font-weight: 800;
-        }
+    border:
+        1px solid rgba(255,255,255,.14);
 
-        .phase-days {
-            margin-top: 5px;
+    font-size: 11px;
 
-            color: var(--muted);
-            font-size: 10px;
-        }
+    font-weight: 700;
 
-        .phase-subjects {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
+    letter-spacing: .5px;
 
-            margin-top: 13px;
-        }
+    margin-bottom: 12px;
+}
 
-        .phase-subjects span {
-            padding: 5px 8px;
 
-            border-radius: 7px;
+.hero h1 {
 
-            background: #f2f5f9;
+    font-size:
+        clamp(28px, 5vw, 48px);
 
-            font-size: 9px;
-            font-weight: 600;
-        }
+    line-height: 1.18;
 
+    font-weight: 800;
 
-        /* =====================================================
-           SEARCH
-        ====================================================== */
+    max-width: 750px;
+}
 
-        .search-box {
-            margin-bottom: 14px;
-        }
 
-        .search-box input {
-            width: 100%;
+.hero h1 span {
 
-            border: 1px solid var(--border);
-            outline: none;
+    color: #ffd84a;
+}
 
-            background: white;
 
-            border-radius: 12px;
+.hero p {
 
-            padding: 12px 14px;
+    margin-top: 12px;
 
-            font-family: inherit;
-            font-size: 12px;
-        }
+    max-width: 700px;
 
-        .search-box input:focus {
-            border-color: var(--primary);
+    color:
+        rgba(255,255,255,.84);
 
-            box-shadow:
-                0 0 0 3px rgba(13,110,253,.08);
-        }
+    font-size: 14px;
+}
 
 
-        /* =====================================================
-           FOOTER
-        ====================================================== */
+.hero-meta {
 
-        .footer {
-            margin: 45px 0 30px;
+    display: flex;
 
-            text-align: center;
+    flex-wrap: wrap;
 
-            color: var(--muted);
-            font-size: 11px;
-        }
+    gap: 9px;
 
-        .footer strong {
-            color: var(--text);
-        }
+    margin-top: 20px;
+}
 
 
-        /* =====================================================
-           EMPTY
-        ====================================================== */
+.hero-pill {
 
-        .empty {
-            padding: 30px 15px;
+    padding: 7px 11px;
 
-            text-align: center;
+    border-radius: 9px;
 
-            background: white;
+    background:
+        rgba(255,255,255,.1);
 
-            border: 1px dashed #d7dde7;
-            border-radius: 17px;
+    border:
+        1px solid rgba(255,255,255,.13);
 
-            color: var(--muted);
+    font-size: 11px;
 
-            font-size: 12px;
-        }
+    font-weight: 600;
+}
 
 
-        /* =====================================================
-           RESPONSIVE
-        ====================================================== */
+/* =====================================================
+   PROGRESS
+===================================================== */
 
-        @media (max-width: 650px) {
+.progress-card {
 
-            body {
-                padding-top: 82px;
-            }
+    margin-top: 18px;
 
-            .topbar {
-                height: 70px;
-            }
+    background: var(--card);
 
-            .brand-icon {
-                width: 38px;
-                height: 38px;
-            }
+    border:
+        1px solid var(--border);
 
-            .brand-title {
-                font-size: 14px;
-            }
+    border-radius: var(--radius);
 
-            .hero {
-                padding: 25px 19px;
-                border-radius: 21px;
-            }
+    padding: 20px;
 
-            .hero h1 {
-                font-size: 27px;
-            }
+    box-shadow: var(--shadow);
+}
 
-            .hero p {
-                font-size: 12px;
-            }
 
-            .progress-card {
-                padding: 16px;
-            }
+.progress-head {
 
-            .challenge-card {
-                padding: 17px;
-            }
+    display: flex;
 
-            .test-grid {
-                grid-template-columns: 1fr;
-            }
+    justify-content: space-between;
 
-            .phase-grid {
-                grid-template-columns: 1fr;
-            }
+    align-items: center;
 
-            .section-heading h2 {
-                font-size: 18px;
-            }
+    gap: 15px;
 
-            .challenge-title {
-                font-size: 19px;
-            }
-        }
+    margin-bottom: 11px;
+}
 
 
-        @media (min-width: 900px) {
+.progress-head strong {
 
-            .test-grid {
-                grid-template-columns:
-                    repeat(3, minmax(0,1fr));
-            }
-        }
+    font-size: 15px;
+}
 
-    </style>
+
+.progress-day {
+
+    color: var(--primary);
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.progress-track {
+
+    height: 10px;
+
+    border-radius: 20px;
+
+    background: #edf1f6;
+
+    overflow: hidden;
+}
+
+
+.progress-fill {
+
+    width: 1%;
+
+    height: 100%;
+
+    border-radius: inherit;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #0d6efd,
+            #38bdf8
+        );
+
+    transition:
+        width .5s ease;
+}
+
+
+.progress-foot {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 8px;
+
+    font-size: 11px;
+
+    color: var(--muted);
+}
+
+
+/* =====================================================
+   SWITCH
+===================================================== */
+
+.switch-wrap {
+
+    margin-top: 22px;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+
+.mode-switch {
+
+    width: 100%;
+
+    max-width: 620px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    padding: 5px;
+
+    background: #e9eef5;
+
+    border-radius: 14px;
+}
+
+
+.mode-btn {
+
+    border: 0;
+
+    background: transparent;
+
+    padding: 12px 10px;
+
+    border-radius: 10px;
+
+    color: #667085;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    transition: .2s;
+
+    text-align: center;
+}
+
+
+.mode-btn.active {
+
+    color: var(--primary);
+
+    background: white;
+
+    box-shadow:
+        0 3px 12px rgba(15,23,42,.08);
+}
+
+
+/* =====================================================
+   SECTION
+===================================================== */
+
+.section {
+
+    margin-top: 25px;
+}
+
+
+.section-heading {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: end;
+
+    gap: 15px;
+
+    margin-bottom: 14px;
+}
+
+
+.section-heading h2 {
+
+    font-size: 21px;
+
+    font-weight: 800;
+}
+
+
+.section-heading p {
+
+    font-size: 12px;
+
+    color: var(--muted);
+}
+
+
+/* =====================================================
+   CHALLENGE CARD
+===================================================== */
+
+.challenge-card {
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 20px;
+
+    padding: 22px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.challenge-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 15px;
+}
+
+
+.day-badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 6px 10px;
+
+    border-radius: 8px;
+
+    background: var(--primary-light);
+
+    color: var(--primary);
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+.date-label {
+
+    font-size: 11px;
+
+    color: var(--muted);
+
+    margin-top: 5px;
+}
+
+
+.subject-tag {
+
+    padding: 6px 10px;
+
+    border-radius: 8px;
+
+    background: var(--purple-bg);
+
+    color: var(--purple);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    text-align: center;
+}
+
+
+.challenge-title {
+
+    margin-top: 16px;
+
+    font-size: 22px;
+
+    line-height: 1.35;
+
+    font-weight: 800;
+}
+
+
+.challenge-description {
+
+    margin-top: 8px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   TASKS
+===================================================== */
+
+.task-list {
+
+    display: grid;
+
+    gap: 10px;
+
+    margin-top: 18px;
+}
+
+
+.task {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 11px;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    background: #f7f9fc;
+
+    border:
+        1px solid #edf0f4;
+
+    transition: .2s;
+}
+
+
+.task:hover {
+
+    border-color:
+        #d9e2ef;
+}
+
+
+.task-check {
+
+    width: 24px;
+    height: 24px;
+
+    flex: 0 0 24px;
+
+    border-radius: 7px;
+
+    border:
+        1.5px solid #cbd5e1;
+
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: transparent;
+
+    transition: .2s;
+}
+
+
+.task.done .task-check {
+
+    background: var(--success);
+
+    border-color: var(--success);
+
+    color: white;
+}
+
+
+.task.done {
+
+    background:
+        var(--success-bg);
+
+    border-color:
+        #bbf7d0;
+}
+
+
+.task-text {
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.task-text small {
+
+    display: block;
+
+    color: var(--muted);
+
+    font-weight: 400;
+
+    margin-top: 2px;
+}
+
+
+/* =====================================================
+   ACTIONS
+===================================================== */
+
+.challenge-actions {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+
+.primary-btn,
+.secondary-btn {
+
+    min-height: 44px;
+
+    padding: 10px 17px;
+
+    border-radius: 11px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+}
+
+
+.primary-btn {
+
+    border: 0;
+
+    background: var(--primary);
+
+    color: white;
+
+    box-shadow:
+        0 7px 18px rgba(13,110,253,.2);
+}
+
+
+.primary-btn:hover {
+
+    background:
+        var(--primary-dark);
+}
+
+
+.secondary-btn {
+
+    border:
+        1px solid var(--border);
+
+    background: white;
+
+    color: var(--text);
+}
+
+
+/* =====================================================
+   TEST AREA
+===================================================== */
+
+.test-section {
+
+    margin-top: 25px;
+}
+
+
+/* =====================================================
+   TODAY TEST CARD
+===================================================== */
+
+.today-test-card {
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    box-shadow: var(--shadow);
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+.today-test-card.coming {
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf0,
+            #ffffff
+        );
+
+    border-color:
+        #f6d88b;
+}
+
+
+.test-card-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.test-day {
+
+    color: var(--primary);
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+.test-status {
+
+    padding: 5px 9px;
+
+    border-radius: 7px;
+
+    font-size: 9px;
+
+    font-weight: 800;
+}
+
+
+.test-status.coming-status {
+
+    background:
+        var(--warning-bg);
+
+    color:
+        #b77900;
+}
+
+
+.test-status.available-status {
+
+    background:
+        var(--success-bg);
+
+    color:
+        var(--success);
+}
+
+
+.today-test-title {
+
+    margin-top: 12px;
+
+    font-size: 18px;
+
+    line-height: 1.4;
+
+    font-weight: 800;
+}
+
+
+.today-test-info {
+
+    margin-top: 7px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+
+.release-info {
+
+    margin-top: 13px;
+
+    padding: 10px 12px;
+
+    border-radius: 10px;
+
+    background: #f7f9fc;
+
+    color: var(--muted);
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+.release-info strong {
+
+    color: var(--text);
+}
+
+
+.test-btn {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    min-height: 42px;
+
+    margin-top: 14px;
+
+    border-radius: 10px;
+
+    background: var(--primary-light);
+
+    color: var(--primary);
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+.test-btn.disabled {
+
+    background: #f1f3f6;
+
+    color: #98a2b3;
+
+    pointer-events: none;
+}
+
+
+/* =====================================================
+   PREVIOUS TESTS
+===================================================== */
+
+.previous-wrap {
+
+    margin-top: 25px;
+}
+
+
+.search-box {
+
+    margin-bottom: 14px;
+}
+
+
+.search-box input {
+
+    width: 100%;
+
+    border:
+        1px solid var(--border);
+
+    outline: none;
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 12px 14px;
+
+    font-family: inherit;
+
+    font-size: 12px;
+}
+
+
+.search-box input:focus {
+
+    border-color:
+        var(--primary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(13,110,253,.08);
+}
+
+
+.test-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0,1fr));
+
+    gap: 14px;
+}
+
+
+.test-card {
+
+    background: white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 17px;
+
+    padding: 17px;
+
+    box-shadow:
+        0 5px 20px rgba(15,23,42,.045);
+
+    transition: .2s;
+}
+
+
+.test-card:hover {
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        var(--shadow);
+}
+
+
+.test-title {
+
+    margin-top: 11px;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+
+    font-weight: 800;
+}
+
+
+.test-info {
+
+    margin-top: 7px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+}
+
+
+.test-card .test-btn {
+
+    margin-top: 13px;
+}
+
+
+/* =====================================================
+   EMPTY
+===================================================== */
+
+.empty {
+
+    padding: 30px 15px;
+
+    text-align: center;
+
+    background: white;
+
+    border:
+        1px dashed #d7dde7;
+
+    border-radius: 17px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    grid-column: 1 / -1;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+    margin: 45px 0 30px;
+
+    text-align: center;
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+
+.footer strong {
+
+    color: var(--text);
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 650px) {
+
+    body {
+        padding-top: 82px;
+    }
+
+
+    .topbar {
+        height: 70px;
+    }
+
+
+    .brand-icon {
+
+        width: 38px;
+        height: 38px;
+    }
+
+
+    .brand-title {
+        font-size: 14px;
+    }
+
+
+    .hero {
+
+        padding: 25px 19px;
+
+        border-radius: 21px;
+    }
+
+
+    .hero h1 {
+
+        font-size: 27px;
+    }
+
+
+    .hero p {
+
+        font-size: 12px;
+    }
+
+
+    .progress-card {
+
+        padding: 16px;
+    }
+
+
+    .challenge-card {
+
+        padding: 17px;
+    }
+
+
+    .test-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 18px;
+    }
+
+
+    .challenge-title {
+
+        font-size: 19px;
+    }
+}
+
+
+@media (min-width: 900px) {
+
+    .test-grid {
+
+        grid-template-columns:
+            repeat(3, minmax(0,1fr));
+    }
+}
+/* =====================================================
+   TELEGRAM DISCUSSION FLOATING BUTTON
+===================================================== */
+
+.telegram-float {
+    position: fixed;
+
+    right: 18px;
+    bottom: 20px;
+
+    z-index: 2000;
+
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    padding: 7px 16px 7px 7px;
+
+    background: #0d6efd;
+    color: #ffffff;
+
+    border-radius: 999px;
+
+    box-shadow:
+        0 8px 25px rgba(13, 110, 253, .28);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+.telegram-float:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 32px rgba(13, 110, 253, .38);
+}
+
+
+/* Telegram Icon */
+
+.telegram-icon {
+    position: relative;
+
+    width: 38px;
+    height: 38px;
+
+    flex: 0 0 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    z-index: 2;
+}
+
+.telegram-icon svg {
+    width: 21px;
+    height: 21px;
+
+    fill: #0d6efd;
+}
+
+
+/* Pulse Ring */
+
+.telegram-pulse {
+    position: absolute;
+
+    left: 7px;
+    top: 7px;
+
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.45);
+
+    animation: telegramPulse 2s infinite;
+
+    z-index: 1;
+}
+
+@keyframes telegramPulse {
+
+    0% {
+        transform: scale(1);
+        opacity: .65;
+    }
+
+    70% {
+        transform: scale(1.65);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.65);
+        opacity: 0;
+    }
+
+}
+
+
+/* Text */
+
+.telegram-text {
+    white-space: nowrap;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .telegram-float {
+        right: 14px;
+        bottom: 16px;
+
+        padding: 6px 13px 6px 6px;
+
+        gap: 7px;
+
+        font-size: 11px;
+    }
+
+    .telegram-icon,
+    .telegram-pulse {
+        width: 35px;
+        height: 35px;
+    }
+
+    .telegram-icon svg {
+        width: 19px;
+        height: 19px;
+    }
+
+    .telegram-pulse {
+        left: 6px;
+        top: 6px;
+    }
+
+}
+</style>
 
 </head>
 
@@ -1080,7 +1579,7 @@
 
 <!-- =====================================================
      TOP BAR
-====================================================== -->
+===================================================== -->
 
 <header class="topbar">
 
@@ -1092,6 +1591,7 @@
             ←
         </a>
 
+
         <div class="brand">
 
             <div class="brand-icon">
@@ -1099,6 +1599,7 @@
             </div>
 
             <div>
+
                 <div class="brand-title">
                     Selection Pro
                 </div>
@@ -1106,6 +1607,7 @@
                 <div class="brand-sub">
                     JEE 100 Days Revision
                 </div>
+
             </div>
 
         </div>
@@ -1120,7 +1622,7 @@
 
 <!-- =====================================================
      HERO
-====================================================== -->
+===================================================== -->
 
 <section class="hero">
 
@@ -1130,15 +1632,19 @@
             🎯 JEE REVISION SERIES
         </div>
 
+
         <h1>
             <span>100 Days</span> JEE Revision Series
         </h1>
 
+
         <p>
             रोज़ एक focused revision challenge,
-            exam-relevant practice और regular testing के साथ
-            अपनी JEE preparation को structured तरीके से आगे बढ़ाएँ।
+            important concepts और PYQ practice के साथ
+            Selection Pro test देकर अपनी JEE preparation को
+            structured तरीके से आगे बढ़ाएँ।
         </p>
+
 
         <div class="hero-meta">
 
@@ -1147,11 +1653,11 @@
             </span>
 
             <span class="hero-pill">
-                📝 Practice Tests
+                🔥 PYQ Practice
             </span>
 
             <span class="hero-pill">
-                🎯 Exam Focused
+                📝 Selection Pro Test
             </span>
 
             <span class="hero-pill">
@@ -1167,7 +1673,7 @@
 
 <!-- =====================================================
      PROGRESS
-====================================================== -->
+===================================================== -->
 
 <section class="progress-card"
          aria-label="100 days progress">
@@ -1178,12 +1684,16 @@
             Your 100 Days Progress
         </strong>
 
+
         <span class="progress-day"
               id="progressDay">
+
             Day 1 / 100
+
         </span>
 
     </div>
+
 
     <div class="progress-track">
 
@@ -1193,11 +1703,13 @@
 
     </div>
 
+
     <div class="progress-foot">
 
         <span id="completedText">
             0 days completed
         </span>
+
 
         <span>
             100 Day Target
@@ -1210,7 +1722,7 @@
 
 <!-- =====================================================
      MODE SWITCH
-====================================================== -->
+===================================================== -->
 
 <div class="switch-wrap">
 
@@ -1218,16 +1730,25 @@
          role="tablist"
          aria-label="JEE revision sections">
 
+
         <button class="mode-btn active"
                 id="todayBtn"
+                type="button"
                 role="tab"
                 aria-selected="true">
+
             🎯 Today's Challenge
+
         </button>
 
-<a class="mode-btn"
-                id="syllabusBtn"
-                href="/revision-series/schedule.html">Full Syllabus🗓</a>
+
+        <a class="mode-btn"
+           id="syllabusBtn"
+           href="/revision-series/schedule.html">
+
+            Full Syllabus 🗓
+
+        </a>
 
     </div>
 
@@ -1236,235 +1757,211 @@
 
 <!-- =====================================================
      TODAY VIEW
-====================================================== -->
+===================================================== -->
 
 <div id="todayView">
 
 
-    <!-- TODAY CHALLENGE -->
+<!-- =====================================================
+     TODAY CHALLENGE
+===================================================== -->
 
-    <section class="section">
+<section class="section">
 
-        <div class="section-heading">
+    <div class="section-heading">
 
-            <div>
-                <h2>
-                    Today's Revision Challenge
-                </h2>
+        <div>
 
-                <p>
-                    Complete today's task before attempting the practice test.
-                </p>
-            </div>
-
-        </div>
-
-
-        <article class="challenge-card">
-
-            <div class="challenge-top">
-
-                <div>
-
-                    <div class="day-badge">
-                        DAY <span id="todayDay">1</span>
-                    </div></br>
-<b>Complete 100 Members In Discussion Group ,For Our Motivation To Provide Resources Free As Possible,Then We start Series </b>
-                 <!--   <div class="date-label"
-                         id="todayDate">
-                        Today's Challenge
-                    </div>
-
-                </div>
-
-                <div class="subject-tag"
-                     id="todaySubject">
-                    Physics
-                </div>
-
-            </div>
-
-
-            <h3 class="challenge-title"
-                id="challengeTitle">
-                Current Electricity
-            </h3>
-
-
-            <p class="challenge-description"
-               id="challengeDescription">
-
-                Revise the important concepts, formulas
-                and exam-relevant points from today's topic.
-
-            </p>
-
--->
-            <div class="task-list"
-                 id="taskList">
-
-                <!-- JS -->
-
-            </div>
-
-
-            <div class="challenge-actions">
-
-              <!--  <a href="#practiceTests"
-                   class="primary-btn">
-                    📝 View Practice Tests
-                </a>-->
-                <a href="https://t.me/selectionprojee"
-                   class="primary-btn">
-                   Join Telegram Discussion Group
-                </a>
-                <button class="secondary-btn"
-                        id="completeChallengeBtn">
-                    ✓ Mark Challenge Complete
-                </button>
-
-            </div>
-
-        </article>
-
-    </section>
-
-
-
-    <!-- =================================================
-         PRACTICE TESTS
-    ================================================== -->
-
-    <section class="test-section"
-             id="practiceTests">
-
-        <div class="section-heading">
-
-            <div>
-
-                <h2>
-                    Daily Practice Tests
-                </h2>
-
-                <p>
-                    Revise first. Test yourself next.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <!-- COMING SOON -->
-
-        <article class="coming-card">
-
-            <div class="coming-icon">
-                🧪
-            </div>
-
-            <h3>
-                Today's Practice Test
-            </h3>
+            <h2>
+                Today's Revision Challenge
+            </h2>
 
             <p>
-                The exam-relevant practice test for today's
-                revision challenge will appear here once it is published.
+                Revise → Solve PYQs → Attempt Selection Pro Test
             </p>
 
-        </article>
+        </div>
+
+    </div>
 
 
-        <!-- PREVIOUS TESTS -->
+    <article class="challenge-card">
 
-        <div style="margin-top:25px;">
 
-            <div class="section-heading">
+        <div class="challenge-top">
 
-                <div>
+            <div>
 
-                    <h2>
-                        Previous Days Tests
-                    </h2>
+                <div class="day-badge">
 
-                    <p>
-                        Practice the tests from completed revision days.
-                    </p>
+                    DAY
+                    <span id="todayDay">
+                        1
+                    </span>
+
+                </div>
+
+
+                <div class="date-label"
+                     id="todayDate">
+
+                    Today's Challenge
 
                 </div>
 
             </div>
 
 
-            <div class="search-box">
+            <div class="subject-tag"
+                 id="todaySubject">
 
-                <input
-                    type="search"
-                    id="testSearch"
-                    placeholder="Search previous tests..."
-                    aria-label="Search previous tests">
-
-            </div>
-
-
-            <div class="test-grid"
-                 id="previousTests">
-
-                <!-- JS -->
+                Mathematics
 
             </div>
 
         </div>
 
-    </section>
 
-</div>
+        <h3 class="challenge-title"
+            id="challengeTitle">
+
+            Sets, Relations & Functions
+
+        </h3>
+
+
+        <p class="challenge-description"
+           id="challengeDescription">
+
+            Revise today's complete topic.
+
+        </p>
+
+
+        <div class="task-list"
+             id="taskList">
+
+            <!-- JavaScript -->
+
+        </div>
+
+
+        <div class="challenge-actions">
+
+
+            <a href="#practiceTests"
+               class="primary-btn">
+
+                📝 View Today's Test
+
+            </a>
+
+
+            <button class="secondary-btn"
+                    id="completeChallengeBtn"
+                    type="button">
+
+                ✓ Mark Challenge Complete
+
+            </button>
+
+        </div>
+
+    </article>
+
+</section>
 
 
 <!-- =====================================================
-     SYLLABUS VIEW
-====================================================== -->
+     TODAY'S TEST
+===================================================== -->
 
-<div id="syllabusView">
+<section class="test-section"
+         id="practiceTests">
 
-    <section class="section">
 
-        <div class="section-heading">
+    <div class="section-heading">
 
-            <div>
+        <div>
 
-                <h2>
-                    Complete JEE 100 Days Breakdown
-                </h2>
+            <h2>
+                Today's Practice Test
+            </h2>
 
-                <p>
-                    A structured roadmap for Physics, Chemistry and Mathematics.
-                </p>
-
-            </div>
+            <p>
+                Test release time: 7:00 PM
+            </p>
 
         </div>
 
+    </div>
 
-        <div class="phase-grid"
-             id="phaseGrid">
 
-            <!-- JS -->
+    <div id="todayTestContainer">
+
+        <!-- JavaScript -->
+
+    </div>
+
+
+<!-- =====================================================
+     PREVIOUS TESTS
+===================================================== -->
+
+<div class="previous-wrap">
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <h2>
+                Previous Days Tests
+            </h2>
+
+            <p>
+                Tests from your completed revision days.
+            </p>
 
         </div>
 
-    </section>
+    </div>
+
+
+    <div class="search-box">
+
+        <input
+            type="search"
+            id="testSearch"
+            placeholder="Search previous tests..."
+            aria-label="Search previous tests">
+
+    </div>
+
+
+    <div class="test-grid"
+         id="previousTests">
+
+        <!-- JavaScript -->
+
+    </div>
+
+</div>
+
+</section>
 
 </div>
 
 
 <!-- =====================================================
      FOOTER
-====================================================== -->
+===================================================== -->
 
 <footer class="footer">
 
-    <strong>Selection Pro</strong>
+    <strong>
+        Selection Pro
+    </strong>
 
     <br>
 
@@ -1479,18 +1976,31 @@
 
 </main>
 
+<!-- Telegram Discussion Floating Button -->
+<a href="https://t.me/selectionprojee"
+   class="telegram-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Join Selection Pro Discussion Group">
 
+    <span class="telegram-pulse"></span>
 
+    <span class="telegram-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.5 3.5 18.3 20c-.24 1.17-.87 1.46-1.77.91l-4.9-3.61-2.36 2.27c-.26.26-.48.48-.98.48l.35-5 9.1-8.22c.4-.35-.09-.55-.62-.2L5.87 13.87.99 12.34c-1.06-.33-1.08-1.06.22-1.55L20.27 3.2c.88-.32 1.65.2 1.23.3Z"/>
+        </svg>
+    </span>
+
+    <span class="telegram-text">
+        Join Discussion
+    </span>
+
+</a>
 <script>
 
-/* =========================================================
-   SELECTION PRO
-   JEE 100 DAYS REVISION SERIES
-========================================================= */
-
 
 /* =========================================================
-   CONFIGURATION
+   SERIES CONFIG
 ========================================================= */
 
 const SERIES_CONFIG = {
@@ -1498,17 +2008,20 @@ const SERIES_CONFIG = {
     totalDays: 100,
 
     /*
-       IMPORTANT:
-       Series start date yahan set kar sakte ho.
-
-       Example:
-       "2026-10-01"
-
-       Agar series abhi start nahi hui hai,
-       to current day automatically Day 1 rahega.
+       Series starts from:
+       5 October 2026
     */
 
-    startDate: "2026-10-01",
+    startDate: "2026-10-05",
+
+    /*
+       Daily test release:
+       7:00 PM
+    */
+
+    releaseHour: 19,
+
+    releaseMinute: 0,
 
     dashboardUrl: "/my-dashboard.html"
 
@@ -1519,286 +2032,646 @@ const SERIES_CONFIG = {
    DAILY CHALLENGES
 =========================================================
 
-   Yahan tum apne real daily challenges add karoge.
+   IMPORTANT:
 
-   day:
-   1 - 100
+   Har day ke automatically 3 tasks honge:
 
-   subject:
-   Physics / Chemistry / Mathematics
+   1. Revise complete important formulas & concepts
+   2. Solve PYQ and related questions
+   3. Selection Pro Test
 
-   tasks:
-   Daily revision tasks
+   Day 1-100 automatically date ke according
+   change honge.
 
 ========================================================= */
 
-const DAILY_CHALLENGES = {
+const SERIES_DATA = [
 
-    1: {
+    [1, 1, "Mathematics", "Sets, Relations & Functions", "समुच्चय, संबंध और फलन", "Types of sets, Power Set, Equivalence Relations, Domain & Range of Functions, One-One and Onto Mappings."],
 
-        subject: "Physics",
+    [2, 1, "Mathematics", "Complex Numbers & Quadratic Equations", "सम्मिश्र संख्याएँ और द्विघात समीकरण", "Modulus & Conjugate, Argand Plane, Quadratic Roots & Coefficients, Nature of Roots, Equations Reducible to Quadratic."],
 
-        title: "Current Electricity",
+    [3, 1, "Physics", "Units, Measurements & Errors", "मात्रक, मापन एवं त्रुटि विश्लेषण", "SI Units, Dimensional Analysis & Applications, Errors in Measurement, Least Count of Vernier Calliper & Screw Gauge."],
 
-        description:
-            "Revise the important concepts, formulas and exam-relevant points from Current Electricity.",
+    [4, 1, "Physics", "Kinematics 1D & 2D", "एकविमीय एवं द्विविमीय गतिकी", "Motion in a Straight Line, Motion Graphs, Relative Velocity, Projectile Motion, Uniform Circular Motion."],
 
-        tasks: [
+    [5, 1, "Chemistry", "Some Basic Concepts in Chemistry", "रसायन विज्ञान की कुछ मूल अवधारणाएँ", "Mole Concept, Stoichiometric Calculations, Concentration Terms (Molarity, Molality, Mole Fraction), Limiting Reagent."],
 
-            {
-                title: "Basic Concepts",
-                detail: "Revise current, resistance, resistivity and Ohm's law."
-            },
+    [6, 1, "Chemistry", "Atomic Structure", "परमाणु संरचना", "Bohr's Atomic Model, Photoelectric Effect, De Broglie Wavelength, Quantum Numbers, Electronic Configuration Rules."],
 
-            {
-                title: "Important Formulas",
-                detail: "Revise key formulas and their applications."
-            },
-
-            {
-                title: "Exam Practice",
-                detail: "Solve important JEE-level questions from the topic."
-            }
-
-        ]
-
-    },
+    [7, 1, "Weekly Revision Test", "Week 01 Comprehensive Assessment", "प्रथम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 1–6 Syllabus: Sets, Complex Numbers, Kinematics, Mole Concept, and Atomic Structure."],
 
 
-    2: {
+    [8, 2, "Mathematics", "Matrices & Determinants", "आव्यूह और सारणिक", "Types of Matrices, Adjoint & Inverse, Properties of Determinants, System of Linear Equations using Cramer's Rule."],
 
-        subject: "Chemistry",
+    [9, 2, "Mathematics", "Permutations & Combinations", "क्रमचय और संचय", "Fundamental Principle of Counting, P(n,r) and C(n,r), Circular Permutations, Division & Distribution into Groups."],
 
-        title: "Chemical Bonding",
+    [10, 2, "Physics", "Laws of Motion & Friction", "गति के नियम एवं घर्षण", "Newton's Laws of Motion, Free Body Diagrams (FBD), Static & Kinetic Friction, Circular Dynamics, Momentum Conservation."],
 
-        description:
-            "Revise important bonding concepts, structures and frequently tested areas.",
+    [11, 2, "Physics", "Work, Energy & Power", "कार्य, ऊर्जा एवं शक्ति", "Work-Energy Theorem, Conservative vs Non-Conservative Forces, Potential Energy Curve, Elastic & Inelastic Collisions."],
 
-        tasks: [
+    [12, 2, "Chemistry", "Chemical Bonding & Molecular Structure I", "रासायनिक आबंधन एवं आण्विक संरचना - I", "Ionic & Covalent Bonding, Lewis Structures, VSEPR Theory, Dipole Moment, Fajan's Rules."],
 
-            {
-                title: "Core Concepts",
-                detail: "Revise the important concepts and definitions."
-            },
+    [13, 2, "Chemistry", "Chemical Bonding & Molecular Structure II", "रासायनिक आबंधन एवं आण्विक संरचना - II", "Hybridization, Molecular Orbital Theory (MOT), Bond Order & Magnetic Behaviour, Hydrogen Bonding."],
 
-            {
-                title: "Important Exceptions",
-                detail: "Focus on frequently tested exceptions."
-            },
-
-            {
-                title: "Question Practice",
-                detail: "Solve exam-relevant questions."
-            }
-
-        ]
-
-    },
+    [14, 2, "Weekly Revision Test", "Week 02 Comprehensive Assessment", "द्वितीय सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 8–13 Syllabus: Matrices, P&C, Laws of Motion, Work-Energy, and Chemical Bonding."],
 
 
-    3: {
+    [15, 3, "Mathematics", "Binomial Theorem", "द्विपद प्रमेय", "Binomial Expansion for Positive Integral Index, General & Middle Terms, Binomial Coefficients Properties, Applications."],
 
-        subject: "Mathematics",
+    [16, 3, "Mathematics", "Sequences & Series I", "अनुक्रम और श्रेणी - I", "Arithmetic Progression (AP), Geometric Progression (GP), Insertion of Means (AM & GM), AM-GM Inequality."],
 
-        title: "Quadratic Equations",
+    [17, 3, "Physics", "Center of Mass & System of Particles", "द्रव्यमान केंद्र एवं कणों का निकाय", "Center of Mass Calculation for Rigid Bodies, Conservation of Linear Momentum, Rocket Propulsion."],
 
-        description:
-            "Revise the important formulas, concepts and common question patterns.",
+    [18, 3, "Physics", "Rotational Dynamics", "घूर्णन गतिकी", "Torque, Angular Momentum, Moment of Inertia Theorems, Pure Rolling Motion, Rotational Kinetic Energy."],
 
-        tasks: [
+    [19, 3, "Chemistry", "Chemical Thermodynamics", "रासायनिक ऊष्मागतिकी", "First Law of Thermodynamics, Enthalpy, Heat Capacity, Hess's Law, Enthalpies of Bond Dissociation & Reaction."],
 
-            {
-                title: "Concept Revision",
-                detail: "Revise roots, nature of roots and relations."
-            },
+    [20, 3, "Chemistry", "Solutions & Colligative Properties", "विलयन एवं अणुसंख्या गुणधर्म", "Raoult's Law, Ideal & Non-Ideal Solutions, Colligative Properties, Van't Hoff Factor."],
 
-            {
-                title: "Formula Revision",
-                detail: "Revise important formulas and shortcuts."
-            },
+    [21, 3, "Weekly Revision Test", "Week 03 Comprehensive Assessment", "तृतीय सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 15–20 Syllabus: Binomial Theorem, Sequences, Rotational Dynamics, Thermodynamics, and Solutions."],
 
-            {
-                title: "JEE Practice",
-                detail: "Solve selected exam-oriented questions."
-            }
 
-        ]
+    [22, 4, "Mathematics", "Sequences & Series II", "अनुक्रम और श्रेणी - II", "Arithmetico-Geometric Progression (AGP), Summation of Special Series using Sigma Notation, Method of Differences."],
 
-    }
+    [23, 4, "Mathematics", "Limits, Continuity & Differentiability", "सीमा, निरंतरता और अवकलनीयता", "Evaluation of Limits, L'Hôpital's Rule, Standard Limits, Test for Continuity, Differentiability of Functions."],
+
+    [24, 4, "Physics", "Gravitation", "गुरुत्वाकर्षण", "Kepler's Laws, Universal Law of Gravitation, Variation of Acceleration due to Gravity, Escape Velocity, Satellite Motion."],
+
+    [25, 4, "Physics", "Mechanical Properties of Solids", "ठोसों के यांत्रिक गुण", "Stress-Strain Relationship, Hooke's Law, Young's Modulus, Bulk Modulus, Modulus of Rigidity, Elastic Potential Energy."],
+
+    [26, 4, "Chemistry", "Chemical Equilibrium", "रासायनिक साम्यावस्था", "Law of Mass Action, Equilibrium Constant (Kp & Kc), Le Chatelier's Principle & Applications."],
+
+    [27, 4, "Chemistry", "Ionic Equilibrium", "आयनिक साम्यावस्था", "Arrhenius & Bronsted-Lowry Acids/Bases, pH Scale, Buffer Solutions, Solubility Product (Ksp), Common Ion Effect."],
+
+    [28, 4, "Weekly Revision Test", "Week 04 Comprehensive Assessment", "चतुर्थ सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 22–27 Syllabus: Special Series, LCD, Gravitation, Elasticity, Chemical & Ionic Equilibrium."],
+
+
+    [29, 5, "Mathematics", "Application of Derivatives (AOD)", "अवकलज के अनुप्रयोग", "Rate of Change, Tangents & Normals, Increasing & Decreasing Functions, Maxima and Minima."],
+
+    [30, 5, "Mathematics", "Indefinite Integration", "अनिश्चित समाकलन", "Standard Integration Formulas, Substitution Method, Integration by Parts, Partial Fractions Method."],
+
+    [31, 5, "Physics", "Fluid Mechanics", "तरल यांत्रिकी", "Pascal's Law, Archimedes Principle, Viscosity, Stokes' Law, Terminal Velocity, Bernoulli's Principle & Applications."],
+
+    [32, 5, "Physics", "Surface Tension & Calorimetry", "पृष्ठ तनाव एवं कैलोरीमिति", "Surface Energy, Capillarity, Excess Pressure inside Droplets, Thermal Expansion, Calorimetry Equations."],
+
+    [33, 5, "Chemistry", "Redox Reactions", "अपचयोपचय अभिक्रियाएं", "Oxidation Number Method, Balancing Redox Reactions, Ion-Electron Method, Redox Titrations."],
+
+    [34, 5, "Chemistry", "Electrochemistry", "वैद्युतरसायन", "Electrolytic & Galvanic Cells, Nernst Equation, Conductance in Electrolytic Solutions, Kohlrausch's Law, Faraday's Laws of Electrolysis."],
+
+    [35, 5, "Weekly Revision Test", "Week 05 Comprehensive Assessment", "पंचम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 29–34 Syllabus: AOD, Indefinite Integrals, Fluid Mechanics, Redox, and Electrochemistry."],
+
+
+    [36, 6, "Mathematics", "Definite Integration & Area", "निश्चित समाकलन एवं क्षेत्रफल", "Properties of Definite Integrals, Leibniz Rule, Area Bounded by Curves."],
+
+    [37, 6, "Mathematics", "Differential Equations", "अवकल समीकरण", "Order & Degree, Solution by Variable Separable Method, Homogeneous & Linear Differential Equations."],
+
+    [38, 6, "Physics", "Kinetic Theory of Gases (KTG)", "गैसों का अणुगति सिद्धांत", "Ideal Gas Equation, Kinetic Interpretation of Temperature, RMS & Average Velocities, Degrees of Freedom, Equipartition."],
+
+    [39, 6, "Physics", "Simple Harmonic Motion (SHM)", "सरल आवर्त गति", "Equation of SHM, Velocity, Acceleration, Energy in SHM, Simple Pendulum, Spring-Mass System."],
+
+    [40, 6, "Chemistry", "Chemical Kinetics", "रासायनिक बलगतिकी", "Rate of Reaction, Order & Molecularity, Integrated Rate Laws, Half-Life Period, Arrhenius Equation."],
+
+    [41, 6, "Chemistry", "Periodic Properties & Classification", "तत्वों का आवर्ती वर्गीकरण", "Modern Periodic Law, Atomic & Ionic Radii, Ionization Enthalpy, Electron Gain Enthalpy, Electronegativity."],
+
+    [42, 6, "Weekly Revision Test", "Week 06 Comprehensive Assessment", "षष्ठम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 36–41 Syllabus: Definite Integrals, Differential Equations, KTG, SHM, Kinetics, and Periodic Trends."],
+
+
+    [43, 7, "Mathematics", "Straight Lines", "सरल रेखाएं", "Slope of a Line, Distance Formula, Various Forms of Equations of a Line, Distance of a Point from a Line, Pair of Straight Lines."],
+
+    [44, 7, "Mathematics", "Circles", "वृत्त", "Standard & General Equations of Circle, Tangents & Normals, Family of Circles, Intersection of Line and Circle."],
+
+    [45, 7, "Physics", "Mechanical Waves & Sound", "यांत्रिक तरंगें एवं ध्वनि", "Transverse & Longitudinal Waves, Wave Equation, Superposition, Standing Waves in Strings & Pipes, Beats."],
+
+    [46, 7, "Physics", "Electrostatics: Electric Charge & Field", "वैद्युत आवेश तथा क्षेत्र", "Coulomb's Law, Electric Field Intensity, Electric Dipole & Torque, Gauss's Law & Applications."],
+
+    [47, 7, "Chemistry", "p-Block Elements", "p-ब्लॉक के तत्व", "General Trends in Groups 13 to 18, Anomalous Properties of First Element, Chemical Reactivity & Key Compounds."],
+
+    [48, 7, "Chemistry", "d- and f- Block Elements", "d- एवं f- ब्लॉक के तत्व", "Transition Elements Electronic Configuration, General Characteristics, Lanthanide Contraction, K2Cr2O7 & KMnO4."],
+
+    [49, 7, "Weekly Revision Test", "Week 07 Comprehensive Assessment", "सप्तम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 43–48 Syllabus: Straight Lines, Circles, Sound Waves, Electrostatics I, p-Block, d & f-Block."],
+
+
+    [50, 8, "Mathematics", "Conic Sections (Parabola, Ellipse, Hyperbola)", "शंकु परिच्छेद", "Standard Equations of Parabola, Ellipse, and Hyperbola, Tangents, Focal Properties, Eccentricity."],
+
+    [51, 8, "Mathematics", "Vector Algebra", "सदिश बीजगणित", "Addition of Vectors, Scalar Product, Vector Product, Scalar Triple Product & Geometric Interpretations."],
+
+    [52, 8, "Physics", "Electric Potential & Capacitance", "वैद्युत विभव एवं धारिता", "Electric Potential, Equipotential Surfaces, Capacitance, Parallel Plate Capacitor with Dielectrics."],
+
+    [53, 8, "Physics", "Current Electricity", "धारा विद्युत", "Ohm's Law, Drift Velocity, Kirchhoff's Laws, Wheatstone Bridge, Combination of Resistors and Cells."],
+
+    [54, 8, "Chemistry", "Coordination Compounds I", "उपसहसंयोजन यौगिक - I", "Werner's Theory, IUPAC Nomenclature, Ligands, Coordination Number, Isomerism."],
+
+    [55, 8, "Chemistry", "Coordination Compounds II", "उपसहसंयोजन यौगिक - II", "VBT, CFT, Color & Magnetic Properties, Applications of Coordination Compounds."],
+
+    [56, 8, "Weekly Revision Test", "Week 08 Comprehensive Assessment", "अष्टम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 50–55 Syllabus: Conic Sections, Vectors, Capacitance, Current Electricity, and Coordination Chemistry."],
+
+
+    [57, 9, "Mathematics", "Three Dimensional Geometry (3D)", "त्रिविमीय ज्यामिति", "Direction Cosines & Ratios, Equation of Line in Space, Skew Lines & Shortest Distance between Two Lines."],
+
+    [58, 9, "Mathematics", "Statistics", "सांख्यिकी", "Mean Deviation, Variance and Standard Deviation for Ungrouped & Grouped Data."],
+
+    [59, 9, "Physics", "Magnetic Effects of Current", "गतिमान आवेश एवं चुंबकत्व", "Biot-Savart Law, Ampere's Law, Force on Moving Charge, Cyclotron, Solenoid."],
+
+    [60, 9, "Physics", "Magnetism and Matter", "चुंबकत्व एवं द्रव्य", "Magnetic Dipole Moment, Magnetic Field Lines, Para-, Dia-, and Ferromagnetic Substances, Earth's Magnetism."],
+
+    [61, 9, "Chemistry", "Purification & Analysis of Organic Compounds", "कार्बनिक यौगिकों का शोधन एवं विश्लेषण", "Crystallization, Distillation, Chromatography, Lassaigne Test, Dumas & Kjeldahl Methods."],
+
+    [62, 9, "Chemistry", "General Organic Chemistry (GOC)", "सामान्य कार्बनिक रसायन (GOC)", "IUPAC Nomenclature, Inductive, Electromeric, Resonance, Hyperconjugation, Reaction Intermediates."],
+
+    [63, 9, "Weekly Revision Test", "Week 09 Comprehensive Assessment", "नवम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 57–62 Syllabus: 3D Geometry, Statistics, Moving Charges, Magnetism, Purification, and GOC."],
+
+
+    [64, 10, "Mathematics", "Probability", "प्रायिकता", "Conditional Probability, Multiplication Theorem, Bayes' Theorem, Random Variable & Probability Distribution."],
+
+    [65, 10, "Mathematics", "Trigonometric Functions & Equations", "त्रिकोणमितीय फलन एवं समीकरण", "Trigonometric Ratios & Identities, Compound Angles, Multiple/Submultiple Angles, General Solutions."],
+
+    [66, 10, "Physics", "Electromagnetic Induction (EMI)", "वैद्युतचुंबकीय प्रेरण", "Magnetic Flux, Faraday's Laws, Lenz's Law, Motional EMF, Self and Mutual Inductance."],
+
+    [67, 10, "Physics", "Alternating Current (AC)", "प्रत्यावर्ती धारा", "Peak & RMS Values, AC through L, C, R, LCR Circuit, Resonance, Power Factor, Transformer."],
+
+    [68, 10, "Chemistry", "Hydrocarbons I: Alkanes & Alkenes", "हाइड्रोकार्बन - एल्केन एवं एल्कीन", "Electrophilic Addition, Free Radical Halogenation, Ozonolysis, Markovnikov Rule."],
+
+    [69, 10, "Chemistry", "Hydrocarbons II: Alkynes & Aromatic", "हाइड्रोकार्बन - एल्काइन एवं एरोमैटिक", "Acidic Character of Alkynes, Benzene Aromaticity, Huckel Rule, Electrophilic Aromatic Substitution."],
+
+    [70, 10, "Weekly Revision Test", "Week 10 Comprehensive Assessment", "दशम सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 64–69 Syllabus: Probability, Trigonometry, EMI, AC, Alkanes, Alkenes, and Aromatic Hydrocarbons."],
+
+
+    [71, 11, "Mathematics", "Inverse Trigonometric Functions", "प्रतिलोम त्रिकोणमितीय फलन", "Domain and Range, Principal Value Branch, Graphs, Properties & Simplifications."],
+
+    [72, 11, "Mathematics", "High-Yield Calculus Integrated Practice", "अवकल एवं समाकलन गणित एकीकृत अभ्यास", "Advanced Problem Solving combining Limits, Derivatives, Definite Integrals, and Differential Equations."],
+
+    [73, 11, "Physics", "Electromagnetic Waves", "वैद्युतचुंबकीय तरंगें", "Displacement Current, Electromagnetic Spectrum, Transverse Nature of EM Waves, Wave Equations."],
+
+    [74, 11, "Physics", "Ray Optics & Optical Instruments", "किरण प्रकाशिकी एवं प्रकाशिक यंत्र", "Reflection & Refraction, TIR, Lenses, Prisms, Microscope & Telescope."],
+
+    [75, 11, "Chemistry", "Haloalkanes and Haloarenes", "हेलोएल्केन तथा हेलोएरीन", "SN1 and SN2 Reaction Mechanisms, Preparation & Properties of Haloalkanes and Haloarenes."],
+
+    [76, 11, "Chemistry", "Alcohols, Phenols and Ethers", "ऐल्कोहॉल, फ़ीनॉल एवं ईथर", "Preparation Methods, Distinction Tests, Acidic Nature of Phenol, Reimer-Tiemann Reaction, Ethers Synthesis."],
+
+    [77, 11, "Weekly Revision Test", "Week 11 Comprehensive Assessment", "एकादश सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 71–76 Syllabus: ITF, Calculus Practice, EM Waves, Ray Optics, Haloalkanes, Alcohols & Phenols."],
+
+
+    [78, 12, "Mathematics", "Algebra Integrated Problem Solving", "बीजगणित संपूर्ण एकीकृत अभ्यास", "High-Yield Advanced Problem Solving covering Complex Numbers, Matrices, Determinants, and P&C."],
+
+    [79, 12, "Mathematics", "Coordinate Geometry Integrated Practice", "निर्देशांक ज्यामिति एकीकृत अभ्यास", "Advanced Mixed Questions covering Straight Lines, Circles, Parabola, Ellipse, and Hyperbola."],
+
+    [80, 12, "Physics", "Wave Optics", "तरंग प्रकाशिकी", "Huygens Principle, YDSE, Interference, Fringe Width, Diffraction & Polarization."],
+
+    [81, 12, "Physics", "Dual Nature of Matter & Radiation", "विकिरण तथा द्रव्य की द्वैत प्रकृति", "Photoelectric Effect, Stopping Potential, De Broglie Wavelength, Davisson-Germer Experiment."],
+
+    [82, 12, "Chemistry", "Aldehydes and Ketones", "ऐल्डिहाइड और कीटोन", "Nucleophilic Addition, Aldol Condensation, Cannizzaro Reaction, Tollens' & Fehling's Tests."],
+
+    [83, 12, "Chemistry", "Carboxylic Acids & Amines", "कार्बोक्सिलिक अम्ल एवं एमीन", "Acidic Strength, Basicity of Amines, Gabriel Synthesis, Hoffmann Bromamide Reaction, Diazonium Salts."],
+
+    [84, 12, "Weekly Revision Test", "Week 12 Comprehensive Assessment", "द्वादश सप्ताह का संपूर्ण मूल्यांकन", "Cumulative Test covering Days 78–83 Syllabus: Algebra Practice, Coordinate Practice, Wave Optics, Dual Nature, Aldehydes, Ketones & Amines."],
+
+
+    [85, 13, "Mathematics", "Vectors & 3D Advanced Problem Solving", "सदिश एवं 3D उच्च-स्तरीय अभ्यास", "Mixed Multi-Concept Questions on 3D Geometry and Vector Products."],
+
+    [86, 13, "Mathematics", "Complete Syllabus Mathematics Drill", "गणित संपूर्ण पाठ्यक्रम ड्रिल", "Timed Problem Solving across all Mathematics JEE Modules."],
+
+    [87, 13, "Physics", "Atoms and Nuclei", "परमाणु तथा नाभिक", "Alpha-Particle Scattering, Bohr Model, Mass Defect, Binding Energy, Nuclear Fission & Fusion."],
+
+    [88, 13, "Physics", "Semiconductor Electronics", "अर्धचालक इलेक्ट्रॉनिकी", "Energy Bands, p-n Junction, Rectifiers, Zener Diode, Logic Gates."],
+
+    [89, 13, "Chemistry", "Biomolecules", "जैव-अणु", "Carbohydrates, Glucose & Fructose, Amino Acids, Proteins, Nucleic Acids."],
+
+    [90, 13, "Chemistry", "Principles Related to Practical Chemistry", "प्रायोगिक रसायन के सिद्धांत", "Functional Group Detection, Inorganic Salt Analysis, Titrimetric Analysis."],
+
+    [91, 13, "Weekly Revision Test", "Full Syllabus Mock Evaluation 01", "संपूर्ण पाठ्यक्रम मॉक मूल्यांकन 01", "Full Length Mock Evaluation covering the complete Physics, Chemistry, and Mathematics syllabus."],
+
+
+    [92, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 02", "ग्रैंड मॉक टेस्ट 02", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [93, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 03", "ग्रैंड मॉक टेस्ट 03", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [94, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 04", "ग्रैंड मॉक टेस्ट 04", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [95, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 05", "ग्रैंड मॉक टेस्ट 05", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [96, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 06", "ग्रैंड मॉक टेस्ट 06", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [97, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 07", "ग्रैंड मॉक टेस्ट 07", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [98, 14, "Selection Pro Mock", "Full Syllabus Grand Mock Test 08", "ग्रैंड मॉक टेस्ट 08", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [99, 15, "Selection Pro Mock", "Full Syllabus Grand Mock Test 09", "ग्रैंड मॉक टेस्ट 09", "Complete 3-Hour Simulated JEE Examination covering full Physics, Chemistry & Mathematics syllabus."],
+
+    [100, 15, "Selection Pro Mock", "Final All-India Rank Predictor Mock 10", "अंतिम ऑल-इंडिया रैंक मॉक 10", "Final Full Syllabus Grand Mock Test for Speed, Accuracy & Error Analysis."]
+
+];
+
+
+/* =========================================================
+   TEST URLS
+=========================================================
+
+   URL hone ke bawajood test 7 PM se pehle
+   automatically Coming Soon rahega.
+
+   7 PM ke baad automatically Released ho jayega.
+
+========================================================= */
+
+const TEST_URLS = {
+
+    1: "/tests/jee/day-1.html",
+    2: "/tests/jee/day-2.html",
+    3: "/tests/jee/day-3.html",
+    4: "/tests/jee/day-4.html",
+    5: "/tests/jee/day-5.html",
+    6: "/tests/jee/day-6.html",
+    7: "/tests/jee/day-7.html",
+
+    8: "/tests/jee/day-8.html",
+    9: "/tests/jee/day-9.html",
+    10: "/tests/jee/day-10.html",
+    11: "/tests/jee/day-11.html",
+    12: "/tests/jee/day-12.html",
+    13: "/tests/jee/day-13.html",
+    14: "/tests/jee/day-14.html",
+
+    15: "/tests/jee/day-15.html",
+    16: "/tests/jee/day-16.html",
+    17: "/tests/jee/day-17.html",
+    18: "/tests/jee/day-18.html",
+    19: "/tests/jee/day-19.html",
+    20: "/tests/jee/day-20.html",
+    21: "/tests/jee/day-21.html",
+
+    22: "/tests/jee/day-22.html",
+    23: "/tests/jee/day-23.html",
+    24: "/tests/jee/day-24.html",
+    25: "/tests/jee/day-25.html",
+    26: "/tests/jee/day-26.html",
+    27: "/tests/jee/day-27.html",
+    28: "/tests/jee/day-28.html",
+
+    29: "/tests/jee/day-29.html",
+    30: "/tests/jee/day-30.html",
+    31: "/tests/jee/day-31.html",
+    32: "/tests/jee/day-32.html",
+    33: "/tests/jee/day-33.html",
+    34: "/tests/jee/day-34.html",
+    35: "/tests/jee/day-35.html",
+
+    36: "/tests/jee/day-36.html",
+    37: "/tests/jee/day-37.html",
+    38: "/tests/jee/day-38.html",
+    39: "/tests/jee/day-39.html",
+    40: "/tests/jee/day-40.html",
+    41: "/tests/jee/day-41.html",
+    42: "/tests/jee/day-42.html",
+
+    43: "/tests/jee/day-43.html",
+    44: "/tests/jee/day-44.html",
+    45: "/tests/jee/day-45.html",
+    46: "/tests/jee/day-46.html",
+    47: "/tests/jee/day-47.html",
+    48: "/tests/jee/day-48.html",
+    49: "/tests/jee/day-49.html",
+
+    50: "/tests/jee/day-50.html",
+    51: "/tests/jee/day-51.html",
+    52: "/tests/jee/day-52.html",
+    53: "/tests/jee/day-53.html",
+    54: "/tests/jee/day-54.html",
+    55: "/tests/jee/day-55.html",
+    56: "/tests/jee/day-56.html",
+
+    57: "/tests/jee/day-57.html",
+    58: "/tests/jee/day-58.html",
+    59: "/tests/jee/day-59.html",
+    60: "/tests/jee/day-60.html",
+    61: "/tests/jee/day-61.html",
+    62: "/tests/jee/day-62.html",
+    63: "/tests/jee/day-63.html",
+
+    64: "/tests/jee/day-64.html",
+    65: "/tests/jee/day-65.html",
+    66: "/tests/jee/day-66.html",
+    67: "/tests/jee/day-67.html",
+    68: "/tests/jee/day-68.html",
+    69: "/tests/jee/day-69.html",
+    70: "/tests/jee/day-70.html",
+
+    71: "/tests/jee/day-71.html",
+    72: "/tests/jee/day-72.html",
+    73: "/tests/jee/day-73.html",
+    74: "/tests/jee/day-74.html",
+    75: "/tests/jee/day-75.html",
+    76: "/tests/jee/day-76.html",
+    77: "/tests/jee/day-77.html",
+
+    78: "/tests/jee/day-78.html",
+    79: "/tests/jee/day-79.html",
+    80: "/tests/jee/day-80.html",
+    81: "/tests/jee/day-81.html",
+    82: "/tests/jee/day-82.html",
+    83: "/tests/jee/day-83.html",
+    84: "/tests/jee/day-84.html",
+
+    85: "/tests/jee/day-85.html",
+    86: "/tests/jee/day-86.html",
+    87: "/tests/jee/day-87.html",
+    88: "/tests/jee/day-88.html",
+    89: "/tests/jee/day-89.html",
+    90: "/tests/jee/day-90.html",
+    91: "/tests/jee/day-91.html",
+
+    92: "/tests/jee/day-92.html",
+    93: "/tests/jee/day-93.html",
+    94: "/tests/jee/day-94.html",
+    95: "/tests/jee/day-95.html",
+    96: "/tests/jee/day-96.html",
+    97: "/tests/jee/day-97.html",
+    98: "/tests/jee/day-98.html",
+    99: "/tests/jee/day-99.html",
+    100: "/tests/jee/day-100.html"
 
 };
-
-
-/* =========================================================
-   PREVIOUS TESTS
-
-   Test add karne ke liye object add karo.
-
-   url ko apne actual test page se replace karo.
-
-========================================================= */
-
-const PREVIOUS_TESTS = [
-
-    /*
-    Example:
-
-    {
-        day: 1,
-        subject: "Physics",
-        title: "Current Electricity Practice Test",
-        questions: 25,
-        duration: "30 min",
-        url: "/tests/jee/day-1.html"
-    }
-
-    */
-
-];
-
-
-/* =========================================================
-   SYLLABUS PHASES
-
-   Is data ko apne final 100-day breakdown ke according
-   gradually update kar sakte ho.
-========================================================= */
-
-const SYLLABUS_PHASES = [
-
-    {
-        number: "PHASE 01",
-        title: "Foundation & High Priority",
-        days: "Day 1 — Day 25",
-
-        subjects: [
-            "Physics",
-            "Chemistry",
-            "Mathematics"
-        ]
-    },
-
-    {
-        number: "PHASE 02",
-        title: "Core Revision",
-        days: "Day 26 — Day 50",
-
-        subjects: [
-            "Mechanics",
-            "Organic",
-            "Algebra"
-        ]
-    },
-
-    {
-        number: "PHASE 03",
-        title: "Concept + Practice",
-        days: "Day 51 — Day 75",
-
-        subjects: [
-            "Electrodynamics",
-            "Physical Chemistry",
-            "Calculus"
-        ]
-    },
-
-    {
-        number: "PHASE 04",
-        title: "Final Revision & Testing",
-        days: "Day 76 — Day 100",
-
-        subjects: [
-            "Full Revision",
-            "PYQs",
-            "Mock Tests"
-        ]
-    }
-
-];
 
 
 /* =========================================================
    DOM
 ========================================================= */
 
-const todayBtn =
-    document.getElementById("todayBtn");
-
-const syllabusBtn =
-    document.getElementById("syllabusBtn");
-
-const todayView =
-    document.getElementById("todayView");
-
-const syllabusView =
-    document.getElementById("syllabusView");
-
 const taskList =
-    document.getElementById("taskList");
+    document.getElementById(
+        "taskList"
+    );
+
 
 const previousTests =
-    document.getElementById("previousTests");
+    document.getElementById(
+        "previousTests"
+    );
 
-const phaseGrid =
-    document.getElementById("phaseGrid");
 
 const testSearch =
-    document.getElementById("testSearch");
+    document.getElementById(
+        "testSearch"
+    );
+
+
+const todayTestContainer =
+    document.getElementById(
+        "todayTestContainer"
+    );
+
+
+const completeChallengeBtn =
+    document.getElementById(
+        "completeChallengeBtn"
+    );
+
+
+/* =========================================================
+   SERIES DATA CONVERTER
+========================================================= */
+
+function getChallenge(day) {
+
+    const row =
+        SERIES_DATA.find(
+            item => item[0] === day
+        );
+
+
+    if (!row) {
+
+        return {
+
+            day: day,
+
+            week: null,
+
+            subject: "JEE",
+
+            title: "Revision Day",
+
+            hindiTitle: "",
+
+            description:
+                "Complete today's JEE revision challenge."
+
+        };
+
+    }
+
+
+    return {
+
+        day: row[0],
+
+        week: row[1],
+
+        subject: row[2],
+
+        title: row[3],
+
+        hindiTitle: row[4],
+
+        description: row[5]
+
+    };
+
+}
 
 
 /* =========================================================
    DATE HELPERS
 ========================================================= */
 
-function getSeriesDay() {
+function getTodayOnly() {
 
-    const start =
-        new Date(SERIES_CONFIG.startDate);
+    const date = new Date();
 
-    const today =
-        new Date();
-
-    start.setHours(0,0,0,0);
-    today.setHours(0,0,0,0);
-
-    const diff =
-        Math.floor(
-            (today - start) /
-            (1000 * 60 * 60 * 24)
-        );
-
-    return Math.min(
-        Math.max(diff + 1, 1),
-        SERIES_CONFIG.totalDays
+    date.setHours(
+        0,
+        0,
+        0,
+        0
     );
+
+    return date;
 
 }
 
 
-function formatDate(date) {
+function getStartDate() {
 
-    return date.toLocaleDateString(
-        "en-IN",
-        {
-            day: "numeric",
-            month: "short",
-            year: "numeric"
-        }
+    const start =
+        new Date(
+            SERIES_CONFIG.startDate +
+            "T00:00:00"
+        );
+
+    start.setHours(
+        0,
+        0,
+        0,
+        0
+    );
+
+    return start;
+
+}
+
+
+function getSeriesDay() {
+
+    const start =
+        getStartDate();
+
+
+    const today =
+        getTodayOnly();
+
+
+    const diff =
+        Math.floor(
+            (
+                today - start
+            ) /
+            (
+                1000 *
+                60 *
+                60 *
+                24
+            )
+        );
+
+
+    return Math.min(
+
+        Math.max(
+            diff + 1,
+            1
+        ),
+
+        SERIES_CONFIG.totalDays
+
     );
 
 }
 
 
 /* =========================================================
-   LOCAL PROGRESS
+   FORMAT DATE
+========================================================= */
+
+function formatDate(date) {
+
+    return date.toLocaleDateString(
+
+        "en-IN",
+
+        {
+            day: "numeric",
+            month: "short",
+            year: "numeric"
+        }
+
+    );
+
+}
+
+
+/* =========================================================
+   RELEASE CHECK
+========================================================= */
+
+function isTestReleased(day) {
+
+    const start =
+        getStartDate();
+
+
+    const release =
+        new Date(start);
+
+
+    release.setDate(
+        start.getDate() +
+        (day - 1)
+    );
+
+
+    release.setHours(
+        SERIES_CONFIG.releaseHour,
+        SERIES_CONFIG.releaseMinute,
+        0,
+        0
+    );
+
+
+    const now =
+        new Date();
+
+
+    return now >= release;
+
+}
+
+
+/* =========================================================
+   LOCAL STORAGE
+
+========================================================= */
+
+function getTaskProgress(day) {
+
+    const key =
+        `sp_jee100_tasks_day_${day}`;
+
+
+    return JSON.parse(
+
+        localStorage.getItem(key)
+        || "[]"
+
+    );
+
+}
+
+
+function saveTaskProgress(
+    day,
+    completedTasks
+) {
+
+    const key =
+        `sp_jee100_tasks_day_${day}`;
+
+
+    localStorage.setItem(
+
+        key,
+
+        JSON.stringify(
+            completedTasks
+        )
+
+    );
+
+}
+
+
+/* =========================================================
+   COMPLETED DAYS
 ========================================================= */
 
 function getCompletedDays() {
 
     return JSON.parse(
+
         localStorage.getItem(
             "sp_jee100_completed_days"
-        ) || "[]"
+        )
+        || "[]"
+
     );
 
 }
@@ -1809,13 +2682,22 @@ function saveCompletedDay(day) {
     const completed =
         getCompletedDays();
 
-    if(!completed.includes(day)) {
+
+    if (
+        !completed.includes(day)
+    ) {
 
         completed.push(day);
 
+
         localStorage.setItem(
+
             "sp_jee100_completed_days",
-            JSON.stringify(completed)
+
+            JSON.stringify(
+                completed
+            )
+
         );
 
     }
@@ -1824,7 +2706,7 @@ function saveCompletedDay(day) {
 
 
 /* =========================================================
-   PROGRESS UI
+   PROGRESS
 ========================================================= */
 
 function renderProgress() {
@@ -1832,25 +2714,35 @@ function renderProgress() {
     const currentDay =
         getSeriesDay();
 
+
     const completed =
         getCompletedDays();
 
+
     const percentage =
         Math.min(
+
             100,
-            (currentDay /
-             SERIES_CONFIG.totalDays) * 100
+
+            (
+                currentDay /
+                SERIES_CONFIG.totalDays
+            ) * 100
+
         );
+
 
     document.getElementById(
         "progressDay"
     ).textContent =
         `Day ${currentDay} / 100`;
 
+
     document.getElementById(
         "progressFill"
     ).style.width =
         percentage + "%";
+
 
     document.getElementById(
         "completedText"
@@ -1861,7 +2753,7 @@ function renderProgress() {
 
 
 /* =========================================================
-   TODAY CHALLENGE
+   RENDER TODAY CHALLENGE
 ========================================================= */
 
 function renderTodayChallenge() {
@@ -1869,28 +2761,34 @@ function renderTodayChallenge() {
     const day =
         getSeriesDay();
 
+
     const data =
-        DAILY_CHALLENGES[day] ||
-        DAILY_CHALLENGES[1];
+        getChallenge(day);
+
 
     document.getElementById(
         "todayDay"
-    ).textContent = day;
+    ).textContent =
+        day;
+
 
     document.getElementById(
         "todayDate"
     ).textContent =
-        `Day ${day} of your 100-day revision journey`;
+        `Day ${day} • ${data.hindiTitle}`;
+
 
     document.getElementById(
         "todaySubject"
     ).textContent =
         data.subject;
 
+
     document.getElementById(
         "challengeTitle"
     ).textContent =
         data.title;
+
 
     document.getElementById(
         "challengeDescription"
@@ -1898,15 +2796,82 @@ function renderTodayChallenge() {
         data.description;
 
 
+    renderTasks(day);
+
+    updateCompleteButton(day);
+
+}
+
+
+/* =========================================================
+   RENDER TASKS
+========================================================= */
+
+function renderTasks(day) {
+
+    const data =
+        getChallenge(day);
+
+
+    const saved =
+        getTaskProgress(day);
+
+
     taskList.innerHTML = "";
 
-    data.tasks.forEach(
+
+    const tasks = [
+
+        {
+            title:
+                "Revise All Topics Important Formulas & Concepts",
+
+            detail:
+                data.description
+        },
+
+        {
+            title:
+                "Solve PYQ & Related Questions",
+
+            detail:
+                "Practice JEE PYQs and related exam-level questions from today's topic."
+        },
+
+        {
+            title:
+                "Selection Pro Test",
+
+            detail:
+                "Attempt today's Selection Pro practice test after the 7:00 PM release."
+        }
+
+    ];
+
+
+    tasks.forEach(
         (task, index) => {
 
             const div =
-                document.createElement("div");
+                document.createElement(
+                    "div"
+                );
 
-            div.className = "task";
+
+            div.className =
+                "task";
+
+
+            if (
+                saved.includes(index)
+            ) {
+
+                div.classList.add(
+                    "done"
+                );
+
+            }
+
 
             div.innerHTML = `
 
@@ -1926,18 +2891,77 @@ function renderTodayChallenge() {
 
             `;
 
+
             div.addEventListener(
                 "click",
-                () => {
+                function() {
 
-                    div.classList.toggle(
-                        "done"
-                    );
+                    const current =
+                        getTaskProgress(day);
+
+
+                    if (
+                        div.classList.contains(
+                            "done"
+                        )
+                    ) {
+
+                        div.classList.remove(
+                            "done"
+                        );
+
+
+                        const updated =
+                            current.filter(
+                                item =>
+                                    item !== index
+                            );
+
+
+                        saveTaskProgress(
+                            day,
+                            updated
+                        );
+
+                    }
+
+                    else {
+
+                        div.classList.add(
+                            "done"
+                        );
+
+
+                        if (
+                            !current.includes(
+                                index
+                            )
+                        ) {
+
+                            current.push(
+                                index
+                            );
+
+                        }
+
+
+                        saveTaskProgress(
+                            day,
+                            current
+                        );
+
+                    }
+
+
+                    updateCompleteButton(day);
 
                 }
             );
 
-            taskList.appendChild(div);
+
+            taskList.appendChild(
+                div
+            );
 
         }
     );
@@ -1946,57 +2970,346 @@ function renderTodayChallenge() {
 
 
 /* =========================================================
-   COMPLETE CHALLENGE
+   COMPLETE BUTTON
 ========================================================= */
 
-document
-    .getElementById(
-        "completeChallengeBtn"
-    )
-    .addEventListener(
-        "click",
-        function(){
+function updateCompleteButton(day) {
 
-            const day =
-                getSeriesDay();
+    const completed =
+        getTaskProgress(day);
 
-            saveCompletedDay(day);
 
-            renderProgress();
+    const allDone =
+        completed.length === 3;
+
+
+    if (allDone) {
+
+        completeChallengeBtn.innerHTML =
+            "✓ Challenge Completed";
+
+
+        completeChallengeBtn.style.background =
+            "#ecfdf3";
+
+
+        completeChallengeBtn.style.color =
+            "#16a34a";
+
+
+        completeChallengeBtn.style.borderColor =
+            "#bbf7d0";
+
+    }
+
+    else {
+
+        completeChallengeBtn.innerHTML =
+            "✓ Mark Challenge Complete";
+
+
+        completeChallengeBtn.style.background =
+            "white";
+
+
+        completeChallengeBtn.style.color =
+            "var(--text)";
+
+
+        completeChallengeBtn.style.borderColor =
+            "var(--border)";
+
+    }
+
+}
+
+
+/* =========================================================
+   COMPLETE CHALLENGE BUTTON
+========================================================= */
+
+completeChallengeBtn.addEventListener(
+
+    "click",
+
+    function() {
+
+        const day =
+            getSeriesDay();
+
+
+        saveCompletedDay(day);
+
+
+        renderProgress();
+
+
+        const completed =
+            getTaskProgress(day);
+
+
+        if (
+            completed.length < 3
+        ) {
+
+            this.innerHTML =
+                "✓ Day Marked Complete";
+
+        }
+
+        else {
 
             this.innerHTML =
                 "✓ Challenge Completed";
 
-            this.style.background =
-                "#ecfdf3";
-
-            this.style.color =
-                "#16a34a";
-
-            this.style.borderColor =
-                "#bbf7d0";
-
         }
-    );
+
+
+        this.style.background =
+            "#ecfdf3";
+
+
+        this.style.color =
+            "#16a34a";
+
+
+        this.style.borderColor =
+            "#bbf7d0";
+
+    }
+
+);
+
+
+/* =========================================================
+   TODAY TEST
+========================================================= */
+
+function renderTodayTest() {
+
+    const day =
+        getSeriesDay();
+
+
+    const data =
+        getChallenge(day);
+
+
+    const url =
+        TEST_URLS[day] || "";
+
+
+    const released =
+        isTestReleased(day);
+
+
+    const hasUrl =
+        url.trim() !== "";
+
+
+    if (
+        released &&
+        hasUrl
+    ) {
+
+        todayTestContainer.innerHTML = `
+
+            <article class="today-test-card">
+
+                <div class="test-card-top">
+
+                    <span class="test-day">
+                        DAY ${day}
+                    </span>
+
+                    <span class="test-status available-status">
+                        RELEASED
+                    </span>
+
+                </div>
+
+
+                <h3 class="today-test-title">
+                    ${data.title}
+                </h3>
+
+
+                <div class="today-test-info">
+
+                    ${data.subject}
+
+                    &nbsp; • &nbsp;
+
+                    Selection Pro Test
+
+                </div>
+
+
+                <div class="release-info">
+
+                    🟢 Test is live from
+                    <strong>7:00 PM</strong>
+
+                </div>
+
+
+                <a
+                    href="${url}"
+                    class="test-btn">
+
+                    Attempt Test →
+
+                </a>
+
+            </article>
+
+        `;
+
+    }
+
+    else {
+
+        todayTestContainer.innerHTML = `
+
+            <article class="today-test-card coming">
+
+                <div class="test-card-top">
+
+                    <span class="test-day">
+                        DAY ${day}
+                    </span>
+
+                    <span class="test-status coming-status">
+                        COMING SOON
+                    </span>
+
+                </div>
+
+
+                <h3 class="today-test-title">
+                    ${data.title}
+                </h3>
+
+
+                <div class="today-test-info">
+
+                    ${data.subject}
+
+                    &nbsp; • &nbsp;
+
+                    Selection Pro Test
+
+                </div>
+
+
+                <div class="release-info">
+
+                    🕖 Test release time:
+                    <strong>7:00 PM</strong>
+
+                </div>
+
+
+                <a
+                    href="#"
+                    class="test-btn disabled"
+                    aria-disabled="true">
+
+                    Available at 7:00 PM
+
+                </a>
+
+            </article>
+
+        `;
+
+    }
+
+}
 
 
 /* =========================================================
    PREVIOUS TESTS
 ========================================================= */
 
-function renderTests(list = PREVIOUS_TESTS) {
+function getPreviousTests() {
+
+    const currentDay =
+        getSeriesDay();
+
+
+    const list = [];
+
+
+    for (
+        let day = 1;
+        day < currentDay;
+        day++
+    ) {
+
+        const data =
+            getChallenge(day);
+
+
+        const url =
+            TEST_URLS[day] || "";
+
+
+        /*
+           Previous test tab mein wahi tests
+           show honge jo URL ke saath configured hain.
+        */
+
+        if (
+            url.trim() !== ""
+        ) {
+
+            list.push({
+
+                day: day,
+
+                subject:
+                    data.subject,
+
+                title:
+                    data.title,
+
+                url:
+                    url
+
+            });
+
+        }
+
+    }
+
+
+    return list.reverse();
+
+}
+
+
+/* =========================================================
+   RENDER PREVIOUS TESTS
+========================================================= */
+
+function renderTests(
+    list = getPreviousTests()
+) {
 
     previousTests.innerHTML = "";
 
-    if(!list.length) {
+
+    if (
+        !list.length
+    ) {
 
         previousTests.innerHTML = `
 
-            <div class="empty"
-                 style="grid-column:1/-1;">
+            <div class="empty">
 
                 📚 Previous day tests will appear here
-                after the practice tests are published.
+                automatically after a new day begins.
 
             </div>
 
@@ -2007,143 +3320,64 @@ function renderTests(list = PREVIOUS_TESTS) {
     }
 
 
-    list.forEach(test => {
-
-        const article =
-            document.createElement("article");
-
-        article.className =
-            "test-card";
-
-        article.innerHTML = `
-
-            <div class="test-card-top">
-
-                <span class="test-day">
-                    DAY ${test.day}
-                </span>
-
-                <span class="test-status">
-                    AVAILABLE
-                </span>
-
-            </div>
-
-            <h3 class="test-title">
-                ${test.title}
-            </h3>
-
-            <div class="test-info">
-
-                ${test.subject}
-                &nbsp; • &nbsp;
-                ${test.questions} Questions
-                &nbsp; • &nbsp;
-                ${test.duration}
-
-            </div>
-
-            <a
-                href="${test.url}"
-                class="test-btn">
-
-                Attempt Test →
-
-            </a>
-
-        `;
-
-        previousTests.appendChild(article);
-
-    });
-
-}
-
-
-/* =========================================================
-   TEST SEARCH
-========================================================= */
-
-testSearch.addEventListener(
-    "input",
-    function(){
-
-        const query =
-            this.value
-                .toLowerCase()
-                .trim();
-
-        const filtered =
-            PREVIOUS_TESTS.filter(test =>
-
-                test.title
-                    .toLowerCase()
-                    .includes(query)
-
-                ||
-
-                test.subject
-                    .toLowerCase()
-                    .includes(query)
-
-                ||
-
-                String(test.day)
-                    .includes(query)
-
-            );
-
-        renderTests(filtered);
-
-    }
-);
-
-
-/* =========================================================
-   SYLLABUS
-========================================================= */
-
-function renderSyllabus() {
-
-    phaseGrid.innerHTML = "";
-
-    SYLLABUS_PHASES.forEach(
-        phase => {
+    list.forEach(
+        test => {
 
             const article =
-                document.createElement("article");
+                document.createElement(
+                    "article"
+                );
+
 
             article.className =
-                "phase";
+                "test-card";
+
 
             article.innerHTML = `
 
-                <div class="phase-number">
-                    ${phase.number}
+                <div class="test-card-top">
+
+                    <span class="test-day">
+                        DAY ${test.day}
+                    </span>
+
+                    <span class="test-status available-status">
+                        RELEASED
+                    </span>
+
                 </div>
 
-                <h3>
-                    ${phase.title}
+
+                <h3 class="test-title">
+                    ${test.title}
                 </h3>
 
-                <div class="phase-days">
-                    ${phase.days}
-                </div>
 
-                <div class="phase-subjects">
+                <div class="test-info">
 
-                    ${phase.subjects
-                        .map(
-                            subject =>
-                            `<span>${subject}</span>`
-                        )
-                        .join("")}
+                    ${test.subject}
+
+                    &nbsp; • &nbsp;
+
+                    Selection Pro Test
 
                 </div>
+
+
+                <a
+                    href="${test.url}"
+                    class="test-btn">
+
+                    Attempt Test →
+
+                </a>
 
             `;
 
-            phaseGrid.appendChild(article);
+
+            previousTests.appendChild(
+                article
+            );
 
         }
     );
@@ -2152,75 +3386,136 @@ function renderSyllabus() {
 
 
 /* =========================================================
-   VIEW SWITCH
+   SEARCH
 ========================================================= */
 
-function showToday() {
+testSearch.addEventListener(
 
-    todayView.style.display =
-        "block";
+    "input",
 
-    syllabusView.style.display =
-        "none";
+    function() {
 
-    todayBtn.classList.add(
-        "active"
-    );
-
-    syllabusBtn.classList.remove(
-        "active"
-    );
-
-    todayBtn.setAttribute(
-        "aria-selected",
-        "true"
-    );
-
-    syllabusBtn.setAttribute(
-        "aria-selected",
-        "false"
-    );
-
-}
+        const query =
+            this.value
+                .toLowerCase()
+                .trim();
 
 
-function showSyllabus() {
-
-    todayView.style.display =
-        "none";
-
-    syllabusView.style.display =
-        "block";
-
-    syllabusBtn.classList.add(
-        "active"
-    );
-
-    todayBtn.classList.remove(
-        "active"
-    );
-
-    syllabusBtn.setAttribute(
-        "aria-selected",
-        "true"
-    );
-
-    todayBtn.setAttribute(
-        "aria-selected",
-        "false"
-    );
-
-}
+        const tests =
+            getPreviousTests();
 
 
-todayBtn.addEventListener(
-    "click",
-    showToday
+        const filtered =
+            tests.filter(
+                test =>
+
+                    test.title
+                        .toLowerCase()
+                        .includes(query)
+
+                    ||
+
+                    test.subject
+                        .toLowerCase()
+                        .includes(query)
+
+                    ||
+
+                    String(test.day)
+                        .includes(query)
+
+            );
+
+
+        renderTests(
+            filtered
+        );
+
+    }
+
 );
 
-syllabusBtn.addEventListener(
-    "click",
-    showSyllabus
+
+/* =========================================================
+   AUTO REFRESH
+=========================================================
+
+   Page open rehne par bhi:
+
+   • Midnight ke baad new Day
+   • 7 PM par test Released
+
+   automatically UI update hoga.
+
+========================================================= */
+
+let lastKnownDay =
+    getSeriesDay();
+
+
+let lastKnownRelease =
+    isTestReleased(
+        lastKnownDay
+    );
+
+
+function autoRefreshSeries() {
+
+    const currentDay =
+        getSeriesDay();
+
+
+    const currentRelease =
+        isTestReleased(
+            currentDay
+        );
+
+
+    if (
+        currentDay !==
+        lastKnownDay
+    ) {
+
+        lastKnownDay =
+            currentDay;
+
+
+        renderProgress();
+
+        renderTodayChallenge();
+
+        renderTodayTest();
+
+        renderTests();
+
+        return;
+
+    }
+
+
+    if (
+        currentRelease !==
+        lastKnownRelease
+    ) {
+
+        lastKnownRelease =
+            currentRelease;
+
+
+        renderTodayTest();
+
+    }
+
+}
+
+
+/*
+   Every 30 seconds check.
+*/
+
+setInterval(
+    autoRefreshSeries,
+    30000
 );
 
 
@@ -2234,15 +3529,20 @@ function init() {
 
     renderTodayChallenge();
 
+    renderTodayTest();
+
     renderTests();
 
-    renderSyllabus();
-
 }
+
 
 init();
 
 </script>
+
+<div id="pwa"></div>
+<script src="/includes/js/pwabanner.js"></script>
+<script src="/includes/js/pwa.js"></script>
 
 </body>
 </html>

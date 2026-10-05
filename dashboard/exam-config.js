@@ -392,21 +392,16 @@ challenges: [
 
                 icon: "🚀",
 
-                badge: "COMING SOON",
+                badge: "Live 🔴",
 
                 duration: "100 Days",
 
-                progress: "0",
+                progress: 01,
 
-                currentDay: 0,
+                currentDay: 01,
 
-                totalDays: 0,
+                totalDays: 100,
 
-                todayTest:
-                    "https://t.me/selectionprojee",
-
-                todaySchedule:
-                    "https://t.me/selectionprojee"
             }
 
         ],
