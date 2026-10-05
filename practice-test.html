@@ -393,63 +393,111 @@
 
     async function fetchMockTestData() {
 
-        // URL se id parameter extract karein
-        // Example:
-        // ?id=practice-06
-        // ?id=ssc_cgl_pt_03
+    const urlParams =
+        new URLSearchParams(window.location.search);
 
-        const urlParams =
-            new URLSearchParams(window.location.search);
+    /*
+     * New system:
+     * ?file=/tests/jee/day-96.json
+     */
 
-        const testId =
-            urlParams.get('id') || 'practice-01';
-
-
-        try {
-
-            // Target JSON file load karein
-            const response =
-                await fetch(`practice-tests/${testId}.json`);
+    const jsonFile =
+        urlParams.get("file");
 
 
-            if (!response.ok) {
-                throw new Error("JSON file not found");
-            }
+    /*
+     * Old system:
+     * ?id=jee_main_pt_02
+     */
+
+    const testId =
+        urlParams.get("id") || "practice-01";
 
 
-            // JSON data
-            testData = await response.json();
+    try {
+
+        let jsonPath;
 
 
-            /* ========================================
-               RANDOMIZE OPTIONS
-               ======================================== */
+        // If file parameter exists, use direct JSON path
+        if (jsonFile) {
 
-            if (
-                testData.questions &&
-                Array.isArray(testData.questions)
-            ) {
+            jsonPath = jsonFile;
 
-                testData.questions =
-                    randomizeOptions(testData.questions);
+        } else {
 
-            }
+            // Old practice-test system
+            jsonPath = `practice-tests/${testId}.json`;
 
-
-        } catch (error) {
-
-            console.warn(
-                "Fetch failed, loading fallback demo data.",
-                error
-            );
-
-            return;
         }
 
 
-        // Quiz render
+        console.log("Loading JSON:", jsonPath);
+
+
+        const response =
+            await fetch(jsonPath);
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                `JSON file not found: ${jsonPath}`
+            );
+
+        }
+
+
+        // Load JSON
+        testData =
+            await response.json();
+
+
+        /*
+         * RANDOMIZE OPTIONS
+         */
+
+        if (
+            testData.questions &&
+            Array.isArray(testData.questions)
+        ) {
+
+            testData.questions =
+                randomizeOptions(testData.questions);
+
+        }
+
+
+        /*
+         * Render quiz
+         */
+
         renderQuiz(testData);
+
+
+    } catch (error) {
+
+        console.error(
+            "Failed to load test JSON:",
+            error
+        );
+
+
+        document.getElementById(
+            "questions-container"
+        ).innerHTML = `
+            <div class="status-msg">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <br><br>
+                Unable to load test.
+                <br>
+                Please try again later.
+            </div>
+        `;
+
     }
+
+}
 
 
     /* ============================================
