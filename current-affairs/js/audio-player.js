@@ -534,7 +534,7 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.querySelector("#get-audio-key")
         .addEventListener("click", () => {
 
-            const whatsappNumber = "918957940617";
+            const whatsappNumber = "919305660058";
 
             if (whatsappNumber.includes("X")) {
 
