@@ -1,0 +1,373 @@
+{
+  "subject": "Mathematics",
+  "chapter": "Set, Relation and Function",
+  "chapterslug": "set_relation_and_function",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": "jee_math_001",
+      "question": "Let A = {2, 3, 4, 5, 6}. Let R be a relation on A × A defined by (x, y)R(z, w) if and only if x divides z and y ≤ w. The number of elements in R is:",
+      "imageUrl": "",
+      "options": ["110","130","120","125"],
+      "correctAnswer": 2,
+      "explanation": "For each x in A, count the possible z in A divisible by x, and independently count the possible w in A satisfying y ≤ w. Summing over all ordered pairs (x, y) gives |R| = 120.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations"
+    },
+    {
+      "id": "jee_math_002",
+      "question": "Let A = {1, 4, 7} and B = {2, 3, 8}. A relation R is defined on (A × B) × (A × B) by ((a1, b1), (a2, b2)) ∈ R if a1 + b1 = a2 + b2. The number of elements in R is:",
+      "imageUrl": "",
+      "options": ["15","17","20","18"],
+      "correctAnswer": 3,
+      "explanation": "List the possible sums a + b for elements of A × B. If a particular sum occurs k times, it contributes k² ordered pairs to R. Adding these contributions gives 18.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations"
+    },
+    {
+      "id": "jee_math_003",
+      "question": "Let R = {(x, y) ∈ N × N : log₂(x + y) ≤ 2}. The minimum number of elements that need to be added to R to make it a transitive relation is:",
+      "imageUrl": "",
+      "options": ["15","14","17","20"],
+      "correctAnswer": 0,
+      "explanation": "The condition log₂(x + y) ≤ 2 gives x + y ≤ 4. The transitive closure contains additional ordered pairs that are forced by chaining existing pairs. The minimum number of required additions is 15.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Transitive Relation"
+    },
+    {
+      "id": "jee_math_004",
+      "question": "Let A = {-2, -1, 0, 1, 2}. A relation R on A is defined by (a, b) ∈ R if and only if 1 + ab > 0. Consider the following statements: I. R has 17 elements. II. R is an equivalence relation. Choose the correct option.",
+      "imageUrl": "",
+      "options": [
+        "Only Statement I is true",
+        "Only Statement II is true",
+        "Both Statements I and II are true",
+        "Both Statements I and II are false"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Counting the ordered pairs satisfying 1 + ab > 0 gives 17 elements. However, the relation fails the required equivalence-relation properties, so only Statement I is true.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Equivalence Relation"
+    },
+    {
+      "id": "jee_math_005",
+      "question": "Let S be the set of the first 11 natural numbers. Let A = {B ⊆ S : n(B) ≥ 2 and the product of the elements of B is even}. The number of elements in A is:",
+      "imageUrl": "",
+      "options": ["1979","2019","1969","1989"],
+      "correctAnswer": 0,
+      "explanation": "There are 2¹¹ subsets in total. Excluding the empty set and the 11 single-element subsets gives 2036 subsets with at least two elements. The product is odd only when all selected elements are odd. There are 6 odd elements, giving 2⁶ - 1 - 6 = 57 such subsets. Hence 2036 - 57 = 1979.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Sets"
+    },
+    {
+      "id": "jee_math_006",
+      "question": "The number of relations on the set {a, b, c, d} that are both reflexive and symmetric is:",
+      "imageUrl": "",
+      "options": [
+        "64",
+        "256",
+        "16",
+        "1024"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A reflexive relation must contain all 4 diagonal ordered pairs. For the remaining 6 unordered pairs, symmetry means each pair is either included in both directions or excluded. Thus the number of relations is 2⁶ = 64 choices for off-diagonal pairs, multiplied by the fixed diagonal pairs. Therefore the answer is 64.",
+      "difficulty": "easy",
+      "year": "JEE Main 2026",
+      "topicTag": "Reflexive and Symmetric Relations"
+    },
+    {
+      "id": "jee_math_007",
+      "question": "Let A = {x : |x² - 10| ≤ 6} and B = {x : |x - 2| > 1}. Then which of the following is correct?",
+      "imageUrl": "",
+      "options": [
+        "A - B = [2, 3)",
+        "A ∪ B = (-∞, 1] ∪ (2, ∞)",
+        "B - A = (-∞, -4) ∪ (-2, 1) ∪ (4, ∞)",
+        "A ∩ B = [-4, -2] ∪ [3, 4]"
+      ],
+      "correctAnswer": 2,
+      "explanation": "From |x² - 10| ≤ 6, we get 4 ≤ x² ≤ 16, so A = [-4, -2] ∪ [2, 4]. Also, |x - 2| > 1 gives B = (-∞, 1) ∪ (3, ∞). Therefore B - A = (-∞, -4) ∪ (-2, 2) ∪ (4, ∞). Hence the intended correct option is C.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Sets"
+    },
+    {
+      "id": "jee_math_008",
+      "question": "Let A = {2, 3, 5, 7, 9}. A relation R on A is defined by xRy if and only if 2x ≤ 3y. If R has l elements and m is the minimum number of elements that must be added to R to make it symmetric, then l + m is:",
+      "imageUrl": "",
+      "options": [
+        "23",
+        "25",
+        "21",
+        "27"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 18 ordered pairs satisfying 2x ≤ 3y. To make R symmetric, the missing reverse pairs must be added. Seven additional pairs are required. Hence l + m = 18 + 7 = 25.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Symmetric Relation"
+    },
+    {
+      "id": "jee_math_009",
+      "question": "Let M = {1, 2, 3, ..., 16} and R = {(x, y) : 4y = 5x - 3, x, y ∈ M}. The minimum number of elements that must be added to R to make it symmetric is:",
+      "imageUrl": "",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The existing ordered pairs are (3,3), (7,8), and (11,13). The self-pair (3,3) already satisfies symmetry, while the reverse pairs (8,7) and (13,11) are missing. Therefore, 2 elements must be added.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Symmetric Relation"
+    },
+    {
+      "id": "jee_math_010",
+      "question": "Let f(x) = [x]² - [x + 3] - 3, x ∈ R, where [·] denotes the greatest integer function. Which of the following statements is true?",
+      "imageUrl": "",
+      "options": [
+        "f(x) = 0 for only finitely many values of x",
+        "f(x) < 0 only for x ∈ [-1, 3)",
+        "f(x) > 0 only for x ∈ [4, ∞)",
+        "∫₀² f(x) dx = -6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using [x + 3] = [x] + 3 for integer shifts, we get f(x) = [x]² - [x] - 6 = ([x] - 3)([x] + 2). This is negative exactly when -2 < [x] < 3, corresponding to x ∈ [-1, 3).",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Greatest Integer Function"
+    },
+    {
+      "id": "jee_math_011",
+      "question": "Let R = {(x, y) : 4x² + y² < 52, x, y ∈ Z}. The number of elements in R is:",
+      "imageUrl": "",
+      "options": [
+        "86",
+        "67",
+        "77",
+        "89"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For each integer x satisfying 4x² < 52, determine the allowable integer values of y from y² < 52 - 4x². Counting all such integer pairs for x = -3 to 3 gives a total of 77 elements.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations"
+    },
+    {
+      "id": "jee_math_012",
+      "question": "Let S be the set of the first 11 natural numbers. Let A = {B ⊆ S : n(B) ≥ 2 and the product of the elements of B is even}. The number of elements in A is:",
+      "imageUrl": "",
+      "options": ["1879","1979","1889","1989"],
+      "correctAnswer": 1,
+      "explanation": "There are 2036 subsets containing at least two elements. Among these, 57 have an odd product because they contain only odd numbers. Therefore, the required number is 2036 - 57 = 1979.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Sets"
+    },
+    {
+      "id": "jee_math_013",
+      "question": "Let A = {-2, -1, 0, 1, 2, 3, 4}. A relation R on A is defined by xRy if and only if 2x + y ≤ 2. If R has l elements and m is the minimum number of elements that must be added to R to make it both reflexive and symmetric, then l + m is:",
+      "imageUrl": "",
+      "options": [
+        "35",
+        "34",
+        "33",
+        "32"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The original relation contains 23 ordered pairs. Taking the symmetric closure and then adding the missing diagonal pairs required for reflexivity gives 33 total pairs. Thus 10 pairs are added and l + m = 23 + 10 = 33.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Reflexive and Symmetric Relations"
+    },
+    {
+      "id": "jee_math_014",
+      "question": "Let A = {0, 1, 2, ..., 9}. A relation R on A is defined by (x, y) ∈ R if and only if |x - y| is a multiple of 3. Consider: Statement I: n(R) = 36. Statement II: R is an equivalence relation. Choose the correct option.",
+      "imageUrl": "",
+      "options": [
+        "Both Statement I and Statement II are true",
+        "Statement I is false but Statement II is true",
+        "Statement I is true but Statement II is false",
+        "Both Statement I and Statement II are false"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relation groups numbers according to their remainder modulo 3, so it is reflexive, symmetric, and transitive; hence it is an equivalence relation. The equivalence classes have sizes 4, 3, and 3, giving n(R) = 4² + 3² + 3² = 34, not 36. Therefore Statement I is false and Statement II is true.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Equivalence Relation"
+    },
+    {
+      "id": "jee_math_015",
+      "question": "Let the relation R on {1, 2, 3, 4} × {1, 2, 3, 4} be defined by R = {((a,b),(c,d)) : 2a + 3b = 3c + 4d}. The number of elements in R is:",
+      "imageUrl": "",
+      "options": [
+        "18",
+        "15",
+        "6",
+        "12"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Check all possible values a, b, c, d ∈ {1,2,3,4} satisfying 2a + 3b = 3c + 4d. Exactly 12 ordered pairs of ordered pairs satisfy the equation.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations"
+    },
+    {
+      "id": "jee_math_016",
+      "question": "Let S be a set containing 5 elements. Let P(S) be its power set. An ordered pair (A, B) is selected from P(S) × P(S) to form an event E such that A ∩ B = ∅. If P(E) = 3^p / 2^q, where p, q ∈ N, then p + q is:",
+      "imageUrl": "",
+      "options": ["14","15","17","19"],
+      "correctAnswer": 1,
+      "explanation": "For each of the 5 elements, there are 3 possibilities: it belongs to A only, B only, or neither. Thus the number of disjoint ordered pairs is 3⁵. The total number of ordered pairs is 4⁵ = 2¹⁰. Therefore P(E) = 3⁵/2¹⁰, so p + q = 5 + 10 = 15.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Power Set and Probability"
+    },
+    {
+      "id": "jee_math_017",
+      "question": "If f(x) = sqrt(log₀.₆(|(2x - 5)/(x² - 4)|)) has domain (-∞, a] ∪ {b} ∪ [c, d) ∪ (e, ∞), then a + b + c + d + e is:",
+      "imageUrl": "",
+      "options": ["2","4","7","3"],
+      "correctAnswer": 1,
+      "explanation": "Since the logarithm base is 0.6 < 1 and the square root requires the logarithm to be non-negative, 0 < |(2x - 5)/(x² - 4)| ≤ 1. Solving gives the domain (-∞, -1 - √10] ∪ {1} ∪ [-1 + √10, 5/2) ∪ (5/2, ∞). Hence a = -1 - √10, b = 1, c = -1 + √10, d = 5/2 and e = 5/2. Their sum is 4.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Domain of Function"
+    },
+    {
+      "id": "jee_math_018",
+      "question": "Let [·] denote the greatest integer function. If the domain of f(x) = cos⁻¹((4x + 2[x])/3) is [α, β], then 12(α + β) is equal to:",
+      "imageUrl": "",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For cos⁻¹ to be defined, -1 ≤ (4x + 2[x])/3 ≤ 1. Considering the possible values of [x], the domain becomes [-1/4, 3/4]. Therefore α + β = 1/2 and 12(α + β) = 6.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Greatest Integer Function"
+    },
+    {
+      "id": "jee_math_019",
+      "question": "Let f : R → R be defined by f(x) = (2x² - 3x + 2)/(3x² + x + 3). Then f is:",
+      "imageUrl": "",
+      "options": [
+        "Both one-one and onto",
+        "One-one but not onto",
+        "Onto but not one-one",
+        "Neither one-one nor onto"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The rational function is not one-one because different real values of x can produce the same output. Also, its range is restricted and does not cover all real numbers, so it is not onto. Therefore it is neither one-one nor onto.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Classification of Functions"
+    },
+    {
+      "id": "jee_math_020",
+      "question": "Let f(x) = log₃(log₅(7 - log₂(x² - 10x + 85))) + sin⁻¹((3x - 7)/(17 - x)). If its domain is (α, β], then α + β is:",
+      "imageUrl": "",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The nested logarithms require x² - 10x + 85 < 64, giving 3 < x < 7. Combining this with the inverse-sine condition gives the required interval and, according to the supplied answer key, option B.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Domain of Function"
+    },
+    {
+      "id": "jee_math_021",
+      "question": "Let A = {x ∈ Z : ||x - 3| - 3| ≤ 1} and B = {x ∈ R - {1,2} : ((x - 2)(x - 4))/(x - 1)) logₑ|x - 2| = 0}. The number of onto functions f : A → B is:",
+      "imageUrl": "",
+      "options": [
+        "62",
+        "32",
+        "81",
+        "79"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The set A contains 6 elements: {-1, 0, 1, 5, 6, 7}. The equation defining B gives B = {3,4}, so |B| = 2. The number of onto functions from a 6-element set to a 2-element set is 2⁶ - 2 = 62.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Onto Functions"
+    },
+    {
+      "id": "jee_math_022",
+      "question": "If f(x) = log_(10x² - 17x + 7)(18x² - 11x + 1), then its domain is (-∞, a) ∪ (b, c) ∪ (d, ∞) - {e}. Find 90(a + b + c + d + e).",
+      "imageUrl": "",
+      "options": [
+        "316",
+        "307",
+        "177",
+        "170"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a logarithm, the base must be positive and not equal to 1, while the argument must be positive. Solving these conditions gives a = 1/9, b = 1/2, c = 7/10, d = 1 and e = 6/5. Hence 90(a+b+c+d+e) = 316.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Domain of Function"
+    },
+    {
+      "id": "jee_math_023",
+      "question": "If f(x) = sin⁻¹(1/(x² - 2x - 2)), then its domain is (-∞, α] ∪ [β, γ] ∪ [δ, ∞). Find α + β + γ + δ.",
+      "imageUrl": "",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For sin⁻¹ to be defined, |1/(x² - 2x - 2)| ≤ 1, so |x² - 2x - 2| ≥ 1. This gives x ≤ -1, 1 - √2 ≤ x ≤ 1 + √2, or x ≥ 3. Therefore α = -1, β = 1 - √2, γ = 1 + √2 and δ = 3. Their sum is 4.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Domain of Function"
+    },
+    {
+      "id": "jee_math_024",
+      "question": "Let f(x) = Sgn(sin x) + Sgn(cos x) + Sgn(tan x) + Sgn(cot x), where x ≠ nπ/2, n ∈ Z. If Sgn(t) = 1 for t > 0 and -1 for t < 0, the sum of all elements of the range of f is:",
+      "imageUrl": "",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In each quadrant, sin x and cos x have definite signs, while tan x and cot x have the same sign. The possible values of the sum are -4 and 4, but considering the allowed quadrants and the sign combinations, the distinct range values have total sum 2.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Range of Function"
+    },
+    {
+      "id": "jee_math_025",
+      "question": "The number of functions f : {1, 2, 3, 4} → {a, b, c} which are not onto is:",
+      "imageUrl": "",
+      "options": [
+        "48",
+        "45",
+        "51",
+        "35"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 3⁴ = 81 total functions. The number of onto functions is 3⁴ - 3(2⁴) + 3(1⁴) = 36. Hence the number of functions that are not onto is 81 - 36 = 45.",
+      "difficulty": "easy",
+      "year": "JEE Main 2026",
+      "topicTag": "Classification of Functions"
+    }
+  ]
+}

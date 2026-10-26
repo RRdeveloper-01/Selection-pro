@@ -1,0 +1,2369 @@
+[
+ {
+  "slug": "class-12-board",
+  "route": "/mock-tests/class-12-board",
+  "h1": "Class 12th Board Exams Chapter-Wise Mock Test",
+  "title": "Class 12 Board Exams Mock Test",
+  "intro": "This mock test is designed according to the latest exam pattern.\n        It helps students evaluate their preparation, improve speed, and increase accuracy.",
+  "instructions": [
+   "Total Questions: 30",
+   "Total Time: 75 Minutes",
+   "Correct Answer: +5 marks",
+   "Wrong Answer: -1 mark",
+   "Unanswered: 0 marks"
+  ],
+  "groups": [
+   {
+    "heading": "Mathematics Mock Test",
+    "chapters": [
+     {
+      "title": "Relations and Functions",
+      "slug": "c-relations-and-function"
+     },
+     {
+      "title": "Inverse Trigonometric Functions",
+      "slug": "c-inverse-trigonometric-functions"
+     },
+     {
+      "title": "Matrices",
+      "slug": "c-matrices"
+     },
+     {
+      "title": "Determinants",
+      "slug": "c-determinants"
+     },
+     {
+      "title": "Continuity and Differentiability",
+      "slug": "c-continuity-and-differentiability"
+     },
+     {
+      "title": "Application of Derivatives",
+      "slug": "c-application-of-derivatives"
+     },
+     {
+      "title": "Integrals",
+      "slug": "c-integrals"
+     },
+     {
+      "title": "Application of Integrals",
+      "slug": "c-application-of-integrals"
+     },
+     {
+      "title": "Differential Equations",
+      "slug": "c-differential-equations"
+     },
+     {
+      "title": "Vector Algebra",
+      "slug": "c-vector-algebra"
+     },
+     {
+      "title": "Three Dimensional Geometry",
+      "slug": "c-three-dimensional-geometry"
+     },
+     {
+      "title": "Linear Programming",
+      "slug": "c-linear-programming"
+     },
+     {
+      "title": "Probability",
+      "slug": "c-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Electric Charges and Fields",
+      "slug": "c-electric-charges-and-fields"
+     },
+     {
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": "c-electrostatic-potential-and-capacitance"
+     },
+     {
+      "title": "Current Electricity",
+      "slug": "c-current-electricity"
+     },
+     {
+      "title": "Moving Charges and Magnetism",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "Magnetism and Matter",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "Electromagnetic Induction",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "Alternating Current",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "Electromagnetic Waves",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "Wave Optics",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "Atoms",
+      "slug": "c-atoms"
+     },
+     {
+      "title": "Nuclei",
+      "slug": "c-nuclei"
+     },
+     {
+      "title": "Semiconductor Electronics",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Solutions",
+      "slug": "solutions"
+     },
+     {
+      "title": "Electrochemistry",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "Chemical Kinetics",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "The d and f Block Elements",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "Coordination Compounds",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "Amines",
+      "slug": "amines"
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     }
+    ]
+   },
+   {
+    "heading": "Biology Mock Test",
+    "chapters": [
+     {
+      "title": "Sexual Reproduction in Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Human Reproduction",
+      "slug": null
+     },
+     {
+      "title": "Reproductive Health",
+      "slug": null
+     },
+     {
+      "title": "Principles of Inheritance and Variation",
+      "slug": null
+     },
+     {
+      "title": "Molecular Basis of Inheritance",
+      "slug": null
+     },
+     {
+      "title": "Evolution",
+      "slug": null
+     },
+     {
+      "title": "Human Health and Diseases",
+      "slug": null
+     },
+     {
+      "title": "Microbes in Human Welfare",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology: Principles and Processes",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology and its Applications",
+      "slug": null
+     },
+     {
+      "title": "Organisms and Populations",
+      "slug": null
+     },
+     {
+      "title": "Ecosystem",
+      "slug": null
+     },
+     {
+      "title": "Biodiversity and its Conservation",
+      "slug": null
+     }
+    ]
+   }
+  ],
+  "lang": "en"
+ },
+ {
+  "slug": "cuet",
+  "route": "/mock-tests/cuet",
+  "h1": "CUET UG Chapter-Wise Mock Test",
+  "title": "CUET UG Chapter Wise Mock Test",
+  "intro": "This CUET mock test is designed according to the latest NTA exam pattern.\n        It helps students evaluate their preparation, improve speed, and increase accuracy.",
+  "instructions": [
+   "Total Questions: 30",
+   "Total Time: 75 Minutes",
+   "Correct Answer: +5 marks",
+   "Wrong Answer: -1 mark",
+   "Unanswered: 0 marks"
+  ],
+  "groups": [
+   {
+    "heading": "Mathematics Mock Test",
+    "chapters": [
+     {
+      "title": "Relations and Functions",
+      "slug": "c-relations-and-function"
+     },
+     {
+      "title": "Inverse Trigonometric Functions",
+      "slug": "c-inverse-trigonometric-functions"
+     },
+     {
+      "title": "Matrices",
+      "slug": "c-matrices"
+     },
+     {
+      "title": "Determinants",
+      "slug": "c-determinants"
+     },
+     {
+      "title": "Continuity and Differentiability",
+      "slug": "c-continuity-and-differentiability"
+     },
+     {
+      "title": "Application of Derivatives",
+      "slug": "c-application-of-derivatives"
+     },
+     {
+      "title": "Integrals",
+      "slug": "c-integrals"
+     },
+     {
+      "title": "Application of Integrals",
+      "slug": "c-application-of-integrals"
+     },
+     {
+      "title": "Differential Equations",
+      "slug": "c-differential-equations"
+     },
+     {
+      "title": "Vector Algebra",
+      "slug": "c-vector-algebra"
+     },
+     {
+      "title": "Three Dimensional Geometry",
+      "slug": "c-three-dimensional-geometry"
+     },
+     {
+      "title": "Linear Programming",
+      "slug": "c-linear-programming"
+     },
+     {
+      "title": "Probability",
+      "slug": "c-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Electric Charges and Fields",
+      "slug": "c-electric-charges-and-fields"
+     },
+     {
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": "c-electrostatic-potential-and-capacitance"
+     },
+     {
+      "title": "Current Electricity",
+      "slug": "c-current-electricity"
+     },
+     {
+      "title": "Moving Charges and Magnetism",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "Magnetism and Matter",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "Electromagnetic Induction",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "Alternating Current",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "Electromagnetic Waves",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "Wave Optics",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "Atoms",
+      "slug": "c-atoms"
+     },
+     {
+      "title": "Nuclei",
+      "slug": "c-nuclei"
+     },
+     {
+      "title": "Semiconductor Electronics",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Solutions",
+      "slug": "solutions"
+     },
+     {
+      "title": "Electrochemistry",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "Chemical Kinetics",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "The d and f Block Elements",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "Coordination Compounds",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "Amines",
+      "slug": "amines"
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     }
+    ]
+   },
+   {
+    "heading": "General Aptitude Test (GAT) Mock Test",
+    "chapters": [
+     {
+      "title": "Number System",
+      "slug": null
+     },
+     {
+      "title": "Arithmetic Operations",
+      "slug": null
+     },
+     {
+      "title": "Ratio and Proportion",
+      "slug": null
+     },
+     {
+      "title": "Average and Age Problems",
+      "slug": null
+     },
+     {
+      "title": "Geometry and Mensuration",
+      "slug": null
+     },
+     {
+      "title": "Time, Speed and Distance",
+      "slug": null
+     },
+     {
+      "title": "Series and Coding-Decoding",
+      "slug": null
+     },
+     {
+      "title": "Blood Relations",
+      "slug": null
+     },
+     {
+      "title": "Direction Sense Test",
+      "slug": null
+     },
+     {
+      "title": "Logical Venn Diagrams",
+      "slug": null
+     },
+     {
+      "title": "Analytical Reasoning",
+      "slug": null
+     },
+     {
+      "title": "General Science",
+      "slug": null
+     },
+     {
+      "title": "History and Geography",
+      "slug": null
+     },
+     {
+      "title": "Indian Polity and Economy",
+      "slug": null
+     },
+     {
+      "title": "Current Affairs",
+      "slug": null
+     },
+     {
+      "title": "Who's Who, Awards and Honors",
+      "slug": null
+     },
+     {
+      "title": "Data Interpretation",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "English Mock Test",
+    "chapters": [
+     {
+      "title": "RC: Factual",
+      "slug": null
+     },
+     {
+      "title": "RC: Narrative",
+      "slug": null
+     },
+     {
+      "title": "RC: Literary",
+      "slug": null
+     },
+     {
+      "title": "Verbal Ability",
+      "slug": null
+     },
+     {
+      "title": "Para Jumbles",
+      "slug": null
+     },
+     {
+      "title": "Choosing the Correct Word",
+      "slug": null
+     },
+     {
+      "title": "Synonyms and Antonyms",
+      "slug": null
+     },
+     {
+      "title": "Idioms and Phrases",
+      "slug": null
+     },
+     {
+      "title": "Vocabulary and Spellings",
+      "slug": null
+     },
+     {
+      "title": "One Word Substitution",
+      "slug": null
+     },
+     {
+      "title": "Literary Devices",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Biology Mock Test",
+    "chapters": [
+     {
+      "title": "Sexual Reproduction in Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Human Reproduction",
+      "slug": null
+     },
+     {
+      "title": "Reproductive Health",
+      "slug": null
+     },
+     {
+      "title": "Principles of Inheritance and Variation",
+      "slug": null
+     },
+     {
+      "title": "Molecular Basis of Inheritance",
+      "slug": null
+     },
+     {
+      "title": "Evolution",
+      "slug": null
+     },
+     {
+      "title": "Human Health and Diseases",
+      "slug": null
+     },
+     {
+      "title": "Microbes in Human Welfare",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology: Principles and Processes",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology and its Applications",
+      "slug": null
+     },
+     {
+      "title": "Organisms and Populations",
+      "slug": null
+     },
+     {
+      "title": "Ecosystem",
+      "slug": null
+     },
+     {
+      "title": "Biodiversity and its Conservation",
+      "slug": null
+     }
+    ]
+   }
+  ],
+  "lang": "en"
+ },
+ {
+  "slug": "cuet-hindi",
+  "route": "/mock-tests/cuet-hindi",
+  "h1": "CUET UG Hindi Chapter-Wise Mock Test",
+  "title": "CUET UG Hindi Chapter Wise Mock Test",
+  "intro": "यह CUET Mock Test नवीनतम परीक्षा पैटर्न के अनुसार तैयार किया गया है।\n        यह टेस्ट आपको अपनी तैयारी को जांचने, speed बढ़ाने और accuracy सुधारने में मदद करेगा।",
+  "instructions": [
+   "कुल प्रश्न: 50",
+   "कुल समय: 60 मिनट",
+   "सही उत्तर: +5 अंक",
+   "गलत उत्तर: -1 अंक",
+   "बिना उत्तर: 0 अंक"
+  ],
+  "groups": [
+   {
+    "heading": "Mathematics Mock Test",
+    "chapters": [
+     {
+      "title": "Relations and Functions",
+      "slug": "ch-relations-and-functions"
+     },
+     {
+      "title": "Inverse Trigonometric Functions",
+      "slug": "ch-inverse-trigonometric-functions"
+     },
+     {
+      "title": "Matrices",
+      "slug": "ch-matrices"
+     },
+     {
+      "title": "Determinants",
+      "slug": "ch-determinants"
+     },
+     {
+      "title": "Continuity and Differentiability",
+      "slug": "ch-continuity-and-differentiability"
+     },
+     {
+      "title": "Application of Derivatives",
+      "slug": "ch-application-of-derivatives"
+     },
+     {
+      "title": "Integrals",
+      "slug": "ch-integrals"
+     },
+     {
+      "title": "Application of Integrals",
+      "slug": "ch-application-of-integrals"
+     },
+     {
+      "title": "Differential Equations",
+      "slug": "ch-differential-equations"
+     },
+     {
+      "title": "Vector Algebra",
+      "slug": "ch-vector-algebra"
+     },
+     {
+      "title": "Three Dimensional Geometry",
+      "slug": "ch-three-dimensional-geometry"
+     },
+     {
+      "title": "Linear Programming",
+      "slug": "ch-linear-programming"
+     },
+     {
+      "title": "Probability",
+      "slug": "ch-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Electric Charges and Fields",
+      "slug": null
+     },
+     {
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": null
+     },
+     {
+      "title": "Current Electricity",
+      "slug": null
+     },
+     {
+      "title": "Moving Charges and Magnetism",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "Magnetism and Matter",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "Electromagnetic Induction",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "Alternating Current",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "Electromagnetic Waves",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "Wave Optics",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "Atoms",
+      "slug": null
+     },
+     {
+      "title": "Nuclei",
+      "slug": null
+     },
+     {
+      "title": "Semiconductor Electronics",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Solutions",
+      "slug": "solutions"
+     },
+     {
+      "title": "Electrochemistry",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "Chemical Kinetics",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "The d and f Block Elements",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "Coordination Compounds",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "Amines",
+      "slug": "amines"
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     }
+    ]
+   },
+   {
+    "heading": "General Aptitude Test (GAT) Mock Test",
+    "chapters": [
+     {
+      "title": "Number System",
+      "slug": null
+     },
+     {
+      "title": "Arithmetic Operations",
+      "slug": null
+     },
+     {
+      "title": "Ratio and Proportion",
+      "slug": null
+     },
+     {
+      "title": "Average and Age Problems",
+      "slug": null
+     },
+     {
+      "title": "Geometry and Mensuration",
+      "slug": null
+     },
+     {
+      "title": "Time, Speed and Distance",
+      "slug": null
+     },
+     {
+      "title": "Series and Coding-Decoding",
+      "slug": null
+     },
+     {
+      "title": "Blood Relations",
+      "slug": null
+     },
+     {
+      "title": "Direction Sense Test",
+      "slug": null
+     },
+     {
+      "title": "Logical Venn Diagrams",
+      "slug": null
+     },
+     {
+      "title": "Analytical Reasoning",
+      "slug": null
+     },
+     {
+      "title": "General Science",
+      "slug": null
+     },
+     {
+      "title": "History and Geography",
+      "slug": null
+     },
+     {
+      "title": "Indian Polity and Economy",
+      "slug": null
+     },
+     {
+      "title": "Current Affairs",
+      "slug": null
+     },
+     {
+      "title": "Who's Who, Awards and Honors",
+      "slug": null
+     },
+     {
+      "title": "Data Interpretation",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "English Mock Test",
+    "chapters": [
+     {
+      "title": "RC: Factual",
+      "slug": null
+     },
+     {
+      "title": "RC: Narrative",
+      "slug": null
+     },
+     {
+      "title": "RC: Literary",
+      "slug": null
+     },
+     {
+      "title": "Verbal Ability",
+      "slug": null
+     },
+     {
+      "title": "Para Jumbles",
+      "slug": null
+     },
+     {
+      "title": "Choosing the Correct Word",
+      "slug": null
+     },
+     {
+      "title": "Synonyms and Antonyms",
+      "slug": null
+     },
+     {
+      "title": "Idioms and Phrases",
+      "slug": null
+     },
+     {
+      "title": "Vocabulary and Spellings",
+      "slug": null
+     },
+     {
+      "title": "One Word Substitution",
+      "slug": null
+     },
+     {
+      "title": "Literary Devices",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Biology Mock Test",
+    "chapters": [
+     {
+      "title": "Sexual Reproduction in Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Human Reproduction",
+      "slug": null
+     },
+     {
+      "title": "Reproductive Health",
+      "slug": null
+     },
+     {
+      "title": "Principles of Inheritance and Variation",
+      "slug": null
+     },
+     {
+      "title": "Molecular Basis of Inheritance",
+      "slug": null
+     },
+     {
+      "title": "Evolution",
+      "slug": null
+     },
+     {
+      "title": "Human Health and Diseases",
+      "slug": null
+     },
+     {
+      "title": "Microbes in Human Welfare",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology: Principles and Processes",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology and its Applications",
+      "slug": null
+     },
+     {
+      "title": "Organisms and Populations",
+      "slug": null
+     },
+     {
+      "title": "Ecosystem",
+      "slug": null
+     },
+     {
+      "title": "Biodiversity and its Conservation",
+      "slug": null
+     }
+    ]
+   }
+  ],
+  "lang": "hi"
+ },
+ {
+  "slug": "jee-main",
+  "route": "/mock-tests/jee-main",
+  "h1": "JEE Main Chapter-Wise Mock Test",
+  "title": "JEE Main Chapter-Wise Mock Test",
+  "intro": "This JEE Main mock test is designed based on the latest NTA exam pattern.\n        It helps engineering aspirants improve their speed, accuracy, numerical problem-solving skills, and confidence before the actual exam.",
+  "instructions": [
+   "Total Questions: 30",
+   "Total Time: 75 Minutes",
+   "Correct Answer: +4 marks",
+   "Wrong Answer: -1 mark (Red marked)",
+   "Unanswered: 0 marks"
+  ],
+  "groups": [
+   {
+    "heading": "Class 11 Mathematics Mock Test",
+    "chapters": [
+     {
+      "title": "Sets",
+      "slug": "sets"
+     },
+     {
+      "title": "Relations and Functions",
+      "slug": "relation-and-function"
+     },
+     {
+      "title": "Trigonometric Functions",
+      "slug": "trigonometric-function"
+     },
+     {
+      "title": "Complex Numbers & Quadratic Equations",
+      "slug": "complex-number-and-quadratic-equation"
+     },
+     {
+      "title": "Linear Inequalities",
+      "slug": "linear-inequalities"
+     },
+     {
+      "title": "Permutations and Combinations",
+      "slug": "permutations-and-combination"
+     },
+     {
+      "title": "Binomial Theorem",
+      "slug": "binomial-theorem"
+     },
+     {
+      "title": "Sequences and Series",
+      "slug": "sequences-and-series"
+     },
+     {
+      "title": "Straight Lines",
+      "slug": "straight-line"
+     },
+     {
+      "title": "Conic Sections",
+      "slug": "conic-section"
+     },
+     {
+      "title": "3D Geometry",
+      "slug": "introduction-to-three-dimensional-geometry"
+     },
+     {
+      "title": "Limits and Derivatives",
+      "slug": "limits-and-derivative"
+     },
+     {
+      "title": "Statistics",
+      "slug": "statics"
+     },
+     {
+      "title": "Probability",
+      "slug": "probability"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Units and Measurements",
+      "slug": "units-and-measurement"
+     },
+     {
+      "title": "Motion in a Straight Line",
+      "slug": "motion-in-straight-line"
+     },
+     {
+      "title": "Motion in a Plane",
+      "slug": "motion-in-a-plane"
+     },
+     {
+      "title": "Laws of Motion",
+      "slug": "laws-of-motion"
+     },
+     {
+      "title": "Work, Energy and Power",
+      "slug": "work-energy-and-power"
+     },
+     {
+      "title": "System of Particles & Rotational Motion",
+      "slug": "system-of-particles-and-rotational-motion"
+     },
+     {
+      "title": "Gravitation",
+      "slug": "gravitation"
+     },
+     {
+      "title": "Mechanical Properties of Solids",
+      "slug": "mechanical-properties-of-solids"
+     },
+     {
+      "title": "Mechanical Properties of Fluids",
+      "slug": "mechanical-properties-of-fluids"
+     },
+     {
+      "title": "Thermal Properties of Matter",
+      "slug": "thermal-properties-of-matter"
+     },
+     {
+      "title": "Kinetic Theory",
+      "slug": "kinetic-theory"
+     },
+     {
+      "title": "Thermodynamics",
+      "slug": "thermodynamics"
+     },
+     {
+      "title": "Oscillations",
+      "slug": "oscillations"
+     },
+     {
+      "title": "Waves",
+      "slug": "waves"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Some Basic Concepts of Chemistry",
+      "slug": "some-basic-concepts-of-chemistry"
+     },
+     {
+      "title": "Structure of Atom",
+      "slug": "structure-of-atom"
+     },
+     {
+      "title": "Classification of Elements & Periodicity",
+      "slug": "classification-of-elements-and-periodicity-in-properties"
+     },
+     {
+      "title": "Chemical Bonding & Molecular Structure",
+      "slug": "chemical-bonding-and-molecular-structure"
+     },
+     {
+      "title": "Chemical Thermodynamics",
+      "slug": "thermodynamics-ch"
+     },
+     {
+      "title": "Equilibrium",
+      "slug": "equilibrium"
+     },
+     {
+      "title": "Redox Reactions",
+      "slug": "redox-reactions"
+     },
+     {
+      "title": "Organic Chemistry: Basic Principles",
+      "slug": "organic-chemistry-some-basic-principles-and-techniques"
+     },
+     {
+      "title": "Hydrocarbons",
+      "slug": "hydrocarbons"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Mathematics Mock Test",
+    "chapters": [
+     {
+      "title": "Relations and Functions",
+      "slug": "c-relations-and-function"
+     },
+     {
+      "title": "Inverse Trigonometric Functions",
+      "slug": "c-inverse-trigonometric-functions"
+     },
+     {
+      "title": "Matrices",
+      "slug": "c-matrices"
+     },
+     {
+      "title": "Determinants",
+      "slug": "c-determinants"
+     },
+     {
+      "title": "Continuity and Differentiability",
+      "slug": "c-continuity-and-differentiability"
+     },
+     {
+      "title": "Application of Derivatives",
+      "slug": "c-application-of-derivatives"
+     },
+     {
+      "title": "Integrals",
+      "slug": "c-integrals"
+     },
+     {
+      "title": "Application of Integrals",
+      "slug": "c-application-of-integrals"
+     },
+     {
+      "title": "Differential Equations",
+      "slug": "c-differential-equations"
+     },
+     {
+      "title": "Vector Algebra",
+      "slug": "c-vector-algebra"
+     },
+     {
+      "title": "Three Dimensional Geometry",
+      "slug": "c-three-dimensional-geometry"
+     },
+     {
+      "title": "Linear Programming",
+      "slug": "c-linear-programming"
+     },
+     {
+      "title": "Probability",
+      "slug": "c-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Electric Charges and Fields",
+      "slug": "c-electric-charges-and-fields"
+     },
+     {
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": "c-electrostatic-potential-and-capacitance"
+     },
+     {
+      "title": "Current Electricity",
+      "slug": "c-current-electricity"
+     },
+     {
+      "title": "Moving Charges and Magnetism",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "Magnetism and Matter",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "Electromagnetic Induction",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "Alternating Current",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "Electromagnetic Waves",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "Wave Optics",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "Atoms",
+      "slug": "c-atoms"
+     },
+     {
+      "title": "Nuclei",
+      "slug": "c-nuclei"
+     },
+     {
+      "title": "Semiconductor Electronics",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Solutions",
+      "slug": "solutions"
+     },
+     {
+      "title": "Electrochemistry",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "Chemical Kinetics",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "The d and f Block Elements",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "Coordination Compounds",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "Amines",
+      "slug": "amines"
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     }
+    ]
+   }
+  ],
+  "lang": "en"
+ },
+ {
+  "slug": "jee-main-hindi",
+  "route": "/mock-tests/jee-main-hindi",
+  "h1": "JEE Main Hindi Chapter-Wise Mock Test",
+  "title": "JEE Main Hindi Medium Chapter-Wise Mock Test",
+  "intro": "यह JEE Main mock test नवीनतम NTA परीक्षा पैटर्न के आधार पर तैयार किया गया है।\n        यह हिंदी माध्यम के छात्रों को उनकी speed, accuracy और आत्मविश्वास बढ़ाने में मदद करता है।",
+  "instructions": [
+   "कुल प्रश्न: 30",
+   "कुल समय: 75 मिनट",
+   "सही उत्तर: +4 अंक",
+   "गलत उत्तर: -1 अंक (Red marked)",
+   "बिना उत्तर (Unanswered): 0 अंक"
+  ],
+  "groups": [
+   {
+    "heading": "Class 11 Mathematics Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "समुच्चय (Sets)",
+      "slug": "h-sets"
+     },
+     {
+      "title": "संबंध और फलन (Relations and Functions)",
+      "slug": "h-relation-and-function"
+     },
+     {
+      "title": "त्रिकोणमितीय फलन (Trigonometric Functions)",
+      "slug": "h-trigonometric-function"
+     },
+     {
+      "title": "सम्मिश्र संख्याएँ और द्विघात समीकरण (Complex Numbers & Quadratic Equations)",
+      "slug": "h-complex-number-and-quadratic-equation"
+     },
+     {
+      "title": "रैखिक असमिकाएँ (Linear Inequalities)",
+      "slug": "h-linear-inequalities"
+     },
+     {
+      "title": "क्रमचय और संचय (Permutations and Combinations)",
+      "slug": "h-permutations-and-combination"
+     },
+     {
+      "title": "द्विपद प्रमेय (Binomial Theorem)",
+      "slug": "h-binomial-theorem"
+     },
+     {
+      "title": "अनुक्रम और श्रेणी (Sequences and Series)",
+      "slug": "h-sequences-and-series"
+     },
+     {
+      "title": "सरल रेखाएँ (Straight Lines)",
+      "slug": "h-straight-line"
+     },
+     {
+      "title": "शंकु परिच्छेद (Conic Sections)",
+      "slug": "h-conic-section"
+     },
+     {
+      "title": "त्रिविमीय ज्यामिति का परिचय (3D Geometry)",
+      "slug": "h-introduction-to-three-dimensional-geometry"
+     },
+     {
+      "title": "सीमा और अवकलज (Limits and Derivatives)",
+      "slug": "h-limits-and-derivative"
+     },
+     {
+      "title": "सांख्यिकी (Statistics)",
+      "slug": "h-statics"
+     },
+     {
+      "title": "प्रायिकता (Probability)",
+      "slug": "h-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Physics Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "मात्रक और मापन (Units and Measurement)",
+      "slug": "h-units-and-measurement"
+     },
+     {
+      "title": "सरल रेखा में गति (Motion in a Straight Line)",
+      "slug": "h-motion-in-straight-line"
+     },
+     {
+      "title": "समतल में गति (Motion in a Plane)",
+      "slug": "h-motion-in-a-plane"
+     },
+     {
+      "title": "गति के नियम (Laws of Motion)",
+      "slug": "h-laws-of-motion"
+     },
+     {
+      "title": "कार्य, ऊर्जा और शक्ति (Work, Energy and Power)",
+      "slug": "h-work-energy-and-power"
+     },
+     {
+      "title": "कणों के निकाय तथा घूर्णी गति (System of Particles & Rotational Motion)",
+      "slug": "h-system-of-particles-and-rotational-motion"
+     },
+     {
+      "title": "गुरुत्वाकर्षण (Gravitation)",
+      "slug": "h-gravitation"
+     },
+     {
+      "title": "ठोसों के यांत्रिक गुण (Mechanical Properties of Solids)",
+      "slug": "h-mechanical-properties-of-solids"
+     },
+     {
+      "title": "तरलों के यांत्रिक गुण (Mechanical Properties of Fluids)",
+      "slug": "h-mechanical-properties-of-fluids"
+     },
+     {
+      "title": "द्रव्य के तापीय गुण (Thermal Properties of Matter)",
+      "slug": "h-thermal-properties-of-matter"
+     },
+     {
+      "title": "अणुगति सिद्धांत (Kinetic Theory)",
+      "slug": "h-kinetic-theory"
+     },
+     {
+      "title": "ऊष्मागतिकी (Thermodynamics)",
+      "slug": "h-thermodynamics"
+     },
+     {
+      "title": "दोलन (Oscillations)",
+      "slug": "h-oscillations"
+     },
+     {
+      "title": "तरंगें (Waves)",
+      "slug": "h-waves"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Chemistry Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "रसायन विज्ञान की कुछ मूल अवधारणाएँ (Some Basic Concepts of Chemistry)",
+      "slug": "h-some-basic-concepts-of-chemistry"
+     },
+     {
+      "title": "परमाणु की संरचना (Structure of Atom)",
+      "slug": "h-structure-of-atom"
+     },
+     {
+      "title": "तत्वों का वर्गीकरण एवं आवर्तिता (Classification of Elements & Periodicity)",
+      "slug": "h-classification-of-elements-and-periodicity-in-properties"
+     },
+     {
+      "title": "रासायनिक आबंधन तथा आण्विक संरचना (Chemical Bonding & Molecular Structure)",
+      "slug": "h-chemical-bonding-and-molecular-structure"
+     },
+     {
+      "title": "ऊष्मागतिकी (Thermodynamics)",
+      "slug": "h-thermodynamics-ch"
+     },
+     {
+      "title": "साम्यावस्था (Equilibrium)",
+      "slug": "h-equilibrium"
+     },
+     {
+      "title": "अपचयोपचय अभिक्रियाएँ (Redox Reactions)",
+      "slug": "h-redox-reactions"
+     },
+     {
+      "title": "कार्बनिक रसायन: आधारभूत सिद्धांत (Organic Chemistry: Basic Principles)",
+      "slug": "h-organic-chemistry-some-basic-principles-and-techniques"
+     },
+     {
+      "title": "हाइड्रोकार्बन (Hydrocarbons)",
+      "slug": "h-hydrocarbons"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Mathematics Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "संबंध एवं फलन (Relations and Functions)",
+      "slug": "ch-relations-and-functions"
+     },
+     {
+      "title": "प्रतिलोम त्रिकोणमितीय फलन (Inverse Trigonometric Functions)",
+      "slug": "ch-inverse-trigonometric-functions"
+     },
+     {
+      "title": "आव्यूह (Matrices)",
+      "slug": "ch-matrices"
+     },
+     {
+      "title": "सारणिक (Determinants)",
+      "slug": "ch-determinants"
+     },
+     {
+      "title": "सांतत्य तथा अवकलनीयता (Continuity and Differentiability)",
+      "slug": "ch-continuity-and-differentiability"
+     },
+     {
+      "title": "अवकलज के अनुप्रयोग (Application of Derivatives)",
+      "slug": "ch-application-of-derivatives"
+     },
+     {
+      "title": "समाकलन (Integrals)",
+      "slug": "ch-integrals"
+     },
+     {
+      "title": "समाकलनों के अनुप्रयोग (Application of Integrals)",
+      "slug": "ch-application-of-integrals"
+     },
+     {
+      "title": "अवकल समीकरण (Differential Equations)",
+      "slug": "ch-differential-equations"
+     },
+     {
+      "title": "सदिश बीजगणित (Vector Algebra)",
+      "slug": "ch-vector-algebra"
+     },
+     {
+      "title": "त्रिविमीय ज्यामिति (Three Dimensional Geometry)",
+      "slug": "ch-three-dimensional-geometry"
+     },
+     {
+      "title": "रैखिक प्रोग्रामन (Linear Programming)",
+      "slug": "ch-linear-programming"
+     },
+     {
+      "title": "प्रायिकता (Probability)",
+      "slug": "ch-probability"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Physics Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "वैद्युत आवेश तथा क्षेत्र (Electric Charges and Fields)",
+      "slug": "c-electric-charges-and-fields"
+     },
+     {
+      "title": "स्थिरवैद्युत विभव तथा धारिता (Electrostatic Potential and Capacitance)",
+      "slug": "c-electrostatic-potential-and-capacitance"
+     },
+     {
+      "title": "विद्युत धारा (Current Electricity)",
+      "slug": "c-current-electricity"
+     },
+     {
+      "title": "गतिमान आवेश और चुंबकत्व (Moving Charges and Magnetism)",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "चुंबकत्व एवं द्रव्य (Magnetism and Matter)",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "वैद्युतचुंबकीय प्रेरण (Electromagnetic Induction)",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "प्रत्यावर्ती धारा (Alternating Current)",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "वैद्युतचुंबकीय तरंगें (Electromagnetic Waves)",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र (Ray Optics and Optical Instruments)",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "तरंग-प्रकाशिकी (Wave Optics)",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "विकिरण तथा द्रव्य की द्वैत प्रकृति (Dual Nature of Radiation and Matter)",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "परमाणु (Atoms)",
+      "slug": null
+     },
+     {
+      "title": "नाभिक (Nuclei)",
+      "slug": null
+     },
+     {
+      "title": "अर्धचालक इलेक्ट्रॉनिकी (Semiconductor Electronics)",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Chemistry Mock Test (Hindi)",
+    "chapters": [
+     {
+      "title": "विलयन (Solutions)",
+      "slug": "solutions"
+     },
+     {
+      "title": "वैद्युतरसायन (Electrochemistry)",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "रासायनिक बलगतिकी (Chemical Kinetics)",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "d एवं f-ब्लॉक के तत्व (The d and f Block Elements)",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "उपसहसंयोजन यौगिक (Coordination Compounds)",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "हैलोऐल्केन तथा हैलोऐरीन (Haloalkanes and Haloarenes)",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "ऐल्कोहॉल, फ़ीनॉल एवं ईथर (Alcohols, Phenols and Ethers)",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल (Aldehydes, Ketones and Carboxylic Acids)",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "ऐमीन (Amines)",
+      "slug": "amines"
+     },
+     {
+      "title": "जैव-अणु (Biomolecules)",
+      "slug": "biomolecules"
+     }
+    ]
+   }
+  ],
+  "lang": "hi"
+ },
+ {
+  "slug": "neet",
+  "route": "/mock-tests/neet",
+  "h1": "NEET Chapter-Wise Mock Test",
+  "title": "NEET Chapter-Wise Mock Test",
+  "intro": "This NEET mock test is designed according to the latest NTA exam pattern.\n        It helps medical aspirants improve their speed, accuracy, conceptual clarity, and overall confidence before the actual examination.",
+  "instructions": [
+   "Total Questions: 30",
+   "Total Time: 75 Minutes",
+   "Correct Answer: +4 marks",
+   "Wrong Answer: -1 mark",
+   "Unanswered Questions: 0 marks"
+  ],
+  "groups": [
+   {
+    "heading": "Class 11 Biology Mock Test",
+    "chapters": [
+     {
+      "title": "The Living World",
+      "slug": null
+     },
+     {
+      "title": "Biological Classification",
+      "slug": null
+     },
+     {
+      "title": "Plant Kingdom",
+      "slug": null
+     },
+     {
+      "title": "Animal Kingdom",
+      "slug": null
+     },
+     {
+      "title": "Morphology of Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Anatomy of Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Structural Organisation in Animals",
+      "slug": null
+     },
+     {
+      "title": "Cell: The Unit of Life",
+      "slug": null
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     },
+     {
+      "title": "Cell Cycle and Cell Division",
+      "slug": null
+     },
+     {
+      "title": "Photosynthesis in Higher Plants",
+      "slug": null
+     },
+     {
+      "title": "Respiration in Plants",
+      "slug": null
+     },
+     {
+      "title": "Plant Growth and Development",
+      "slug": null
+     },
+     {
+      "title": "Breathing and Exchange of Gases",
+      "slug": null
+     },
+     {
+      "title": "Body Fluids and Circulation",
+      "slug": null
+     },
+     {
+      "title": "Excretory Products & Elimination",
+      "slug": null
+     },
+     {
+      "title": "Locomotion and Movement",
+      "slug": null
+     },
+     {
+      "title": "Neural Control and Coordination",
+      "slug": null
+     },
+     {
+      "title": "Chemical Coordination and Integration",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Units and Measurements",
+      "slug": "units-and-measurement"
+     },
+     {
+      "title": "Motion in a Straight Line",
+      "slug": "motion-in-straight-line"
+     },
+     {
+      "title": "Motion in a Plane",
+      "slug": "motion-in-a-plane"
+     },
+     {
+      "title": "Laws of Motion",
+      "slug": "laws-of-motion"
+     },
+     {
+      "title": "Work, Energy and Power",
+      "slug": "work-energy-and-power"
+     },
+     {
+      "title": "System of Particles & Rotational Motion",
+      "slug": "system-of-particles-and-rotational-motion"
+     },
+     {
+      "title": "Gravitation",
+      "slug": "gravitation"
+     },
+     {
+      "title": "Mechanical Properties of Solids",
+      "slug": "mechanical-properties-of-solids"
+     },
+     {
+      "title": "Mechanical Properties of Fluids",
+      "slug": "mechanical-properties-of-fluids"
+     },
+     {
+      "title": "Thermal Properties of Matter",
+      "slug": "thermal-properties-of-matter"
+     },
+     {
+      "title": "Kinetic Theory",
+      "slug": "kinetic-theory"
+     },
+     {
+      "title": "Thermodynamics",
+      "slug": "thermodynamics"
+     },
+     {
+      "title": "Oscillations",
+      "slug": "oscillations"
+     },
+     {
+      "title": "Waves",
+      "slug": "waves"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Some Basic Concepts of Chemistry",
+      "slug": "some-basic-concepts-of-chemistry"
+     },
+     {
+      "title": "Structure of Atom",
+      "slug": "structure-of-atom"
+     },
+     {
+      "title": "Classification of Elements & Periodicity",
+      "slug": "classification-of-elements-and-periodicity-in-properties"
+     },
+     {
+      "title": "Chemical Bonding & Molecular Structure",
+      "slug": "chemical-bonding-and-molecular-structure"
+     },
+     {
+      "title": "Chemical Thermodynamics",
+      "slug": "thermodynamics-ch"
+     },
+     {
+      "title": "Equilibrium",
+      "slug": "equilibrium"
+     },
+     {
+      "title": "Redox Reactions",
+      "slug": "redox-reactions"
+     },
+     {
+      "title": "Organic Chemistry: Basic Principles",
+      "slug": "organic-chemistry-some-basic-principles-and-techniques"
+     },
+     {
+      "title": "Hydrocarbons",
+      "slug": "hydrocarbons"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Biology Mock Test",
+    "chapters": [
+     {
+      "title": "Sexual Reproduction in Flowering Plants",
+      "slug": null
+     },
+     {
+      "title": "Human Reproduction",
+      "slug": null
+     },
+     {
+      "title": "Reproductive Health",
+      "slug": null
+     },
+     {
+      "title": "Principles of Inheritance and Variation",
+      "slug": null
+     },
+     {
+      "title": "Molecular Basis of Inheritance",
+      "slug": null
+     },
+     {
+      "title": "Evolution",
+      "slug": null
+     },
+     {
+      "title": "Human Health and Diseases",
+      "slug": null
+     },
+     {
+      "title": "Microbes in Human Welfare",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology: Principles & Processes",
+      "slug": null
+     },
+     {
+      "title": "Biotechnology and its Applications",
+      "slug": null
+     },
+     {
+      "title": "Organisms and Populations",
+      "slug": null
+     },
+     {
+      "title": "Ecosystem",
+      "slug": null
+     },
+     {
+      "title": "Biodiversity and Conservation",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Physics Mock Test",
+    "chapters": [
+     {
+      "title": "Electric Charges and Fields",
+      "slug": "c-electric-charges-and-fields"
+     },
+     {
+      "title": "Electrostatic Potential and Capacitance",
+      "slug": "c-electrostatic-potential-and-capacitance"
+     },
+     {
+      "title": "Current Electricity",
+      "slug": "c-current-electricity"
+     },
+     {
+      "title": "Moving Charges and Magnetism",
+      "slug": "c-moving-charges-and-magnetism"
+     },
+     {
+      "title": "Magnetism and Matter",
+      "slug": "c-magnetism-and-matter"
+     },
+     {
+      "title": "Electromagnetic Induction",
+      "slug": "c-electromagnetic-induction"
+     },
+     {
+      "title": "Alternating Current",
+      "slug": "c-alternating-current"
+     },
+     {
+      "title": "Electromagnetic Waves",
+      "slug": "c-electromagnetic-waves"
+     },
+     {
+      "title": "Ray Optics and Optical Instruments",
+      "slug": "c-ray-optics-and-optical-instruments"
+     },
+     {
+      "title": "Wave Optics",
+      "slug": "c-wave-optics"
+     },
+     {
+      "title": "Dual Nature of Radiation and Matter",
+      "slug": "c-dual-nature-of-radiation-and-matter"
+     },
+     {
+      "title": "Atoms",
+      "slug": "c-atoms"
+     },
+     {
+      "title": "Nuclei",
+      "slug": "c-nuclei"
+     },
+     {
+      "title": "Semiconductor Electronics",
+      "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Chemistry Mock Test",
+    "chapters": [
+     {
+      "title": "Solutions",
+      "slug": "solutions"
+     },
+     {
+      "title": "Electrochemistry",
+      "slug": "electrochemistry"
+     },
+     {
+      "title": "Chemical Kinetics",
+      "slug": "chemical-kinetics"
+     },
+     {
+      "title": "The d and f Block Elements",
+      "slug": "the-d-and-f-block-elements"
+     },
+     {
+      "title": "Coordination Compounds",
+      "slug": "coordination-compounds"
+     },
+     {
+      "title": "Haloalkanes and Haloarenes",
+      "slug": "haloalkanes-and-haloarenes"
+     },
+     {
+      "title": "Alcohols, Phenols and Ethers",
+      "slug": "alcohols-phenols-and-ethers"
+     },
+     {
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "slug": "aldehydes-ketones-and-carboxylic-acids"
+     },
+     {
+      "title": "Amines",
+      "slug": "amines"
+     },
+     {
+      "title": "Biomolecules",
+      "slug": "biomolecules"
+     }
+    ]
+   }
+  ],
+  "lang": "en"
+ },
+ {
+  "slug": "neet-hindi",
+  "route": "/mock-tests/neet-hindi",
+  "h1": "NEET Hindi Chapter-Wise Mock Test",
+  "title": "NEET Hindi Chapter-Wise Mock Test",
+  "intro": "यह NEET mock test नवीनतम NTA परीक्षा पैटर्न के अनुसार तैयार किया गया है।\n        यह हिंदी माध्यम के छात्रों को अपनी speed, accuracy, अवधारणात्मक स्पष्टता और परीक्षा के आत्मविश्वास को सुधारने में मदद करता है।",
+  "instructions": [
+   "कुल प्रश्न: 30",
+   "कुल समय: 75 मिनट",
+   "सही उत्तर: +4 अंक",
+   "गलत उत्तर: -1 अंक",
+   "बिना उत्तर वाले प्रश्न: 0 अंक"
+  ],
+  "groups": [
+   {
+    "heading": "Class 11 Biology Mock Test (जीव विज्ञान)",
+    "chapters": [
+     {
+      "title": "जीव जगत (The Living World)",
+      "slug": null
+     },
+     {
+      "title": "जीव जगत का वर्गीकरण (Biological Classification)",
+      "slug": null
+     },
+     {
+      "title": "पादप जगत (Plant Kingdom)",
+      "slug": null
+     },
+     {
+      "title": "प्राणी जगत (Animal Kingdom)",
+      "slug": null
+     },
+     {
+      "title": "पुष्पी पादपों की आकारिकी (Morphology of Flowering Plants)",
+      "slug": null
+     },
+     {
+      "title": "पुष्पी पादपों का शरीर (Anatomy of Flowering Plants)",
+      "slug": null
+     },
+     {
+      "title": "प्राणियों में संरचनात्मक संगठन (Structural Organisation in Animals)",
+      "slug": null
+     },
+     {
+      "title": "कोशिका: जीवन की इकाई (Cell: The Unit of Life)",
+      "slug": null
+     },
+     {
+      "title": "जैव अणु (Biomolecules)",
+      "slug": null
+     },
+     {
+      "title": "कोशिका चक्र और कोशिका विभाजन (Cell Cycle & Cell Division)",
+      "slug": null
+     },
+     {
+      "title": "उच्च पादपों में प्रकाश-संश्लेषण (Photosynthesis in Higher Plants)",
+      "slug": null
+     },
+     {
+      "title": "पादप में श्वसन (Respiration in Plants)",
+      "slug": null
+     },
+     {
+      "title": "पादप वृद्धि एवं परिवर्धन (Plant Growth & Development)",
+      "slug": null
+     },
+     {
+      "title": "श्वसन और गैसों का विनिमय (Breathing & Exchange of Gases)",
+      "slug": null
+     },
+     {
+      "title": "शरीर द्रव तथा परिसंचरण (Body Fluids & Circulation)",
+      "slug": null
+     },
+     {
+      "title": "उत्सर्जी उत्पाद एवं उनका निष्कासन (Excretory Products)",
+      "slug": null
+     },
+     {
+      "title": "गमन एवं संचलन (Locomotion & Movement)",
+      "slug": null
+     },
+     {
+      "title": "तंत्रकीय नियंत्रण एवं समन्वय (Neural Control)",
+      "slug": null
+     },
+     {
+      "title": "रासायनिक समन्वय तथा एकीकरण (Chemical Coordination)",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Physics Mock Test (भौतिक विज्ञान)",
+    "chapters": [
+     {
+      "title": "मात्रक और मापन (Units and Measurement)",
+      "slug": "h-units-and-measurement"
+     },
+     {
+      "title": "सरल रेखा में गति (Motion in Straight Line)",
+      "slug": "h-motion-in-straight-line"
+     },
+     {
+      "title": "समतल में गति (Motion in a Plane)",
+      "slug": "h-motion-in-a-plane"
+     },
+     {
+      "title": "गति के नियम (Laws of Motion)",
+      "slug": "h-laws-of-motion"
+     },
+     {
+      "title": "कार्य, ऊर्जा और शक्ति (Work, Energy and Power)",
+      "slug": "h-work-energy-and-power"
+     },
+     {
+      "title": "कणों के निकाय तथा घूर्णी गति (System of Particles and Rotational Motion)",
+      "slug": "h-system-of-particles-and-rotational-motion"
+     },
+     {
+      "title": "गुरुत्वाकर्षण (Gravitation)",
+      "slug": "h-gravitation"
+     },
+     {
+      "title": "ठोसों के यांत्रिक गुण (Mechanical Properties of Solids)",
+      "slug": "h-mechanical-properties-of-solids"
+     },
+     {
+      "title": "तरलों के यांत्रिक गुण (Mechanical Properties of Fluids)",
+      "slug": "h-mechanical-properties-of-fluids"
+     },
+     {
+      "title": "द्रव्य के तापीय गुण (Thermal Properties of Matter)",
+      "slug": "h-thermal-properties-of-matter"
+     },
+     {
+      "title": "अणुगति सिद्धांत (Kinetic Theory)",
+      "slug": "h-kinetic-theory"
+     },
+     {
+      "title": "ऊष्मागतिकी (Thermodynamics)",
+      "slug": "h-thermodynamics"
+     },
+     {
+      "title": "दोलन (Oscillations)",
+      "slug": "h-oscillations"
+     },
+     {
+      "title": "तरंगें (Waves)",
+      "slug": "h-waves"
+     }
+    ]
+   },
+   {
+    "heading": "Class 11 Chemistry Mock Test (रसायन विज्ञान)",
+    "chapters": [
+     {
+      "title": "रसायन विज्ञान की कुछ मूल अवधारणाएँ (Some Basic Concepts of Chemistry)",
+      "slug": "h-some-basic-concepts-of-chemistry"
+     },
+     {
+      "title": "परमाणु की संरचना (Structure of Atom)",
+      "slug": "h-structure-of-atom"
+     },
+     {
+      "title": "तत्वों का वर्गीकरण एवं गुणधर्मों में आवर्तिता (Classification of Elements)",
+      "slug": "h-classification-of-elements-and-periodicity-in-properties"
+     },
+     {
+      "title": "रासायनिक आबंधन तथा आण्विक संरचना (Chemical Bonding)",
+      "slug": "h-chemical-bonding-and-molecular-structure"
+     },
+     {
+      "title": "ऊष्मागतिकी (Thermodynamics)",
+      "slug": "h-thermodynamics-ch"
+     },
+     {
+      "title": "साम्यावस्था (Equilibrium)",
+      "slug": "h-equilibrium"
+     },
+     {
+      "title": "अपचयोपचय अभिक्रियाएँ (Redox Reactions)",
+      "slug": "h-redox-reactions"
+     },
+     {
+      "title": "कार्बनिक रसायन: कुछ आधारभूत सिद्धांत तथा तकनीकें (Organic Chemistry)",
+      "slug": "h-organic-chemistry-some-basic-principles-and-techniques"
+     },
+     {
+      "title": "हाइड्रोकार्बन (Hydrocarbons)",
+      "slug": "h-hydrocarbons"
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Biology Mock Test (जीव विज्ञान)",
+    "chapters": [
+     {
+      "title": "पुष्पी पादपों में लैंगिक जनन (Sexual Reproduction in Flowering Plants)",
+      "slug": null
+     },
+     {
+      "title": "मानव जनन (Human Reproduction)",
+      "slug": null
+     },
+     {
+      "title": "जननांग स्वास्थ्य (Reproductive Health)",
+      "slug": null
+     },
+     {
+      "title": "वंशागति तथा विविधता के सिद्धांत (Principles of Inheritance)",
+      "slug": null
+     },
+     {
+      "title": "वंशागति के आणविक आधार (Molecular Basis of Inheritance)",
+      "slug": null
+     },
+     {
+      "title": "विकास (Evolution)",
+      "slug": null
+     },
+     {
+      "title": "मानव स्वास्थ्य तथा रोग (Human Health and Diseases)",
+      "slug": null
+     },
+     {
+      "title": "मानव कल्याण में सूक्ष्मजीव (Microbes in Human Welfare)",
+      "slug": null
+     },
+     {
+      "title": "जैव प्रौद्योगिकी: सिद्धांत एवं प्रक्रम (Biotechnology)",
+      "slug": null
+     },
+     {
+      "title": "जैव प्रौद्योगिकी एवं उसके उपयोग (Biotechnology Applications)",
+      "slug": null
+     },
+     {
+      "title": "जीव और समष्टियाँ (Organisms and Populations)",
+      "slug": null
+     },
+     {
+      "title": "पारितंत्र (Ecosystem)",
+      "slug": null
+     },
+     {
+      "title": "जैव विविधता एवं संरक्षण (Biodiversity and Conservation)",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Physics Mock Test (भौतिक विज्ञान)",
+    "chapters": [
+     {
+      "title": "वैद्युत आवेश तथा क्षेत्र (Electric Charges and Fields)",
+      "slug": null
+     },
+     {
+      "title": "स्थिरवैद्युत विभव तथा धारिता (Electrostatic Potential and Capacitance)",
+      "slug": null
+     },
+     {
+      "title": "विद्युत धारा (Current Electricity)",
+      "slug": null
+     },
+     {
+      "title": "गतिमान आवेश और चुंबकत्व (Moving Charges and Magnetism)",
+      "slug": null
+     },
+     {
+      "title": "चुंबकत्व एवं द्रव्य (Magnetism and Matter)",
+      "slug": null
+     },
+     {
+      "title": "वैद्युतचुंबकीय प्रेरण (Electromagnetic Induction)",
+      "slug": null
+     },
+     {
+      "title": "प्रत्यावर्ती धारा (Alternating Current)",
+      "slug": null
+     },
+     {
+      "title": "वैद्युतचुंबकीय तरंगें (Electromagnetic Waves)",
+      "slug": null
+     },
+     {
+      "title": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र (Ray Optics and Optical Instruments)",
+      "slug": null
+     },
+     {
+      "title": "तरंग-प्रकाशिकी (Wave Optics)",
+      "slug": null
+     },
+     {
+      "title": "विकिरण तथा द्रव्य की द्वैत प्रकृति (Dual Nature of Radiation)",
+      "slug": null
+     },
+     {
+      "title": "परमाणु (Atoms)",
+      "slug": null
+     },
+     {
+      "title": "नाभिक (Nuclei)",
+      "slug": null
+     },
+     {
+      "title": "अर्धचालक इलेक्ट्रॉनिकी: पदार्थ, युक्तियाँ तथा सरल परिपथ (Semiconductor Electronics)",
+      "slug": null
+     }
+    ]
+   },
+   {
+    "heading": "Class 12 Chemistry Mock Test (रसायन विज्ञान)",
+    "chapters": [
+     {
+      "title": "विलयन (Solutions)",
+      "slug": null
+     },
+     {
+      "title": "वैद्युतरसायन (Electrochemistry)",
+      "slug": null
+     },
+     {
+      "title": "रासायनिक बलगतिकी (Chemical Kinetics)",
+      "slug": null
+     },
+     {
+      "title": "d एवं f-ब्लॉक के तत्व (The d and f Block Elements)",
+      "slug": null
+     },
+     {
+      "title": "उपसहसंयोजन यौगिक (Coordination Compounds)",
+      "slug": null
+     },
+     {
+      "title": "हैलोऐल्केन तथा हैलोऐरीन (Haloalkanes and Haloarenes)",
+      "slug": null
+     },
+     {
+      "title": "ऐल्कोहॉल, फ़ीनॉल एवं ईथर (Alcohols, Phenols and Ethers)",
+      "slug": null
+     },
+     {
+      "title": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल (Aldehydes, Ketones and Carboxylic Acids)",
+      "slug": null
+     },
+     {
+      "title": "ऐमीन (Amines)",
+      "slug": null
+     },
+     {
+      "title": "जैव-अणु (Biomolecules)",
+      "slug": null
+     }
+    ]
+   }
+  ],
+  "lang": "hi"
+ }
+]

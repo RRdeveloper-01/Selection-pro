@@ -1,0 +1,870 @@
+[
+ {
+  "slug": "complex-number-and-quadratic-equation",
+  "raw": "Complex number and quadratic equation",
+  "title": "Complex number and quadratic equation",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "gravitation",
+  "raw": "Gravitation",
+  "title": "Gravitation",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "introduction-to-three-dimensional-geometry",
+  "raw": "Introduction to three dimensional geometry",
+  "title": "Introduction to three dimensional geometry",
+  "prefix": "",
+  "count": 15
+ },
+ {
+  "slug": "limits-and-derivative",
+  "raw": "Limits and derivative",
+  "title": "Limits and derivative",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "mechanical-properties-of-solids",
+  "raw": "Mechanical Properties of Solids",
+  "title": "Mechanical Properties of Solids",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "alcohols-phenols-and-ethers",
+  "raw": "alcohols phenols and ethers",
+  "title": "Alcohols Phenols And Ethers",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "aldehydes-ketones-and-carboxylic-acids",
+  "raw": "aldehydes ketones and carboxylic acids",
+  "title": "Aldehydes Ketones And Carboxylic Acids",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "amines",
+  "raw": "amines",
+  "title": "Amines",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "binomial-theorem",
+  "raw": "binomial theorem",
+  "title": "Binomial Theorem",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "biomolecules",
+  "raw": "biomolecules",
+  "title": "Biomolecules",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "c-alternating-current",
+  "raw": "c-alternating current",
+  "title": "Alternating Current",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-application-of-derivatives",
+  "raw": "c-application of derivatives",
+  "title": "Application Of Derivatives",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-application-of-integrals",
+  "raw": "c-application of integrals",
+  "title": "Application Of Integrals",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-atoms",
+  "raw": "c-atoms",
+  "title": "Atoms",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-continuity-and-differentiability",
+  "raw": "c-continuity and differentiability",
+  "title": "Continuity And Differentiability",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-current-electricity",
+  "raw": "c-current electricity",
+  "title": "Current Electricity",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-determinants",
+  "raw": "c-determinants",
+  "title": "Determinants",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-differential-equations",
+  "raw": "c-differential equations",
+  "title": "Differential Equations",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-dual-nature-of-radiation-and-matter",
+  "raw": "c-dual nature of radiation and matter",
+  "title": "Dual Nature Of Radiation And Matter",
+  "prefix": "c",
+  "count": 10
+ },
+ {
+  "slug": "c-electric-charges-and-fields",
+  "raw": "c-electric charges and fields",
+  "title": "Electric Charges And Fields",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-electromagnetic-induction",
+  "raw": "c-electromagnetic induction",
+  "title": "Electromagnetic Induction",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-electromagnetic-waves",
+  "raw": "c-electromagnetic waves",
+  "title": "Electromagnetic Waves",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-electrostatic-potential-and-capacitance",
+  "raw": "c-electrostatic potential and capacitance",
+  "title": "Electrostatic Potential And Capacitance",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-integrals",
+  "raw": "c-integrals",
+  "title": "Integrals",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-inverse-trigonometric-functions",
+  "raw": "c-inverse trigonometric functions",
+  "title": "Inverse Trigonometric Functions",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-linear-programming",
+  "raw": "c-linear programming",
+  "title": "Linear Programming",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-magnetism-and-matter",
+  "raw": "c-magnetism and matter",
+  "title": "Magnetism And Matter",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-matrices",
+  "raw": "c-matrices",
+  "title": "Matrices",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-moving-charges-and-magnetism",
+  "raw": "c-moving charges and magnetism",
+  "title": "Moving Charges And Magnetism",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-nuclei",
+  "raw": "c-nuclei",
+  "title": "Nuclei",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-probability",
+  "raw": "c-probability",
+  "title": "Probability",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-ray-optics-and-optical-instruments",
+  "raw": "c-ray optics and optical instruments",
+  "title": "Ray Optics And Optical Instruments",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-relations-and-function",
+  "raw": "c-relations and function",
+  "title": "Relations And Function",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-semiconductor-electronics-materials-devices-and-simple-circuits",
+  "raw": "c-semiconductor electronics materials devices and simple circuits",
+  "title": "Semiconductor Electronics Materials Devices And Simple Circuits",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-three-dimensional-geometry",
+  "raw": "c-three dimensional geometry",
+  "title": "Three Dimensional Geometry",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-vector-algebra",
+  "raw": "c-vector algebra",
+  "title": "Vector Algebra",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "c-wave-optics",
+  "raw": "c-wave optics",
+  "title": "Wave Optics",
+  "prefix": "c",
+  "count": 30
+ },
+ {
+  "slug": "ch-application-of-derivatives",
+  "raw": "ch-application of derivatives",
+  "title": "Application Of Derivatives",
+  "prefix": "ch",
+  "count": 20
+ },
+ {
+  "slug": "ch-application-of-integrals",
+  "raw": "ch-application of integrals",
+  "title": "Application Of Integrals",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-continuity-and-differentiability",
+  "raw": "ch-continuity and differentiability",
+  "title": "Continuity And Differentiability",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-determinants",
+  "raw": "ch-determinants",
+  "title": "Determinants",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-differential-equations",
+  "raw": "ch-differential equations",
+  "title": "Differential Equations",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-integrals",
+  "raw": "ch-integrals",
+  "title": "Integrals",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-inverse-trigonometric-functions",
+  "raw": "ch-inverse trigonometric functions",
+  "title": "Inverse Trigonometric Functions",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-linear-programming",
+  "raw": "ch-linear programming",
+  "title": "Linear Programming",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-matrices",
+  "raw": "ch-matrices",
+  "title": "Matrices",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-probability",
+  "raw": "ch-probability",
+  "title": "Probability",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-relations-and-functions",
+  "raw": "ch-relations and functions",
+  "title": "Relations And Functions",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-three-dimensional-geometry",
+  "raw": "ch-three dimensional geometry",
+  "title": "Three Dimensional Geometry",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "ch-vector-algebra",
+  "raw": "ch-vector algebra",
+  "title": "Vector Algebra",
+  "prefix": "ch",
+  "count": 30
+ },
+ {
+  "slug": "chemical-bonding-and-molecular-structure",
+  "raw": "chemical bonding and molecular structure",
+  "title": "Chemical Bonding And Molecular Structure",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "chemical-kinetics",
+  "raw": "chemical kinetics",
+  "title": "Chemical Kinetics",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "classification-of-elements-and-periodicity-in-properties",
+  "raw": "classification of elements and periodicity in properties",
+  "title": "Classification Of Elements And Periodicity In Properties",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "conic-section",
+  "raw": "conic section",
+  "title": "Conic Section",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "coordination-compounds",
+  "raw": "coordination compounds",
+  "title": "Coordination Compounds",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "electrochemistry",
+  "raw": "electrochemistry",
+  "title": "Electrochemistry",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "equilibrium",
+  "raw": "equilibrium",
+  "title": "Equilibrium",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "h-complex-number-and-quadratic-equation",
+  "raw": "h-Complex number and quadratic equation",
+  "title": "Complex number and quadratic equation",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-gravitation",
+  "raw": "h-Gravitation",
+  "title": "Gravitation",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-introduction-to-three-dimensional-geometry",
+  "raw": "h-Introduction to three dimensional geometry",
+  "title": "Introduction to three dimensional geometry",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-limits-and-derivative",
+  "raw": "h-Limits and derivative",
+  "title": "Limits and derivative",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-mechanical-properties-of-solids",
+  "raw": "h-Mechanical Properties of Solids",
+  "title": "Mechanical Properties of Solids",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-binomial-theorem",
+  "raw": "h-binomial theorem",
+  "title": "Binomial Theorem",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-chemical-bonding-and-molecular-structure",
+  "raw": "h-chemical bonding and molecular structure",
+  "title": "Chemical Bonding And Molecular Structure",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-classification-of-elements-and-periodicity-in-properties",
+  "raw": "h-classification of elements and periodicity in properties",
+  "title": "Classification Of Elements And Periodicity In Properties",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-conic-section",
+  "raw": "h-conic section",
+  "title": "Conic Section",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-equilibrium",
+  "raw": "h-equilibrium",
+  "title": "Equilibrium",
+  "prefix": "h",
+  "count": 25
+ },
+ {
+  "slug": "h-hydrocarbons",
+  "raw": "h-hydrocarbons",
+  "title": "Hydrocarbons",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-kinetic-theory",
+  "raw": "h-kinetic theory",
+  "title": "Kinetic Theory",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-laws-of-motion",
+  "raw": "h-laws of motion",
+  "title": "Laws Of Motion",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-linear-inequalities",
+  "raw": "h-linear inequalities",
+  "title": "Linear Inequalities",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-mechanical-properties-of-fluids",
+  "raw": "h-mechanical Properties of fluids",
+  "title": "mechanical Properties of fluids",
+  "prefix": "h",
+  "count": 20
+ },
+ {
+  "slug": "h-motion-in-a-plane",
+  "raw": "h-motion in a plane",
+  "title": "Motion In A Plane",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-motion-in-straight-line",
+  "raw": "h-motion in straight line",
+  "title": "Motion In Straight Line",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-organic-chemistry-some-basic-principles-and-techniques",
+  "raw": "h-organic chemistry some basic principles and techniques",
+  "title": "Organic Chemistry Some Basic Principles And Techniques",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-oscillations",
+  "raw": "h-oscillations",
+  "title": "Oscillations",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-permutations-and-combination",
+  "raw": "h-permutations and combination",
+  "title": "Permutations And Combination",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-probability",
+  "raw": "h-probability",
+  "title": "Probability",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-redox-reactions",
+  "raw": "h-redox reactions",
+  "title": "Redox Reactions",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-relation-and-function",
+  "raw": "h-relation and function",
+  "title": "Relation And Function",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-sequences-and-series",
+  "raw": "h-sequences and series",
+  "title": "Sequences And Series",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-sets",
+  "raw": "h-sets",
+  "title": "Sets",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-some-basic-concepts-of-chemistry",
+  "raw": "h-some basic concepts of chemistry",
+  "title": "Some Basic Concepts Of Chemistry",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-statics",
+  "raw": "h-statics",
+  "title": "Statics",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-straight-line",
+  "raw": "h-straight line",
+  "title": "Straight Line",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-structure-of-atom",
+  "raw": "h-structure of atom",
+  "title": "Structure Of Atom",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-system-of-particles-and-rotational-motion",
+  "raw": "h-system of particles and rotational motion",
+  "title": "System Of Particles And Rotational Motion",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-thermal-properties-of-matter",
+  "raw": "h-thermal properties of matter",
+  "title": "Thermal Properties Of Matter",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-thermodynamics-ch",
+  "raw": "h-thermodynamics-ch",
+  "title": "Thermodynamics Ch",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-thermodynamics",
+  "raw": "h-thermodynamics",
+  "title": "Thermodynamics",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-trigonometric-function",
+  "raw": "h-trigonometric function",
+  "title": "Trigonometric Function",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-units-and-measurement",
+  "raw": "h-units and measurement",
+  "title": "Units And Measurement",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-waves",
+  "raw": "h-waves",
+  "title": "Waves",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "h-work-energy-and-power",
+  "raw": "h-work,energy and power",
+  "title": "Work,Energy And Power",
+  "prefix": "h",
+  "count": 30
+ },
+ {
+  "slug": "haloalkanes-and-haloarenes",
+  "raw": "haloalkanes and haloarenes",
+  "title": "Haloalkanes And Haloarenes",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "hydrocarbons",
+  "raw": "hydrocarbons",
+  "title": "Hydrocarbons",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "kinetic-theory",
+  "raw": "kinetic theory",
+  "title": "Kinetic Theory",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "laws-of-motion",
+  "raw": "laws of motion",
+  "title": "Laws Of Motion",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "linear-inequalities",
+  "raw": "linear inequalities",
+  "title": "Linear Inequalities",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "mechanical-properties-of-fluids",
+  "raw": "mechanical Properties of fluids",
+  "title": "mechanical Properties of fluids",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "motion-in-a-plane",
+  "raw": "motion in a plane",
+  "title": "Motion In A Plane",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "motion-in-straight-line",
+  "raw": "motion in straight line",
+  "title": "Motion In Straight Line",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "organic-chemistry-some-basic-principles-and-techniques",
+  "raw": "organic chemistry some basic principles and techniques",
+  "title": "Organic Chemistry Some Basic Principles And Techniques",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "oscillations",
+  "raw": "oscillations",
+  "title": "Oscillations",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "permutations-and-combination",
+  "raw": "permutations and combination",
+  "title": "Permutations And Combination",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "probability",
+  "raw": "probability",
+  "title": "Probability",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "redox-reactions",
+  "raw": "redox reactions",
+  "title": "Redox Reactions",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "relation-and-function",
+  "raw": "relation and function",
+  "title": "Relation And Function",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "sequences-and-series",
+  "raw": "sequences and series",
+  "title": "Sequences And Series",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "sets",
+  "raw": "sets",
+  "title": "Sets",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "solutions",
+  "raw": "solutions",
+  "title": "Solutions",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "some-basic-concepts-of-chemistry",
+  "raw": "some basic concepts of chemistry",
+  "title": "Some Basic Concepts Of Chemistry",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "statics",
+  "raw": "statics",
+  "title": "Statics",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "straight-line",
+  "raw": "straight line",
+  "title": "Straight Line",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "structure-of-atom",
+  "raw": "structure of atom",
+  "title": "Structure Of Atom",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "system-of-particles-and-rotational-motion",
+  "raw": "system of particles and rotational motion",
+  "title": "System Of Particles And Rotational Motion",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "the-d-and-f-block-elements",
+  "raw": "the d and f block elements",
+  "title": "The D And F Block Elements",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "thermal-properties-of-matter",
+  "raw": "thermal properties of matter",
+  "title": "Thermal Properties Of Matter",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "thermodynamics-ch",
+  "raw": "thermodynamics-ch",
+  "title": "Thermodynamics Ch",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "thermodynamics",
+  "raw": "thermodynamics",
+  "title": "Thermodynamics",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "trigonometric-function",
+  "raw": "trigonometric function",
+  "title": "Trigonometric Function",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "units-and-measurement",
+  "raw": "units and measurement",
+  "title": "Units And Measurement",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "waves",
+  "raw": "waves",
+  "title": "Waves",
+  "prefix": "",
+  "count": 30
+ },
+ {
+  "slug": "work-energy-and-power",
+  "raw": "work,energy and power",
+  "title": "Work,Energy And Power",
+  "prefix": "",
+  "count": 30
+ }
+]

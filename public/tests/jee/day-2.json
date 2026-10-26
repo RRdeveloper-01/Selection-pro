@@ -1,0 +1,360 @@
+{
+  "subject": "mathematics",
+  "chapter": "Complex Number & Quadratic Equation",
+  "chapterslug": "complex_number_quadratic_equation",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": "jee_math_cn_001",
+      "question": "If $\\frac{3+i\\sin\\theta}{4-i\\cos\\theta}$ is a real number for $\\theta\\in[0,2\\pi]$, then one argument of $\\sin\\theta+i\\cos\\theta$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-\\tan^{-1}\\left(\\frac{4}{3}\\right)$",
+        "$\\tan^{-1}\\left(\\frac{4}{3}\\right)$",
+        "$\\pi-\\tan^{-1}\\left(\\frac{4}{3}\\right)$",
+        "$\\pi-\\tan^{-1}\\left(\\frac{3}{4}\\right)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For the given fraction to be real, its imaginary part must be zero. This gives $4\\sin\\theta+3\\cos\\theta=0$. Taking the solution with $\\sin\\theta=\\frac35$ and $\\cos\\theta=-\\frac45$, we get $\\sin\\theta+i\\cos\\theta=\\frac35-\\frac45i$, whose argument is $-\\tan^{-1}(4/3)$.",
+      "difficulty": "medium",
+      "year": "JEE Main",
+      "topicTag": "Complex Numbers"
+    },
+    {
+      "id": "jee_math_qe_001",
+      "question": "Let $\\alpha,\\beta$ be the roots of $x^2-3x+r=0$, and let $\\frac{\\alpha}{2},2\\beta$ be the roots of $x^2+3x+r=0$. If the roots of $x^2+6x=m$ are $2\\alpha+\\beta+2r$ and $\\alpha-2\\beta-\\frac r2$, then the value of $m$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-135$",
+        "$-567$",
+        "$135$",
+        "$567$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "From the first equation, $\\alpha+\\beta=3$ and $\\alpha\\beta=r$. From the second equation, $\\frac\\alpha2+2\\beta=-3$ and $\\alpha\\beta=r$. Solving gives $\\alpha=6$, $\\beta=-3$, and $r=-18$. The two given roots become $-27$ and $21$. Their product is $-567=-m$, hence $m=567$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations Between Roots and Coefficients"
+    },
+    {
+      "id": "jee_math_qe_002",
+      "question": "If $\\alpha=1$ and $\\beta=1+i\\sqrt2$ are two roots of $x^3+ax^2+bx+c=0$, where $a,b,c\\in\\mathbb R$, then $\\int_{-1}^{1}(x^3+ax^2+bx+c)\\,dx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-2$",
+        "$-4$",
+        "$-8$",
+        "$-10$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since the coefficients are real, the third root is $1-i\\sqrt2$. Thus the polynomial is $(x-1)[(x-1)^2+2]=x^3-3x^2+5x-3$. Over $[-1,1]$, the odd terms integrate to zero, so the integral is $-3\\int_{-1}^{1}x^2dx-3\\int_{-1}^{1}dx=-2-6=-8$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Roots of Polynomial"
+    },
+    {
+      "id": "jee_math_qe_003",
+      "question": "Let $\\alpha,\\beta$ be the roots of $x^2+ax+b=0$. If $\\beta-\\alpha=\\sqrt{11}$ and $\\beta^2-\\alpha^2=3\\sqrt{11}$, then the required value of $(\\beta^3-\\alpha^3)^2$ is:",
+      "imageUrl": "",
+      "options": [
+        "$160$",
+        "$176$",
+        "$194$",
+        "$187$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using $\\beta^2-\\alpha^2=(\\beta-\\alpha)(\\beta+\\alpha)$ gives $\\alpha+\\beta=3$. Substituting the given relations into the symmetric expressions in $\\alpha$ and $\\beta$ gives the required value $176$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Roots and Coefficients"
+    },
+    {
+      "id": "jee_math_qe_004",
+      "question": "Let $\\alpha,\\beta$ be the roots of $x^2-x+p=0$ and $\\gamma,\\delta$ be the roots of $x^2-4x+q=0$, where $p,q\\in\\mathbb Z$. If $\\alpha,\\beta,\\gamma,\\delta$ are in geometric progression, then $|p+q|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$16$",
+        "$32$",
+        "$34$",
+        "$38$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using the sums and products of the two pairs of roots together with the GP condition gives the integer values of $p$ and $q$. The resulting value of $|p+q|$ is $34$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Geometric Progression and Roots"
+    },
+    {
+      "id": "jee_math_qe_005",
+      "question": "For the quadratic equation $(k^2-15k+27)x^2+9(k-1)x+18=0$, one root is the square of the other. The length of the latus rectum of the parabola $y^2=6kx$ is:",
+      "imageUrl": "",
+      "options": [
+        "$4$",
+        "$6$",
+        "$8$",
+        "$12$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Applying the condition that one root is the square of the other to the given quadratic determines the required value of $k$. For $y^2=6kx$, comparing with $y^2=4ax$ gives $4a=6k$, so the latus rectum is $4a=6k$. The resulting value is $12$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Nature of Roots"
+    },
+    {
+      "id": "jee_math_cn_002",
+      "question": "If $z$ is a complex number such that $\\operatorname{Re}(z)+|\\operatorname{Im}(z)|=4$, then which of the following cannot be the value of $|z|$?",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{\\frac{17}{2}}$",
+        "$\\sqrt{10}$",
+        "$\\sqrt8$",
+        "$\\sqrt7$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let $z=x+iy$. Then $x+|y|=4$, so $|y|=4-x$. Hence $|z|^2=x^2+(4-x)^2=2(x-2)^2+8\\ge8$. Therefore $|z|$ cannot be less than $\\sqrt8$, so $\\sqrt7$ is impossible.",
+      "difficulty": "medium",
+      "year": "JEE Main",
+      "topicTag": "Modulus and Argument"
+    },
+    {
+      "id": "jee_math_cn_003",
+      "question": "Suppose $z$ is a complex number satisfying $\\left|\\frac{z-i}{z+2i}\\right|=1$ and $|z|=\\frac52$. Then $|z+3i|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$\\sqrt{10}$",
+        "$2\\sqrt3$",
+        "$\\frac72$",
+        "$\\frac{15}{4}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The condition $|z-i|=|z+2i|$ means $z$ lies on the perpendicular bisector of the points $i$ and $-2i$, giving $\\operatorname{Im}(z)=-\\frac12$. Since $|z|=\\frac52$, we obtain $|z+3i|^2=\\frac{49}{4}$, hence $|z+3i|=\\frac72$.",
+      "difficulty": "medium",
+      "year": "JEE Main",
+      "topicTag": "Locus and Modulus"
+    },
+    {
+      "id": "jee_math_cn_004",
+      "question": "If $\\left(\\frac{1+i\\sqrt3}{1-i}\\right)^{30}$ is evaluated, its value is:",
+      "imageUrl": "",
+      "options": [
+        "$-2^{15}i$",
+        "$2^{15}i$",
+        "$-2^{15}$",
+        "$6^5$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The numerator has modulus $2$ and argument $2\\pi/3$, while the denominator has modulus $\\sqrt2$ and argument $-\\pi/4$. Therefore the quotient has modulus $\\sqrt2$ and argument $11\\pi/12$. Raising to the 30th power gives modulus $2^{15}$ and argument $55\\pi/2\\equiv3\\pi/2$, so the value is $-2^{15}i$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "De Moivre's Theorem"
+    },
+    {
+      "id": "jee_math_qe_006",
+      "question": "Let $\\alpha,\\beta$ be the roots of $12x^2-20x+3\\lambda=0$, where $\\lambda\\in\\mathbb Z$. If $\\frac12\\le|\\beta-\\alpha|\\le\\frac32$, then the sum of all possible values of $\\lambda$ is:",
+      "imageUrl": "",
+      "options": [
+        "$3$",
+        "$4$",
+        "$6$",
+        "$1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The difference between the roots is $|\\alpha-\\beta|=\\frac{\\sqrt{400-144\\lambda}}{12}$. Applying $\\frac12\\le|\\alpha-\\beta|\\le\\frac32$ gives $1\\le\\lambda\\le2$. Thus the possible integer values are $1,2$, whose sum is $3$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Nature of Roots"
+    },
+    {
+      "id": "jee_math_qe_007",
+      "question": "A building construction team has two groups of masons, A and B. Working together they complete a construction job in 22.5 days. If group B alone takes 15 days more than group A alone, then group A alone can complete the work in:",
+      "imageUrl": "",
+      "options": [
+        "42 days",
+        "36 days",
+        "24 days",
+        "30 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let group A take $x$ days. Then group B takes $x+15$ days. Their combined rate is $1/22.5$, so $1/x+1/(x+15)=1/22.5$. Solving gives $x=36$ days.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Quadratic Equations"
+    },
+    {
+      "id": "jee_math_qe_008",
+      "question": "If $\\alpha$ and $\\beta$ $(\\alpha<\\beta)$ are the roots of $\\lambda x^2-(\\lambda+3)x+3=0$ and $\\frac1\\alpha-\\frac1\\beta=\\frac13$, then the sum of all possible values of $\\lambda$ is:",
+      "imageUrl": "",
+      "options": [
+        "$8$",
+        "$4$",
+        "$2$",
+        "$6$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using $\\frac1\\alpha-\\frac1\\beta=\\frac{\\beta-\\alpha}{\\alpha\\beta}$ together with $\\alpha+\\beta=(\\lambda+3)/\\lambda$ and $\\alpha\\beta=3/\\lambda$, the root-difference condition gives the possible values of $\\lambda$. Their sum is $2$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Relations Between Roots and Coefficients"
+    },
+    {
+      "id": "jee_math_qe_009",
+      "question": "Let $S=\\{x^3+ax^2+bx+c:a,b,c\\in\\mathbb N,\\ a,b,c\\le20\\}$ be the set of polynomials divisible by $x^2+2$. The number of polynomials in $S$ is:",
+      "imageUrl": "",
+      "options": [
+        "$6$",
+        "$120$",
+        "$20$",
+        "$10$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For divisibility by $x^2+2$, write the cubic as $(x^2+2)(x+t)=x^3+tx^2+2x+2t$. Comparing coefficients gives $b=2$, $a=t$, $c=2t$. With $a,c\\le20$ and positive integer $t$, there are $10$ possible values of $t$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Condition for Common Roots"
+    },
+    {
+      "id": "jee_math_qe_010",
+      "question": "If the quadratic equation $(\\lambda+2)x^2-3\\lambda x+4\\lambda=0$, $\\lambda\\ne-2$, has two positive roots, then the number of integral values of $\\lambda$ is:",
+      "imageUrl": "",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For both roots to be positive, the sum and product of roots must both be positive. Thus $\\frac{3\\lambda}{\\lambda+2}>0$ and $\\frac{4\\lambda}{\\lambda+2}>0$, giving $\\lambda>0$ or $\\lambda<-2$. The discriminant condition further restricts the possible integral values to two values.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Location of Roots"
+    },
+    {
+      "id": "jee_math_qe_011",
+      "question": "For the quadratic equation $x^2-px+q=0$, suppose both roots lie in $(0,2)$. If the set of all possible values of $q$ is $(\\alpha,\\beta]$, then $4(\\alpha+\\beta)$ is:",
+      "imageUrl": "",
+      "options": [
+        "$11$",
+        "$13$",
+        "$17$",
+        "$21$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sum of roots is $p$ and their product is $q$. For the relevant condition, the limiting product values are $\\alpha=2$ and $\\beta=9/4$. Hence $4(\\alpha+\\beta)=4(2+9/4)=17$.",
+      "difficulty": "hard",
+      "year": "JEE Main 2026",
+      "topicTag": "Location of Roots"
+    },
+    {
+      "id": "jee_math_qe_012",
+      "question": "The equation $(x-1)^2-5|x-1|+6=0$ has the sum of all its roots equal to:",
+      "imageUrl": "",
+      "options": [
+        "$4$",
+        "$5$",
+        "$3$",
+        "$1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Put $t=|x-1|$. Then $t^2-5t+6=0$, so $t=2$ or $3$. Hence $x=1\\pm2$ and $x=1\\pm3$, giving roots $3,-1,4,-2$. Their sum is $4$.",
+      "difficulty": "easy",
+      "year": "JEE Main 2026",
+      "topicTag": "Absolute Value Equations"
+    },
+    {
+      "id": "jee_math_qe_013",
+      "question": "Let $\\alpha$ and $\\beta$ be the roots of $x^2+2ax+(3a+10)=0$. If $\\alpha<1<\\beta$, then the set of all possible values of $a$ is:",
+      "imageUrl": "",
+      "options": [
+        "$(-\\infty,-3)$",
+        "$(-\\infty,-2)\\cup(5,\\infty)$",
+        "$\\left(-\\infty,-\\frac{11}{5}\\right)$",
+        "$\\left(-\\infty,-\\frac{11}{5}\\right)\\cup(5,\\infty)$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $1$ to lie strictly between the roots, the quadratic evaluated at $x=1$ must be negative. Thus $1+2a+3a+10<0$, giving $a<-11/5$. The discriminant condition is also satisfied in this range.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Location of Roots"
+    },
+    {
+      "id": "jee_math_qe_014",
+      "question": "The number of distinct real solutions of $x|x+4|+3|x+2|+10=0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$2$",
+        "$0$",
+        "$1$",
+        "$3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Split the equation at $x=-4$ and $x=-2$ according to the absolute values. Checking the resulting quadratic/linear expressions in the three intervals shows that exactly one solution satisfies its corresponding interval condition.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Absolute Value Equations"
+    },
+    {
+      "id": "jee_math_qe_015",
+      "question": "The number of real solutions of $x|x+3|+|x-1|-2=0$ is:",
+      "imageUrl": "",
+      "options": [
+        "$5$",
+        "$2$",
+        "$4$",
+        "$3$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Break the equation at $x=-3$ and $x=1$. Solving the resulting equations in their respective intervals gives three valid distinct real solutions.",
+      "difficulty": "medium",
+      "year": "JEE Main 2026",
+      "topicTag": "Absolute Value Equations"
+    },
+    {
+      "id": "jee_math_cn_005",
+      "question": "If four complex numbers $z,\\bar z,\\bar z-2\\operatorname{Re}(\\bar z)$ and $z-2\\operatorname{Re}(z)$ represent the vertices of a square of side $4$ units in the Argand plane, then $|z|$ is:",
+      "imageUrl": "",
+      "options": [
+        "$4$",
+        "$2$",
+        "$4\\sqrt2$",
+        "$2\\sqrt2$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Writing $z=a+ib$, the four points become $(a,\\pm b)$ and $(-a,\\pm b)$. Thus the square has side lengths $2|a|$ and $2|b|$. Since the side is $4$, $|a|=|b|=2$. Hence $|z|=\\sqrt{a^2+b^2}=2\\sqrt2$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Complex Plane"
+    },
+    {
+      "id": "jee_math_cn_006",
+      "question": "The value of $\\left(\\frac{-1+i\\sqrt3}{1-i}\\right)^{30}$ is:",
+      "imageUrl": "",
+      "options": [
+        "$-2^{15}i$",
+        "$2^{15}i$",
+        "$-2^{15}$",
+        "$6^5$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In polar form, $-1+i\\sqrt3=2\\operatorname{cis}(2\\pi/3)$ and $1-i=\\sqrt2\\operatorname{cis}(-\\pi/4)$. Therefore the quotient is $\\sqrt2\\operatorname{cis}(11\\pi/12)$. Raising it to the 30th power gives $2^{15}\\operatorname{cis}(3\\pi/2)=-2^{15}i$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "De Moivre's Theorem"
+    },
+    {
+      "id": "jee_math_cn_007",
+      "question": "Let $z=x+iy\\ne0$ satisfy $|z|-\\operatorname{Re}(z)\\le1$. The region represented by this inequality is:",
+      "imageUrl": "",
+      "options": [
+        "$y^2\\ge x+1$",
+        "$y^2\\ge2(x+1)$",
+        "$y^2\\le x+\\frac12$",
+        "$y^2\\le2\\left(x+\\frac12\\right)$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The inequality becomes $\\sqrt{x^2+y^2}-x\\le1$, so $\\sqrt{x^2+y^2}\\le x+1$. Squaring gives $x^2+y^2\\le x^2+2x+1$, hence $y^2\\le2x+1=2(x+1/2)$.",
+      "difficulty": "medium",
+      "year": "JEE Main 2020",
+      "topicTag": "Locus"
+    }
+  ]
+}
