@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Question } from '@/lib/types';
-import { DEFAULT_MARKING, formatTime, shuffleOptions, type Marking } from '@/lib/quiz';
+import { DEFAULT_MARKING, formatTime, isValidQuestion, shuffleOptions, type Marking } from '@/lib/quiz';
 import { addMistakes, recordActivity } from '@/lib/storage';
 import MathJax from './MathJax';
 
@@ -31,7 +31,8 @@ export default function QuizRunner({ questions, title, source, marking = DEFAULT
   const saved = useRef(false);
 
   useEffect(() => {
-    const list = shuffle ? questions.map((q) => shuffleOptions(q)) : questions;
+    const clean = questions.filter(isValidQuestion);
+    const list = shuffle ? clean.map((q) => shuffleOptions(q)) : clean;
     setQs(list);
     setAnswers(new Array(list.length).fill(undefined));
     setFlags(new Array(list.length).fill(false));

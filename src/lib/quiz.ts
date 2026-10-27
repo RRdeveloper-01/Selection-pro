@@ -34,6 +34,12 @@ export function pickSeeded<T>(pool: T[], n: number, seed: string): T[] {
   return shuffle(pool, mulberry32(seedFrom(seed))).slice(0, n);
 }
 
+/** True when a question has text, at least two options and a valid answer index. */
+export function isValidQuestion(q: Partial<Question> | null | undefined): q is Question {
+  return !!q && typeof q.question === 'string' && q.question.trim().length > 0 && Array.isArray(q.options) && q.options.length >= 2 &&
+    Number.isInteger(q.correctAnswer) && (q.correctAnswer as number) >= 0 && (q.correctAnswer as number) < q.options.length;
+}
+
 /** Shuffle options but keep track of the right one (same behaviour as the old practice-test page). */
 export function shuffleOptions(q: Question, rnd: () => number = Math.random): Question {
   const correct = q.options[q.correctAnswer];
@@ -45,7 +51,7 @@ type LegacyChapterQ = { question_no: number; question: string; options: Record<s
 
 /** Chapter-wise JSON ({A:..,B:..}, "answer":"A") -> common Question shape. */
 export function normalizeChapter(raw: LegacyChapterQ[], slug: string): Question[] {
-  return raw.map((r, i) => {
+  return raw.filter((r) => r && typeof r.question === 'string' && r.options && r.answer in r.options).map((r, i) => {
     const keys = Object.keys(r.options);
     return {
       id: `${slug}-${r.question_no ?? i + 1}`,
