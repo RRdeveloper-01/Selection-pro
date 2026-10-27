@@ -60,10 +60,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </AppShell>
         <InstallBanner />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`} strategy="afterInteractive" />
-        <Script id="ga-init" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${SITE.gaId}');`}</Script>
-        <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="afterInteractive" defer />
-        <Script id="onesignal-init" strategy="afterInteractive">{`window.OneSignalDeferred=window.OneSignalDeferred||[];OneSignalDeferred.push(async function(OneSignal){await OneSignal.init({appId:"${SITE.oneSignalAppId}",serviceWorkerPath:"sw.js"});});`}</Script>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`} strategy="lazyOnload" />
+        <Script id="ga-init" strategy="lazyOnload">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${SITE.gaId}');`}</Script>
+        <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="lazyOnload" defer />
+        <Script id="onesignal-init" strategy="lazyOnload">{`window.OneSignalDeferred=window.OneSignalDeferred||[];OneSignalDeferred.push(async function(OneSignal){await OneSignal.init({appId:"${SITE.oneSignalAppId}",serviceWorkerPath:"sw.js"});});`}</Script>
       </body>
     </html>
   );

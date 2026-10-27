@@ -50,7 +50,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         </button>
         <Link href="/" className="logo" aria-label="Selection Pro home">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/icons/header.png" alt="Selection Pro" width={125} height={36} />
+          <img src="/icons/header.webp" alt="Selection Pro" width={84} height={36} fetchPriority="high" />
         </Link>
         <Link href="/daily-quiz" className="streak-chip" aria-label={`${streak} day streak. Open daily quiz`}>
           <span aria-hidden>🔥</span> {streak > 0 ? `${streak} day${streak > 1 ? 's' : ''}` : 'Start streak'}
