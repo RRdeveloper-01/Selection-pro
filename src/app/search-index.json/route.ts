@@ -1,5 +1,6 @@
 import { articles, chapters, exams, mocks, tests } from '@/lib/content';
 import { CA_TOPICS } from '@/data/ca-topics';
+import { dailyDates, formatDate } from '@/lib/daily';
 
 export const dynamic = 'force-static';
 
@@ -18,6 +19,7 @@ export function GET() {
     ...chapters.map((c) => ({ t: `${c.title} chapter test`, u: `/chapter-test/${c.slug}`, k: 'Chapter test' })),
     ...mocks.map((m) => ({ t: m.h1, u: m.route, k: 'Mock tests' })),
     ...CA_TOPICS.map((c) => ({ t: c.title, u: `/current-affairs/${c.slug}`, k: 'Current affairs', s: c.summary })),
+    ...dailyDates().map((d) => ({ t: `Current affairs ${formatDate(d)}`, u: `/current-affairs/daily/${d}`, k: 'Daily current affairs' })),
     ...articles.map((a) => ({ t: a.title, u: `/${a.section}/${a.slug}`, k: 'Article', s: a.description })),
   ];
   return Response.json(items);

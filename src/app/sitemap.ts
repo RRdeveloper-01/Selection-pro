@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/site';
 import { articles, chapters, exams, jeeDays, mocks, tests } from '@/lib/content';
 import { CA_TOPICS } from '@/data/ca-topics';
+import { indexableDates } from '@/lib/daily';
 import { EXAM_CATEGORIES } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -19,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...mocks.map((m) => u(m.route, 0.7)),
     ...jeeDays.map((d) => u(`/revision-series/jee-main/${d.day}`, 0.6, 'monthly')),
     ...CA_TOPICS.map((t) => u(`/current-affairs/${t.slug}`, 0.7)),
+    u('/current-affairs/daily', 0.8, 'daily'),
+    ...indexableDates().map((d) => u(`/current-affairs/daily/${d}`, 0.7, 'monthly')),
     ...articles.map((a) => u(`/${a.section}/${a.slug}`, 0.7, 'monthly')),
   ];
 }

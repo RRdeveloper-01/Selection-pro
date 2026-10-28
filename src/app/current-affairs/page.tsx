@@ -18,7 +18,7 @@ export default function CurrentAffairsHub() {
       <Breadcrumbs items={[{ name: 'Current affairs', path: '/current-affairs' }]} />
       <h1>Current affairs for exams</h1>
       <p className="lead">Reading the news is not the same as preparing for a question paper. These guides show the concepts that sit behind the headlines, how questions are framed and how to revise efficiently.</p>
-      <div className="btn-row" style={{ margin: '14px 0' }}><Link className="btn" href="/daily-quiz">Take the daily quiz</Link><Link className="btn ghost" href="/mcq-trap">MCQ trap of the day</Link></div>
+      <div className="btn-row" style={{ margin: '14px 0' }}><Link className="btn" href="/daily-quiz">Take the daily quiz</Link><Link className="btn ghost" href="/mcq-trap">MCQ trap of the day</Link><Link className="btn ghost" href="/current-affairs/daily">Daily archive</Link></div>
 
       {entries.length > 0 && (
         <section className="section">

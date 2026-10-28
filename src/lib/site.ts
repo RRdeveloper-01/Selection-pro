@@ -41,6 +41,7 @@ export const NAV: NavGroup[] = [
     title: 'Learn',
     items: [
       { href: '/current-affairs', label: 'Current Affairs for Exams', icon: '📰' },
+      { href: '/current-affairs/daily', label: 'Daily Current Affairs', icon: '🗓️' },
       { href: '/exam-guides', label: 'Exam Guides', icon: '🧭' },
       { href: '/guides', label: 'Preparation Guides', icon: '📖' },
       { href: '/blog', label: 'Study Blog', icon: '✍️' },

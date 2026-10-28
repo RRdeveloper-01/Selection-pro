@@ -48,6 +48,7 @@ export default function Footer() {
           <div>
             <h3>Current affairs</h3>
             <ul>
+              <li><Link href="/current-affairs/daily">Daily current affairs</Link></li>
               {CA_TOPICS.slice(0, 6).map((t) => (<li key={t.slug}><Link href={`/current-affairs/${t.slug}`}>{t.title}</Link></li>))}
             </ul>
           </div>
