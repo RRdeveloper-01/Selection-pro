@@ -3,6 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FaqList from '@/components/FaqList';
 import { CA_TOPICS } from '@/data/ca-topics';
 import { CA_ENTRIES } from '@/data/ca-entries';
+import { entriesOn, formatDate, teaser } from '@/lib/daily';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
@@ -22,17 +23,21 @@ export default function CurrentAffairsHub() {
 
       {entries.length > 0 && (
         <section className="section">
-          <h2>Latest exam-angle notes</h2>
-          {entries.map((e) => (
-            <article className="card" key={e.date + e.title}>
-              <span className="pill soft">{e.date}</span> <span className="pill">{CA_TOPICS.find((t) => t.slug === e.topic)?.title}</span>
-              <h3 style={{ marginTop: 8 }}>{e.title}</h3>
-              <p>{e.summary}</p>
-              <p><strong>Exam angle:</strong> {e.examAngle}</p>
-              <ul>{e.possibleQuestions.map((q) => <li key={q}>{q}</li>)}</ul>
-              {e.source && <p className="muted" style={{ fontSize: '0.88rem' }}>Source: <a href={e.source.url} target="_blank" rel="noopener noreferrer">{e.source.label}</a></p>}
-            </article>
-          ))}
+          <h2>Latest notes</h2>
+          <p className="muted">Each note opens on its own daily page with the full exam angle and questions.</p>
+          {entries.map((e) => {
+            const n = entriesOn(e.date).indexOf(e) + 1;
+            const url = `/current-affairs/daily/${e.date}#n${n}`;
+            return (
+              <article className="card" key={e.date + e.title} style={{ marginBottom: 12 }}>
+                <span className="pill soft">{formatDate(e.date, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                <span className="pill" style={{ marginLeft: 6 }}>{CA_TOPICS.find((t) => t.slug === e.topic)?.title}</span>
+                <h3 style={{ marginTop: 8 }}><Link href={url}>{e.title}</Link></h3>
+                <p style={{ marginBottom: 6 }}>{teaser(e.summary)}</p>
+                <Link href={url}>Read the full note with exam angle and questions →</Link>
+              </article>
+            );
+          })}
         </section>
       )}
 

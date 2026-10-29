@@ -9,3 +9,10 @@ export function formatDate(date: string, opts: Intl.DateTimeFormatOptions = { da
 }
 
 export const indexableDates = (): string[] => dailyDates().filter((d) => entriesOn(d).length >= MIN_INDEXED);
+
+/** First sentence of a summary, trimmed for list pages. */
+export function teaser(summary: string, max = 150): string {
+  const first = summary.split('. ')[0].replace(/\.$/, '');
+  if (first.length <= max) return first + '.';
+  return first.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}

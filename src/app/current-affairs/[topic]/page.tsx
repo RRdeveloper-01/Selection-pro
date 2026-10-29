@@ -5,6 +5,7 @@ import FaqList from '@/components/FaqList';
 import AdSlot from '@/components/AdSlot';
 import { CA_TOPICS, getCaTopic } from '@/data/ca-topics';
 import { CA_ENTRIES } from '@/data/ca-entries';
+import { entriesOn, formatDate, teaser } from '@/lib/daily';
 import { buildMetadata } from '@/lib/seo';
 
 export const dynamicParams = false;
@@ -50,10 +51,19 @@ export default async function TopicPage({ params }: { params: Promise<{ topic: s
         <p><Link className="btn" href="/daily-quiz">Practise in the daily quiz</Link></p></section>
 
       {entries.length > 0 && (
-        <section className="section"><h2>Recent notes with an exam angle</h2>
-          {entries.map((e) => (
-            <article className="card" key={e.date + e.title}><span className="pill soft">{e.date}</span><h3 style={{ marginTop: 8 }}>{e.title}</h3><p>{e.summary}</p><p><strong>Exam angle:</strong> {e.examAngle}</p><ul>{e.possibleQuestions.map((q) => <li key={q}>{q}</li>)}</ul></article>
-          ))}
+        <section className="section"><h2>Recent notes on this topic</h2>
+          {entries.map((e) => {
+            const n = entriesOn(e.date).indexOf(e) + 1;
+            const url = `/current-affairs/daily/${e.date}#n${n}`;
+            return (
+              <article className="card" key={e.date + e.title} style={{ marginBottom: 12 }}>
+                <span className="pill soft">{formatDate(e.date, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                <h3 style={{ marginTop: 8 }}><Link href={url}>{e.title}</Link></h3>
+                <p style={{ marginBottom: 6 }}>{teaser(e.summary)}</p>
+                <Link href={url}>Read the full note with exam angle and questions →</Link>
+              </article>
+            );
+          })}
         </section>
       )}
 
