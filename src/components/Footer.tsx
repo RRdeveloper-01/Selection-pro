@@ -12,7 +12,7 @@ export default function Footer() {
           <h2 style={{ fontSize: '1.15rem' }}>About Selection Pro</h2>
           <p>
             Selection Pro is an independent exam-preparation platform for Indian students. It offers free full-length practice tests with step-by-step
-            explanations, chapter-wise mock tests for JEE, NEET and CUET, links to previous year papers, a daily quiz, a mistake notebook that brings wrong
+            explanations, chapter-wise mock tests for JEE, NEET and CUET, guidance on using previous year papers, a daily quiz, a mistake notebook that brings wrong
             answers back for revision and a syllabus tracker. Over {Math.floor(total / 100) * 100}+ practice questions are available today and the library keeps growing.
           </p>
           <p>

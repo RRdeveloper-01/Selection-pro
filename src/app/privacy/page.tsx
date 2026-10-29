@@ -21,7 +21,7 @@ export default function Page() {
       <h2>Push notifications</h2>
       <p>If you choose to enable notifications, we use OneSignal to deliver them. Your browser asks for permission first and you can turn notifications off at any time from your browser or device settings.</p>
       <h2>Third-party links</h2>
-      <p>Some pages link to external sites, including Google Drive folders with previous year papers and official exam websites. We do not control their privacy practices; please read their policies.</p>
+      <p>Some pages link to external sites, including official exam websites. We do not control their privacy practices; please read their policies.</p>
       <h2>Children</h2>
       <p>Selection Pro is intended for students. We do not knowingly collect personal information from children. If you believe a child has sent us personal data, contact us and we will delete it.</p>
       <h2>Changes to this policy</h2>

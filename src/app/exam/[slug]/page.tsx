@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import FaqList from '@/components/FaqList';
 import RichContent from '@/components/RichContent';
 import AdSlot from '@/components/AdSlot';
+import { OFFICIAL } from '@/data/official-links';
 import { PrepGuide, SimilarTests } from '@/components/ExamPrep';
 import JsonLd from '@/components/JsonLd';
 import { exams, getExam, testsForExam, mocks, articles } from '@/lib/content';
@@ -86,8 +87,16 @@ export default async function ExamPage({ params }: { params: Promise<{ slug: str
           <div className="grid wide">
             {pyqLive.map((p) => <a key={p.label} className="link-card" href={p.href as string} target="_blank" rel="noopener noreferrer"><h3>{p.label}</h3><p>Opens the paper collection in Google Drive.</p></a>)}
           </div>
-        ) : <div className="empty">Previous year paper links for {exam.name} are being added. Check the official website for the latest papers.</div>}
-        <p className="muted" style={{ marginTop: 10, fontSize: '0.9rem' }}>Papers belong to their respective conducting bodies and are shared for educational reference. See our <Link href="/disclaimer">disclaimer</Link>.</p>
+        ) : (
+          <div className="card">
+            <p style={{ marginTop: 0 }}>Download previous year question papers from the official source. It is always the most accurate and up to date.</p>
+            {OFFICIAL[exam.slug]
+              ? <a className="btn small" href={OFFICIAL[exam.slug].url} target="_blank" rel="noopener noreferrer">{OFFICIAL[exam.slug].label} (official website)</a>
+              : <p className="muted" style={{ margin: 0 }}>Check the official website of the conducting body for the latest papers.</p>}
+            <p style={{ margin: '10px 0 0' }}>To use a paper for practice, solve it under a timer and add every mistake to your <Link href="/mistake-notebook">Mistake Notebook</Link>.</p>
+          </div>
+        )}
+        <p className="muted" style={{ marginTop: 10, fontSize: '0.9rem' }}>Papers belong to their respective conducting bodies. See our <Link href="/disclaimer">disclaimer</Link>.</p>
       </section>
 
       {x && (

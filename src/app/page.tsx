@@ -73,7 +73,7 @@ export default function Home() {
       <FaqList faqs={[
         { q: 'Are all tests on Selection Pro free?', a: 'Yes. All practice tests, chapter tests, quizzes and tools are free and need no sign-up.' },
         { q: 'Which exams are covered?', a: 'SSC CGL, SSC CHSL, RRB NTPC, IBPS PO, SBI Clerk, RBI Grade B, NEET, JIPMER, JEE Main, JEE Advanced, GATE and CUET, with more added over time.' },
-        { q: 'Where do you get previous year papers?', a: 'We link to paper collections where available. The papers belong to the conducting bodies. Please use the official websites for the latest versions.' },
+        { q: 'Where do you get previous year papers?', a: 'We do not host previous year papers. Exam pages point to the official websites. The papers belong to the conducting bodies. Please use the official websites for the latest versions.' },
         { q: 'Do I need to create an account?', a: 'No. Progress is stored on your device in your browser.' },
       ]} />
     </div>

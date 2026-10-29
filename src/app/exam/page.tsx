@@ -16,7 +16,7 @@ export default function ExamHub() {
     <div className="page">
       <Breadcrumbs items={[{ name: 'Exams', path: '/exam' }]} />
       <h1>All exams: practice tests, PYQs and strategy</h1>
-      <p className="lead">{tests.length} full-length practice tests with explanations are live, along with previous year paper links and a preparation plan for each exam below.</p>
+      <p className="lead">{tests.length} full-length practice tests with explanations are live, along with a preparation plan for each exam below.</p>
       {Object.entries(EXAM_CATEGORIES).map(([cat, c]) => (
         <section className="section" key={cat}>
           <h2><Link href={`/exams/${cat}`} style={{ color: 'inherit', textDecoration: 'none' }}>{c.title}</Link></h2>
@@ -39,11 +39,11 @@ export default function ExamHub() {
         <h2>How to choose and use these resources</h2>
         <p>Start by opening the page of your target exam and reading the pattern and marking scheme, because they decide how you should practise. Then attempt one full test in exam conditions to find your starting level.</p>
         <p>After every test, read the explanations, retry the questions you missed and let the <Link href="/mistake-notebook">Mistake Notebook</Link> bring them back at spaced intervals. Pair this with the <Link href="/syllabus-tracker">syllabus tracker</Link> so you always know what is left.</p>
-        <p>Previous year papers are linked from the exam pages. Solve them under a timer, not as reading material, since the real gain comes from practising the pressure of the actual paper.</p>
+        <p>Download previous year papers from the official websites linked on the exam pages. Solve them under a timer, not as reading material, since the real gain comes from practising the pressure of the actual paper.</p>
       </section>
       <FaqList faqs={[
         { q: 'Are the tests free?', a: 'Yes. All tests, quizzes and tools on Selection Pro are free and need no registration.' },
-        { q: 'Do you provide previous year papers?', a: 'Each exam page links to paper collections where available. We do not own these papers; the conducting bodies do.' },
+        { q: 'Do you provide previous year papers?', a: 'We do not host previous year papers. Each exam page points to the official website, which is the best source. The papers belong to the conducting bodies.' },
         { q: 'How often is new content added?', a: 'New tests and chapters are added regularly after they are reviewed. Follow our Telegram channel for announcements.' },
       ]} />
     </div>

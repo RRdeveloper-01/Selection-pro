@@ -17,7 +17,7 @@ export default function Page() {
           <li>{tests.length} full-length practice tests with explanations across {exams.filter((e) => e.prefix).length} exams.</li>
           <li>{chapters.length} chapter-wise tests in English and Hindi medium.</li>
           <li>A daily quiz, an MCQ trap of the day, a mistake notebook and a syllabus tracker.</li>
-          <li>Exam guides, preparation guides, scholarship information and links to previous year papers.</li>
+          <li>Exam guides, preparation guides, scholarship information and guidance on using previous year papers.</li>
         </ul>
         <h2>How we work</h2>
         <p>We review questions and explanations before publishing, fix errors when readers report them and keep tools free of sign-up. Read the full <Link href="/editorial-policy">editorial policy</Link>. To report a mistake or suggest an exam, <Link href="/contact">contact us</Link>.</p>
