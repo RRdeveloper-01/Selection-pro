@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ date: str
   if (!list.length) return {};
   const d = formatDate(date);
   return buildMetadata({
-    title: `Current Affairs ${d}: ${list.length} Exam Notes`,
-    description: `Current affairs for ${d}: ${list.slice(0, 3).map((e) => e.title).join('; ')}. Each note has an exam angle and likely questions for SSC, Banking and Railway exams.`,
+    title: `Current Affairs ${d}: ${list.length} Exam Imp News`,
+    description: `Current affairs for ${d}: ${list.slice(0, 3).map((e) => e.title).join('; ')}. Each News has an exam angle and likely questions for SSC, Banking and Railway exams.`,
     path: `/current-affairs/daily/${date}`,
     type: 'article',
     noindex: list.length < MIN_INDEXED,
@@ -80,8 +80,8 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
       </nav>
 
       <FaqList faqs={[
-        { q: `Where can I verify the facts in the ${d} notes?`, a: 'Each note links to the official website where available. Always confirm dates and figures there before using them in an exam answer.' },
-        { q: 'How should I use these notes?', a: 'Read the summary, learn the exam angle, then answer the possible questions from memory. Use the daily quiz to test yourself.' },
+        { q: `Where can I verify the facts in the ${d} news?`, a: 'Each news links to the official website where available. Always confirm dates and figures there before using them in an exam answer.' },
+        { q: 'How should I use these news notes?', a: 'Read the summary, learn the exam angle, then answer the possible questions from memory. Use the daily quiz to test yourself.' },
       ]} />
     </div>
   );

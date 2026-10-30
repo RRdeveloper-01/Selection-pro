@@ -29,6 +29,7 @@ export default function QuizRunner({ questions, title, source, marking = DEFAULT
   const [elapsed, setElapsed] = useState(0);
   const [round, setRound] = useState(0);
   const saved = useRef(false);
+  const resultRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const clean = questions.filter(isValidQuestion);
@@ -42,6 +43,12 @@ export default function QuizRunner({ questions, title, source, marking = DEFAULT
   }, [questions, shuffle, round]);
 
   const submit = useCallback(() => setSubmitted(true), []);
+  // after submitting, bring the scoreboard into view
+  useEffect(() => {
+    if (!submitted) return;
+    const t = setTimeout(() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    return () => clearTimeout(t);
+  }, [submitted]);
 
   useEffect(() => {
     if (submitted || !qs.length) return;
@@ -112,7 +119,7 @@ export default function QuizRunner({ questions, title, source, marking = DEFAULT
     <div>
       <MathJax trigger={`${round}-${qs.length}-${submitted}-${instant ? answers.join() : ''}`} />
       {submitted && (
-        <section className="card result" aria-live="polite">
+        <section className="card result" aria-live="polite" ref={resultRef} style={{ scrollMarginTop: 76 }}>
           <h2>Your result</h2>
           <div className="score">{Number.isInteger(summary.score) ? summary.score : summary.score.toFixed(2)} <span className="muted" style={{ fontSize: '1.1rem' }}>/ {summary.max}</span></div>
           <p className="muted">Marking {marking.label}. Accuracy {accuracy}% on attempted questions.</p>
