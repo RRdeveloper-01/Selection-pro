@@ -18,7 +18,7 @@ export default function DailyArchive() {
       <Breadcrumbs items={[{ name: 'Current affairs', path: '/current-affairs' }, { name: 'Daily', path: '/current-affairs/daily' }]} />
       <h1>Daily current affairs</h1>
       <p className="lead">One page for every day, with exam-focused notes and the questions they can lead to. {CA_ENTRIES.length} notes so far.</p>
-      {!dates.length && <div className="empty">The first daily page will appear here soon.</div>}
+      {!dates.length && <div className="empty">No daily pages have been published yet.</div>}
       {months.map((m) => (
         <section className="section" key={m}>
           <h2>{formatDate(m + '-01', { month: 'long', year: 'numeric' })}</h2>

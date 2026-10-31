@@ -42,7 +42,7 @@ export function SimilarTests({ exam }: { exam: Exam }) {
   const n = sim ? testsForExam(sim).length : 0;
   return (
     <div className="card">
-      <p style={{ marginTop: 0 }}>Full-length {exam.name} tests are being prepared and will appear here once they are reviewed. You can start practising right now:</p>
+      <p style={{ marginTop: 0 }}>Start practising with these related resources:</p>
       <div className="btn-row">
         {sim && n > 0 && <Link className="btn small" href={`/exam/${sim.slug}#tests`}>{sim.name} tests ({n})</Link>}
         <Link className="btn ghost small" href="/daily-quiz">Daily quiz</Link>

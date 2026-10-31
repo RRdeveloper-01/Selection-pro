@@ -28,7 +28,7 @@ export default function ExamHub() {
                 <Link key={e.slug} className="link-card" href={`/exam/${e.slug}`}>
                   {e.image && /* eslint-disable-next-line @next/next/no-img-element */ <img src={e.image} alt={`${e.name} preparation`} loading="lazy" width={320} height={180} />}
                   <h3>{e.name}</h3>
-                  <p>{n ? `${n} practice tests` : 'Tests coming soon'} · PYQs · Strategy</p>
+                  <p>{n ? `${n} practice tests · ` : ''}Syllabus · Strategy</p>
                 </Link>
               );
             })}

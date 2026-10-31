@@ -181,55 +181,55 @@
     "chapters": [
      {
       "title": "Sexual Reproduction in Flowering Plants",
-      "slug": null
+      "slug": "sexual-reproduction-in-flowering-plants"
      },
      {
       "title": "Human Reproduction",
-      "slug": null
+      "slug": "human-reproduction"
      },
      {
       "title": "Reproductive Health",
-      "slug": null
+      "slug": "reproductive-health"
      },
      {
       "title": "Principles of Inheritance and Variation",
-      "slug": null
+      "slug": "principles-of-inheritance-and-variation"
      },
      {
       "title": "Molecular Basis of Inheritance",
-      "slug": null
+      "slug": "molecular-basis-of-inheritance"
      },
      {
       "title": "Evolution",
-      "slug": null
+      "slug": "evolution"
      },
      {
       "title": "Human Health and Diseases",
-      "slug": null
+      "slug": "human-health-and-diseases"
      },
      {
       "title": "Microbes in Human Welfare",
-      "slug": null
+      "slug": "microbes-in-human-welfare"
      },
      {
       "title": "Biotechnology: Principles and Processes",
-      "slug": null
+      "slug": "biotechnology-principles-and-processes"
      },
      {
       "title": "Biotechnology and its Applications",
-      "slug": null
+      "slug": "biotechnology-and-its-applications"
      },
      {
       "title": "Organisms and Populations",
-      "slug": null
+      "slug": "organisms-and-populations"
      },
      {
       "title": "Ecosystem",
-      "slug": null
+      "slug": "ecosystem"
      },
      {
       "title": "Biodiversity and its Conservation",
-      "slug": null
+      "slug": "biodiversity-and-conservation"
      }
     ]
    }
@@ -540,55 +540,55 @@
     "chapters": [
      {
       "title": "Sexual Reproduction in Flowering Plants",
-      "slug": null
+      "slug": "sexual-reproduction-in-flowering-plants"
      },
      {
       "title": "Human Reproduction",
-      "slug": null
+      "slug": "human-reproduction"
      },
      {
       "title": "Reproductive Health",
-      "slug": null
+      "slug": "reproductive-health"
      },
      {
       "title": "Principles of Inheritance and Variation",
-      "slug": null
+      "slug": "principles-of-inheritance-and-variation"
      },
      {
       "title": "Molecular Basis of Inheritance",
-      "slug": null
+      "slug": "molecular-basis-of-inheritance"
      },
      {
       "title": "Evolution",
-      "slug": null
+      "slug": "evolution"
      },
      {
       "title": "Human Health and Diseases",
-      "slug": null
+      "slug": "human-health-and-diseases"
      },
      {
       "title": "Microbes in Human Welfare",
-      "slug": null
+      "slug": "microbes-in-human-welfare"
      },
      {
       "title": "Biotechnology: Principles and Processes",
-      "slug": null
+      "slug": "biotechnology-principles-and-processes"
      },
      {
       "title": "Biotechnology and its Applications",
-      "slug": null
+      "slug": "biotechnology-and-its-applications"
      },
      {
       "title": "Organisms and Populations",
-      "slug": null
+      "slug": "organisms-and-populations"
      },
      {
       "title": "Ecosystem",
-      "slug": null
+      "slug": "ecosystem"
      },
      {
       "title": "Biodiversity and its Conservation",
-      "slug": null
+      "slug": "biodiversity-and-conservation"
      }
     ]
    }
@@ -899,55 +899,68 @@
     "chapters": [
      {
       "title": "Sexual Reproduction in Flowering Plants",
-      "slug": null
+      "slug": "sexual-reproduction-in-flowering-plants",
+      "note": "English"
      },
      {
       "title": "Human Reproduction",
-      "slug": null
+      "slug": "human-reproduction",
+      "note": "English"
      },
      {
       "title": "Reproductive Health",
-      "slug": null
+      "slug": "reproductive-health",
+      "note": "English"
      },
      {
       "title": "Principles of Inheritance and Variation",
-      "slug": null
+      "slug": "principles-of-inheritance-and-variation",
+      "note": "English"
      },
      {
       "title": "Molecular Basis of Inheritance",
-      "slug": null
+      "slug": "molecular-basis-of-inheritance",
+      "note": "English"
      },
      {
       "title": "Evolution",
-      "slug": null
+      "slug": "evolution",
+      "note": "English"
      },
      {
       "title": "Human Health and Diseases",
-      "slug": null
+      "slug": "human-health-and-diseases",
+      "note": "English"
      },
      {
       "title": "Microbes in Human Welfare",
-      "slug": null
+      "slug": "microbes-in-human-welfare",
+      "note": "English"
      },
      {
       "title": "Biotechnology: Principles and Processes",
-      "slug": null
+      "slug": "biotechnology-principles-and-processes",
+      "note": "English"
      },
      {
       "title": "Biotechnology and its Applications",
-      "slug": null
+      "slug": "biotechnology-and-its-applications",
+      "note": "English"
      },
      {
       "title": "Organisms and Populations",
-      "slug": null
+      "slug": "organisms-and-populations",
+      "note": "English"
      },
      {
       "title": "Ecosystem",
-      "slug": null
+      "slug": "ecosystem",
+      "note": "English"
      },
      {
       "title": "Biodiversity and its Conservation",
-      "slug": null
+      "slug": "biodiversity-and-conservation",
+      "note": "English"
      }
     ]
    }
@@ -1659,35 +1672,35 @@
     "chapters": [
      {
       "title": "The Living World",
-      "slug": null
+      "slug": "the-living-world"
      },
      {
       "title": "Biological Classification",
-      "slug": null
+      "slug": "biological-classification"
      },
      {
       "title": "Plant Kingdom",
-      "slug": null
+      "slug": "plant-kingdom"
      },
      {
       "title": "Animal Kingdom",
-      "slug": null
+      "slug": "animal-kingdom"
      },
      {
       "title": "Morphology of Flowering Plants",
-      "slug": null
+      "slug": "morphology-of-flowering-plants"
      },
      {
       "title": "Anatomy of Flowering Plants",
-      "slug": null
+      "slug": "anatomy-of-flowering-plants"
      },
      {
       "title": "Structural Organisation in Animals",
-      "slug": null
+      "slug": "structural-organisation-in-animals"
      },
      {
       "title": "Cell: The Unit of Life",
-      "slug": null
+      "slug": "cell-the-unit-of-life"
      },
      {
       "title": "Biomolecules",
@@ -1695,43 +1708,43 @@
      },
      {
       "title": "Cell Cycle and Cell Division",
-      "slug": null
+      "slug": "cell-cycle-and-cell-division"
      },
      {
       "title": "Photosynthesis in Higher Plants",
-      "slug": null
+      "slug": "photosynthesis-in-higher-plants"
      },
      {
       "title": "Respiration in Plants",
-      "slug": null
+      "slug": "respiration-in-plants"
      },
      {
       "title": "Plant Growth and Development",
-      "slug": null
+      "slug": "plant-growth-and-development"
      },
      {
       "title": "Breathing and Exchange of Gases",
-      "slug": null
+      "slug": "breathing-and-exchange-of-gases"
      },
      {
       "title": "Body Fluids and Circulation",
-      "slug": null
+      "slug": "body-fluids-and-circulation"
      },
      {
       "title": "Excretory Products & Elimination",
-      "slug": null
+      "slug": "excretory-products-elimination"
      },
      {
       "title": "Locomotion and Movement",
-      "slug": null
+      "slug": "locomotion-and-movement"
      },
      {
       "title": "Neural Control and Coordination",
-      "slug": null
+      "slug": "neural-control-and-coordination"
      },
      {
       "title": "Chemical Coordination and Integration",
-      "slug": null
+      "slug": "chemical-coordination-and-integration"
      }
     ]
    },
@@ -1842,55 +1855,55 @@
     "chapters": [
      {
       "title": "Sexual Reproduction in Flowering Plants",
-      "slug": null
+      "slug": "sexual-reproduction-in-flowering-plants"
      },
      {
       "title": "Human Reproduction",
-      "slug": null
+      "slug": "human-reproduction"
      },
      {
       "title": "Reproductive Health",
-      "slug": null
+      "slug": "reproductive-health"
      },
      {
       "title": "Principles of Inheritance and Variation",
-      "slug": null
+      "slug": "principles-of-inheritance-and-variation"
      },
      {
       "title": "Molecular Basis of Inheritance",
-      "slug": null
+      "slug": "molecular-basis-of-inheritance"
      },
      {
       "title": "Evolution",
-      "slug": null
+      "slug": "evolution"
      },
      {
       "title": "Human Health and Diseases",
-      "slug": null
+      "slug": "human-health-and-diseases"
      },
      {
       "title": "Microbes in Human Welfare",
-      "slug": null
+      "slug": "microbes-in-human-welfare"
      },
      {
       "title": "Biotechnology: Principles & Processes",
-      "slug": null
+      "slug": "biotechnology-principles-and-processes"
      },
      {
       "title": "Biotechnology and its Applications",
-      "slug": null
+      "slug": "biotechnology-and-its-applications"
      },
      {
       "title": "Organisms and Populations",
-      "slug": null
+      "slug": "organisms-and-populations"
      },
      {
       "title": "Ecosystem",
-      "slug": null
+      "slug": "ecosystem"
      },
      {
       "title": "Biodiversity and Conservation",
-      "slug": null
+      "slug": "biodiversity-and-conservation"
      }
     ]
    },
@@ -2022,79 +2035,98 @@
     "chapters": [
      {
       "title": "जीव जगत (The Living World)",
-      "slug": null
+      "slug": "the-living-world",
+      "note": "English"
      },
      {
       "title": "जीव जगत का वर्गीकरण (Biological Classification)",
-      "slug": null
+      "slug": "biological-classification",
+      "note": "English"
      },
      {
       "title": "पादप जगत (Plant Kingdom)",
-      "slug": null
+      "slug": "plant-kingdom",
+      "note": "English"
      },
      {
       "title": "प्राणी जगत (Animal Kingdom)",
-      "slug": null
+      "slug": "animal-kingdom",
+      "note": "English"
      },
      {
       "title": "पुष्पी पादपों की आकारिकी (Morphology of Flowering Plants)",
-      "slug": null
+      "slug": "morphology-of-flowering-plants",
+      "note": "English"
      },
      {
       "title": "पुष्पी पादपों का शरीर (Anatomy of Flowering Plants)",
-      "slug": null
+      "slug": "anatomy-of-flowering-plants",
+      "note": "English"
      },
      {
       "title": "प्राणियों में संरचनात्मक संगठन (Structural Organisation in Animals)",
-      "slug": null
+      "slug": "structural-organisation-in-animals",
+      "note": "English"
      },
      {
       "title": "कोशिका: जीवन की इकाई (Cell: The Unit of Life)",
-      "slug": null
+      "slug": "cell-the-unit-of-life",
+      "note": "English"
      },
      {
       "title": "जैव अणु (Biomolecules)",
-      "slug": null
+      "slug": "biomolecules",
+      "note": "English"
      },
      {
       "title": "कोशिका चक्र और कोशिका विभाजन (Cell Cycle & Cell Division)",
-      "slug": null
+      "slug": "cell-cycle-and-cell-division",
+      "note": "English"
      },
      {
       "title": "उच्च पादपों में प्रकाश-संश्लेषण (Photosynthesis in Higher Plants)",
-      "slug": null
+      "slug": "photosynthesis-in-higher-plants",
+      "note": "English"
      },
      {
       "title": "पादप में श्वसन (Respiration in Plants)",
-      "slug": null
+      "slug": "respiration-in-plants",
+      "note": "English"
      },
      {
       "title": "पादप वृद्धि एवं परिवर्धन (Plant Growth & Development)",
-      "slug": null
+      "slug": "plant-growth-and-development",
+      "note": "English"
      },
      {
       "title": "श्वसन और गैसों का विनिमय (Breathing & Exchange of Gases)",
-      "slug": null
+      "slug": "breathing-and-exchange-of-gases",
+      "note": "English"
      },
      {
       "title": "शरीर द्रव तथा परिसंचरण (Body Fluids & Circulation)",
-      "slug": null
+      "slug": "body-fluids-and-circulation",
+      "note": "English"
      },
      {
       "title": "उत्सर्जी उत्पाद एवं उनका निष्कासन (Excretory Products)",
-      "slug": null
+      "slug": "excretory-products-elimination",
+      "note": "English"
      },
      {
       "title": "गमन एवं संचलन (Locomotion & Movement)",
-      "slug": null
+      "slug": "locomotion-and-movement",
+      "note": "English"
      },
      {
       "title": "तंत्रकीय नियंत्रण एवं समन्वय (Neural Control)",
-      "slug": null
+      "slug": "neural-control-and-coordination",
+      "note": "English"
      },
      {
       "title": "रासायनिक समन्वय तथा एकीकरण (Chemical Coordination)",
-      "slug": null
+      "slug": "chemical-coordination-and-integration",
+      "note": "English"
      }
     ]
    },
@@ -2205,55 +2237,68 @@
     "chapters": [
      {
       "title": "पुष्पी पादपों में लैंगिक जनन (Sexual Reproduction in Flowering Plants)",
-      "slug": null
+      "slug": "sexual-reproduction-in-flowering-plants",
+      "note": "English"
      },
      {
       "title": "मानव जनन (Human Reproduction)",
-      "slug": null
+      "slug": "human-reproduction",
+      "note": "English"
      },
      {
       "title": "जननांग स्वास्थ्य (Reproductive Health)",
-      "slug": null
+      "slug": "reproductive-health",
+      "note": "English"
      },
      {
       "title": "वंशागति तथा विविधता के सिद्धांत (Principles of Inheritance)",
-      "slug": null
+      "slug": "principles-of-inheritance-and-variation",
+      "note": "English"
      },
      {
       "title": "वंशागति के आणविक आधार (Molecular Basis of Inheritance)",
-      "slug": null
+      "slug": "molecular-basis-of-inheritance",
+      "note": "English"
      },
      {
       "title": "विकास (Evolution)",
-      "slug": null
+      "slug": "evolution",
+      "note": "English"
      },
      {
       "title": "मानव स्वास्थ्य तथा रोग (Human Health and Diseases)",
-      "slug": null
+      "slug": "human-health-and-diseases",
+      "note": "English"
      },
      {
       "title": "मानव कल्याण में सूक्ष्मजीव (Microbes in Human Welfare)",
-      "slug": null
+      "slug": "microbes-in-human-welfare",
+      "note": "English"
      },
      {
       "title": "जैव प्रौद्योगिकी: सिद्धांत एवं प्रक्रम (Biotechnology)",
-      "slug": null
+      "slug": "biotechnology-principles-and-processes",
+      "note": "English"
      },
      {
       "title": "जैव प्रौद्योगिकी एवं उसके उपयोग (Biotechnology Applications)",
-      "slug": null
+      "slug": "biotechnology-and-its-applications",
+      "note": "English"
      },
      {
       "title": "जीव और समष्टियाँ (Organisms and Populations)",
-      "slug": null
+      "slug": "organisms-and-populations",
+      "note": "English"
      },
      {
       "title": "पारितंत्र (Ecosystem)",
-      "slug": null
+      "slug": "ecosystem",
+      "note": "English"
      },
      {
       "title": "जैव विविधता एवं संरक्षण (Biodiversity and Conservation)",
-      "slug": null
+      "slug": "biodiversity-and-conservation",
+      "note": "English"
      }
     ]
    },

@@ -44,7 +44,7 @@ export default function Home() {
           {exams.map((e) => (
             <Link key={e.slug} href={`/exam/${e.slug}`} className="link-card">
               {e.image && /* eslint-disable-next-line @next/next/no-img-element */ <img src={e.image} alt={`${e.name} preparation`} width={320} height={180} loading="lazy" />}
-              <h3>{e.name}</h3><p>{testsForExam(e).length ? `${testsForExam(e).length} full tests` : 'Strategy and PYQs'}</p>
+              <h3>{e.name}</h3><p>{testsForExam(e).length ? `${testsForExam(e).length} full tests` : 'Syllabus and strategy'}</p>
             </Link>
           ))}
         </div>

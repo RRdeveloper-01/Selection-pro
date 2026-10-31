@@ -41,7 +41,7 @@ export default async function ExamPage({ params }: { params: Promise<{ slug: str
       <p className="lead">{exam.intro}</p>
       {x && <p>{x.body}</p>}
       <div className="btn-row" style={{ margin: '16px 0' }}>
-        <a className="btn small" href="#tests">Practice tests</a><a className="btn ghost small" href="#pyq">Previous year papers</a>
+        {list.length > 0 && <a className="btn small" href="#tests">Practice tests</a>}<a className="btn ghost small" href="#pyq">Previous year papers</a>
         <a className="btn ghost small" href="#syllabus">Syllabus</a><a className="btn ghost small" href="#strategy">Strategy</a>
         <Link className="btn ghost small" href="/syllabus-tracker">Track syllabus</Link>
       </div>
@@ -56,6 +56,7 @@ export default async function ExamPage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
+      {list.length > 0 && (
       <section className="section" id="tests">
         <h2>{exam.name} practice tests</h2>
         {list.length ? (
@@ -70,10 +71,9 @@ export default async function ExamPage({ params }: { params: Promise<{ slug: str
               ))}
             </div>
           </>
-        ) : (
-          <SimilarTests exam={exam} />
-        )}
+        ) : null}
       </section>
+      )}
       <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_EXAM} />
 
       {relatedMocks.length > 0 && (

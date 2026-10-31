@@ -16,7 +16,7 @@ export default function MockTestsHome() {
     <div className="page">
       <Breadcrumbs items={[{ name: 'Mock tests', path: '/mock-tests' }]} />
       <h1>Free Chapter-wise Mock Tests</h1>
-      <p className="lead">{chapters.length} chapter tests are live today across Physics, Chemistry and Mathematics, with more subjects added regularly. Pick an exam, practise one chapter at a time and revise your mistakes before moving on.</p>
+      <p className="lead">{chapters.length} chapter tests are live today across Physics, Chemistry, Mathematics and Biology. Pick an exam, practise one chapter at a time and revise your mistakes before moving on.</p>
       <div className="grid wide" style={{ marginTop: 18 }}>
         {en.map((m) => (
           <Link key={m.slug} className="link-card" href={m.route}><h3>{m.h1}</h3><p>{m.intro.slice(0, 120)}…</p></Link>

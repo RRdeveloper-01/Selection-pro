@@ -58,7 +58,7 @@ export const EXAM_PREP: Record<string, Prep> = {
     ],
     mistakes: ['Ignoring the one-third negative marking and guessing randomly.', 'Memorising facts without understanding the topics they come from.', 'Not checking the exact post-wise requirements in the notification.'],
     similar: { slug: 'ssc-cgl', why: 'Practice tests for SSC CGL cover the same arithmetic, reasoning and general awareness skills.' },
-    usage: 'Until RRB NTPC tests are published here, use the SSC CGL tests for Maths and Reasoning practice and the daily quiz for General Awareness.',
+    usage: 'Use the SSC CGL tests for Maths and Reasoning practice and the daily quiz for General Awareness.',
   },
   'ibps-po': {
     plan: [
@@ -142,7 +142,7 @@ export const EXAM_PREP: Record<string, Prep> = {
       { phase: 'Concepts', weeks: 'Months 1 to 5', focus: 'Finish Class 11 and 12 syllabus with worked examples for every chapter.' },
       { phase: 'Chapter practice', weeks: 'Months 6 to 8', focus: 'Solve chapter-wise tests and numerical-value questions right after studying each chapter.' },
       { phase: 'Full tests', weeks: 'Months 9 to 11', focus: 'Weekly 3-hour full tests, with a strategy for the order of subjects.' },
-      { phase: 'Revision', weeks: 'Last 100 days', focus: 'Follow the 100-day revision series with one chapter test a day.' },
+      { phase: 'Revision', weeks: 'Last 100 days', focus: 'Follow the daily revision series with one chapter test a day.' },
     ],
     tips: [
       { subject: 'Mathematics', points: ['Coordinate geometry, calculus and algebra carry high weight; practise a variety of problem types.', 'Maintain a formula sheet and revise it weekly.'] },
@@ -150,7 +150,7 @@ export const EXAM_PREP: Record<string, Prep> = {
       { subject: 'Chemistry', points: ['Physical chemistry is formula-based and scoring; inorganic needs NCERT memory; organic needs mechanisms.'] },
     ],
     mistakes: ['Overstudying one subject while neglecting another.', 'Not practising numerical-type questions.', 'Starting new topics in the last month.'],
-    usage: 'Do daily chapter tests from the 100-day series, take full JEE Main tests weekly and keep all wrong answers in the notebook for revision.',
+    usage: 'Do daily chapter tests from the daily series, take full JEE Main tests weekly and keep all wrong answers in the notebook for revision.',
   },
   'jee-advanced': {
     plan: [

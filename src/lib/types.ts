@@ -46,7 +46,7 @@ export type Exam = {
   strategyHtml: string;
 };
 
-export type MockGroup = { heading: string; chapters: { title: string; slug: string | null }[] };
+export type MockGroup = { heading: string; chapters: { title: string; slug: string | null; note?: string }[] };
 export type MockPage = {
   slug: string;
   route: string;

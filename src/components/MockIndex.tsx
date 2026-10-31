@@ -3,27 +3,31 @@ import type { MockPage } from '@/lib/types';
 import { mockNoteFor } from '@/data/mock-notes';
 
 export default function MockIndex({ mock }: { mock: MockPage }) {
-  const total = mock.groups.reduce((n, g) => n + g.chapters.length, 0);
   const note = mockNoteFor(mock.slug);
-  const live = mock.groups.reduce((n, g) => n + g.chapters.filter((c) => c.slug).length, 0);
+  // only chapters that have a test are shown; groups without any test are hidden
+  const groups = mock.groups
+    .map((g) => ({ ...g, chapters: g.chapters.filter((c) => c.slug) }))
+    .filter((g) => g.chapters.length > 0);
+  const live = groups.reduce((n, g) => n + g.chapters.length, 0);
   return (
     <>
       <p className="lead">{mock.intro}</p>
       <div className="stat-row" style={{ margin: '14px 0' }}>
-        <div className="stat"><b>{live}</b><span>Tests live</span></div>
-        <div className="stat"><b>{total - live}</b><span>Coming soon</span></div>
-        <div className="stat"><b>{mock.groups.length}</b><span>Subject groups</span></div>
+        <div className="stat"><b>{live}</b><span>Chapter tests</span></div>
+        <div className="stat"><b>{groups.length}</b><span>Subject groups</span></div>
       </div>
       {mock.instructions.length > 0 && (
         <section className="card"><h2>Instructions</h2><ul>{mock.instructions.map((i) => <li key={i}>{i}</li>)}</ul></section>
       )}
-      {mock.groups.map((g) => (
+      {groups.map((g) => (
         <section className="section" key={g.heading}>
           <h2>{g.heading}</h2>
           <div className="chapter-list">
-            {g.chapters.map((c) => c.slug
-              ? <Link className="chapter" key={c.title} href={`/chapter-test/${c.slug}`}><span>{c.title}</span><small>Start</small></Link>
-              : <div className="chapter soon" key={c.title}><span>{c.title}</span><small>Coming soon</small></div>)}
+            {g.chapters.map((c) => (
+              <Link className="chapter" key={c.title} href={`/chapter-test/${c.slug}`}>
+                <span>{c.title}</span><small>{c.note ? `Start (${c.note})` : 'Start'}</small>
+              </Link>
+            ))}
           </div>
         </section>
       ))}

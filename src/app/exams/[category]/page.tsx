@@ -31,7 +31,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             {e.image && /* eslint-disable-next-line @next/next/no-img-element */ <img src={e.image} alt={`${e.name} exam`} loading="lazy" width={400} height={225} />}
             <h3>{e.name}</h3>
             <p>{EXAM_EXTRA[e.slug]?.pattern ?? e.intro}</p>
-            <span className="pill">{testsForExam(e).length ? `${testsForExam(e).length} tests live` : 'Tests coming soon'}</span>
+            {testsForExam(e).length > 0 && <span className="pill">{testsForExam(e).length} tests live</span>}
           </Link>
         ))}
       </div>

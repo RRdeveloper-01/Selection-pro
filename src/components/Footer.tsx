@@ -40,7 +40,7 @@ export default function Footer() {
               <li><Link href="/mcq-trap">MCQ trap of the day</Link></li>
               <li><Link href="/mock-tests">Chapter-wise mock tests</Link></li>
               <li><Link href="/mock-tests/hindi">Hindi medium mock tests</Link></li>
-              <li><Link href="/revision-series/jee-main">JEE 100-day revision</Link></li>
+              <li><Link href="/revision-series/jee-main">JEE daily revision</Link></li>
               <li><Link href="/mistake-notebook">Mistake notebook</Link></li>
               <li><Link href="/syllabus-tracker">Syllabus tracker</Link></li>
             </ul>

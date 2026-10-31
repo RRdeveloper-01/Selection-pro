@@ -24,7 +24,6 @@ export default async function MockPageRoute({ params }: { params: Promise<{ slug
       <MockIndex mock={m} />
       <FaqList faqs={[
         { q: 'Are these mock tests free?', a: 'Yes. Every test listed here is free, with no sign-up needed.' },
-        { q: 'Why are some chapters marked coming soon?', a: 'We publish a chapter only after its questions and answers are checked. New chapters are added regularly.' },
         { q: 'What happens to my wrong answers?', a: 'They are saved on your device in the Mistake Notebook, which schedules them for revision after 1, 3, 7, 14 and 30 days.' },
       ]} />
     </div>

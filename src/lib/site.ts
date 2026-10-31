@@ -26,7 +26,7 @@ export const NAV: NavGroup[] = [
       { href: '/mcq-trap', label: 'MCQ Trap of the Day', icon: '🪤' },
       { href: '/exam', label: 'Practice Tests & PYQs', icon: '📝' },
       { href: '/mock-tests', label: 'Chapter-wise Mock Tests', icon: '📚' },
-      { href: '/revision-series/jee-main', label: 'JEE 100-Day Revision', icon: '🗓️' },
+      { href: '/revision-series/jee-main', label: 'JEE Daily Revision', icon: '🗓️' },
     ],
   },
   {

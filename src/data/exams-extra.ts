@@ -32,7 +32,7 @@ export const EXAM_EXTRA: Record<string, ExamExtra> = {
       { subject: 'General Awareness', topics: gs },
     ],
     faqs: [
-      { q: 'How many practice tests are available for SSC CGL on Selection Pro?', a: 'Every SSC CGL practice test listed on this page is a complete set with answers and explanations. New sets are added as they are reviewed.' },
+      { q: 'How many practice tests are available for SSC CGL on Selection Pro?', a: 'Every SSC CGL practice test listed on this page is a complete set with answers and explanations.' },
       { q: 'Is there negative marking in SSC CGL Tier I?', a: 'Yes. 0.5 mark is deducted for every wrong answer in Tier I. Our practice tests apply the same scheme so your score is realistic.' },
       { q: 'How should I use PYQs for SSC CGL?', a: 'Solve one paper under timed conditions, mark every mistake in the Mistake Notebook, and revisit those questions after 1, 3 and 7 days.' },
     ],
@@ -169,9 +169,9 @@ export const EXAM_EXTRA: Record<string, ExamExtra> = {
     ],
     faqs: [
       { q: 'Are the JEE Main practice tests based on the latest pattern?', a: 'They mirror the 75-question structure and carry full explanations. Use them for timed practice and then study the explanation of each wrong answer.' },
-      { q: 'Do you have a revision plan for JEE Main?', a: 'Yes, see the 100-day revision series for a day-by-day plan with daily chapter tests.' },
+      { q: 'Do you have a revision plan for JEE Main?', a: 'Yes, see the daily revision series for a day-by-day plan with daily chapter tests.' },
     ],
-    guide: { href: '/revision-series/jee-main', label: 'JEE Main 100-day revision series' },
+    guide: { href: '/revision-series/jee-main', label: 'JEE Main daily revision series' },
   },
   'jee-advanced': {
     body: 'JEE Advanced is the gateway to the IITs. It is open only to top JEE Main rankers and is known for concept-heavy, multi-step problems that reward deep understanding over speed.',
