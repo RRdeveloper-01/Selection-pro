@@ -18,6 +18,99 @@ export type CaEntry = {
 };
 
 export const CA_ENTRIES: CaEntry[] = [
+
+  {
+    date: "2026-10-31",
+    title: "ISRO successfully places NVS-03 in orbit: GSLV-F18 strengthens NavIC navigation system",
+    topic: "science-technology-space",
+    summary: "The Indian Space Research Organisation (ISRO) successfully placed the NVS-03 navigation satellite into its intended orbit using the GSLV-F18 launch vehicle on 30 October 2026. The launch took place from the Second Launch Pad at the Satish Dhawan Space Centre, Sriharikota, Andhra Pradesh. This mission marked the 20th flight of India's Geosynchronous Satellite Launch Vehicle (GSLV). NVS-03 is the third satellite in the next-generation navigation satellite series designed to maintain and strengthen the operational capabilities of India's Navigation with Indian Constellation (NavIC). The satellite carries an indigenous atomic clock along with procured atomic clocks for accurate positioning and timing services. It also introduces the L1 navigation signal alongside the existing L5 and S-band signals. NavIC is designed to provide navigation coverage over India's landmass and a region extending approximately 1,500 kilometres beyond its geopolitical boundary. The mission is important for India's independent satellite navigation infrastructure and reduces dependence on foreign navigation systems.",
+    examAngle: "NavIC stands for Navigation with Indian Constellation and was previously known as the Indian Regional Navigation Satellite System (IRNSS). It is India's independent regional satellite navigation system. Remember that GSLV-F18 was the 20th flight of GSLV and NVS-03 was the third satellite in the next-generation NVS series. The satellite includes an indigenous atomic clock and supports L1, L5 and S-band signals. Questions may cover the launch centre, launch vehicle, satellite purpose and navigation coverage.",
+    possibleQuestions: [
+      "What is the full form of NavIC?",
+      "Which launch vehicle placed NVS-03 into orbit?",
+      "How far beyond India's boundary is NavIC designed to provide coverage?"
+    ],
+    source: { label: "ISRO", url: "https://www.isro.gov.in/Mission_GSLVF18.html" },
+  },
+  {
+    date: "2026-10-31",
+    title: "Government constitutes High Level Committee on Banking for Viksit Bharat",
+    topic: "economy-banking-finance",
+    summary: "The Government of India constituted the High Level Committee on Banking for Viksit Bharat on 30 October 2026. The committee was announced by Union Finance Minister Nirmala Sitharaman in the Union Budget 2026-27. Former Central Vigilance Commissioner Suresh N. Patel has been appointed as its chairman. The committee includes RBI Deputy Governor Shirish Chandra Murmu, former Indian Bank Managing Director and CEO Padmaja Chunduru, and former RBI Deputy Governor N. S. Vishwanathan. Its tenure will be six months. The main responsibility is to examine India's existing banking structure and recommend institutional, regulatory, legal and structural reforms. Its work will cover public and private banks, Regional Rural Banks, cooperative banks and long-term capital requirements. It will also examine the role of artificial intelligence and digital technology in banking, while considering cybersecurity safeguards. The committee will review the Priority Sector Lending framework and Lead Bank Scheme to improve financial inclusion and credit delivery.",
+    examAngle: "The committee is connected with the government's long-term objective of Viksit Bharat 2047. Remember its chairman, members and six-month tenure. Priority Sector Lending refers to the requirement of directing bank credit towards identified sectors that need adequate financial support. Regional Rural Banks and cooperative banks are also included in the proposed review. Banking examinations may ask about the committee's purpose, leadership and its connection with Budget 2026-27.",
+    possibleQuestions: [
+      "Who is the chairman of the High Level Committee on Banking for Viksit Bharat?",
+      "What is the tenure of the banking reform committee?",
+      "Which banking framework related to financial inclusion will the committee review?"
+    ],
+    source: { label: "Ministry of Finance, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330598" },
+  },
+  {
+    date: "2026-10-31",
+    title: "UPI expands international reach: Online bookings enabled at Burj Khalifa and Singapore attractions",
+    topic: "economy-banking-finance",
+    summary: "India's Unified Payments Interface (UPI) has received another international expansion with the introduction of online payment facilities for selected tourist attractions in the United Arab Emirates and Singapore. According to the Ministry of Finance announcement on 30 October 2026, Indian visitors can use their preferred UPI applications to make online bookings at At the Top, Burj Khalifa, and attractions operated through Resorts World Sentosa. In the UAE, the integration has been developed through partnerships involving NEOPAY and Emaar Entertainment. In Singapore, the facility has been extended in collaboration with FOMO Pay. Resorts World Sentosa includes popular attractions such as Universal Studios Singapore, Singapore Oceanarium and Adventure Cove Waterpark. The development builds on earlier international UPI partnerships and makes travel-related payments more convenient for Indian visitors. NPCI International Payments Limited (NIPL), the international arm of the National Payments Corporation of India, plays an important role in expanding UPI's overseas acceptance.",
+    examAngle: "UPI is a real-time payment system developed by the National Payments Corporation of India (NPCI). NPCI International Payments Limited works to expand India's payment infrastructure internationally. Remember the distinction between NPCI and NIPL. The latest announcement concerns online bookings at selected attractions in the UAE and Singapore. The Eiffel Tower ticketing facility was another earlier international UPI initiative, launched on 26 January 2024. Questions may cover the organisations, countries and digital payment system.",
+    possibleQuestions: [
+      "Which organisation operates UPI in India?",
+      "What is the full form of NIPL?",
+      "At which famous UAE attraction has UPI online booking been enabled?"
+    ],
+    source: { label: "Ministry of Finance, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330558" },
+  },
+  {
+    date: "2026-10-31",
+    title: "National Social Security Board notified for unorganised, gig and platform workers",
+    topic: "government-schemes",
+    summary: "The Ministry of Labour and Employment notified the constitution of the National Social Security Board for Unorganised Workers and Gig and Platform Workers on 30 October 2026. The development is part of the implementation framework under the Code on Social Security. The board is intended to strengthen the welfare system for workers who may not have access to the same employment benefits as workers in conventional organised jobs. Its representation will include Central and State Government officials, aggregator companies, employers, civil society organisations, workers' unions and gig and platform worker associations. The board will be presided over by the Union Minister for Labour and Employment and will meet at least three times a year. Its responsibilities include recommending suitable welfare schemes, advising the Central Government on matters related to the Code, monitoring social security programmes and reviewing relevant records and expenditure. The notification is significant because it brings gig and platform workers more clearly into the country's formal social security framework.",
+    examAngle: "The Code on Social Security, 2020 is an important labour legislation that consolidates provisions related to social security. Gig workers perform work outside the traditional employer-employee relationship, while platform workers obtain work through digital platforms. Remember the board's parent legislation, its main beneficiaries and its responsibility to recommend and monitor welfare schemes. These concepts are relevant to labour reforms, inclusive growth and social justice.",
+    possibleQuestions: [
+      "Under which Code has the National Social Security Board been constituted?",
+      "How many times a year must the National Social Security Boards meet at minimum?",
+      "Which categories of workers are covered by the newly notified board?"
+    ],
+    source: { label: "Ministry of Labour and Employment, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330299" },
+  },
+  {
+    date: "2026-10-31",
+    title: "Digital Life Certificate Campaign 5 to cover 2,000 cities and districts from November",
+    topic: "government-schemes",
+    summary: "The Department of Pension and Pensioners' Welfare announced the fifth nationwide Digital Life Certificate Campaign, scheduled from 1 November to 30 November 2026. The month-long campaign will cover approximately 2,000 cities and districts across India and aims to make pension-related services more accessible, particularly for elderly pensioners. The campaign has adopted a coordinated approach involving 19 banks, 785 district post offices, 56 pensioners' welfare associations, UIDAI, the Ministry of Electronics and Information Technology, Railways, EPFO, State Governments and other institutions. A major focus will be the use of face authentication technology to generate Digital Life Certificates. This facility can be used through Android and iOS devices and is intended to simplify the verification process for pensioners. The campaign has set targets of 2.30 crore Digital Life Certificates, including 1.50 crore certificates generated through face authentication. Doorstep services, health check-ups and Aadhaar-related assistance will also form part of the outreach activities.",
+    examAngle: "A Digital Life Certificate is used by pensioners to establish that they are alive and eligible to continue receiving pension benefits. Jeevan Pramaan is India's biometric-enabled digital life certificate service. Face authentication technology makes verification more accessible without requiring every pensioner to visit a bank or government office. Remember the campaign's fifth edition, November dates, coverage of 2,000 cities and districts and the target of 2.30 crore certificates.",
+    possibleQuestions: [
+      "Which department conducts the nationwide Digital Life Certificate Campaign?",
+      "During which month will Campaign 5 be conducted?",
+      "How many Digital Life Certificates are targeted under the campaign?"
+    ],
+    source: { label: "Department of Pension and Pensioners' Welfare, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330361" },
+  },
+  {
+    date: "2026-10-31",
+    title: "Air Marshal Inderpal Singh Walia appointed Vice Chief of the Air Staff",
+    topic: "national",
+    summary: "Air Marshal Inderpal Singh Walia has been appointed as the next Vice Chief of the Air Staff of the Indian Air Force with effect from 1 November 2026. The appointment was announced by the Ministry of Defence on 30 October. Before taking up the new responsibility, he was serving as the Air Officer Commanding-in-Chief of the Eastern Air Command. An alumnus of the National Defence Academy, he was commissioned into the fighter stream of the Indian Air Force on 11 June 1988. During his long career, he has held several operational, command and staff positions, including command of a frontline fighter squadron and the Tactics and Air Combat Development Establishment. He has also served as India's Defence Attaché at the Embassy of Japan and South Korea. His distinguished service has been recognised through the Vayu Sena Medal in 2008 and the Ati Vishisht Seva Medal in 2018. The appointment is an important development in the senior leadership structure of the Indian Air Force.",
+    examAngle: "The Vice Chief of the Air Staff is a senior leadership position in the Indian Air Force. Remember Air Marshal Inderpal Singh Walia's appointment date, his previous command and his National Defence Academy background. The Vayu Sena Medal and Ati Vishisht Seva Medal are important Indian military decorations. Defence-related current affairs frequently include senior appointments, commands, military exercises and service awards.",
+    possibleQuestions: [
+      "Who has been appointed as the Vice Chief of the Air Staff from 1 November 2026?",
+      "Which Air Command was previously headed by Air Marshal Inderpal Singh Walia?",
+      "In which year was he commissioned into the Indian Air Force?"
+    ],
+    source: { label: "Ministry of Defence, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330557" },
+  },
+  {
+    date: "2026-10-31",
+    title: "Vande Bharat Sleeper service planned between Varanasi and New Delhi",
+    topic: "national",
+    summary: "Indian Railways announced a new Vande Bharat Sleeper Express service connecting Varanasi and New Delhi, with its flag-off scheduled for 31 October 2026. The announcement was made by the Ministry of Railways on 30 October. Uttar Pradesh Chief Minister Yogi Adityanath and Union Railway Minister Ashwini Vaishnaw were scheduled to flag off the service from Varanasi. The train is designed to provide a modern overnight travel option for passengers travelling between eastern Uttar Pradesh and the national capital. Its announced route includes Prayagraj, Kanpur Central, Aligarh and Ghaziabad between Varanasi and New Delhi. The Varanasi-originating service is scheduled to depart at 8:50 pm and reach New Delhi at 6:10 am the following morning. The return service is scheduled to depart New Delhi at 9:40 pm and reach Varanasi at 7:10 am. According to the ministry, the service is expected to reduce journey time compared with the Shiv Ganga Express while offering sleeper accommodation and modern passenger facilities. The announced schedule provides for six operating days each week.",
+    examAngle: "Vande Bharat Sleeper is designed for long-distance overnight passenger travel, unlike the daytime chair-car services of the original Vande Bharat trains. The route is especially important for Uttar Pradesh because it connects Varanasi, Prayagraj and Kanpur with the national capital. Remember the intermediate stations, the Railway Minister and the Chief Minister associated with the scheduled flag-off. Distinguish between a train's announced schedule and confirmation that its service has actually commenced.",
+    possibleQuestions: [
+      "Which two cities will be connected by the announced Vande Bharat Sleeper service?",
+      "Name the Uttar Pradesh stations included on the announced route.",
+      "Who is the Union Railway Minister mentioned in the announcement?"
+    ],
+    source: { label: "Ministry of Railways, PIB", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2330492" },
+  },
+
   {
     date: "2026-10-30",
     title: "ISRO NVS-03 launch today: GSLV-F18 to carry NavIC navigation satellite from Sriharikota",
